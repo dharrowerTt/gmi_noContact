@@ -1,0 +1,261 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/dd7fc261ae.js"></script>
+    <style>
+        body {
+            background: #1695be;
+        }
+
+        .tooltip:hover span {
+            opacity: 1;
+            filter: alpha(opacity=100);
+            top: -6em;
+            left: 20em;
+            z-index: 99;
+            -webkit-transition: all 0.2s ease;
+            -moz-transition: all 0.2s ease;
+            -o-transition: all 0.2s ease;
+            transition: all 0.2s ease;
+        }
+
+        .homearea {
+            position: fixed;
+            bottom: 10px;
+            left: 10px;
+        }
+
+        .homearea:hover {
+            cursor: pointer;
+        }
+
+        .box b {
+            color: #fff;
+        }
+
+        .tooltip span {
+            background: none repeat scroll 0 0 #222;
+            /*-- some basic styling */
+            color: #F0B015;
+            font-family: 'Helvetica';
+            font-size: 0.8em;
+            font-weight: normal;
+            line-height: 1.5em;
+            padding: 16px 15px;
+            width: 240px;
+            top: -4em;
+            /*-- this is the original position of the tooltip when it's hidden */
+            left: 20em;
+            margin-left: 0;
+            /*-- set opacity to 0 otherwise our animations won't work */
+            opacity: 0;
+            filter: alpha(opacity=0);
+            position: absolute;
+            text-align: center;
+            z-index: 2;
+            text-transform: none;
+            -webkit-transition: all 0.3s ease;
+            -moz-transition: all 0.3s ease-in-out;
+            -o-transition: all 0.3s ease;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .tooltip span:after {
+            border-color: #222 rgba(0, 0, 0, 0);
+            border-style: solid;
+            border-width: 15px 15px 0;
+            bottom: -15px;
+            content: "";
+            display: block;
+            left: 31px;
+            position: absolute;
+            width: 0;
+        }
+
+        .callout {
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-top: 10px;
+            background: #f3d5b3;
+            border-radius: 4px;
+
+            width: 100%;
+            margin-bottom: 15px;
+
+        }
+
+
+        .imgtbl {
+            width: 100%;
+            background: #CAEBF2;
+            margin-bottom: 15px;
+        }
+
+        .imgtbl img {
+            padding: 10px;
+            width: 100%;
+        }
+
+        .subtitle td {
+            font-size: 10px;
+            text-align: center;
+
+        }
+
+        .richard {
+            height: 250px;
+            Width: 100%;
+        }
+
+        .imgtbl td {
+            width: 50%;
+            text-align: center;
+            font-size: 9px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="homearea">
+        <a class="btn btn-danger" href="http://staging.globalmethane.org/challenge/index.aspx#actionmap">
+            <i class="fa fa-arrow-left fa-lg"></i> Back to the map
+        </a>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-0 col-md-2"></div>
+            <div class="col-sm-12 col-md-8" style="background:white;">
+                <img src="images/edl/banner.png" style="width:100%" />
+                <h2>
+                    Energy Developments PTY Limited (EDL): Abatement of Waste Methane from Coal Mines and Biogas from
+                    Landfills&nbsp;
+                    <!--<a class="btn btn-primary" href="pdf/SourceFacility_Biocity_Profile.pdf"
+                        aria-label="Download the PDF">
+                        <i class="fa fa-download" aria-hidden="true"></i>
+                    </a>-->
+                </h2>
+
+
+                <p>
+                    <a href="https://lcotechnologies.com/" target="_blank"><img
+                            style="width:20%;margin-bottom: 10px; float: right;" src="images/edl/logo.png">
+                    </a>
+                    <a href="https://edlenergy.com/" target="_blank">EDL</a>
+
+                    focuses on transitioning from traditional energy sources to sustainable decarbonized solutions. They
+                    own and operate power stations in Australia, North America, and Europe, which have produced 1,078 MW
+                    of sustainably distributed energy. EDL’s actions have reduced methane emissions by 19 million tons
+                    of CO<sub>2</sub>e. This equates to removing approximately 5.7 million cars from the road
+                    every year. Actions include work in the coal mines and biogas sectors, and in hybrid
+                    solutions that include various types of renewable energy.
+                </p>
+                <h3>Waste Methane from Coal Mines</h3>
+                <p>
+                    Coal mine methane (CMM), a waste coal mine gas (WCMG), is produced during the coal mining process
+                    when methane gas that is trapped in coal seams is released. Historically, CMM has been a waste
+                    product that is vented or flared. EDL has created processes to extract and use the methane as a
+                    power generation fuel, and its power stations convert WCMG to electricity for the national
+                    electricity market, significantly reducing greenhouse gas emissions.
+                </p>
+
+                <div>
+                    <table class="imgtbl">
+                        <tr>
+                            <td><img class="richard" src="images/edl/germancreek.png">
+                                <br> <i> EDL's German Creek Power Station in Queensland, Australia </i></td>
+                            <td><img class="richard" src="images/edl/northpower.png">
+                                <br><i>EDL's Moranbah North Power Station in Queensland, Australia </i></td>
+                        </tr>
+                        <tr>
+                            <td><img class="richard" src="images/edl/appin.png">
+                                <br><i>EDL's Appin Power Station New South Wales, Australia </i></td>
+                            <td><img class="richard" src="images/edl/tower.png">
+                                <i>EDL's Tower Power Station in New South Wales, Australia </i></td>
+                        </tr>
+                    </table>
+                </div>
+                <h3>Biogas from Landfills</h3>
+                <p>
+                    EDL owns and operates landfill gas powered stations in Australia, the United Kingdom, and North America.
+                    EDL is currently developing four renewable natural gas (RNG) projects in the United States, where
+                    biogas from landfills will be converted to RNG and used to replace conventional natural gas. When
+                    used in vehicles, RNG provides 85 percent reduction of CO<sub>2</sub> emissions
+                    relative to
+                    diesel.
+                </p>
+                <div>
+                    <table class="imgtbl">
+                        <tr>
+                            <td><img class="richard" src="images/edl/brent.jpg">
+                                <br> <i> EDL's Brent Run Generating Station in Michigan, United States</i></td>
+                            <td><img class="richard" src="images/edl/landfill.jpg">
+                                <br><i>EDL's Pitsea Landfill Gas Power Station in Eastern United Kingdom </i></td>
+                        </tr>
+                        <tr>
+                            <td><img class="richard" src="images/edl/lachute.jpg">
+                                <br><i>EDL's Lidya Energy Power Station in Lachute, Canada </i></td>
+                            <td><img class="richard" src="images/edl/clayton.jpg">
+                                <i>EDL's Clayton Power Station in Victoria, Australia </i></td>
+                        </tr>
+                    </table>
+                </div>
+                <h3>Hybrid Renewable Solutions</h3>
+                <p>
+                    EDL has supported remote communities and mining operations with cleaner natural gas solutions by
+                    displacing diesel-fueled electricity generation with liquefied natural gas and compressed natural
+                    gas virtual pipelines up to 1,000 km. This innovation is being augmented with hybrid renewable
+                    solutions. EDL currently owns and operates three hybrid renewable power stations, which are
+                    displacing between 10 and 75 percent of fossil fuel consumption with wind and solar generation to
+                    reduce emissions.
+                </p>
+                <p>EDL is involved with the Stage 2 Agnew Gold Project in Australia, which will increase renewable
+                    penetration by displacing up to 55 percent of fossil fuel use, making this
+                    operation the largest remote hybrid renewable project in the world.
+                </p>
+                <h4 style="text-align: center; margin-top: 20px;">EDL owns and operates 100 power stations across five
+                    countries</h4>
+                <p style="text-align: center;">
+                <img style="width:90%;" src="images/edl/map.png">
+            </p>
+                <hr>
+                <!--     <a href="pdf/SourceFacility_Biocity_Profile.pdf" class="btn btn-primary btn-block">Download The
+                        PDF</a>
+                    <hr>-->
+            </div>
+            <div class="col-sm-0 col-md-2"></div>
+        </div>
+    </div>
+    <script>
+        $(document).ready(function () {
+            $('[data-toggle="popover"]').popover({
+                container: '.container'
+            });
+
+            $('body').on('click', function (e) {
+                $('[data-toggle=popover]').each(function () {
+                    // hide any open popovers when the anywhere else in the body is clicked
+                    if (!$(this).is(e.target) && $(this).has(e.target).length === 0 && $(
+                            '.popover').has(e.target).length === 0) {
+                        $(this).popover('hide');
+                    }
+                });
+            });
+
+        });
+    </script>
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+</body>
+
+</html>

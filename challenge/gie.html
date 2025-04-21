@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/dd7fc261ae.js"></script>
+    <script>
+		(function (w, d, s, l, i) {
+			w[l] = w[l] || [];
+			w[l].push({
+				'gtm.start': new Date().getTime(),
+				event: 'gtm.js'
+			});
+			var f = d.getElementsByTagName(s)[0],
+				j = d.createElement(s),
+				dl = l != 'dataLayer' ? '&l=' + l : '';
+			j.async = true;
+			j.src =
+				'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+			f.parentNode.insertBefore(j, f);
+		})(window, document, 'script', 'dataLayer', 'GTM-WM2LZW5');
+	</script>
+    <style>
+        .aligncenter {
+            text-align: center;
+        }
+
+        body {
+            background: #1695be;
+        }
+
+        .tooltip:hover span {
+            opacity: 1;
+            filter: alpha(opacity=100);
+            top: -6em;
+            left: 20em;
+            z-index: 99;
+            -webkit-transition: all 0.2s ease;
+            -moz-transition: all 0.2s ease;
+            -o-transition: all 0.2s ease;
+            transition: all 0.2s ease;
+        }
+
+        .homearea {
+            position: fixed;
+            bottom: 10px;
+            left: 10px;
+        }
+
+        .homearea:hover {
+            cursor: pointer;
+        }
+
+        .box b {
+            color: #fff;
+        }
+
+        .tooltip span {
+            background: none repeat scroll 0 0 #222;
+            /*-- some basic styling */
+            color: #F0B015;
+            font-family: 'Helvetica';
+            font-size: 0.8em;
+            font-weight: normal;
+            line-height: 1.5em;
+            padding: 16px 15px;
+            width: 240px;
+            top: -4em;
+            /*-- this is the original position of the tooltip when it's hidden */
+            left: 20em;
+            margin-left: 0;
+            /*-- set opacity to 0 otherwise our animations won't work */
+            opacity: 0;
+            filter: alpha(opacity=0);
+            position: absolute;
+            text-align: center;
+            z-index: 2;
+            text-transform: none;
+            -webkit-transition: all 0.3s ease;
+            -moz-transition: all 0.3s ease-in-out;
+            -o-transition: all 0.3s ease;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .tooltip span:after {
+            border-color: #222 rgba(0, 0, 0, 0);
+            border-style: solid;
+            border-width: 15px 15px 0;
+            bottom: -15px;
+            content: "";
+            display: block;
+            left: 31px;
+            position: absolute;
+            width: 0;
+        }
+
+        .callout {
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-top: 10px;
+            background: #f3d5b3;
+            border-radius: 4px;
+
+            width: 100%;
+            margin-bottom: 15px;
+
+        }
+
+
+        .imgtbl {
+            width: 100%;
+            background: #CAEBF2;
+            margin-bottom: 15px;
+        }
+
+        .imgtbl img {
+            padding: 10px;
+            width: 100%;
+        }
+
+        .subtitle td {
+            font-size: 10px;
+            text-align: center;
+
+        }
+
+        table {
+            margin-top: 15px;
+            width: 100%;
+            border-collapse: collapse;
+            text-align: left;
+            overflow: hidden;
+            margin-bottom: 15px;
+        }
+
+        td,
+        th {
+            border-top: 1px solid #ECF0F1;
+            padding: 10px;
+        }
+
+        td {
+
+            border-right: 1px solid #ECF0F1;
+        }
+
+        th {
+            background-color: #4ECDC4;
+        }
+
+        tr:nth-of-type(even) td {
+            background-color: #ecf0f1;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="homearea">
+        <a class="btn btn-danger" href="showcase.html">
+            <i class="fa fa-arrow-left fa-lg"></i> View showcase
+        </a>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-0 col-md-2"></div>
+            <div class="col-sm-12 col-md-8" style="background:white;">
+                <img src="images/gie/gie_banner.png" style="width:100%" />
+                <h2>
+                    GIE and MARCOGAZ: Building a Culture Towards Net Zero Methane Emission&nbsp;
+                    <!--<a class="btn btn-primary" href="pdf/SourceFacility_Biocity_Profile.pdf"
+                        aria-label="Download the PDF">
+                        <i class="fa fa-download" aria-hidden="true"></i>
+                    </a>-->
+                </h2>
+                <p>
+                    <div class="callout" style=float:right;width:40%;margin-left:10px;text-align:center;>
+                        <img src="images/gie/study.jpg" style="width:80%">
+                        <br>Click <a
+                            href="https://www.gie.eu/index.php/gie-publications/methane-emission-report-2019/27786-gie-marcogaz-report-for-the-madrid-forum-potential-way-gas-industry-can-contribute-to-the-reduction-of-methane-emissions/file"
+                            target="_blank">
+                            here</a> to view the study.
+                        <br>Click <a
+                            href="https://www.gie.eu/download/brochure/Brochure_Methane_Emissions_spreads_LONG_upd.pdf"
+                            target="_blank">here</a> to view the brochure.
+                    </div>
+                    In July 2019, Belgium-based <a href="https://www.gie.eu/" target="_blank">Gas Infrastructure
+                        Europe</a> (GIE) and
+                    <a href="https://www.marcogaz.org/" target="_blank">MARCOGAZ</a> published an industry-wide study,
+                    “Potential ways the gas industry can contribute to the reduction of methane emissions.” The study
+                    includes contributions from industry experts who span the entire gas value chain, from production to
+                    utilization, including biomethane production.
+                </p>
+                <p>
+                    The study provides an overview of the current status of methane emissions and actions taken by the
+                    gas industry (e.g., detection, quantification, reporting verification, and mitigation), focusing
+                    mainly on
+                    the European gas sector. The study includes information about ongoing initiatives and proposed
+                    commitments for future actions by the industry.
+                </p>
+                <p>
+                    GIE and MARCOGAZ shared the study’s findings through a series of activities and training programs,
+                    including:
+                </p>
+                <p>
+                    <ul>
+                        <li>Three workshops, organized during the development of the report</li>
+                        <ul>
+                            <li>January 2019, Brussels, Belgium</li>
+                            <li>March 2019, Geneva, Switzerland</li>
+                            <li>April 2019, Brussels, Belgium</li>
+                        </ul>
+                        <li><a href="https://www.igucc.info/program-at-a-glance-1" target="_blank">International Gas
+                                Union (IGU) Joint Committee Meeting on Landfill Natural Gas & Transmission</a>,
+                            September 2019, Gyeongju, South Korea</li>
+                        <li><a href="https://gasnaturally.eu/mediaroom/gasnaturally-discussess-methane-emissions-mitigation-in-the-european-parliament/"
+                                target="_blank">Methane emissions
+                                mitigation along the gas value chain – The road ahead for a sustainable future
+                                (workshop)</a>, November 2019, Brussels, Belgium (European Parliament)</li>
+                        <li><a href="https://www.egatec2019.nl/preliminary-program" target="_blank">EGATEC – Session on
+                                Methane Emissions</a>, November 2019, Groningen, Netherlands</li>
+                    </ul>
+                </p>
+                <p>
+                    Additionally, GIE and MARCOGAZ worked with the Energy Community Secretariat and Methane Guiding
+                    Principles to conduct <a
+                        href="https://www.gie.eu/index.php/gie-media/press-releases/13-news/gie/403-press-release-training-session-methane-emissions-in-the-gas-sector"
+                        target="_blank"> “Methane Emissions in the Gas Sector,” </a> a training session focused on
+                    methane emissions in Central and South-Eastern Europe that was held in November 2019 in Vienna,
+                    Austria. Trainers from the European Commission, the Florence School of Regulation, the Sustainable
+                    Gas Institute of Imperial College London, and GIE and MARCOGAZ contributed to the training. The
+                    event was attended by more than 80 participants representing 48 organizations from 20 countries in
+                    Central and Eastern Europe and South East Europe, including the Contracting Parties of Energy
+                    Community.
+                </p>
+                <p>
+                    The
+                    training provided high quality educational material on:
+                    <ul>
+                        <li>
+                            Methane policies
+                        </li>
+                        <li>
+                            Methane science
+                        </li>
+                        <li>
+                            Methane reduction strategies and planning
+                        </li>
+                        <li>
+                            Measurement techniques
+                        </li>
+                        <li>
+                            Implementation of best available technology
+                        </li>
+                        <li>
+                            Targeting the reduction of methane emission
+                        </li>
+                    </ul>
+                </p>
+                <p>
+                    In parallel, GIE and MARCOGAZ developed an action plan covering initiatives and projects
+                    related to methane emissions. As part of the action plan, the <a
+                        href="https://www.marcogaz.org/app/download/8105291763/WG_ME-485.pdf?t=1574766591"
+                        target="_blank"> “Assessment of methane emissions for
+                        Gas Transmission & Distribution System Operators” </a> will be submitted to the European
+                    Committee for
+                    Standardization for use as a technical reference in preparing a European standard on methane
+                    emissions quantification in transmission and distribution grids. GIE and MARCOGAZ are also
+                    developing guidelines for methane target setting.
+                </p>
+                <p style="text-align: center;">
+                    <a href="https://www.gie.eu/" target="_blank"><img src="images/gie/gie_marco.png" style="width:
+                40%"> </a>
+                </p>
+
+                <hr>
+                <!--     <a href="pdf/SourceFacility_Biocity_Profile.pdf" class="btn btn-primary btn-block">Download The
+                    PDF</a>
+                <hr>-->
+            </div>
+            <div class="col-sm-0 col-md-2"></div>
+        </div>
+    </div>
+    <script>
+        $(document).ready(function () {
+            $('[data-toggle="popover"]').popover({
+                container: '.container'
+            });
+
+            $('body').on('click', function (e) {
+                $('[data-toggle=popover]').each(function () {
+                    // hide any open popovers when the anywhere else in the body is clicked
+                    if (!$(this).is(e.target) && $(this).has(e.target).length === 0 && $(
+                            '.popover').has(e.target).length === 0) {
+                        $(this).popover('hide');
+                    }
+                });
+            });
+
+        });
+    </script>
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,104 @@
+
+
+body {
+  padding-top: 54px;
+ background:#3c6382;
+}
+
+.subnav{
+    position:fixed;
+    width:100%;
+    z-index:3000;
+    margin-top:50px;
+    background-color:#3092c0;
+}
+
+.pagecontent{
+    padding-top:100px;
+    background:white;
+}
+
+.summary{
+    background-color:#2d98da;
+}
+
+.sector{
+    color:white;
+    font-size:1.3rem;
+    text-align:center;
+}
+
+.whatsnew{
+    margin-bottom:1px;
+}
+
+.sectorrow{
+    margin-bottom:-20px;
+}
+
+.oilgas{
+    background-color:#262260;
+}
+
+.coal{
+    background-color:#5f3814;
+}
+
+.biogas{
+    background-color:#086638;
+}
+
+.navbarwhite{
+    background:white;
+}
+
+.introtext{
+    padding-top:10%;
+    color:white;
+    font-size: 1.1rem;
+}
+
+.gmipartnerhead{
+    background:#f79639;
+    padding:4px;
+    text-align:center;
+    color:white;
+        margin-bottom:0;
+}
+
+.makedifferencehead{
+    background:#117abe;
+    padding:4px;
+    text-align:center;
+    color:white;
+    margin-bottom:0;
+}
+
+.gmipapbody {
+ background:#f5dcb5;
+ padding:0;
+}
+
+.gmimad{
+    background:#ade1f8;
+    padding:0;
+}
+
+.splitpanel{
+    padding-bottom:40px;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+.information{
+    font-size:  1.1rem;
+    margin-bottom:30px;
+}
+.sectorimg{
+    width:100%;
+}
+

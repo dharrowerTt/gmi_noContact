@@ -1,0 +1,271 @@
+﻿<div class="container" style="margin-top:3.5rem;">
+    <style>
+    
+        table{
+            border-spacing: 0;
+            border:1px solid black;
+        }
+    
+        td{
+            padding:0;
+            padding:10px 5px;
+            border:1px solid lightgrey;
+            vertical-align: top;
+            /*width:40px;*/
+        }
+        thead td{
+            font-weight:bold;
+            text-align:center;
+            vertical-align:bottom;
+        }
+        .daycolumn{
+            border-left:2px solid black;
+        }
+       
+        td:not(:first-child) {
+           /* max-width:125px!important;*/
+           width:100%;
+        }
+    
+        .timeTD{
+            text-align:center;font-size:0.8em;
+            background:#ededed;
+            white-space: nowrap;
+        }
+
+        .tableContainer{
+  overflow-x: auto;
+  position: relative;
+  width:100%;
+}
+
+thead td:first-child {
+    
+  position: -webkit-sticky; /* for Safari */
+  position: sticky;
+ left: 0;
+}
+
+tbody td:first-child {
+  position: -webkit-sticky; /* for Safari */
+  position: sticky;
+  left: 0;
+}
+
+.restTime{
+    background:#D3D3D3;
+}
+.restRow{
+background:#D3D3D3;
+}
+
+.swipeInstructions{
+    background:#024b76;
+    color:#fafafa;
+    text-align:center;
+    padding-left:2px;
+    padding-right:2px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.shineicon:after {
+  
+  animation: shine 5s ease-in-out  infinite;
+  animation-fill-mode: forwards;  
+  content: "";
+  position: absolute;
+  top: -110%;
+  left: -210%;
+  width: 200%;
+  height: 200%;
+  opacity: 0;
+  transform: rotate(30deg);
+  
+  background: rgba(255, 255, 255, 0.13);
+  background: linear-gradient(
+    to right, 
+    rgba(255, 255, 255, 0.13) 0%,
+    rgba(255, 255, 255, 0.13) 77%,
+    rgba(255, 255, 255, 0.5) 92%,
+    rgba(255, 255, 255, 0.0) 100%
+  );
+}
+
+/* Hover state - trigger effect */
+
+
+/* Active state */
+
+.shineicon:active:after {
+  opacity: 0;
+}
+
+@keyframes shine{
+  10% {
+    opacity: 1;
+    top: -30%;
+    left: -30%;
+    transition-property: left, top, opacity;
+    transition-duration: 0.7s, 0.7s, 0.15s;
+    transition-timing-function: ease;
+  }
+  100% {
+    opacity: 0;
+    top: -30%;
+    left: -30%;
+    transition-property: left, top, opacity;
+  }
+}
+        </style>
+    <!-- Example row of columns -->
+<p>The agenda below is being provided for reference purposes. Updates will be posted as information becomes available.</p>
+    <h2>Agenda for the Oil & Gas Subcommitee Meeting</h2>
+    <h3>Wednesday, 25 March 2020, Palais de Nations, Concordia 1</h3>
+    <div class="tableContainer">
+    <table id="gmfAgenda" style="margin:auto;border-collapse:collapse;overflow-x:auto;display:block;width:fit-content;max-width:100%;width:100%">
+	<tbody>
+    <tr>
+        <td class="timeTD">09:00 – 09:05</td>
+        <td class="daycolumn"><strong>Welcome, Opening of the Meeting, and Introductions<br>Adoption of the Agenda </strong></td>
+    </tr>
+    <tr>
+        <td class="timeTD">09:05 – 09:15</td>
+        <td class="daycolumn"><strong>Secretariat Update</strong></td>
+    </tr>
+    <tr>
+        <td class="timeTD">09:15 – 09:30</td>
+        <td class="daycolumn"><strong>Review of 2019 Oil & Gas Subcommittee Accomplishments and Priorities</strong></td>
+    </tr>
+    <tr>
+        <td class="timeTD">09:30 – 09:45</td>
+        <td class="daycolumn"><strong>Global Methane Challenge Showcase: Highlights</strong></td>
+    </tr>
+    <tr>
+      <td class="timeTD">09:45 – 10:15</td>
+      <td class="daycolumn"><strong>Partner Country Updates and Technical Case Studies</strong></td>
+  </tr>
+    <tr class="restRow">
+        <td class="timeTD restTime">10:15 – 10:45</td>
+        <td class="daycolumn">Break </td>
+    </tr>
+    <tr>
+        <td class="timeTD">10:45 – 11:45</td>
+        <td class="daycolumn"><strong>Technical Discussion: <em>Drivers for Emissions Reductions, Focus on Policy</em></strong>
+
+<br />
+<em>
+Jonathan Banks, Senior Climate Policy Advisor, Clean Air Task Force<br />
+Simon Blakey, Senior Associate, IHS Markit<br />
+Poppy Kalesi, Director, Global Energy, Environmental Defense Fund<br />
+Stephanie Saunier, Managing Director, Carbon Limits<br />
+</em>
+
+	</td>
+    </tr>
+    <tr>
+      <td class="timeTD">11:45 – 12:45</td>
+      <td class="daycolumn"><strong>Case Studies: <em>Innovative Technologies to Detect and Quantify Emissions</em></strong>
+
+<br />
+<em>
+Stephane Germain, President, GHGSat-Canada<br />
+</em>
+
+	</td>
+  </tr>
+    <tr class="restRow">
+        <td class="timeTD restTime">12:45 – 14:45</td>
+        <td class="daycolumn">Lunch Break</td>
+    </tr>
+    <tr>
+        <td class="timeTD">14:45 – 15:45</td>
+        <td class="daycolumn"><strong>Case Studies: <em>Successful Emission Reductions Projects</em></strong>
+<br />
+<em>
+Jackson Hegland, Executive Director, Methane Emissions Leadership Alliance (MELA)<br />
+</em>
+
+	</td>
+    </tr>
+    <tr>
+        <td class="timeTD">15:45 – 16:45</td>
+        <td class="daycolumn"><strong>Technical Discussion: <em>Global Carbon Offset Program in the Oil & Gas Sector</em></strong>
+
+<br />
+<em>
+Simon Henry, Director of Carbon Market Development, International Emissions Trading Association (IETA)<br />
+</em>
+</td>
+    </tr>
+    <tr>
+      <td class="timeTD">16:45 – 17:00</td>
+      <td class="daycolumn"><strong>Discussion: <em>Oil & Gas Resources</em></strong></td>
+  </tr>
+  <tr>
+    <td class="timeTD">17:00 – 17:10</td>
+    <td class="daycolumn"><strong>Wrap-up and Adjourn Meeting</strong></td>
+</tr>
+  <tr class="restRow">
+    <td class="timeTD restTime">17:10 – 17:20</td>
+    <td class="daycolumn">Break</td>
+</tr>
+<tr>
+  <td class="timeTD">17:20 – 17:55</td>
+  <td class="daycolumn"><strong>Working Session: <em>Review and Finalize 2020 Oil & Gas Action Plan</em></strong></td>
+</tr>
+    <tr>
+        <td class="timeTD">17:55 – 18:00</td>
+        <td class="daycolumn">Adjourn </td>
+    </tr>
+	</tbody>
+</table>
+
+</div>
+
+<br />
+<br />
+
+
+<div id="#map1" style="margin:auto;text-align:center;width:100%;">
+
+<h2>Palais de Nations</h2>
+<img src="content/map-agenda-oilgas.svg" />
+
+
+
+</div> <!--map-->
+    
+
+    
+
+</div> <!-- /container -->
+
+<script>
+(function() {
+  var elements;
+  var windowHeight;
+
+  function init() {
+    elements = document.querySelectorAll('.hidden');
+    windowHeight = window.innerHeight;
+  }
+
+  function checkPosition() {
+    for (var i = 0; i < elements.length; i++) {
+      var element = elements[i];
+      var positionFromTop = elements[i].getBoundingClientRect().top;
+
+      if (positionFromTop - windowHeight <= 0) {
+        element.classList.add('fade-in-element');
+        element.classList.remove('hidden');
+      }
+    }
+  }
+
+  window.addEventListener('scroll', checkPosition);
+  window.addEventListener('resize', init);
+
+  init();
+  checkPosition();
+})();</script>

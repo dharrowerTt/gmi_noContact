@@ -1,0 +1,33 @@
+    For Each c In oDoc.Comments
+       strText = Trim(Replace(Replace(CStr(c.Range.Text), Chr(34), ""), Chr(147), ""))
+       
+       If Len(strText) > 0 Then
+       rowNum = rowNum + 1
+       lRow = lRow + 1
+       With oTable.Rows(rowNum + 1)
+            
+            
+             c.Scope.Select
+             Selection.Expand Unit:=wdParagraph
+             
+             sectionNum = Selection.Paragraphs(1).Range.ListFormat.ListString
+             If IsNumeric(sectionNum) Then
+             .Cells(2).Range.Text = sectionNum
+             Else
+             .Cells(2).Range.Text = "Section " & c.Scope.Information(wdActiveEndSectionNumber)
+            End If
+           .Cells(1).Range.Text = c.Scope.Information(wdActiveEndPageNumber)
+           
+           .Cells(3).Range.Text = "Line " & c.Scope.Information(wdFirstCharacterLineNumber)
+           .Cells(4).Range.Text = "Comment"
+           .Cells(5).Range.Text = Trim(Replace(Replace(CStr(c.Range.Text), Chr(13), "<br />"), Chr(10), "<br />"))
+           .Cells(6).Range.Text = Trim(Replace(Replace(CStr(c.Scope.Text), Chr(13), "<br />"), Chr(10), "<br />"))
+           .Cells(7).Range.Text = c.Author
+           .Cells(8).Range.Text = Format(c.Date, "mm-dd-yyyy")
+
+       End With
+       End If
+
+
+
+    Next

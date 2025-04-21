@@ -1,0 +1,320 @@
+/* Methane to Markets */
+
+/*global top area***********************************************************************/
+#banner {
+	/*background:url(/images/bkgd_banner.jpg) transparent top right no-repeat;*/
+    background:transparent;
+	width:982px;
+	height:90px;
+	margin-left:2px;
+}
+
+#banner #logo {
+	float:left;
+}
+
+#banner li, #footer li {
+	display:inline;
+	float:left;
+   
+}
+
+#banner li {
+     margin-right:2em;
+}
+
+#banner form {
+	padding:10px 0 0 433px;
+}
+
+#banner ul li a {
+	font-size: 12px;
+text-decoration: none;
+color: #0073BC;
+font-weight: bold;
+}
+
+#banner a:hover, #footer a:hover {
+	text-decoration:underline;
+}
+
+#banner .topbullet {
+	margin:0 15px;
+}
+
+#searchbox {
+    width: 166px;
+    background:url(/images/bkgd_searchboxtop.gif) transparent top left no-repeat;
+	margin:-4px 0 0 17px;
+}
+
+#searchbox #searchfield {
+    float: left;
+    margin: 6px 10px 0 6px;
+    border: 0;
+    width: 124px;
+}
+
+#searchbox input:last-child {
+    
+height: 25px;
+margin-left: -9px;
+margin-right:0px;
+}
+
+/*main nav line and 2.0*/
+#mainnav {
+	margin-left:-2px;
+}
+
+#mainnav li {
+	display:inline;
+}
+
+#mainnav li a {
+	float:left;
+	display:block;
+	/*background:url(/images/bkgd_nav_main.png) transparent top left no-repeat;*/
+    background:rgb(13,50,144);
+    text-indent: 0px;
+    color: white;
+    text-align: center;
+    padding-top: 18px;
+    height: 33px;
+    font-weight:bold;
+}
+
+#mainnav li a:hover {    
+    background-color:rgb(2,176,251);
+}
+
+
+#mainnav #home a {
+	width:66px;
+}
+#mainnav #howtopart a {
+	width:136px;
+}
+#mainnav #partcountries a {
+	background-position: -136px 0;
+	width:132px;
+}
+#mainnav #projnetwork a {
+	background-position: -268px 0;
+	width:124px;
+}
+#mainnav #sites a {
+	background-position: -392px 0;
+	width:59px;
+}
+#mainnav #projects a {
+	background-position: -451px 0;
+	width:82px;
+}
+#mainnav #tollres a {
+	background-position: -533px 0;
+	width:139px;
+}
+#mainnav #newsevents a {
+	background-position: -672px 0;
+	width:117px;
+}
+#mainnav #emailbutton a {
+	background: url("/images/nav-email.png");
+    background-color:rgb(13,50,144);
+    background-repeat: no-repeat;
+    background-position: center !important;
+    width: 40px !important;
+}
+#mainnav #rss a {
+	background: url("/images/nav-rss.png");
+    background-color:rgb(13,50,144);
+    background-repeat: no-repeat;
+    background-position: center !important;
+    width: 40px !important;
+}
+#mainnav #share a {
+	background: url("/images/nav-share.png");
+    background-color:rgb(13,50,144);
+    background-repeat: no-repeat;
+    background-position: center !important;
+    width: 40px !important;
+}
+
+#mainnav #howtopart a:hover, #mainnav #home a.on {
+ background-color:rgb(2,152,215);
+}
+#mainnav #howtopart a:hover, #mainnav #howtopart a.on {
+ background-color:rgb(2,152,215);
+}
+#mainnav #partcountries a:hover, #mainnav #partcountries a.on {
+ background-color:rgb(2,152,215);
+}
+#mainnav #projnetwork a:hover, #mainnav #projnetwork a.on {
+ background-color:rgb(2,152,215);
+}
+
+#mainnav #sites a:hover, #mainnav #sites a.on {
+ background-color:rgb(2,152,215);
+}
+
+#mainnav #projects a:hover, #mainnav #projects a.on {
+ background-color:rgb(2,152,215);
+}
+#mainnav #tollres a:hover, #mainnav #tollres a.on {
+ background-color:rgb(2,152,215);
+}
+#mainnav #newsevents a:hover, #mainnav #newsevents a.on {
+ background-color:rgb(2,152,215);
+}
+#mainnav #emailbutton a:hover {
+	
+       background-color:rgb(2,176,251) !important;
+}
+#mainnav #rss a:hover {
+	
+    background-color:rgb(2,176,251) !important;
+}
+#mainnav #share a:hover {
+	
+    background-color:rgb(2,176,251) !important;
+}
+/*end main nav line and 2.0*/
+/*end global top area************************************************************************/
+
+
+/*SIDEBAR AREA********************************************************************************/
+#sidebar {
+	float:left;
+	width:183px;
+	padding:8px 0 0 10px;
+}
+
+/*sector navigation*/
+#sidenav li {
+	display:inline;
+	padding:0;
+}
+
+#sidenav li a {
+	text-indent:-222em;
+	display:block;
+	height:46px;
+	width:166px;
+	background:url(/images/bkgd_nav_sectornav3.gif) transparent top left no-repeat;
+}
+
+#sidenav #agnav a {
+	height:42px;
+}
+#sidenav #coalnav a {
+	background-position: 0 -42px;
+	height:43px;
+}
+#sidenav #landnav a {
+	background-position: 0 -85px;
+}
+#sidenav #bionav a {
+	background-position: 0 -85px;
+}
+#sidenav #oilnav a {
+	background-position: 0 -131px;
+}
+#sidenav #wwnav a {
+	background-position: 0 -177px;
+}
+#sidenav #steernav a {
+	background-position: 0 -223px;
+}
+
+#sidenav #agnav a:hover {
+	background-position: -166px 0;
+}
+#sidenav #coalnav a:hover {
+	background-position: -166px -42px;
+}
+#sidenav #landnav a:hover {
+	background-position: -166px -85px;
+}
+#sidenav #oilnav a:hover {
+	background-position: -166px -131px;
+}
+#sidenav #wwnav a:hover {
+	background-position: -166px -177px;
+}
+#sidenav #steernav a:hover {
+	background-position: -166px -223px;
+}
+
+#sidenav a.on {
+	margin-left:-10px;
+	width:176px;
+}
+
+#sidenav #agnav a.on {
+	background-position: -332px 0;
+}
+#sidenav #coalnav a.on {
+	background-position: -332px -42px;
+}
+#sidenav #landnav a.on {
+	background-position: -332px -85px;
+}
+#sidenav #oilnav a.on {
+	background-position: -332px -131px;
+}
+#sidenav #wwnav a.on {
+	background-position: -332px -177px;
+}
+#sidenav #steernav a.on {
+	background-position: -332px -223px;
+}
+/*end sector navigation*/
+
+
+/*translatetion box*/
+#translatebox {
+	background:url(/images/bkgd_translatetop.gif) transparent top left no-repeat;
+	margin-top:5px;
+	padding:12px 0 0 0;
+	width:183px;
+	float:left;
+}
+
+#translatebox h5 {
+	font: 14px georgia, "times new roman", times, serif;
+	color:#30a2d2;
+	padding:2px 0 12px 20px;
+}
+
+#translatebox p {
+	font-size:11px;
+	padding:0 14px 12px 14px;
+	background:url(/images/bkgd_translateline.gif) transparent top left repeat-y;
+}
+
+#translatebox a {
+	color:#1470c5;
+}
+
+#translatebox a:hover {
+	color:#931db0;
+}
+
+#translatebox form select {
+	font-size:11px;
+	width:137px;
+}
+
+#translatebottom {
+	background:url(/images/bkgd_translatebottom.gif) transparent top left no-repeat;
+	height:15px;
+}
+
+/* Google translator plugin */
+.goog-te-gadget-icon { display: none; }
+#google_translate_element { margin: 0px 0px 0px 0px; /*float:none;*/ display:inline; }
+div.skiptranslate  { color: White; }
+.goog-logo-link { display: none; }
+
+/*end translation box*/

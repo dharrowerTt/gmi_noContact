@@ -1,0 +1,113 @@
+﻿        <!-- Keywords -->
+<!--Delete <div class="form-group">
+    <label for="txtKeywords" style="font-weight:bold">Keywords</label>
+    <asp:TextBox ID="txtKeywords" runat="server" CssClass="form-control" TextMode="MultiLine" onkeyup="updateCharCount(this, 'charCountKeywords', 200)" onpaste="setTimeout(() => updateCharCount(this, 'charCountKeywords', 200), 0)"></asp:TextBox>
+    <div id="charCountKeywords" class="char-counter">200 characters remaining</div>
+</div>
+
+<h3 style="font-weight:bold">Attributes of the Case Study</h3>
+
+<!-- Topic(s) -->
+<div class="form-group">
+    <label for="chkTopics" style="font-weight:bold">Topic(s)</label>
+    <asp:CheckBoxList ID="chkTopics" runat="server" CssClass="form-check">
+    </asp:CheckBoxList>
+</div>
+
+<!-- Start Date -->
+<div class="form-group required">
+    <label for="txtStartDate" style="font-weight:bold">Start Date <span>*</span></label>
+    <asp:TextBox ID="txtStartDate" runat="server" CssClass="form-control" TextMode="Date"></asp:TextBox>
+    <asp:RequiredFieldValidator ID="rfvStartDate" runat="server" ControlToValidate="txtStartDate"
+                                ErrorMessage="Start Date is required" CssClass="text-danger" Display="Dynamic" ValidationGroup="SubmitForm"></asp:RequiredFieldValidator>
+</div>
+
+<!-- End Date (if applicable) -->
+<div class="form-group">
+    <label for="txtEndDate" style="font-weight:bold">End Date (if applicable)</label>
+    <asp:TextBox ID="txtEndDate" runat="server" CssClass="form-control" TextMode="Date"></asp:TextBox>
+</div>
+
+<!-- GMI Sector(s) -->
+<div class="form-group required">
+    <label for="chkGmiSectors" style="font-weight:bold">GMI Sector(s)</label>
+    <asp:CheckBoxList ID="chkGmiSectors" runat="server" CssClass="form-check">
+        <asp:ListItem>Biogas</asp:ListItem>
+        <asp:ListItem>Coal Mines</asp:ListItem>
+        <asp:ListItem>Oil & Gas</asp:ListItem>
+    </asp:CheckBoxList>
+    <asp:CustomValidator ID="cvGmiSectors" runat="server"
+                         ErrorMessage="At least one GMI Sector must be selected" CssClass="text-danger"
+                         OnServerValidate="ValidateGmiSectors" ValidationGroup="SubmitForm"></asp:CustomValidator>
+</div>
+
+<!-- Other Sector(s) -->
+<div class="form-group">
+    <label for="txtOtherSectors" style="font-weight:bold">Other Sector(s)</label>
+    <asp:TextBox ID="txtOtherSectors" runat="server" CssClass="form-control"></asp:TextBox>
+</div>
+
+<!-- Regional Applicability -->
+<div class="form-group">
+    <label style="font-weight:bold">Regional Applicability</label>
+    <asp:DropDownList ID="ddlRegionalApplicability" runat="server" CssClass="form-control selectpicker" Multiple="true" data-actions-box="true">
+        <asp:ListItem Value="Africa">Africa</asp:ListItem>
+        <asp:ListItem Value="Asia">Asia</asp:ListItem>
+        <asp:ListItem Value="AustraliaOceania">Australia/Oceania</asp:ListItem>
+        <asp:ListItem Value="Europe">Europe</asp:ListItem>
+        <asp:ListItem Value="NorthAmerica">North America</asp:ListItem>
+        <asp:ListItem Value="MiddleEast">Middle East</asp:ListItem>
+        <asp:ListItem Value="SouthAmerica">South America</asp:ListItem>
+    </asp:DropDownList>
+</div>
+
+<!-- Country Lists -->
+<div class="region-country-container">
+    <div id="AfricaContainer" class="country-container hidden">
+        <h4>Africa</h4>
+        <asp:ListBox ID="lstAfrica" runat="server" CssClass="form-control" SelectionMode="Multiple" Height="200px"></asp:ListBox>
+    </div>
+
+    <div id="AsiaContainer" class="country-container hidden">
+        <h4>Asia</h4>
+        <asp:ListBox ID="lstAsia" runat="server" CssClass="form-control" SelectionMode="Multiple" Height="200px"></asp:ListBox>
+    </div>
+
+    <div id="AustraliaOceaniaContainer" class="country-container hidden">
+        <h4>Australia/Oceania</h4>
+        <asp:ListBox ID="lstAustraliaOceania" runat="server" CssClass="form-control" SelectionMode="Multiple" Height="200px"></asp:ListBox>
+    </div>
+
+    <div id="EuropeContainer" class="country-container hidden">
+        <h4>Europe</h4>
+        <asp:ListBox ID="lstEurope" runat="server" CssClass="form-control" SelectionMode="Multiple" Height="200px"></asp:ListBox>
+    </div>
+
+    <div id="NorthAmericaContainer" class="country-container hidden">
+        <h4>North America</h4>
+        <asp:ListBox ID="lstNorthAmerica" runat="server" CssClass="form-control" SelectionMode="Multiple" Height="200px"></asp:ListBox>
+    </div>
+
+    <div id="MiddleEastContainer" class="country-container hidden">
+        <h4>Middle East</h4>
+        <asp:ListBox ID="lstMiddleEast" runat="server" CssClass="form-control" SelectionMode="Multiple" Height="200px"></asp:ListBox>
+    </div>
+
+    <div id="SouthAmericaContainer" class="country-container hidden">
+        <h4>South America</h4>
+        <asp:ListBox ID="lstSouthAmerica" runat="server" CssClass="form-control" SelectionMode="Multiple" Height="200px"></asp:ListBox>
+    </div>
+</div>
+
+<!-- Hidden Field for Country Applicability -->
+<asp:HiddenField ID="hiddenSelectedCountries" runat="server" />
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+
+</body>
+</html>

@@ -1,0 +1,392 @@
+﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="mi-13.aspx.vb" Inherits="M2M_Redesign.mi_13" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Archive | Global Methane Initiative</title>
+     <!-- #include virtual="/includes/include_head.html" -->
+</head>
+<body>
+    <!-- #include virtual="/includes/header.html" -->
+
+   <section class="py-5 gmi-light-blue">
+        <div class="container">
+                    <h1>
+						Methane International 
+					</h1>
+					<h2><small class="text-muted text">Issue 13, June 2009</small></h2>
+                    <div class="alert alert-danger" role="alert">Please note that this page is no longer being maintained. </div>
+					<ul>
+                        <li><a href="#one">Dates Set for 2010 Partnership Expo in India</a></li>
+                        <li><a href="#two">New, Redesigned Web Site Is On Its Way</a></li>
+                        <li><a href="#three">Steering Committee Meeting to Discuss Future of Methane to Markets</a></li>
+                        <li><a href="#four">Upcoming Subcommittee Meetings</a></li>
+                        <li><a href="#five">Welcome, Bulgaria</a></li>
+                        <li><a href="#six">Get in the Spotlight!</a></li>
+                        <li><a href="#seven">Coming Soon: The First Partnership-Wide Accomplishments Report</a></li>
+                        <li><a href="#eight">Recent Developments</a></li>
+                    </ul>
+
+		</div>
+	</section>
+	<section class="py-5 bg-white">
+		<div class="container">
+
+        <h2 id="one">
+            Dates Set for 2010 Partnership Expo in India</h2>
+        <p>
+            <a href="/expo_india10/index.htm">
+                <img src="/expo_india10/images/banner_small.jpg" alt="2009 Expo banner" width="500"
+                    height="96" /></a></p>
+        <p>
+            Clear your calendar for 2&ndash;5 March 2010! You won't want to miss the world's
+            largest dedicated forum on methane projects, technology, financing, and policy&mdash;the
+            <a href="/expo_india10/index.htm">2010 Methane to Markets Partnership Expo</a>.
+            In cooperation with the government of India, the Expo will be held at the <a href="http://www.tajhotels.com/Luxury/TAJ%20%20PALACE%20HOTEL,NEW%20DELHI/default.htm">
+                Taj Palace Hotel</a> <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative">
+                    <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>
+            in New Delhi, one of India's premiere hotels.</p>
+        <p>
+            Building on the highly successful 2007 Partnership Expo held in Beijing, China,
+            the 2010 Expo will give participants the chance to:</p>
+        <ul>
+            <li>Showcase methane mitigation projects and technologies</li>
+            <li>Meet with potential project partners and financiers</li>
+            <li>Learn about the latest project opportunities, technologies, and services</li>
+            <li>Explore key technical, financial, and policy issues</li>
+            <li>Interact with high-level government agencies from 29 countries</li>
+        </ul>
+        <p>
+            <strong><em>Call for Abstracts</em></strong><br />
+            If you have experience deploying commercially proven, third-party-verified technologies
+            as part of a methane capture and use project, we invite you to share your knowledge
+            and experience at the Partnership Expo! Submit an abstract to be considered for
+            one of the Partnership Expo's workshop or policy sessions. Program organizers are
+            looking for a one-page submittal on methane mitigation in one of the following subject
+            areas:</p>
+        <ul>
+            <li>Agricultural sources</li>
+            <li>Coal mining</li>
+            <li>Landfills</li>
+            <li>Oil and natural gas</li>
+            <li>Cross-cutting issues</li>
+        </ul>
+        <p>
+            Abstracts are due on <strong>15 August 2009, and all submitters will be contacted by
+                1 December 2009.</strong></p>
+        <p>
+            <a href="/expo_india10/docs/call_presentations.pdf">More information about abstracts
+                and presentations </a>(PDF, 2 pp, 24 KB).</p>
+        <p>
+            <strong><em>Call for Projects</em></strong><br />
+            The Partnership Expo is a great opportunity to showcase your potential project and
+            gain exposure throughout the methane community. Organizers will soon be issuing
+            a call for projects to showcase, so keep an eye out for this important announcement.
+            Also, you can visit the <a href="/expo_india10/index.htm">Methane to Markets Partnership
+                Expo Web site</a> for the most up-to-date information available.</p>
+        <p>
+            <strong><em>Sponsorship</em></strong><br />
+            As with the 2007 Partnership Expo, you will have an opportunity to gain elite exposure
+            for your organization or technology by becoming a sponsor and securing a booth.
+            The Partnership Expo will allocate prime space for sponsors' display of specific
+            project opportunities in each sector. Options for sponsorship with an application
+            form are now available on the <a href="/expo_india10/docs/sponsorship_options_website.pdf">
+                Partnership Expo Web site</a> (PDF, 4 pp, 56 KB).</p>
+        
+        <h2 id="two">
+            New, Redesigned Web Site Is On Its Way</h2>
+        <div style="width: 200px; border: 1px solid #000; float: right; padding: 5px 3px 0 7px;">
+            <p>
+                <strong><em>Methane International</em> Unveils New Format</strong></p>
+            <p>
+                Welcome to the new <em>Methane International!</em> With our updated HTML format
+                and Web-based location, we hope to better serve the Partnership and be more user-friendly.
+                <a href="../asg.aspx">Send us your feedback</a> on our new look.</p>
+        </div>
+        <p>
+            Wikis, news feeds, widgets, podcasts, social networking&mdash;there has been an
+            explosive growth of new Web-based communications tools and technologies to build
+            and sustain virtual communities since the launch of <em>Methane International</em>.
+            The Partnership's new Web site, scheduled to go live later in 2009, will use many
+            Web-based features to serve the Methane to Markets multi-national, multi-lingual,
+            and multi-disciplinary community.</p>
+        <p>
+            The Web site has long been one of the Partnership's most valued assets. With many
+            activities taking place across all Methane to Markets <a href="../partners/index.aspx">
+                Partner Countries</a> and sectors, the Partnership wanted to ensure that individuals
+            can easily navigate to the news and resources that are most relevant to them. Toward
+            this end, the new Partnership Web site includes Web 2.0 features that allow users
+            to share Methane to Markets activities with others as well as translate any content
+            into dozens of languages. Updates have also been made to the home page, country
+            detail pages, and the sector landing pages to make information easily accessible.</p>
+        <p>
+            Get ready to navigate the redesigned Web site and <a href="../asg.aspx">let us know
+                what you think</a> of its new and improved features.</p>
+        
+        <h2 id="three">
+            Steering Committee Meeting to Discuss Future of Methane to Markets</h2>
+        <p>
+            Clear your calendars for <a href="index.aspx">upcoming Methane to Markets meetings</a>!
+            In September 2009 the next <a href="event_detailsByEventId.aspx?eventId=2">Steering
+                Committee meeting</a> will take place in Washington, D.C., expanding upon discussions
+            that began at the <span class="red">January 2009 Steering Committee meeting</span>.
+            Don't miss this opportunity to shape the future of the Methane to Markets Partnership.</p>
+        
+        <h2 id="four">
+            Upcoming Subcommittee Meetings</h2>
+        <p>
+            Watch for details regarding upcoming meetings for all four subcommittees. The <a
+                href="index.aspx">Agriculture Subcommittee meeting</a> will be held on 3 September
+            2009 in conjunction with the International Conference on Water Pollution Reduction
+            and Climate Change Mitigation in Guangzhou, China. Next, the <a href="event_detailsByEventId.aspx?eventId=3">
+                Oil and Gas Subcommittee meeting</a> will be held on 14-16 September 2009 at
+            Lake Louise, Canada. It will include a site tour, a technology transfer workshop,
+            and the subcommittee meeting. The <a href="event_detailsByEventId.aspx?eventId=4">Landfills
+                Subcommittee meeting</a> will be held on 21 September 2009 with the <a href="http://wastecon.swana.org/">
+                    Solid Waste Association of North America (SWANA) WasteCon 2009</a> <a href="/exitdisclaimer.aspx"
+                        title="Exiting Global Methane Initiative">
+                        <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>
+            conference in Long Beach, California. Finally, the
+            <!--<a href="../../events/2009/coal/coal-12oct09.htm" class="red">-->
+            <span class="red">Coal Subcommittee meeting</span> will be held 12-13 October
+            2009 on in conjunction with the <a href="http://www.unece.org/energy/welcome/Calendar_Meeting.html">
+                5th Meeting of the UNECE Ad Hoc Group of Experts on Coal Mine Methane</a> <a href="/exitdisclaimer.aspx"
+                    title="Exiting Global Methane Initiative">
+                    <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>
+            in Geneva, Switzerland.</p>
+        
+        <h2 id="five">
+            <img src="/images/flag_bulgaria_big.gif" alt="Bulgarian flag" style="margin-left: 10px;
+                float: right;" />Welcome, Bulgaria</h2>
+        <p>
+            On 11 May 2009, the Methane to Markets Partnership welcomed <a href="../partners/index.aspx">
+                Bulgaria</a> as the Partnership's 29th Partner. Bulgaria offers multiple project
+            development opportunities to reduce methane from its landfills and will be participating
+            in the Landfill Subcommittee. Project Network members are invited to <a href="mailto:MARNI@MOEW.GOVERNMENT.BG?subject=Methane%20to%20Markets">
+                contact Ms. Maria Ninova</a>, Bulgaria's Methane to Markets representative from
+            the Ministry of Environment and Water, for more information on Bulgaria and potential
+            areas for collaboration.</p>
+        
+        <h2 id="six">
+            <img src="/images/spotlights.jpg" alt="Spotlights" style="margin-left: 10px; float: right;" />Get
+            in the Spotlight!</h2>
+        <p>
+            The Partnership's new Web site will feature Methane to Markets Partner, Organization,
+            and Project &quot;Spotlights&quot;&mdash;dedicated pages that will focus on successful
+            initiatives and key players in the Methane to Markets community. Look for our first
+            Spotlights to debut along with the new Web site, and <a href="../asg.aspx">let us know</a>
+            if you would like some time in the spotlight!</p>
+
+            
+        <h2 id="seven">
+            Coming Soon: The First Partnership-Wide Accomplishments Report</h2>
+        <p>
+            To coincide with its five-year anniversary, Methane to Markets will publish the
+            first Partnership-Wide Accomplishments Report later this year. The report will summarize
+            the Partnership's collective accomplishments and global impact since its inception
+            in 2004. The report will also include descriptions of representative projects and
+            activities as well as the latest statistics. The report will include each Partner's
+            involvement in Methane to Markets as well as providing an overview of Subcommittee
+            activities and achievements by sector.</p>
+         <h2 id="eight">
+            Recent Developments</h2>
+        <ul>
+            <li><strong>Navigating the American Carbon World.</strong> In April 2009, <a href="http://www.epa.gov/agstar/">
+                EPA's AgSTAR program</a> <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative">
+                    <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>
+                held a workshop titled &quot;Methane Capture and Use: Its Role as a Carbon Offset&quot;
+                at <a href="http://www.ieta.org/ieta/www/pages/index.php?IdSitePage=1574">Navigating
+                    the American Carbon World</a> <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative">
+                        <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>.
+                The workshop discussed methane capture and use from landfills, manure digesters,
+                and coal mines as a proven means to reduce greenhouse gas emissions and environmental
+                impacts while producing energy; it also provided an overview of the Methane to Markets
+                Partnership.</li>
+            <li><strong>Point Carbon Conference in Denmark.</strong> In March 2009 the Methane to
+                Markets Partnership exhibited at the <a href="http://www.pointcarbon.com/">Point Carbon</a>
+                <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative">
+                    <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>
+                Conference in Copenhagen, Denmark. The Partnership reached out to the carbon development
+                market and began to get the word out about the 2010 Partnership Expo in India.</li>
+            <li><strong>The International Energy Agency Publishes an Information Paper on Coal Mine
+                Methane (CMM) in China.</strong> The paper, &quot;<a href="http://www.iea.org/textbase/papers/2009/china_cmm_report.pdf">Coal
+                    Mine Methane in China: A Budding Asset with the Potential to Bloom</a> (PDF,
+                36 pp, 2.4 MB),&quot; <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative">
+                    <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>
+                identifies and examines policies, technologies, and practices in China for CMM recovery
+                and use. The paper focuses on the unique challenges and opportunities of medium-and
+                smaller-sized coal mines.</li>
+            <li><strong>CMM Roundtable in Ukraine.</strong> In April 2009, Ukraine hosted a <a
+                href="http://www.arena-eco.com/news/newsdetail.php?id=740&amp;lang=en">Roundtable</a>
+                <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative">
+                    <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>
+                on proposed CMM legislation. Held at the Parliament, it was attended by approximately
+                50 Ukrainian coal professionals from government agencies, coal mine operators and
+                other private companies, and international agencies such as the <a href="http://www.iea.org/">
+                    International Energy Agency</a> <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative">
+                        <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>.</li>
+            <li><strong>Landfill Gas-to-Energy Workshop in India.</strong> In April 2009, India's
+                <a href="http://www.urbanindia.nic.in/">Ministry of Urban Development</a> <a href="/exitdisclaimer.aspx"
+                    title="Exiting Global Methane Initiative">
+                    <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>
+                and the <a href="http://www.egovamc.com/">Ahmedabad Municipal Corporation</a> <a
+                    href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative">
+                    <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>
+                hosted a workshop for municipal commissioners and engineers of cities with populations
+                of one million or more on landfill gas-to-energy opportunities in India. Over 50
+                participants from more than 20 municipalities attended to learn about waste management
+                in India, landfill operation and management, and carbon finance opportunities. Officials
+                from the City of Mumbai presented on its landfill project&mdash;the first in India
+                to flare gas. The workshop also included a tour of the Ahmedabad dumpsite and the
+                new sanitary engineered landfill that is currently under construction.</li>
+            <li><strong>First Landfill Operations and Maintenance Workshop in Colombia.</strong>
+                Working off the success of similar workshops held previously in Argentina and Mexico,
+                the U.S. EPA conducted a two-day workshop in April 2009 on landfill operations and
+                maintenance best practices. Organized in partnership with the Colombian <a href="http://www.cnpml.org/html/principal.asp">
+                    Center for Cleaner Production</a> <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative">
+                        <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>,
+                the workshop was part of the continuing collaboration between <a href="../partners/colombia.aspx">
+                    Colombia</a> and the <a href="../partners/us.aspx">United States</a> under the
+                Methane to Markets Partnership. Approximately 80 landfill technicians, project developers,
+                and government officials attended.</li>
+            <li><strong>Mexico Landfill Gas Model 2.0.</strong> In March 2009, <a href="http://www.epa.gov/lmop/">
+                EPA's Landfill Methane Outreach Program (LMOP)</a> <a href="/exitdisclaimer.aspx"
+                    title="Exiting Global Methane Initiative">
+                    <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>
+                traveled to Mexico to launch the updated <a href="/partners/country.aspx?c=mexico#t3">
+                    Mexico Landfill Gas Model</a> <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative">
+                        <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>.
+                The refined model includes additional field data and advanced modeling techniques.
+                It expands upon the waste composition data, adding information from cities and landfills
+                throughout Mexico. LMOP held a workshop to give hands-on training to members.</li>
+            <li><strong>Oil and Gas Presentation in Uruguay.</strong> In April 2009, Methane to
+                Markets presented at the Latin America and Caribbean Oil and Gas Conference, <a href="http://www.conferenciaarpel.com/en/conference.php">
+                    Arpel 2009</a> <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative">
+                        <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>,
+                in Punta del Este, Uruguay. Remarks focused on methane emission identification and
+                qualification technology. In additional, Methane to Markets met with stakeholders
+                from oil and gas companies, such as <a href="http://www.repsol.com/">Repsol YPF</a>
+                <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative">
+                    <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>,
+                <a href="http://www.ecopetrol.com.co/english/">Ecopetrol</a> <a href="/exitdisclaimer.aspx"
+                    title="Exiting Global Methane Initiative">
+                    <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>,
+                <a href="http://www.petrobras.com.br/">Petrobras</a> <a href="/exitdisclaimer.aspx"
+                    title="Exiting Global Methane Initiative">
+                    <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>,
+                and <a href="http://www.pemex.com/index.cfm">PEMEX</a> <a href="/exitdisclaimer.aspx"
+                    title="Exiting Global Methane Initiative">
+                    <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>;
+                the Uruguayan government; and the <a href="http://www.iadb.org/">Inter-American Development
+                    Bank</a> <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative">
+                        <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>
+                on collaborative projects to reduce methane emissions in the oil and natural gas
+                sector.</li>
+            <li><strong>Successful Methane to Markets Side Event at U.N. Commission on Sustainable
+                Development.</strong> Methane to Markets held a very successful side event in May
+                2009 at the <a href="http://www.un.org/esa/dsd/csd/csd_csd17.shtml">U.N.'s 17<sup>th</sup>
+                    Commission on Sustainable Development (CSD17)</a> <a href="/exitdisclaimer.aspx"
+                        title="Exiting Global Methane Initiative">
+                        <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>.
+                With CSD's focus on the interlinkages between agriculture and environment, the side
+                event demonstrated the Partnership's significant accomplishments in accelerating
+                the deployment of anaerobic digesters in Partner Countries. The Methane to Markets
+                Agriculture Subcommittee Co-Chair from Argentina made a presentation, as did representatives
+                from the Administrative Support Group and the U.S. EPA.</li>
+            <li><strong>Methane to Markets Partnership Visits India.</strong> In April 2009, the
+                Administrative Support Group for the Methane to Markets Partnership visited with
+                several key Indian Government Agencies, the <a href="http://www.worldbank.org/">World
+                    Bank</a> <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative">
+                        <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>,
+                the U.S. Embassy, and the <a href="http://www.ficci.com/">Federation of Indian Chambers
+                    of Commerce and Industry</a> <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative">
+                        <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>
+                to discuss planning for the 2010 Partnership Expo. Additionally, Methane to Markets
+                met with staff at <a href="http://www.tajhotels.com/Luxury/Taj%20%20palace%20Hotel,NEW%20DELHI/default.htm">
+                    Taj Palace</a> <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative">
+                        <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>
+                in New Delhi, India to preview the venue and discuss logistics for the 2010 Partnership
+                Expo.</li>
+            <li><strong>Landfill Gas Workshop in Abuja, Nigeria</strong>. In April 2009, <a href="http://www.epa.gov/lmop/">
+                EPA staff from the Landfill Methane Outreach Program</a> <a href="/exitdisclaimer.aspx"
+                    title="Exiting Global Methane Initiative">
+                    <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>
+                traveled to Nigeria to provide training support for Nigeria's first landfill workshop.
+                The <a href="http://www.wamason.org/">Waste Management Society of Nigeria (WAMASON)</a>
+                <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative">
+                    <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>
+                and the <a href="http://www.iswa.org/c/portal/layout">International Solid Waste Association</a>
+                <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative">
+                    <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>
+                organized the workshop to coincide with <a href="http://www.waste-summit2009.org/">WAMASON's
+                    Annual Waste Summit</a> <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative">
+                        <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>.
+                The workshop included sessions on transitioning to sanitary landfills, landfill
+                operations and maintenance, landfill gas-to-energy basics, and project financing.</li>
+        </ul>
+        <p>
+            If you would like your announcement included in our next quarterly roundup of recent
+            developments in the methane community, send it in for consideration. Also, visit
+            our <a href="index.aspx">news and events page</a> for information on past Methane
+            to Markets gatherings.</p>
+		</div>
+	</section>
+	
+	<button onclick="topFunction()" class="btn btn-dark btn-sm" id="btnToTop" title="Go to top"><i class="fa fa-chevron-up" aria-hidden="true"></i> Top</button>
+	
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'en',
+                layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+            }, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+    </script>
+    <script>
+        $('.translateText').click(function () {
+            $("#languageWidget").css("display", "block");
+            $(".hider").slideToggle();
+        });
+    </script>
+
+	
+	<script>
+    //Get the button
+    var mybtnToTop = document.getElementById("btnToTop");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybtnToTop.style.display = "block";
+      } else {
+        mybtnToTop.style.display = "none";
+      }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    </script>
+	
+</body>
+
+</html>

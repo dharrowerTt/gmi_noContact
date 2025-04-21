@@ -1,0 +1,96 @@
+fieldset { 
+  display: block;
+  margin-left: 2px;
+  margin-right: 2px;
+  padding-top: 0.35em;
+  padding-bottom: 0.625em;
+  padding-left: 0.75em;
+  padding-right: 0.75em;
+  border: 1px solid #0592E7;
+  border-radius: 5px;
+  background:#f3f3f3;
+}
+
+legend {
+  font-size: 1.2em;
+  font-weight:bold;
+  background:#024B76;
+  color:white;
+  padding:0.2em 1em;
+  border: 1px solid #0592E7;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #047AC1;
+  border: 2px solid #047AC1;
+  border-radius: 5px;
+  color: white;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #65D0F3; 
+  color: #047AC1; 
+  border: 2px solid #047AC1;
+}
+
+div.centerbutton {text-align:center;margin:10px;}
+
+input.inputfull {width:90%;padding:3%;}
+
+label {
+  box-sizing: border-box;
+  user-select: none;
+  cursor: pointer;
+}
+
+input:checked + label {
+  font-weight: bold;
+}
+
+
+/* grid layout */
+@supports (display: grid) {
+ 
+  .formgrid {
+    display: grid;
+    grid-template-columns: 1fr 1em 4fr;
+    grid-gap: 0.3em 0.6em;
+    grid-auto-flow: dense;
+    align-items: center;
+  }
+  
+  input, output, textarea, select, button {
+    grid-column: 2 / 4;
+    width: auto;
+    margin: 0;
+	padding:10px;
+  }
+  
+  input[type="checkbox"], input[type="radio"] {
+    grid-column: 1 / 3;
+    justify-self: end;
+    margin: 0;
+  }
+  
+  label, input[type="checkbox"] + label, input[type="radio"] + label {
+    width: auto;
+    padding: 0;
+    margin: 0;
+  }
+  
+  textarea + label {
+    align-self: start;
+	padding:3%;
+  }
+}
+

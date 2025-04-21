@@ -1,0 +1,54 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="Reorder.master.vb" Inherits="M2M_Redesign.Reorder" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>Global Methane Initiative</title>
+    <!-- #include virtual="../includes/header.aspx" -->
+</head>
+<body>
+    
+    <div id="toprightcontentarea">
+        <form id="form2" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="RightContentPlaceholder" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        </form>
+    </div>
+    <!--end rightcontentarea div-->
+    <div id="bottommaincontentarea">
+        <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="MainContentPlaceholder" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        </form>
+    </div>
+    <!--end maincontentarea div-->
+    <!-- #include virtual="../includes/footer.aspx" -->
+    <script>
+
+        $("#tabs, #subtabs").tabs();
+
+        // Hover states on the static widgets
+        $("#dialog-link, #icons li").hover(
+	            function () {
+	                $(this).addClass("ui-state-hover");
+	            },
+	            function () {
+	                $(this).removeClass("ui-state-hover");
+	            }
+            );
+
+        $('.open-tab').click(function (event) {
+            var index = $("selector-of-clicked-tab").index();
+            $('#tabs').tabs("option", "active", index);
+        });
+
+            
+    </script>
+</body>
+</html>
+

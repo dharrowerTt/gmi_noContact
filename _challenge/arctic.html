@@ -1,0 +1,409 @@
+﻿<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/dd7fc261ae.js"></script>
+    <style>
+        .aligncenter {
+            text-align: center;
+        }
+
+        body {
+            background: #1695be;
+        }
+
+        .tooltip:hover span {
+            opacity: 1;
+            filter: alpha(opacity=100);
+            top: -6em;
+            left: 20em;
+            z-index: 99;
+            -webkit-transition: all 0.2s ease;
+            -moz-transition: all 0.2s ease;
+            -o-transition: all 0.2s ease;
+            transition: all 0.2s ease;
+        }
+
+        .homearea {
+            position: fixed;
+            bottom: 10px;
+            left: 10px;
+        }
+
+        .homearea:hover {
+            cursor: pointer;
+        }
+
+        .box b {
+            color: #fff;
+        }
+
+        .tooltip span {
+            background: none repeat scroll 0 0 #222;
+            /*-- some basic styling */
+            color: #F0B015;
+            font-family: 'Helvetica';
+            font-size: 0.8em;
+            font-weight: normal;
+            line-height: 1.5em;
+            padding: 16px 15px;
+            width: 240px;
+            top: -4em;
+            /*-- this is the original position of the tooltip when it's hidden */
+            left: 20em;
+            margin-left: 0;
+            /*-- set opacity to 0 otherwise our animations won't work */
+            opacity: 0;
+            filter: alpha(opacity=0);
+            position: absolute;
+            text-align: center;
+            z-index: 2;
+            text-transform: none;
+            -webkit-transition: all 0.3s ease;
+            -moz-transition: all 0.3s ease-in-out;
+            -o-transition: all 0.3s ease;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .tooltip span:after {
+            border-color: #222 rgba(0, 0, 0, 0);
+            border-style: solid;
+            border-width: 15px 15px 0;
+            bottom: -15px;
+            content: "";
+            display: block;
+            left: 31px;
+            position: absolute;
+            width: 0;
+        }
+
+        .callout {
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-top: 10px;
+            background: #f3d5b3;
+            border-radius: 4px;
+
+            width: 400%;
+            margin-bottom: 15px;
+
+        }
+
+
+        .imgtbl {
+            width: 100%;
+            background: #CAEBF2;
+            margin-bottom: 15px;
+        }
+
+        .imgtbl img {
+            padding: 10px;
+            width: 100%;
+        }
+
+        .subtitle td {
+            font-size: 10px;
+            text-align: center;
+
+        }
+
+        table {
+            margin-top: 15px;
+            width: 100%;
+            border-collapse: collapse;
+            text-align: left;
+            overflow: hidden;
+            margin-bottom: 15px;
+        }
+
+        td,
+        th {
+            border-top: 1px solid #ECF0F1;
+            padding: 10px;
+        }
+
+        td {
+
+            border-right: 1px solid #ECF0F1;
+        }
+
+        th {
+            background-color: #4ECDC4;
+        }
+
+        tr:nth-of-type(even) td {
+            background-color: #ecf0f1;
+        }
+
+	div.actiongroup {margin:1px solid #ccc;background:#eee;padding:0px;margin:0px 10px 20px 0px;}
+
+	p.actioncat {
+		padding:10px;
+		margin:0px;
+		background:#D2ECFF;
+		font-weight:bold;
+		font-size:1.2em;
+		border-bottom:2px solid #59A0D2;
+	}
+
+
+	li{
+		padding:5px; 
+
+	}
+
+    </style>
+</head>
+
+<body>
+    <div class="homearea">
+        <a class="btn btn-danger" href="http://staging.globalmethane.org/challenge/index.aspx#actionmap">
+            <i class="fa fa-arrow-left fa-lg"></i> Back to the map
+        </a>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-0 col-md-2"></div>
+            <div class="col-sm-12 col-md-8" style="background:white;">
+                <img src="images/arctic/iceland_banner.jpg" style="width:100%" />
+                <h2>
+                    Arctic Council's Expert Group on Black Carbon and Methane &nbsp;
+                    <!--<a class="btn btn-primary" href="pdf/SourceFacility_Biocity_Profile.pdf"
+                        aria-label="Download the PDF">
+                        <i class="fa fa-download" aria-hidden="true"></i>
+                    </a>-->
+                </h2>
+
+
+                <p>The <a href="https://arctic-council.org/index.php/en/expert-groups/339-egbcm" target="_blank">Expert
+                        Group on Black Carbon and Methane</a>
+                    (EGBCM) was established by the Arctic Council in 2015 to review, analyze, and assess progress
+                    towards the reduction of black carbon and methane emissions across the Arctic and in regions
+                    that influence the Arctic.
+                </p>
+
+                <h3>
+                    2019 Summary of Progress and Recommendations&nbsp;
+                    <!--<a class="btn btn-primary" href="pdf/SourceFacility_Biocity_Profile.pdf"
+                            aria-label="Download the PDF">
+                            <i class="fa fa-download" aria-hidden="true"></i>
+                        </a>-->
+                </h3>
+
+                <div class="callout" style=float:right;width:40%;margin-left:10px;text-align:center;>
+                    <img src="images/arctic/arctic_logo.png"
+                        style="float:none;width:60%;padding-right:10px;padding-left:10px;padding-bottom:10px;">
+                    <br> <b>Arctic Council Members</b>
+                    <br><a href="https://arctic-council.org/index.php/en/about-us/member-states" target="_blank">Arctic
+                        States</a>
+                    <br><a href="https://arctic-council.org/index.php/en/about-us/permanent-participants"
+                        target="_blank">Permanent Participants</a>
+                    <br><a href="https://arctic-council.org/index.php/en/about-us/arctic-council/observers"
+                        target="_blank">Observer States</a>
+<br>
+<br>
+                    <a href="https://oaarchive.arctic-council.org/handle/11374/2411" target="_blank"><img
+                            src="images/arctic/report.png"
+                            style="width:100%;padding-right:10px;padding-left:10px;padding-bottom:10px;margin:5px;">
+                    </a>
+                    <br> The 2019 Report on the Summary of Progress and Recommendations is available on the Arctic
+                    Council Open Access Archive
+                    <a href="https://oaarchive.arctic-council.org/handle/11374/2411" target="_blank">here</a>. 
+
+
+
+
+                </div>
+                <p>Every two years, the EGBCM develops a report that summarizes emissions by the largest
+
+                    contributing sectors and develops recommendations to policy makers on voluntary actions that
+                    countries may wish to apply in different combinations in efforts to reduce emissions.
+
+                    The report is tailored specifically for Arctic States, but the concepts are applicable to any
+                    nation, region, or group looking to achieve reductions in methane and black carbon emissions.
+                </p>
+
+
+
+                <h3>
+                    Fostering Voluntary Actions&nbsp;
+                    <!--<a class="btn btn-primary" href="pdf/SourceFacility_Biocity_Profile.pdf"
+                                    aria-label="Download the PDF">
+                                    <i class="fa fa-download" aria-hidden="true"></i>
+                                </a>-->
+                </h3>
+
+                <p>This report is expected to continue to facilitate cooperation between the Arctic States,
+                    Permanent Participants, and Observer States in achieving methane reductions by voluntarily adopting
+                    recommended actions while also inspiring non-Arctic States to implement similar measures. </p>
+
+                <div style="border:2px; border-style:solid; border-color:black; padding: 10px; margin-top: 15px; width:57%;">
+                    <p>
+                        “This second Summary of Progress and Recommendations from the Expert Group provides an overview
+                        of the progress by Arctic States and Observer States to reduce emissions of black carbon and
+                        methane. The summary of progress is based on national information submitted in early 2018 and,
+                        where relevant, other available data.”
+                        <p>
+                            “Methane priority areas include emissions in the oil and gas sector and solid waste
+                            disposal. Overall methane emissions in the oil and gas sector appear to have remained stable
+                            since 2013, which may present opportunities to improve detection and reduce emissions. In
+                            solid waste management, significant reductions have been achieved in many countries, but
+                            waste management is still a challenge in many remote communities in the Arctic.”
+                            <p>
+                                <div style=text-align:right;font-size:12px;>
+                                Expert Group on Black Carbon and Methane:
+                            <br> Summary of Progress and Recommendations 2019
+                                </div>
+                            </p>
+                        </p>
+                </div>
+
+                <h3>
+                    Recommended Actions&nbsp;
+                    <!--<a class="btn btn-primary" href="pdf/SourceFacility_Biocity_Profile.pdf"
+                                aria-label="Download the PDF">
+                                <i class="fa fa-download" aria-hidden="true"></i>
+                            </a>-->
+                </h3>
+
+		<div class="actiongroup">
+                <p class="actioncat">1. Mobile and stationary diesel-powered sources</p>
+                    <ol type="a">
+                        <li>Reduce emissions from new diesel vehicles and engines by adopting and implementing
+                            world-class particulate matter exhaust emission standards and ensuring widespread
+                            availability of ultra-low sulphur fuels.</li>
+                        <li>Reduce emissions from legacy diesel vehicles and engines by adopting targeted policies and
+                            programs.</li>
+                        <li>Reduce black carbon by stimulating the shift to alternative vehicle technologies and modes
+                            of transportation, and through efficiency measures.</li>
+                        <li>Develop, as appropriate, and report on measures and best practices to reduce particulate
+                            matter and black carbon emissions from shipping.</li>
+                        <li>Reduce emissions from stationary diesel engines by adopting targeted policies and programs,
+                            including shift to new technologies and improved efficiency.</li>
+                    </ol>
+		</div>
+
+		<div class="actiongroup">
+                <p class="actioncat">2. Oil and gas </p>
+                        <ol type="a">
+                            <li>Adopt and implement oil and gas methane emission reduction strategies.</li>
+                            <li>Encourage the adoption of best practices to reduce routine flaring and improve
+                                gas capture.</li>
+                            <li>Urge firms to engage in international and domestic voluntary methane and black carbon
+                                emission reduction activities, including the implementation of methane management
+                                strategies.</li>
+                            <li>Promote targeted and cost-effective measures at large methane emission sources, where
+                                relevant.</li>
+                        </ol>
+		</div>
+
+		<div class="actiongroup">
+                <p class="actioncat">3. Residential Combustion </p>
+                            <ol type="a">
+                                <li>Reduce emissions from new solid fuel combustion appliances by accelerating
+                                    deployment of cleaner and more efficient heating sources and by promoting proper
+                                    operation and maintenance of appliances, including storage and treatment of fuels.
+                                </li>
+                                <li>Reduce emissions from legacy solid fuel combustion appliances by accelerating
+                                    replacement with cleaner and more efficient new heating sources and promoting proper
+                                    operation and maintenance of appliances, including storage and treatment of fuels.
+                                </li>
+                                <li>Reduce emissions by promoting enhanced energy efficiency in residential dwellings to 
+                                    reduce the need for heating, especially in buildings heated with oil or solid
+                                    fuels.</li>
+                            </ol>
+		</div>
+
+		<div class="actiongroup">
+                <p class="actioncat">4. Solid Waste</p>
+                                <ol type="a">
+                                    <li>Avoid methane emissions by preventing food waste and the landfilling of
+                                        organic waste. Improve resource efficiencies as appropriate for Arctic
+                                        conditions, including new ways of reusing organic material based on more
+                                        efficient sorting of waste, composting, and biogas production.
+                                    </li>
+                                    <li>Adopt regulations or incentives for landfill gas capture and control.
+                                    </li>
+                                    <li>Promote best practices for waste management in northern and remote communities.
+                                    </li>
+                                </ol>
+		</div>
+
+		<div class="actiongroup">
+                <p class="actioncat">5. Agriculture and animal husbandry</p>
+                                    <ol type="a">
+                                        <li>Promote food consumption patterns that utilize Arctic food chains
+                                            sustainably and efficiently, support the preservation of carbon sinks, and
+                                            minimize life-cycle emissions of methane.
+                                        </li>
+                                        <li>Promote work on possibilities to reduce emissions of enteric methane under
+                                            Arctic conditions, in cooperation with relevant organizations.
+                                        </li>
+                                        <li>Develop agricultural policies and practices to reduce open burning of
+                                            agricultural waste. Encourage studies and piloting of innovative solutions
+                                            that reduce the need for open burning.
+                                        </li>
+                                    </ol>
+		</div>
+
+		<div class="actiongroup">
+                <p class="actioncat">6. Management of Wildfires</p>
+                                        <ol type="a">
+                                            <li>Build and maintain international mutual aid and resource exchange
+                                                arrangements among Arctic nations that have specialized experience in
+                                                wildfire management, suppression, and monitoring.
+                                            </li>
+                                            <li>Develop region-specific public education campaigns on wildfire
+                                                prevention and safety.
+                                            </li>
+                                            <li>Develop and implement regionally appropriate forest management practices
+                                                that reduce the risk of severe wildfires.
+                                            </li>
+                                            <li>Use the best available science to develop prediction models that can be
+                                                used to examine fire risks at daily to decadal scales and to support
+                                                drafting of prevention and emergency response plans.
+                                            </li>
+                                        </ol>
+		</div>
+
+
+
+                                        <hr>
+                                        <!--     <a href="pdf/SourceFacility_Biocity_Profile.pdf" class="btn btn-primary btn-block">Download The
+                    PDF</a>
+                <hr>-->
+            </div>
+            <div class="col-sm-0 col-md-2"></div>
+        </div>
+    </div>
+    <script>
+        $(document).ready(function () {
+            $('[data-toggle="popover"]').popover({
+                container: '.container'
+            });
+
+            $('body').on('click', function (e) {
+                $('[data-toggle=popover]').each(function () {
+                    // hide any open popovers when the anywhere else in the body is clicked
+                    if (!$(this).is(e.target) && $(this).has(e.target).length === 0 && $(
+                            '.popover').has(e.target).length === 0) {
+                        $(this).popover('hide');
+                    }
+                });
+            });
+
+        });
+    </script>
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+</body>
+
+</html>

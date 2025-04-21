@@ -1,0 +1,386 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/dd7fc261ae.js"></script>
+    <script>
+		(function (w, d, s, l, i) {
+			w[l] = w[l] || [];
+			w[l].push({
+				'gtm.start': new Date().getTime(),
+				event: 'gtm.js'
+			});
+			var f = d.getElementsByTagName(s)[0],
+				j = d.createElement(s),
+				dl = l != 'dataLayer' ? '&l=' + l : '';
+			j.async = true;
+			j.src =
+				'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+			f.parentNode.insertBefore(j, f);
+		})(window, document, 'script', 'dataLayer', 'GTM-WM2LZW5');
+	</script>
+    <style>
+        .aligncenter {
+            text-align: center;
+        }
+
+        body {
+            background: #1695be;
+        }
+
+        .tooltip:hover span {
+            opacity: 1;
+            filter: alpha(opacity=100);
+            top: -6em;
+            left: 20em;
+            z-index: 99;
+            -webkit-transition: all 0.2s ease;
+            -moz-transition: all 0.2s ease;
+            -o-transition: all 0.2s ease;
+            transition: all 0.2s ease;
+        }
+
+        .homearea {
+            position: fixed;
+            bottom: 10px;
+            left: 10px;
+        }
+
+        .homearea:hover {
+            cursor: pointer;
+        }
+
+        .box b {
+            color: #fff;
+        }
+
+        .tooltip span {
+            background: none repeat scroll 0 0 #222;
+            /*-- some basic styling */
+            color: #F0B015;
+            font-family: 'Helvetica';
+            font-size: 0.8em;
+            font-weight: normal;
+            line-height: 1.5em;
+            padding: 16px 15px;
+            width: 240px;
+            top: -4em;
+            /*-- this is the original position of the tooltip when it's hidden */
+            left: 20em;
+            margin-left: 0;
+            /*-- set opacity to 0 otherwise our animations won't work */
+            opacity: 0;
+            filter: alpha(opacity=0);
+            position: absolute;
+            text-align: center;
+            z-index: 2;
+            text-transform: none;
+            -webkit-transition: all 0.3s ease;
+            -moz-transition: all 0.3s ease-in-out;
+            -o-transition: all 0.3s ease;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .tooltip span:after {
+            border-color: #222 rgba(0, 0, 0, 0);
+            border-style: solid;
+            border-width: 15px 15px 0;
+            bottom: -15px;
+            content: "";
+            display: block;
+            left: 31px;
+            position: absolute;
+            width: 0;
+        }
+
+        .callout {
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-top: 10px;
+            background: #f3d5b3;
+            border-radius: 4px;
+
+            width: 100%;
+            margin-bottom: 15px;
+
+        }
+
+
+        .imgtbl {
+            width: 100%;
+            background: #CAEBF2;
+            margin-bottom: 15px;
+        }
+
+        .imgtbl img {
+            padding: 10px;
+            width: 100%;
+        }
+
+        .subtitle td {
+            font-size: 10px;
+            text-align: center;
+
+        }
+
+        table {
+            margin-top: 15px;
+            width: 100%;
+            border-collapse: collapse;
+            text-align: left;
+            overflow: hidden;
+            margin-bottom: 15px;
+        }
+
+        td,
+        th {
+            border-top: 1px solid #ECF0F1;
+            padding: 10px;
+        }
+
+        td {
+
+            border-right: 1px solid #ECF0F1;
+        }
+
+        th {
+            background-color: #4ECDC4;
+        }
+
+        tr:nth-of-type(even) td {
+            background-color: #ecf0f1;
+        }
+
+        .su-custom-gallery-slide {
+            float: left;
+        }
+
+        .su-custom-gallery-slide span {
+            display: none;
+        }
+
+        .su-custom-gallery-slide img {
+            margin: 10px;
+            border-bottom: 3px solid rgba(0, 0, 0, 0);
+            max-height: 80px;
+            width: auto;
+        }
+
+        .su-custom-gallery-slide img:hover {
+            border-bottom: 3px solid darkslategrey;
+        }
+
+        .su-clear {
+            clear: both;
+        }
+
+        .internalRow {
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="homearea">
+        <a class="btn btn-danger" href="showcase.html">
+            <i class="fa fa-arrow-left fa-lg"></i> View showcase
+        </a>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-0 col-md-2"></div>
+            <div class="col-sm-12 col-md-8" style="background:white;">
+                <img src="images/ogmp/unepbanner_ogmp.png" style="width:100%" />
+                <div class="row internalRow">
+                    <h2>
+                        UNEP: Oil and Gas Methane Partnership Initiative to
+                        Manage Methane Emissions from Upstream Oil and Gas
+                        Operations&nbsp;
+                        <!--<a class="btn btn-primary" href="pdf/SourceFacility_Biocity_Profile.pdf"
+                        aria-label="Download the PDF">
+                        <i class="fa fa-download" aria-hidden="true"></i>
+                    </a>-->
+                    </h2>
+                    <p>
+                        The <a href="https://www.ccacoalition.org/en/activity/ccac-oil-gas-methane-partnership"
+                            target="_blank">Oil and Gas Methane
+                            Partnership</a> (OGMP), launched at the 2014 United Nations (UN) Secretary
+                        General’s Climate Summit, was created by the <a href="https://www.ccacoalition.org/en"
+                            target="_blank">Climate and Clean Air Coalition </a>(CCAC) and the <a
+                            href="https://www.unenvironment.org/" target="_blank">United Nations Environmental Programme</a> (UNEP) as a voluntary
+                        initiative to help companies reduce methane emissions in the oil and gas sector. Governments,
+                        international organizations, non-government organizations, and the oil and gas industry
+                        collaborate
+                        through the OGMP to raise awareness and responsibly address methane emissions. The OGMP provides
+                        a
+                        protocol to help companies systematically manage their methane emissions from upstream oil and
+                        gas
+                        operations, as well as offers a credible platform to help member companies demonstrate actual
+                        reductions to industry stakeholders.
+                    </p>
+                    <p>More than 15 percent of global natural gas production is represented by the 10 OGMP member
+                        companies:
+                        BP, Ecopetrol, Eni, Equinor, Neptune Energy International SA, Pemex, PTT, Repsol, Shell, and
+                        Total.
+                    </p>
+
+                </div>
+
+                <div class="row internalRow">
+
+                    <div class="su-custom-gallery-slide"><a href="https://www.bp.com/" target="_blank" title="BP"><img
+                                src="images/ogmp/bplogo.png" alt="bp"><span
+                                class="su-custom-gallery-title">BP</span></a></div>
+                    <div class="su-custom-gallery-slide"><a href="https://www.eni.com/en_IT/home.page" target="_blank"
+                            title="ENI"><img src="images/ogmp/enilogo.jpg" alt="ENI" width="100" height="100"><span
+                                class="su-custom-gallery-title">ENI</span></a>
+                    </div>
+                    <div class="su-custom-gallery-slide"><a href="https://www.ecopetrol.com.co/wps/portal/es"
+                            target="_blank" title="Ecopetrol"><img src="images/ogmp/ecopetrollogo.jpg" alt="Ecopetrol"
+                                width="200" height="150"><span class="su-custom-gallery-title">Ecopetrol</span></a>
+                    </div>
+                    <div class="su-custom-gallery-slide"><a href="https://www.equinor.com/en.html" target="_blank"
+                            title="Equinor"><img src="images/ogmp/equinorlogo.jpg" alt="Equinor"><span
+                                class="su-custom-gallery-title">Equinor</span></a></div>
+                    <div class="su-custom-gallery-slide"><a href="https://www.neptuneenergy.com/" target="_blank"
+                            title="Neptune Energy"><img src="images/ogmp/neptunelogo.jpg" alt="Neptune Energy"
+                                width="200" height="150"><span class="su-custom-gallery-title">Neptune
+                                Energy</span></a>
+                    </div>
+                    <div class="su-custom-gallery-slide"><a href="" target="_blank" title="Pemex"><img
+                                src="images/ogmp/pemexlogo.png" alt="Pemex"><span
+                                class="su-custom-gallery-title">Pemex</span></a></div>
+                    <div class="su-custom-gallery-slide"><a href="https://www.pttplc.com/en/Home.aspx" target="_blank"
+                            title="PTT Group"><img src="images/ogmp/pttgroup.png" alt="PTT Group"><span
+                                class="su-custom-gallery-title">PTT
+                                Group</span></a></div>
+                    <div class="su-custom-gallery-slide"><a href="https://www.repsol.com/en/index.cshtml"
+                            target="_blank" title="Repsol"><img src="images/ogmp/repsol.jpg" alt="Repsol" width="180"
+                                height="100"><span class="su-custom-gallery-title">Repsol</span></a></div>
+                    <div class="su-custom-gallery-slide"><a href="https://www.shell.com/" target="_blank"
+                            title="Shell"><img src="images/ogmp/shell.jpg" alt="Shell"><span
+                                class="su-custom-gallery-title">Shell</span></a></div>
+                    <div class="su-custom-gallery-slide"><a href="https://www.total.com/en" target="_blank"
+                            title="Total"><img src="images/ogmp/total.png" alt="Total"><span
+                                class="su-custom-gallery-title">Total</span></a></div>
+                    <div class="su-clear"></div>
+                    <p>
+                        Key technical partners of the OGMP include the Environmental Defense Fund, the U.S. EPA’s
+                        Natural
+                        Gas STAR program, and the Global Methane Initiative.
+                    </p>
+                </div>
+
+
+
+                <div class="row internalRow">
+
+                    <div class="su-custom-gallery-slide"><a href="https://www.edf.org/" target="_blank" title="EDF"><img
+                                src="images/ogmp/edflogo.jpg" alt="EDF"><span
+                                class="su-custom-gallery-title">EDF</span></a></div>
+                    <div class="su-custom-gallery-slide"><a href="https://www.epa.gov/natural-gas-star-program"
+                            target="_blank" title="Natural Gas STAR"><img src="images/ogmp/gasstarlogo.png"
+                                alt="Natural Gas STAR" width="100" height="100"><span
+                                class="su-custom-gallery-title">Natural Gas STAR</span></a>
+                    </div>
+                    <div class="su-custom-gallery-slide"><a href="https://www.globalmethane.org/" target="_blank"
+                            title="Global Methane Initiative"><img src="images/ogmp/gmilogo.png"
+                                alt="Global Methane Initiative" width="200" height="150"><span
+                                class="su-custom-gallery-title">Global Methane Initiative</span></a></div>
+
+                    <div class="su-clear"></div>
+                    <h3>Joining the OGMP</h3>
+                    <p>To join the OGMP, organizations must voluntarily commit to the following actions:
+                        <ul>
+                            <li>Survey their facilities for nine “core” sources that make up the majority of methane
+                                emissions in typical upstream operations</li>
+                            <li>Evaluate cost-effective technology options to address uncontrolled sources</li>
+                            <li>Report progress on surveys, project evaluations, and project implementation in a
+                                transparent, credible manner that demonstrates results</li>
+                        </ul>
+                    </p>
+                    <p>
+                        Member companies survey their operations and report on the number of each core sources in use.
+                        Members note how many sources are mitigated and how many are unmitigated, with reference to
+                        recommended best-practice options in the <a
+                            href="https://ccacoalition.org/en/content/oil-and-gas-methane-partnership-technical-guidance-documents"
+                            target="_blank">OGMP's Technical Guidance Documents</a>. Companies calculate
+                        methane emissions from each mitigated source and then report their mitigation projects and
+                        respective emission reductions. Annual reports submitted by each partner company are collated by
+                        the
+                        Coalition Secretariat to track the overall progress of the Partnership.
+                    </p>
+                    <p>
+                        Interested organizations can join the partnership by contacting the CCAC Secretariat.
+                    </p>
+                    <div class="callout" style=float:right;width:40%;margin-left:10px;text-align:center;>
+                        <a href="https://www.ccacoalition.org/en/resources/oil-and-gas-methane-partnership-ogmp-third-year-report"
+                            target="_blank"> <img src="images/ogmp/ogmannualreport.png"
+                                style="float:none;width:70%;"></a>
+                        <br> <i>Third Annual Report of the Oil & Gas Methane Partnership (OGMP)</i>
+                    </div>
+                    <h3>OGMP 2.0</h3>
+                    <P>
+                        With increased awareness and better science on the impact of methane, the OGMP is developing
+                        the
+                        OGMP 2.0 reporting framework as the gold standard reporting platform on methane. Under the OGMP
+                        2.0
+                        reporting framework, more detailed and transparent information about methane emissions will be
+                        provided to industry, civil society, and governments with the long-term objective of
+                        incentivizing
+                        the use of natural gas with the lowest possible methane emissions intensity. OGMP will also put
+                        more
+                        focus on partnering with national oil companies and expanding its reach to the midstream and
+                        downstream
+                        segments of the natural gas supply chain.
+                    </P>
+                    <div>
+                        <img src="images/ogmp/ccaclogo.png" style="margin-top: 10px;">
+                        <br>
+                        <br> <i>The OGMP operates in partnership with the CCAC.</i>
+
+                    </div>
+                </div>
+
+                <hr>
+                <!--     <a href="pdf/SourceFacility_Biocity_Profile.pdf" class="btn btn-primary btn-block">Download The
+                        PDF</a>
+                    <hr>-->
+            </div>
+            <div class="col-sm-0 col-md-2"></div>
+        </div>
+    </div>
+    <script>
+        $(document).ready(function () {
+            $('[data-toggle="popover"]').popover({
+                container: '.container'
+            });
+
+            $('body').on('click', function (e) {
+                $('[data-toggle=popover]').each(function () {
+                    // hide any open popovers when the anywhere else in the body is clicked
+                    if (!$(this).is(e.target) && $(this).has(e.target).length === 0 && $(
+                            '.popover').has(e.target).length === 0) {
+                        $(this).popover('hide');
+                    }
+                });
+            });
+
+        });
+    </script>
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+</body>
+
+</html>

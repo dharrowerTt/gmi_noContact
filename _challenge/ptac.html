@@ -1,0 +1,740 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/dd7fc261ae.js"></script>
+    <style>
+        body {
+            background: #1695be;
+        }
+
+        .tooltip:hover span {
+            opacity: 1;
+            filter: alpha(opacity=100);
+            top: -6em;
+            left: 20em;
+            z-index: 99;
+            -webkit-transition: all 0.2s ease;
+            -moz-transition: all 0.2s ease;
+            -o-transition: all 0.2s ease;
+            transition: all 0.2s ease;
+        }
+
+        .homearea {
+            position: fixed;
+            bottom: 10px;
+            left: 10px;
+        }
+
+        .homearea:hover {
+            cursor: pointer;
+        }
+
+        .box b {
+            color: #fff;
+        }
+
+        .tooltip span {
+            background: none repeat scroll 0 0 #222;
+            /*-- some basic styling */
+            color: #F0B015;
+            font-family: 'Helvetica';
+            font-size: 0.8em;
+            font-weight: normal;
+            line-height: 1.5em;
+            padding: 16px 15px;
+            width: 240px;
+            top: -4em;
+            /*-- this is the original position of the tooltip when it's hidden */
+            left: 20em;
+            margin-left: 0;
+            /*-- set opacity to 0 otherwise our animations won't work */
+            opacity: 0;
+            filter: alpha(opacity=0);
+            position: absolute;
+            text-align: center;
+            z-index: 2;
+            text-transform: none;
+            -webkit-transition: all 0.3s ease;
+            -moz-transition: all 0.3s ease-in-out;
+            -o-transition: all 0.3s ease;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .tooltip span:after {
+            border-color: #222 rgba(0, 0, 0, 0);
+            border-style: solid;
+            border-width: 15px 15px 0;
+            bottom: -15px;
+            content: "";
+            display: block;
+            left: 31px;
+            position: absolute;
+            width: 0;
+        }
+
+        .callout {
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-top: 10px;
+            background: #f3d5b3;
+            border-radius: 4px;
+
+            width: 100%;
+            margin-bottom: 15px;
+
+        }
+
+
+        .imgtbl {
+            width: 100%;
+            background: #CAEBF2;
+            margin-bottom: 15px;
+        }
+
+        .imgtbl img {
+            padding: 10px;
+            width: 100%;
+        }
+
+        .subtitle td {
+            font-size: 10px;
+            text-align: center;
+
+        }
+
+        .boxcontainer {
+            padding: 3em;
+            display: grid;
+            grid-gap: .5em;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        }
+
+        .container .quote {
+            padding: 2em;
+            border: 1px solid black;
+        }
+
+        .container .quote p {
+            margin-top: 0;
+        }
+
+        .container .quote span {
+            font-weight: bold;
+            position: relative;
+            margin-left: 15px;
+        }
+
+        .container .quote span:before {
+            content: '';
+            position: absolute;
+            height: 1px;
+            width: 10px;
+            border-bottom: 1px solid black;
+            top: 10px;
+            left: -15px;
+        }
+
+        @media (min-width: 550px) {
+            /*
+    .span-2 {
+        grid-column: auto / span 2;
+    }
+    */
+        }
+
+
+        @media screen and (-ms-high-contrast: active),
+        screen and (-ms-high-contrast: none) {
+
+            /* IE10+ specific styles go here */
+            .quote {
+
+                max-width: 45%;
+                float: left;
+                margin: 2px;
+                height: 300px;
+                margin-bottom: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="homearea">
+        <a class="btn btn-danger" href="http://staging.globalmethane.org/challenge/index.aspx#actionmap">
+            <i class="fa fa-arrow-left fa-lg"></i> Back to the map
+        </a>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-0 col-md-2"></div>
+            <div class="col-sm-12 col-md-8" style="background:white;">
+                <img src="images/ptac/canada_ptac.png" style="width:100%" />
+                <h2>
+                    Petroleum Technology Alliance Canada&nbsp;
+                    <!--<a class="btn btn-primary" href="pdf/SourceFacility_Biocity_Profile.pdf"
+                        aria-label="Download the PDF">
+                        <i class="fa fa-download" aria-hidden="true"></i>
+                    </a>-->
+                </h2>
+
+                <hr>
+                <ul class="nav nav-pills" style="text-align:center;">
+                    <li class="active"><a data-toggle="pill" href="#menu1">CanERIC</a></li>
+                    <li><a data-toggle="pill" href="#menu2">AUPRF</a></li>
+                    <li><a data-toggle="pill" href="#menu3">MERN</a></li>
+                    <li><a data-toggle="pill" href="#menu4">Building Technology Capacity</a></li>
+                </ul>
+
+                <div class="tab-content">
+                    <div id="menu1" class="tab-pane fade in active">
+                        <h2>Creation and Operation of the Canadian Emissions Reduction Innovation Consortium
+                        </h2>
+                        <p>
+
+                            <img src="images/ptac/ptaclogo.jpg"
+                                style="max-width:250px; float:right; margin-bottom: 20px;">
+                            The oil and gas industry currently lacks streamlined support for critically needed, novel,
+                            high performance, and cost-effective technologies to address the global emissions reduction
+                            challenge. <a href="https://www.ptac.org/" target="_blank">Petroleum
+                                Technology Alliance Canada</a> (PTAC) created the Canadian Emissions Reductions
+                            Innovation Consortium (CanERIC) to respond to this industry gap. CanERIC is a network of
+                            emissions reduction test facilities with a vision to perform the following: <table class="imgtbl"
+                                style="width:40%;float: right; margin-left: 10px;">
+                                <tr>
+                                    <td><img src="images/ptac/testingtool.jpg" style="max-height: 60%;"></td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align:center;">
+                                        <i>CMC Research Institute testing tool</i>
+                                    </td>
+                                </tr>
+                            </table>
+                        </p>
+                        <p>
+                            <ul>
+                                <li>Strongly encourage national integration and collaboration</li>
+                                <li>Cover a wide spectrum of methane detection, mitigation, quantification,
+                                    conservation, conversion, flaring, and Short Lived Climate Pollutants (SLCP) for the
+                                    entire upstream, midstream, and downstream hydrocarbon industry and all hydrocarbon
+                                    types, including conventional and unconventional oil and natural gas (oil sands,
+                                    heavy oil, tight oil, shale gas)</li>
+                                <li>Avoid duplication and close technology and field testing gaps;</li>
+                                <li>Provide a one-window access to a full range of specialized facilities to Canadian
+                                    innovators</li>
+                                <li>Host an open information sharing platform</li>
+                                <li>Build capacity and skills in highly qualified personnel (HQP)</li>
+                                <li>Maintain Canadian global innovation leadership</li>
+                            </ul>
+                        </p>
+                        <p>
+
+                            From coast-to-coast, CanERIC supports producers, technology providers, academia, regulators,
+                            and policy makers and ensures equitable opportunities to all—including women, indigenous
+                            communities, immigrants, and remote/small communities. By embracing collaboration, CanERIC
+                            provides a complete suite of facilities, such as labs, piloting spaces, mobile
+                            instrumentation units, and commercial production sites, that respond to the innovation needs
+                            of technology readiness level (TRL) 5-9 technologies related to upstream detection,
+                            quantification, mitigation, conservation, conversion, and flaring of methane.
+                        </p>
+
+
+                        <h3>CanERIC Partners</h3>
+                        <p>
+                            <div class="callout" style=float:right;width:20%;margin-left:2px;text-align:center;>
+                                CanERIC identifies and closes gaps in testing capability.
+                            </div>
+                            CanERIC collaborates with research centers, technology development hubs, and test facility
+                            owners. These members include:
+                        </p>
+                        <p>
+                            <ul>
+                                <li><b>Universities</b> contribute lab spaces, instrumented trailers, and
+                                    considerable
+                                    knowledge, skills, and experience in performing scientific studies, evaluations, and
+                                    research and technology development. They also bring neutral academic credibility to
+                                    data, information, and results that will accelerate the mobilization of research
+                                    outcomes in markets and government policy and regulations. Universities will be the
+                                    main group in developing HQP. Partners include:
+
+                                    <ul>
+                                        <li>Colorado State University</li>
+                                        <li>Carleton University</li>
+                                        <li>University of Waterloo</li>
+                                        <li>Polytechnique Montreal</li>
+                                        <li>University of Calgary</li>
+                                        <li>University of Alberta</li>
+                                        <li>St. Francis Xavier University</li>
+                                        <li>Harrisburg University of Science and Technology </li>
+                                    </ul>
+                                </li>
+                                <li><b>Government laboratories</b> contribute lab spaces, pilot areas, instrumented
+                                    trailers,
+                                    and field facilities, as well as considerable experience in technology evaluation
+                                    and support to technology developers. They also provide skilled and seasoned
+                                    professionals with expertise in performing technical services. Partners include:
+                                    <ul>
+                                        <li>CanmetEnergy</li>
+                                        <li>Innotech Alberta</li>
+                                        <li>Saskatchewan Research Council</li>
+                                        <li>CMC Research Institutes</li>
+                                    </ul>
+                                </li>
+                                <li><b>The Oil and Gas Industry</b> consists of the ultimate end-users and buyers of the
+                                    technologies tested, piloted, and demonstrated by CanERIC. Oil and gas companies
+                                    provide access to production facilities that cover the full range of operations
+                                    where emissions of methane and SLCP take place. Also, industry experts offer
+                                    experience in performing demonstration testing of novel equipment and services,
+                                    whether through PTAC or individually. Several companies perform internal research
+                                    and development programs, while others bring considerable capabilities for
+                                    technology assessment and program management. Partners include:
+                                    <ul>
+                                        <li>ATCO</li>
+                                        <li>Husky</li>
+                                        <li>Chevron</li>
+                                        <li>Total</li>
+                                        <li>Imperial</li>
+                                        <li>Canadian Natural</li>
+                                        <li>PETRONAS Canada</li>
+                                        <li>TransCanada</li>
+                                        <li>Interpipeline</li>
+                                        <li>Encana</li>
+                                        <li>Seven Generations Energy</li>
+                                        <li>NAL Resources</li>
+                                        <li>Whitecap Resources Inc.</li>
+                                        <li>Cenovus Energy</li>
+                                    </ul>
+                                </li>
+                                <li><b>Technology providers</b> collaborate with CanERIC and are the immediate clients
+                                    for
+                                    CanERIC services. They contribute novel technology concepts, emerging technologies,
+                                    and the resources to commercialize and deploy innovation. Examples of technology
+                                    providers are:
+                                    <ul>
+                                        <li>Arolytics</li>
+                                        <li>Black Gold Rush</li>
+                                        <li>Cap-Op</li>
+                                        <li>Carbon Credit Solutions</li>
+                                        <li>Emission Rx</li>
+                                        <li>FERST</li>
+                                        <li>GHGSat</li>
+                                        <li>MultiSensor</li>
+                                        <li>NeoCtech (Polytechnique’s company)</li>
+                                        <li>NitroTech</li>
+                                        <li>Packers Plus</li>
+                                        <li>Surface Solutions</li>
+                                        <li>Total Combustion</li>
+                                        <li>TriCore Carbon</li>
+                                        <li>UV-DOX</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </p>
+                        <h3>One Window Access for Researchers and Innovators</h3>
+                        <p>The innovation journey is complex and expensive for new technologies that reduce methane and
+                            SLCP emissions in the oil and gas industry. A wide range of technical requirements must be
+                            met in diverse settings, while providing low-cost solutions that comply with regulations.
+                            Innovators struggle to gain access to all of the required test facilities that allow them to
+                            address these complexities. CanERIC streamlines this journey for researchers and innovators
+                            by providing simplified access to all facility types along the innovation pathway, from labs
+                            to field production sites. In addition, CanERIC helps to ensure that technology providers
+                            and researchers are informed about the specific challenges faced by producers and
+                            regulators. This information fosters the development of market-driven technologies that also
+                            satisfy
+                            regulatory requirements.</p>
+
+                        <h3>Open Information Sharing Platform</h3>
+                        <p>Innovation is currently hampered and delayed by barriers to information; therefore, CanERIC
+                            will enable a centralized,
+                            national-level hub for information collection and dissemination. Stakeholders, particularly
+                            researchers and
+                            technology developers, have indicated that easier and faster access to highly relevant
+                            information would accelerate their workflow and reduce their cost by more accurately
+                            targeting market requirements.
+                            <div class="callout" style=float:right;width:45%;margin-left:2px;>
+                                <b>CanERIC Reduction Targets</b>
+                                <p>
+                                    <ul>
+                                        <li>Increase sector methane emissions reduction capacity from 30 percent to 45
+                                            percent by 2022</li>
+                                        <li>Achieve 90 percent methane reduction technology capacity by 2035</li>
+                                        <li>Help oil and gas producers meet:
+                                            <ul>
+                                                <li>472 MMTCO<sub>2</sub>e/year by 2025*</li>
+                                                <li>945 MMTCO<sub>2</sub>e/year by 2035*</li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                    *assuming methane is 25 times more potent than CO<sub>2</sub>
+                                </p>
+                            </div>
+                        </p>
+
+                        <h3>Current Work</h3>
+                        <p>
+                            CanERIC currently has over 200 methane emissions reduction and detection technologies with
+                            capacity to reduce Canadian oil and gas sector’s methane emissions by 30 percent. There are
+                            approximately 100 potential technologies to be technically and economically validated, field
+                            tested, and commercialized within the next 15 years.
+                        </p>
+                        <p>The map shows the locations of CanERIC’s member organizations and testing facilities. CanERIC
+                            plans to expand the collaboration
+                            significantly. </p>
+                        <p style="text-align: center;">
+                            <img src="images/ptac/canericmap.png" style="width: 90%;">
+                        </p>
+                        <p style="text-align: center;"><i>CanERIC Map of Member Organizations and Testing Facilities</i>
+                        </p>
+                    </div>
+
+                    <div id="menu2" class="tab-pane fade">
+                        <!--<h4>Jurisdiction</h4>
+                        <p>Federal</p>
+                        <h4>Project Dates</h4>
+                        <p>Ongoing</p>
+                        <h4>Categories of Action</h4>
+                        <p>
+                            <ul>
+                                <li>Policy</li>
+                                <li>Establishment of a framework or an action program that reduces methane emissions</li>
+                                <li>Improvement of public awareness</li>
+                            </ul>
+                        </p>
+                        <h4>Activity Description</h4>-->
+
+                        <!--<h4>Partners/Stakeholders</h4>
+                        <p>Provinces; municipalities; public</p>-->
+
+
+                        <h2>Initiatives in Methane Detection, Quantification, and Reporting</h2>
+                        <p><img src="images/ptac/ptaclogo.jpg"
+                                style="max-width:250px; float:right; margin-bottom: 20px;"> The <a
+                                href="https://www.ptac.org/" target="_blank">Petroleum
+                                Technology Alliance Canada</a> (PTAC) <a
+                                href="https://www.ptac.org/auprf-program-background/" target="_blank">Alberta Upstream
+                                Petroleum Research Program</a> (AUPRF) is a unique environmental, peer-reviewed applied
+                            research program that manages a methane detection and quantification program in Canada.
+                            AUPRF participants include more than 400 producers, Alberta and British Columbia regulators,
+                            policy makers, Canadian universities, and other researchers and technology providers.
+                            Funding for AUPRF is provided through the Alberta Energy Regulator and voluntary
+                            contributions from producers, as well as funding leveraged from other sources.
+                        </p>
+                        <p>
+                            <table class="imgtbl" style="width:40%;float: right; margin-left: 10px;">
+                                <tr>
+                                    <td><img src="images/ptac/teampicture.jpg" style="max-height: 60%;"></td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align:center;">
+                                        <i>AMFC 1.0 Kick-off team picture at Rocky Mountain House, Alberta</i>
+                                    </td>
+                                </tr>
+                            </table>
+                            PTAC is founded on two pillars: innovation and collaboration. PTAC’s consortia developed the
+                            collective technology capacity to help Canada’s oil & gas sector reduce overall methane
+                            emissions by more than 30 percent in the last decade. By 2021, PTAC aims to increase
+                            technology capacity to meet Canada’s oil & gas industry target for reducing methane
+                            emissions by 45 percent by 2025.
+                        </p>
+                        <h3>Projects</h3>
+                        <p>AUPRF supports many projects. Each project is governed by a Term of Reference and agreement
+                            between the project participants and PTAC that defines milestones and establishes procedures
+                            for measuring, reporting, and documenting actions to ensure that project goals are met.</p>
+
+                        <h3>Completed Projects</h3>
+                        <p>
+                            <ul>
+                                <li>Advanced Methane Measurements using Ground-based and Unmanned Aerial Vehicle
+                                    (UAV)-based
+                                    Sensors</li>
+                                <li>Development of a System to Locate and Quantify Emissions via Small Unmanned Aerial
+                                    Systems (SUASs)</li>
+                                <li>Pilot Measurements Study for Quantifying Methane Emissions at Upstream and Midstream
+                                    Oil
+                                    and Gas Facilities</li>
+                                <li>Airborne 3D Gas Imager Aerial Verification</li>
+                                <li>Aerial Emissions Detection and Mapping</li>
+                                <li>Mobile Methane Sensing Analytics for Emissions Reduction</li>
+                                <li>Verification of Quantitative Optical Gas Imaging Systems</li>
+                                <li>NSERC FlareNet Strategic Research Network</li>
+                                <li>Validation of Reduced Spacing from Residences for Enclosed Combustors</li>
+                                <li>Emissions Reduction Opportunities in Dehydration Facilities</li>
+                                <li>Pneumatic Vent Gas Measurement</li>
+                                <li>Field Data Collection Study to Investigate Abnormal Tank Venting</li>
+                                <li>Methane Emissions Data Aggregation and Analysis Project for the Fugitive Emissions
+                                    Management Program – Effectiveness Assessment (FEMP-EA) Truck-Based Mobile Surveys
+                                    (ExACT and OTM33A) to support the PTAC FEMP-EA</li>
+                            </ul>
+                        </p>
+
+                        <p style="text-align: center;">
+                            <img src="images/ptac/RMHproject.jpg" style="width: 80%;">
+                        </p>
+                        <p style="text-align: center;"><i>AMFC 1.0 University of Calgary FEMP-EA project at Rocky
+                                Mountain House, Alberta</i>
+                        </p>
+                        <h3>On-going and Planned Projects</h3>
+                        <p>
+                            <ul>
+                                <li>FEMP-EA Phase II</li>
+                                <li>Alternative FEMP-EA</li>
+                                <li>Alberta Methane Field Challenge (AMFC)</li>
+                                <li>Alt-FEMP Feasibility Study</li>
+                                <li>Plug and Abandon Strategies for Canada's Oil & Gas Wells to Stop Surface Casing Vent
+                                    Flow (SCVF) and Gas Migration (GM)</li>
+                                <li>Multi-year Compositional, Isotopic, and Microbial Investigation of Methane Migration
+                                    Issues to Develop “Best-Practices” for Industry</li>
+                                <li>Determine Criteria to Identify the Placement of Cement and Cement Alternatives
+                                    behind Pipe for SCVF/GM Repair and Identify Drilling Practices that will Optimize
+                                    Well Integrity from Primary Cementing</li>
+                                <li>Establish an Appropriate Threshold Concentration, or Leak Rate, of Sweet Natural Gas
+                                    (Methane) for Well Repair and Identify Long-term Monitoring Solutions</li>
+                            </ul>
+                        </p>
+                        <hr>
+                        <!--     <a href="pdf/SourceFacility_Biocity_Profile.pdf" class="btn btn-primary btn-block">Download The
+                        PDF</a>
+                    <hr>-->
+                    </div>
+                    <div id="menu3" class="tab-pane fade">
+                        <!--<h4>Jurisdiction</h4>
+                        <p>Federal</p>
+                        <h4>Project Dates</h4>
+                        <p>Ongoing</p>
+                        <h4>Categories of Action</h4>
+                        <p>
+                            <ul>
+                                <li>Policy</li>
+                                <li>Establishment of a framework or an action program that reduces methane emissions</li>
+                                <li>Improvement of public awareness</li>
+                            </ul>
+                        </p>
+                        <h4>Activity Description</h4>-->
+
+                        <!--<h4>Partners/Stakeholders</h4>
+                        <p>Provinces; municipalities; public</p>-->
+
+                        <h2>Methane Emissions Reduction Network
+                        </h2>
+                        <p><img src="images/ptac/ptaclogo.jpg"
+                                style="max-width:250px; float:right; margin-bottom: 5x;">
+                            <a href="https://www.ptac.org/" target="_blank">Petroleum
+                                Technology Alliance Canada</a> (PTAC) is building an innovation ecosystem to facilitate
+                            the development of methane emission detection and reduction for oil and gas operations. </p>
+                        <p>
+                            <table class="imgtbl" style="width:40%;float: right; margin-left: 10px;">
+                                <tr>
+                                    <td style="text-align: center;"><img src="images/ptac/methanehub.png"
+                                            style="width: 90%;"></td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align:center;">
+                                        <i>For more information about MERN, including focus areas, resources, and news,
+                                            visit the Methane Hub website at <a href="https://methanehub.ptac.org/"
+                                                target="_blank">methanehub.ptac.org</a>.</i>
+                                    </td>
+                                </tr>
+                            </table>Given the high priority focus on methane reductions initiatives within the Canadian oil and
+                            gas industry, PTAC, in collaboration with their industry partners, developed the Methane
+                            Emissions Reduction Network (MERN). MERN unlocks opportunities for innovators, academic
+                            researchers, and subject matter experts (SME) to connect with and learn from end users, as
+                            well as local and international peers. In developing MERN, PTAC addressed a critical need to
+                            dramatically reduce methane and other greenhouse gas (GHG) emissions through industry
+                            awareness and collaboration, while accelerating the development of decisive technologies. 
+                        </p>
+                        <h3>MERN’s Main Objectives</h3>
+                        <p>
+                            <ul>
+                                <li>Reduce methane and other GHG emissions and increase operational energy efficiency
+                                    in the oil and gas sector by raising producer awareness of available tools and
+                                    techniques that can be used immediately to facilitate positive change</li>
+                                <li>Launch technology projects to detect, mitigate, and report methane and other GHG
+                                    emissions</li>
+                                <li>Secure funds and sites for small- and medium-sized technology providers to field
+                                    test their emissions reduction technologies</li>
+                                <li>Provide a robust and transparent process for adjudication, management, and closure
+                                    of methane and other GHG emission reduction projects</li>
+                                <li>Encourage early actions to address the Climate Leadership Plan</li>
+                            </ul>
+                        </p>
+
+                        <h3>Highlights of MERN’s Actions to Date</h3>
+
+                        <p>
+                            <ul>
+                                <li>Increased deployment and demand for existing methane emissions reduction
+                                    technologies, products, and services from Canadian service and supply companies
+                                    (MERN’s education activities have the potential to increase current penetration
+                                    from less than 10 percent to 30 percent in the near term)</li>
+                                <li>Development, demonstration, and commercialization of new Canadian methane
+                                    emissions reduction products and services to address some of the more difficult
+                                    methane emission reduction challenges and increase market penetration to 45
+                                    percent by 2025</li>
+                            </ul>
+                        </p>
+
+                        <p style="text-align: center;">
+                            <img src="images/ptac/forum.jpg" style="width: 70%;">
+                        </p>
+                        <p style="text-align: center;"><i>PTAC Methane Emissions Reduction Forum in Banff, Alberta</i>
+                        </p>
+
+                        <h3>MERN’s Planned Actions</h3>
+                        <p>
+                            <ul>
+                                <li>Provide uniform, neutral, and complete communications to all stakeholders.</li>
+                                <li>Communicate educational and knowledgeable mobilization opportunities through media
+                                    articles, web posts, webinars, workshops, and other MERN events, including the
+                                    annual Methane Emissions Reduction Forum</li>
+                                <li>Align the current fledging community of practices into a common understanding of
+                                    research needs, technology gaps, scientific opportunities, and promising
+                                    developments</li>
+                                <li>Launch eminently relevant and market-driven applied research and technology
+                                    development projects, informed by respected scientific advisors, experienced end
+                                    users, and prospective customers</li>
+                                <li>Recognize excellence through annual student and SME innovation awards</li>
+                            </ul>
+                        </p>
+                    </div>
+                    <div id="menu4" class="tab-pane fade">
+                        <!--<h4>Jurisdiction</h4>
+                        <p>Federal</p>
+                        <h4>Project Dates</h4>
+                        <p>Ongoing</p>
+                        <h4>Categories of Action</h4>
+                        <p>
+                            <ul>
+                                <li>Policy</li>
+                                <li>Establishment of a framework or an action program that reduces methane emissions</li>
+                                <li>Improvement of public awareness</li>
+                            </ul>
+                        </p>
+                        <h4>Activity Description</h4>-->
+
+                        <!--<h4>Partners/Stakeholders</h4>
+                        <p>Provinces; municipalities; public</p>-->
+                        <h3>Building Technology Capacity to Reduce Methane Emissions at Lower Costs</h3>
+                        <p><img src="images/ptac/ptaclogo.jpg"
+                                style="max-width:250px; float:right; margin-bottom: 20px;">
+                            <a href="https://www.ptac.org/" target="_blank">Petroleum
+                                Technology Alliance Canada</a> (PTAC) acts as a neutral facilitator and manager for
+                            methane mitigation projects and contributes up to 15 percent of funding to help advance
+                            projects that reduce methane emissions. By forming numerous consortia and securing sites and
+                            funding, PTAC helps technology providers develop, commercialize, deploy, and successfully
+                            market their technologies.
+                        </p>
+                        <h3>Examples</h3>
+                        <p>PTAC has been a forum for hundreds of technology providers, producers, academia, regulators,
+                            government organizations, and investors to collaborate and improve cost-effective new
+                            technologies to reduce oil and gas sector methane emissions. PTAC’s consortia have developed
+                            and field-tested numerous technologies that currently have the collective capacity to reduce
+                            overall oil and gas sector methane emissions by more than 30 percent, including:</p>
+
+                        <div class="boxcontainer">
+                            <div class="quote">
+                                <p>
+                                    <h4>Remote Emissions Monitor (REM) Technology</h4>
+                                    <h5><b>REMVue AFR® and SlipStream® Products</b></h5>
+                                    Reduce greenhouse gas emissions equivalent to removing 100,000 cars per year from
+                                    the road and
+                                    saving the industry about $15M annually with potential future savings of $270M
+                                </p>
+                            </div>
+                            <div class="quote">
+                                <p>
+                                    <h4>TRIDO Industries Inc.</h4>
+                                    <h5><b> Solar Chemical Injection Pump</b></h5>
+                                    More than 1,200 actuators installed to date, powering nearly 2,000 pumps throughout
+                                    Western Canada and the United States and saving an average of 225K tonnes of
+                                    CO<sub>2</sub>e
+                                    per
+                                    year
+                                </p>
+                            </div>
+                            <div class="quote">
+                                <p>
+                                    <h4>BlackGold Rush Industries</h4>
+                                    <h5><b>BGR-LP-Vapour Combustor</b></h5>
+                                    Resulted in more than 38.5K tonnes of CO2e offset credits per year
+                                </p>
+                            </div>
+                            <div class="quote">
+                                <p>
+                                    <h4>Greatario Covers Inc.</h4>
+                                    <h5><b>Hexa-Cover®</b></h5>
+                                    2,300 covers installed, offsetting 56K tonnes of CO<sub>2</sub>e to date
+                                </p>
+                            </div>
+                            <div class="quote">
+                                <p>
+                                    <h4>GasPro Compression Corp.</h4>
+                                    <h5><b>Cloud-Based Platform for Managing and Monetizing GHG Emissions Reductions:
+                                            Distributed Energy Efficiency Project Platform (DEEPP)</b></h5>
+                                    With just two dehydrators on site, reduced 247 tonnes of CO<sub>2</sub>e per year
+                                </p>
+                            </div>
+                            <div class="quote">
+                                <p>
+                                    <h4>LCO Technologies</h4>
+                                    <h5><b>CROSSFIRE Chemical Injection Pump and Instrument Air Compressor</b></h5>
+                                    Reduces 14.5M tonnes of CO<sub>2</sub>e per year
+                                </p>
+                            </div>
+                            <div class="quote">
+                                <p>
+                                    <h4>Cap-Op Energy</h4>
+                                    <h5><b>Cloud-Based Platform for Managing and Monetizing GHG Emissions Reductions:
+                                            Distributed Energy Efficiency Project Platform (DEEPP)</b></h5>
+                                    Quantified and registered more than 700K tonnes of CO<sub>2</sub>e offset credits to
+                                    date
+                                </p>
+                            </div>
+                            <div class="quote">
+                                <p>
+                                    <h4>Process Ecology</h4>
+                                    <h5><b>Technology for Emission Reduction and Eco-Efficiency (TEREE)</b></h5>
+                                    Development of right-sizing Gas Driven Tri-ethylene Glycol pumps has resulted in the
+                                    estimated capture of over 1.1M tonnes of CO<sub>2</sub>e offset credits per year
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-0 col-md-2"></div>
+                    </div>
+                </div>
+                <script>
+                    $(document).ready(function () {
+                        $('[data-toggle="popover"]').popover({
+                            container: '.container'
+                        });
+
+                        $('body').on('click', function (e) {
+                            $('[data-toggle=popover]').each(function () {
+                                // hide any open popovers when the anywhere else in the body is clicked
+                                if (!$(this).is(e.target) && $(this).has(e.target).length ===
+                                    0 &&
+                                    $(
+                                        '.popover').has(e.target).length === 0) {
+                                    $(this).popover('hide');
+                                }
+                            });
+                        });
+
+                    });
+                </script>
+                <script>
+                    function goBack() {
+                        window.history.back();
+                    }
+                </script>
+</body>
+
+</html>

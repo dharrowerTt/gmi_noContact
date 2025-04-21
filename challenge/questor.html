@@ -1,0 +1,317 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/dd7fc261ae.js"></script>
+    <style>
+        .aligncenter {
+            text-align: center;
+        }
+
+        body {
+            background: #1695be;
+        }
+
+        .tooltip:hover span {
+            opacity: 1;
+            filter: alpha(opacity=100);
+            top: -6em;
+            left: 20em;
+            z-index: 99;
+            -webkit-transition: all 0.2s ease;
+            -moz-transition: all 0.2s ease;
+            -o-transition: all 0.2s ease;
+            transition: all 0.2s ease;
+        }
+
+        .homearea {
+            position: fixed;
+            bottom: 10px;
+            left: 10px;
+        }
+
+        .homearea:hover {
+            cursor: pointer;
+        }
+
+        .box b {
+            color: #fff;
+        }
+
+        .tooltip span {
+            background: none repeat scroll 0 0 #222;
+            /*-- some basic styling */
+            color: #F0B015;
+            font-family: 'Helvetica';
+            font-size: 0.8em;
+            font-weight: normal;
+            line-height: 1.5em;
+            padding: 16px 15px;
+            width: 240px;
+            top: -4em;
+            /*-- this is the original position of the tooltip when it's hidden */
+            left: 20em;
+            margin-left: 0;
+            /*-- set opacity to 0 otherwise our animations won't work */
+            opacity: 0;
+            filter: alpha(opacity=0);
+            position: absolute;
+            text-align: center;
+            z-index: 2;
+            text-transform: none;
+            -webkit-transition: all 0.3s ease;
+            -moz-transition: all 0.3s ease-in-out;
+            -o-transition: all 0.3s ease;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .tooltip span:after {
+            border-color: #222 rgba(0, 0, 0, 0);
+            border-style: solid;
+            border-width: 15px 15px 0;
+            bottom: -15px;
+            content: "";
+            display: block;
+            left: 31px;
+            position: absolute;
+            width: 0;
+        }
+
+        .callout {
+
+            padding-bottom: 5px;
+            padding-top: 5px;
+            border-radius: 2px;
+
+            width: 100%;
+            margin-bottom: 15px;
+
+        }
+
+
+        .imgtbl {
+            width: 100%;
+            background: #CAEBF2;
+            margin-bottom: 15px;
+        }
+
+        .imgtbl img {
+            padding: 10px;
+            width: 100%;
+        }
+
+        .subtitle td {
+            font-size: 10px;
+            text-align: center;
+
+        }
+
+        table {
+            margin-top: 15px;
+            width: 100%;
+            border-collapse: collapse;
+            text-align: left;
+            overflow: hidden;
+            margin-bottom: 15px;
+        }
+
+        td,
+        th {
+            border-top: 1px solid #ECF0F1;
+            padding: 10px;
+        }
+
+        td {
+
+            border-right: 1px solid #ECF0F1;
+        }
+
+        th {
+            background-color: #4ECDC4;
+        }
+
+        tr:nth-of-type(even) td {
+            background-color: #ecf0f1;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="homearea">
+        <a class="btn btn-danger" href="showcase.html">
+            <i class="fa fa-arrow-left fa-lg"></i> Back to the map
+        </a>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-0 col-md-2"></div>
+            <div class="col-sm-12 col-md-8" style="background:white;">
+                <img src="images/questor/canada_questor.png" style="width:100%" />
+                <h2>
+                    Questor Technology&nbsp;
+                    <!--<a class="btn btn-primary" href="pdf/SourceFacility_Biocity_Profile.pdf"
+                        aria-label="Download the PDF">
+                        <i class="fa fa-download" aria-hidden="true"></i>
+                    </a>-->
+                </h2>
+
+                <p>
+                    <a href="https://www.questortech.com/" target="_blank"><img
+                            style="width:30%;margin-bottom: 15px; margin-left:5px; float: right;"
+                            src="images/questor/questorlogo.png">
+                    </a>
+                    <a href="https://www.questortech.com/" target="_blank">Questor Technology</a> leads the world in
+                    changing the way that waste gas is handled. Questor ensures zero emissions and guarantees that no
+                    harmful pollutants are released into the atmosphere. In April 2020, Questor acquired ISO14034
+                    Environmental technology verification (ETV) certificate for its Q50, Q100, Q250, Q500, Q1000, Q3000
+                    and Q5000 model Thermal Oxidizer equipment (Q-Series) making it the first ETV-certified clean
+                    combustion company in the world.
+                </p>
+                <p>
+                    ISO 14034 is an internationally recognized certificate that verifies the performance of innovative
+                    environmental technologies.
+                </p>
+                <p>VERIFICATION STATEMENT <a
+                    href="https://www.questortech.com/wp-content/uploads/2020/04/Questor-VS-QU1901-fully-executed.pdf"
+                    target="_blank">Download</a></p>
+
+                <h3>GEMMA Real-Time Emissions Monitoring</h3>
+
+                <p>
+                    Questor’s Gas Emissions & Methane Monitoring Analytics (GEMMA) is a digital data platform that
+                    provides 2477 performance monitoring of Questor’s geographically dispersed field devices. Initial
+                    site evaluations establish a baseline for the "before" emissions scenario to assess results after
+                    emission-reducing activities and technology is applied. Field sensors that are connected as an
+                    Internet of Things (IoT) automatically upload emissions data to a secure cloud server, which relays
+                    the uploaded emissions to a central Emissions Excellence Center (EEC) located in Calgary, Canada.
+                    These data provide a basis for comparing before and after results
+                </p>
+
+                <p>
+                    Once uploaded to the EEC, Questor manages the data on a blockchain-based platform that stores data
+                    in a transparent and highly auditable format that interested parties can monitor to ensure that
+                    sites have zero emissions and emissions reductions are quantified. Clients receive automated
+                    emissions reduction reports, which facilitate information sharing with regulators, investors, and
+                    other third-party groups. The quantification, generation, verification, and trading of emissions
+                    reduction credits are also automated.
+                </p>
+
+                <p>
+                    <div class="callout" style=float:right;width:50%;text-align:center;>
+                        <img src="images/questor/gemma.png" style="width:80%; margin-top: 10px;">
+                        <br> <i>Source: Questor Technology</i>
+                    </div>
+                    The data system builds upon Questor's patented world leading waste gas <a
+                        href="https://www.questortech.com/wp-content/uploads/2019/09/General_OnePager_v3.pdf"
+                        target="_blank">Thermal Oxidizer systems</a> with the ability to consolidate sensor data from a
+                    multitude of sources, including satellites, drones, and hand-held and fixed detectors to paint a
+                    complete picture of site emissions.
+                </p>
+                <p>
+                    GEMMA creates economic and process efficiencies by allowing continuous remote monitoring of
+                    geographically dispersed field installations and drastically reducing on-site maintenance
+                    requirements. Ongoing data analysis using artificial intelligence instantly identifies and signals
+                    anomalous performance, such as equipment failure or environmental alarm conditions, enabling
+                    real-time response and minimizing methane emissions.
+                </p>
+
+                <h3>Thermal Oxidizers</h3>
+
+                <p>
+                    In a zero-emission shale pad site in Colorado, Questor is tackling methane at the source globally by
+                    using our technology to eliminate flaring, venting, and fugitive emissions.
+                </p>
+
+                <p style="text-align: center;">
+                    <img src="images/questor/thermal.jpg" style="width:70%;">
+                    <br> <i>Source: Questor Technology</i>
+                </p>
+
+                <p>
+                    Through this process:
+                    <ul>
+                        <li>Questor’s clean combustion technology reduces 28 tons of CO2e for every ton of methane
+                            combusted</li>
+                        <li>Volatile organic compounds (VOCs) are oxidized to CO<sub>2</sub> and water vapor at a
+                            guaranteed 99.99% efficiency –significantly reducing ground-level ozone formation</li>
+                        <li>Lease size was reduced by 30% and capital cost were reduced by 20%</li>
+                        <li>Community concerns over flaring and venting of gases were eliminated</li>
+                    </ul>
+                </p>
+
+                <p style="text-align: center;">
+                    <img src="images/questor/ghgemissions.png" style="width:80%; margin-bottom: 10px;">
+                    <br> <b>Figure 1.</b> Comparison of Greenhouse Gas Emissions Under Different Methane Gas Management
+                    Strategies
+                </p>
+
+                <p style="text-align: center;">
+                    <img src="images/questor/oxidizers.png" style="width:80%; margin: 10px;">
+                    <br> <b>Table 1.</b> Typical Test Results from Questor’s Thermal Oxidizers
+                </p>
+
+                <h3>Emission Reduction Credits</h3>
+                <p>
+                    Questor is tracking performance data and supporting greenhouse gas trading systems through
+                    verification of emissions reduction credits.
+                </p>
+
+                <p style="text-align: center;">
+                    <img src="images/questor/credits.jpg" style="width:70%;">
+                    <br> <i>Source: Questor Technology</i>
+                </p>
+
+                <p> At this site:
+                    <ul>
+                        <li>Total combined gas flow rate: 145 MCF/Hr or 3.5 MMscf/Day</li>
+                        <li>Greenhouse gas (GHG) intensity of the inlet gas (venting): 1670 Tons CO<sub>2</sub>e/Day</li>
+                        <li>GHG intensity of the outlet gas: 183 Tonne CO<sub>2</sub>e/Day</li>
+                        <li>GHG reduction (Clean combustion with 99.99% efficiency): 1487 Tonne CO<sub>2</sub>e/Day</li>
+                        <li>Project total cost $8.9 million</li>
+                        <li>Credit (at $25/Tonne CO<sub>2</sub>e): $13,565,288 per year</li>
+                    </ul>
+                </p>
+
+                <div style="text-align: center;">
+                    <img src="images/questor/sitesummary.jpg" style="width: 70%;">
+                </div>
+                <hr>
+                <!--     <a href="pdf/SourceFacility_Biocity_Profile.pdf" class="btn btn-primary btn-block">Download The
+                        PDF</a>
+                    <hr>-->
+            </div>
+            <div class="col-sm-0 col-md-2"></div>
+        </div>
+    </div>
+    <script>
+        $(document).ready(function () {
+            $('[data-toggle="popover"]').popover({
+                container: '.container'
+            });
+
+            $('body').on('click', function (e) {
+                $('[data-toggle=popover]').each(function () {
+                    // hide any open popovers when the anywhere else in the body is clicked
+                    if (!$(this).is(e.target) && $(this).has(e.target).length === 0 && $(
+                            '.popover').has(e.target).length === 0) {
+                        $(this).popover('hide');
+                    }
+                });
+            });
+
+        });
+    </script>
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+</body>
+
+</html>

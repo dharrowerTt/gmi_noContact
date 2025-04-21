@@ -1,0 +1,372 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/dd7fc261ae.js"></script>
+    <script>
+		(function (w, d, s, l, i) {
+			w[l] = w[l] || [];
+			w[l].push({
+				'gtm.start': new Date().getTime(),
+				event: 'gtm.js'
+			});
+			var f = d.getElementsByTagName(s)[0],
+				j = d.createElement(s),
+				dl = l != 'dataLayer' ? '&l=' + l : '';
+			j.async = true;
+			j.src =
+				'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+			f.parentNode.insertBefore(j, f);
+		})(window, document, 'script', 'dataLayer', 'GTM-WM2LZW5');
+	</script>
+    <style>
+        .aligncenter {
+            text-align: center;
+        }
+
+        body {
+            background: #1695be;
+        }
+
+        .tooltip:hover span {
+            opacity: 1;
+            filter: alpha(opacity=100);
+            top: -6em;
+            left: 20em;
+            z-index: 99;
+            -webkit-transition: all 0.2s ease;
+            -moz-transition: all 0.2s ease;
+            -o-transition: all 0.2s ease;
+            transition: all 0.2s ease;
+        }
+
+        .homearea {
+            position: fixed;
+            bottom: 10px;
+            left: 10px;
+        }
+
+        .homearea:hover {
+            cursor: pointer;
+        }
+
+        .box b {
+            color: #fff;
+        }
+
+        .tooltip span {
+            background: none repeat scroll 0 0 #222;
+            /*-- some basic styling */
+            color: #F0B015;
+            font-family: 'Helvetica';
+            font-size: 0.8em;
+            font-weight: normal;
+            line-height: 1.5em;
+            padding: 16px 15px;
+            width: 240px;
+            top: -4em;
+            /*-- this is the original position of the tooltip when it's hidden */
+            left: 20em;
+            margin-left: 0;
+            /*-- set opacity to 0 otherwise our animations won't work */
+            opacity: 0;
+            filter: alpha(opacity=0);
+            position: absolute;
+            text-align: center;
+            z-index: 2;
+            text-transform: none;
+            -webkit-transition: all 0.3s ease;
+            -moz-transition: all 0.3s ease-in-out;
+            -o-transition: all 0.3s ease;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .tooltip span:after {
+            border-color: #222 rgba(0, 0, 0, 0);
+            border-style: solid;
+            border-width: 15px 15px 0;
+            bottom: -15px;
+            content: "";
+            display: block;
+            left: 31px;
+            position: absolute;
+            width: 0;
+        }
+
+        .callout {
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-top: 10px;
+            background: #f3d5b3;
+            border-radius: 4px;
+
+            width: 100%;
+            margin-bottom: 15px;
+
+        }
+
+
+        .imgtbl {
+            width: 100%;
+            background: #CAEBF2;
+            margin-bottom: 15px;
+        }
+
+        .imgtbl img {
+            padding: 10px;
+            width: 100%;
+        }
+
+        .subtitle td {
+            font-size: 10px;
+            text-align: center;
+
+        }
+
+        table {
+            margin-top: 15px;
+            width: 100%;
+            border-collapse: collapse;
+            text-align: left;
+            overflow: hidden;
+            margin-bottom: 15px;
+        }
+
+        td,
+        th {
+            border-top: 1px solid #ECF0F1;
+            padding: 10px;
+        }
+
+        td {
+
+            border-right: 1px solid #ECF0F1;
+        }
+
+        th {
+            background-color: #4ECDC4;
+        }
+
+        tr:nth-of-type(even) td {
+            background-color: #ecf0f1;
+        }
+
+        .su-custom-gallery-slide {
+            float: left;
+        }
+
+        .su-custom-gallery-slide span {
+            display: none;
+        }
+
+        .su-custom-gallery-slide img {
+            margin: 10px;
+            border-bottom: 3px solid rgba(0, 0, 0, 0);
+            max-height: 80px;
+            width: auto;
+        }
+
+        .su-custom-gallery-slide img:hover {
+            border-bottom: 3px solid darkslategrey;
+        }
+
+        .su-clear {
+            clear: both;
+        }
+
+        .internalRow {
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="homearea">
+        <a class="btn btn-danger" href="showcase.html">
+            <i class="fa fa-arrow-left fa-lg"></i> View showcase
+        </a>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-0 col-md-2"></div>
+            <div class="col-sm-12 col-md-8" style="background:white;">
+                <img src="images/gma/unepbanner_gma.png" style="width:100%" />
+                <div class="row internalRow">
+                    <h2>
+                        UNEP: Global Methane Alliance: Committing to
+                        Significantly Reduce Methane Emissions in the Oil and Gas
+                        Sector by 2030&nbsp;
+                        <!--<a class="btn btn-primary" href="pdf/SourceFacility_Biocity_Profile.pdf"
+                        aria-label="Download the PDF">
+                        <i class="fa fa-download" aria-hidden="true"></i>
+                    </a>-->
+                    </h2>
+                    <p>
+                        Launched by the <a href="https://www.unenvironment.org/" target="_blank">United Nations Environmental Programme</a> (UNEP) and the <a
+                            href="https://www.ccacoalition.org/en" target="_blank">Climate and Clean Air Coalition</a>
+                        (CCAC) in September 2019, the <a
+                            href="https://www.ccacoalition.org/en/activity/global-alliance-significantly-reduce-methane-emissions-oil-and-gas-sector-2030"
+                            target="_blank">Global Methane Alliance </a> (GMA) gathers international organizations,
+                        non-governmental organizations, financing institutions, and the oil and gas industry to support
+                        countries in setting ambitious methane reduction targets for the oil and gas industry, with the
+                        goal of achieving reductions up to 6 gigatons CO<sub>2</sub>e by 2030.
+                    </p>
+                    <p>
+                        <ul>
+                            <li>
+                                <p> UNEP has hosted regional meetings in Peru, Cote d’Ivoire, and Thailand to bring
+                                    together government representatives from the Ministries of Energy and Environment to
+                                    learn about methane emissions in the oil and gas industry and opportunities to
+                                    reduce
+                                    these emissions. Relevant stakeholders gathered to discuss methane regulations and
+                                    the
+                                    various ways that the GMA can help countries achieve meaningful
+                                    emission reductions without hampering other economic and developmental goals. Two
+                                    additional meetings are scheduled to take place in 2020 in Central Asia and the
+                                    Middle
+                                    East with the same goal of giving representatives from large gas-producing nations
+                                    an
+                                    opportunity to exchange ideas and information with each other.
+                            </li>
+                    </p>
+                    <li>
+                        <p> Through its <a href="https://www.ccacoalition.org/en/solution-centre" target="_blank">
+                                Solution
+                                Center</a>, CCAC offers assistance to all interested governments and
+                            other actors ready to make strong and ambitious commitments to reduce methane emissions
+                            from the oil and gas sector. </p>
+                    </li>
+                    </ul>
+                    Current GMA countries include Nigeria and Cote d’Ivoire.
+                    </p>
+                    <p style="text-align: center;">
+                        <img src="images/gma/tank.jpg">
+                        <br><i>Workers inspecting a storage tank. Photo credit: CCAC Secretariat.</i>
+                    </p>
+
+                    <h3>GMA Commitment Options</h3>
+                    <p>
+                        Countries that join the GMA commit to include oil and gas sector methane reduction targets in
+                        their Nationally Determined Contribution (NDC), per Article 4 of the <a
+                            href="https://unfccc.int/files/meetings/paris_nov_2015/application/pdf/paris_agreement_english_.pdf"
+                            target="_blank">
+                            Paris Agreement</a>, or their
+                        climate and energy plans, as part of their overall greenhouse gas reduction targets.
+                    </p>
+                    <p>
+                        Countries choose either an absolute reduction target or a methane intensity target.
+                    </p>
+                    <p>
+                        <ul>
+                            <li>
+                                Committing to an absolute reduction target requires the country to reduce methane
+                                emissions by at least 45 percent by 2025 and 60-75 percent by 2030.
+                            </li>
+                            <li>
+                                Countries that commit to a methane intensity target are required to reach “near-zero”
+                                methane emissions. The methane intensity target refers to the amount of methane
+                                emissions as a percentage of the total amount of methane processed. “Near zero” is
+                                considered to be an intensity of 0.25 percent or below.
+                            </li>
+                        </ul>
+                    </p>
+                    <p>
+                        Supporting partners help countries pursue these targets through technical assistance and policy
+                        support, and by sharing knowledge, technologies, and best management practices.
+                    </p>
+                    <h3>GMA Supporting Partners</h3>
+                    <p>
+                        GMA supporting partners include the Environmental Defense Fund (EDF), the Clean Air Task Force
+                        (CATF), the International Energy Agency (IEA), the European Bank for Reconstruction and
+                        Development (EBRD), and the Oil and Gas Climate Initiative (OGCI).
+                    </p>
+                </div>
+
+                <div class="row internalRow">
+
+                    <div class="su-custom-gallery-slide"><a href="https://www.edf.org/" target="_blank" title="EDF"><img
+                                src="images/ogmp/edflogo.jpg" alt="EDF"><span
+                                class="su-custom-gallery-title">EDF</span></a></div>
+                    <div class="su-custom-gallery-slide"><a href="https://www.catf.us/" target="_blank"
+                            title="CATF"><img src="images/gma/catf.jpg" alt="CATF" width="100" height="100"><span
+                                class="su-custom-gallery-title">CATF</span></a>
+                    </div>
+                    <div class="su-custom-gallery-slide"><a href="https://www.iea.org/" target="_blank" title="IEA"><img
+                                src="images/gma/iea.jpg" alt="IEA" width="200" height="150"><span
+                                class="su-custom-gallery-title">IEA</span></a></div>
+                    <div class="su-custom-gallery-slide"><a href="https://www.ebrd.com/home" target="_blank"
+                            title="EBRD"><img src="images/gma/ebrd.png" alt="EBRD" width="200" height="150"><span
+                                class="su-custom-gallery-title">EBRD</span></a></div>
+                    <div class="su-custom-gallery-slide"><a href="https://oilandgasclimateinitiative.com/"
+                            target="_blank" title="OGCI"><img src="images/gma/ogci.jpg" alt="OGCI" width="200"
+                                height="150"><span class="su-custom-gallery-title">OGCI</span></a></div>
+
+                    <div class="su-clear"></div>
+
+                    <p>
+                        <ul>
+                            <li><a href="https://www.edf.org/" target="_blank">
+                                EDF</a> and <a href="https://www.catf.us/" target="_blank">
+                                    CATF</a> provide technical and policy assistance and are collaborating with UNEP
+                                on planning regional high-level meetings to build awareness among countries about oil
+                                and gas methane emissions.</li>
+                            <li>The <a href="https://www.iea.org/" target="_blank">
+                                IEA</a> provides best-available data and analysis on oil and gas methane emissions,
+                                abatement potentials, and technologies to support governments in drafting effective
+                                methane policy.</li>
+                            <li>The <a href="https://www.ebrd.com/home" target="_blank">
+                                EBRD</a> provides technical assistance and facilitates knowledge transfer on methane
+                                emissions measurement, reporting, and reduction, and may finance methane reduction
+                                investment plans. </li>
+                            <li>Through the <a href="https://oilandgasclimateinitiative.com/" target="_blank">
+                                OGCI</a>, 13 of the largest oil and gas companies in the world are supporting
+                                countries through technical assistance and best practice sharing, as well as providing
+                                assistance
+                                to conduct baseline assessments and other measurement studies.</li>
+                        </ul>
+                    </p>
+
+                </div>
+
+                <hr>
+                <!--     <a href="pdf/SourceFacility_Biocity_Profile.pdf" class="btn btn-primary btn-block">Download The
+                        PDF</a>
+                    <hr>-->
+            </div>
+            <div class="col-sm-0 col-md-2"></div>
+        </div>
+    </div>
+    <script>
+        $(document).ready(function () {
+            $('[data-toggle="popover"]').popover({
+                container: '.container'
+            });
+
+            $('body').on('click', function (e) {
+                $('[data-toggle=popover]').each(function () {
+                    // hide any open popovers when the anywhere else in the body is clicked
+                    if (!$(this).is(e.target) && $(this).has(e.target).length === 0 && $(
+                            '.popover').has(e.target).length === 0) {
+                        $(this).popover('hide');
+                    }
+                });
+            });
+
+        });
+    </script>
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+</body>
+
+</html>

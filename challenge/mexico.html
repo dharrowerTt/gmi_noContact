@@ -1,0 +1,309 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/dd7fc261ae.js"></script>
+    <script>
+		(function (w, d, s, l, i) {
+			w[l] = w[l] || [];
+			w[l].push({
+				'gtm.start': new Date().getTime(),
+				event: 'gtm.js'
+			});
+			var f = d.getElementsByTagName(s)[0],
+				j = d.createElement(s),
+				dl = l != 'dataLayer' ? '&l=' + l : '';
+			j.async = true;
+			j.src =
+				'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+			f.parentNode.insertBefore(j, f);
+		})(window, document, 'script', 'dataLayer', 'GTM-WM2LZW5');
+	</script>
+    <style>
+        body {
+            background: #1695be;
+        }
+
+        .tooltip:hover span {
+            opacity: 1;
+            filter: alpha(opacity=100);
+            top: -6em;
+            left: 20em;
+            z-index: 99;
+            -webkit-transition: all 0.2s ease;
+            -moz-transition: all 0.2s ease;
+            -o-transition: all 0.2s ease;
+            transition: all 0.2s ease;
+        }
+
+        .homearea {
+            position: fixed;
+            bottom: 10px;
+            left: 10px;
+        }
+
+            .homearea:hover {
+                cursor: pointer;
+            }
+
+        .box b {
+            color: #fff;
+        }
+
+        .tooltip span {
+            background: none repeat scroll 0 0 #222; /*-- some basic styling */
+            color: #F0B015;
+            font-family: 'Helvetica';
+            font-size: 0.8em;
+            font-weight: normal;
+            line-height: 1.5em;
+            padding: 16px 15px;
+            width: 240px;
+            top: -4em; /*-- this is the original position of the tooltip when it's hidden */
+            left: 20em;
+            margin-left: 0;
+            /*-- set opacity to 0 otherwise our animations won't work */
+            opacity: 0;
+            filter: alpha(opacity=0);
+            position: absolute;
+            text-align: center;
+            z-index: 2;
+            text-transform: none;
+            -webkit-transition: all 0.3s ease;
+            -moz-transition: all 0.3s ease-in-out;
+            -o-transition: all 0.3s ease;
+            transition: all 0.3s ease-in-out;
+        }
+
+            .tooltip span:after {
+                border-color: #222 rgba(0, 0, 0, 0);
+                border-style: solid;
+                border-width: 15px 15px 0;
+                bottom: -15px;
+                content: "";
+                display: block;
+                left: 31px;
+                position: absolute;
+                width: 0;
+            }
+    </style>
+</head>
+
+<body>
+    <div class="homearea">
+        <a class="btn btn-danger" href="showcase.html">
+            <i class="fa fa-arrow-left fa-lg"></i> View showcase
+        </a>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-0 col-md-2"></div>
+            <div class="col-sm-12 col-md-8" style="background:white;">
+                <img src="images/gallery/mexicobanner.jpg" style="width:100%" />
+                <h2>
+                    Final Regulation Guidelines for the Prevention and Integral Control of Methane Emissions from the
+                    Hydrocarbon Sector&nbsp;<a class="btn btn-primary" href="pdf/mexico.pdf" aria-label="Download the PDF">
+                        <i class="fa fa-download" aria-hidden="true"></i>
+                    </a>
+                </h2>
+                <p>
+                    As a result of the high levels of methane emissions of Mexico (among the top 10 contributors
+                    worldwide<sup>
+                        <a href="#" data-toggle="popover" data-trigger="click" data-html="true" data-content="World Resources Institute.
+                           (2014). CAIT Climate Data Explorer. Historical Emissions-Total CH4. En <a href='cait.wri.org/historical/countries'>cait.wri.org/historical/countries</a>">
+                            1</a>
+                    </sup>, 142 MtCO<sub>2</sub>e in 2015<sup>
+                        <a href="#" data-toggle="popover"
+                           data-trigger="click" data-html="true" data-content="INECC (2015). Inventario Nacional de Emisiones de Gases de Efecto Invernadero. En:
+                    <a href='https://datos.gob.mx/busca/dataset/inventario-nacional-de-emisiones-de-gases-y-compuestos-de-efecto-invernadero-inegycei'>Link</a>">
+                            2</a>
+                    </sup>), specifically those of the hydrocarbon (oil and gas) sector (21.3
+                    MtCO<sub>2</sub>e in 2015<sup>
+                        <a href="#" data-toggle="popover" data-trigger="click" data-html="true"
+                           data-content="Ídem">3</a>
+                    </sup>), and the impact these emissions have on the increase of
+                    the global mean
+                    temperature and thus climate change, Mexico has reiterated its commitment through the ratification
+                    of the Paris Agreement and the Leader’s Statement on a North American Climate, Clean Energy, and
+                    Environment Partnership.
+                </p>
+                <p>
+                    One of the country’s most significant actions to reduce methane emissions is the publication of the
+                    regulation “Guidelines for the Prevention and Integral Control of Methane Emissions from the
+                    Hydrocarbon Sector”, which went into effect on November 7th, 2018. These legally-binding Guidelines
+                    were published by Mexico’s Agency for Safety, Energy and Environment (ASEA), and are the outcome of
+                    an extensive collaboration with expert international NGOs and a public consultation process in
+                    which more than 500 comments were received. They are based on international regulations and best
+                    practices. The implementation of the guidelines intends to contribute to the reduction of methane
+                    emissions worldwide, in agreement with the International Energy Agency’s (IEA) study which states
+                    that applying best practices such as those included in the Guidelines, at a global level, the
+                    Hydrocarbon Sector can achieve a reduction up to 75% of methane emissions. In addition, the Study
+                    also states that a 50% reduction can be achieved at no net cost<sup>
+                        <a href="#" data-toggle="popover"
+                           data-trigger="click" data-html="true" data-content="International Energy Agency. (2017). Outlook for Natural Gas. Chapter 10. The Environmental Case for Natural Gas. How do methane emissions tip the balance? En:
+                    <a href='https://www.iea.org/publications/freepublications/publication/WEO2017Excerpt_Outlook_for_Natural_Gas.pdf'>PDF Link</a>">4</a>
+                    </sup>.
+                    Additionally, the Guidelines
+                    consider the possibility of introducing new and improved best practices and different scenarios for
+                    new and existing oil and gas facilities. The intent of the Guidelines is to achieve methane
+                    emission reductions that will enable the Mexican Hydrocarbon Sector to lead the world in
+                    environmental sustainability internationally.
+                </p>
+                <p>
+                    The Guidelines were built with the objective of achieving annual improvements to methane emissions
+                    prevention and control through the following steps.
+                </p>
+                <video controls width="100%" autoplay>
+                    <source src="assets/video/mexico.mp4" type="video/mp4">
+
+                    Your browser does not support the video tag.
+                </video>
+
+                <ol>
+                    <li>Definition of New and Existing Facilities for the Guidelines</li>
+                    <ul>
+                        <li>Diagnosis:</li>
+                        <ol type="I">
+                            <li>
+                                Identification of sources or possible sources of emissions in equipment or well
+                                operation
+                            </li>
+                            <li>
+                                Classification: Those sources identified will be classified as emissions sent to
+                                destruction, leaks or venting
+                            </li>
+                            <li>
+                                Quantification: Determination of a Base year which will serve as reference point for
+                                establishing an emission limit (New sources) or for determining an emission reduction
+                                goal (Existing sources).
+                            </li>
+                        </ol>
+                        <li>Reduction goal setting</li>
+                        <ol type="I">
+                            <li>
+                                According to its base year each existing facility shall determine an “Integral goal” –
+                                a long- term reduction goal that it is required to be accomplished in no more than six
+                                years. Facilities must also establish annual percentage reduction goals as steps for
+                                accomplishing the integral goal.
+                            </li>
+                            <li>
+                                New facilities are not required to set reduction goals; rather they must maintain the
+                                baseline emission rate established during their Diagnosis. This is because new
+                                facilities should already be in compliance with industry best practices established by
+                                this regulation; therefore, the cleanest way to perform activities and reduce
+                                emissions.
+                            </li>
+                            <li>
+                                If any facility (new or existing) decides to use a “different” best practice, they
+                                should provide a technical rationale on why it was used (assuming that the technology
+                                or practice selected provides a similar or even better result on reducing methane
+                                emissions)
+                            </li>
+                        </ol>
+                    </ul>
+
+                    <li>
+                        Program for the Prevention and Integral Control of Methane Emissions in the Hydrocarbon Sector
+                        (PPCIEM)
+                    </li>
+                    <ul>
+                        <li>
+                            The PPCIEM will be specified on a per facility-basis (equipment and its components, and
+                            also well operation level). Each facility will develop its own PPCIEM and will submit it to
+                            the government.
+                        </li>
+                        <li>
+                            As part of each facility’s PPCIEM, it must create and implement a quarterly leak detection
+                            and repair program (LDAR).
+                        </li>
+                        <ol type="I">
+                            <li>Exceptions for pipeline transport and distribution due to existing regulations</li>
+                            <li>
+                                According to existing information, LDAR programs lead to emission reductions and the
+                                repair of the leaks detected.
+                            </li>
+                        </ol>
+                        <li>
+                            Facilities must implement all the applicable best practices established in the Guidelines
+                        </li>
+                        <li>
+                            For Existing Facilities, an integral reduction goal (six-year goal) must be established and
+                            technically justified
+                        </li>
+                    </ul>
+                    <li>Actions for the Prevention and Integral Control of Methane Emissions in the Hydrocarbon Sector</li>
+                    <ul>
+                        <li>
+                            The actions established include those from the IEA, Global Methane Initiative, Climate
+                            and Clean Air Coalition, Natural Gas STAR Program and those from International regulations
+                            like that for Canada, Colorado State, California State, and the U.S. Environmental
+                            Protection Agency, among others
+                        </li>
+                    </ul>
+
+                    <li>Continuous Improvement</li>
+                    <ul>
+                        <li>New Facilities or Existing Facilities that have reached their goal must do the necessary actions to maintain their volume of methane emissions</li>
+                        <li>Annual internal evaluations must be performed in order to evaluate the PPCIEM progress. Regulated facilities must complete the PPCIEM´s Annual Compliance Report, which will result in a detailed tracking of progress</li>
+                        <li>An Authorized 3rd Party must verify the PPCIEM´s Annual Compliance Report.  Facilities submit their PPCIEM, Annual Compliance Report, and Technical Opinion from an Authorized 3rd Party must be submitted to ASEA)</li>
+                    </ul>
+                </ol>
+
+                <h3>Additional Information</h3>
+                <h4>Deadlines for Existing Facilities: </h4>
+                <ul>
+                    <li>November 7, 2019 (a year after the regulation goes into effect): The regulated entity (facility) must complete its PPCIEM, including the diagnosis, goal establishment and LDAR program.</li>
+                    <li>February 2020: regulated facilities must submit to the Agency the PPCIEM as well as the 3rd party favorable opinion (Dictamination).</li>
+                    <li>First quarter 2021: each regulated facility must provide its first annual compliance report as well as the 3rd party favorable opinion.</li>
+                </ul>
+                <h4>Deadlines for New Facilities </h4>
+                <ul>
+                    <li>A year after the regulated facility begins operations the Regulated must have its PPCIEM which includes the diagnosis and LDAR program. Three months following, the facility must submit to the Agency the PPCIEM as well as the 3rd party favorable opinion (Dictamination).</li>
+                    <li>The annual compliance report, with a third party favorable opinion, will be submitted to the Agency as follows:</li>
+                    <ol type="I">
+                        <li>In the first quarter of the second calendar year of PPCIEM implementation if the facility has been operating for less than six months after the PPCIEM submission.</li>
+                        <li>In the first quarter of the first calendar year of PPCIEM implementation if the facility has been operating six months or more after the PPCIEM submission.</li>
+                    </ol>
+                </ul>
+                <h4>Sanctions </h4>
+                <ul><li>The Guidelines for methane emission reduction are mandatory and as such ASEA can impose sanctions, financial and operational, in a case of non-compliance. However, ASEA favors a “corrective enforcement” scheme under which, the Regulated will find a solution and achieve the established reduction thus consolidating the goal of the regulatory piece. </li></ul>
+                </p>
+                <hr>
+                <a href="pdf/mexico.pdf" class="btn btn-primary btn-block">Download The PDF</a>
+                <hr>
+            </div>
+            <div class="col-sm-0 col-md-2"></div>
+        </div>
+    </div>
+    <script>
+        $(document).ready(function () {
+            $('[data-toggle="popover"]').popover({
+                container: '.container'
+            });
+
+            $('body').on('click', function (e) {
+                $('[data-toggle=popover]').each(function () {
+                    // hide any open popovers when the anywhere else in the body is clicked
+                    if (!$(this).is(e.target) && $(this).has(e.target).length === 0 && $(
+                            '.popover').has(e.target).length === 0) {
+                        $(this).popover('hide');
+                    }
+                });
+            });
+
+        });
+    </script>
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+</body>
+
+</html>

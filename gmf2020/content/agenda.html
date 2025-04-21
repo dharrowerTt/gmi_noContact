@@ -1,0 +1,328 @@
+﻿<div class="container" style="margin-top:3.5rem;">
+    <style>
+
+   
+        table{
+            border-spacing: 0;
+            border:1px solid black;
+        }
+    
+        td{
+            padding:0;
+            padding:10px 5px;
+            border:1px solid lightgrey;
+            vertical-align: top;
+            width:40px;
+        }
+        thead td{
+            font-weight:bold;
+            text-align:center;
+            vertical-align:bottom;
+        }
+        .daycolumn{
+            border-left:2px solid black;
+        }
+    
+        .gmiMeeting{
+            background:RGBA(254,207,141,0.4); /*123,192,80,*/
+        }
+    
+        .uneceMeeting{
+            background:RGBA(123,192,180,0.4);
+        }
+    
+        td:not(:first-child) {
+            max-width:125px!important;
+        }
+    
+        .timeTD{
+            text-align:center;font-size:0.8em;
+            background:#ededed;
+        }
+
+        .tableContainer{
+  overflow-x: auto;
+  width:100%;
+  position: relative;
+}
+
+thead td:first-child {
+    
+  position: -webkit-sticky; /* for Safari */
+  position: sticky;
+ left: 0;
+}
+
+tbody td:first-child {
+  position: -webkit-sticky; /* for Safari */
+  position: sticky;
+  left: 0;
+}
+
+.restTime{
+    background:#D3D3D3;
+}
+.restRow{
+background:#D3D3D3;
+}
+
+.swipeInstructions{
+    background:#024b76;
+    color:#fafafa;
+    text-align:center;
+    padding-left:2px;
+    padding-right:2px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.shineicon:after {
+  
+  animation: shine 5s ease-in-out  infinite;
+  animation-fill-mode: forwards;  
+  content: "";
+  position: absolute;
+  top: -110%;
+  left: -210%;
+  width: 200%;
+  height: 200%;
+  opacity: 0;
+  transform: rotate(30deg);
+  
+  background: rgba(255, 255, 255, 0.13);
+  background: linear-gradient(
+    to right, 
+    rgba(255, 255, 255, 0.13) 0%,
+    rgba(255, 255, 255, 0.13) 77%,
+    rgba(255, 255, 255, 0.5) 92%,
+    rgba(255, 255, 255, 0.0) 100%
+  );
+}
+
+/* Hover state - trigger effect */
+
+
+/* Active state */
+
+.shineicon:active:after {
+  opacity: 0;
+}
+
+@keyframes shine{
+  10% {
+    opacity: 1;
+    top: -30%;
+    left: -30%;
+    transition-property: left, top, opacity;
+    transition-duration: 0.7s, 0.7s, 0.15s;
+    transition-timing-function: ease;
+  }
+  100% {
+    opacity: 0;
+    top: -30%;
+    left: -30%;
+    transition-property: left, top, opacity;
+  }
+}
+        </style>
+    <!-- Example row of columns -->
+
+<p>The agenda below is being provided for reference purposes. Updates will be posted as information becomes available.</p>
+    <h2>Agenda</h2>
+    <div class="tableContainer">
+    <table id="gmfAgenda" style="margin:0px;border-collapse:collapse;overflow-x:auto;display:block;width:fit-content;max-width:100%;font-size:0.95em;">
+        <thead>
+        <tr>
+            <td class="timeTD">Time</td>
+            <td colspan="3" class="daycolumn">MONDAY<br>
+                23 March
+            </td>
+            <td class="daycolumn">TUESDAY<br>
+                24 March
+            </td>
+            <td colspan="4" class="daycolumn">WEDNESDAY<br>
+                25 March
+            </td>
+            <td class="daycolumn">THURSDAY<br>
+                26 March
+            </td>
+            <td class="daycolumn">FRIDAY<br>
+                27&nbsp;March
+            </td>
+        </tr>
+    </thead>
+        <tr class="restRow">
+            <td class="timeTD restTime">08:00</td>
+            <td class="daycolumn">&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td class="daycolumn">&nbsp;</td>
+            <td class="daycolumn">&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td class="daycolumn">&nbsp;</td>
+            <td class="daycolumn">&nbsp;</td>
+        </tr>
+        <tr>
+            <td class="timeTD">09:00</td>
+            <td class="daycolumn gmiMeeting" rowspan="9"><strong>GMI Steering Committee</strong><br>
+                09:00-18:00<br>
+                <em>Room S4</em>
+            </td>
+            <td class="gmiMeeting" rowspan="9"><strong><a href="agenda-biogas.aspx">GMI Biogas Subcommittee</a></strong><br>
+                09:00-18:00<br>
+                <em>Room IV</em>
+            </td>
+            <td></td>
+            <td rowspan="8" class="daycolumn gmiMeeting"><strong><a href="agenda-plenary.aspx">Plenary</a></strong><br>
+                09:15-18:00<br>
+                <em>Room XXI</em>
+	    </td>
+            <td class="daycolumn gmiMeeting" rowspan="5"><strong>GMI Steering Committee</strong><br>
+                09:00-14:00<br>
+                <em>Room IV</em>
+            </td>
+            <td  class="gmiMeeting" rowspan="9"><strong><a href="agenda-oilgas.aspx">GMI Oil & Gas Subcommittee</a></strong><br>
+                09:00-18:00<br>
+                <em>Concordia 1</em>
+            </td>
+            <td class="daycolumn"></td>
+            <td class=" uneceMeeting" rowspan="9"><strong>Workshop on Decarbonized Gases</strong><br>
+<span style="font-size:0.8em;">By Invitation Only</span><br>
+                09:00-18:00<br>
+    
+            </td>
+            <td class="daycolumn"> </td>
+            <td rowspan="9" class="daycolumn uneceMeeting">
+            
+            <strong><!--<a href="#" target="_blank">-->Workshop on Transformation of the Energy Sector <!--<i class="fa fa-external-link" aria-hidden="true"></i></a>--></strong><br>
+                09:00-18:00<br><br>
+            
+            <strong><a href="http://www.unece.org/index.php?id=52737" target="_blank">UNECE Group of Experts on Gas <i class="fa fa-external-link" aria-hidden="true"></i></a></strong><br>
+                10:00-18:00<br>            </td>
+        </tr>
+        <tr>
+            <td class="timeTD">10:00</td>
+ 
+      
+            <td class="uneceMeeting" rowspan="4"><strong><a href="https://www.unece.org/index.php?id=53263" target="_blank">UNECE Group of Experts on Coal Mine Methane <i class="fa fa-external-link" aria-hidden="true"></i></a></strong><br>10:00-14:00</td>
+            <td class=" uneceMeeting" rowspan="8"><strong><a href="https://www.unece.org/index.php?id=53261" target="_blank">Workshop on Abandoned Mine Methane and Mine Closure <i class="fa fa-external-link" aria-hidden="true"></i></a></strong><br>
+              10:00-18:00<br>
+    </td>
+
+            <td class="daycolumn uneceMeeting" rowspan="8"><strong><a href="http://www.unece.org/index.php?id=52737" target="_blank">UNECE Group of Experts on Gas <i class="fa fa-external-link" aria-hidden="true"></i></a></strong><br>
+                10:00-18:00<br>
+            </td>
+        </tr>
+        <tr>
+            <td class="timeTD">11:00</td>
+        </tr>
+        <tr>
+            <td class="timeTD">12:00</td>
+        </tr>
+        <tr >
+            <td class="timeTD">13:00</td>
+        </tr>
+        <tr>
+            <td class="timeTD">14:00</td>
+            <td></td>
+            <td rowspan="4" class="gmiMeeting daycolumn"><strong>Methane Science Session</strong><br>
+                14:00-18:00<br></td>
+        </tr>
+        <tr>
+            <td class="timeTD">15:00</td>
+            <td class="gmiMeeting" rowspan="3"><strong><a href="agenda-coal.aspx">GMI Coal Mines Subcommittee</a></strong><br>
+                15:00-18:00<br>
+                <em>Room XXI</em>
+            </td>
+        </tr>
+        <tr>
+            <td class="timeTD">16:00</td>
+        </tr>
+        <tr>
+            <td class="timeTD">17:00</td>
+            <td class="daycolumn gmiMeeting"><strong>Networking Event</strong><br />
+				17:00-18:00<br />
+				<em>Serpent&nbsp;Bar</em>
+			</td>
+        </tr>
+        <tr class="restRow">
+            <td class="timeTD restTime">18:00</td>
+            <td class="daycolumn"></td>
+            <td></td>
+            <td></td>
+            <td class="daycolumn"></td>
+            <td class="daycolumn"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td class="daycolumn"></td>
+            <td class="daycolumn"></td>
+        </tr>
+    </table>
+
+</div>
+<div class="swipeInstructions hidden"><i class="fa fa-angle-left"></i>&nbsp;Swipe to explore the agenda!&nbsp;<i class="fa fa-angle-right"></i></div>
+
+
+
+
+
+    
+<br />
+<br />
+
+
+<div id="#map1" style="margin:auto;text-align:center;width:100%;">
+
+<h2>Palais de Nations</h2>
+<img src="content/map-agenda-at-a-glance.svg" />
+
+
+
+</div> <!--map-->
+
+
+
+
+
+</div> <!-- /container -->
+
+
+
+
+
+
+
+
+
+
+<script>
+(function() {
+  var elements;
+  var windowHeight;
+
+  function init() {
+    elements = document.querySelectorAll('.hidden');
+    windowHeight = window.innerHeight;
+  }
+
+  function checkPosition() {
+    for (var i = 0; i < elements.length; i++) {
+      var element = elements[i];
+      var positionFromTop = elements[i].getBoundingClientRect().top;
+
+      if (positionFromTop - windowHeight <= 0) {
+        element.classList.add('fade-in-element');
+        element.classList.remove('hidden');
+      }
+    }
+  }
+
+  window.addEventListener('scroll', checkPosition);
+  window.addEventListener('resize', init);
+
+  init();
+  checkPosition();
+})();</script>

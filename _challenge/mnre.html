@@ -1,0 +1,301 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/dd7fc261ae.js"></script>
+    <style>
+        .aligncenter {
+            text-align: center;
+        }
+
+        body {
+            background: #1695be;
+        }
+
+        .tooltip:hover span {
+            opacity: 1;
+            filter: alpha(opacity=100);
+            top: -6em;
+            left: 20em;
+            z-index: 99;
+            -webkit-transition: all 0.2s ease;
+            -moz-transition: all 0.2s ease;
+            -o-transition: all 0.2s ease;
+            transition: all 0.2s ease;
+        }
+
+        .homearea {
+            position: fixed;
+            bottom: 10px;
+            left: 10px;
+        }
+
+        .homearea:hover {
+            cursor: pointer;
+        }
+
+        .box b {
+            color: #fff;
+        }
+
+        .tooltip span {
+            background: none repeat scroll 0 0 #222;
+            /*-- some basic styling */
+            color: #F0B015;
+            font-family: 'Helvetica';
+            font-size: 0.8em;
+            font-weight: normal;
+            line-height: 1.5em;
+            padding: 16px 15px;
+            width: 240px;
+            top: -4em;
+            /*-- this is the original position of the tooltip when it's hidden */
+            left: 20em;
+            margin-left: 0;
+            /*-- set opacity to 0 otherwise our animations won't work */
+            opacity: 0;
+            filter: alpha(opacity=0);
+            position: absolute;
+            text-align: center;
+            z-index: 2;
+            text-transform: none;
+            -webkit-transition: all 0.3s ease;
+            -moz-transition: all 0.3s ease-in-out;
+            -o-transition: all 0.3s ease;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .tooltip span:after {
+            border-color: #222 rgba(0, 0, 0, 0);
+            border-style: solid;
+            border-width: 15px 15px 0;
+            bottom: -15px;
+            content: "";
+            display: block;
+            left: 31px;
+            position: absolute;
+            width: 0;
+        }
+
+        .callout {
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-top: 10px;
+            background: #f3d5b3;
+            border-radius: 4px;
+
+            width: 100%;
+            margin-bottom: 15px;
+
+        }
+
+
+        .imgtbl {
+            width: 100%;
+            background: #CAEBF2;
+            margin-bottom: 15px;
+        }
+
+        .imgtbl img {
+            padding: 10px;
+            width: 100%;
+        }
+
+        .subtitle td {
+            font-size: 10px;
+            text-align: center;
+
+        }
+
+        table {
+            margin-top: 15px;
+            width: 100%;
+            border-collapse: collapse;
+            text-align: left;
+            overflow: hidden;
+            margin-bottom: 15px;
+        }
+
+        td,
+        th {
+            border-top: 1px solid #ECF0F1;
+            padding: 10px;
+        }
+
+        td {
+
+            border-right: 1px solid #ECF0F1;
+        }
+
+        th {
+            background-color: #4ECDC4;
+        }
+
+        tr:nth-of-type(even) td {
+            background-color: #ecf0f1;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="homearea">
+        <a class="btn btn-danger" href="http://staging.globalmethane.org/challenge/index.aspx#actionmap">
+            <i class="fa fa-arrow-left fa-lg"></i> Back to the map
+        </a>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-0 col-md-2"></div>
+            <div class="col-sm-12 col-md-8" style="background:white;">
+                <img src="images/mnre/MNRE_banner.png" style="width:100%" />
+                <h2>
+                    Ministry of New and Renewable Energy: Methane Reduction Policies&nbsp;
+                    <!--<a class="btn btn-primary" href="pdf/SourceFacility_Biocity_Profile.pdf"
+                        aria-label="Download the PDF">
+                        <i class="fa fa-download" aria-hidden="true"></i>
+                    </a>-->
+                </h2>
+                <p>
+                    India has substantial potential to produce biogas and significantly reduce methane emissions.
+                    According to India's Second National Communication to the United Nations Framework Convention on
+                    Climate Change, approximately 20 percent of its anthropogenic methane emissions—81.9 <a
+                        href="https://mnre.gov.in/" target="_blank"><img style="width:20%;float: right; margin:10px;"
+                            src="images/mnre/mnre_logo.jpg">
+                    </a>
+                    MMTCO<sub>2</sub>e—come
+                    from agriculture (manure management), coal mines, municipal solid waste, and natural gas and oil
+                    systems.
+                </p>
+                <p>
+
+                    To help meet this potential, the Government of India’s <a href="https://mnre.gov.in/"
+                        target="_blank">Ministry of New and Renewable Energy</a> (MNRE) is investing heavily in a
+                    national strategy to increase biogas production and reduce methane emissions. The biogas strategy
+                    includes many policy initiatives, capacity building, and public-private partnerships. In addition to
+                    promoting biogas development, the strategy supports goals for sustainable development, sanitation
+                    improvements, and increased generation of renewable energy.
+                </p>
+                <h3>Policies and Incentives to Promote Biogas </h3>
+                <h4 style="margin-top: 25px;">
+                    Waste-to-Energy</h4>
+                <p>
+                    Waste-to-energy projects promote the recovery of energy from urban,
+                    industrial, and agricultural wastes. The projects focus on
+                    converting urban wastes, including municipal solid waste, industrial waste/effluent, and
+                    agricultural waste, into fuel in the form of biogas. The fuel is used to meet thermal requirements
+                    such as heating and cooking, power for meeting captive needs of industries or feeding into the grid,
+                    and compressed biogas (CBG) for vehicular fuel. MNRE provides financial incentives in the form of
+                    back-ended capital subsidies to encourage participation in these projects, incentives to state
+                    agencies for promoting biogas projects, training, and outreach to project developers. Currently,
+                    waste-to-energy projects have a cumulative installed capacity of 702,508 m<sup>3</sup> per day of
+                    biogas
+                    generation, 84,759 kg per day of CBG, and 141 MW of biogas-based power per day. <table
+                        class="imgtbl" style="width:30%;float: right; margin-left: 10px;">
+                        <tr>
+                            <td><img src="images/mnre/biogas_plant.png" style="height: 40%;"></td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:center;">
+                                <i>National Biogas and Organic Manure Programme Biogas plant</i>
+                            </td>
+                        </tr>
+                    </table>
+                </p>
+
+                <h4 style="margin-top: 25px;">New National Biogas
+                    and Organic Manure Programme
+                </h4>
+                <p>
+                    The New National Biogas and Organic Manure Programme (NNBOMP) promotes the use of biogas produced
+                    from cattle manure and other organic wastes available in rural areas. The programme has helped
+                    establish multiple small-scale biogas plants with installed capacity ranging from 1 to 25
+                    m<sup>3</sup> per day.
+                    Families in rural areas use the plants to obtain cooking fuel and organic fertilizer. The NNBOMP
+                    also supports community-scale biogas plants with installed capacity ranges of up to 2500
+                    m<sup>3</sup> per day.
+                    MNRE provides 30 to 35 percent of project costs in the form of back-ended subsidies for setting up
+                    the biogas plants. To date, India has installed over 5 million small-scale biogas plants. The
+                    projects have added another 7.2 MW of biogas-based power generation capacity. Community-scale biogas
+                    plants developed under NNBOMP contribute 69,585 m<sup>3</sup> of biogas generation capacity per day.
+                </p>
+
+                <h4 style="margin-top: 25px;">National Policy on
+                    Biofuels and
+                    Sustainable
+                    Alternative Towards Affordable Transportation
+                </h4>
+                <p>
+                    MNRE’s National Policy on Biofuels aims to reduce the amount of crude oil imported into India 10
+                    percent by 2022 through increased use of ethanol, biodiesel, and CBG.
+                    To promote CBG, the Sustainable Alternative Towards Affordable Transportation Program supports
+                    development of 5,000 CBG plants with an expected production capacity of 15 million tons of CBG
+                    annually by 2023. These two initiatives work together to promote CBG as an automotive fuel source.
+                    <table class="imgtbl" style="width:30%;float: right; margin-left: 10px;">
+                        <tr>
+                            <td><img src="images/mnre/gobardahn.png" style="height: 40%;"></td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:center;">
+                                <i>GOBAR-Dahn initiative Biogas plant</i>
+                            </td>
+                        </tr>
+                    </table>
+                </p>
+                <h4 style="margin-top: 25px;">Galvanising Organic Bio-Agro Resources Dhan (GOBAR-Dahn)
+                </h4>
+                <p>
+                    The GOBAR-Dahn initiative aims to improve sanitation in Indian villages by funding projects that
+                    process livestock manure and agricultural waste to produce biogas. MNRE provides up to 100 percent
+                    of the project cost for small-scale digesters in villages and larger-scale projects at dairies and
+                    other waste generating facilities.
+
+                </p>
+                <h3>About MNRE</h3>
+                <p>MNRE is the nodal Ministry of the Government of India for all matters relating to new and renewable
+                    energy. The broad aim of the Ministry is to develop and deploy new and renewable energy, including
+                    biogas, to help meet the energy requirements of the country.
+                <br>
+                <br>
+            </p>
+
+                <hr>
+                <!--     <a href="pdf/SourceFacility_Biocity_Profile.pdf" class="btn btn-primary btn-block">Download The
+                        PDF</a>
+                    <hr>-->
+            </div>
+            <div class="col-sm-0 col-md-2"></div>
+        </div>
+    </div>
+    <script>
+        $(document).ready(function () {
+            $('[data-toggle="popover"]').popover({
+                container: '.container'
+            });
+
+            $('body').on('click', function (e) {
+                $('[data-toggle=popover]').each(function () {
+                    // hide any open popovers when the anywhere else in the body is clicked
+                    if (!$(this).is(e.target) && $(this).has(e.target).length === 0 && $(
+                            '.popover').has(e.target).length === 0) {
+                        $(this).popover('hide');
+                    }
+                });
+            });
+
+        });
+    </script>
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+</body>
+
+</html>

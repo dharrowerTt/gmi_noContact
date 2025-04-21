@@ -1,0 +1,662 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/dd7fc261ae.js"></script>
+    <style>
+        .aligncenter {
+            text-align: center;
+        }
+
+        body {
+            background: #1695be;
+        }
+
+        .tooltip:hover span {
+            opacity: 1;
+            filter: alpha(opacity=100);
+            top: -6em;
+            left: 20em;
+            z-index: 99;
+            -webkit-transition: all 0.2s ease;
+            -moz-transition: all 0.2s ease;
+            -o-transition: all 0.2s ease;
+            transition: all 0.2s ease;
+        }
+
+        .homearea {
+            position: fixed;
+            bottom: 10px;
+            left: 10px;
+        }
+
+        .homearea:hover {
+            cursor: pointer;
+        }
+
+        .box b {
+            color: #fff;
+        }
+
+        .tooltip span {
+            background: none repeat scroll 0 0 #222;
+            /*-- some basic styling */
+            color: #F0B015;
+            font-family: 'Helvetica';
+            font-size: 0.8em;
+            font-weight: normal;
+            line-height: 1.5em;
+            padding: 16px 15px;
+            width: 240px;
+            top: -4em;
+            /*-- this is the original position of the tooltip when it's hidden */
+            left: 20em;
+            margin-left: 0;
+            /*-- set opacity to 0 otherwise our animations won't work */
+            opacity: 0;
+            filter: alpha(opacity=0);
+            position: absolute;
+            text-align: center;
+            z-index: 2;
+            text-transform: none;
+            -webkit-transition: all 0.3s ease;
+            -moz-transition: all 0.3s ease-in-out;
+            -o-transition: all 0.3s ease;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .tooltip span:after {
+            border-color: #222 rgba(0, 0, 0, 0);
+            border-style: solid;
+            border-width: 15px 15px 0;
+            bottom: -15px;
+            content: "";
+            display: block;
+            left: 31px;
+            position: absolute;
+            width: 0;
+        }
+
+        .callout {
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-top: 10px;
+            background: #f3d5b3;
+            border-radius: 4px;
+
+            width: 100%;
+            margin-bottom: 15px;
+
+        }
+
+
+        .imgtbl {
+            width: 100%;
+            background: #CAEBF2;
+            margin-bottom: 15px;
+        }
+
+        .imgtbl img {
+            padding: 10px;
+            width: 100%;
+        }
+
+        .subtitle td {
+            font-size: 10px;
+            text-align: center;
+
+        }
+
+        table {
+            margin-top: 10px;
+            width: 100%;
+            border-collapse: collapse;
+            text-align: left;
+            overflow: hidden;
+            margin-bottom: 10px;
+            margin-left: auto;
+            margin-right: auto;
+            font-size: 12px;
+        }
+
+        td,
+        th {
+            border-top: 1px solid #ECF0F1;
+            padding: 5px;
+        }
+
+        td {
+
+            border-right: 1px solid #ECF0F1;
+        }
+
+        th {
+            background-color: rgb(41, 38, 99);
+            color: white;
+            text-align: center;
+        }
+
+        tr:nth-of-type(even) td {
+            background-color: #ecf0f1;
+        }
+
+        .modalImage {
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .modalImage:hover {
+            opacity: 0.7;
+        }
+
+        /* The Modal (background) */
+        .modal {
+            display: none;
+            /* Hidden by default */
+            position: fixed;
+            /* Stay in place */
+            z-index: 1;
+            /* Sit on top */
+            padding-top: 100px;
+            /* Location of the box */
+            left: 0;
+            top: 0;
+            width: 100%;
+            /* Full width */
+            height: 100%;
+            /* Full height */
+            overflow: auto;
+            /* Enable scroll if needed */
+            background-color: rgb(0, 0, 0);
+            /* Fallback color */
+            background-color: rgba(0, 0, 0, 0.9);
+            /* Black w/ opacity */
+        }
+
+        /* Modal Content (image) */
+        .modal-content {
+            margin: auto;
+            display: block;
+            width: 80%;
+            max-width: 1000px;
+        }
+
+        /* Caption of Modal Image */
+        #caption {
+            margin: auto;
+            display: block;
+            width: 80%;
+            max-width: 700px;
+            text-align: center;
+            color: #ccc;
+            padding: 10px 0;
+            height: 150px;
+        }
+
+        /* Add Animation */
+        .modal-content,
+        #caption {
+            -webkit-animation-name: zoom;
+            -webkit-animation-duration: 0.6s;
+            animation-name: zoom;
+            animation-duration: 0.6s;
+        }
+
+        @-webkit-keyframes zoom {
+            from {
+                -webkit-transform: scale(0)
+            }
+
+            to {
+                -webkit-transform: scale(1)
+            }
+        }
+
+        @keyframes zoom {
+            from {
+                transform: scale(0)
+            }
+
+            to {
+                transform: scale(1)
+            }
+        }
+
+        /* The Close Button */
+        .close {
+            position: absolute;
+            top: 15px;
+            right: 35px;
+            color: #f1f1f1;
+            font-size: 40px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .close:hover,
+        .close:focus {
+            color: #bbb;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        /* 100% Image Width on Smaller Screens */
+        @media only screen and (max-width: 700px) {
+            .modal-content {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="homearea">
+        <a class="btn btn-danger" href="http://staging.globalmethane.org/challenge/index.aspx#actionmap">
+            <i class="fa fa-arrow-left fa-lg"></i> Back to the map
+        </a>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-0 col-md-2"></div>
+            <div class="col-sm-12 col-md-8" style="background:white;">
+                <img src="images/aie/banner.png" style="width:100%" />
+                <h2>
+                    Asset Integrity Engineering (AIE): An Innovative and Structured Approach to Methane Emissions
+                    Monitoring and Reduction&nbsp;
+                    <!--<a class="btn btn-primary" href="pdf/SourceFacility_Biocity_Profile.pdf"
+                        aria-label="Download the PDF">
+                        <i class="fa fa-download" aria-hidden="true"></i>
+                    </a>-->
+                </h2>
+
+
+                <p> <a href="https://www.assetintegrityengineering.com/" target="_blank"><img
+                            style="width:25%;margin-bottom: 20px; margin-left: 10px; float: right;"
+                            src="images/aie/logo.png">
+                    </a>
+                    <a href="https://www.assetintegrityengineering.com/" target="_blank">Asset Integrity Engineering</a>
+                    (AIE)
+                    is supporting oil and gas operators with their emission reduction efforts. AIE’s staged approach
+                    incorporates technical guidance developed by the Climate and Clean Air Coalition <a
+                        href="https://www.ccacoalition.org/en/activity/ccac-oil-gas-methane-partnership"
+                        target="_blank">Oil and Gas Methane Partnership</a> (OGMP) to assess nine core methane emission
+                    sources. Using its proprietary Veracity software, AIE identifies areas with significant methane
+                    emissions through desktop screening of the facilities and creates inspection plans that use
+                    optimized infrared (IR) imaging to validate leaks. Once methane emissions are validated through
+                    inspection, the team develops and implements an action plan for emissions reduction and monitoring.
+                    Currently, AIE supports oil and gas facilities in the Middle East and North Africa (MENA) region and
+                    intends to expand the use of this approach globally.
+                </p>
+                <h3>
+                    AIE’s Staged Approach to Methane Emission Reductions
+                </h3>
+                <p>
+                    AIE’s staged approach consists of four stages, as described below. Sample tables and charts that are
+                    used during each stage are provided as examples.
+                </p>
+
+                <p style="text-align: center;">
+                    <img src="images/aie/approach.png" style="width:90%">
+
+                </p>
+                <p>
+                    <ol>
+                        <li>
+                            In the <b>Desktop Screening stage</b>, AIE conducts a study of the facility to evaluate the
+                            presence of nine core methane emission sources with reference to the OGMP technical guidance
+                            documents, quantify the facility’s potential methane emissions, and generate an IR imaging
+                            inspection plan based on system criticality.
+                        </li>
+                    </ol>
+                    <br>
+                    <p style="margin-top: 20px;">
+                        <h4 style=" text-align: center;"> <i><b>Example:</b> Identification of Nine Core Elements</i>
+                        </h4>
+                        <table style="width:90%">
+                            <tr>
+                                <th>Core Emission Source</th>
+                                <th>Identified (✓/✗)</th>
+
+                            </tr>
+                            <tr>
+                                <td>Natural gas-driven pneumatic controllers and pumps</td>
+                                <td>✗</td>
+
+                            </tr>
+                            <tr>
+                                <td>Fugitive component and equipment leaks</td>
+                                <td>✓</td>
+                            </tr>
+                            <tr>
+                                <td>Centrifugal compressors with “wet” (oil) seals</td>
+                                <td>✓</td>
+                            </tr>
+                            <tr>
+                                <td>Reciprocating compressors rod seal/packing vents</td>
+                                <td>✓</td>
+                            </tr>
+                            <tr>
+                                <td>Glycol dehydrators</td>
+                                <td>✓</td>
+                            </tr>
+                            <tr>
+                                <td>Unstabilized hydrocarbon liquid storage tanks</td>
+                                <td>✗</td>
+                            </tr>
+                            <tr>
+                                <td>Well venting for liquids unloading</td>
+                                <td>✓</td>
+                            </tr>
+                            <tr>
+                                <td>Well venting/flaring during well completion for hydraulically fractured gas</td>
+                                <td>✗</td>
+                            </tr>
+                            <tr>
+                                <td>Casinghead gas venting</td>
+                                <td>✗</td>
+                            </tr>
+                        </table>
+                        <br>
+                        <div style="text-align: center;">
+                            <h4> <i><b>Example:</b> Quantification of Potential Emissions</i></h4>
+                            <img class="modalImage" id="Img1" src="images/aie/Picture1.png"
+                                alt="Quantification of Potential Emissions" style="width:100%;max-width:300px">
+                            <br>Click to enlarge the image
+                        </div>
+                        <br>
+                        <div>
+                            <h4 style="text-align: center;">
+                                <i><b>Example:</b> Ranking of Criticality of Systems </i>
+                            </h4>
+                            <table class="tableizer-table" style="width: 95%;">
+                                <thead>
+                                    <tr class="tableizer-firstrow">
+                                        <th>System</th>
+                                        <th>Pressure Score</th>
+                                        <th>Degradation Score</th>
+                                        <th>Methane Content Score</th>
+                                        <th>Criticality Score</th>
+                                        <th>Inspection Frequency (Months)</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Inlet Coolers & Separators</td>
+                                        <td>2</td>
+                                        <td>2</td>
+                                        <td>3</td>
+                                        <td style="background-color: rgb(255, 178, 36);">12</td>
+                                        <td>36</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Inlet Compression</td>
+                                        <td>3</td>
+                                        <td>2</td>
+                                        <td>3</td>
+                                        <td style="background-color: rgb(255, 64, 64);">18</td>
+                                        <td>12</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Molecular Sieve System</td>
+                                        <td>3</td>
+                                        <td>2</td>
+                                        <td>3</td>
+                                        <td style="background-color: rgb(255, 64, 64);">18</td>
+                                        <td>12</td>
+                                    </tr>
+                                    <tr>
+                                        <td>LPG Plant</td>
+                                        <td>3</td>
+                                        <td>2</td>
+                                        <td>2</td>
+                                        <td style="background-color: rgb(255, 178, 36);">12</td>
+                                        <td>36</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Condensate Plant</td>
+                                        <td>2</td>
+                                        <td>2</td>
+                                        <td>1</td>
+                                        <td style="background-color:rgb(88, 185, 88)">4</td>
+                                        <td>Opportunity Based</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Amine Plant</td>
+                                        <td>2</td>
+                                        <td>2</td>
+                                        <td>2</td>
+                                        <td style="background-color:rgb(88, 185, 88)">8</td>
+                                        <td>Opportunity Based</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Sales Gas</td>
+                                        <td>3</td>
+                                        <td>2</td>
+                                        <td>3</td>
+                                        <td style="background-color: rgb(255, 64, 64);">18</td>
+                                        <td>12</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Propane Treater</td>
+                                        <td>2</td>
+                                        <td>2</td>
+                                        <td>1</td>
+                                        <td style="background-color:rgb(88, 185, 88)">4</td>
+                                        <td>Opportunity Based</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Hot Oil System</td>
+                                        <td>1</td>
+                                        <td>2</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>Not Required</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Reinjection System</td>
+                                        <td>3</td>
+                                        <td>2</td>
+                                        <td>3</td>
+                                        <td style="background-color: rgb(255, 64, 64);">18</td>
+                                        <td>12</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Fuel Gas System</td>
+                                        <td>2</td>
+                                        <td>2</td>
+                                        <td>3</td>
+                                        <td style="background-color: rgb(255, 178, 36);">12</td>
+                                        <td>36</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Flare Header System</td>
+                                        <td>1</td>
+                                        <td>2</td>
+                                        <td>2</td>
+                                        <td style="background-color:rgb(88, 185, 88)">4</td>
+                                        <td>Opportunity Based</td>
+                                    </tr>
+                                    <tr>
+                                        <td>LPG Terminal</td>
+                                        <td>2</td>
+                                        <td>2</td>
+                                        <td>1</td>
+                                        <td style="background-color:rgb(88, 185, 88)">4</td>
+                                        <td>Opportunity Based</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Condensate Terminal</td>
+                                        <td>2</td>
+                                        <td>2</td>
+                                        <td>1</td>
+                                        <td style="background-color:rgb(88, 185, 88)">4</td>
+                                        <td>Opportunity Based</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Field Manifolds and Pipeline Networks</td>
+                                        <td>2</td>
+                                        <td>2</td>
+                                        <td>2</td>
+                                        <td style="background-color:rgb(88, 185, 88)">8</td>
+                                        <td>Opportunity Based</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Field-1</td>
+                                        <td>2</td>
+                                        <td>2</td>
+                                        <td>2</td>
+                                        <td style="background-color:rgb(88, 185, 88)">8</td>
+                                        <td>Opportunity Based</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Field-2</td>
+                                        <td>2</td>
+                                        <td>2</td>
+                                        <td>2</td>
+                                        <td style="background-color:rgb(88, 185, 88)">8</td>
+                                        <td>Opportunity Based</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Full Field Compression</td>
+                                        <td>2</td>
+                                        <td>2</td>
+                                        <td>2</td>
+                                        <td style="background-color:rgb(88, 185, 88)">8</td>
+                                        <td>Opportunity Based</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            </table>
+                    </p>
+                    <p>
+                        <ol start="2">
+                            <li>
+                                During the <b>Site Validation</b> stage, AIE implements the IR imaging inspection plan
+                                and
+                                determines
+                                the
+                                actual methane emission rates. During this stage, AIE uses quantifications to verify and
+                                update
+                                estimates made during the Desktop Screening stage.
+                            </li>
+                        </ol>
+                        <br>
+                        <div style="text-align: center; margin-top: 10px;">
+                            <h4> <i><b>Example:</b> IR Imaging of Leaks </i></h4>
+                            <img src="images/aie/irimg.png" style="width:100%">
+                        </div>
+                    </p>
+                    <p>
+                        <ol start="3">
+                            <li>
+                                In the <b>Action Plan Development</b> stage, AIE identifies and selects mitigation
+                                actions based
+                                on a cost-benefit analysis.
+                            </li>
+                            <br>
+                            <div style="text-align: center;">
+                                <h4> <i><b>Example:</b> Validated Emission Reduction Opportunities and Costs</i></h4>
+                                <img class="modalImage" id="Img2" src="images/aie/Picture2.png"
+                                    alt="Validated Emission Reduction Opportunities and Costs"
+                                    style="width:100%;max-width:300px">
+                                <br>Click to enlarge the image
+                            </div>
+                        </ol>
+                    </p>
+                    <br>
+                    <p>
+                        <ol start="4">
+                            <li> During the <b>Action Plan Close Out, Reporting & Management</b> stage, AIE implements
+                                Directed
+                                Inspection and Maintenance (DI&M) plans via the computerized maintenance management
+                                system. AIE
+                                sets key performance indicators and monitors and reports action items using the Veracity
+                                software. For example, the percentage of overall compliance for the control system, with
+                                no
+                                emission management, is compared to the percentage of overall compliance of the system
+                                using
+                                AIE’s emissions management approach.
+                            </li>
+                        </ol>
+                        <br>
+                        <div style="text-align: center;">
+                            <h4> <i><b>Example:</b> Performance Indicator Measurement</i></h4>
+                            <img src="images/aie/chart.png" style="width:100%">
+                        </div>
+                    </p>
+                    <!-- The Modal -->
+                    <div id="myModal" class="modal">
+                        <span class="close">&times;</span>
+                        <img class="modal-content" id="img01">
+                        <div id="caption"></div>
+                    </div>
+                    <hr>
+                    <!--     <a href="pdf/SourceFacility_Biocity_Profile.pdf" class="btn btn-primary btn-block">Download The
+                        PDF</a>
+                    <hr>-->
+            </div>
+            <div class="col-sm-0 col-md-2"></div>
+        </div>
+    </div>
+    <script>
+        $(document).ready(function () {
+            $('[data-toggle="popover"]').popover({
+                container: '.container'
+            });
+
+            $('body').on('click', function (e) {
+                $('[data-toggle=popover]').each(function () {
+                    // hide any open popovers when the anywhere else in the body is clicked
+                    if (!$(this).is(e.target) && $(this).has(e.target).length === 0 && $(
+                            '.popover').has(e.target).length === 0) {
+                        $(this).popover('hide');
+                    }
+                });
+            });
+
+        });
+        // Get the modal
+        var modal = document.getElementById("myModal");
+
+        // Get the image and insert it inside the modal - use its "alt" text as a caption
+        var img = document.getElementById("Img1");
+        var img2 = document.getElementById("Img2");
+        var modalImg = document.getElementById("img01");
+        var captionText = document.getElementById("caption");
+
+        img2.onclick = function () {
+            modal.style.display = "block";
+            modalImg.src = this.src;
+            captionText.innerHTML = this.alt;
+        }
+
+        img.onclick = function () {
+            modal.style.display = "block";
+            modalImg.src = this.src;
+            captionText.innerHTML = this.alt;
+        }
+
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
+
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function () {
+            modal.style.display = "none";
+        }
+    </script>
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+</body>
+
+</html>

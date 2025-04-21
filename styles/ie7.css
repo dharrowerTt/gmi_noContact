@@ -1,0 +1,133 @@
+@charset "utf-8";
+/* Methane to Markets */
+
+#maincontentareahome #map p, #maincontentarea #map p {
+	padding:6px 10px 0 24px;
+	margin-top:-2px;
+}
+
+#eventlist {
+	height:151px;
+}
+
+#whatsnewboxleft #min:hover {
+	position:relative; bottom:0 !important;
+}
+
+.tabbox {
+	min-height:207px;
+}
+
+#countrybox p {
+	padding:14px 10px 9px 18px;
+}
+
+#rightlist li {
+	padding-left:5px;
+/*	list-style-position:inside;
+	margin: 8px 0 0 10px;
+	width:205px !important;
+	padding-left:55px;
+*/
+}
+
+#maincontentarea #sectorevents li {
+	width:auto;
+	padding-left:13px;
+/*	list-style-position:outside;
+	text-indent: 0;*/
+	margin:0 0 10px 0 !important;
+}
+
+#bkgdopacity {
+	filter: alpha(opacity=75);
+}
+
+#bkgdopacity p {
+	filter: alpha(opacity=100);
+}
+
+#projectstable {
+	padding-bottom:11px;
+}
+
+#projectstable form p select {
+	margin:0 0 9px 12px;
+}
+
+#projectstable form p #goButton {
+	margin:0 0 0 10px;
+	vertical-align:middle;
+}
+
+#projnetsectorlist #networkbuttons {
+	margin:0 0 10px 0;
+}
+
+#mlformmiddle fieldset p {
+	margin-left:10px;
+}
+
+#mlformmiddle #mlformsubmit {
+	margin-top:15px;
+}
+
+#maincontentarea #about dl {
+	margin-bottom:0;
+	padding-bottom:0;
+}
+
+#projnetdetail dd {
+	float:none;
+}
+
+#orgchart2 div {
+	margin-left:-750px;
+}
+
+#sitedetailstable h2 {
+	background:url(/images/activitysitedetailsarrowdown.gif) top left no-repeat;
+	padding-top:0;
+	margin-top:5px;
+}
+
+#maincontentarea #activitysearchtable thead tr th.header, #maincontentarea #sitesearchtable thead tr th.header {
+	background-color:#c98022 !important;
+}
+
+#activitysectorpick select {
+	position:relative; bottom:16px;
+}
+
+#activitysectorpickddboxes span select, #activitysectorpickddboxes2 span select, #activitysectorpickddboxes3 span select, #activitysectorpickddboxes4 span select, #activitysectorpickddboxes5 span select {
+	margin-bottom:-5px !important;
+}
+
+#activitysectorpick label {
+	margin-right:0 !important;
+}
+
+.siteactnavline {
+	margin:35px 0 15px 0;	
+}
+
+#sectorpickactivitytype5 {
+	position:relative; top:1px; left:5px;
+}
+
+#activitysectorpickddboxes2 {
+	float:none !important;
+}
+
+#adddata {
+	margin-top:50px;
+}
+
+.accordionadd {
+	margin-bottom:0 !important;
+	clear:both !important;
+}
+
+.maincontentareaadd {
+	margin-bottom:600px !important;	
+}

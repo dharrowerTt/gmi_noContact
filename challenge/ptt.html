@@ -1,0 +1,243 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/dd7fc261ae.js"></script>
+    <style>
+        .aligncenter {
+            text-align: center;
+        }
+
+        body {
+            background: #1695be;
+        }
+
+        .tooltip:hover span {
+            opacity: 1;
+            filter: alpha(opacity=100);
+            top: -6em;
+            left: 20em;
+            z-index: 99;
+            -webkit-transition: all 0.2s ease;
+            -moz-transition: all 0.2s ease;
+            -o-transition: all 0.2s ease;
+            transition: all 0.2s ease;
+        }
+
+        .homearea {
+            position: fixed;
+            bottom: 10px;
+            left: 10px;
+        }
+
+        .homearea:hover {
+            cursor: pointer;
+        }
+
+        .box b {
+            color: #fff;
+        }
+
+        .tooltip span {
+            background: none repeat scroll 0 0 #222;
+            /*-- some basic styling */
+            color: #F0B015;
+            font-family: 'Helvetica';
+            font-size: 0.8em;
+            font-weight: normal;
+            line-height: 1.5em;
+            padding: 16px 15px;
+            width: 240px;
+            top: -4em;
+            /*-- this is the original position of the tooltip when it's hidden */
+            left: 20em;
+            margin-left: 0;
+            /*-- set opacity to 0 otherwise our animations won't work */
+            opacity: 0;
+            filter: alpha(opacity=0);
+            position: absolute;
+            text-align: center;
+            z-index: 2;
+            text-transform: none;
+            -webkit-transition: all 0.3s ease;
+            -moz-transition: all 0.3s ease-in-out;
+            -o-transition: all 0.3s ease;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .tooltip span:after {
+            border-color: #222 rgba(0, 0, 0, 0);
+            border-style: solid;
+            border-width: 15px 15px 0;
+            bottom: -15px;
+            content: "";
+            display: block;
+            left: 31px;
+            position: absolute;
+            width: 0;
+        }
+
+        .callout {
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-top: 10px;
+            background: #f3d5b3;
+            border-radius: 4px;
+
+            width: 100%;
+            margin-bottom: 15px;
+
+        }
+
+
+        .imgtbl {
+            width: 100%;
+
+            margin-bottom: 15px;
+        }
+
+        .imgtbl img {
+            padding: 10px;
+            width: 100%;
+        }
+
+        .subtitle td {
+            font-size: 10px;
+            text-align: center;
+
+        }
+
+        table {
+            margin-top: 15px;
+            width: 100%;
+            border-collapse: collapse;
+            text-align: left;
+            overflow: hidden;
+            margin-bottom: 15px;
+        }
+
+        td,
+        th {
+            border-top: 1px solid #ECF0F1;
+            padding: 5px;
+        }
+
+        td {
+
+            border-right: 1px;
+        }
+
+
+        tr:nth-of-type(even) td {
+            background-color: #ecf0f1;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="homearea">
+        <a class="btn btn-danger" href="showcase.html">
+            <i class="fa fa-arrow-left fa-lg"></i> Back to the map
+        </a>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-0 col-md-2"></div>
+            <div class="col-sm-12 col-md-8" style="background:white;">
+                <img src="images/ptt/ptt_banner.png" style="width:100%" />
+                <h2>
+                    PTT Public Company Limited: Methane Management Programme&nbsp;
+                    <!--<a class="btn btn-primary" href="pdf/SourceFacility_Biocity_Profile.pdf"
+                        aria-label="Download the PDF">
+                        <i class="fa fa-download" aria-hidden="true"></i>
+                    </a>-->
+                </h2>
+                <p>
+                    <a href="https://www.pttplc.com/en/About.aspx" target="_blank"><img
+                            style="width:30%;float: right; margin:20px;" src="images/ptt/ptt_logo.png">
+                    </a>
+
+                    <a href="https://www.pttplc.com/en/About.aspx" target="_blank">PTT</a> is a petroleum
+                    and petrochemical company based in Thailand. By taking a number of methane mitigation actions, PTT
+                    aims to achieve a 20% reduction from 2012 greenhouse gas emissions by 2030. This reduction target
+                    aligns with Thailand’s Intended Nationally Determined Contributions (INDC). PTT is a partner of the
+                    Climate and Clean Air Coalition (CCAC) Oil and Gas Methane Partnership (OGMP) and has taken
+                    voluntary actions to reduce methane emissions in the oil and gas sector
+                </p>
+                <h3>Direct Inspection and Maintenance System</h3>
+                <p>PTT collaborated with the Global Methane Initiative (GMI) to conduct a pilot methane survey in 2013 and 2015 at
+                    compressor stations and onshore and offshore oil and gas production facilities. Based on the
+                    experience gained from the pilot methane survey, PTT established a Direct Inspection and Maintenance
+                    (DI&M) program in 2015. Using infrared cameras and acoustic detectors, PTT assesses leaks and then repairs
+                    or replaces equipment to mitigate methane emissions. </p>
+                <h3>Mitigation Actions</h3>
+                <p>PTT has installed a variety of equipment aimed at reducing methane emissions, including:</p>
+                <ul>
+                    <li>Natural gas driven intermittent-bleed pneumatic controls and pumps that reduce emissions from
+                        valves. </li>
+                    <li>Centrifugal compressors that use mechanical dry seals.</li>
+                    <li>Centrifugal compressors with wet oil seal that use seal oil degassing recovery systems that
+                        route recovered methane to a vapor recovery unit or flare.</li>
+                    <li>Glycol dehydrator systems where all vents are routed to a flare, vapor recovery unit, or other
+                        beneficial use.</li>
+                    <li>Reciprocating compressors where the rod packing is vented to the atmosphere, the rings are
+                        replaced at least every 26,000 hours, and excessive leaks are identified and fixed during
+                        maintenance between engine overhauls.</li>
+                    <li>Reciprocating compressors where the “distance piece” or packing case vents are routed to
+                        recovery or flare.</li>
+                    <li>Stabilization towers ahead of hydrocarbon liquid storage tanks to reduce the amount of entrained
+                        gas and flash gas emitted from the tanks. </li>
+                </ul>
+                <img
+                    style="width:20%;float: right; margin:5px;" src="images/ptt/ptt_report.png">
+            
+                <h3>Tracking and Reporting Methane Reductions</h3>
+                <p>
+                    PTT tracks methane emissions reductions by volume of fugitive emissions, vented emissions, and
+                    emissions from flaring activities. Based on GHG reductions through 2019, PTT is on track to achieve the
+                    20% reduction in greenhouse gas emission reductions from 2012 business-as-usual scenario emissions
+                    by 2030. PTT consolidates emission data and discloses it annually in their PTT Sustainability Report
+                    which complies with the Global Reporting Initiatives (GRI) standard.
+
+                </p>
+                <hr>
+                <!--     <a href="pdf/SourceFacility_Biocity_Profile.pdf" class="btn btn-primary btn-block">Download The
+                        PDF</a>
+                    <hr>-->
+            </div>
+            <div class="col-sm-0 col-md-2"></div>
+        </div>
+    </div>
+    <script>
+        $(document).ready(function () {
+            $('[data-toggle="popover"]').popover({
+                container: '.container'
+            });
+
+            $('body').on('click', function (e) {
+                $('[data-toggle=popover]').each(function () {
+                    // hide any open popovers when the anywhere else in the body is clicked
+                    if (!$(this).is(e.target) && $(this).has(e.target).length === 0 && $(
+                            '.popover').has(e.target).length === 0) {
+                        $(this).popover('hide');
+                    }
+                });
+            });
+
+        });
+    </script>
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+</body>
+
+</html>

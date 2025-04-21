@@ -1,0 +1,241 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/dd7fc261ae.js"></script>
+    <script>
+		(function (w, d, s, l, i) {
+			w[l] = w[l] || [];
+			w[l].push({
+				'gtm.start': new Date().getTime(),
+				event: 'gtm.js'
+			});
+			var f = d.getElementsByTagName(s)[0],
+				j = d.createElement(s),
+				dl = l != 'dataLayer' ? '&l=' + l : '';
+			j.async = true;
+			j.src =
+				'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+			f.parentNode.insertBefore(j, f);
+		})(window, document, 'script', 'dataLayer', 'GTM-WM2LZW5');
+	</script>
+    <style>
+        body {
+            background: #1695be;
+        }
+
+        .tooltip:hover span {
+            opacity: 1;
+            filter: alpha(opacity=100);
+            top: -6em;
+            left: 20em;
+            z-index: 99;
+            -webkit-transition: all 0.2s ease;
+            -moz-transition: all 0.2s ease;
+            -o-transition: all 0.2s ease;
+            transition: all 0.2s ease;
+        }
+
+        .homearea {
+            position: fixed;
+            bottom: 10px;
+            left: 10px;
+        }
+
+        .homearea:hover {
+            cursor: pointer;
+        }
+
+        .box b {
+            color: #fff;
+        }
+
+        .tooltip span {
+            background: none repeat scroll 0 0 #222;
+            /*-- some basic styling */
+            color: #F0B015;
+            font-family: 'Helvetica';
+            font-size: 0.8em;
+            font-weight: normal;
+            line-height: 1.5em;
+            padding: 16px 15px;
+            width: 240px;
+            top: -4em;
+            /*-- this is the original position of the tooltip when it's hidden */
+            left: 20em;
+            margin-left: 0;
+            /*-- set opacity to 0 otherwise our animations won't work */
+            opacity: 0;
+            filter: alpha(opacity=0);
+            position: absolute;
+            text-align: center;
+            z-index: 2;
+            text-transform: none;
+            -webkit-transition: all 0.3s ease;
+            -moz-transition: all 0.3s ease-in-out;
+            -o-transition: all 0.3s ease;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .tooltip span:after {
+            border-color: #222 rgba(0, 0, 0, 0);
+            border-style: solid;
+            border-width: 15px 15px 0;
+            bottom: -15px;
+            content: "";
+            display: block;
+            left: 31px;
+            position: absolute;
+            width: 0;
+        }
+
+        .callout {
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-top: 10px;
+            background: #f3d5b3;
+            border-radius: 4px;
+
+            width: 100%;
+            margin-bottom: 15px;
+
+        }
+
+
+        .imgtbl {
+            width: 100%;
+            background: #CAEBF2;
+            margin-bottom: 15px;
+        }
+
+        .imgtbl img {
+            padding: 10px;
+            width: 100%;
+        }
+
+        .subtitle td {
+            font-size: 10px;
+            text-align: center;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="homearea">
+        <a class="btn btn-danger" href="showcase.html">
+            <i class="fa fa-arrow-left fa-lg"></i> View showcase
+        </a>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-0 col-md-2"></div>
+            <div class="col-sm-12 col-md-8" style="background:white;">
+                <img src="images/usa_ews.png" style="width:100%" />
+                <h2>
+                    Engineered Waste Systems (EWS) LLC - Waste Management&nbsp;
+                    <!--<a class="btn btn-primary" href="pdf/SourceFacility_Biocity_Profile.pdf"
+                        aria-label="Download the PDF">
+                        <i class="fa fa-download" aria-hidden="true"></i>
+                    </a>-->
+                </h2>
+
+            
+                <p>EWS LLC is helping businesses to create cost-effective plans to sustainably manage their wastes.
+                    These plans focus on proper recycling and using aerobic digestion of organics to minimize methane
+                    emissions.</p>
+                <h3>Helping Local Businesses Manage Waste</h3>
+                <p>EWS LLC has implemented plans at two dining venues, Perkins Restaurant & Bakery and Hudson’s Classic
+                    Grill, and two hotel chain locations, Days Inn and Comfort Suites, in Marquette, Michigan. During
+                    the appraisal process, EWS assessed the curbside waste generated at the four locations and found
+                    that 60% of curbside waste was organic, 30% was recyclable, and only 10% was neither recyclable nor
+                    organic. As part of their initiative, EWS identified several steps to maximize the amount of waste
+                    that could be cost-effectively diverted from landfills, including:</p>
+                <ul>
+                    <li>Train employees to dispose of waste by type, so that materials were clearly outlined and
+                        grouped together.</li>
+                    <li>Avoid tipping fees from disposing plastics and glass, while utilizing the cardboard delivery
+                        packages to be recycled as fiber.</li>
+                    <li>Dispose of hazardous waste at a county facility.</li>
+                </ul>
+                <p>The activities reduced operating costs by 40% and eliminated methane emissions that would have occurred if all of the curbside waste had been disposed of in a landfill.</p>
+                <p>EWS LLC expects that their work with local businesses will:</p>
+                <ul>
+                    <li>Reduce waste disposal costs at locations by almost 80%</li>
+                    <li>Assist in waste separation, recycling, and organics diversion</li>
+                    <li>Produce fertile humus out of organic waste</li>
+                    <li>Increase overall recycling by 67%</li>
+                    <li>Educate employees on economic and sustainable management practices</li>
+                </ul>
+                <table class="imgtbl">
+                    <tr>
+                        <td><img src="images/ews/001.jpg"></td>
+                        <td><img src="images/ews/002.jpg"></td>
+                        <td><img src="images/ews/003.jpg"></td>                
+                    </tr>
+                </table>
+                <h3>Offering Aerobic Digestion Conversion Technology</h3>
+                <p>EWS’s aerobic digestion systems offer facilities a cost-effective waste management solution compared
+                    to landfills. Their systems reduce methane and other emissions and have been refined to work across
+                    environmental regulations and in a variety of site conditions. EWS’s systems offer:</p>
+                <ul>
+                    <li>Long-lasting methane abatement technology</li>
+                    <li>Low operations and maintenance costs</li>
+                    <li>Productive use at many types and sizes of facilities</li>
+                    <li>Training for operators</li>
+                </ul>
+                <table class="imgtbl">
+                    <tr>
+                        <td><img src="images/ews/004.png"></td>
+                        <td><img src="images/ews/005.png"></td>
+                        <td><img src="images/ews/006.png"></td>                
+                    </tr>
+                    <tr class="subtitle"><td>Large Scale Biodigester</td>
+                        <td>Feedstock</td>
+                        <td>Final Product</td>
+                    </tr>
+                </table>
+
+
+
+                <hr>
+                <!--     <a href="pdf/SourceFacility_Biocity_Profile.pdf" class="btn btn-primary btn-block">Download The
+                        PDF</a>
+                    <hr>-->
+            </div>
+            <div class="col-sm-0 col-md-2"></div>
+        </div>
+    </div>
+    <script>
+        $(document).ready(function () {
+            $('[data-toggle="popover"]').popover({
+                container: '.container'
+            });
+
+            $('body').on('click', function (e) {
+                $('[data-toggle=popover]').each(function () {
+                    // hide any open popovers when the anywhere else in the body is clicked
+                    if (!$(this).is(e.target) && $(this).has(e.target).length === 0 && $(
+                            '.popover').has(e.target).length === 0) {
+                        $(this).popover('hide');
+                    }
+                });
+            });
+
+        });
+    </script>
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+</body>
+
+</html>

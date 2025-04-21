@@ -1,0 +1,182 @@
+﻿
+body {
+	font-family:arial, verdana;
+}
+
+.required{color:#ff0000; font-size:small}
+
+#participatebuttons {
+	width:100%;
+	height:120px;
+	margin:0 auto;
+}
+
+#participatebuttons li {
+	list-style:none;
+	float:left;
+}
+
+#participatebuttons li a {
+	text-indent:-222em;
+	display:block;
+	width:126px;
+	height:96px;
+}
+
+#participatepartner {
+	background:url(/images/bkgd_participate_button_partner_off.gif) transparent top left no-repeat;
+}
+
+#participatepartner_selected 
+{
+    background:url(/images/bkgd_participate_button_partner_off.gif) transparent top left no-repeat;
+    background-position: 0 -106px;
+}
+
+#participatepartner:hover {
+	background-position: 0 -106px;
+}
+
+#participatejoin {
+	background:url(/images/bkgd_participate_button_join_off.gif) transparent top left no-repeat;
+	margin-left:30px;
+}
+
+#participatejoin_selected {
+	background:url(/images/bkgd_participate_button_join_off.gif) transparent top left no-repeat;
+	background-position: 0 -106px;
+	margin-left:20px;
+}
+
+#participatejoin:hover {
+	background-position: 0 -106px;
+}
+
+#participatemailinglist {
+	background:url(/images/bkgd_mailinglist_button_join_off.gif) transparent top left no-repeat;
+	background-position: 0 -106px;
+	margin-left:20px;
+}
+
+#participatemailinglist {
+	background:url(/images/bkgd_mailinglist_button_join_off.gif) transparent top left no-repeat;
+	margin-left:20px;
+}
+
+#participatemailinglist:hover {
+	background-position: 0 -109px;
+}
+
+#participatemailinglist_selected 
+{
+    background:url(/images/bkgd_mailinglist_button_join_off.gif) transparent top left no-repeat;
+    background-position: 0 -109px;
+	margin-left:20px;
+}
+
+#mlformtop, #mlformbottom {
+	background:url(/images/bkgd_participate_mlformtop.gif) transparent top left no-repeat;
+	width:319px;
+	height:10px;
+	margin-left:1px;
+}
+
+#mlformmiddle {
+	width:280px;
+	padding:0 18px 0 17px;
+	border-left:1px solid #eae9e9;
+	border-right:1px solid #eae9e9;
+}
+
+#mlformmiddle img {
+	margin:0 auto;
+	display:block;
+	width:199px;
+	padding:13px 0;
+}
+
+#mlformmiddle #contactinfo label{
+	color:#787878;	/*#30a2d2;	*/
+	font-size: 75%;
+	font-style:italic;
+	font-weight:bold;
+	float:left;
+	margin-bottom:8px;
+	padding-bottom:4px;
+	width:112px;
+}
+
+#mlformmiddle #contactinfo input[type=text]{
+	color:#787878;	
+	margin-bottom:8px;
+	padding-bottom:4px;
+	width:150px;
+}
+
+#mlformmiddle #sectorinfo{
+	padding: 0px 6px 20px 6px;
+}
+
+#mlformmiddle #sectorinfo h4{
+	color:#2391d3;
+	font-size: 90%;
+}
+
+#mlformmiddle #sectorinfo label{ /* for Checkbox list labels */
+	color:#787878;
+	margin: 10px 6px 10px 6px;
+	padding: 10px 6px 10px 6px;
+	font-size: 75%;
+	font-style:italic;
+	font-weight:bold;
+}
+
+/*
+#mlformmiddle fieldset {
+	clear:both;
+	width:100%;
+}
+
+#mlformmiddle fieldset p {
+	float:left;
+	margin-left:15px;
+	color:#010101;
+}
+
+#mlformmiddle fieldset input {
+	vertical-align:middle;
+}*/
+
+#mlformmiddle #mlformsubmit {
+	text-transform:uppercase;
+	margin:18px 18px 0 0;
+	padding:5px 8px;
+	float:right;
+	border:0;
+	background-color:#d9d9d8;
+	width:53px;
+	cursor:pointer;
+}
+
+#mlformmiddle #mlformsubmit:hover {	
+	background-color:#9d9d9d;
+}
+
+#mlformbottom {
+	background:url(/images/bkgd_participate_mlformbottom.gif) transparent top left no-repeat;
+}
+
+#rightcontentarea.participateSideNav {
+	margin-left: 0;
+	float: left;
+	min-width: 420px;	
+}
+
+#rightcontentarea.participateSideNav ul li {
+	margin-left: 20px;
+		
+}
+
+#rightcontentarea.participateSideNav ul li:first-child {
+	margin-left: 0;	
+}

@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/dd7fc261ae.js"></script>
+    <script>
+		(function (w, d, s, l, i) {
+			w[l] = w[l] || [];
+			w[l].push({
+				'gtm.start': new Date().getTime(),
+				event: 'gtm.js'
+			});
+			var f = d.getElementsByTagName(s)[0],
+				j = d.createElement(s),
+				dl = l != 'dataLayer' ? '&l=' + l : '';
+			j.async = true;
+			j.src =
+				'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+			f.parentNode.insertBefore(j, f);
+		})(window, document, 'script', 'dataLayer', 'GTM-WM2LZW5');
+	</script>
+    <style>
+        .aligncenter {
+            text-align: center;
+        }
+
+        body {
+            background: #1695be;
+        }
+
+        .tooltip:hover span {
+            opacity: 1;
+            filter: alpha(opacity=100);
+            top: -6em;
+            left: 20em;
+            z-index: 99;
+            -webkit-transition: all 0.2s ease;
+            -moz-transition: all 0.2s ease;
+            -o-transition: all 0.2s ease;
+            transition: all 0.2s ease;
+        }
+
+        .homearea {
+            position: fixed;
+            bottom: 10px;
+            left: 10px;
+        }
+
+        .homearea:hover {
+            cursor: pointer;
+        }
+
+        .box b {
+            color: #fff;
+        }
+
+        .tooltip span {
+            background: none repeat scroll 0 0 #222;
+            /*-- some basic styling */
+            color: #F0B015;
+            font-family: 'Helvetica';
+            font-size: 0.8em;
+            font-weight: normal;
+            line-height: 1.5em;
+            padding: 16px 15px;
+            width: 240px;
+            top: -4em;
+            /*-- this is the original position of the tooltip when it's hidden */
+            left: 20em;
+            margin-left: 0;
+            /*-- set opacity to 0 otherwise our animations won't work */
+            opacity: 0;
+            filter: alpha(opacity=0);
+            position: absolute;
+            text-align: center;
+            z-index: 2;
+            text-transform: none;
+            -webkit-transition: all 0.3s ease;
+            -moz-transition: all 0.3s ease-in-out;
+            -o-transition: all 0.3s ease;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .tooltip span:after {
+            border-color: #222 rgba(0, 0, 0, 0);
+            border-style: solid;
+            border-width: 15px 15px 0;
+            bottom: -15px;
+            content: "";
+            display: block;
+            left: 31px;
+            position: absolute;
+            width: 0;
+        }
+
+        .callout {
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-top: 10px;
+            background: #f3d5b3;
+            border-radius: 4px;
+
+            width: 100%;
+            margin-bottom: 15px;
+
+        }
+
+
+        .imgtbl {
+            width: 100%;
+            background: #CAEBF2;
+            margin-bottom: 15px;
+        }
+
+        .imgtbl img {
+            padding: 10px;
+            width: 100%;
+        }
+
+        .subtitle td {
+            font-size: 10px;
+            text-align: center;
+
+        }
+
+        table {
+            margin-top: 15px;
+            width: 100%;
+            border-collapse: collapse;
+            text-align: left;
+            overflow: hidden;
+            margin-bottom: 15px;
+        }
+
+        td,
+        th {
+            border-top: 1px solid #ECF0F1;
+            padding: 10px;
+        }
+
+        td {
+
+            border-right: 1px solid #ECF0F1;
+        }
+
+        th {
+            background-color: #4ECDC4;
+        }
+
+        tr:nth-of-type(even) td {
+            background-color: #ecf0f1;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="homearea">
+        <a class="btn btn-danger" href="showcase.html">
+            <i class="fa fa-arrow-left fa-lg"></i> View showcase
+        </a>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-0 col-md-2"></div>
+            <div class="col-sm-12 col-md-8" style="background:white;">
+                <img src="images/LEDSLAC/bioecopbanner.png" style="width:100%;" />
+                <h2>
+                    Latin America and Caribbean Bioenergy Community of Practice&nbsp;
+                    <!--<a class="btn btn-primary" href="pdf/SourceFacility_Biocity_Profile.pdf"
+                        aria-label="Download the PDF">
+                        <i class="fa fa-download" aria-hidden="true"></i>
+                    </a>-->
+                </h2>
+                <p> The <a href="http://ledslac.org/es/comunidades-de-practica/bioenergy/" target="_blank">Bioenergy
+                        Community of Practice</a> (BioE-CoP) is a peer-to-peer learning network made up of
+                    governments, non-governmental organizations, academia, and private sector representatives that work
+                    together to advance the development of bioenergy in Latin America and the Caribbean. The Regional
+                    Platform for Latin America and the Caribbean on Low Emission Resilient Development (LEDS LAC) and
+                    the Energy Working Group of the Low Emission Development Global Partnership (LEDS GP) launched
+                    BioE-CoP in 2016.
+                </p>
+                <p>
+                    The BioE-CoP provides an inclusive, member-driven platform in which activities and thematic focuses
+                    are based on the interests of community members. Through exchange, capacity building, and technical
+                    assistance, the BioE-CoP supports countries and organizations in the design and implementation of
+                    policies, strategies, and business models that promote the development of bioenergy to reduce
+                    greenhouse gas emissions, increase the use of resilient alternatives to fossil fuels, and contribute
+                    to the achievement of sustainable development goals. </p>
+
+                <h3>
+                    Sharing Knowledge&nbsp;
+                    <!--<a class="btn btn-primary" href="pdf/SourceFacility_Biocity_Profile.pdf"
+                            aria-label="Download the PDF">
+                            <i class="fa fa-download" aria-hidden="true"></i>
+                        </a>-->
+                </h3>
+                <p>
+                    <img src="images/LEDSLAC/bio.png" style="float:right;width:20%;padding-left:2px;">
+                </p>
+                <p>
+                    During the first three years of operation, the BioE-CoP has facilitated the exchange of knowledge
+                    across more than 13 LAC countries and a wide array of regional and national organizations through
+                    online exchange and training sessions, in-person workshops, bilateral exchanges, and through the
+                    development of knowledge products, such as case studies and reports. The BioE-CoP also coordinates
+                    direct technical assistance from its partners to member organizations. Partners include Deutsche
+                    Gesellschaft für Internationale Zusammenarbeit, National Renewable Energy Laboratory, SD Strategies,
+                    and other technical organizations.
+                </p>
+
+                <h3>
+                    Recent Activity&nbsp;
+                    <!--<a class="btn btn-primary" href="pdf/SourceFacility_Biocity_Profile.pdf"
+                                    aria-label="Download the PDF">
+                                    <i class="fa fa-download" aria-hidden="true"></i>
+                                </a>-->
+                </h3>
+
+                <p>In December 2019, the BioE-CoP organized a side event at the Conference of the Parties (COP25)
+                    called “Expert Dialogue on Bioenergy and Climate Ambition” in collaboration with CAF Development
+                    Bank of Latin America, LEDS Global Partnership Secretariat, National Renewable Energy Laboratory,
+                    and other regional and international partners. </p>
+                <p>The session brought together experts from various sectors and policy areas to take part in a
+                    results-oriented dialogue aimed at identifying concrete lines of action regarding bioenergy use and
+                    fostering new partnerships to advance bioenergy’s contribution to climate-related actions and
+                    sustainable development.</p>
+                <h3>
+                    Moving Forward&nbsp;
+                    <!--<a class="btn btn-primary" href="pdf/SourceFacility_Biocity_Profile.pdf"
+                                            aria-label="Download the PDF">
+                                            <i class="fa fa-download" aria-hidden="true"></i>
+                                        </a>-->
+                </h3>
+
+                <p>Based on the collective interests of BioE-CoP members and the results of the expert dialogue held in
+                    the
+                    framework of COP25, the 2020 workplan aims to expand the reach of the community and deepening
+                    technical support of member countries and organizations, with a focus on improving the integration
+                    of
+                    bioenergy in national energy and climate policies, especially in nationally determined contributions
+                    (NDCs).
+                </p>
+                <p>
+                    Activities for 2020 include monthly online exchange sessions, beginning in the month of February;
+                    online and face-to-face training events; technical support for member countries in coordination with
+                    LEDS GP´s Climate Help Desk; and the organization of a regional workshop.
+                </p>
+                <p>The BioE-CoP is actively looking for new members and is encouraging the network to share their
+                    experiences, tools, and resources with the bioenergy community to grow the organization and help
+                    others meet their overall objective to reduce emissions. </p>
+
+                <h3>
+                    About LEDS LAC&nbsp;
+                    <!--<a class="btn btn-primary" href="pdf/SourceFacility_Biocity_Profile.pdf"
+                                            aria-label="Download the PDF">
+                                            <i class="fa fa-download" aria-hidden="true"></i>
+                                        </a>-->
+                </h3>
+
+                <p>LEDS LAC is a platform for collaboration and action, driven by Latin America and the Caribbean
+                    countries, to support the implementation of NDCs and LEDS. LEDS LAC is the regional platform of the
+                    LEDS GP.</p>
+                <p>
+                    LEDS LAC vision:
+                </p>
+                <p>
+                    <ol>
+                        <li>Countries have started to implement their NDC</li>
+                        <li>Countries have significantly increased the ambition of their updated NDC</li>
+                        <li>Countries have defined their long-term strategy</li>
+                    </ol>
+                </p>
+
+                <p style="text-align: center; margin-top: 20px;"> <img src="images/LEDSLAC/brochure.png"
+                        style="width:80%;">
+                </p>
+                <p style="text-align: center;">
+                    Learn more about LEDS LAC <a
+                        href="https://secureservercdn.net/198.71.233.13/fd4.9c7.myftpupload.com/wp-content/uploads/2016/09/BROCHURE-LEDS-LAC_sep-2016_english_web.pdf"
+                        target="_blank">here</a>.
+                </p>
+                <hr>
+                <!--     <a href="pdf/SourceFacility_Biocity_Profile.pdf" class="btn btn-primary btn-block">Download The
+                    PDF</a>
+                <hr>-->
+            </div>
+            <div class="col-sm-0 col-md-2"></div>
+        </div>
+    </div>
+    <script>
+        $(document).ready(function () {
+            $('[data-toggle="popover"]').popover({
+                container: '.container'
+            });
+
+            $('body').on('click', function (e) {
+                $('[data-toggle=popover]').each(function () {
+                    // hide any open popovers when the anywhere else in the body is clicked
+                    if (!$(this).is(e.target) && $(this).has(e.target).length === 0 && $(
+                            '.popover').has(e.target).length === 0) {
+                        $(this).popover('hide');
+                    }
+                });
+            });
+
+        });
+    </script>
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+</body>
+
+</html>

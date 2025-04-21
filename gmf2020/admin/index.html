@@ -1,0 +1,130 @@
+﻿
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" />
+    <style>
+        body {
+            background: #eee !important;
+        }
+
+        .wrapper {
+            margin-top: 80px;
+            margin-bottom: 80px;
+        }
+
+        .form-signin {
+            max-width: 380px;
+            padding: 15px 35px 45px;
+            margin: 0 auto;
+            background-color: #fff;
+            border: 1px solid rgba(0, 0, 0, 0.1);
+        }
+
+            .form-signin .form-signin-heading,
+            .form-signin .checkbox {
+                margin-bottom: 30px;
+            }
+
+            .form-signin .checkbox {
+                font-weight: normal;
+            }
+
+            .form-signin .form-control {
+                position: relative;
+                font-size: 16px;
+                height: auto;
+                padding: 10px;
+                -webkit-box-sizing: border-box;
+                -moz-box-sizing: border-box;
+                box-sizing: border-box;
+            }
+
+                .form-signin .form-control:focus {
+                    z-index: 2;
+                }
+
+            .form-signin input[type="text"] {
+                margin-bottom: -1px;
+                border-bottom-left-radius: 0;
+                border-bottom-right-radius: 0;
+            }
+
+            .form-signin input[type="password"] {
+                margin-bottom: 20px;
+                border-top-left-radius: 0;
+                border-top-right-radius: 0;
+            }
+    </style>
+    <script>
+  window.console = window.console || function(t) {};
+    </script>
+    <script>
+  if (document.location.search.match(/type=embed/gi)) {
+    window.parent.postMessage("resize", "*");
+  }
+    </script>
+    <style>
+        html,
+body{
+ height: 100%;
+}
+
+#cover {
+  background: #74b9ff url('') center center no-repeat;
+  background-size: cover;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+#cover-caption {
+  width: 100%;
+}
+    </style>
+</head>
+<body translate="no">
+    <section id="cover">
+        <div id="cover-caption">
+            <div id="container" class="container">
+                <div class="row text-white">
+                    <div class="col-sm-6 offset-sm-3 text-center">
+                        <div class="info-form">
+                            <div class="wrapper">
+                                <form name="login" class="form-inlin justify-content-center">
+                                    <div class="form-group">
+                                        <label class="sr-only">Username</label><input placeholder="Username" class="form-control" type="text" name="userid" />
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="sr-only">Password</label><input placeholder="Password" class="form-control"type="password" name="pswrd" />
+                                        </div>
+                                        <input type="button" onclick="check(this.form)" value="Login" />
+                                        <input type="reset" value="Cancel" />
+</form>
+                            </div>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <script language="javascript">
+        function check(form)/*function to check userid & password*/ {
+            /*the following code checkes whether the entered userid and password are matching*/
+            if (form.userid.value == "myuserid" && form.pswrd.value == "mypswrd") {
+                window.location.replace('eventAdmin.aspx')/*opens the target page while Id & password matches*/
+            }
+            else {
+                alert("Error Password or Username")/*displays error message*/
+            }
+        }
+    </script>
+
+</body>
+
+</html>

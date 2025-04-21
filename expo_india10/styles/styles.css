@@ -1,0 +1,451 @@
+/* CSS Document */
+
+* {
+	margin:0;
+	padding:0;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+}
+
+.hide {
+	display:none;
+}
+
+.clear {
+	clear:both;
+}
+
+img {
+	border:0;
+}
+
+body {
+	background-color:#e8e4e3;
+}
+
+#maincontent a:hover, #innercontent a:hover {
+	color:#ab2e2e;
+}
+
+a:visited {
+	color:#00f;
+}
+
+h1, h5, p, ul, ol {
+	margin-bottom:20px;
+}
+
+h1 {
+	font-size:16px;
+	color:#ce6614;
+}
+
+h2, .h2 {
+	font-size: 14px;
+	margin-bottom:5px;
+}
+
+h3{
+	font-size: 14px;	
+	font-style:italic;
+}
+
+#loccontent h2 {
+	color:#ab2e2e;
+}
+
+h5, .h5 {
+	font-size: 12px;
+}
+
+p, ul {
+	list-style-image:url(/images/greenbullet.gif);
+}
+
+ul li, ol li {
+	margin-left:35px;
+	line-height:15px;
+}
+
+ul li ul {
+	margin-bottom:0;
+}
+
+blockquote {
+	margin-left:15px;
+}
+
+#flyer li ul {
+	margin-bottom:0;
+}
+
+#callout {
+	border:2px solid #000;
+	width:426px;
+	padding:10px 0;
+}
+
+#container {
+	width:787px;
+	margin:0 auto;
+	border-left:1px solid #bdb7af;
+	border-right:1px solid #bdb7af;
+	background:url(../images/bkgd_navback2.gif) #fff top right repeat-y;
+}
+
+#header {
+	background:url(../images/banner2.jpg) top left no-repeat;
+	width:757px;
+	color:#fff;
+	text-align:right;
+	padding:153px 30px 3px 0;
+	margin: 0 auto;
+	background-color:#9ca73c;
+	border-left:1px solid #bdb7af;
+	border-right:1px solid #bdb7af;
+}
+
+#header a {
+	color:#fff;
+	text-decoration:none;
+	padding-top:1px;
+	vertical-align:middle;
+	font-size: 10px;
+	font-weight: bold;
+}
+
+#header a:hover {
+	text-decoration:underline;
+}
+
+#clink {
+	float:left;
+	margin: 0 0 0 20px;
+	font-size:12px;
+}
+
+#logolink {
+	padding:65px 50px 35px 225px;
+	margin:-124px 0px 0px 17px;
+	float:left;
+}
+
+#content, #psponsors, #psponsors1, #maincontent, #nav, #innercontent, #pageimage, #imgdiv, #realcontent {
+	float:left;
+}
+
+#content {
+	width: 627px;
+	background-color:#fff;
+	background:url(../images/bkgd_content.gif) transparent top left no-repeat;	
+}
+
+#psponsors {
+	width: 150px;
+	font: bold 12px arial;
+	padding:16px 0 15px 7px;
+	background: url(../images/p-sponsors.gif) transparent 10px 15px no-repeat;
+}
+
+#psponsors p{
+	/*margin: 50px 10px;*/
+	margin: 50px 10px 30px 10px;
+}
+
+#osponsors p{
+	margin: 10px;	
+}
+
+html>body #psponsors {
+	padding:16px 5px 15px 7px;
+}
+
+#psponsors img {
+	padding: 10px 0 0 0;
+	display:block;	
+	
+}
+
+/*
+html>body #ccii {
+	padding-left:23px;
+}
+
+html>body #adb {
+	padding-left:42px;
+}
+
+html>body #epa {
+	padding-left:35px;
+}
+*/
+#psponsors1 {
+	width:128px;
+	padding:390px 16px 0 12px;
+}
+
+#maincontent {
+	width:400px;
+	padding:20px 20px 20px 25px;	
+	border-left: 1px solid #ccc;
+}
+
+/*
+.divider{
+	border-right: 1px solid #ccc;
+}
+*/
+
+html>body #maincontent {
+	padding:20px 20px 20px 36px;
+	border-left: 1px solid #ccc;
+}
+
+#nav {
+	width:159px;
+	list-style:none;
+	float:left;
+	height:450px; /*<--added 3-5-09*/
+	background:url(../images/bkgd_navmap3.gif) #fff top right no-repeat;
+}
+
+#nav li {
+	display:inline;
+	margin-left:0;
+}
+
+#nav li a {
+	font:bold 10px;
+	color:#981b1e;
+	text-decoration:none;
+	display:block;
+	border-bottom:1px solid #f93;
+	padding:5px 10px 5px 17px;
+}
+
+#nav li a:hover {
+	background:url(../images/bkgd_navhover.gif) transparent top left no-repeat;
+	color:#fff;
+}
+
+#aboutimg {
+	padding-top:20px; /*<--added 3-5-09*/
+	padding-left:31px;
+}
+
+#aboutimg2 {
+	padding-left: 6px;
+}
+
+#bigclink {
+	text-align:center;
+	font-size:16px;
+}
+
+#nav #bigclink #flag {
+	text-decoration:none;
+	padding-bottom:5px;
+}
+
+#osponsors {
+	width:602px;
+	border-top:1px solid #ccc;
+	color:#000;
+	font:bold 12px;
+	padding:5px 20px 15px 5px;
+	background-color:#fff;	
+}
+
+#hosts{
+	/*width: 300px;
+	background: url(../images/hosts.gif) transparent 10px 10px no-repeat;*/
+	
+	float: left;
+	background: url(../images/hosts.gif) transparent 5px 10px no-repeat;
+	
+}
+
+#orgsponsors{
+	width:150px;
+	float: left;
+	background: url(../images/org_sponsors.gif) transparent 5px 10px no-repeat;
+}
+
+#in-country-partner{
+	/*width:150px;
+	background: url(../images/in-country-partner.gif) transparent 10px 10px no-repeat;*/
+	width: 150px;
+	float: left;
+	background: url(../images/in-country-partner.gif) transparent 5px 10px no-repeat;
+}
+
+#osponsors img {
+	margin: 5px;
+	vertical-align:middle;
+}
+
+.logos {
+	padding-left:20px;
+	margin-bottom:10px;
+}
+
+.bottom {
+	background:url(../images/bkgd_bottom.gif) transparent bottom left no-repeat;
+	height:20px;
+	line-height:0;
+	margin:0 0 -5px 0;
+}
+
+html>body .bottom {
+	margin:0;
+}
+
+#innercontent {
+	width: 587px;
+	background-color:#fff;
+	padding:20px;
+}
+
+#imgdiv {
+	padding: 5px 19px 15px 0px;
+}
+
+#flyer li, .flyer li {
+	list-style-image:url(../images/subbullet.gif);
+}
+
+#realcontent {
+	width:403px;
+}
+
+.left {
+	width:100px;
+	float:left;
+}
+
+.right {
+	width:300px;
+	float:right;
+	padding-bottom:20px;
+}
+
+.sponsors {
+	width:587px;
+	clear:both;
+	font:12px;
+	margin-bottom:10px;
+}
+
+.slogos {
+	width:215px;
+	float:left;
+}
+
+.slogos strong {
+	font-size:14px;
+}
+
+.text {
+	width:372px;
+	float:left;
+}
+
+.slogos img {
+	margin-bottom:30px;
+}
+
+#sponsnav {
+	text-align:center;
+	margin:30px 0;
+}
+
+#sponsnav a {
+	margin: 0 20px;
+}
+
+.smaller {
+	font-size:11px;
+}
+
+#visatable {
+	font-size:12px;
+	text-align:center;
+	width:100%;
+}
+
+#visatable td {
+	padding:2px;
+}
+
+#visalist ul li {
+	margin-bottom:-20px;
+}
+
+.center{
+	text-align: center;
+}
+
+.center img{
+	padding: 5px;
+}
+
+#india li a{
+	color: #363;
+	border-bottom:1px solid #ccc;
+	font-weight: bold;
+	font-size: 10px;
+}
+
+#india li a:hover {
+	background: #9CA73C;
+	color: #f3f3f3;
+}
+
+#india li a.selected {
+	background: #fff;
+	color: #363;
+}
+
+.hosts-sponsors{
+	border-bottom: 1px dotted #dcdcdc;
+	padding: 10px;
+}
+
+.hosts-sponsors p, .hosts-sponsors-bottom p{
+	padding-left: 10px;
+}
+
+.hosts-sponsors-bottom{
+	padding: 10px;
+}
+
+.left-image{
+	float: left;
+	margin-right: 10px;
+}
+
+.border{
+	border: 1px solid #dcdcdc;
+	padding: 5px;
+	font-size: 10px;
+	width: 150px;
+	margin-left: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.border a{
+	font-size: 10px;
+}
+
+table.zebratable{
+	border: 1px solid #dcdcdc;
+	padding: 10px;
+}
+
+table.zebratable tr{
+	background-color: #f3f3f3;
+}
+
+table.zebratable td{
+	padding: 10px;
+}

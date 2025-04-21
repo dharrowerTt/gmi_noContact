@@ -1,0 +1,100 @@
+﻿.formLayout
+    {
+/*        background-color: #f3f3f3;
+        border: solid 1px #a1a1a1;
+        padding: 10px;*/
+        width: 100%;
+    }
+    
+.formLayout label, .formLayout input[type=text], .formlayout span
+    {
+        display: block;
+        width: 25%;
+        float: left;
+        margin-bottom: 10px;
+    }
+    
+    .radiolist label 
+    {
+        width: 65% !important;
+    }
+    
+    .formLayout input[type=text], .formLayout input[type=input] 
+    {width:70%;
+    }
+ 
+ .formLayout select 
+ {width:50%;
+ }
+.formLayout label
+    {
+        text-align: right;
+        padding-right: 20px;
+    }
+
+ .formlayout input[type=submit] 
+ {      display: block;      
+        width: 15%;
+
+ }
+br
+    {
+        clear: left;
+    }
+    
+    .WYSIWYGTextArea , .ajax__html_editor_extender_texteditor
+    {min-width:400px;min-height:300px;width:520px;
+     overflow:auto;clear:both;margin-left:200px !important;
+    }
+    
+    .forminfo 
+{font-weight:lighter;
+ font-size:smaller;
+ width:65%;
+ margin-left:28%;
+}
+
+.formItemIndent{
+     margin-left:28%;
+}
+        .forminfoNew
+{font-weight:lighter;
+ font-size:smaller;
+
+}
+
+ .form_match{
+     width:648px;
+ }
+
+ .ajax__html_editor_extender_buttoncontainer{
+     margin-left:200px !important;
+     width:520px !important;
+ }
+
+ .FitBoxSize{
+     width:520px;
+ }
+
+ .UploadBtnStyle{
+     float:right;
+     right:0px;
+     text-align:right;
+     background-color:#2391d3;
+     border:0px;
+     padding:5px;
+     border-right:1px solid #446CB3;
+     border-bottom: 1px solid #446CB3;
+     color:#ECF0F1;
+ }
+ 
+  .BtnStyle{
+     
+     
+     background-color:#2391d3;
+     border:0px;
+     padding:5px;
+     border-right:1px solid #446CB3;
+     border-bottom: 1px solid #446CB3;
+     color:#ECF0F1;
+ }

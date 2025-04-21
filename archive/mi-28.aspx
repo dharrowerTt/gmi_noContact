@@ -1,0 +1,669 @@
+﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="mi-28.aspx.vb" Inherits="M2M_Redesign.mi_28" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Archive | Global Methane Initiative</title>
+     <!-- #include virtual="/includes/include_head.html" -->
+</head>
+<body>
+    <!-- #include virtual="/includes/header.html" -->
+
+ <section class="py-5 gmi-light-blue">
+        <div class="container">
+                    <h1>
+						Methane International 
+					</h1>
+					<h2><small class="text-muted text">Issue 28, June 2012</small></h2>
+                    <div class="alert alert-danger" role="alert">Please note that this page is no longer being maintained. </div>
+					<ul>
+						            <li><a href="#one">Methane Expo 2013: Call for Abstracts</a></li>
+            <li><a href="#two">Spotlight on Canada: Methane Expo 2013 Host</a></li>
+            <li><a href="#three">Subcommittee Update</a></li>
+            <li><a href="#four">CCAC on a Fast Track</a></li>
+            <li><a href="#five">Plug Flow (Channel) Digesters Installed on Thai Pig Farms</a></li>
+            <li><a href="#six">Sector Action Plans</a></li>
+            <li><a href="#seven">Results from U.S. EPA Grants in Support of GMI</a></li>
+            <li><a href="#eight">GMI Outreach</a></li>
+
+					</ul>
+
+		</div>
+	</section>
+	<section class="py-5 bg-white">
+		<div class="container">
+
+		        <h2 id="one">
+            Methane Expo 2013: Call for Abstracts</h2>
+        <p>
+            <img src="../expo/images/logo3.png" alt="GMI Expo logo" style="border: 1px solid #0076bf;
+                padding: 3px; margin: 0 5px 5px 0; float: left;" />
+            Preparation and planning for Methane Expo 2013 has begun! This premier international
+            forum is designed to promote the recovery and use of methane through new projects
+            and technologies.
+        </p>
+        <p>
+            The Global Methane Initiative's (GMI's) Administrative Support Group (ASG) is <a
+                href="../expo/sitevisit.html">requesting one-page abstracts</a> for presentations
+            to be given at technical and policy sessions. Topics should be relevant to reducing
+            global methane emissions, advancing the abatement, recovery, and use of methane
+            as a clean energy source. Abstracts should focus on the GMI sectors: agriculture,
+            coal mines, landfills, municipal wastewater systems, and oil and natural gas systems.
+            The deadline to submit an abstract is <strong>29 June 2012</strong>.</p>
+        <p>
+            For more information about the call for abstracts or other details about the event,
+            please visit the <a href="../expo/index.html">Methane Expo 2013 Web page</a>.</p>
+        
+        <h2 id="two">
+            Spotlight on Canada: Methane Expo 2013 Host</h2>
+        <p>
+            <img src="/images/flag_canada_big.gif" alt="Canada flag" style="border: 1px solid #000;
+                margin: 0 5px 5px 0; float: left;" />
+            Next March, <strong>Canada</strong>, a leader in GMI-related efforts, will host
+            <a href="../expo/index.html">Methane Expo 2013</a> in Vancouver. Canada is strongly
+            committed to working with its international partners to address climate change and
+            methane-related international cooperation is a key way Canada is supporting effective
+            international action in this area.</p>
+        <p>
+            Canada's participation as a GMI Partner Country stretches across multiple committees
+            and sectors. In particular, Canada participates on the Steering Committee as well
+            as the Agriculture, Municipal Solid Waste (previously known as the Landfill Subcommittee)
+            and newly established Municipal Wastewater Subcommittees, and serves as Co-Chair
+            of the Oil and Gas Systems Subcommittee. To date, Canada has hosted two GMI meetings;
+            in September 2009 Canada hosted an <a href="event_detailsByEventId.aspx?eventId=3">Oil
+                and Gas Systems Technology Transfer and Subcommittee Meeting</a> and in January
+            2007, the country hosted an <a href="event_detailsByEventId.aspx?eventId=243">Energy
+                Management Workshop for Upstream and Midstream Operations</a>.</p>
+        <p>
+            In the agricultural sector, Canadian livestock generate more than 200 million metric
+            tons of manure each year, producing the methane equivalent of nearly 4 million metric
+            tonnes of carbon dioxide. In response, Canada operates more than 16 operational
+            anaerobic digester systems using farm and food industry biomass. The resulting biogas
+            is used to provide on-site heat or electricity. Canada is also active in supporting
+            GMI Partners and projects and has partnered with <strong>Mexico</strong> to study
+            the applicability of robust low temperature anaerobic digester technologies to manage
+            livestock manure. This joint research will determine site characteristics, design,
+            and engineering specifications to implement an anaerobic digester on a swine farm
+            on the Yucatan Peninsula and convert the biogas into clean energy and reuse manure
+            nutrients to reduce the need for fossil fuel-based fertilizers.</p>
+        <p>
+            Canada is also working to reduce domestic methane emissions from landfills, which
+            are estimated to produce approximately 27 million metric tonnes of carbon dioxide
+            equivalent annually. Sixty-four facilities across Canada recover landfill gas (LFG),
+            reducing greenhouse gas emissions from landfills by 6.9 million metric tonnes of
+            carbon dioxide equivalent annually. Beyond its borders, Canada is working with <strong>
+                Colombia, Chile,</strong> and <strong>Mexico</strong> on various projects that
+            offer a suite of options to divert organic matter from landfills and reduce methane
+            emissions.</p>
+        <p>
+            Methane released from oil and natural gas systems represent almost half of Canada's
+            total methane emissions. Canada is a world leader in reducing methane from oil and
+            gas sector sources, implementing requirements to reduce venting and flaring. The
+            province of Alberta has achieved over 50 percent reduction in venting of associated
+            gas at crude oil and crude bitumen facilities between 2000 and 2010, although emissions
+            since 2006 have begun to rise again due to significant increases in production of
+            bitumen. Requirements to carry out methane leak detection and repair for equipment
+            have been in place since 2010. The provinces of British Columbia and Saskatchewan
+            are also taking action to reduce methane emissions from these sources.</p>
+        <p>
+            To help further address these emissions, Environment Canada and Natural Resources
+            Canada were instrumental in the development of the <a href="../m2mtool/index.html">ON
+                TIME Tool</a>, which displays interactive flow diagrams of oil and gas systems.
+            The goal of the ON TIME Tool is to provide easy access to information on cost-effective
+            technologies and practices that reduce emissions. Internationally, Canadian-funded
+            projects in <strong>China</strong>, <strong>Colombia</strong>, and <strong>Mexico</strong>
+            have helped to reduce fugitive methane emissions, decrease greenhouse gas externalities,
+            improve energy efficiency, and conserve valuable non-renewable resources at the
+            China National Petroleum Corporation (CNPC), Sinopec and the China National Offshore
+            Oil Corporation (CNOOC), and GMI Partner organization Petr&oacute;leos Mexicanos
+            (PEMEX), and EcoPetrol in Colombia.</p>
+        <p>
+            Since joining GMI in 2005, Canada has invested close to CAN$7.8 million in international
+            projects that support the Initiative's goals of directly reducing or abating methane
+            emissions. This investment was matched by more than $12 million in contributions
+            from other public and private sector partners.</p>
+        <p>
+            Of this, two projects were recently supported using Canada's $1.2 billion <a href="http://www.faststartfinance.org/">
+                Fast Start Financing</a> <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative">
+                    <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>
+            contribution, namely work to support the development of Nationally Appropriate Mitigation
+            Actions (NAMAs) in the landfill and oil and gas sector. Canada is working with GMI
+            Partner Countries Colombia, Chile, and Mexico to facilitate a strategic, inclusive
+            and country-specific capacity building dialogue on methane mitigation and adaptation
+            activities that support a shift towards clean renewable energy, energy efficiency,
+            and energy security.</p>
+        <p>
+            Canada's fast-start financing is also supporting work related to GMI. For example,
+            Canada is contributing CAN$1.9 million to support the <a href="http://cleancookstoves.org/">
+                Global Alliance for Clean Cook Stoves</a> <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative">
+                    <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>,
+            an initiative that supports projects in <strong>Colombia, Ghana, Mexico,</strong>
+            and <strong>Peru </strong>that will improve the health of families in those countries
+            and reduce the climate warming impact of emissions of black carbon, including through
+            the adoption of cook stoves that use biogas and LFG.</p>
+        <p>
+            Canada is also contributing CAN$3 million to support the new <a href="ne_slcf.aspx">
+                Climate and Clean Air Coalition to Reduce Short-Lived Climate Pollutants (CCAC)</a>.
+            This new initiative, of which Canada is a founding member, aims to reduce global
+            emissions of pollutants such as black carbon, hydrofluorocarbons, and methane because
+            of their near-term climate impacts as well as they impacts on air quality and human
+            health.</p>
+        <p>
+            Canada is looking forward to hosting the GMI's Methane Expo 2013 and welcoming GMI
+            official delegates in Vancouver!</p>
+        
+        <h2 id="three">
+            Subcommittee Update</h2>
+        <div style="width: 280px; margin: 5px 0 10px 15px; padding: 5px; border: 1px solid #0076bf;
+            float: right;">
+            <h2 style="text-align: center;">
+                The Landfills Sector is Now the Municipal Solid Waste Sector!</h2>
+            <p>
+                This new name helps to convey the updated mission and purpose of the subcommittee,
+                which has expanded its technical and outreach efforts to reduce methane across several
+                segments of the waste sector. Activities now include promoting LFG recovery and
+                use, as well as methane abatement technologies such as composting and anaerobic
+                digestion.</p>
+        </div>
+        <p>
+            All the subcommittees recently met to continue sector-related activity discussions,
+            plan for Methane Expo 2013, and hear about the latest news on the <a href="ne_slcf.aspx">
+                CCAC</a> initiative (see next article for background). Highlights from these
+            meetings as well as action items from each subcommittee meeting are listed below.</p>
+        <p>
+            <strong><em>Agriculture</em></strong><br />
+            The Agriculture Subcommittee held an Internet-based meeting on 10 April 2012, which
+            began with Partner Country updates from <strong>Canada, India,</strong> and <strong>
+                Pakistan</strong>. Representatives from each country spoke about their respective
+            activities in the agriculture sector. Monica Shimamura, Co-Director of GMI's ASG,
+            provided an update on GMI activities including how the ASG is working with the <strong>
+                United States</strong> to develop an updated sector Action Plan and guidelines.
+            The meeting also included a discussion of agenda topics for the next in-person meeting,
+            to be held on 2-3 July 2012 in <strong>Singapore</strong>. Meeting notes from the
+            April meeting will be available on <a href="event_detailsByEventId.aspx?eventId=387">
+                GMI's website</a>. Action items from the meeting included:</p>
+        <ul>
+            <li>Partner Country delegates to respond to the Agriculture Subcommittee survey; and</li>
+            <li>Update sector Action Plans.</li>
+        </ul>
+        <p>
+            <strong><em>Coal</em></strong><br />
+            The Coal Subcommittee held an <a href="event_detailsByEventId.aspx?eventId=385">Internet-based
+                meeting</a> on 16 May 2012 with more than 20 participants from seven Partner
+            Countries. The meeting began with a brief welcome from the <strong>U.S.</strong>
+            Co-Chair, Pamela Franklin with the U.S. Environmental Protection Agency (EPA) who
+            also announced that she would be stepping down as Co-Chair and Felicia Ruiz with
+            U.S. EPA's Coalbed Methane Outreach Program will be the new U.S. Co-Chair. Monica
+            Shimamura, Co-Director of GMI's ASG, provided an update on GMI activities and Andrew
+            Eli from the U.S. Department of State spoke during this update to provide information
+            on the CCAC. Partner Country updates were provided by representatives from <strong>Australia,
+                China, Mongolia, Poland, the United States,</strong> and <strong>Vietnam</strong>.
+            The meeting also included a discussion of the next in-person <a href="event_detailsByEventId.aspx?eventId=386">
+                Coal Subcommittee meeting</a>, which is being hosted by Australia's Department
+            of Resources, Energy and Tourism on 4-6 September 2012 in Sydney, Australia. In
+            addition to the subcommittee meeting, the three-day event will include a site visit
+            as well as a coal industry workshop. The meeting was concluded with Project Network
+            member Raymond Pilcher (Raven Ridge Resources Incorporated) providing an update
+            on the plans for the coal mines sector portion of Methane Expo 2013. Action items
+            from the meeting included:</p>
+        <ul>
+            <li>Plan for the Coal Subcommittee meeting in Australia; and</li>
+            <li>Develop ideas for the coal technical sessions for Methane Expo 2013.</li>
+        </ul>
+        <div style="width: 280px; margin: 5px 0 10px 15px; padding: 5px; border: 1px solid #0076bf;
+            float: right;">
+            <h2 style="text-align: center;">
+                Three Subcommittees to Meet in July
+            </h2>
+            <p>
+                The Agriculture, Municipal Solid Waste, and Municipal Wastewater Subcommittees are
+                <a href="event_detailsByEventId.aspx?eventId=392">meeting</a> in <strong>Singapore</strong>
+                on 2-3 July 2012. The discussions will be held in conjunction with the <a href="http://www.wastemetasia.sg/conference">
+                    WasteMET Asia &mdash; ISWA Beacon Conference</a> <a href="/exitdisclaimer.aspx"
+                        title="Exiting Global Methane Initiative">
+                        <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>,
+                <a href="http://www.worldcitiessummit.com.sg/">the World Cities Summit</a> <a href="/exitdisclaimer.aspx"
+                    title="Exiting Global Methane Initiative">
+                    <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>,
+                and <a href="http://www.siww.com.sg./">Singapore International Water Week</a> <a
+                    href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative">
+                    <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>.
+                Each day a cross sector plenary session will be held. There will be technical presentations
+                that overlap the sectors that all delegates will be able to attend, and the subcommittees
+                will meet separately to discuss sector-specific issues.</p>
+        </div>
+        <p>
+            <strong><em>Municipal Solid Waste</em></strong><br />
+            The Municipal Solid Waste Subcommittee held an <a href="http://www.globalmethane.org/news-events/event_detailsByEventId.aspx?eventId=388">
+                Internet-based meeting</a> on 7 May 2012. Participants accepted the new name
+            for the subcommittee, which was in response to a change in the Terms of Reference
+            for GMI to address the broader waste sector. Participants also discussed the recent
+            peer review and upcoming launch of <em>International Best Practices Guide for Landfill
+                Gas Energy Projects</em>. Other topics covered during the meeting included the
+            recent technical and financial support for preparing waste sector NAMAs and the
+            next in-person meeting, scheduled for 2-3 July 2012 in <strong>Singapore</strong>.
+            Action items from the meeting included:</p>
+        <ul>
+            <li>Develop a matrix of ongoing NAMA development activities by country; and</li>
+            <li>Incorporate expert reviewer comments on the <em>International Best Practices Guide
+                for Landfill Gas Energy Projects</em> and finalize for distribution at the subcommittee
+                meeting in July.</li>
+        </ul>
+        <p>
+            <strong><em>Municipal Wastewater</em></strong><br />
+            The Municipal Wastewater Subcommittee has been actively working to recruit delegates
+            and has confirmed participation from 16 Partner Countries: <strong>Colombia, Dominican
+                Republic, Finland, Ghana, Indonesia, Italy, Japan, Mexico, Mongolia, Nicaragua,
+                Pakistan, Peru, Poland, Serbia, Turkey,</strong> and the <strong>United States</strong>.
+            The subcommittee held its first <a href="event_detailsByEventId.aspx?eventId=389">Internet-based
+                meeting</a> on 18 April 2012, attracting nearly 20 attendees from 10 countries.
+            Attendees discussed the ongoing development of a sector Action Plan, subcommittee
+            membership and leadership, and ideas for the first in-person subcommittee meeting,
+            scheduled for 2-3 July 2012 in <strong>Singapore</strong>. Action items from the
+            meeting included:</p>
+        <ul>
+            <li>Plan for the next in-person subcommittee meeting in July; and</li>
+            <li>Provide input on draft sector Action Plan.</li>
+        </ul>
+        <p style="width: 300px; margin: 0 10px 10px 5px; padding: 5px; border: 1px solid #0076bf;
+            float: right; font-size: 11px;">
+            <img src="/images/mi28_scott.jpg" alt="Scott Bartos (U.S. EPA's Natural Gas STAR Program) giving A.K. Hazarika (India's Oil and Natural Gas Corporation Ltd) a certificate of appreciation at the GMI Oil &amp; Gas Subcommittee meeting."
+                width="300" height="200" />
+            Scott Bartos (U.S. EPA's Natural Gas STAR Program) giving A.K. Hazarika (India's
+            Oil and Natural Gas Corporation Ltd) a certificate of appreciation at the GMI Oil
+            &amp; Gas Subcommittee meeting.</p>
+        <p>
+            <strong><em>Oil &amp; Gas</em></strong><br />
+            The Oil &amp; Gas Subcommittee met on 12 April 2012 in Denver, Colorado, <strong>United
+                States</strong>, in conjunction with the U.S. EPA's Natural Gas STAR Annual
+            Implementation Workshop. Highlights of this combined event included site tours of
+            the Xcel Energy Marshall Compressor Station and the Anadarko Production Facility,
+            a keynote presentation by Sarah Dunham, Director of the Office of Atmospheric Programs
+            at U.S. EPA, and technical presentations, which are available on <a href="http://www.epa.gov/gasstar/workshops/annualimplementation/2012.html">
+                Natural Gas STAR's workshop Web page</a> <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative">
+                    <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>.
+            The <a href="event_detailsByEventId.aspx?eventId=384">subcommittee meeting</a> portion
+            of the conference included country-specific updates from <strong>Colombia, Ghana, India,
+                Indonesia, Norway, Ukraine,</strong> and the <strong>United States</strong>
+            and an update from the ASG on recent activities. The meeting also included a discussion
+            of the new international CCAC initiative including call-in participation by Jonathan
+            Pershing, U.S. Department of State's Deputy Special Envoy for Climate Change and
+            an in-depth look into the potential for the subcommittee to develop oil and gas
+            focused NAMAs (highlighted by efforts underway by <strong>Canada</strong>, Ecopetrol
+            of Colombia, and <strong>Mexico's</strong> PEMEX). Action items from the meeting
+            included:</p>
+        <ul>
+            <li>Organize conference calls to discuss the upcoming Methane Expo 2013, as well as
+                the subcommittee's role to ensure the event is as useful as possible for the oil
+                and gas sector participants; and</li>
+            <li>Arrange conference calls to advance discussions on short-lived climate pollutants.</li>
+        </ul>
+        
+        <h2 id="four">
+            CCAC on a Fast Track</h2>
+        <div style="width: 300px; margin: 5px 0 10px 15px; padding: 5px 0 5px 5px; border: 1px solid #0076bf;
+            float: right;">
+            <h2 style="text-align: center;">
+                Coalition Partners</h2>
+            <ul class="nospace">
+                <li>Bangladesh</li>
+                <li>Canada</li>
+                <li>Colombia</li>
+                <li>European Commission</li>
+                <li>Ghana</li>
+                <li>Japan</li>
+                <li>Mexico</li>
+                <li>Nigeria</li>
+                <li>Norway</li>
+                <li>Sweden</li>
+                <li>United Nations Environment Programme</li>
+                <li>United States</li>
+                <li>World Bank</li>
+            </ul>
+        </div>
+        <p>
+            <img src="/images/logo_ccac.gif" alt="CCAC logo" style="border: 1px solid #000;
+                margin: 0 5px 3px 0; float: left;" />Launched in February 2012, the CCAC held
+            their first Ministerial meeting on 24 April 2012 in <strong>Sweden</strong>. The
+            Coalition, composed of 13 partners, is focused on reducing short-lived climate pollutants
+            and has already established a trust fund with pledges totaling $18 million. Ministers
+            approved five new rapid implementation initiatives targeted to accelerate action
+            against climate-damaging emissions of black carbon, methane, and fluorinated gases
+            (HFCs). Two of these &quot;fast track&quot; initiatives include improving solid
+            waste management practices and reducing methane emissions from landfills and the
+            reduction of methane emissions from the oil and gas sector. For more information,
+            read the <a href="http://www.unep.org/newscentre/Default.aspx?DocumentID=2678&amp;ArticleID=9116&amp;l=en">
+                press release</a> <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative">
+                    <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>
+            and visit the Coalition's newly launched <a href="http://hqweb.unep.org/ccac/">website</a>
+            <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative">
+                <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>
+            for the latest information.</p>
+        <br class="clear" />
+        
+        <h2 id="five">
+            Plug Flow (Channel) Digesters Installed on Thai Pig Farms</h2>
+        <p style="width: 300px; margin: 0 10px 10px 10px; padding: 5px; border: 1px solid #0076bf;
+            float: right; font-size: 11px;">
+            <img src="/images/mi28_digester.jpg" alt="Channel digester in Thailand." />
+            Channel digester in Thailand.</p>
+        <p>
+            Thai officials are attempting to reverse the trend of rising agricultural emissions.
+            In October 2011, Dr. Arux Chaiyakul, Senior Veterinarian Officer from the <strong>Thailand</strong>
+            Department of Livestock Development, reported that Thailand reached its goal of
+            installing anaerobic digesters to manage 240,000 pigs' worth of manure. With financial
+            and technical support from GMI and the World Bank's Global Environmental Facility's
+            (GEF's) International Waters Section and technical support from the Thailand Department
+            of Livestock Development and the Thailand Energy Policy and Planning Office, non-traditional
+            plug flow (channel) digester systems have been installed at 30 large swine farms
+            in two provinces (Ratchuburi and Chnonburi) outside of Bangkok. These digesters
+            were bundled under a Program of Activities (PoA) that allows small GHG emission
+            sources such as livestock and food processing facilities to participate in carbon
+            reduction programs. PoAs have also been jointly developed with the World Bank and
+            GMI technical support in the Philippines.</p>
+        <p>
+            The participating farmers benefit from using the methane as an energy source and
+            byproducts of the digestion process as fertilizer. Of special note is the dried
+            solid fraction of the stabilized material which is bagged and sold to local farms.
+            The approach is an excellent way to control non-point source pollution (NPS) without
+            regulation. Moreover the revenues generated by the sale of stabilized solid waste
+            exceed that of energy generation. The non-traditional plug flow (channel) digester
+            was designed to add this benefit by including wet season solid storage and drying
+            beds to facilitate processing and packaging. The PoA also has a community development
+            component where 10 percent of the carbon payments are directed to poorer communities
+            to develop clean water sources, malaria control, and educational opportunities.
+            The digester systems also improve local water quality, reduce odors, and increase
+            farm productivity. Thailand expects these GMI-supported projects to reduce methane
+            emissions by 120,000 tons of carbon dioxide equivalent per year. These non-traditional
+            plug flow (channel) systems require a significant investment, so are designed for
+            farms with at least 10,000 pigs. The World Bank's project team was awarded a first
+            place standing in the SmartLessons competition where innovative programs that have
+            resulted in positive impacts on development and environment were evaluated and scored
+            by a panel. Last year, Thailand began an initiative to install less expensive tubular
+            digester systems at 100 small farms and is considering bundling under a small-scale
+            PoA, further reducing emissions from the country's more than 8.5 million pigs. This
+            approach was transferred from the Philippines where GMI and the Land Bank of the
+            Philippines work through pig cooperatives to expand the use of household digesters
+            for cook fuel.</p>
+        
+        <h2 id="six">
+            Sector Action Plans</h2>
+        <p>
+            Recently, many countries completed or updated their sector Action Plans. These plans
+            are an important tool to identify the specific needs, opportunities, and priorities
+            for project development. Countries write Action Plans in order to share what efforts
+            have been undertaken, as well as to advance project development.</p>
+        <ul>
+            <li>In February 2012, <strong>Turkey</strong> submitted its <a href="../documents/coal_cap_turkey.pdf">
+                Coal Action Plan</a> (PDF, 5 pp, 302K), which outlines the opportunities to reduce
+                methane emissions from the coal sector. Coal represents nearly 21 percent of Turkey's
+                total power generation. The Action Plan also highlights Turkey's commitment in GMI,
+                stemming from its two main interests of increasing mine safety by controlling mine
+                methane and reducing GHG emissions by reducing methane emissions from their coal
+                mines.</li>
+            <li>In March 2012, <strong>Nicaragua</strong> completed its <a href="../documents/ag_cap_nicaragua.pdf">
+                Agriculture Action Plan</a> (PDF, 12 pp, 831K) (Spanish only). In 2010, agricultural
+                sources in Nicaragua accounted for nearly 30 percent of methane emissions in the
+                country. The GHG emission sources used for the calculation include domestic livestock,
+                enteric fermentation, manure management, rice cultivation, agricultural soils, prescribed
+                burning of savannas, and field burning of agricultural waste. While there are still
+                many barriers to project development, there are success stories that show the promise
+                of projects in the country. For example, <a href="http://www.mcc.gov/">Millennium Challenge
+                    Corporation</a> <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative">
+                        <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>&mdash;an
+                independent U.S. foreign aid agency&mdash;distributed thin plastic flat sheets to
+                construct bag type digesters to farms in Le&oacute;n and Chinandega. They estimate
+                that between 100 and 150 digesters are operating and converting swine waste into
+                biogas. The Inter-American Development Bank, in conjunction with GMI, is also developing
+                a PoA for small sources where technical support is provided by SNV. Farms are able
+                to use the energy produced on-site as cooking fuel replacing biomass fuels and improving
+                kitchen air quality and other health and environmental benefits such as reducing
+                black carbon. Also in March 2012, Nicaragua completed their <a href="../documents/landfills_cap_nicaragua.pdf">
+                    Landfill Action Plan</a> (PDF, 22 pp, 709K) (Spanish only). Nicaragua has 245
+                municipal landfills and is promoting policies that help to regulate solid waste
+                disposal, along with waste reduction and recycling. The U.S. EPA's Landfill Methane
+                Outreach Program performed the first <a href="../activities/attachmentDownload.aspx?myObjId=00PG0000003i1VNMAY">
+                    feasibility assessment</a> (PDF, 25 pp, 3.3 MB) in the country at La Chureca
+                Landfill in Managua. The study concluded the site offers the opportunity to generate
+                more than 1 megawatt (MW) of electricity. Nicaragua is hoping that other landfill
+                owners will participate in feasibility studies after seeing the positive outcomes
+                from the study at La Chureca.</li>
+            <li>In April 2012, <strong>Ethiopia</strong> submitted their <a href="../activities/attachmentDownload.aspx?myObjId=00PG0000004Tj2xMAC">
+                Landfill Action Plan</a> (PDF, 49 pp, 507K), which looked at solid waste management
+                capacity and collection activities in the country, with an in-depth focus on three
+                municipalities&mdash;Addis Ababa, Mekele, and Dire Dawa. The study concludes that
+                although there is funding available for capital investment projects, there is a
+                significant gap in resources for long-term technical capacity building and operations
+                and maintenance of solid waste management systems. The Action Plan was designed
+                to fit into both the national climate strategy known as Climate Resilient Green
+                Economy Strategy (CRGE) and the economic plan known as the Growth and Transformation
+                Plan (GTP). Together these strategies prioritize efforts to achieve a more carbon
+                neutral future. One of the sectors prioritized in the plan includes the rapidly
+                growing urban waste management sector, since emissions from urban solid waste are
+                expected to rise over 200 percent by 2030. According to the GTP, there is an ambitious
+                landfill construction goal that would bring improved municipal solid waste services
+                to 364 towns and cities by 2015. Implementing improved LFG management techniques
+                such as flaring has an annual abatement potential of 0.9 metric tons of carbon dioxide
+                equivalent by 2030. The Landfill Action Plan adds value to the goals of the CRGE
+                and GTP, by filling capacity gaps to reduce emissions from the growing urban solid
+                waste management sector.</li>
+        </ul>
+        
+        <h2 id="seven">
+            Results from U.S. EPA Grants in Support of GMI</h2>
+        <p style="width: 300px; margin: 0 10px 10px 10px; padding: 5px; border: 1px solid #0076bf;
+            float: right; font-size: 11px;">
+            <img src="/images/mi28_tower.jpg" alt="Horizontal drilling rig in the southern Qinshui Basin." />
+            Horizontal drilling rig in the southern Qinshui Basin.</p>
+        <p>
+            <strong><em>ASU Completes Phase I</em></strong><br />
+            Appalachian State University (ASU), located in North Carolina, <strong>United States,</strong>
+            received a $120,000 <a href="../projects/projectDetail.aspx?ID=1030">U.S. EPA grant</a>
+            in 2009 to investigate opportunities for community-based LFG utilization projects
+            in the northeastern <strong>Brazilian</strong> state of Ceara. Work on their grant
+            was previously reported in <a href="../news-events/mi24.aspx#two">Spotlight on Brazil</a>
+            from <em>Methane International</em>'s June 2011 issue. ASG posted <a href="../activities/attachmentDownload.aspx?myObjId=00PG0000004Ti8JMAS">
+                ASU's Community-based Landfill Gas Utilization in Brazil&ndash;Phase I Final Report</a>
+            (PDF, 107 pp, 4.3 MB). The report includes a project summary; outline of Phase II
+            tasks, such as permitting to construct LFG collection systems; and photos. In 2010,
+            ASU received another <a href="../projects/projectDetail.aspx?ID=1211">U.S. EPA grant</a>
+            to implement Phase II.</p>
+        <p>
+            <strong><em>Handbook for Coalbed Methane Degasification in China</em></strong><br />
+            In August 2011, Virginia Tech's Center for Coal and Energy Research completed <a
+                href="../Data/FinalHandbook_VATech2008Grant.pdf">A Regional Handbook for Coalbed
+                Methane Degasification in the Southern Shanxi Province, China</a> (PDF, 98 pp,
+            4.5 MB). The handbook was created as part of a <a href="../projects/projectdetail.aspx?id=339">
+                2008 U.S. EPA grant</a> to develop guidelines and evaluate the potential of
+            reducing methane emissions in the southern Shanxi Province at China's Qinshui Coal
+            Basin. The basin contains resources that have the potential to provide sustained
+            energy sources. Safely mining the coal will necessitate coalbed methane extraction
+            plans to ensure the health and safety of miners. The handbook evaluates degasification
+            techniques to capture coalbed methane for energy use. The document also includes
+            an overview of government-related legal issues and incentives, which support coalbed
+            methane extraction.</p>
+        <p>
+            <strong><em>Lagos Waste Management Authority Releases Feasibility Report</em></strong><br />
+            <strong>Nigeria's</strong> Lagos Waste Management Authority recently released a
+            <a href="../activities/attachmentDownload.aspx?myObjId=00PG0000004Tik0MAC">Draft Feasibility
+                Report</a> (PDF, 33 pp, 994 KB), conducted in conjunction with the Clinton Foundation.
+            In 2010, Lagos Waste Management Authority received a <a href="../projects/projectDetail.aspx?ID=1209">
+                U.S. EPA grant</a> for $80,000 to develop the LFG field assessments at the Abule-Egba
+            and Solous Landfills. The study's main goal was to determine whether developing
+            a Clean Development Mechanism project with LFG capture and utilization was economically
+            feasible. The report concluded that an LFG energy project is feasible and the Lagos
+            state government announced the first phase of the project, which consists of pre-engineering
+            design, would be completed by early 2013.</p>
+        <p>
+            <em>Source:</em> Olasunkanmi Akoni, &quot;<a href="http://www.afriquejet.com/gas-energy-supply-project-lagos-nigeria-2012022834153.html">Gas
+                Energy Supply Project Lagos Nigeria</a>,&quot; <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative">
+                    <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>
+            <em>Africa News</em>, 27 February 2012.</p>
+        
+        <h2 id="eight">
+            GMI Outreach</h2>
+        <div style="width: 280px; margin: 5px 0 10px 15px; padding: 5px; border: 1px solid #0076bf;
+            float: right;">
+            <h2 style="text-align: center;">
+                Lessons Learned From East Asia</h2>
+            <p>
+                In January 2012, the International Finance Corporation published &quot;<a href="../documents/ag_smartlessons.pdf">An
+                    Innovative and Cost-Effective Solution for Livestock Waste Management in China,
+                    Thailand, and Vietnam</a>&quot; (PDF, 4 pp, 833 KB) as part of its SmartLessons
+                series, which is designed to disseminate lessons learned from development and investment
+                projects. Authored by Kurt Roos, U.S. EPA; Jiang Ru, World Bank; and Weiguo Zhou,
+                a former World Bank employee, this document identifies the major challenges and
+                what they learned from implementing GEF's Livestock Waste Management in East Asia
+                Project.</p>
+        </div>
+        <p>
+            <strong><em>Australia</em></strong><br />
+            In February 2012, Pamela Franklin (with the U.S. EPA's Coalbed Methane Outreach
+            Program) traveled to Australia, where she attended several meetings and a conference.
+            The trip began with a meeting at Geoscience Australia with participants from Partner
+            organization Australia's Department of Resources, Energy and Tourism. This was followed
+            by a roundtable discussion with representatives from GMI Partner organizations such
+            as Australia's Department of Resources, Energy and Tourism; Department of Climate
+            Change and Energy Efficiency; and Commonwealth Scientific and Industrial Research
+            Organization. Topics discussed included Australia's GHG reporting program, treatment
+            of abandoned mines, and water quality impacts from unconventional natural gas sources.
+            Ms. Franklin finished the trip by attending the <a href="http://www.beaconevents.com/2012/CSGRISKSandRETURNS/en/Home/index.jsp">
+                Coal Seam Gas Risks and Returns conference</a> <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative">
+                    <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>
+            in Brisbane, where she presented <em>Benefitting from Coal Mine Methane Recovery and
+                Use Projects</em>.</p>
+        <p>
+            <strong><em>Asia</em></strong><br />
+            In January 2012, Kurt Roos, Team Leader of Agricultural Methane Programs at the
+            U.S. EPA, traveled to Thailand to participate in the final mission for the Livestock
+            Waste Management in East Asia (LWMEA) project. Funded by the GEF and implemented
+            through the World Bank with technical assistance from GMI and the United Nations
+            Food and Agricultural Organization, the project supported efforts in three countries&mdash;China,
+            Thailand, and Vietnam&mdash;to address the negative environmental and health impacts
+            of rapidly increasing livestock production. The project resulted in dozens of farm-scale
+            projects and increased awareness and advanced progress toward better water quality
+            and an effective policy framework that can be replicated in other countries. The
+            project is currently being considered to expand to provincial-scale in Guangdong,
+            China as a NPS program, which is similar to the Chesapeake Bay NPS program and is
+            focused on a comprehensive agricultural sector approach that includes conservation
+            agriculture such as integrating crops, livestock, and other high and low strength
+            organic substrates.</p>
+        <p>
+            <strong><em>Europe</em></strong><br />
+            On 16 March 2012, GMI traveled to Moscow, <strong>Russia</strong>, to meet with
+            representatives from oil and gas companies, share resources, learn about oil and
+            gas projects within Russia, introduce Russian companies to GMI and the U.S. EPA's
+            Natural Gas STAR International, and discuss possible cooperation within the programs.
+            There was also a workshop held at the Carnegie Moscow Center, which was co-hosted
+            by the U.S. EPA, Pacific Northwest Laboratory, and World Wildlife Federation-Russia.
+            The workshop focused on reducing methane emissions in the oil and natural gas sector.
+            Representatives from Shell U.S. and Project Network member <a href="../project-network/pnmProfile.aspx?ID=a0AA0000002qfoaMAA">
+                Hy-Bon Engineering Company</a> provided examples of practices used to identify
+            and recover methane and associated gas from U.S. oil and natural gas facilities.
+            Both companies stressed that, in addition to environmental benefits, the technologies
+            they use can increase profits. Representatives from oil and natural gas companies,
+            such as Gazprom VNIIGAZ, presented information on how companies flare and use associated
+            gases, as well as data on emissions reduction.</p>
+        <p>
+            On 23-25 April 2012, Allison Costa, with the U.S. EPA's AgSTAR Program, traveled
+            to <strong>Denmark</strong> to attend the <a href="http://www.sgc.se/nbc2012/">Nordic
+                Biogas Conference</a>. The conference brought together more than 500 participants
+            to learn about biogas production technologies and opportunities as well as the role
+            of renewable gas in future energy markets. Presentations covered biogas utilization,
+            renewable gas markets, and the status of biogas in countries around the world. Ms.
+            Costa spoke about biogas trends in the <strong>United States</strong> and shared
+            some general information about the AgSTAR Program.</p>
+        <p style="width: 300px; margin: 0 10px 10px 10px; padding: 5px; border: 1px solid #0076bf;
+            float: right; font-size: 11px;">
+            <img src="/images/mi28_booth.jpg" alt="Franck Portalupi and Maria Clavijo from Environment Canada with Peter Kent (Canadian Minster of Environment) and Monica Shimamura (ASG) at the GMI booth at GLOBE 2012." />
+            Franck Portalupi and Maria Clavijo from Environment Canada with Peter Kent (Canadian
+            Minster of Environment) and Monica Shimamura (ASG) at the GMI booth at GLOBE 2012.</p>
+        <p>
+            On 15-16 May 2012, Tom Frankiewicz, Program Manager for the U.S. EPA Landfill Methane
+            Outreach Program, traveled to Warsaw, <strong>Poland,</strong> to attend <a href="http://www.greenpowerconferences.com/EF/?sSubSystem=Prospectus&amp;sEventCode=BS1205PL&amp;sSessionID=693d030ba2457df58d5d6ef64c904e94-11109645">
+                Biogas Poland 2012</a> <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative">
+                    <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>.
+            The conference focused on opportunities and challenges of biogas production at landfills,
+            wastewater treatment plants, and agriculture biogas plants. Poland has set a goal
+            that 14 percent of their energy production will come from renewable energy sources
+            by 2020. Presentations included incentives to stimulate the industry, finance and
+            investment for biogas projects, and agricultural biogas case studies. Mr. Frankiewicz
+            spoke about opportunities and lessons learned through GMI. GMI also had a booth
+            at the event where they shared information about the Initiative.</p>
+        <p>
+            <strong><em>North America</em></strong><br />
+            In March 2012, GMI attended <a href="http://2012.globeseries.com/">GLOBE 2012</a>
+            <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative">
+                <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>
+            in Vancouver, <strong>Canada</strong>. The conference brought together more than
+            9,000 representatives from the public, private, and non-governmental sectors with
+            an interest in sustainability, energy, and the environment. The conference included
+            discussions on the current trends and showcased innovative technologies for the
+            world's environmental problems. GMI staff teamed up with Environment Canada, hosted
+            a booth, and reached out to the private sector, Partner Countries, and Canadians
+            to announce the upcoming GMI Methane Expo 2013. In preparation for Methane Expo
+            2013, the ASG also met with the Canadian government as well as with organizations
+            and representatives from British Columbia. In addition, they traveled to Nanaimo
+            to visit a potential landfill site tour location for the Expo.</p>
+		
+		</div>
+	</section>
+	
+	<button onclick="topFunction()" class="btn btn-dark btn-sm" id="btnToTop" title="Go to top"><i class="fa fa-chevron-up" aria-hidden="true"></i> Top</button>
+	
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'en',
+                layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+            }, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+    </script>
+    <script>
+        $('.translateText').click(function () {
+            $("#languageWidget").css("display", "block");
+            $(".hider").slideToggle();
+        });
+    </script>
+
+	
+	<script>
+    //Get the button
+    var mybtnToTop = document.getElementById("btnToTop");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybtnToTop.style.display = "block";
+      } else {
+        mybtnToTop.style.display = "none";
+      }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    </script>
+	
+</body>
+
+</html>

@@ -1,0 +1,258 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/dd7fc261ae.js"></script>
+    <script>
+		(function (w, d, s, l, i) {
+			w[l] = w[l] || [];
+			w[l].push({
+				'gtm.start': new Date().getTime(),
+				event: 'gtm.js'
+			});
+			var f = d.getElementsByTagName(s)[0],
+				j = d.createElement(s),
+				dl = l != 'dataLayer' ? '&l=' + l : '';
+			j.async = true;
+			j.src =
+				'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+			f.parentNode.insertBefore(j, f);
+		})(window, document, 'script', 'dataLayer', 'GTM-WM2LZW5');
+	</script>
+    <style>
+        body {
+            background: #1695be;
+        }
+
+        .tooltip:hover span {
+            opacity: 1;
+            filter: alpha(opacity=100);
+            top: -6em;
+            left: 20em;
+            z-index: 99;
+            -webkit-transition: all 0.2s ease;
+            -moz-transition: all 0.2s ease;
+            -o-transition: all 0.2s ease;
+            transition: all 0.2s ease;
+        }
+
+        .homearea {
+            position: fixed;
+            bottom: 10px;
+            left: 10px;
+        }
+
+        .homearea:hover {
+            cursor: pointer;
+        }
+
+        .box b {
+            color: #fff;
+        }
+
+        .tooltip span {
+            background: none repeat scroll 0 0 #222;
+            /*-- some basic styling */
+            color: #F0B015;
+            font-family: 'Helvetica';
+            font-size: 0.8em;
+            font-weight: normal;
+            line-height: 1.5em;
+            padding: 16px 15px;
+            width: 240px;
+            top: -4em;
+            /*-- this is the original position of the tooltip when it's hidden */
+            left: 20em;
+            margin-left: 0;
+            /*-- set opacity to 0 otherwise our animations won't work */
+            opacity: 0;
+            filter: alpha(opacity=0);
+            position: absolute;
+            text-align: center;
+            z-index: 2;
+            text-transform: none;
+            -webkit-transition: all 0.3s ease;
+            -moz-transition: all 0.3s ease-in-out;
+            -o-transition: all 0.3s ease;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .tooltip span:after {
+            border-color: #222 rgba(0, 0, 0, 0);
+            border-style: solid;
+            border-width: 15px 15px 0;
+            bottom: -15px;
+            content: "";
+            display: block;
+            left: 31px;
+            position: absolute;
+            width: 0;
+        }
+
+        .nav-tabs>li,
+        .nav-pills>li {
+            float: none;
+            display: inline-block;
+            *display: inline;
+            /* ie7 fix */
+            zoom: 1;
+            /* hasLayout ie7 trigger */
+        }
+
+        .nav-tabs,
+        .nav-pills {
+            text-align: center;
+        }
+
+        h4 {
+            background: #CAEBF2;
+            padding: 5px;
+        }
+    </style>
+    <!-- Styles -->
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+
+      // Load the Visualization API and the corechart package.
+      google.charts.load('current', {'packages':['corechart']});
+
+      // Set a callback to run when the Google Visualization API is loaded.
+      google.charts.setOnLoadCallback(drawChart);
+
+      // Callback that creates and populates a data table,
+      // instantiates the pie chart, passes in the data and
+      // draws it.
+      function drawChart() {
+
+        // Create the data table.
+        var data = new google.visualization.DataTable();
+        data.addColumn('string', 'Topping');
+        data.addColumn('number', 'Slices');
+        data.addRows([
+          ['Carbon Dioxide', 81],
+          ['Methane', 10],
+          ['Nitrous Oxide', 6],
+          ['Fluorinated Gases', 3]
+        ]);
+
+        // Set chart options
+        var options = {'title':'Overview of Greenhouse Gas \nEmissions in 2016*',
+                       'width':400,
+                       'height':300,
+                       'colors': ['#474787', '#227093', '#706fd3', '#34ace0']};
+
+        // Instantiate and draw our chart, passing in some options.
+        var chart = new google.visualization.PieChart(document.getElementById('chart_div'));
+        chart.draw(data, options);
+      }
+    </script>
+</head>
+
+<body>
+    <div class="homearea">
+        <a class="btn btn-danger" href="showcase.html">
+            <i class="fa fa-arrow-left fa-lg"></i> View showcase
+        </a>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-0 col-md-2"></div>
+            <div class="col-sm-12 col-md-8" style="background:white;">
+                <img src="images/gallery/usabanner.jpg" style="width:100%" />
+                <hr>
+
+                        <h2>Domestic Methane Partnership &nbsp;
+                            <a class="btn btn-primary" href="pdf/usa.pdf"
+                                aria-label="Download the PDF">
+                                <i class="fa fa-download" aria-hidden="true"></i>
+                            </a></h2>
+                        <a href="https://www.epa.gov/gmi/sector-based-epa-methane-partnership-programs"><img src="images/gallery/sectors.png" width="50%" style="float:right;"></a>
+                        <p>U.S. industries — along with state and local governments— work collaboratively with the U.S.
+                            Environmental Protection Agency (EPA) to implement several voluntary programs that promote
+                            the cost-effective recovery and use of methane from key sectors, including
+                            agriculture/manure management, coal mining, landfill, and oil & gas industries. These
+                            partnership programs – AgStar, the Coalbed Methane Outreach Program, the Landfill Methane
+                            Outreach Program, and the Natural Gas STAR / Methane Challenge Program, are designed to
+                            overcome a wide range of informational, technical, and institutional barriers to reducing
+                            U.S. methane emissions. Learn more <a href="https://www.epa.gov/gmi/sector-based-epa-methane-partnership-programs">here</a>.</p>
+                        <h2>Support for the Global Methane Initiative</h2>
+                        <p><a href="https://www.epa.gov/gmi/us-government-global-methane-initiative-accomplishments"><img src="images/gmilogo.svg" width="30%" style="float:left;padding:10px;"></a>
+                            EPA shares the expertise and experience gained through its successful voluntary domestic
+                            programs to advance methane recovery and utilization around the world as part of its
+                            commitment to the Global Methane Initiative (GMI), an effort focused on methane recovery
+                            and use from coal mining, oil and gas operations, agriculture, municipal solid waste and
+                            wastewater. Through the GMI, EPA conducts sector-specific technical assessments and shares
+                            information on best practices for methane management with countries around the world. These
+                            efforts have supported identification and implementation of more than 1,100 methane
+                            mitigation projects since 2005, which have created opportunities for U.S. businesses and
+                            investors and supported U.S. diplomatic efforts. EPA also hosts the GMI secretariat, known
+                            as the Administrative Support Group (ASG), which coordinates the activities of the
+                            Initiative as a whole, including maintaining the website, organizing meetings and events,
+                            and facilitating communications. Learn more about the U.S. Government’s international
+                            methane mitigation activities <a href="https://www.epa.gov/gmi/us-government-global-methane-initiative-accomplishments">here</a>.</p>
+                        <h2>National Greenhouse Gas Inventory</h2>
+                        <a href="https://www.epa.gov/ghgemissions/inventory-us-greenhouse-gas-emissions-and-sinks"><div style="width:400px;float:right;"><div id="chart_div"></div>     <div style="background:#f0f0f0; font-size:8px;">*U.S. Environmental Protection Agency (2018). Inventory of U.S. Greenhouse Gas Emissions and Sinks: 1990-2016</div></div></a>
+                        <p>EPA develops an annual report, the Inventory of U.S. Greenhouse Gas Emissions and Sinks
+                            (Inventory), that tracks U.S. greenhouse gas emissions and sinks by source, economic
+                            sector, and greenhouse gas going back to 1990. The gases covered by the Inventory include
+                            carbon dioxide, methane, nitrous oxide, hydrofluorocarbons, perfluorocarbons, sulfur
+                            hexafluoride, and nitrogen trifluoride. The Inventory also calculates carbon dioxide
+                            emissions that are removed from the atmosphere by “sinks,” e.g., through the uptake of
+                            carbon and storage in forests, vegetation, and soils.</p><br>
+                        <p>EPA publishes the draft report in February to allow for public comment prior to publishing
+                            the final report by April 15 of every year. The national greenhouse gas inventory is
+                            submitted to the United Nations in accordance with the Framework Convention on Climate
+                            Change. Learn more <a href="https://www.epa.gov/ghgemissions/inventory-us-greenhouse-gas-emissions-and-sinks">here</a>.
+                       
+                        </p>
+                        <h2>Greenhouse Gas Reporting Program</h2>
+                        <a href=" https://www.epa.gov/ghgreporting"><img src="images/ghgrp2017.png"></a>
+                        <p>EPA collects data on greenhouse gas emissions, including methane, from individual facilities
+                            and suppliers of certain fossil fuels and industrial gases through the Greenhouse Gas
+                            Reporting Program (GHGRP). For reporting year 2016, over 8,100 facilities and suppliers
+                            reported to the GHGRP. EPA uses this facility-level data to improve estimates of national
+                            greenhouse gas emissions in the U.S. Greenhouse Gas Inventory. With EPA’s Facility Level
+                            Information on GreenHouse gases Tool (FLIGHT), members of the public can quickly and easily
+                            filter GHG data in a variety of ways, including by facility, industry, location, or gas.
+                            Learn more <a href=" https://www.epa.gov/ghgreporting">here</a>.
+                        </p>
+
+                <hr>
+              <a href="pdf/usa.pdf" class="btn btn-primary btn-block">Download The PDF</a>
+                <hr>
+            </div>
+            <div class="col-sm-0 col-md-2"></div>
+        </div>
+    </div>
+    <script>
+        $(document).ready(function () {
+            $('[data-toggle="popover"]').popover({
+                container: '.container'
+            });
+
+            $('body').on('click', function (e) {
+                $('[data-toggle=popover]').each(function () {
+                    // hide any open popovers when the anywhere else in the body is clicked
+                    if (!$(this).is(e.target) && $(this).has(e.target).length === 0 && $(
+                            '.popover').has(e.target).length === 0) {
+                        $(this).popover('hide');
+                    }
+                });
+            });
+
+        });
+    </script>
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+</body>
+
+</html>

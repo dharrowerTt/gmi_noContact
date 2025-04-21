@@ -1,0 +1,1237 @@
+﻿<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="">
+
+	<title>Global Methane Challenge</title>
+
+
+	<!-- Bootstrap core CSS -->
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+		integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link rel="stylesheet" href="assets/redesign.css">
+
+	<!-- FontAwesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+		integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
+
+
+
+	<!-- Favicons -->
+	<link rel="apple-touch-icon" href="/docs/4.4/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+	<link rel="icon" href="/docs/4.4/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+	<link rel="icon" href="/docs/4.4/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+	<link rel="mask-icon" href="/docs/4.4/assets/img/favicons/safari-pinned-tab.svg" color="#563d7c">
+	<link rel="icon" href="/docs/4.4/assets/img/favicons/favicon.ico">
+	<meta name="msapplication-config" content="/docs/4.4/assets/img/favicons/browserconfig.xml">
+	<meta name="theme-color" content="#563d7c">
+
+
+	<style>
+		input {
+			font-size: 1rem;
+		}
+
+		.button {
+			background: #0097e6;
+			border: none;
+		}
+
+		td.details-control {
+			background: url('details_open.png') no-repeat center center;
+			cursor: pointer;
+		}
+
+		tr.shown td.details-control {
+			background: url('details_close.png') no-repeat center center;
+		}
+
+		table.dataTable tfoot {
+			display: table-header-group;
+			background: #006699;
+		}
+
+		table.dataTable tfoot th,
+		table.dataTable tfoot td {
+			padding: 10px 18px 6px 10px !important;
+		}
+
+
+		.nav-link {
+			padding-right: .5rem !important;
+			padding-left: .5rem !important;
+		}
+
+		/* Fixes dropdown menus placed on the right side */
+		.ml-auto .dropdown-menu {
+			left: auto !important;
+			right: 0px;
+		}
+
+		.fsbanner {
+			position: fixed;
+			bottom: 0;
+			background: #f0932b;
+			color: white;
+			padding: 5px 20px 5px 20px;
+			z-index: 50000;
+			width: 100%;
+			-webkit-box-shadow: 0px -2px 5px 1px rgba(0, 0, 0, 0.75);
+			-moz-box-shadow: 0px -2px 5px 1px rgba(0, 0, 0, 0.75);
+			box-shadow: 0px -2px 5px 1px rgba(0, 0, 0, 0.75);
+			-webkit-animation: seconds 1.0s forwards;
+			-webkit-animation-iteration-count: 1;
+			-webkit-animation-delay: 15s;
+			animation: seconds 1.0s forwards;
+			animation-iteration-count: 1;
+			animation-delay: 15s;
+
+		}
+
+		.fsbanner a {
+			color: white;
+			font-weight: bold;
+		}
+
+
+		@-webkit-keyframes seconds {
+			0% {
+				opacity: 1;
+			}
+
+			100% {
+				opacity: 0;
+				left: -9999px;
+				position: absolute;
+			}
+		}
+
+		@keyframes seconds {
+			0% {
+				opacity: 1;
+			}
+
+			100% {
+				opacity: 0;
+				left: -9999px;
+				position: absolute;
+			}
+		}
+
+		#hide:hover {
+			cursor: pointer;
+		}
+
+		svg text {
+			display: none !important;
+		}
+	</style>
+
+</head>
+
+<body>
+
+	<div id="fsbanner" class="fsbanner">
+		The Global Methane Challenge fact sheet is available for download <a href="pdf/GMC Fact Sheet.pdf">in English <i
+				class="fa fa-download" aria-hidden="true"></i></a> | <a href="pdf/GMC Fact Sheet_ES.pdf">en Español <i
+				class="fa fa-download" aria-hidden="true"></i></a> | <a href="pdf/GMC Fact Sheet_FR.pdf">En français <i
+				class="fa fa-download" aria-hidden="true"></i></a>
+		<p style="margin-bottom:0;float:right;"><a id="hide">x</a></p>
+	</div>
+
+	<div id="headerContainer">
+		<nav class="navbar navbar-light bg-light navbar-default" style="background:white;">
+			<div class="container">
+				<a class="navbar-brand1" href="//globalmethane.org"><img id="smalllogo" style="margin-top: -15px;"
+						src="../img/gmi-top.png"> Global Methane Initiative (GMI)</a>
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link in-line" href="https://www.facebook.com/globalmethane/"><i class="fab fa-facebook-f  fa-fw"></i></a>
+						<a class="nav-link in-line" href="https://twitter.com/globalmethane"><i class="fab fa-twitter  fa-fw"></i></a>
+						<a class="nav-link in-line" href="https://linkedin.com/company/global-methane-initiative-gmi-"><i class="fab fa-linkedin  fa-fw"></i></a>
+						<div id="languageWidget" style="float:right;margin-top:10px;">
+							<div class="hider">
+								<div id="google_translate_element"></div>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</div>
+	<nav class="navbar navbar-expand-md navbar-dark bg-dark navbar-default second-nav">
+		<div class="container">
+			<a class="navbar-brand" href="index.html">Global Methane Challenge</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+				aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarCollapse">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="showcase.html">Actions Showcase</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="submission/index.aspx">Tell Your Story</a>
+					</li>
+				</ul>
+
+			</div>
+		</div>
+	</nav>
+	<video autoplay muted loop id="myVideo" poster="images/vidposter.png">
+		<source src="assets/video/methanebg.mp4" type="video/mp4">
+		<source src="assets/video/methanebg.ogg" type="video/ogg">
+		<source src="assets/video/methanebg.webm" type="video/webm"> Your browser does not support HTML5 video.
+	</video>
+	<div id="tile"></div>
+	<img id="watcher" src="images/watcher.png">
+	<main role="main" class="container">
+		<!-- Home Section-->
+		<div id="home" class=" py-5 color1 shadow" style="padding-bottom:0!important;">
+			<div class="container ">
+
+				<div class="row">
+					<div class="col-md-12" style="text-align:center;padding-bottom:20px;">
+						<img src="images/gmclogo.svg"
+							style="max-width:450px; margin-left:auto; margin-right:auto; filter: drop-shadow( 2px 0 2px hsla(0, 0%, 0%, 0.2));">
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+		<div id="listsection" class="album py-5 color30 shadow">
+			<div class="container ">
+
+				<div class="row">
+					<div class="col-md-12">
+						<h2>Actions Showcase</h2>
+						<p>Explore the actions showcase to learn how organizations are leading methane mitigation
+							efforts around the world. Details about each project are available from the table below.
+							Click on the map to view the projects for a specific country.</p>
+							<img src="numbers/legend.png" style="width:33%;"><br>
+						<!--<div id="map" style="background:#60a3bc; width: 100%; height:400px; border:solid 2px rgba(255, 255, 255, 0.25);border-radius:0.25em;	box-shadow: 0 9px 20px rgba(0, 0, 0, 0.2)  ; 
+							-webkit-box-shadow: 0 9px 20px rgba(0, 0, 0, 0.2)  ; 
+							-moz-box-shadow: 0 9px 20px rgba(0, 0, 0, 0.2)  ; "></div>-->
+
+						<div id="newmap"></div>
+							<div id="resetfilter" style="background:white;border:2px solid white; display:inline-block;padding:5px;text-align:center;margin-left:auto;margin-right:auto;margin-top:5px;cursor:pointer;display:none">Remove Filter</div>
+					</div>
+				</div>
+
+				<div class="row" style="margin-top:40px;">
+					<div class="col-md-12">
+						<table id="example" class="display" style="width:100%">
+							<thead>
+								<tr>
+									<th></th>
+									<th>Project Name</th>
+									<th>Link</th>
+									<th class="select-filter">Sector</th>
+									<th class="select-filter">Country</th>
+									<th class="select-filter">Project Type</th>
+									<th>Thumbnail</th>
+									<th>Description</th>
+								</tr>
+							</thead>
+							<tfoot>
+								<tr>
+									<th></th>
+									<th> </th>
+									<th>Link</th>
+									<th>Sector</th>
+									<th>Country</th>
+									<th>Project Type</th>
+									<th> </th>
+									<th>Description</th>
+								</tr>
+							</tfoot>
+						</table>
+
+					</div>
+
+
+
+				</div>
+			</div>
+		</div>
+
+
+
+		<!-- Bottom of Content-->
+
+		</div>
+		<div style="margin-top:60px;">
+			&nbsp;
+		</div>
+
+	</main>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+		integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+	</script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+		integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+	</script>
+	<script type="text/javascript" src="https://www.amcharts.com/lib/3/ammap.js"></script>
+	<script type="text/javascript" src="https://www.amcharts.com/lib/3/maps/js/worldLow.js"></script>
+	<script src="assets/sweetalert/sweetalert2.min.js"></script>
+
+	<link rel="stylesheet" href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css" type="text/css" />
+
+
+	<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js">
+	</script>
+	<script type="text/javascript" language="javascript"
+		src="https://cdn.datatables.net/buttons/1.6.2/js/dataTables.buttons.min.js"></script>
+	<script type="text/javascript" language="javascript"
+		src="https://cdn.datatables.net/buttons/1.6.2/js/buttons.flash.min.js"></script>
+	<script type="text/javascript" language="javascript"
+		src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
+	<script type="text/javascript" language="javascript"
+		src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/pdfmake.min.js"></script>
+	<script type="text/javascript" language="javascript"
+		src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/vfs_fonts.js"></script>
+	<script type="text/javascript" language="javascript"
+		src="https://cdn.datatables.net/buttons/1.6.2/js/buttons.html5.min.js"></script>
+	<script type="text/javascript" language="javascript"
+		src="https://cdn.datatables.net/buttons/1.6.2/js/buttons.print.min.js"></script>
+	<script src="mapdata.js"></script>
+	<script src="worldmap.js"></script>
+	<script>
+		$(document).ready(function () {
+			$("#resetfilter").hide;
+			$("#hide").click(function () {
+				$("#fsbanner").hide();
+			});
+		});
+	</script>
+	<script>
+		/* Formatting function for row details - modify as you need */
+		function format(d) {
+			// `d` is the original data object for the row
+			return '<table cellpadding="5" cellspacing="0" border="0" style="padding-left:50px;">' +
+				'<tr>' +
+				'<td>' + d.Description + '</td>' +
+				'<td><a href="' + d.Link + '">View</a></td>' +
+				'</tr>' +
+				'</table>';
+		}
+
+		$(document).ready(function () {
+			var table = $('#example').DataTable({
+				"dom": 'Blfrtip',
+				"buttons": [{
+					extend: 'excelHtml5',
+					exportOptions: {
+						columns: [1, 2, 3, 4, 5, 7] //Your Colume value those you want
+					}
+				}],
+				"ajax": "data.txt",
+				"columns": [{
+						"className": 'details-control',
+						"orderable": false,
+						"data": null,
+						"defaultContent": ''
+					},
+					{
+						"data": "Project Name"
+					},
+					{
+						"data": "Link"
+					},
+					{
+						"data": "Sector"
+					},
+					{
+						"data": "Country"
+					},
+					{
+						"data": "Type"
+					},
+					{
+						"data": "Image"
+					},
+					{
+						"data": "Description"
+					}
+				],
+
+				"aaSorting": [
+					[0, 'asc']
+				],
+				"columnDefs": [{
+						// The `data` parameter refers to the data for the cell (defined by the
+						// `data` option, which defaults to the column being worked with, in
+						// this case `data: 0`.
+						"render": function (data, type, row) {
+							return '<a href="' + row.Link + '"><img src="' + data +
+								' " style="max-height:100px;"></a>';
+						},
+						"targets": 6
+					},
+					{
+						// The `data` parameter refers to the data for the cell (defined by the
+						// `data` option, which defaults to the column being worked with, in
+						// this case `data: 0`.
+						"render": function (data, type, row) {
+							return '<a href="' + row.Link + '">' + data + '</a>';
+						},
+						"targets": 1
+					},
+					{
+						"visible": false,
+						"targets": [2, 7]
+					}
+				],
+				initComplete: function () {
+					this.api().columns('.select-filter').every(function () {
+						var column = this;
+						var select = $('<select><option value=""></option></select>')
+							.appendTo($(column.footer()).empty())
+							.on('change', function () {
+								var val = $.fn.dataTable.util.escapeRegex(
+									$(this).val()
+								);
+
+								column
+									.search(val ? '^' + val + '$' : '', true, false)
+									.draw();
+							});
+
+						column.data().unique().sort().each(function (d, j) {
+							select.append('<option value="' + d + '">' + d + '</option>')
+						});
+					});
+				}
+
+			});
+
+			// Add event listener for opening and closing details
+			$('#example tbody').on('click', 'td.details-control', function () {
+				var tr = $(this).closest('tr');
+				var row = table.row(tr);
+
+				if (row.child.isShown()) {
+					// This row is already open - close it
+					row.child.hide();
+					tr.removeClass('shown');
+				} else {
+					// Open this row
+					row.child(format(row.data())).show();
+					tr.addClass('shown');
+				}
+			});
+
+			$("#resetfilter").click(function(){
+				table.columns(4)
+					.search('')
+					.draw();
+					$("#resetfilter").hide("slow");
+			});
+
+
+			simplemaps_worldmap.hooks.click_state = function (id) {
+				table.columns(4)
+					.search(simplemaps_worldmap_mapdata.state_specific[id].name)
+					.draw();
+					$("#resetfilter").show("slow");
+
+			}
+
+			simplemaps_worldmap.hooks.click_location = function (id){
+				table.columns(4)
+					.search(simplemaps_worldmap_mapdata.locations[id].name)
+					.draw();
+					$("#resetfilter").show("slow");
+
+			}
+		});
+	</script>
+
+
+	<script>
+		var vid = document.getElementById("myVideo");
+		var watcher = document.getElementById('watcher');
+
+		vid.playbackRate = 0.3;
+
+		$.fn.isInViewport = function () {
+			var elementLeft = $(this).offset().left;
+			var elementRight = elementLeft;
+
+			var viewportLeft = $(window).scrollLeft();
+			var viewportRight = viewportLeft + $(window).width();
+
+			return elementRight > viewportLeft && elementLeft < viewportRight;
+		};
+
+		$(window).on('resize scroll', function () {
+			$('section').each(function () {
+				var activeColor = $(this).attr('id');
+
+				if ($(this).isInViewport()) {
+					$('nav ul li a').removeClass('active');
+					$('#' + activeColor + 'nav').addClass('active');
+
+				} else {
+					$('#' + activeColor + 'nav').removeClass('active');
+				}
+
+			});
+
+			if ($(watcher).isInViewport()) {
+				vid.play();
+				$('#infonav').removeClass('active');
+			} else {
+
+				vid.pause();
+			}
+
+		});
+
+		window.jQuery || document.write(
+			'<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"><\/script>'
+		)
+	</script>
+
+	<!-- amCharts javascript code -->
+	<script type="text/javascript">
+		AmCharts.makeChart("map", {
+			"type": "map",
+			"pathToImages": "http://www.amcharts.com/lib/3/images/",
+			"addClassNames": true,
+			"fontSize": 15,
+			"color": "#000000",
+			"projection": "mercator",
+			"backgroundAlpha": 0,
+			"dragMap": false,
+			"panControlEnabled": true,
+			"mouseWheelZoomEnabled": false,
+			"backgroundColor": "#220047",
+			"dataProvider": {
+				"map": "worldLow",
+				"getAreasFromMap": true,
+				"balloon": {
+					"enabled": false,
+					"adjustBorderColor": true,
+					"color": "#000000",
+					"cornerRadius": 5,
+					"fillColor": "#FFFFFF"
+				},
+				"images": [{
+						"selectable": true,
+						"longitude": 95.698830,
+						"latitude": 42.427944,
+						"svgPath": "M3.5,13.277C3.5,6.22,9.22,0.5,16.276,0.5C23.333,0.5,29.053,6.22,29.053,13.277C29.053,14.54,28.867,15.759,28.526,16.914C26.707,24.271,16.219,32.5,16.219,32.5C16.219,32.5,4.37,23.209,3.673,15.542C3.673,15.542,3.704,15.536,3.704,15.536C3.572,14.804,3.5,14.049,3.5,13.277C3.5,13.277,3.5,13.277,3.5,13.277M16.102,16.123C18.989,16.123,21.329,13.782,21.329,10.895C21.329,8.008,18.989,5.668,16.102,5.668C13.216,5.668,10.876,8.008,10.876,10.895C10.876,13.782,13.216,16.123,16.102,16.123C16.102,16.123,16.102,16.123,16.102,16.123",
+						"color": "rgba(247,151,55,1)",
+						"scale": 1,
+						"url": 'china.html',
+						"balloonText": '[[title]]',
+						"cancelButtonColor": '#4c5c96',
+						"title": 'China<br> International Centre of Excellence on Coal Mine Methane',
+						//China		
+					},
+
+
+					{
+						"selectable": true,
+						"longitude": -85.698830,
+						"latitude": 55.427944,
+						"svgPath": "M3.5,13.277C3.5,6.22,9.22,0.5,16.276,0.5C23.333,0.5,29.053,6.22,29.053,13.277C29.053,14.54,28.867,15.759,28.526,16.914C26.707,24.271,16.219,32.5,16.219,32.5C16.219,32.5,4.37,23.209,3.673,15.542C3.673,15.542,3.704,15.536,3.704,15.536C3.572,14.804,3.5,14.049,3.5,13.277C3.5,13.277,3.5,13.277,3.5,13.277M16.102,16.123C18.989,16.123,21.329,13.782,21.329,10.895C21.329,8.008,18.989,5.668,16.102,5.668C13.216,5.668,10.876,8.008,10.876,10.895C10.876,13.782,13.216,16.123,16.102,16.123C16.102,16.123,16.102,16.123,16.102,16.123",
+						"color": "rgba(72,168,138,1)",
+						"scale": 1,
+						"url": 'baleen.html',
+						"balloonText": '[[title]]',
+						"cancelButtonColor": '#4c5c96',
+						"title": 'Baleen International, Inc.',
+						//Poland			
+					},
+					{
+						"selectable": true,
+						"longitude": -95.698830,
+						"latitude": 60.427944,
+						"svgPath": "M3.5,13.277C3.5,6.22,9.22,0.5,16.276,0.5C23.333,0.5,29.053,6.22,29.053,13.277C29.053,14.54,28.867,15.759,28.526,16.914C26.707,24.271,16.219,32.5,16.219,32.5C16.219,32.5,4.37,23.209,3.673,15.542C3.673,15.542,3.704,15.536,3.704,15.536C3.572,14.804,3.5,14.049,3.5,13.277C3.5,13.277,3.5,13.277,3.5,13.277M16.102,16.123C18.989,16.123,21.329,13.782,21.329,10.895C21.329,8.008,18.989,5.668,16.102,5.668C13.216,5.668,10.876,8.008,10.876,10.895C10.876,13.782,13.216,16.123,16.102,16.123C16.102,16.123,16.102,16.123,16.102,16.123",
+						"color": "rgba(72,168,138,1)",
+						"scale": 1,
+						"url": 'bluesource.html',
+						"balloonText": '[[title]]',
+						"cancelButtonColor": '#4c5c96',
+						"title": 'Bluesource Methane:<br>Bluesource Methane Reduction Program',
+						//Poland			
+					},
+					{
+						"selectable": true,
+						"longitude": -95.698830,
+						"latitude": 42.427944,
+						"svgPath": "M3.5,13.277C3.5,6.22,9.22,0.5,16.276,0.5C23.333,0.5,29.053,6.22,29.053,13.277C29.053,14.54,28.867,15.759,28.526,16.914C26.707,24.271,16.219,32.5,16.219,32.5C16.219,32.5,4.37,23.209,3.673,15.542C3.673,15.542,3.704,15.536,3.704,15.536C3.572,14.804,3.5,14.049,3.5,13.277C3.5,13.277,3.5,13.277,3.5,13.277M16.102,16.123C18.989,16.123,21.329,13.782,21.329,10.895C21.329,8.008,18.989,5.668,16.102,5.668C13.216,5.668,10.876,8.008,10.876,10.895C10.876,13.782,13.216,16.123,16.102,16.123C16.102,16.123,16.102,16.123,16.102,16.123",
+						"color": "rgba(72,168,138,1)",
+						"scale": 1,
+						"url": 'ews.html',
+						"balloonText": '[[title]]',
+						"cancelButtonColor": '#4c5c96',
+						"title": 'Engineered Waste Systems (EWS) LLC:<br>Waste Management ',
+						//Poland			
+					},
+					{
+						"selectable": true,
+						"longitude": 75.698830,
+						"latitude": 65.427944,
+						"svgPath": "M3.5,13.277C3.5,6.22,9.22,0.5,16.276,0.5C23.333,0.5,29.053,6.22,29.053,13.277C29.053,14.54,28.867,15.759,28.526,16.914C26.707,24.271,16.219,32.5,16.219,32.5C16.219,32.5,4.37,23.209,3.673,15.542C3.673,15.542,3.704,15.536,3.704,15.536C3.572,14.804,3.5,14.049,3.5,13.277C3.5,13.277,3.5,13.277,3.5,13.277M16.102,16.123C18.989,16.123,21.329,13.782,21.329,10.895C21.329,8.008,18.989,5.668,16.102,5.668C13.216,5.668,10.876,8.008,10.876,10.895C10.876,13.782,13.216,16.123,16.102,16.123C16.102,16.123,16.102,16.123,16.102,16.123",
+						"color": "rgba(72,168,138,1)",
+						"scale": 1,
+						"url": 'hydraulic.html',
+						"balloonText": '[[title]]',
+						"cancelButtonColor": '#4c5c96',
+						"title": 'Hydraulic Fracturing of Kuznetsk LLC ',
+						//Poland			
+					},
+					{
+						"selectable": true,
+						"longitude": 93.698830,
+						"latitude": 50.427944,
+						"svgPath": "M3.5,13.277C3.5,6.22,9.22,0.5,16.276,0.5C23.333,0.5,29.053,6.22,29.053,13.277C29.053,14.54,28.867,15.759,28.526,16.914C26.707,24.271,16.219,32.5,16.219,32.5C16.219,32.5,4.37,23.209,3.673,15.542C3.673,15.542,3.704,15.536,3.704,15.536C3.572,14.804,3.5,14.049,3.5,13.277C3.5,13.277,3.5,13.277,3.5,13.277M16.102,16.123C18.989,16.123,21.329,13.782,21.329,10.895C21.329,8.008,18.989,5.668,16.102,5.668C13.216,5.668,10.876,8.008,10.876,10.895C10.876,13.782,13.216,16.123,16.102,16.123C16.102,16.123,16.102,16.123,16.102,16.123",
+						"color": "rgba(72,168,138,1)",
+						"scale": 1,
+						"url": 'mnec.html',
+						"balloonText": '[[title]]',
+						"cancelButtonColor": '#4c5c96',
+						"title": 'MNEC:<br>Developing a Coal Mine Methane Emissions Inventory ',
+						//Poland			
+					},
+					{
+						"selectable": true,
+						"longitude": 9.698830,
+						"latitude": 56.427944,
+						"svgPath": "M3.5,13.277C3.5,6.22,9.22,0.5,16.276,0.5C23.333,0.5,29.053,6.22,29.053,13.277C29.053,14.54,28.867,15.759,28.526,16.914C26.707,24.271,16.219,32.5,16.219,32.5C16.219,32.5,4.37,23.209,3.673,15.542C3.673,15.542,3.704,15.536,3.704,15.536C3.572,14.804,3.5,14.049,3.5,13.277C3.5,13.277,3.5,13.277,3.5,13.277M16.102,16.123C18.989,16.123,21.329,13.782,21.329,10.895C21.329,8.008,18.989,5.668,16.102,5.668C13.216,5.668,10.876,8.008,10.876,10.895C10.876,13.782,13.216,16.123,16.102,16.123C16.102,16.123,16.102,16.123,16.102,16.123",
+						"color": "rgba(72,168,138,1)",
+						"scale": 1,
+						"url": 'biocover.html',
+						"balloonText": '[[title]]',
+						"cancelButtonColor": '#4c5c96',
+						"title": 'BioCover A/S - Acidification of Agricultural Slurry C:<br>Developing a Coal Mine Methane Emissions Inventory ',
+						//Poland			
+					},
+					{
+						"selectable": true,
+						"longitude": -15.698830,
+						"latitude": 66.427944,
+						"svgPath": "M3.5,13.277C3.5,6.22,9.22,0.5,16.276,0.5C23.333,0.5,29.053,6.22,29.053,13.277C29.053,14.54,28.867,15.759,28.526,16.914C26.707,24.271,16.219,32.5,16.219,32.5C16.219,32.5,4.37,23.209,3.673,15.542C3.673,15.542,3.704,15.536,3.704,15.536C3.572,14.804,3.5,14.049,3.5,13.277C3.5,13.277,3.5,13.277,3.5,13.277M16.102,16.123C18.989,16.123,21.329,13.782,21.329,10.895C21.329,8.008,18.989,5.668,16.102,5.668C13.216,5.668,10.876,8.008,10.876,10.895C10.876,13.782,13.216,16.123,16.102,16.123C16.102,16.123,16.102,16.123,16.102,16.123",
+						"color": "rgba(72,168,138,1)",
+						"scale": 1,
+						"url": 'arctic.html',
+						"balloonText": '[[title]]',
+						"cancelButtonColor": '#4c5c96',
+						"title": 'Arctic Council\'s Expert Group on Black Carbon and Methane ',
+						//Poland			
+					},
+
+					{
+						"selectable": true,
+						"longitude": 66.698830,
+						"latitude": 51.427944,
+						"svgPath": "M3.5,13.277C3.5,6.22,9.22,0.5,16.276,0.5C23.333,0.5,29.053,6.22,29.053,13.277C29.053,14.54,28.867,15.759,28.526,16.914C26.707,24.271,16.219,32.5,16.219,32.5C16.219,32.5,4.37,23.209,3.673,15.542C3.673,15.542,3.704,15.536,3.704,15.536C3.572,14.804,3.5,14.049,3.5,13.277C3.5,13.277,3.5,13.277,3.5,13.277M16.102,16.123C18.989,16.123,21.329,13.782,21.329,10.895C21.329,8.008,18.989,5.668,16.102,5.668C13.216,5.668,10.876,8.008,10.876,10.895C10.876,13.782,13.216,16.123,16.102,16.123C16.102,16.123,16.102,16.123,16.102,16.123",
+						"color": "rgba(247,151,55,1)",
+						"scale": 1,
+						"url": 'kazakhstan.html',
+						"balloonText": '[[title]]',
+						"cancelButtonColor": '#4c5c96',
+						"title": 'Kazakhstan:<br>Wastewater Biogas Recovery Initiative',
+						//Poland			
+					},
+					{
+						"selectable": true,
+						"longitude": 20.698830,
+						"latitude": 52.427944,
+						"svgPath": "M3.5,13.277C3.5,6.22,9.22,0.5,16.276,0.5C23.333,0.5,29.053,6.22,29.053,13.277C29.053,14.54,28.867,15.759,28.526,16.914C26.707,24.271,16.219,32.5,16.219,32.5C16.219,32.5,4.37,23.209,3.673,15.542C3.673,15.542,3.704,15.536,3.704,15.536C3.572,14.804,3.5,14.049,3.5,13.277C3.5,13.277,3.5,13.277,3.5,13.277M16.102,16.123C18.989,16.123,21.329,13.782,21.329,10.895C21.329,8.008,18.989,5.668,16.102,5.668C13.216,5.668,10.876,8.008,10.876,10.895C10.876,13.782,13.216,16.123,16.102,16.123C16.102,16.123,16.102,16.123,16.102,16.123",
+						"color": "rgba(247,151,55,1)",
+						"scale": 1,
+						"url": 'poland.html',
+						"balloonText": '[[title]]',
+						"cancelButtonColor": '#4c5c96',
+						"title": 'Poland:<br> International Centre of Excellence on Coal Mine Methane',
+						//Poland			
+					},
+					{
+						"selectable": true,
+						"longitude": 3.698830,
+						"latitude": 51.427944,
+						"svgPath": "M3.5,13.277C3.5,6.22,9.22,0.5,16.276,0.5C23.333,0.5,29.053,6.22,29.053,13.277C29.053,14.54,28.867,15.759,28.526,16.914C26.707,24.271,16.219,32.5,16.219,32.5C16.219,32.5,4.37,23.209,3.673,15.542C3.673,15.542,3.704,15.536,3.704,15.536C3.572,14.804,3.5,14.049,3.5,13.277C3.5,13.277,3.5,13.277,3.5,13.277M16.102,16.123C18.989,16.123,21.329,13.782,21.329,10.895C21.329,8.008,18.989,5.668,16.102,5.668C13.216,5.668,10.876,8.008,10.876,10.895C10.876,13.782,13.216,16.123,16.102,16.123C16.102,16.123,16.102,16.123,16.102,16.123",
+						"color": "rgba(247,151,55,1)",
+						"scale": 1,
+						"url": 'sniffers.html',
+						"balloonText": '[[title]]',
+						"cancelButtonColor": '#4c5c96',
+						"title": 'The Sniffers',
+						//Poland			
+					},
+					{
+						"selectable": true,
+						"longitude": 3.698830,
+						"latitude": 48.427944,
+						"svgPath": "M3.5,13.277C3.5,6.22,9.22,0.5,16.276,0.5C23.333,0.5,29.053,6.22,29.053,13.277C29.053,14.54,28.867,15.759,28.526,16.914C26.707,24.271,16.219,32.5,16.219,32.5C16.219,32.5,4.37,23.209,3.673,15.542C3.673,15.542,3.704,15.536,3.704,15.536C3.572,14.804,3.5,14.049,3.5,13.277C3.5,13.277,3.5,13.277,3.5,13.277M16.102,16.123C18.989,16.123,21.329,13.782,21.329,10.895C21.329,8.008,18.989,5.668,16.102,5.668C13.216,5.668,10.876,8.008,10.876,10.895C10.876,13.782,13.216,16.123,16.102,16.123C16.102,16.123,16.102,16.123,16.102,16.123",
+						"color": "rgba(247,151,55,1)",
+						"scale": 1,
+						"url": 'francaise.html',
+						"balloonText": '[[title]]',
+						"cancelButtonColor": '#4c5c96',
+						"title": 'La Française de l’Energie',
+						//Poland			
+					},
+					{
+						"selectable": true,
+						"longitude": 20.698830,
+						"latitude": 45.427944,
+						"svgPath": "M3.5,13.277C3.5,6.22,9.22,0.5,16.276,0.5C23.333,0.5,29.053,6.22,29.053,13.277C29.053,14.54,28.867,15.759,28.526,16.914C26.707,24.271,16.219,32.5,16.219,32.5C16.219,32.5,4.37,23.209,3.673,15.542C3.673,15.542,3.704,15.536,3.704,15.536C3.572,14.804,3.5,14.049,3.5,13.277C3.5,13.277,3.5,13.277,3.5,13.277M16.102,16.123C18.989,16.123,21.329,13.782,21.329,10.895C21.329,8.008,18.989,5.668,16.102,5.668C13.216,5.668,10.876,8.008,10.876,10.895C10.876,13.782,13.216,16.123,16.102,16.123C16.102,16.123,16.102,16.123,16.102,16.123",
+						"color": "rgba(247,151,55,1)",
+						"scale": 1,
+						"url": 'serbia.html',
+						"balloonText": '[[title]]',
+						"cancelButtonColor": '#4c5c96',
+						"title": 'Serbia:<br> Building Capacity for Organic Waste Management',
+						//Serbia			
+					},
+					{
+						"selectable": true,
+						"longitude": -73.698830,
+						"latitude": 9.427944,
+						"svgPath": "M3.5,13.277C3.5,6.22,9.22,0.5,16.276,0.5C23.333,0.5,29.053,6.22,29.053,13.277C29.053,14.54,28.867,15.759,28.526,16.914C26.707,24.271,16.219,32.5,16.219,32.5C16.219,32.5,4.37,23.209,3.673,15.542C3.673,15.542,3.704,15.536,3.704,15.536C3.572,14.804,3.5,14.049,3.5,13.277C3.5,13.277,3.5,13.277,3.5,13.277M16.102,16.123C18.989,16.123,21.329,13.782,21.329,10.895C21.329,8.008,18.989,5.668,16.102,5.668C13.216,5.668,10.876,8.008,10.876,10.895C10.876,13.782,13.216,16.123,16.102,16.123C16.102,16.123,16.102,16.123,16.102,16.123",
+						"color": "rgba(72,168,138,1)",
+						"scale": 1,
+						"url": 'colombia.html',
+						"balloonText": '[[title]]',
+						"cancelButtonColor": '#4c5c96',
+						"title": 'Colombia:<br> Collaborating with Climate and Clean Air Coalition (CCAC) Oil and Gas Methane Partnership (OGMP)',
+						//Colombia			
+					},
+
+					{
+						"selectable": true,
+						"longitude": -95.698830,
+						"latitude": 20.427944,
+						"svgPath": "M3.5,13.277C3.5,6.22,9.22,0.5,16.276,0.5C23.333,0.5,29.053,6.22,29.053,13.277C29.053,14.54,28.867,15.759,28.526,16.914C26.707,24.271,16.219,32.5,16.219,32.5C16.219,32.5,4.37,23.209,3.673,15.542C3.673,15.542,3.704,15.536,3.704,15.536C3.572,14.804,3.5,14.049,3.5,13.277C3.5,13.277,3.5,13.277,3.5,13.277M16.102,16.123C18.989,16.123,21.329,13.782,21.329,10.895C21.329,8.008,18.989,5.668,16.102,5.668C13.216,5.668,10.876,8.008,10.876,10.895C10.876,13.782,13.216,16.123,16.102,16.123C16.102,16.123,16.102,16.123,16.102,16.123",
+						"color": "rgba(247,151,55,1)",
+						"scale": 1,
+						"url": 'naucalpan.html',
+						"balloonText": '[[title]]',
+						"cancelButtonColor": '#4c5c96',
+						"title": 'Naucalpan de Juárez, Mexico:<br>Improving Waste Management Practices and Reducing Methane',
+						//Naucalpan
+					},
+					//					{
+					//						"selectable": true,
+					//						"longitude": -102.698830,
+					//						"latitude": 26.427944,
+					//						"svgPath": "M3.5,13.277C3.5,6.22,9.22,0.5,16.276,0.5C23.333,0.5,29.053,6.22,29.053,13.277C29.053,14.54,28.867,15.759,28.526,16.914C26.707,24.271,16.219,32.5,16.219,32.5C16.219,32.5,4.37,23.209,3.673,15.542C3.673,15.542,3.704,15.536,3.704,15.536C3.572,14.804,3.5,14.049,3.5,13.277C3.5,13.277,3.5,13.277,3.5,13.277M16.102,16.123C18.989,16.123,21.329,13.782,21.329,10.895C21.329,8.008,18.989,5.668,16.102,5.668C13.216,5.668,10.876,8.008,10.876,10.895C10.876,13.782,13.216,16.123,16.102,16.123C16.102,16.123,16.102,16.123,16.102,16.123",
+					//						"color": "rgba(247,151,55,1)",
+					//						"scale": 1,
+					//						"url": 'mexico_ww.html',
+					//						"balloonText": '[[title]]',
+					//						"cancelButtonColor": '#4c5c96',
+					//						"title": 'Mexico:<br> Wastewater Biogas Recovery Initiative ',
+					//						//Mexico
+					//					},
+					{
+						"selectable": true,
+						"longitude": -108.698830,
+						"latitude": 28.427944,
+						"svgPath": "M3.5,13.277C3.5,6.22,9.22,0.5,16.276,0.5C23.333,0.5,29.053,6.22,29.053,13.277C29.053,14.54,28.867,15.759,28.526,16.914C26.707,24.271,16.219,32.5,16.219,32.5C16.219,32.5,4.37,23.209,3.673,15.542C3.673,15.542,3.704,15.536,3.704,15.536C3.572,14.804,3.5,14.049,3.5,13.277C3.5,13.277,3.5,13.277,3.5,13.277M16.102,16.123C18.989,16.123,21.329,13.782,21.329,10.895C21.329,8.008,18.989,5.668,16.102,5.668C13.216,5.668,10.876,8.008,10.876,10.895C10.876,13.782,13.216,16.123,16.102,16.123C16.102,16.123,16.102,16.123,16.102,16.123",
+						"color": "rgba(247,151,55,1)",
+						"scale": 1,
+						"url": 'mexico.html',
+						"balloonText": '[[title]]',
+						"cancelButtonColor": '#4c5c96',
+						"title": 'Mexico:<br> Guidelines for the Prevention and Integral Control of Methane Emissions from the Hydrocarbon Sector',
+						//Mexico
+					},
+					{
+						"selectable": true,
+						"longitude": -110.698830,
+						"latitude": 60.427944,
+						"svgPath": "M3.5,13.277C3.5,6.22,9.22,0.5,16.276,0.5C23.333,0.5,29.053,6.22,29.053,13.277C29.053,14.54,28.867,15.759,28.526,16.914C26.707,24.271,16.219,32.5,16.219,32.5C16.219,32.5,4.37,23.209,3.673,15.542C3.673,15.542,3.704,15.536,3.704,15.536C3.572,14.804,3.5,14.049,3.5,13.277C3.5,13.277,3.5,13.277,3.5,13.277M16.102,16.123C18.989,16.123,21.329,13.782,21.329,10.895C21.329,8.008,18.989,5.668,16.102,5.668C13.216,5.668,10.876,8.008,10.876,10.895C10.876,13.782,13.216,16.123,16.102,16.123C16.102,16.123,16.102,16.123,16.102,16.123",
+						"color": "rgba(72,168,138,1)",
+						"scale": 1,
+						"url": 'lidar.html',
+						"balloonText": '[[title]]',
+						"cancelButtonColor": '#4c5c96',
+						"title": 'LiDAR Services International Inc.:<br> Airborne methane mapping and comprehensive remote emissions intelligence, surveillance and reconnaissance sensing',
+						//CanadaPN
+					},
+					{
+						"selectable": true,
+						"longitude": -119.698830,
+						"latitude": 59.427944,
+						"svgPath": "M3.5,13.277C3.5,6.22,9.22,0.5,16.276,0.5C23.333,0.5,29.053,6.22,29.053,13.277C29.053,14.54,28.867,15.759,28.526,16.914C26.707,24.271,16.219,32.5,16.219,32.5C16.219,32.5,4.37,23.209,3.673,15.542C3.673,15.542,3.704,15.536,3.704,15.536C3.572,14.804,3.5,14.049,3.5,13.277C3.5,13.277,3.5,13.277,3.5,13.277M16.102,16.123C18.989,16.123,21.329,13.782,21.329,10.895C21.329,8.008,18.989,5.668,16.102,5.668C13.216,5.668,10.876,8.008,10.876,10.895C10.876,13.782,13.216,16.123,16.102,16.123C16.102,16.123,16.102,16.123,16.102,16.123",
+						"color": "rgba(72,168,138,1)",
+						"scale": 1,
+						"url": 'ghgsat.html',
+						"balloonText": '[[title]]',
+						"cancelButtonColor": '#4c5c96',
+						"title": 'GHGSat Inc.',
+						//CanadaPN
+					},
+					{
+						"selectable": true,
+						"longitude": -75.698830,
+						"latitude": 55.427944,
+						"svgPath": "M3.5,13.277C3.5,6.22,9.22,0.5,16.276,0.5C23.333,0.5,29.053,6.22,29.053,13.277C29.053,14.54,28.867,15.759,28.526,16.914C26.707,24.271,16.219,32.5,16.219,32.5C16.219,32.5,4.37,23.209,3.673,15.542C3.673,15.542,3.704,15.536,3.704,15.536C3.572,14.804,3.5,14.049,3.5,13.277C3.5,13.277,3.5,13.277,3.5,13.277M16.102,16.123C18.989,16.123,21.329,13.782,21.329,10.895C21.329,8.008,18.989,5.668,16.102,5.668C13.216,5.668,10.876,8.008,10.876,10.895C10.876,13.782,13.216,16.123,16.102,16.123C16.102,16.123,16.102,16.123,16.102,16.123",
+						"color": "rgba(247,151,55,1)",
+						"scale": 1,
+						"url": 'canada.html',
+						"balloonText": '[[title]]',
+						"cancelButtonColor": '#4c5c96',
+						"title": 'Canada:<br>Domestic & International Methane Activities',
+						//Canada
+					},
+					{
+						"selectable": true,
+						"longitude": -75.698830,
+						"latitude": 40.427944,
+						"svgPath": "M3.5,13.277C3.5,6.22,9.22,0.5,16.276,0.5C23.333,0.5,29.053,6.22,29.053,13.277C29.053,14.54,28.867,15.759,28.526,16.914C26.707,24.271,16.219,32.5,16.219,32.5C16.219,32.5,4.37,23.209,3.673,15.542C3.673,15.542,3.704,15.536,3.704,15.536C3.572,14.804,3.5,14.049,3.5,13.277C3.5,13.277,3.5,13.277,3.5,13.277M16.102,16.123C18.989,16.123,21.329,13.782,21.329,10.895C21.329,8.008,18.989,5.668,16.102,5.668C13.216,5.668,10.876,8.008,10.876,10.895C10.876,13.782,13.216,16.123,16.102,16.123C16.102,16.123,16.102,16.123,16.102,16.123",
+						"color": "rgba(247,151,55,1)",
+						"scale": 1,
+						"url": 'usa.html',
+						"balloonText": '[[title]]',
+						"cancelButtonColor": '#4c5c96',
+						"title": 'USA:<br>Domestic & International Methane Activities',
+						//USA
+
+					},
+					{
+						"selectable": true,
+						"longitude": 81.698830,
+						"latitude": 25.427944,
+						"svgPath": "M3.5,13.277C3.5,6.22,9.22,0.5,16.276,0.5C23.333,0.5,29.053,6.22,29.053,13.277C29.053,14.54,28.867,15.759,28.526,16.914C26.707,24.271,16.219,32.5,16.219,32.5C16.219,32.5,4.37,23.209,3.673,15.542C3.673,15.542,3.704,15.536,3.704,15.536C3.572,14.804,3.5,14.049,3.5,13.277C3.5,13.277,3.5,13.277,3.5,13.277M16.102,16.123C18.989,16.123,21.329,13.782,21.329,10.895C21.329,8.008,18.989,5.668,16.102,5.668C13.216,5.668,10.876,8.008,10.876,10.895C10.876,13.782,13.216,16.123,16.102,16.123C16.102,16.123,16.102,16.123,16.102,16.123",
+						"color": "rgba(72,168,138,1)",
+						"scale": 1,
+						"url": 'sourcefacilitybiocity.html',
+						"balloonText": '[[title]]',
+						"cancelButtonColor": '#4c5c96',
+						"title": 'Source Facility and BioCity:<br>Capturing and using agricultural biogas',
+						//India
+					},
+
+					{
+						"selectable": true,
+						"longitude": 79.698830,
+						"latitude": 23.427944,
+						"svgPath": "M3.5,13.277C3.5,6.22,9.22,0.5,16.276,0.5C23.333,0.5,29.053,6.22,29.053,13.277C29.053,14.54,28.867,15.759,28.526,16.914C26.707,24.271,16.219,32.5,16.219,32.5C16.219,32.5,4.37,23.209,3.673,15.542C3.673,15.542,3.704,15.536,3.704,15.536C3.572,14.804,3.5,14.049,3.5,13.277C3.5,13.277,3.5,13.277,3.5,13.277M16.102,16.123C18.989,16.123,21.329,13.782,21.329,10.895C21.329,8.008,18.989,5.668,16.102,5.668C13.216,5.668,10.876,8.008,10.876,10.895C10.876,13.782,13.216,16.123,16.102,16.123C16.102,16.123,16.102,16.123,16.102,16.123",
+						"color": "rgba(72,168,138,1)",
+						"scale": 1,
+						"url": 'punjab.html',
+						"balloonText": '[[title]]',
+						"cancelButtonColor": '#4c5c96',
+						"title": 'Punjab Agricultural Management & Extension Training Institute:<br>Advocating No-Burn Agriculture to Reduce Emissions',
+						//India
+					},
+					{
+						"selectable": true,
+						"longitude": -118.698830,
+						"latitude": 60.427944,
+						"svgPath": "M3.5,13.277C3.5,6.22,9.22,0.5,16.276,0.5C23.333,0.5,29.053,6.22,29.053,13.277C29.053,14.54,28.867,15.759,28.526,16.914C26.707,24.271,16.219,32.5,16.219,32.5C16.219,32.5,4.37,23.209,3.673,15.542C3.673,15.542,3.704,15.536,3.704,15.536C3.572,14.804,3.5,14.049,3.5,13.277C3.5,13.277,3.5,13.277,3.5,13.277M16.102,16.123C18.989,16.123,21.329,13.782,21.329,10.895C21.329,8.008,18.989,5.668,16.102,5.668C13.216,5.668,10.876,8.008,10.876,10.895C10.876,13.782,13.216,16.123,16.102,16.123C16.102,16.123,16.102,16.123,16.102,16.123",
+						"color": "rgba(72,168,138,1)",
+						"scale": 1,
+						"url": 'src.html',
+						"balloonText": '[[title]]',
+						"cancelButtonColor": '#4c5c96',
+						"title": 'Saskatchewan Research Council:<br>Centre for the Demonstration of Emissions Reductions',
+						//India
+					},
+					{
+						"selectable": true,
+						"longitude": -118.698830,
+						"latitude": 55.427944,
+						"svgPath": "M3.5,13.277C3.5,6.22,9.22,0.5,16.276,0.5C23.333,0.5,29.053,6.22,29.053,13.277C29.053,14.54,28.867,15.759,28.526,16.914C26.707,24.271,16.219,32.5,16.219,32.5C16.219,32.5,4.37,23.209,3.673,15.542C3.673,15.542,3.704,15.536,3.704,15.536C3.572,14.804,3.5,14.049,3.5,13.277C3.5,13.277,3.5,13.277,3.5,13.277M16.102,16.123C18.989,16.123,21.329,13.782,21.329,10.895C21.329,8.008,18.989,5.668,16.102,5.668C13.216,5.668,10.876,8.008,10.876,10.895C10.876,13.782,13.216,16.123,16.102,16.123C16.102,16.123,16.102,16.123,16.102,16.123",
+						"color": "rgba(72,168,138,1)",
+						"scale": 1,
+						"url": 'process.html',
+						"balloonText": '[[title]]',
+						"cancelButtonColor": '#4c5c96',
+						"title": 'Process Ecology Inc.,:<br>Process Optimization at Glycol Dehydration Facilities ',
+						//India
+					},
+					{
+						"selectable": true,
+						"longitude": -108.698830,
+						"latitude": 55.427944,
+						"svgPath": "M3.5,13.277C3.5,6.22,9.22,0.5,16.276,0.5C23.333,0.5,29.053,6.22,29.053,13.277C29.053,14.54,28.867,15.759,28.526,16.914C26.707,24.271,16.219,32.5,16.219,32.5C16.219,32.5,4.37,23.209,3.673,15.542C3.673,15.542,3.704,15.536,3.704,15.536C3.572,14.804,3.5,14.049,3.5,13.277C3.5,13.277,3.5,13.277,3.5,13.277M16.102,16.123C18.989,16.123,21.329,13.782,21.329,10.895C21.329,8.008,18.989,5.668,16.102,5.668C13.216,5.668,10.876,8.008,10.876,10.895C10.876,13.782,13.216,16.123,16.102,16.123C16.102,16.123,16.102,16.123,16.102,16.123",
+						"color": "rgba(72,168,138,1)",
+						"scale": 1,
+						"url": 'westgen.html',
+						"balloonText": '[[title]]',
+						"cancelButtonColor": '#4c5c96',
+						"title": 'Westgen Technologies ',
+						//India
+					},
+					//////////////////////////////////////////
+					{
+						"selectable": true,
+						"longitude": -48.698830,
+						"latitude": -1.427944,
+						"svgPath": "M3.5,13.277C3.5,6.22,9.22,0.5,16.276,0.5C23.333,0.5,29.053,6.22,29.053,13.277C29.053,14.54,28.867,15.759,28.526,16.914C26.707,24.271,16.219,32.5,16.219,32.5C16.219,32.5,4.37,23.209,3.673,15.542C3.673,15.542,3.704,15.536,3.704,15.536C3.572,14.804,3.5,14.049,3.5,13.277C3.5,13.277,3.5,13.277,3.5,13.277M16.102,16.123C18.989,16.123,21.329,13.782,21.329,10.895C21.329,8.008,18.989,5.668,16.102,5.668C13.216,5.668,10.876,8.008,10.876,10.895C10.876,13.782,13.216,16.123,16.102,16.123C16.102,16.123,16.102,16.123,16.102,16.123",
+						"color": "rgba(72,168,138,1)",
+						"scale": 1,
+						"url": 'abiogas.html',
+						"balloonText": '[[title]]',
+						"cancelButtonColor": '#4c5c96',
+						"title": 'Abiogas ',
+						//India
+					},
+					{
+						"selectable": true,
+						"longitude": -7.698830,
+						"latitude": 32.427944,
+						"svgPath": "M3.5,13.277C3.5,6.22,9.22,0.5,16.276,0.5C23.333,0.5,29.053,6.22,29.053,13.277C29.053,14.54,28.867,15.759,28.526,16.914C26.707,24.271,16.219,32.5,16.219,32.5C16.219,32.5,4.37,23.209,3.673,15.542C3.673,15.542,3.704,15.536,3.704,15.536C3.572,14.804,3.5,14.049,3.5,13.277C3.5,13.277,3.5,13.277,3.5,13.277M16.102,16.123C18.989,16.123,21.329,13.782,21.329,10.895C21.329,8.008,18.989,5.668,16.102,5.668C13.216,5.668,10.876,8.008,10.876,10.895C10.876,13.782,13.216,16.123,16.102,16.123C16.102,16.123,16.102,16.123,16.102,16.123",
+						"color": "rgba(72,168,138,1)",
+						"scale": 1,
+						"url": 'iav.html',
+						"balloonText": '[[title]]',
+						"cancelButtonColor": '#4c5c96',
+						"title": 'Hassan II Institute of Agronomy and Veterinary Sciences ',
+						//India
+					},
+					{
+						"selectable": true,
+						"longitude": 7.698830,
+						"latitude": 46.427944,
+						"svgPath": "M3.5,13.277C3.5,6.22,9.22,0.5,16.276,0.5C23.333,0.5,29.053,6.22,29.053,13.277C29.053,14.54,28.867,15.759,28.526,16.914C26.707,24.271,16.219,32.5,16.219,32.5C16.219,32.5,4.37,23.209,3.673,15.542C3.673,15.542,3.704,15.536,3.704,15.536C3.572,14.804,3.5,14.049,3.5,13.277C3.5,13.277,3.5,13.277,3.5,13.277M16.102,16.123C18.989,16.123,21.329,13.782,21.329,10.895C21.329,8.008,18.989,5.668,16.102,5.668C13.216,5.668,10.876,8.008,10.876,10.895C10.876,13.782,13.216,16.123,16.102,16.123C16.102,16.123,16.102,16.123,16.102,16.123",
+						"color": "rgba(72,168,138,1)",
+						"scale": 1,
+						"url": 'mootral.html',
+						"balloonText": '[[title]]',
+						"cancelButtonColor": '#4c5c96',
+						"title": 'Mootral ',
+						//India
+					},
+					{
+						"selectable": true,
+						"longitude": 8.698830,
+						"latitude": 47.427944,
+						"svgPath": "M3.5,13.277C3.5,6.22,9.22,0.5,16.276,0.5C23.333,0.5,29.053,6.22,29.053,13.277C29.053,14.54,28.867,15.759,28.526,16.914C26.707,24.271,16.219,32.5,16.219,32.5C16.219,32.5,4.37,23.209,3.673,15.542C3.673,15.542,3.704,15.536,3.704,15.536C3.572,14.804,3.5,14.049,3.5,13.277C3.5,13.277,3.5,13.277,3.5,13.277M16.102,16.123C18.989,16.123,21.329,13.782,21.329,10.895C21.329,8.008,18.989,5.668,16.102,5.668C13.216,5.668,10.876,8.008,10.876,10.895C10.876,13.782,13.216,16.123,16.102,16.123C16.102,16.123,16.102,16.123,16.102,16.123",
+						"color": "rgba(72,168,138,1)",
+						"scale": 1,
+						"url": 'haug.html',
+						"balloonText": '[[title]]',
+						"cancelButtonColor": '#4c5c96',
+						"title": 'HAUG Sauer Kompressoren AG ',
+						//India
+					},
+					{
+						"selectable": true,
+						"longitude": 12.698830,
+						"latitude": 42.427944,
+						"svgPath": "M3.5,13.277C3.5,6.22,9.22,0.5,16.276,0.5C23.333,0.5,29.053,6.22,29.053,13.277C29.053,14.54,28.867,15.759,28.526,16.914C26.707,24.271,16.219,32.5,16.219,32.5C16.219,32.5,4.37,23.209,3.673,15.542C3.673,15.542,3.704,15.536,3.704,15.536C3.572,14.804,3.5,14.049,3.5,13.277C3.5,13.277,3.5,13.277,3.5,13.277M16.102,16.123C18.989,16.123,21.329,13.782,21.329,10.895C21.329,8.008,18.989,5.668,16.102,5.668C13.216,5.668,10.876,8.008,10.876,10.895C10.876,13.782,13.216,16.123,16.102,16.123C16.102,16.123,16.102,16.123,16.102,16.123",
+						"color": "rgba(72,168,138,1)",
+						"scale": 1,
+						"url": 'fao.html',
+						"balloonText": '[[title]]',
+						"cancelButtonColor": '#4c5c96',
+						"title": 'FAO and GRA:  Measuring and Reducing Enteric Methane from Livestock  ',
+						//India
+					},
+					{
+						"selectable": true,
+						"longitude": -108.698830,
+						"latitude": 55.427944,
+						"svgPath": "M3.5,13.277C3.5,6.22,9.22,0.5,16.276,0.5C23.333,0.5,29.053,6.22,29.053,13.277C29.053,14.54,28.867,15.759,28.526,16.914C26.707,24.271,16.219,32.5,16.219,32.5C16.219,32.5,4.37,23.209,3.673,15.542C3.673,15.542,3.704,15.536,3.704,15.536C3.572,14.804,3.5,14.049,3.5,13.277C3.5,13.277,3.5,13.277,3.5,13.277M16.102,16.123C18.989,16.123,21.329,13.782,21.329,10.895C21.329,8.008,18.989,5.668,16.102,5.668C13.216,5.668,10.876,8.008,10.876,10.895C10.876,13.782,13.216,16.123,16.102,16.123C16.102,16.123,16.102,16.123,16.102,16.123",
+						"color": "rgba(72,168,138,1)",
+						"scale": 1,
+						"url": 'westgen.html',
+						"balloonText": '[[title]]',
+						"cancelButtonColor": '#4c5c96',
+						"title": 'Solucycle ',
+						//India
+					},
+					//////////////////////////////////////////
+					{
+						"selectable": true,
+						"longitude": -105.698830,
+						"latitude": 42.427944,
+						"svgPath": "M3.5,13.277C3.5,6.22,9.22,0.5,16.276,0.5C23.333,0.5,29.053,6.22,29.053,13.277C29.053,14.54,28.867,15.759,28.526,16.914C26.707,24.271,16.219,32.5,16.219,32.5C16.219,32.5,4.37,23.209,3.673,15.542C3.673,15.542,3.704,15.536,3.704,15.536C3.572,14.804,3.5,14.049,3.5,13.277C3.5,13.277,3.5,13.277,3.5,13.277M16.102,16.123C18.989,16.123,21.329,13.782,21.329,10.895C21.329,8.008,18.989,5.668,16.102,5.668C13.216,5.668,10.876,8.008,10.876,10.895C10.876,13.782,13.216,16.123,16.102,16.123C16.102,16.123,16.102,16.123,16.102,16.123",
+						"color": "rgba(72,168,138,1)",
+						"scale": 1,
+						"url": 'ingevity.html',
+						"balloonText": '[[title]]',
+						"cancelButtonColor": '#4c5c96',
+						"title": 'Ingevity Corporation:<br>Adsorbed Natural Gas for Flare Gas Recovery and Utilization',
+						//India
+					},
+
+
+
+				],
+				areas: [{
+						"id": "AL",
+						"color": "#733e75"
+					},
+					{
+						"id": "BG",
+						"color": "#733e75"
+					},
+					{
+						"id": "FI",
+						"color": "#733e75"
+					},
+					{
+						"id": "GE",
+						"color": "#733e75"
+					},
+					{
+						"id": "DE",
+						"color": "#733e75"
+					},
+					{
+						"id": "IT",
+						"color": "#733e75"
+					},
+					{
+						"id": "NO",
+						"color": "#733e75"
+					},
+					{
+						"id": "PL",
+						"color": "#733e75"
+					},
+					{
+						"id": "RU",
+						"color": "#733e75"
+					},
+					{
+						"id": "RS",
+						"color": "#733e75"
+					},
+					{
+						"id": "TR",
+						"color": "#733e75"
+					},
+					{
+						"id": "UA",
+						"color": "#733e75"
+					},
+					{
+						"id": "GB",
+						"color": "#733e75"
+					},
+					{
+						"id": "CA",
+						"color": "#733e75"
+					},
+					{
+						"id": "DO",
+						"color": "#733e75"
+					},
+					{
+						"id": "MX",
+						"color": "#733e75"
+					},
+					{
+						"id": "NI",
+						"color": "#733e75"
+					},
+					{
+						"id": "US",
+						"color": "#733e75"
+					},
+					{
+						"id": "AR",
+						"color": "#733e75"
+					},
+					{
+						"id": "BR",
+						"color": "#733e75"
+					},
+					{
+						"id": "CL",
+						"color": "#733e75"
+					},
+					{
+						"id": "CO",
+						"color": "#733e75"
+					},
+					{
+						"id": "EC",
+						"color": "#733e75"
+					},
+					{
+						"id": "PE",
+						"color": "#733e75"
+					},
+					{
+						"id": "CI",
+						"color": "#733e75"
+					},
+					{
+						"id": "ET",
+						"color": "#733e75"
+					},
+					{
+						"id": "GH",
+						"color": "#733e75"
+					},
+					{
+						"id": "NG",
+						"color": "#733e75"
+					},
+					{
+						"id": "CN",
+						"color": "#733e75"
+					},
+					{
+						"id": "IN",
+						"color": "#733e75"
+					},
+					{
+						"id": "ID",
+						"color": "#733e75"
+					},
+					{
+						"id": "IL",
+						"color": "#733e75"
+					},
+					{
+						"id": "JP",
+						"color": "#733e75"
+					},
+					{
+						"id": "JO",
+						"color": "#733e75"
+					},
+					{
+						"id": "KZ",
+						"color": "#733e75"
+					},
+					{
+						"id": "MN",
+						"color": "#733e75"
+					},
+					{
+						"id": "PK",
+						"color": "#733e75"
+					},
+					{
+						"id": "PH",
+						"color": "#733e75"
+					},
+					{
+						"id": "SA",
+						"color": "#733e75"
+					},
+					{
+						"id": "KR",
+						"color": "#733e75"
+					},
+					{
+						"id": "LK",
+						"color": "#733e75"
+					},
+					{
+						"id": "TH",
+						"color": "#733e75"
+					},
+					{
+						"id": "VN",
+						"color": "#733e75"
+					},
+					{
+						"id": "AU",
+						"color": "#733e75"
+					}
+				]
+			},
+			"balloon": {
+				"horizontalPadding": 15,
+				"borderAlpha": 0,
+				"borderThickness": 1,
+				"verticalPadding": 15
+			},
+			"areasSettings": {
+				"color": "rgba(255,255,255,1)",
+				"outlineColor": "rgba(0,0,0,.2)",
+				"rollOverOutlineColor": "rgba(114,205,215,1)",
+				"rollOverBrightness": 5,
+				"selectedBrightness": 10,
+				"selectable": true,
+				"unlistedAreasAlpha": 0,
+				"unlistedAreasOutlineAlpha": 0
+			},
+			"imagesSettings": {
+				"alpha": 1,
+				"color": "rgba(255,255,255,1)",
+				"outlineAlpha": 0,
+				"rollOverOutlineAlpha": 0,
+				"outlineColor": "rgba(114,205,215,1)",
+				"rollOverBrightness": 20,
+				"selectedBrightness": 20,
+				"selectable": true
+			},
+			"linesSettings": {
+				"color": "rgba(255,255,255,1)",
+				"selectable": true,
+				"rollOverBrightness": 20,
+				"selectedBrightness": 20
+			},
+			"zoomControl": {
+				"zoomControlEnabled": true,
+				"homeButtonEnabled": false,
+				"panControlEnabled": true,
+				"right": 38,
+				"bottom": 30,
+				"minZoomLevel": 0.25,
+				"gridHeight": 100,
+				"gridAlpha": 0.1,
+				"gridBackgroundAlpha": 0,
+				"gridColor": "#FFFFFF",
+				"draggerAlpha": 1,
+				"buttonCornerRadius": 2
+			},
+			"legend": {
+				"backgroundColor": "#fff",
+				"backgroundAlpha": 0.5,
+				"align": "center",
+				"data": [{
+					"title": "GMI Partner Country",
+					"color": "#733e75"
+				}, {
+					"title": "National Action",
+					"color": "#f79737"
+				}, {
+					"title": "International/Subnational",
+					"color": "#48A88A"
+				}]
+			}
+		});
+	</script>
+	<script type="text/javascript">
+		function googleTranslateElementInit() {
+			new google.translate.TranslateElement({
+				pageLanguage: 'en',
+				layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+			}, 'google_translate_element');
+		}
+	</script>
+	<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+	</script>
+	<script>
+		$('.translateText').click(function () {
+			$("#languageWidget").css("display", "block");
+			$(".hider").slideToggle();
+		});
+	</script>
+
+
+	<script type="text/javascript">
+
+
+
+	</script>
+</body>
+
+</html>

@@ -1,0 +1,578 @@
+﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="mi-30.aspx.vb" Inherits="M2M_Redesign.mi_30" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Archive | Global Methane Initiative</title>
+     <!-- #include virtual="/includes/include_head.html" -->
+</head>
+<body>
+    <!-- #include virtual="/includes/header.html" -->
+
+ <section class="py-5 gmi-light-blue">
+        <div class="container">
+                    <h1>
+						Methane International 
+					</h1>
+					<h2><small class="text-muted text">Issue 30, March 2013</small></h2>
+                    <div class="alert alert-danger" role="alert">Please note that this page is no longer being maintained. </div>
+					<ul>
+						            <li><a href="#one">See You at Methane Expo 2013!</a></li>
+            <li><a href="#two">GMI Welcomes Albania</a></li>
+            <li><a href="#three">Spotlight: Encouraging Clean Energy from Wastewater Treatment Plants</a></li>
+            <li><a href="#four">Subcommittee Updates</a></li>
+            <li><a href="#five">Non-Point Source Pollution Control Could Reduce Methane Emissions</a></li>
+            <li><a href="#six">GMI Outreach</a></li>
+            <li><a href="#seven">Project Updates and Recent Developments</a></li>
+
+					</ul>
+
+		</div>
+	</section>
+	<section class="py-5 bg-white">
+		<div class="container">
+
+		        <h2 id="one">
+            See You at Methane Expo 2013!</h2>
+        <p>
+            Join the Global Methane Initiative (GMI) in Vancouver, <strong>Canada,</strong>
+            from 12 to 15 March 2013.</p>
+        <p>
+            Don't miss this opportunity to network and learn more about current global methane
+            reduction efforts in Agriculture, Coal, Municipal Solid Waste (MSW), Oil and Gas,
+            and Municipal Wastewater. Find up-to-date information about the Expo at the <a href="../expo/index.html">
+                Methane Expo 2013 website</a>, including:</p>
+        <ul>
+            <li><a href="../expo/supporters.html">Supporter and exhibition opportunities</a>, including
+                the opportunity to help offset the Expo's electricity use through <a href="http://www.cowpowerbc.com/home">
+                    Cowpower</a> <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative">
+                        <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a></li>
+            <li>Complete Expo <a href="../expo/program.html">program and agendas for each sector</a></li>
+            <li>Expo <a href="../expo/index.html">venue and hotel reservation</a> information</li>
+            <li>Itineraries for the popular local <a href="../expo/sitevisit.html">site tours</a></li>
+        </ul>
+        <p>
+            Register now for Methane Expo 2013! Visit the <a href="../expo/registration.html">Methane
+                Expo registration page</a> to ensure that you won't miss out on the world's
+            largest forum for methane projects, technology, financing, and policy. Registration
+            for site tours, visa information, and hotel reservations can also be found on the
+            registration page.</p>
+        <p>
+            The Center for Clean Air Policy (CCAP) is hosting a side event for MSW Expo participants
+            on the evening of 13 March to showcase its collaborative work with Environment Canada
+            regarding <a href="http://ccap.org/event/global-methane-initiative-gmi-methane-expo-2013/">
+                nationally appropriate mitigation actions</a> <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative">
+                    <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>
+            in waste management. Additional side events include the <a href="http://www.unep.org/ccac/About/tabid/101649/Default.aspx">
+                Climate and Clean Air Coalition's (CCAC)</a> <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative">
+                    <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>
+            MSW Working Group Meeting on Monday and Tuesday, CCAC's Oil and Gas Working Group
+            Meeting and the World Bank's Methane Finance Study Group Meeting on Tuesday.</p>
+        <p>
+            Expo exhibitors currently include: <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative">
+                <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a></p>
+        <p id="logos" align="center">
+            <a href="http://abutec.com/">
+                <img src="../expo/images/logo_abutec.png" alt="ABUTEC logo" title="ABUTEC, LLC" /></a>
+            <a href="http://www.adb.org/">
+                <img src="../expo/images/logo_adb.png" alt="ADB logo" title="Asian Development Bank" /></a>
+            <a href="http://www.bcbioenergy.ca/">
+                <img src="../expo/images/logo_bc_bioenergy.png" alt="BC Bioenergy Network logo" title="BC Bioenergy Network" /></a>
+            <a href="http://calscan.net/">
+                <img src="../expo/images/logo_calscan.png" alt="Calscan logo" title="Calscan  Energy Ltd." /></a>
+            <a href="http://ccap.org/">
+                <img src="../expo/images/logo_ccap.png" alt="Center for Clean Air Policy (CCAP) logo"
+                    title="Center for Clean Air Policy (CCAP)" /></a> <a href="http://www.craworld.com/en/">
+                        <img src="../expo/images/logo_conestoga.png" alt="Conestoga logo" title="Conestoga-Rovers &amp; Associates" /></a>
+            <a href="http://www.cullendiesel.com/">
+                <img src="../expo/images/logo_cullen.png" alt="Cullen logo" title="Cullen Diesel Power Ltd." /></a>
+            <a href="http://elkinsearthworks.net/">
+                <img src="../expo/images/logo_earthworks.png" alt="Earthworks logo" title="Elkins Earthworks" /></a>
+            <a href="http://www.flir.com/us/">
+                <img src="../expo/images/logo_flir.png" alt="FLIR logo" title="FLIR Systems Ltd." /></a>
+            <a href="http://www.ge.com/">
+                <img src="../expo/images/logo_ge.png" alt="GE logo" title="General Electric" /></a>
+            <a href="http://www.worldbank.org/ggfr">
+                <img src="../expo/images/logo_ggfr.png" alt="World Bank-Global Gas Flaring Reduction Partnership logo"
+                    title="World Bank-Global Gas Flaring Reduction Partnership" /></a> <a href="http://www.greenpathenergy.ca/">
+                        <img src="../expo/images/logo_greenpath.png" alt="Greenpath logo" title="GreenPath Energy Ltd." /></a>
+            <a href="http://www.hetek.com/">
+                <img src="../expo/images/logo_hetek.png" alt="Hetek logo" title="Hetek Solutions, Inc." /></a>
+            <a href="http://www.hoerbiger.com/">
+                <img src="../expo/images/logo_hoerbiger.png" alt="Hoerbiger logo" title="HOERBIGER Compression Technology" /></a>
+            <a href="http://www.landtecna.com/">
+                <img src="../expo/images/logo_landtec.png" alt="LANDTEC logo" title="LANDTEC" /></a>
+            <a href="http://www.lfgpartssupply.com/">
+                <img src="../expo/images/logo_lfg.png" alt="LFG logo" title="LFG Parts Supply" /></a>
+            <a href="http://www.pergam-suisse.ch/en/">
+                <img src="../expo/images/logo_pergam.png" alt="Pergam-Suisse logo" title="Pergam Suisse AG" /></a>
+            <a href="http://www.targetemission.com/">
+                <img src="../expo/images/logo_target.png" alt="Target Emissions Services logo" title="Target Emissions Services" /></a>
+            <a href="http://www.tetratech.com/">
+                <img src="../expo/images/logo_tetratech.png" alt="Tetra Tech logo" title="Tetra Tech" /></a>
+            <a href="http://www.txampumps.com/">
+                <img src="../expo/images/logo_txam_small.png" alt="TXAM Pumps logo" title="TXAM  Pumps, LLC" /></a></p>
+        <p>
+            Visit the <a href="../expo/index.html">Expo website</a> for more information.</p>
+        
+        <h2 id="two">
+            GMI Welcomes Albania</h2>
+        <p>
+            <img src="/images/flag_albania_big.gif" alt="Albania flag" align="right" />In
+            December 2012, GMI welcomed its newest Partner Country, <strong>Albania</strong>.
+            As part of its pending membership in the European Union, Albania has been seeking
+            out opportunities to address solid waste management and landfill issues and desires
+            to develop several landfill gas (LFG) energy projects to support its sustainability
+            efforts. They look forward to working with GMI Partner Countries in expanding their
+            expertise in solid waste management and landfill engineering and will participate
+            in GMI’s MSW Subcommittee. Albania’s membership in GMI brings total participation
+            to 41 countries and the European Commission.</p>
+        
+        <h2 id="three">
+            Spotlight: Encouraging Clean Energy from Wastewater Treatment Plants</h2>
+        <p>
+            Capturing and using methane from wastewater treatment facilities will be increasingly
+            important in the next 40 years as water usage grows to meet the demand of the world's
+            9 billion people. <a href="http://www.epa.gov/climatechange/EPAactivities/economics/nonco2projections.html">
+                U.S. EPA estimates</a> <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative">
+                    <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>
+            that, globally, methane emissions from wastewater contributed an estimated 512 million
+            metric tons of carbon dioxide equivalent in 2010, accounting for approximately 7
+            percent of total global methane emissions.</p>
+        <p style="width: 300px; margin: 0 10px 10px 5px; padding: 5px; border: 1px solid #0076bf;
+            float: right; font-size: 11px;">
+            <img src="/images/mi30_farfana.jpg" alt="La Farfana wastewater treatment plant, Santiago, Chile." />
+            La Farfana wastewater treatment plant, Santiago, Chile.</p>
+        <p>
+            In 2011, GMI responded to this issue and formed the <a href="../wastewater/index.aspx">
+                Municipal Wastewater Subcommittee</a> to address the anticipated 19 percent
+            growth in global methane emissions from the wastewater sector by 2030. U.S. EPA
+            projected the most significant increases to come from Africa, the Middle East, Asia,
+            and Central and South America. Most developed countries rely on centralized aerobic
+            wastewater treatment systems to collect and treat municipal wastewater. These systems
+            emit little methane themselves but produce large amounts of biosolids that can result
+            in high rates of methane emissions. In developing countries with little or no collection
+            and treatment of wastewater, systems that do exist (e.g., lagoons, septic systems,
+            latrines) tend to be anaerobic, and thus, result in greater methane emissions. The
+            subcommittee has already begun efforts to raise awareness, share management approaches,
+            and develop sector- and country-based plans.</p>
+        <p>
+            GMI plans to promote success stories like the La Farfana wastewater treatment plant
+            in Santiago, <strong>Chile</strong>, where biogas produced helps meet local energy
+            demand. In 2004, the region was experiencing a natural gas shortage, and Metrogas
+            (a Chilean energy company) began discussions with Aguas Andinas about capturing
+            the biogas produced in La Farfana's anaerobic digesters and converting it to town
+            gas quality. After some trial and error, the project successfully converted La Farfana's
+            biogas to town gas quality by removing the biogas's moisture, hydrogen sulfide,
+            and carbon dioxide (CO<sub>2</sub>). Project officials faced a hurdle finding a
+            suitable technology to remove the large amounts of hydrogen sulfide but found success
+            with a &quot;Paques&quot; biological process. A key part of the project was getting
+            the biogas from La Farfana to the town gas plant, which Metrogas accomplished by
+            constructing a 13.7-kilometer pipeline. In 2008, the first gas was delivered. The
+            investments from Metrogas and Aguas Andinas were rewarded with renewed company images
+            for promoting technology and renewable energy.</p>
+        <p>
+            This project created numerous environmental and economic benefits. First, the cleaned
+            biogas was substituted for town gas, reducing fossil fuel use and greenhouse gas
+            emissions. The La Farfana project is expected to reduce 26,000 metric tons of CO<sub>2</sub>
+            equivalent annually and was registered as a Clean Development Mechanism in 2011.
+            The project also created local construction jobs during the installation of the
+            pipeline, as well as technical jobs on-site at the plant. Additionally, the project
+            increases the region's energy independence, creates a local renewable energy source,
+            and transforms waste into a revenue source. It also serves as a site for educational
+            tours.</p>
+        
+        <h2 id="four">
+            Subcommittee Updates</h2>
+        <p>
+            <em>Agriculture</em></p>
+        <p>
+            During the <a href="event_detailsByEventId.aspx?eventId=402">28 November Internet meeting</a>,
+            the Agriculture Subcommittee discussed the development of case studies to be included
+            in an <em>International Best Practices Guide for Agricultural Anaerobic Digestion Projects</em>.
+            The case studies will be compiled and shared at the Methane Expo 2013. Meeting participants
+            also discussed the upcoming Expo, during which the next subcommittee meeting will
+            be held on 13 March 2013. During the Expo, attendees can <a href="../expo/sitevisit.html">
+                visit Bakerview EcoDairy</a>, the first small-scale anaerobic demonstration
+            farm of its kind in Canada.</p>
+        <p>
+            <em>Coal</em></p>
+        <p>
+            The Coal Subcommittee released its draft <a href="../expo/docs/agenda.pdf">agenda</a>
+            (PDF, 18 pp, 125 KB) for the coal technical and policy sessions to be held during
+            Methane Expo 2013. Along with the extensive and informative technical and policy
+            sessions, the Coal Subcommittee will hold its 17<sup>th</sup> session during the
+            Expo on 13 March. The subcommittee agenda will cover policy updates from China,
+            India, and the United States, as well as important subcommittee business. <a href="event_detailsByEventId.aspx?eventId=386">
+                Minutes from the September meeting</a> in Sydney are available on the website.</p>
+        <p>
+            <em>Municipal Solid Waste</em></p>
+        <p>
+            On 19 November, the MSW Subcommittee conducted its <a href="event_detailsByEventId.aspx?eventId=403">
+                17<sup>th</sup> meeting via the Internet</a>. Twenty-eight Delegates and Project
+            Network members participated in the MSW Subcommittee meeting, representing Partner
+            Countries Canada, Colombia, Germany, Ghana, India, Pakistan, Poland, Serbia, Ukraine,
+            and the United States. The meeting focused on an update from the ASG, a survey distributed
+            to delegates to help focus future initiatives, country methane action plans, and
+            preparation for Methane Expo 2013. The subcommittee has planned two MSW <a href="../expo/sitevisit.html">
+                site visits</a> for the Expo, including a visit to the City of Vancouver Landfill
+            and a trip to Vancouver Island to see the Nanaimo Bioenergy Centre LFG energy project
+            and the ICC and Compost R&amp;D Facility.</p>
+        <p>
+            <em>Municipal Wastewater</em></p>
+        <p style="width: 250px; margin: 0 10px 10px 5px; padding: 5px; border: 1px solid #0076bf;
+            float: right;">
+            <a href="../expo/sitevisit.html">Annacis Island Wastewater Treatment Plant</a><br />
+            <br />
+            As part of the Expo festivities, Vancouver is excited to show off the co-digestion
+            system at its largest wastewater treatment plant. Don't miss this opportunity to
+            see how the city is working toward becoming carbon neutral with this innovative
+            project.</p>
+        <p>
+            On 6 December, the Municipal Wastewater Subcommittee met via the Internet. The meeting,
+            for which <a href="event_detailsByEventId.aspx?eventId=404">minutes are posted</a>,
+            primarily focused on preparations for Methane Expo 2013, including a discussion
+            of <a href="../expo/docs/agenda.pdf">topics and speakers for the technical and policy
+                sessions</a> (PDF, 18 pp, 125 KB) and to solicit additional projects for the
+            poster exhibit. The subcommittee is writing a sector fact sheet to be shared at
+            the next subcommittee meeting, which is scheduled for 13 March 2013 during the Expo.
+            Other topics for the next meeting are the development of country-specific action
+            plans and the value of developing country resource assessments. The ASG also encourages
+            delegates to be prepared with short remarks about the latest policy and project
+            developments in their countries.</p>
+        <p>
+            <em>Oil and Gas</em></p>
+        <p>
+            The Subcommittee Co-Chairs collaborated with the ASG to draft the <a href="../expo/docs/agenda.pdf">
+                agenda</a> (PDF, 18 pp, 125 KB) for the Subcommittee meeting and technical and
+            policy sessions to be held during the Expo. The Oil and Natural Gas track will include
+            presentations on novel approaches to methane emissions detection and measurement,
+            corporate experience in addressing methane emissions, best practices for capturing
+            and utilizing gas streams, and methodologies for quantifying and reducing vented
+            and flared associated gas. We anticipate presentations from experts representing
+            China, Colombia, India, Indonesia, Mexico, Russia, and Ukraine.</p>
+        <p>
+            The Subcommittee meeting will cover goals and possible next steps, areas for Subcommittee
+            engagement, and updates on sector-specific activities within each country in support
+            of the GMI strategic goals and charge to the Subcommittee. On 12 March 2013, the
+            Subcommittee has scheduled a <a href="../expo/sitevisit.html">site visit</a> to
+            Fortis's liquefied natural gas facility in British Columbia.</p>
+        
+        <h2 id="five">
+            Non-Point Source Pollution Control Could Reduce Methane Emissions</h2>
+        <p style="width: 300px; margin: 0 10px 10px 5px; padding: 5px; border: 1px solid #0076bf;
+            float: right; font-size: 11px;">
+            <img src="/images/mi30_buildings.jpg" alt="Comparative flush building (on the left) and the pilot hi-rise building (on the right)." />
+            Comparative flush building (on the left) and the pilot hi-rise building (on the
+            right).</p>
+        <p>
+            A team of experts from the <a href="http://www.worldbank.org/">World Bank</a> <a
+                href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative">
+                <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>,
+            the <a href="http://www.fao.org/index_en.htm">United Nations Food and Agriculture Organization
+                (FAO)</a> <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative">
+                    <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>,
+            and U.S. EPA in support of GMI were in Guangdong Province, <strong>China</strong>,
+            as part of the preparation for a provincial scale non-point source pollution prevention
+            program focused on livestock waste, fertilizers, and pesticides. A key technical
+            component for livestock waste is the development of treatment processes where anaerobic
+            waste stabilization is the first step in the treatment of pig wastes. A pilot hi-rise
+            swine building (see photo), which is operating well after 50 days, shows promise
+            for replication in the Chinese pork industry.</p>
+        <p>
+            In a hi-rise swine building, a slatted floor is installed on the second floor of
+            the structure where pigs are raised. This allows manure and urine to pass through
+            to the ground floor, where sawdust bedding absorbs the organic material. This initiates
+            an aerobic composting process. This manure management method could replace typical
+            flush manure buildings and liquid manure storage, thereby also reducing methane
+            emissions. If hi-rise housing proves successful, this new practice would play a
+            large role replacing single-floor flush farm production practices, which would significantly
+            improve the environmental conditions of pig farms and the surrounding area from
+            reduced point and non-point source pollution, as well as reduce methane emissions.</p>
+        
+        <h2 id="six">
+            GMI Outreach</h2>
+        <p>
+            <strong><em>Asia</em></strong></p>
+        <p>
+            October 2012, <strong>Indonesia.</strong> Indonesia hosted the <a href="http://www.aplasbali2012.org/">
+                7<sup>th</sup> Asian-Pacific Landfill Symposium</a> <a href="/exitdisclaimer.aspx"
+                    title="Exiting Global Methane Initiative">
+                    <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>,
+            which included a presentation on GMI's work in reducing greenhouse gas emissions
+            in the region. The Indonesian Ministry of Public Works met with U.S. EPA staff to
+            discuss further collaboration, such as the technical training and project development
+            assistance that GMI offers.</p>
+        <p style="width: 250px; margin: 0 10px 10px 5px; padding: 5px; border: 1px solid #0076bf;
+            float: right;">
+            <em><strong>China Energy Markets Report Released</strong></em><br />
+            <br />
+            U.S. EPA posted the recently released <em>China's Energy Markets: Anhui, Chongqing,
+                Henan, Inner Mongolia, and Guizhou Provinces</em> on its <a href="http://www.epa.gov/cmop/international/china.html">
+                    Coalbed Methane Outreach Program China International Activities webpage</a>
+            <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative">
+                <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>.
+            The document, designed for use by project developers and carbon finance groups,
+            is intended to aid in the establishment of CMM emission reduction projects.
+        </p>
+        <p>
+            November 2012, <strong>China.</strong> China's Wuhan Urban Administration Supervising
+            Bureau worked with U.S. EPA's MSW staff to collect data on the Changshankou, Beiyangqiao,
+            and Chenjiachong landfills. The data will be used to evaluate the potential for
+            LFG energy recovery projects at the sites.</p>
+        <p>
+            December 2012, <strong>Turkey.</strong> Representatives from universities and energy
+            companies in Istanbul met with U.S. EPA MSW staff to discuss the collection efficiency
+            performance of biogas projects and to prioritize the next set of landfills to assess
+            for LFG energy potential. Site visits to two active LFG projects in Istanbul, and
+            a pilot MSW anaerobic digester plant co-located at the <a href="../activities/actActivityDetailsForLandfill.aspx?myObjId=a07G000000T35SiIAJ">
+                Kocaeli landfill</a>, were also completed.</p>
+        <p>
+            December 2012, <strong>Russia</strong>. Gazprom, a global energy company, hosted
+            a conference&mdash;Prospects of Low-Carbon and Renewable Sources of Energy Development&mdash;during
+            which U.S. EPA oil and gas sector staff, in support of GMI, presented on the economic,
+            operational safety, and environmental benefits that accrue from efforts to manage
+            and minimize methane emissions. Russian state officials also met with U.S. EPA to
+            discuss collaboration with GMI and to encourage closer cooperation with Russian
+            stakeholders.</p>
+        <p>
+            <strong><em>Europe</em></strong></p>
+        <p>
+            September 2012, <strong>Serbia</strong> and <strong>Bosnia.</strong> The Ministry
+            of Environment, Natural Resources and Spatial Planning met with U.S. EPA MSW staff,
+            who had traveled to Belgrade to conduct pre-feasibility studies at area landfills.
+            The Ministry and U.S. EPA, in support of GMI, worked on development of the Serbia
+            Methane Action Plan and selected project sites to be featured at the Expo. The team
+            then traveled to Sarajevo, <strong>Bosnia and Herzegovina,</strong> to tour the
+            Sarajevo Landfill and evaluate its LFG recovery project.</p>
+        <p>
+            September 2012, <strong>Italy.</strong> U.S. EPA MSW staff, in support of GMI, presented
+            on the release of the <a href="../tools-resources/tools.aspx#ibpg"><em>International
+                Best Practices Guide for Landfill Gas Energy</em></a> at the <a href="http://www.iswa2012.org/">
+                    International Solid Waste Association (ISWA) 2012 World Congress</a> <a href="/exitdisclaimer.aspx"
+                        title="Exiting Global Methane Initiative">
+                        <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>.
+            Affiliates from Serbia, Turkey, and United States, as well as representatives of
+            ISWA, met to discuss future collaborative efforts, such as an LFG workshop at the
+            next ISWA Beacon Conference.</p>
+        <p>
+            October 2012, <strong>England.</strong> At the World Bank's <a href="http://web.worldbank.org/WBSITE/EXTERNAL/TOPICS/EXTOGMC/EXTGGFR/0,,menuPK:578075~pagePK:64168427~piPK:64168435~theSitePK:578069,00.html">
+                Global Gas Flaring Reduction Partnership</a> <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative">
+                    <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>
+            conference, U.S. EPA oil and gas staff, in support of GMI, presented on quantifying
+            and reporting flaring and venting emissions. They also met with the <a href="https://www.cdproject.net/en-US/Pages/HomePage.aspx">
+                Carbon Disclosure Project</a> <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative">
+                    <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>
+            to provide guidance on reporting methane emissions.</p>
+        <p>
+            <strong><em>Central America/South America</em></strong></p>
+        <p>
+            August 2012, <strong>Argentina.</strong> Representatives from the <a href="../activities/siteDetails.aspx?myObjId=a09A00000098juXIAQ">
+                Neuqu&eacute;n LFG engine demonstration project</a>, a grant funded by the U.S.
+            EPA in support of GMI met with U.S. EPA MSW to discuss the project. The team also
+            assessed progress with an upcoming request for proposals for an LFG project at the
+            <a href="../activities/siteDetails.aspx?myObjId=a09A0000004vIGsIAM">Bah&iacute;a Blanca
+                Landfill</a>.</p>
+        <p>
+            August 2012, <strong>Chile</strong>. The Subsecretar&iacute;a de Desarrollo Regional
+            y Administrativo (SUBDERE) and U.S. EPA MSW staff trained over 100 participants
+            on LFG technologies, the fundamentals of LFG collection and control systems, and
+            best practices for LFG recovery at a meeting in Concepci&oacute;n. Staff also visited
+            the municipality of La Pintana to evaluate their current household organic waste
+            diversion program.</p>
+        <p>
+            September 2012, <strong>Brazil</strong>. Representatives of various public and private
+            organizational stakeholders, including the <a href="http://www.bndes.gov.br/SiteBNDES/bndes/bndes_en/Institucional/Social_and_Environmental_Responsibility/">
+                National Bank of Economic and Social Development (BNDES)</a> <a href="/exitdisclaimer.aspx"
+                    title="Exiting Global Methane Initiative">
+                    <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>,
+            the Environmental Secretary of the State of S&atilde;o Paulo, and U.S. EPA MSW sector
+            staff, met to discuss current methane capture initiatives. BNDES explained its process
+            for financing GHG mitigation projects at a low interest rate. Staff also met with
+            Companhia Municipal de Limpeza Urbana (COMLURB) to collect data and analyze LFG
+            project opportunities at the Gericin&oacute; landfill in Rio de Janeiro.</p>
+        <p>
+            September 2012, <strong>Peru</strong>. <a href="http://fonamperu.org/general/energia/bienvenida.php">
+                Fondo Nacional del Ambiente (FONAM)</a> <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative">
+                    <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>,
+            with technical support from U.S. EPA, organized the workshop &quot;Integrated Solid
+            Waste Management: Methane Capture and Use for Climate Change Mitigation&quot; to
+            build awareness and technical capacity among regional government officials.</p>
+        <p>
+            September–October 2012, <strong>Dominican Republic.</strong> A <a href="../activities/actActivityDetailsForAg.aspx?myObjId=a07G000000Qeln7IAB">
+                two-day workshop</a> focusing on LFG energy technologies, LFG control systems,
+            and landfill operations and maintenance, was held to train 45 participants. The
+            <a href="http://www.cambioclimatico.gob.do/eng/en/Home/tabid/36/Default.aspx">National
+                Council for Climate Change and the Clean Development Mechanism</a> <a href="/exitdisclaimer.aspx"
+                    title="Exiting Global Methane Initiative">
+                    <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>
+            and the Ministry of Environment met with U.S. EPA MSW sector staff to discuss collaboration
+            in MSW sector initiatives, such as the promotion of regional landfills by the Inter-American
+            Development Bank and a Zero-Waste Project in La Placeta.</p>
+        <p>
+            November 2012, <strong>Colombia.</strong> The Ministry of Energy and Mines and GMI
+            organized a workshop on &quot;Benefits of Reducing Methane Emissions in the Oil
+            and Gas Sector: The Global Methane Initiative in Colombia.&quot; Presentations included
+            an overview of methane emissions from the Colombian oil and gas sector, a Chilean
+            company's experience using infrared technology, the Colombian state-owned oil and
+            gas company's collaboration with GMI, and the largest Colombian gas transmission
+            company's efforts to conduct methane emission measurements.</p>
+        <p>
+            <strong><em>North America</em></strong></p>
+        <p>
+            November 2012, <strong>United States</strong>. The <strong>Canadian</strong> Embassy
+            hosted an event in Washington, DC, highlighting the Expo and GMI's work, as well
+            as methane abatement and recovery and use initiatives in Canada. The event drew
+            participants from Partner embassies and Project Network members in the area. Gina
+            McCarthy, GMI Steering Chair and Stephen de Boer, Environment Canada, made opening
+            remarks that set the stage for a successful event. A short presentation was given,
+            after which a reception was held to allow participants to network with one another
+            and learn more about methane recovery and use projects and programs.</p>
+        
+        <h2 id="seven">
+            Project Updates and Recent Developments</h2>
+        <p>
+            <strong><em>BECC Receives Grants for Training in Mexico</em></strong></p>
+        <p>
+            Mexico's <a href="http://www.cocef.org/eng/">Border Environment Corporation Commission
+                (BECC)</a> <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative">
+                    <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>
+            has received two U.S. EPA grants in support of GMI, to build capacity for LFG energy
+            in the country. By working together, BECC and U.S. EPA have established a system
+            of support for municipalities along the U.S.-Mexico border that are interested in
+            pursuing LFG projects. With the first grant, issued in 2007, BECC conducted two
+            pre-feasibility studies to analyze the economic and technical feasibility of LFG
+            projects for landfills in <a href="../activities/siteDetails.aspx?myObjId=a09A0000004vIP6IAM">
+                Saltillo</a>, Coahuila state, and <a href="../activities/siteDetails.aspx?myObjId=a09A0000004vIOxIAM">
+                    Nogales</a>, Sonoma state. EPA also hosted a training workshop for municipalities
+            in Mexico interested in learning the basics of LFG, during which they also outlined
+            the results of the two pre-feasibility studies. With the second EPA grant, issued
+            in 2009, BECC and the <a href="http://icma.org/en/icma/home">International City/County
+                Management Association</a> <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative">
+                    <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>
+            compiled a <a href="http://icmala.org/images/stories/Guia%20Aprovechamiento%20o%20Quema%20Biogas%20EPA%20COCEF%20ICMA%20%20Septiembre%202011.pdf">
+                manual</a> (PDF, 79 pp, 2.38 MB, in Spanish) <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative">
+                    <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>
+            for Mexican municipalities to address knowledge gaps and provide tools to assist
+            in the development and implementation of LFG projects.</p>
+        <p>
+            <strong><em>Mexico City Awards Contract to Build LFG Project</em></strong></p>
+        <p>
+            The Ministry of Works and Services in Mexico City has taken the next step in its
+            efforts to construct an LFG project at the Bordo Poniente landfill. A contract to
+            construct and maintain the landfill, which was closed in December 2011, was recently
+            awarded to BMLMX Power Company. Once completed, it will encompass the more than
+            370 hectares of landfill at Bordo Poniente and prevent 1.8 million tons of CO<sub>2</sub>
+            from entering the atmosphere each year for the 25-year lifespan of the project.
+            GMI has been closely involved with the initiative, including conducting <a href="../activities/actActivityDetailsForLandfill.aspx?myObjId=a07G000000JQMpdIAH&amp;mySiteObjId=a09G000000G0FFaIAN">
+                an evaluation</a> of the potential of an LFG project at the landfill and providing
+            assistance to the city in developing an RFP.</p>
+        <p>
+            <strong><em>Vietnam Hosts Coal Meetings, Site Visits, and Workshop</em></strong></p>
+        <p style="width: 171px; margin: 0 10px 10px 5px; padding: 5px; border: 1px solid #0076bf;
+            float: right; font-size: 11px;">
+            <img src="/images/mi30_woman.jpg" alt="A Vinacomin technician operates a methane monitoring system at the Khe Cham mine." />
+            A Vinacomin technician operates a methane monitoring system at the Khe Cham mine.</p>
+        <p>
+            In late September 2012, U.S. EPA coal sector staff traveled to Vietnam to meet with
+            officials from the U.S. Embassy in Hanoi and the state-owned Vietnam National Coal
+            and Mineral Industries Group (<a href="http://www.vinacomin.vn/en.html">Vinacomin</a>
+            <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative">
+                <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>),
+            Institute of Mining Science and Technology (IMSAT). Vinacomin is the parent company
+            of approximately 30 coal companies, operating in both opencast and underground mines.
+            The meetings with IMSAT included discussions about the need for capacity building
+            in Vietnam's mining sector, the introduction of best practices for gas management,
+            and technical assistance in assessing the potential development of coal mine methane
+            (CMM) and ventilation air methane projects at gassy coal mines.</p>
+        <p>
+            EPA participated in an IMSAT workshop titled &quot;Improvement of Safety and Effectiveness
+            for Coal Mine Gas Management in Underground Coal Mines.&quot; The workshop was well-attended
+            by industry, and U.S. EPA staff presented on CMM project opportunities, as well
+            as the feasibility of gas recovery and utilization at Cham Coal Mining Complex.
+            In addition, staff toured two potential CMM project sites: 1) Khe Cham Mine, which
+            has a gas drainage station; and 2) Mao Khe Mine, for which a methane drainage program
+            is planned and awaiting approval.</p>
+        <p>
+            In the future, GMI may hold a workshop in Vietnam on policy and financial issues
+            with CMM recovery at Vinacomin mines, best practices for methane drainage and use,
+            methane end-use options, and case studies of successful CMM projects.
+        </p>
+        <p>
+            <strong><em>New Law Requires Purchase of LFG in Brazil</em></strong></p>
+        <p>
+            In November 2012, the state government of Rio de Janeiro launched a new policy requiring
+            state gas utilities CEG and CEG Rio to purchase biogas generated by landfills. The
+            utilities are required to buy LFG, up to 5 percent of the total volume of natural
+            gas distributed. The goal of the legislation is to ensure demand for the renewable
+            LFG and stimulate investment in biogas plants at landfills. According to Legislative
+            Council Secretary Julio Bueno, &quot;the idea is to increase the share of biogas
+            in the energy matrix of the State of Rio de Janeiro.&quot;</p>
+        <p>
+            <em>Source:</em> Government of Rio de Janeiro, <a href="http://www.rj.gov.br/web/sedeis/exibeconteudo?article-id=1349080">
+                Economic Development News</a> <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative">
+                    <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>,
+            &quot;State Government Launches State Politics Renewable Natural Gas,&quot; 28 November
+            28 (Portuguese).</p>
+		
+		</div>
+	</section>
+	
+	<button onclick="topFunction()" class="btn btn-dark btn-sm" id="btnToTop" title="Go to top"><i class="fa fa-chevron-up" aria-hidden="true"></i> Top</button>
+	
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'en',
+                layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+            }, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+    </script>
+    <script>
+        $('.translateText').click(function () {
+            $("#languageWidget").css("display", "block");
+            $(".hider").slideToggle();
+        });
+    </script>
+
+	
+	<script>
+    //Get the button
+    var mybtnToTop = document.getElementById("btnToTop");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybtnToTop.style.display = "block";
+      } else {
+        mybtnToTop.style.display = "none";
+      }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    </script>
+	
+</body>
+
+</html>

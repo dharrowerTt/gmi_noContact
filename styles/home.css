@@ -1,0 +1,608 @@
+/* Methane to Markets */
+
+
+#flashmap {
+	margin-left:-1px;
+}
+
+/*bottomhome*/
+
+#bottomhome {
+	width:793px;
+	float:left;
+	margin-top:14px;
+}
+
+#whatsnewcontainer {
+	float: left;
+    width: 360px;
+}
+
+#whatsnewtop {
+	background:url(../images/bkgd_home_whatsnewtop.gif) transparent top left no-repeat;
+	width:360px;
+	height:5px;
+}
+
+#whatsnewmiddle {
+	background:url(../images/bkgd_home_whatsnewmiddle.gif) transparent top left repeat-y;
+	width:360px;
+	float:left;
+}
+
+#whatsnewboxleft {
+	width:129px;
+	float:left;
+	background:url(../images/bkgd_whatsnew.gif) transparent top center no-repeat;
+}
+
+#whatsnewboxleft #min {
+	display:block;
+	margin:100px 0 50px 10px;
+}
+
+#whatsnewboxleft #min:hover {
+	position:relative; bottom:4px;
+	background:url(../images/min_on.gif) bottom left no-repeat;
+}
+
+#whatsnewboxleft #min:hover img, #whatsnewlist #wnaddthis:hover img {
+	visibility:hidden;
+}
+
+#whatsnewlist ul {
+	margin:16px 0 0 0;
+	width:195px;
+	float:left;
+	padding-left:31px;
+}
+
+#whatsnewlist li a {
+	color:#17509d;
+}
+
+#whatsnewlist li a:hover {
+	color:#931db0;
+}
+
+#whatsnewlist #wnaddthis {
+	display:block;
+	margin:15px 0 0 28px;
+}
+
+#whatsnewlist #wnaddthis:hover {
+	background:url(../images/home_addthis_on.gif) top left no-repeat;
+}
+
+#whatsnewbottom {
+	background:url(../images/bkgd_home_whatsnewbottom.gif) transparent bottom left no-repeat;
+	width:360px;
+	height:4px;
+}
+
+#videohighlight {
+    padding: 0;
+    width: 100%;
+}
+
+#videohighlight p {
+    margin-top:1em;
+}
+
+#videohighlight {
+    width:100% !important;
+}
+
+
+
+#stories {
+	background:url(../images/bkgd_stories2.gif) transparent top left no-repeat;
+	width:420px;
+	float:left;
+	margin:3px 0 0 5px;
+}
+
+#stories #storytabs {
+	list-style: none;
+	margin:23px 0 0 66px;
+}
+
+#stories #storytabs li {
+	display: inline;
+	float: left;
+	text-indent: -222em;
+	width: 117px;
+	height: 38px;
+	cursor: pointer;
+	padding:0;
+}
+
+#stories #storytabs .country, #stories #storytabs .country_on, #stories #storytabs li.country:hover, #stories #storytabs .org, #stories #storytabs .org_on, #stories #storytabs li.org:hover, #stories #storytabs .project, #stories #storytabs .project_on, #stories #storytabs li.project:hover {
+	margin-left:1px;	
+}
+
+#stories #storytabs .country {
+	background:url(../images/bkgd_tab_country.png) transparent top left no-repeat;
+}
+
+#stories #storytabs .country_on, #stories #storytabs li.country:hover {
+	background:url(../images/bkgd_tab_country.png) transparent 0 -38px no-repeat;
+}
+
+#stories #storytabs .org {
+	background:url(../images/bkgd_tab_org.jpg) transparent top left no-repeat;
+}
+
+#stories #storytabs .org_on, #stories #storytabs li.org:hover {
+	background:url(../images/bkgd_tab_org.jpg) transparent 0 -38px no-repeat;
+}
+
+#stories #storytabs .project {
+	background:url(../images/bkgd_tab_project.jpg) transparent top left no-repeat;
+}
+
+#stories #storytabs .project_on, #stories #storytabs li.project:hover {
+	background:url(../images/bkgd_tab_project.jpg) transparent 0 -38px no-repeat;
+}
+
+.tabbox {
+	margin: 68px 0 0 0;
+	padding:13px 0 0 23px;
+	width:395px;
+	border-left:1px solid #eae9e9;
+	border-right:1px solid #eae9e9;
+	border-bottom:1px solid #eae9e9;
+	min-height:190px;
+}
+
+.tabbox h2 {
+	font:italic 24px georgia, "times new roman", times, serif;
+	color:#6b8932;
+	padding:2px 0 7px 1px;
+}
+
+.tabbox h2 img {
+	float:right;
+	padding:12px 25px 0 3px;
+}
+
+/*#country_tab {
+	background:url(../images/flag_argentina_big.gif) transparent center center no-repeat;
+}*/
+
+.moreinfo, .moreinfo a {
+	color:#adadad;
+	font-weight:bold;
+	text-transform:uppercase;
+	font-size:11px;
+	padding-top:7px;
+}
+
+.moreinfo:hover, .moreinfo a:hover {
+	color:#34983b;
+}
+
+/*Home Calendar********************************/
+#calendararea {
+	background:url(../images/bkgd_home_calendar.gif) transparent top left no-repeat;
+	width:168px;
+	float:left;
+	margin-top:18px;
+}
+
+#calendar {
+	padding-left:5px;
+	height:138px;
+}
+
+/*This is for while the final calendar issue is being figured out. Added 10/08/09////*/
+#calendartemp {
+	padding-left:5px;
+	height:0px;
+	font-size:12px;
+	font-weight:bold;
+	color:#fff;
+	font-family:arial, helvetica, sans-serif;
+	text-transform:uppercase;
+	text-align:center;
+	padding-top:6px;
+}
+
+.month {
+	font-size:14px;
+	font-weight:bold;
+	color:#fff;
+	font-family:arial, helvetica, sans-serif;
+}
+
+.lastmonth, .nextmonth {
+	font-size:24px;
+	color:#a94509;
+	cursor:pointer;
+	font-family:georgia, "times new roman", times, serif;
+	font-weight:normal;
+}
+
+.lastmonth:hover, .nextmonth:hover {
+	color:#fcdf55;
+}
+
+.dayheader{
+	color:#b8b8b8;
+	font-size:12px;
+	font-family:georgia, "times new roman", times, serif;
+}
+
+.days{
+	color:#010101;
+	font-size:12px;
+	text-align:center;
+	font-family:georgia, "times new roman", times, serif;
+}
+
+/*eventlist*/
+
+#eventlist {
+	height:155px;
+	overflow:auto;
+	margin-top:22px;
+}
+
+#eventlist dt {
+	float: left;
+	width: 34px;
+	padding:2px 0 0 11px;
+	font:14px georgia, "times new roman", times, serif;
+	color:#b4b3b3;
+	border-top: 1px solid #e7e7e7;
+}
+
+#eventlist dd {
+	float: left;
+	width: 98px;
+	padding: 5px 0 8px 9px;
+	border-top: 1px solid #e7e7e7;
+	font:11px arial, helvetica, sans-serif;
+	color:#464646;
+}
+
+#eventlist dd em {
+	font-weight:bold;
+}
+/*end Calendar***********************/
+
+/*Footer****************************************************/
+#footer {
+	/*background:url(../images/bkgd_footer.gif) transparent top left no-repeat;*/
+    background:rgb(65,127,160);
+    text-indent: 0px;
+    color: white;
+    text-align: center;
+	width:969px;
+	height:35px;
+	margin:11px 0;
+	float:left;
+}
+
+#footer ul {
+	padding:12px 0 0 138px;
+    padding-top: 14px;
+}
+
+#footer ul img {
+	vertical-align:middle;
+    margin-top: -7px !important;
+}
+
+#footer ul li {
+margin-top: -3px;
+}
+
+#footer ul li a {
+	font-size:11px;
+	text-decoration:none;
+	color:#fff;
+	font-weight:bold;
+}
+
+#footer ul li img {
+    margin-top: -7px;
+}
+
+#footer .footerbullet {
+	margin:0 20px;
+}
+
+footer ul li#searchbox2 {
+    width: 300px;    
+background: transparent;
+	margin:-1px 0 0 17px;
+    float:right;
+
+}
+
+.timeline .stream {
+    margin-bottom: -12px !important;
+}
+
+#searchbox2 #searchfield2 {
+    float: left;
+    margin: 0 12px 0 1px;
+    border: 0;
+    width: 290px !important;
+height: 23px;
+margin-top: -5px !important;
+}
+
+#searchbox2 #gobuttontop2 {
+	margin-top: -6px;
+    height:26px;
+}
+/*end footer*/
+
+
+
+.slideshow { height: 208px; width: 755px; margin: 0px; padding: 0px; }
+
+/*NEW HOME PAGE DESIGN*/
+#mainbanner-new {
+    background: rgb(224, 224, 224);
+    background:url("../images/hero-photo3.jpg");
+    padding: 20px;
+	width: 755px; 
+}
+
+#mainbanner-new p {
+    font-size:16px;
+    margin-bottom:1em;
+    width: 60%;
+    color:white;
+}
+
+    #mainbanner-new a {
+        padding: 1em;
+        background: rgb(23,80,157);
+        color: white;
+    }
+
+
+#mainbanner-new2 {
+    background: rgb(224, 224, 224);
+    background:url("../images/home-gmf.jpg");
+    padding: 20px;
+    padding: 1.5em 2em;
+	width: 755px;
+}
+
+#mainbanner-new2 p {
+    font-size:16px;
+    margin-bottom:1em;
+    width: 35%;
+    color: white;
+}
+
+    #mainbanner-new2 a {
+        padding: 1em;
+        background: rgb(23,80,157);
+        color: white;
+    }
+
+#mainbanner-new3 {
+    background: rgb(224, 224, 224);
+    background:url("../images/home-videos.jpg");
+    padding: 20px;
+	width: 755px; 
+}
+
+#mainbanner-new3 p {
+    font-size:16px;
+    margin-bottom:1em;
+    width: 40%;
+    color:#ffffff;
+}
+
+    #mainbanner-new3 a {
+        padding: 1em;
+        background: rgb(23,80,157);
+        color: white;
+    }
+
+
+#mainbanner-infographic1 {
+    background: rgb(224, 224, 224); background:url("../images/home-infographic.jpg"); padding: 20px; width: 755px; 
+}
+#mainbanner-infographic1 p {
+    font-size:16px; margin-bottom:1em; width: 35%; color: #017AC3;
+}
+#mainbanner-infographic1 a {
+    padding: 1em; background: rgb(23,80,157); color: white;
+}
+
+#mainbanner-infographic2 {
+    background: rgb(224, 224, 224); background:url("../images/home-infographic2.jpg"); padding: 20px; width: 755px; 
+}
+#mainbanner-infographic2 p {
+    font-size:16px; margin-bottom:1em; width: 35%; color: #017AC3;
+}
+#mainbanner-infographic2 a {
+    padding: 1em; background: rgb(23,80,157); color: white;
+}
+
+#mainbanner-infographic3 {
+    background: rgb(224, 224, 224); background:url("../images/home-infographic3.jpg"); padding: 20px; width: 755px; 
+}
+#mainbanner-infographic3 p {
+    font-size:16px; margin-bottom:1em; width: 35%; color: #017AC3;
+}
+#mainbanner-infographic3 a {
+    padding: 1em; background: rgb(23,80,157); color: white;
+}
+
+#mainbanner-infographic4 {
+    background: rgb(224, 224, 224); background:url("../images/home-infographic4.jpg"); padding: 20px; width: 755px; 
+}
+#mainbanner-infographic4 p {
+    font-size:16px; margin-bottom:1em; width: 35%; color: #017AC3;
+}
+#mainbanner-infographic4 a {
+    padding: 1em; background: rgb(23,80,157); color: white;
+}
+
+#mainbanner-infographic5 {
+    background: rgb(224, 224, 224); background:url("../images/home-infographic5.jpg"); padding: 20px; width: 755px; 
+}
+#mainbanner-infographic5 p {
+    font-size:16px; margin-bottom:1em; width: 35%; color: #017AC3;
+}
+#mainbanner-infographic5 a {
+    padding: 1em; background: rgb(23,80,157); color: white;
+}
+
+#mainbanner-infographic6 {
+    background: rgb(224, 224, 224); background:url("../images/home-infographic6.jpg"); padding: 20px; width: 755px; 
+}
+#mainbanner-infographic6 p {
+    font-size:16px; margin-bottom:1em; width: 35%; color: #017AC3;
+}
+#mainbanner-infographic6 a {
+    padding: 1em; background: rgb(23,80,157); color: white;
+}
+
+#mainbanner-infographic7 {
+    background: rgb(224, 224, 224); background:url("../images/home-infographic7.jpg"); padding: 20px; width: 755px; 
+}
+#mainbanner-infographic7 p {
+    font-size:16px; margin-bottom:1em; width: 35%; color: #017AC3;
+}
+#mainbanner-infographic7 a {
+    padding: 1em; background: rgb(23,80,157); color: white;
+}
+
+#mainbanner-infographic8 {
+    background: rgb(224, 224, 224); background:url("../images/home-infographic8.jpg"); padding: 20px; width: 755px; 
+}
+#mainbanner-infographic8 p {
+    font-size:16px; margin-bottom:1em; width: 35%; color: #017AC3;
+}
+#mainbanner-infographic8 a {
+    padding: 1em; background: rgb(23,80,157); color: white;
+}
+
+
+
+#banner-nav {position:relative; left:335px; top:3px; margin-bottom:0px;z-index:999;} /* top:-23px; */
+#banner-nav a{background:#e1e1e1; repeat;color:#fff; font-size:8pt; font-weight:bold;text-decoration:none;margin:4px;padding:2px 4px;border:1px solid #e1e1e1;border-radius:8px}
+#banner-nav a.activeSlide {/*background:url('../images/bkgd-tool-nav-dark.png') repeat;border:1px solid white;*/background:#fff;color:#000}
+#banner-nav a:focus, #banner-nav a:hover{background:#fff;outline:none;text-decoration:none;color:#000;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#main-four-links-new {
+border-bottom: rgb(232, 232, 232) 0px solid;
+padding-bottom: 1em;
+margin-bottom: 1em;
+}
+
+
+#main-four-links-new div {
+    float: left;
+    width: 23%;
+    margin-right: 1.9%;
+    margin-top:1em;
+}
+
+
+#main-four-links-new div:nth-child(4) {
+    margin-right: 0;
+}
+
+#main-four-links-new div:last-child {
+    margin-right: 0;
+}
+
+#main-four-links-new h3 a {
+    font-weight:normal;
+}
+
+#main-four-links-new h3 {
+    padding-bottom:0px;
+    padding-top: 0px;
+}
+
+#main-four-links-new img {
+width: 100%;
+margin-bottom: 0.5em;
+background: gray;
+}
+
+#bottomhome-new {
+ border-top: rgb(232, 232, 232) 1px solid;
+padding-top: 1em;
+margin-top: 1em;
+}
+
+
+#bottomhome-new > div {
+width: 23%;
+float: left;
+margin-right: 2%;
+border-radius: 15px;
+padding: 0px 15px;
+}
+
+#bottomhome-new h2 {
+font-size: 15px;
+margin-bottom: -2px;
+color: black;
+font-weight: bold;
+}
+
+.bottomhome-header-new {
+    border-bottom:1px gray solid;
+}
+
+#tweets-section iframe {
+    /*float:right;*/
+    padding-top:15px;
+    width:100% !important;;
+}
+
+#newsletters-new {
+float: right;
+margin-top: 5px;
+}
+
+#newsletters-new h4 {
+    font-weight: bold;
+font-size: 14px;
+color: blue;
+padding:0px;
+}
+
+#whatsnewcontainer-new p {
+    margin-top:1em;
+}
+
+#whatsnewlist-new ul {
+    margin-top:0px;
+}
+

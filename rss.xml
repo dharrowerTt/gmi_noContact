@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<rss version="2.0">
+  <channel>
+    <title>Global Methane Initiative</title>
+    <link>http://www.globalmethane.org/</link>
+    <description>See What's New at Global Methane Initiative</description>
+	
+<language>en-us</language>
+<webMaster>secretariat@globalmethane.org</webMaster>
+
+<lastBuildDate>2009 Sept. 10</lastBuildDate>
+
+<image>
+<title>Global Methane Initiative</title>
+<link>http://www.globalmethane.org/</link>
+<url>/images/logo.gif</url>
+<width>167</width>
+<height>82</height>
+<description>Global Methane Initiative</description>
+</image>
+	<!-- // Empty template
+	<item>
+       <title></title>
+	   <link></link>
+	   <description><![CDATA[ ]]></description>
+	   <pubDate></pubDate>
+	</item>
+	-->
+	<item>
+		<title>PAF: Lessons Learned and Announcement!</title>
+		<link>https://globalmethane.wordpress.com/2015/12/09/paf-lessons-learned-and-announcement/</link>
+		<description><![CDATA[The World Bank’s Pilot Auction Facility for Methane and Climate Change Mitigation held a side event on the margins of COP21 this past weekend to announce its second auction, and to discuss lessons learned from the first pilot auction held last July. First things first: the PAF announced its second auction]]></description>
+		<pubDate>Wed, 09 Dec 2015 19:30:56 +0000</pubDate>
+	</item>
+	<item>
+		<title>COP21: Methane-Focused Sessions</title>
+		<link>https://globalmethane.wordpress.com/2015/12/02/cop21-methane-focused-sessions/</link>
+		<description><![CDATA[It has finally arrived – the United Nations Framework Convention on Climate Change’s (UNFCCC) 21st Conference of Parties! Or, more colloquially, COP21. We here at GMI want to ensure that our partners and stakeholders have comprehensive resources related to the methane-focused events.]]></description>
+		<pubDate>Wed, 02 Dec 2015 18:30:52 +0000</pubDate>
+	</item>
+	<item>
+       <title>Global Methane Forum to take place 28-30 March 2016</title>
+	   <link>https://www.globalmethane.org/forum/index.html</link>
+	   <description><![CDATA[ ]]></description>
+	   <pubDate>02 Oct 2015</pubDate>
+	</item>
+	<item>
+       <title>World Bank announces Pilot Auction Facility for Methane and Climate Change Mitigation</title>
+	   <link>http://www.pilotauctionfacility.org/</link>
+	   <description><![CDATA[ ]]></description>
+	   <pubDate>03 Dec 2014</pubDate>
+	</item>
+	<item>
+       <title>Global Methane Initiative welcomes its partner Indonesia's Sektor Migas/Oil and Gas Sector site</title>
+	   <link>http://www.gmi-indonesia.org/</link>
+	   <description><![CDATA[ ]]></description>
+	   <pubDate>02 Dec 2014</pubDate>
+	</item>
+	
+	<item>
+       <title>Read the GMI Agriculture Subcommittee’s new report:  A Global Perspective of Anaerobic Digestion Policies and Incentives (November 2014)</title>
+	   <link>/tools-resources/tools.aspx#one</link>
+	   <description><![CDATA[ ]]></description>
+	   <pubDate>03 Nov 2014</pubDate>
+	</item>
+	<item>
+       <title>Methane International, October 2014 edition, now available</title>
+	   <link>http://www.globalmethane.org/news-events/mi35.aspx</link>
+	   <description><![CDATA[ ]]></description>
+	   <pubDate>01 Oct 2014</pubDate>
+	</item>
+	<item>
+       <title>Methane International, June 2014 edition, now available</title>
+	   <link>http://www.globalmethane.org/news-events/mi34.aspx</link>
+	   <description><![CDATA[ ]]></description>
+	   <pubDate>02 June 2014</pubDate>
+	</item>
+	
+	
+	<item>
+       <title>Methane to Markets Expo, 2010, March 2-5</title>
+	   <link>http://www.methanetomarkets.org/expo/index.htm</link>
+	   <description><![CDATA[&gt;&gt; <a href='http://www.methanetomarkets.org/expo/call_presentations.htm'>Call for Presentations</a>]]></description>
+	   <pubDate></pubDate>
+	</item>
+
+	<item>
+       <title>Resource Assessment for Livestock and Agro-Industrial Wastes - Argentina (PDF, 76 pp, 2 MB)</title>
+	   <link>/documents/ag_argentina_res_assessment.pdf</link>
+	   <description><![CDATA[ ]]></description>
+	   <pubDate></pubDate>
+	</item>
+	
+	<item>
+       <title>Methane International, June 2009 edition, now available</title>
+	   <link>http://www.globalmethane.org/news-events/miarchive.aspx</link>
+	   <description><![CDATA[ ]]></description>
+	   <pubDate></pubDate>
+	</item>
+
+	<item>
+       <title>Welcome Bulgaria, India Expo dates set</title>
+	   <link>http://epa.gov/methanetomarkets/pressreleases.htm#5-27-09</link>
+	   <description><![CDATA[&gt;&gt; <a href='http://yosemite.epa.gov/opa/admpress.nsf/d985312f6895893b852574ac005f1e40/4df9a791a6060d49852575c3005a4386!OpenDocument'>EPA Press Release</a><br /><br />]]></description>
+	   <pubDate></pubDate>
+	</item>
+	
+	<item>
+       <title>Landfill Gas Modeling Tools Now Available!</title>
+	   <link>/tools-resources/tools.aspx#three</link>
+	   <description><![CDATA[ ]]></description>
+	   <pubDate></pubDate>
+	</item>
+	
+</channel>
+
+</rss>

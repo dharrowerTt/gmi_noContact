@@ -1,0 +1,458 @@
+/* 
+Color Scheme
+
+#000000 - Black
+#FFFFFF - White
+#F69636 - Orange 
+#3360AB - Blue
+#2574A9 - Muted Blue
+#195176 - Dark Blue
+#669dc2 - Light Blue
+#345298 - Deep Blue
+#dd8730 - Burnt Orange
+
+*/
+body{
+    font-size:1.5em;
+}
+
+.redtext{
+    color:red;
+}
+
+.logisticsIMG{
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+}
+h1{
+    color:#F69636;
+}
+h2{
+    color:#3360AB;
+}
+h3{
+    font-weight:bold;
+}
+
+.caccOnly{
+    background:#666666;
+    color:white;
+}
+.caccOnly a{
+    color:white;
+}
+
+.sciencePolicy{
+    background:#FFAA34;
+    color:white;
+}
+
+
+.subheading{
+    background: #FFDF7D;
+}
+.sciencePolicy a{
+    color:white;
+}
+
+.sciencePolicy h2{
+    padding-left:5px;
+}
+
+.topicHeader{
+    background: #B1D0E9;
+}
+
+.subCommittee{
+    background: #e1e1e1;
+}
+
+
+.navbar-inverse{
+    background-color:#3360AB;
+    border-bottom:#2574A9;
+    color:white;
+}
+.center{
+    text-align: center;
+}
+
+th{
+    text-align: center;
+}
+button .fa{
+    float:right;
+}
+
+/* Style the tab */
+div.tab {
+    float: left;
+    border: 0;
+    background-color: #2574A9;
+    width: 30%;
+}
+
+/* Style the buttons inside the tab */
+div.tab button {
+    display: block;
+    background-color: #2574A9;
+    color:white;
+    padding: 22px 16px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+div.tab button:hover {
+    background-color: #195176;
+}
+
+/* Create an active/current "tab button" class */
+div.tab button.active {
+    background-color:  #325C7B;
+}
+
+/* Style the tab content */
+.tabcontent {
+    float: left;
+    padding: 0 12px;
+    border: 0;
+    width: 70%;
+    border-left: none;
+}
+
+.faded{
+    background:url('../img/tile.png') repeat;
+}
+.faded:hover{
+    background:url('../img/tile2.png') repeat;
+}
+
+.navbar-inverse .navbar-brand{
+color:white;
+}
+.navbar-inverse .navbar-nav>li>a{
+    color:white;
+}
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover{
+    background-color: #2d5598;
+}
+
+/* Animation Rules */
+
+#daddy_cloud { /*Top Cloud */
+    -webkit-animation: NAME-YOUR-ANIMATION3 35s infinite; /* Safari 4+ */
+    -moz-animation:    NAME-YOUR-ANIMATION3 35s infinite; /* Fx 5+ */
+    -o-animation:      NAME-YOUR-ANIMATION3 35s infinite; /* Opera 12+ */
+    animation:         NAME-YOUR-ANIMATION3 35s infinite; /* IE 10+, Fx 29+ */
+          -webkit-transform-origin: 50% 10%; /* Chrome, Safari, Opera */
+          -ms-transform-origin: 50% 10%; /* IE 9 */
+          transform-origin: 50% 10%; /* IE 9 */
+          animation-timing-function:linear;
+      -webkit-animation-timing-function: linear;
+      display:none; /*hide it */
+  }
+  
+  #mummy_cloud { /*Middle Cloud */
+    -webkit-animation: NAME-YOUR-ANIMATION3 25s infinite; /* Safari 4+ */
+    -moz-animation:    NAME-YOUR-ANIMATION3 25s infinite; /* Fx 5+ */
+    -o-animation:      NAME-YOUR-ANIMATION3 25s infinite; /* Opera 12+ */
+    animation:         NAME-YOUR-ANIMATION3 25s infinite; /* IE 10+, Fx 29+ */
+          -webkit-transform-origin: 50% 10%; /* Chrome, Safari, Opera */
+          -ms-transform-origin: 50% 10%; /* IE 9 */
+          transform-origin: 50% 10%; /* IE 9 */
+          animation-timing-function:linear;
+      -webkit-animation-timing-function: linear;
+      display:none; /*hide it */
+  }
+  
+  #baby_cloud { /*Bottom Cloud */
+    -webkit-animation: NAME-YOUR-ANIMATION3 30s infinite; /* Safari 4+ */
+    -moz-animation:    NAME-YOUR-ANIMATION3 30s infinite; /* Fx 5+ */
+    -o-animation:      NAME-YOUR-ANIMATION3 30s infinite; /* Opera 12+ */
+    animation:         NAME-YOUR-ANIMATION3 30s infinite; /* IE 10+, Fx 29+ */
+          -webkit-transform-origin: 50% 10%; /* Chrome, Safari, Opera */
+          -ms-transform-origin: 50% 10%; /* IE 9 */
+          transform-origin: 50% 10%; /* IE 9 */
+          animation-timing-function:linear;
+      -webkit-animation-timing-function: linear;
+      display:none; /*hide it */
+  }
+
+
+
+  #bot-atom{
+    -webkit-animation: spintom 120s infinite; /* Safari 4+ */
+    -moz-animation:    spintom 120s infinite; /* Fx 5+ */
+    -o-animation:      spintom 120s infinite; /* Opera 12+ */
+    animation:         spintom 120s infinite; /* IE 10+, Fx 29+ */
+          -webkit-transform-origin: 50% 10%; /* Chrome, Safari, Opera */
+          -ms-transform-origin: 50% 10%; /* IE 9 */
+          transform-origin: 50% 10%; /* IE 9 */
+          animation-timing-function:linear;
+      -webkit-animation-timing-function: linear;
+  }
+
+  #midatom{
+    -webkit-animation: spintom 60s infinite; /* Safari 4+ */
+    -moz-animation:    spintom 60s infinite; /* Fx 5+ */
+    -o-animation:      spintom 60s infinite; /* Opera 12+ */
+    animation:         spintom 60s infinite; /* IE 10+, Fx 29+ */
+          -webkit-transform-origin: 50% 10%; /* Chrome, Safari, Opera */
+          -ms-transform-origin: 50% 10%; /* IE 9 */
+          transform-origin: 50% 10%; /* IE 9 */
+          animation-timing-function:linear;
+      -webkit-animation-timing-function: linear;    
+  }
+
+  #topatom{
+    -webkit-animation: spinto2 30s infinite; /* Safari 4+ */
+    -moz-animation:    spintom2 30s infinite; /* Fx 5+ */
+    -o-animation:      spintom2 30s infinite; /* Opera 12+ */
+    animation:         spintom2 30s infinite; /* IE 10+, Fx 29+ */
+          -webkit-transform-origin: 50% 10%; /* Chrome, Safari, Opera */
+          -ms-transform-origin: 50% 10%; /* IE 9 */
+          transform-origin: 50% 10%; /* IE 9 */
+          animation-timing-function:linear;
+      -webkit-animation-timing-function: linear;
+  }
+
+  #burster{
+    -webkit-animation:  burstani 6s infinite; /* Safari 4+ */
+    -moz-animation:    burstani 6s infinite; /* Fx 5+ */
+    -o-animation:      burstani 6s infinite; /* Opera 12+ */
+    animation:         burstani 6s infinite; /* IE 10+, Fx 29+ */
+          -webkit-transform-origin: 50% 10%; /* Chrome, Safari, Opera */
+          -ms-transform-origin: 50% 10%; /* IE 9 */
+          transform-origin: 50% 10%; /* IE 9 */
+          animation-timing-function: ease;
+      -webkit-animation-timing-function: ease;
+  }
+
+  @-webkit-keyframes burstani {
+    0%   { transform: rotate(-20deg)translateX(-160px)translateY(0px)scale(1,1);opacity: 0;}
+    50% {opacity: 1;}
+    100%   { transform: rotate(10deg)translateX(0px)translateY(-140px)scale(1.2,1.2);opacity:0;}
+  }
+  @-moz-keyframes burstani {
+    0%   { transform: rotate(-20deg)translateX(-160px)translateY(0px)scale(1,1);opacity: 0;}
+    50% {opacity: 1;}
+    100%   { transform: rotate(10deg)translateX(0px)translateY(-140px)scale(1.2,1.2);opacity:0;}
+      }
+  @-o-keyframes burstani {
+    0%   { transform: rotate(-20deg)translateX(-160px)translateY(0px)scale(1,1);opacity: 0;}
+    50% {opacity: 1;}
+    100%   { transform: rotate(10deg)translateX(0px)translateY(-140px)scale(1.2,1.2);opacity:0;}
+  }
+  @keyframes burstani {
+    0%   { transform: rotate(-20deg)translateX(-160px)translateY(0px)scale(1,1);opacity: 0;}
+    50% {opacity: 1;}
+    100%   { transform: rotate(10deg)translateX(0px)translateY(-140px)scale(1.2,1.2);opacity:0;}
+  }
+
+  @-webkit-keyframes spintom {
+    0%   { transform: rotate(-359deg);}
+  
+  100%   { transform: rotate(0deg);}
+  }
+  @-moz-keyframes spintom {
+    0%   { transform: rotate(-359deg);}
+    
+    100%   { transform: rotate(0deg);}
+      }
+  @-o-keyframes spintom {
+    0%   { transform: rotate(-359deg);}
+    
+    100%   { transform: rotate(0deg);}
+  }
+  @keyframes spintom {
+    0%   { transform: rotate(-359deg);}
+    
+    100%   { transform: rotate(0deg);}
+  }
+
+
+  @-webkit-keyframes spintom2 {
+    0%   { transform: rotate(0deg);}
+    10%   { transform: translate(0px,0px);}
+    25%   { transform: rotate(-359deg);}
+    50%   {transform:translate(30px,40px);}
+    75%   { transform: rotate(0deg);}
+  100%   { transform: translate(0px,0px);}
+  }
+  @-moz-keyframes spintom2 {
+    0%   { transform: rotate(0deg);}
+    10%   { transform: translate(0px,0px);}
+    25%   { transform: rotate(-359deg);}
+    50%   {transform:translate(30px,40px);}
+    75%   { transform: rotate(0deg);}
+  100%   { transform: translate(0px,0px);}
+      }
+  @-o-keyframes spintom2 {
+    0%   { transform: rotate(0deg);}
+    10%   { transform: translate(0px,0px);}
+    25%   { transform: rotate(-359deg);}
+    50%   {transform:translate(30px,40px);}
+    75%   { transform: rotate(0deg);}
+  100%   { transform: translate(0px,0px);}
+  }
+  @keyframes spintom2 {
+    0%   { transform: rotate(0deg);}
+    10%   { transform: translate(0px,0px);}
+    25%   { transform: rotate(-359deg);}
+    50%   {transform:translate(30px,40px);}
+    75%   { transform: rotate(0deg);}
+  100%   { transform: translate(0px,0px);}
+  } 
+
+      
+  @-webkit-keyframes NAME-YOUR-ANIMATION3 {
+    0%   { transform: translateX(-1300px);}
+  
+  100%   { transform: translateX(2300px);}
+  }
+  @-moz-keyframes NAME-YOUR-ANIMATION3 {
+    0%   { transform: translateX(-1300px);}
+  
+  100%   { transform: translateX(2300px);}
+      }
+  @-o-keyframes NAME-YOUR-ANIMATION3 {
+    0%   { transform: translateX(-1300px);}
+  
+  100%   { transform: translateX(2300px);}
+  }
+  @keyframes NAME-YOUR-ANIMATION3 {
+    0%   { transform: translateX(-1300px);}
+  
+  100%   { transform: translateX(2300px);}
+  }
+  
+  svg{
+
+    background: #f0f9ff; /* Old browsers */
+    background: -moz-linear-gradient(top, #f0f9ff 0%, #cbebff 47%, #a1dbff 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #f0f9ff 0%,#cbebff 47%,#a1dbff 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #f0f9ff 0%,#cbebff 47%,#a1dbff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0f9ff', endColorstr='#a1dbff',GradientType=0 ); /* IE6-9 */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+  }
+
+  svg text{
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  .container .jumbotron, .container-fluid .jumbotron{
+      padding: 0;
+      margin-top:60px;
+      background: #345298;
+  }
+
+  .btn-success{
+    background-color:#F69636;
+    border-color:#dd8730;
+}
+
+.btn-success :hover{
+    background-color:#dd8730;
+    border-color:#F69636;
+}
+.moreinfo{
+    text-align: center;
+}
+
+.sponsorimg{
+    max-height:80px;
+    padding-right:20px;
+
+}
+
+/*  */
+ /* Compatibility Rules */
+ /*  */
+ 
+.internalfallback{
+    width:auto;
+    height:auto;
+}
+
+ /* Hide Initially */
+  .iesafe{
+      display:none;
+  }
+
+/* Style Div for below fallback image */
+  .cta{
+      background: #f0ad4e;
+      width:100%;
+      color:white;
+      font-size:36px;
+      text-align:center;
+  }
+
+  .cta:hover{
+      background:#d89b46;
+      text-decoration: none;
+  }
+
+  .cta a:hover{
+      text-decoration:none;
+  }
+
+ /* If Browser is IE, hide SVG and show fallback image and div */ 
+  @media screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none) {  
+    /* IE10+ specific styles go here */  
+    svg{
+        display:none;
+    }
+
+    .iesafe{
+        display: block;
+    }
+ }
+
+
+ /*  Resize SVG for different screen sizes */
+
+@media only screen 
+and (min-width : 800px) {
+    svg{
+        height:366px;
+    }
+}
+
+@media only screen 
+and (min-width : 1024px) {
+    svg{
+    height:477px;
+    }
+    .padder{
+        margin-left:35px;
+        }
+        div.tab {
+            float: left;
+            border: 0;
+            background-color: #2574A9;
+            width: 20%;
+        }
+}
+
+  @media only screen 
+  and (min-width : 1280px) {
+      svg{
+          height:579px;
+      }
+
+  }
+
+
+

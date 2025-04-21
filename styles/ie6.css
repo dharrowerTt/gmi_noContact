@@ -1,0 +1,114 @@
+@charset "utf-8";
+/* Methane to Markets */
+
+#maincontentareahome #map p, #maincontentarea #map p {
+	padding:6px 10px 0 24px;
+	margin-top:-2px;
+}
+
+#maincontentarea #map {
+	margin-left:-2px;
+}
+
+#searchbox #searchfield {
+    margin: 6px 7px 0 6px;
+}
+
+#bottomofmain {
+	margin-top:14px;
+}
+
+#whatsnewtop {
+	background:url(/images/bkgd_home_whatsnewtop.gif) transparent bottom left no-repeat;
+}
+
+#whatsnewbottom {
+	background:url(/images/bkgd_home_whatsnewbottom.gif) transparent top left no-repeat;
+}
+
+#whatsnewboxleft #min {
+	margin:168px 0 0 10px;
+}
+
+#whatsnewlist ul {
+	margin:0;
+}
+
+#whatsnewlist #wnaddthis {
+	margin:46px 0 0 28px;
+}
+
+#bottomhome {
+	float:left;
+	margin-top:14px;
+}
+
+.tabbox {
+	margin: 0;
+	width: 395px;
+}
+
+.moreinfo, .moreinfo a {
+	padding-top:13px;
+}
+
+#mlformmiddle fieldset {
+	width:262px;
+}
+
+#countrylandleft {
+	padding-right:16px;
+}
+
+#orgchart2 div {
+	margin-left:-750px;
+}
+
+/* IE6 hack to fix width issue for calendar*/
+* html #calcontainer {
+	overflow: hidden;
+}
+
+/* needed for IE6 for calendar*/
+* html #calBig #calDays ul li.data {
+	overflow:hidden;
+}
+
+#calBig #calDays ul li {
+	margin-left:7px;
+}
+
+#calBig #calDays ul li.sunday { margin-left: 7px; }
+#calBig #calDays ul li.monday { margin-left: 60px; }
+#calBig #calDays ul li.tuesday { margin-left: 114px; }
+#calBig #calDays ul li.wednesday { margin-left: 168px; }
+#calBig #calDays ul li.thursday { margin-left: 221px; }
+#calBig #calDays ul li.friday { margin-left: 275px; }
+#calBig #calDays ul li.saturday { margin-left: 328px; }
+
+* html li.down div.calDayData { top: -85px; }
+
+#newhatsnewtop {
+	background:url(/images/bkgd_news_wn_top.gif) transparent bottom left no-repeat;
+}
+
+#minewslettertop {
+	background:url(/images/bkgd_news_mi_top.gif) transparent bottom left no-repeat;
+}
+
+#sidebar {
+	margin:8px 0 0 0;
+	padding:8px 0 0 5px;
+}
+
+#sidebar .sidenavsector {
+	padding-left:5px;
+}
+
+#eventlist {
+	height:149px;
+}
+
+#translatebox {
+	margin-top:5px;
+}

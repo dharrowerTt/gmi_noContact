@@ -1,0 +1,15 @@
+
+        <div id='navbarBanner' style='background: linear-gradient(to right, #307438, #24562A); color:white; padding:10px; text-align:center;'>
+            <p>This is example banner</p>
+            <a href='https://www.google.com' class='btn btn-primary'>Visit this link</a>
+        </div>
+        
+            <script>
+                document.addEventListener('DOMContentLoaded', function() {
+                    var expiration = new Date('2025-03-05 12:00').getTime();
+                    var now = new Date().getTime();
+                    if (now >= expiration) {
+                        document.getElementById('navbarBanner').style.display = 'none';
+                    }
+                });
+            </script>

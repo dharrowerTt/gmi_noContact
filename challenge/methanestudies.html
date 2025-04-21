@@ -1,0 +1,331 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/dd7fc261ae.js"></script>
+    <style>
+        .aligncenter {
+            text-align: center;
+        }
+
+        body {
+            background: #1695be;
+        }
+
+        .tooltip:hover span {
+            opacity: 1;
+            filter: alpha(opacity=100);
+            top: -6em;
+            left: 20em;
+            z-index: 99;
+            -webkit-transition: all 0.2s ease;
+            -moz-transition: all 0.2s ease;
+            -o-transition: all 0.2s ease;
+            transition: all 0.2s ease;
+        }
+
+        .homearea {
+            position: fixed;
+            bottom: 10px;
+            left: 10px;
+        }
+
+        .homearea:hover {
+            cursor: pointer;
+        }
+
+        .box b {
+            color: #fff;
+        }
+
+        .tooltip span {
+            background: none repeat scroll 0 0 #222;
+            /*-- some basic styling */
+            color: #F0B015;
+            font-family: 'Helvetica';
+            font-size: 0.8em;
+            font-weight: normal;
+            line-height: 1.5em;
+            padding: 16px 15px;
+            width: 240px;
+            top: -4em;
+            /*-- this is the original position of the tooltip when it's hidden */
+            left: 20em;
+            margin-left: 0;
+            /*-- set opacity to 0 otherwise our animations won't work */
+            opacity: 0;
+            filter: alpha(opacity=0);
+            position: absolute;
+            text-align: center;
+            z-index: 2;
+            text-transform: none;
+            -webkit-transition: all 0.3s ease;
+            -moz-transition: all 0.3s ease-in-out;
+            -o-transition: all 0.3s ease;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .tooltip span:after {
+            border-color: #222 rgba(0, 0, 0, 0);
+            border-style: solid;
+            border-width: 15px 15px 0;
+            bottom: -15px;
+            content: "";
+            display: block;
+            left: 31px;
+            position: absolute;
+            width: 0;
+        }
+
+        .callout {
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-top: 10px;
+            background: #f3d5b3;
+            border-radius: 4px;
+
+            width: 100%;
+            margin-bottom: 15px;
+
+        }
+
+
+        .imgtbl {
+            width: 100%;
+            background: #CAEBF2;
+            margin-bottom: 15px;
+        }
+
+        .imgtbl img {
+            padding: 10px;
+            width: 100%;
+        }
+
+        .subtitle td {
+            font-size: 10px;
+            text-align: center;
+
+        }
+
+        table {
+            margin-top: 15px;
+            width: 100%;
+            border-collapse: collapse;
+            text-align: left;
+            overflow: hidden;
+            margin-bottom: 15px;
+        }
+
+        td,
+        th {
+            border-top: 1px solid #ECF0F1;
+            padding: 10px;
+        }
+
+        td {
+
+            border-right: 1px solid #ECF0F1;
+        }
+
+        th {
+            background-color: #4ECDC4;
+        }
+
+        tr:nth-of-type(even) td {
+            background-color: #ecf0f1;
+        }
+
+        .su-custom-gallery-slide {
+            float: left;
+        }
+
+        .su-custom-gallery-slide span {
+            display: none;
+        }
+
+        .su-custom-gallery-slide img {
+            margin: 10px;
+            border-bottom: 3px solid rgba(0, 0, 0, 0);
+            max-height: 80px;
+            width: auto;
+        }
+
+        .su-custom-gallery-slide img:hover {
+            border-bottom: 3px solid darkslategrey;
+        }
+
+        .su-clear {
+            clear: both;
+        }
+
+        .internalRow {
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+    </style>
+    	<script>
+            (function (w, d, s, l, i) {
+                w[l] = w[l] || [];
+                w[l].push({
+                    'gtm.start': new Date().getTime(),
+                    event: 'gtm.js'
+                });
+                var f = d.getElementsByTagName(s)[0],
+                    j = d.createElement(s),
+                    dl = l != 'dataLayer' ? '&l=' + l : '';
+                j.async = true;
+                j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+                f.parentNode.insertBefore(j, f);
+            })(window, document, 'script', 'dataLayer', 'GTM-WM2LZW5');
+        </script>
+</head>
+
+<body>
+    <div class="homearea">
+        <a class="btn btn-danger" href="showcase.html">
+            <i class="fa fa-arrow-left fa-lg"></i> View showcase
+        </a>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-0 col-md-2"></div>
+            <div class="col-sm-12 col-md-8" style="background:white;">
+                <img src="images/methanestudies/unepbanner_methane.png" style="width:100%" />
+                <div class="row internalRow">
+                    <h2>
+                        UNEP: Methane Science Studies to Generate Accurate,
+                        Public Data&nbsp;
+                        <!--<a class="btn btn-primary" href="pdf/SourceFacility_Biocity_Profile.pdf"
+                        aria-label="Download the PDF">
+                        <i class="fa fa-download" aria-hidden="true"></i>
+                    </a>-->
+                    </h2>
+                    <p>
+                        In 2015, a series of methane science studies was initiated to improve the understanding of
+                        global methane emissions from the oil and gas industry. Through these peer-reviewed studies,
+                        scientists continue to investigate and measure methane emissions across the oil and gas supply
+                        chain, generating accurate, public information about where and how much methane is leaking. The
+                        results of ongoing and future studies will improve understanding of methane emissions at a
+                        global level, allowing industry, governments, and other stakeholders to prioritize actions to
+                        reduce methane emissions.
+                    </p>
+                    <p>
+                        There are three phases of the studies:
+
+                    </p>
+                    <p>
+                        <ul>
+                            <li><b>Phase 1: 2015-2018</b>
+                                <p> Phase 1 of the studies focused on identifying and understanding gaps in knowledge
+                                    about
+                                    methane emissions and producing a public database of oil and gas infrastructure. A
+                                    <a href="https://edx.netl.doe.gov/dataset/development-of-an-open-global-oil-and-gas-infrastructure-inventory-and-geodatabase"
+                                        target="_blank">technical
+                                        note</a> was developed in Phase 1. </p>
+                            </li>
+                            <li> <b>Phase 2: 2018-Today</b>
+                                <p> Phase 2 consists of field measurements to fill in the gaps identified in Phase 1 and
+                                    is providing more detailed data about methane emissions in certain regions. To date,
+                                    scientific teams have performed over 200 flight hours and more than 10,000 km of
+                                    ground-based mobile methane measurements. The team has performed ship-based
+                                    measurements and addressed emissions at three liquified natural gas (LNG)
+                                    facilities. In 2019, two manuscripts were submitted to peer-reviewed journals, with
+                                    others expected in 2020. </p>
+                            </li>
+                            <div class="callout" style=float:right;width:40%;margin-left:10px;text-align:center;>
+                                <img src="images/methanestudies/edfsat.jpg"
+                                    style="float:none;width:60%;padding-right:10px;padding-left:10px;padding-bottom:10px;">
+                                <br> <i>Environmental Defense Fund’s MethaneSAT satellite</i>
+                                <br><img src="images/methanestudies/tropomi.jpg"
+                                    style="float:none;width:60%;padding-right:10px;padding-left:10px;padding-bottom:10px;">
+                                <br><i>TROPOspheric Monitoring Instrument (TROPOMI)</i>
+                            </div>
+                            <li><b>2020 and Beyond</b>
+                                <p>The next phase will incorporate new technological advances. The cutting-edge <a
+                                        href="http://www.tropomi.eu/" target="_blank">TROPOspheric Monitoring
+                                        Instrument</a>
+                                    (TROPOMI), funded by the European Union, enables the
+                                    measurement of methane with an unprecedented combination of accuracy, spatial
+                                    coverage,
+                                    and resolution. Future studies will also incorporate the Environmental Defense
+                                    Fund’s <a href="https://www.methanesat.org/" target="_blank">MethaneSAT</a>, which
+                                    will
+                                    provide global, high-resolution coverage of methane emissions
+                                    from oil and gas facilities. Combining satellite-based data with information
+                                    collected
+                                    about methane emissions from oil and gas infrastructure around the world will
+                                    enhance
+                                    the ability of industry, governments, and other stakeholders to take actions and
+                                    implement policies to reduce global methane emissions.</p>
+                            </li>
+                        </ul>
+                    </p>
+                    <p>
+                        The methane science studies are organized under the framework of the <a
+                            href="https://www.ccacoalition.org/en/activity/oil-and-gas-methane-science-studies"
+                            target="_blank">Climate and Clean Air
+                            Coalition</a> and include support from the following partners:  the <a
+                            href="https://www.unenvironment.org/" target="_blank">United Nations Environment
+                            Programme</a> (UNEP), the <a href="https://www.edf.org/" target="_blank">Environmental Defense
+                            Fund</a>, the companies of the <a href="https://oilandgasclimateinitiative.com/our-members/"
+                            target="_blank">Oil and Gas Climate
+                            Initiative</a>,
+                        and the <a href="https://ec.europa.eu/energy/en" target="_blank">European Commission Directorate
+                            General for Energy</a>. </p>
+
+                    <p> Over the course of the last two
+                        years, donor funds have totaled $7.2M U.S. Dollars (USD), which further mobilized an additional
+                        $4M USD of funds from partner institutions. Approximately 90 percent of the funds have been
+                        allocated to fund more than 100 scientists from 14 countries around the world.
+                        Researchers have performed studies on offshore oil and gas infrastructure in the North Sea and
+                        Gulf of Mexico, and in more than 10 cities across Europe, including methane sources near those
+                        cities (e.g., landfills, gas production fields, and coal mines), and in Australia. There is
+                        interest in performing studies around the rest of the world, including the Middle East, the
+                        Caspian Sea region, West Africa, South America, China, and Russia.
+                    </p>
+
+
+                </div>
+
+                <hr>
+                <!--     <a href="pdf/SourceFacility_Biocity_Profile.pdf" class="btn btn-primary btn-block">Download The
+                        PDF</a>
+                    <hr>-->
+            </div>
+            <div class="col-sm-0 col-md-2"></div>
+        </div>
+    </div>
+    <script>
+        $(document).ready(function () {
+            $('[data-toggle="popover"]').popover({
+                container: '.container'
+            });
+
+            $('body').on('click', function (e) {
+                $('[data-toggle=popover]').each(function () {
+                    // hide any open popovers when the anywhere else in the body is clicked
+                    if (!$(this).is(e.target) && $(this).has(e.target).length === 0 && $(
+                            '.popover').has(e.target).length === 0) {
+                        $(this).popover('hide');
+                    }
+                });
+            });
+
+        });
+    </script>
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+</body>
+
+</html>

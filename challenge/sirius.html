@@ -1,0 +1,275 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/dd7fc261ae.js"></script>
+    <script>
+		(function (w, d, s, l, i) {
+			w[l] = w[l] || [];
+			w[l].push({
+				'gtm.start': new Date().getTime(),
+				event: 'gtm.js'
+			});
+			var f = d.getElementsByTagName(s)[0],
+				j = d.createElement(s),
+				dl = l != 'dataLayer' ? '&l=' + l : '';
+			j.async = true;
+			j.src =
+				'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+			f.parentNode.insertBefore(j, f);
+		})(window, document, 'script', 'dataLayer', 'GTM-WM2LZW5');
+	</script>
+    <style>
+        .aligncenter {
+            text-align: center;
+        }
+
+        body {
+            background: #1695be;
+        }
+
+        .tooltip:hover span {
+            opacity: 1;
+            filter: alpha(opacity=100);
+            top: -6em;
+            left: 20em;
+            z-index: 99;
+            -webkit-transition: all 0.2s ease;
+            -moz-transition: all 0.2s ease;
+            -o-transition: all 0.2s ease;
+            transition: all 0.2s ease;
+        }
+
+        .homearea {
+            position: fixed;
+            bottom: 10px;
+            left: 10px;
+        }
+
+        .homearea:hover {
+            cursor: pointer;
+        }
+
+        .box b {
+            color: #fff;
+        }
+
+        .tooltip span {
+            background: none repeat scroll 0 0 #222;
+            /*-- some basic styling */
+            color: #F0B015;
+            font-family: 'Helvetica';
+            font-size: 0.8em;
+            font-weight: normal;
+            line-height: 1.5em;
+            padding: 16px 15px;
+            width: 240px;
+            top: -4em;
+            /*-- this is the original position of the tooltip when it's hidden */
+            left: 20em;
+            margin-left: 0;
+            /*-- set opacity to 0 otherwise our animations won't work */
+            opacity: 0;
+            filter: alpha(opacity=0);
+            position: absolute;
+            text-align: center;
+            z-index: 2;
+            text-transform: none;
+            -webkit-transition: all 0.3s ease;
+            -moz-transition: all 0.3s ease-in-out;
+            -o-transition: all 0.3s ease;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .tooltip span:after {
+            border-color: #222 rgba(0, 0, 0, 0);
+            border-style: solid;
+            border-width: 15px 15px 0;
+            bottom: -15px;
+            content: "";
+            display: block;
+            left: 31px;
+            position: absolute;
+            width: 0;
+        }
+
+        .callout {
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-top: 10px;
+            background: #f3d5b3;
+            border-radius: 4px;
+
+            width: 100%;
+            margin-bottom: 15px;
+
+        }
+
+
+        .imgtbl {
+            width: 100%;
+            background: #CAEBF2;
+            margin-bottom: 15px;
+        }
+
+        .imgtbl img {
+            padding: 10px;
+            width: 100%;
+        }
+
+        .subtitle td {
+            font-size: 10px;
+            text-align: center;
+
+        }
+
+        table {
+            margin-top: 15px;
+            width: 100%;
+            border-collapse: collapse;
+            text-align: left;
+            overflow: hidden;
+            margin-bottom: 15px;
+        }
+
+        td,
+        th {
+            border-top: 1px solid #ECF0F1;
+            padding: 10px;
+        }
+
+        td {
+
+            border-right: 1px solid #ECF0F1;
+        }
+
+        th {
+            background-color: #4ECDC4;
+        }
+
+        tr:nth-of-type(even) td {
+            background-color: #ecf0f1;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="homearea">
+        <a class="btn btn-danger" href="showcase.html">
+            <i class="fa fa-arrow-left fa-lg"></i> View showcase
+        </a>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-0 col-md-2"></div>
+            <div class="col-sm-12 col-md-8" style="background:white;">
+                <img src="images/sirius/canada_sirius.png" style="width:100%" />
+                <h2>
+                    Sirius Instrumentation & Controls&nbsp;
+                    <!--<a class="btn btn-primary" href="pdf/SourceFacility_Biocity_Profile.pdf"
+                        aria-label="Download the PDF">
+                        <i class="fa fa-download" aria-hidden="true"></i>
+                    </a>-->
+                </h2>
+
+                <p>
+
+                    <a href="https://www.siriuscontrols.com/" target="_blank">Sirius Instrumentation & Controls</a>
+                    is breaking down barriers to make solar-powered chemical injection pumps practical and economical,
+                    paving the way to help the oil and gas industry reduce its environmental footprint. It used to be
+                    assumed that solar power could not be an effective solution because of the cost and lack of
+                    reliability in cold, dark, and forested oil and gas sites. Sirius is helping to demonstrate the use
+                    of solar as a reliable energy source and a means to optimize chemical injection pumps.
+                </p>
+                <h3>Tracking Emission Reductions</h3>
+
+                <p>
+
+                    <div class="callout"
+                        style="float:right;width:40%;margin-left:20px;text-align:center; margin-bottom: 50px;">
+                        In a study done by ConocoPhillips, one chemical injection pump emits an average of 145 tonnes of
+                        CO<sub>2</sub>e/year. There are tens of thousands of pneumatic chemical pumps in the province of
+                        Alberta
+                        alone.
+                    </div>
+
+                    Sirius is also using built-in tracking technologies and in-house designed flow measurement devices
+                    to track reduced emissions of each pump. Most recently, systems are being designed to use remote
+                    communication to send the emission reduction data back to a central data gathering system, which
+                    allows Sirius to measure and track the progress from pumps anywhere in the world. In Canada, Sirius
+                    works closely with carbon credit capture companies such as BlueSource and Cap-Op Energy to track the
+                    amount of CO<sub>2</sub>e emitted by each pump, and these data allow the oil and gas industry to
+                    better
+                    demonstrate environmental success
+                </p>
+                <h3>Increasing Reductions Year-Over-Year</h3>
+                <p>
+                    Ten years ago, Sirius was reducing emissions in the oil and gas industry by an estimated 0.4 million
+                    metric tonnes of carbon dioxide equivalent (MMTCO<sub>2</sub>e) per year. Today, Sirius electric
+                    chemical pumps
+                    are reducing emissions by nearly 4 MMTCO<sub>2</sub>e—10 times as much. As the growth of emission
+                    reduction
+                    has remained fairly consistent year-over-year, Sirius anticipates total additional emission reductions of
+                    approximately 2 – 2.5 MMTCO<sub>2</sub>e by 2025.
+                </p>
+                <p>
+                    Sirius has had its most significant environmental impact in Canada and the United States. In recent
+                    years, other countries have had success reducing costs and emissions with intelligent chemical pump
+                    technologies. Companies in Columbia, Kuwait, Pakistan, Tunisia and offshore companies in Malaysia
+                    have worked with Sirius to test and refine solar chemical pump solutions, improving the technology and
+                    making it a reliable solution globally to reduce emissions and costs associated with chemical injection.
+                </p>
+                <h3>Learn About the Technologies</h3>
+                <p>The video below describes Sirius’s Fusion System, their direct current/solar-powered solution for chemical
+                    injection control in oil and gas pumps.
+                </p>
+                <p>
+                    <a href="https://www.siriuscontrols.com/brochures.php" target="_blank">View more videos</a>.
+                </p>
+                <div style="text-align: center;">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/wlB8Slo2eow" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+
+                <hr>
+                <!--     <a href="pdf/SourceFacility_Biocity_Profile.pdf" class="btn btn-primary btn-block">Download The
+                        PDF</a>
+                    <hr>-->
+            </div>
+            <div class="col-sm-0 col-md-2"></div>
+        </div>
+    </div>
+    <script>
+        $(document).ready(function () {
+            $('[data-toggle="popover"]').popover({
+                container: '.container'
+            });
+
+            $('body').on('click', function (e) {
+                $('[data-toggle=popover]').each(function () {
+                    // hide any open popovers when the anywhere else in the body is clicked
+                    if (!$(this).is(e.target) && $(this).has(e.target).length === 0 && $(
+                            '.popover').has(e.target).length === 0) {
+                        $(this).popover('hide');
+                    }
+                });
+            });
+
+        });
+    </script>
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+</body>
+
+</html>

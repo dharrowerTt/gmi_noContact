@@ -1,0 +1,679 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <title>GMC Actions</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/dd7fc261ae.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css" type="text/css" />
+
+    
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+    <script>
+$(document).ready(function() {
+    $('#list').DataTable( {
+        initComplete: function () {
+            this.api().columns([1, 2, 3]).every( function () {
+                var column = this;
+                var select = $('<select><option value=""></option></select>')
+                    .appendTo( $(column.header()) )
+                    .on( 'change', function () {
+                        var val = $.fn.dataTable.util.escapeRegex(
+                            $(this).val()
+                        );
+ 
+                        column
+                            .search( val ? '^'+val+'$' : '', true, false )
+                            .draw();
+                    } );
+ 
+                column.data().unique().sort().each( function ( d, j ) {
+                    select.append( '<option value="'+d+'">'+d+'</option>' )
+                } );
+            } );
+        },
+		aLengthMenu: [
+		   [10, 25, 50, 100, -1],
+		   [10, 25, 50, 100, "All"]
+		],
+		iDisplayLength: -1		
+    } );
+} );
+
+    </script>
+    <style>
+        body {
+            background: #1695be;
+        }
+
+        .tooltip:hover span {
+            opacity: 1;
+            filter: alpha(opacity=100);
+            top: -6em;
+            left: 20em;
+            z-index: 99;
+            -webkit-transition: all 0.2s ease;
+            -moz-transition: all 0.2s ease;
+            -o-transition: all 0.2s ease;
+            transition: all 0.2s ease;
+        }
+
+        .homearea {
+            position: fixed;
+            bottom: 10px;
+            left: 10px;
+        }
+
+        .homearea:hover {
+            cursor: pointer;
+        }
+
+        .box b {
+            color: #fff;
+        }
+
+        .tooltip span {
+            background: none repeat scroll 0 0 #222;
+            /*-- some basic styling */
+            color: #F0B015;
+            font-family: 'Helvetica';
+            font-size: 0.8em;
+            font-weight: normal;
+            line-height: 1.5em;
+            padding: 16px 15px;
+            width: 240px;
+            top: -4em;
+            /*-- this is the original position of the tooltip when it's hidden */
+            left: 20em;
+            margin-left: 0;
+            /*-- set opacity to 0 otherwise our animations won't work */
+            opacity: 0;
+            filter: alpha(opacity=0);
+            position: absolute;
+            text-align: center;
+            z-index: 2;
+            text-transform: none;
+            -webkit-transition: all 0.3s ease;
+            -moz-transition: all 0.3s ease-in-out;
+            -o-transition: all 0.3s ease;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .tooltip span:after {
+            border-color: #222 rgba(0, 0, 0, 0);
+            border-style: solid;
+            border-width: 15px 15px 0;
+            bottom: -15px;
+            content: "";
+            display: block;
+            left: 31px;
+            position: absolute;
+            width: 0;
+        }
+
+        .nav-tabs>li,
+        .nav-pills>li {
+            float: none;
+            display: inline-block;
+            *display: inline;
+            /* ie7 fix */
+            zoom: 1;
+            /* hasLayout ie7 trigger */
+        }
+
+        .nav-tabs,
+        .nav-pills {
+            text-align: center;
+        }
+
+        h4 {
+            background: #CAEBF2;
+            padding: 5px;
+        }
+		#list td {vertical-align:top;border-top:1px solid silver;}
+    </style>
+</head>
+
+<body>
+    <div class="homearea">
+        <a class="btn btn-danger" href="index.aspx#actions">
+            <i class="fa fa-arrow-left fa-lg"></i> GMC Home
+        </a>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-0 col-md-2"></div>
+          <div class="col-sm-12 col-md-8" style="background:white;">
+                
+
+
+
+                <h2>Global Methane Challenge Actions</h2>
+              <table id="list">
+                  <thead><tr>
+                    <th>Project</th>
+                    <th>Sector</th>
+    <th>Country</th>
+    <th>Project Type</th>
+    <th>&nbsp;</th>
+                  </tr>
+                </thead>
+                  <tbody>
+                    <tr>
+                      <td>
+						  <details>
+						  	<summary>
+								<a href="lidar.html">LiDAR Services International Inc. Airborne Methane Mapping and Comprehensive Remote Emissions Intelligence, Surveillance and Reconnaissance Sensing</a>
+							</summary>
+						  	<p>insert details here</p>
+						  </details>
+					  </td>
+                      <td>Oil & Gas</td>
+                      <td>Canada</td>
+                      <td>Subnational</td>
+                      <td><img src="images/gallery/canadabanner.jpg" alt="" style="width:75px;" /></td>
+                    </tr>
+                    <tr>
+                      <td><a href="canada.html#menu1">Regulations Respecting Reduction in the Release of Methane and Certain Volatile Organic Compounds (Upstream Oil & Gas Sector)</a></td>
+                      <td>Oil & Gas</td>
+                        <td>Canada</td>
+                        <td>National</td>
+                        <td><img src="images/gallery/canadabanner.jpg" alt="" style="width:75px;" /></td>
+                    </tr>
+                    <tr>
+                      <td><a href="canada.html#menu2">Initiatives to Prevent GHG Emissions through Diversion and Prevention of Organic Waste</a></td>
+                      <td>Biogas</td>
+                        <td>Canada</td>
+                        <td>National</td>
+                        <td><img src="images/gallery/canadabanner.jpg" alt="" style="width:75px;" /></td>
+                    </tr>
+                    <tr>
+                      <td><a href="canada.html#menu3">Landfill Gas Capture and Utilization Feasibility</a></td>
+                      <td>Biogas</td>
+                        <td>Canada</td>
+                        <td>National</td>
+                        <td><img src="images/gallery/canadabanner.jpg" alt="" style="width:75px;" /></td>
+                    </tr>
+                    <tr>
+                      <td><a href="canada.html#menu4">International Collaboration to Address Methane Emissions</a></td>
+                      <td>Multiple</td>
+                        <td>Canada</td>
+                        <td>National</td>
+                        <td><img src="images/gallery/canadabanner.jpg" alt="" style="width:75px;" /></td>
+                    </tr>
+                    <tr>
+                      <td><a href="canada.html#menu5">Natural Sciences and Engineering Research Council of Canada (NSERC) FlareNet Strategic Network Global Research Initiative to Address Flare Generated Pollutant Emissions from<br>
+                        Unconventional Oil & Gas    Processing</a></td>
+                      <td>Oil & Gas</td>
+                        <td>Canada</td>
+                        <td>National</td>
+                        <td><img src="images/gallery/canadabanner.jpg" alt="" style="width:75px;" /></td>
+                    </tr>
+                    <tr>
+                      <td><a href="canada.html#menu6">Research Efforts to Control Greenhouse Gases Emissions from Livestock</a></td>
+                      <td>Biogas</td>
+                        <td>Canada</td>
+                        <td>National</td>
+                        <td><img src="images/gallery/canadabanner.jpg" alt="" style="width:75px;" /></td>
+                    </tr>
+                    <tr>
+                      <td><a href="canada.html#menu7">Agricultural Greenhouse Gases Program</a></td>
+                      <td>Biogas</td>
+                        <td>Canada</td>
+                        <td>National</td>
+                        <td><img src="images/gallery/canadabanner.jpg" alt="" style="width:75px;" /></td>
+                    </tr>
+                    <tr>
+                      <td><a href="china.html">China International Centre of Excellence on Coal Mine Methane</a></td>
+                      <td>Coal</td>
+                        <td>China</td>
+                        <td>National</td>
+                        <td><img src="images/gallery/chinabanner.jpg" alt="" style="width:75px;" /></td>
+                    </tr>
+                    <tr>
+                      <td><a href="colombia.html">Collaborating with Climate and Clean Air Coalition (CCAC) Oil & Gas Methane Partnership (OGMP)</a></td>
+                      <td>Oil & Gas</td>
+                        <td>Colombia</td>
+                        <td>Subnational</td>
+                        <td><img src="images/gallery/colombiabanner.png" alt="" style="width:75px;" /></td>
+                    </tr>
+                    <tr>
+                      <td><a href="sourcefacilitybiocity.html">Source Facility and BioCity</a></td>
+                      <td>Biogas</td>
+                        <td>India</td>
+                        <td>Subnational</td>
+                        <td><img src="images/gallery/indiabanner.jpg" alt="" style="width:75px;" /></td>
+                    </tr>
+                    <tr>
+                      <td><a href="kazakhstan.html">Kazakhstan Wastewater Biogas Recovery Initiative</a></td>
+                      <td>Biogas</td>
+                        <td>Kazakhstan</td>
+                        <td>National</td>
+                        <td><img src="images/gallery/kazakhstan.jpg" alt="" style="width:75px;" /></td>
+                    </tr>
+                    <tr>
+                      <td><a href="naucalpan.html">Naucalpan de Juárez, Mexico – Improving Waste Management Practices and Reducing Methane Emissions</a></td>
+                      <td>Biogas</td>
+                        <td>Mexico</td>
+                        <td>National</td>
+                        <td><img src="images/gallery/mexicobanner.jpg" alt="" style="width:75px;" /></td>
+                    </tr>
+                    <tr>
+                      <td ><a href="mexico.html">Final Regulation Guidelines for the Prevention and Integral Control of Methane Emissions from the Hydrocarbon Sector</a></td>
+                      <td>Oil & Gas</td>
+                        <td>Mexico</td>
+                        <td>National</td>
+                        <td><img src="images/gallery/mexicobanner.jpg" alt="" style="width:75px;" /></td>
+                    </tr>
+                    <tr>
+                      <td><a href="mexico_ww.html">Mexico Wastewater Biogas Recovery Initiative</a></td>
+                      <td>Biogas</td>
+                        <td>Mexico</td>
+                        <td>National</td>
+                        <td><img src="images/gallery/mexicobanner.jpg" alt="" style="width:75px;" /></td>
+                    </tr>
+                    <tr>
+                      <td><a href="poland.html">Poland International Centre of Excellence on Coal Mine Methane</a></td>
+                      <td>Coal</td>
+                        <td>Poland</td>
+                        <td>National</td>
+                        <td><img src="images/gallery/polandbanner.jpg" alt="" style="width:75px;" /></td>
+                    </tr>
+                    <tr>
+                      <td><a href="serbia.html">Building Capacity for Organic Waste Management in the Republic of Serbia</a></td>
+                      <td>Biogas</td>
+                        <td>Serbia</td>
+                        <td>National</td>
+                        <td><img src="images/gallery/serbiabanner.jpg" alt="" style="width:75px;" /></td>
+                    </tr>
+                    <tr>
+                      <td><a href="usa.html">Domestic Methane Partnership Programs</a></td>
+                      <td>Multiple</td>
+                        <td>USA</td>
+                        <td>National</td>
+                        <td><img src="images/gallery/usabanner.jpg" alt="" style="width:75px;" /></td>
+                    </tr>
+                    <tr>
+                    <td><a href="baleen.html">Baleen International, Inc.</a></td>
+                    <td>Biogas</td>
+                      <td>Canada</td>
+                      <td>Subnational</td>
+                      <td><img src="images/canada_baleen.png" alt="" style="width:75px;" /></td>
+                  </tr>
+                    <tr>
+                      <td><a href="bluesource.html">Bluesource Methane - Bluesource Methane Reduction Program </a></td>
+                      <td>Oil & Gas</td>
+                        <td>Canada</td>
+                        <td>Subnational</td>
+                        <td><img src="images/canada_bluesource.png" alt="" style="width:75px;" /></td>
+                    </tr>
+                    <tr>
+                      <td><a href="ews.html">Engineered Waste Systems (EWS) LLC - Waste Management</a></td>
+                      <td>Biogas</td>
+                        <td>USA</td>
+                        <td>Subnational</td>
+                        <td><img src="images/usa_ews.png" alt="" style="width:75px;" /></td>
+                    </tr>
+                    <tr>
+                      <td><a href="mnec.html">Mongolian Nature & Environment Consortium (MNEC), Developing a Coal Mine Methane Emissions Inventory</a></td>
+                      <td>Coal</td>
+                        <td>Mongolia</td>
+                        <td>Subnational</td>
+                        <td><img src="images/mongolia_mnec.png" alt="" style="width:75px;" /></td>
+                    </tr>
+                    <tr>
+                      <td><a href="biocover.html">BioCover A/S</a></td>
+                      <td>Biogas</td>
+                        <td>Denmark</td>
+                        <td>Subnational</td>
+                        <td><img src="images/denmark_biocover.png" alt="" style="width:75px;" /></td>
+                    </tr>
+
+                    <tr>
+                      <td><a href="ingevity.html">Ingevity Corporation</a></td>
+                      <td>Oil & Gas</td>
+                        <td>USA</td>
+                        <td>Subnational</td>
+                        <td><img src="images/usa_ingevity.png" alt="" style="width:75px;" /></td>
+                    </tr>
+                    <tr>
+                      <td><a href="punjab.html">Punjab Agricultural Management & Extension Training Institute</a></td>
+                      <td>Biogas</td>
+                        <td>India</td>
+                        <td>Subnational</td>
+                        <td><img src="images/india_punjab.png" alt="" style="width:75px;" /></td>
+                    </tr>
+                    <tr>
+                      <td><a href="process.html">Process Ecology Inc.</a></td>
+                      <td>Oil & Gas</td>
+                        <td>Canada</td>
+                        <td>Subnational</td>
+                        <td><img src="images/canada_process.png" alt="" style="width:75px;" /></td>
+                    </tr>
+                    <tr>
+                      <td><a href="src.html">Saskatchewan Research Council (SRC)</a></td>
+                      <td>Oil & Gas</td>
+                        <td>Canada</td>
+                        <td>Subnational</td>
+                        <td><img src="images/canada_src.png" alt="" style="width:75px;" /></td>
+                    </tr>
+                    <tr>
+                      <td><a href="ghgsat.html">GHGSat Inc.</a></td>
+                      <td>Oil & Gas</td>
+                        <td>Canada</td>
+                        <td>Subnational</td>
+                        <td><img src="images/ghgsat/banner.png" alt="" style="width:75px;" /></td>
+                    </tr>
+                    <tr>
+                      <td><a href="southampton.html">University of Southampton</a></td>
+                      <td>Biogas</td>
+                        <td>United Kingdom</td>
+                        <td>Subnational</td>
+                        <td><img src="images/southampton/banner.png" alt="" style="width:75px;" /></td>
+                    </tr>
+                    <tr>
+                      <td><a href="gc.html">ReductionTech (GC Green Carbon Inc.)</a></td>
+                      <td>Biogas</td>
+                        <td>Canada</td>
+                        <td>Subnational</td>
+                        <td><img src="images/gc/banner.png" alt="" style="width:75px;" /></td>
+                    </tr>
+                    <tr>
+                      <td><a href="iitd.html">Indian Institute of Technology Delhi</a></td>
+                      <td>Biogas</td>
+                        <td>India</td>
+                        <td>Subnational</td>
+                        <td><img src="images/iitd/banner.png" alt="" style="width:75px;" /></td>
+                    </tr>
+                    <tr>
+                      <td><a href="hydraulic.html">Hydraulic Fracturing of Kuznetsk LLC  </a></td>
+                      <td>Coal</td>
+                        <td>Russia</td>
+                        <td>Subnational</td>
+                        <td><img src="images/hydraulic/hydraulic_banner.jpg" alt="" style="width:75px;" /></td>
+                    </tr>
+                    <tr>
+                      <td><a href="francaise.html">La Française de l’Energie   </a></td>
+                      <td>Coal</td>
+                        <td>France</td>
+                        <td>Subnational</td>
+                        <td><img src="images/francaise/LFDE_banner.jpg" alt="" style="width:75px;" /></td>
+                    </tr>
+                    <tr>
+                      <td><a href="westgen.html">Westgen Technologies  </a></td>
+                      <td>Oil & Gas</td>
+                        <td>Canada</td>
+                        <td>Subnational</td>
+                        <td><img src="images/westgen/westgen_banner.jpg" alt="" style="width:75px;" /></td>
+                    </tr>
+                    <tr>
+                      <td><a href="sniffers.html">The Sniffers  </a></td>
+                      <td>Oil & Gas</td>
+                        <td>Belgium</td>
+                        <td>Subnational</td>
+                        <td><img src="images/sniffers/sniffers_banner.jpg" alt="" style="width:75px;" /></td>
+                    </tr>
+                    <tr>
+                      <td><a href="abiogas.html">Abiogas</a></td>
+                      <td>Biogas</td>
+                        <td>Brazil</td>
+                        <td>Subnational</td>
+                        <td><img src="images/abiogas/abiogas_flag.jpg" alt="" style="width:75px;" /></td>
+                    </tr>
+                    <tr>
+                      <td><a href="iav.html">Hassan II Institute of Agronomy and Veterinary Sciences</a></td>
+                      <td>Biogas</td>
+                        <td>Morocco</td>
+                        <td>Subnational</td>
+                        <td><img src="images/iav/morocco.png" alt="" style="width:75px;" /></td>
+                    </tr>
+                    <tr>
+                      <td><a href="mootral.html">Mootral  </a></td>
+                      <td>Biogas</td>
+                        <td>Switzerland</td>
+                        <td>Subnational</td>
+                        <td><img src="images/mootral/swissflag.jpg" alt="" style="width:75px;" /></td>
+                    </tr>
+                    <tr>
+                      <td><a href="solucycle.html">Solucycle </a></td>
+                      <td>Biogas</td>
+                        <td>Canada</td>
+                        <td>Subnational</td>
+                        <td><img src="images/solucycle/banner.png" alt="" style="width:75px;" /></td>
+                    </tr>
+                    <tr>
+                      <td><a href="fao.html">FAO and GRA: Measuring and Reducing Enteric Methane from Livestock </a></td>
+                      <td>Biogas</td>
+                        <td>Italy</td>
+                        <td>Subnational</td>
+                        <td><img src="images/FAO/Italyflag.jpg" alt="" style="width:75px;" /></td>
+                    </tr>
+                    <tr>
+                      <td><a href="arctic.html">Arctic Council's Expert Group on Black Carbon and Methane </a></td>
+                      <td>Multiple</td>
+                        <td>Multiple</td>
+                        <td>International</td>
+                        <td><img src="images/arctic/arcticflag.png" alt="" style="width:75px;" /></td>
+                    </tr>
+                    <tr>
+                      <td><a href="haug.html">HAUG Sauer Kompressoren AG </a></td>
+                      <td>Multiple</td>
+                        <td>Switzerland</td>
+                        <td>Subnational</td>
+                        <td><img src="images/haug/swissflag.png" alt="" style="width:75px;" /></td>
+                    </tr>
+                    <!----->
+                    <tr>
+                      <td><a href="blair.html">Blair Air System </a></td>
+                      <td>Oil & Gas</td>
+                        <td>Canada</td>
+                        <td>Subnational</td>
+                        <td><img src="images/blair/canada_blair.png" alt="" style="width:75px;" /></td>
+                    </tr>
+                    <tr>
+                      <td><a href="metropolitan.html">Metropolitan Utilities District</a></td>
+                      <td>Oil & Gas</td>
+                        <td>USA</td>
+                        <td>Subnational</td>
+                        <td><img src="images/metropolitan/usa_metropolitan.png" alt="" style="width:75px;" /></td>
+                    </tr>
+                    <tr>
+                      <td><a href="francisxavier.html">St. Francis Xavier University</a></td>
+                      <td>Oil & Gas</td>
+                        <td>Canada</td>
+                        <td>Subnational</td>
+                        <td><img src="images/francisxavier/canada_francisxavier.png" alt="" style="width:75px;" /></td>
+                    </tr>
+                    <tr>
+                      <td><a href="qlm.html">QLM: Quantum Optical Gas Sensors </a></td>
+                      <td>Oil & Gas</td>
+                        <td>United Kingdom</td>
+                        <td>Subnational</td>
+                        <td><img src="images/qlm/qlm_banner.png" alt="" style="width:75px;" /></td>
+                    </tr>
+                    <tr>
+                      <td><a href="capop.html">Cap-Op Energy </a></td>
+                      <td>Oil & Gas</td>
+                        <td>Canada</td>
+                        <td>Subnational</td>
+                        <td><img src="images/capop/canada_capop.png" alt="" style="width:75px;" /></td>
+                    </tr>
+                    <tr>
+                      <td><a href="swri.html">Southwest Research Institute </a></td>
+                      <td>Oil & Gas</td>
+                        <td>USA</td>
+                        <td>Subnational</td>
+                        <td><img src="images/swri/usa_swri.png" alt="" style="width:75px;" /></td>
+                    </tr>
+                    <tr>
+                      <td><a href="methanestudies.html">UNEP: Methane Studies </a></td>
+                      <td>Oil & Gas</td>
+                        <td>Multiple</td>
+                        <td>Subnational</td>
+                        <td><img src="images/methanestudies/unepbanner_methane.png" alt="" style="width:75px;" /></td>
+                    </tr>
+                    <tr>
+                      <td><a href="gma.html">UNEP: GMA</a></td>
+                      <td>Oil & Gas</td>
+                        <td>Multiple</td>
+                        <td>Subnational</td>
+                        <td><img src="images/gma/unepbanner_gma.png" alt="" style="width:75px;" /></td>
+                    </tr>
+                    <tr>
+                      <td><a href="gie.html">GIE and MARCOGAZ</a></td>
+                      <td>Oil & Gas</td>
+                        <td>Belgium</td>
+                        <td>Subnational</td>
+                        <td><img src="images/gie/gie_banner.png" alt="" style="width:75px;" /></td>
+                    </tr>
+                    <tr>
+                      <td><a href="cbm.html">India CBM Clearinghouse </a></td>
+                      <td>Coal</td>
+                        <td>India</td>
+                        <td>Subnational</td>
+                        <td><img src="images/cbm/banner.png" alt="" style="width:75px;" /></td>
+                    </tr>
+
+                    <tr>
+                      <td><a href="edl.html">Energy Developments PTY Limited  </a></td>
+                      <td>Multiple</td>
+                        <td>Australia</td>
+                        <td>Subnational</td>
+                        <td><img src="images/edl/banner.png" alt="" style="width:75px;" /></td>
+                    </tr>
+
+                    <tr>
+                      <td><a href="qnergy.html">Qnergy </a></td>
+                      <td>Oil & Gas</td>
+                        <td>USA</td>
+                        <td>Subnational</td>
+                        <td><img src="images/qnergy/usa_qnergy.png" alt="" style="width:75px;" /></td>
+                    </tr>
+
+                    <tr>
+                      <td><a href="ogmp.html">UNEP: OGMP  </a></td>
+                      <td>Oil & Gas</td>
+                        <td>Multiple</td>
+                        <td>Subnational</td>
+                        <td><img src="images/ogmp/unepbanner_ogmp.png" alt="" style="width:75px;" /></td>
+                    </tr>
+                    <tr>
+                      <td><a href="sirius.html">Sirius Instrumentation & Controls  </a></td>
+                      <td>Oil & Gas</td>
+                        <td>Canada</td>
+                        <td>Subnational</td>
+                        <td><img src="images/sirius/canada_sirius.png" alt="" style="width:75px;" /></td>
+                    </tr>
+                    <tr>
+                      <td><a href="aie.html">Asset Integrity Engineering (AIE)</a></td>
+                      <td>Oil & Gas</td>
+                        <td>United Arab Emirates</td>
+                        <td>Subnational</td>
+                        <td><img src="images/aie/banner.png" alt="" style="width:75px;" /></td>
+                    </tr>
+                    <tr>
+                      <td><a href="enagas.html">Enagás</a></td>
+                      <td>Oil & Gas</td>
+                        <td>Spain</td>
+                        <td>Subnational</td>
+                        <td><img src="images/enagas/enagas_banner.png" alt="" style="width:75px;" /></td>
+                    </tr>
+                    <tr>
+                      <td><a href="lcef.html">The Low Carbon Economy Fund</a></td>
+                      <td>Oil & Gas</td>
+                        <td>Canada</td>
+                        <td>Subnational</td>
+                        <td><img src="images/lcef/canada_lcef.png" alt="" style="width:75px;" /></td>
+                    </tr>
+                    <tr>
+                      <td><a href="ptac.html">Petroleum Technology Alliance Canada</a></td>
+                      <td>Oil & Gas</td>
+                        <td>Canada</td>
+                        <td>Subnational</td>
+                        <td><img src="images/ptac/canada_ptac.png" alt="" style="width:75px;" /></td>
+                    </tr>
+                    <tr>
+                      <td><a href="gemidan.html">Gemidan Ecogi A/S</a></td>
+                      <td>Biogas</td>
+                        <td>Denmark</td>
+                        <td>Subnational</td>
+                        <td><img src="images/gemidan/gemidanbanner.png" alt="" style="width:75px;" /></td>
+                    </tr>
+                    <tr>
+                      <td><a href="mnre.html">Ministry of New and Renewable Energy</a></td>
+                      <td>Biogas</td>
+                        <td>India</td>
+                        <td>Subnational</td>
+                        <td><img src="images/mnre/MNRE_banner.png" alt="" style="width:75px;" /></td>
+                    </tr>
+                    <tr>
+                      <td><a href="catalyst.html">Catalyst Agri-Innovations Society</a></td>
+                      <td>Biogas</td>
+                        <td>Canada</td>
+                        <td>Subnational</td>
+                        <td><img src="images/catalyst/catalyst.png" alt="" style="width:75px;" /></td>
+                    </tr>
+                    <tr>
+                      <td><a href="arcadis.html">Reciclo Organicos, Chile-Canada Program</a></td>
+                      <td>Biogas</td>
+                        <td>Chile</td>
+                        <td>Subnational</td>
+                        <td><img src="images/arcadis/canada_arcadis.png" alt="" style="width:75px;" /></td>
+                    </tr>
+                    <tr>
+                      <td><a href="undc.html">MinEnergía and Universidad Nacional de Colombia</a></td>
+                      <td>Oil & Gas</td>
+                        <td>Colombia</td>
+                        <td>Subnational</td>
+                        <td><img src="images/undc/colombiabanner.png" alt="" style="width:75px;" /></td>
+                    </tr>
+                    <tr>
+                      <td><a href="ledslac.html">Latin America and Caribbean BioE-CoP</a></td>
+                      <td>Biogas</td>
+                        <td>Multiple</td>
+                        <td>Subnational</td>
+                        <td><img src="images/LEDSLAC/ledslacbanner.png" alt="" style="width:75px;" /></td>
+                    </tr>
+                  </tbody>
+
+
+              </table>
+
+
+            </div>
+
+        </div>
+        <div class="col-sm-0 col-md-2"></div>
+    </div>
+    </div>
+    <script>
+        $(document).ready(function () {
+            $('[data-toggle="popover"]').popover({
+                container: '.container'
+            });
+
+            $('body').on('click', function (e) {
+                $('[data-toggle=popover]').each(function () {
+                    // hide any open popovers when the anywhere else in the body is clicked
+                    if (!$(this).is(e.target) && $(this).has(e.target).length === 0 && $(
+                            '.popover').has(e.target).length === 0) {
+                        $(this).popover('hide');
+                    }
+                });
+            });
+
+        });
+    </script>
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,81 @@
+﻿.resourcefeature {}
+
+.resourceset {}
+
+.resourceList {width:100%;}
+
+
+
+.resourcelist dl {
+    padding: 0.5em;
+  }
+ .resourcelist dt {
+    float: left;
+    clear: left;
+    width: 150px;
+    text-align: right;
+    font-weight: bold;
+    margin-right: 2%;
+    margin-bottom:2%;
+    max-width:30%;
+	height:120px;
+	overflow:hidden;
+
+  }
+  
+  .resourcelist dt img 
+  {width:150px;
+   border: 1px solid #ccc;
+   
+  }
+.resourcelist dt::after {
+    content: "";
+  }
+ .resourcelist dd {
+    margin: 0 0 0 160px;
+    padding: 0 0 0.5em 0;
+    max-width:60%;
+
+  }
+
+.recentList,.recentListquad {width:100%;}
+
+.recentList dl {width:30%;float:left;}
+.recentListquad dl {width:22%;float:left;}
+.recentList dl,.recentListquad dl {
+    padding: 0.5em;
+  }
+ .recentList  dt,.recentListquad  dt {
+    text-align: left;
+    font-weight: bold;
+    margin-right: 2%;
+    margin-bottom:2%;
+    height:100px;
+    overflow:hidden;
+    border: 1px solid #ccc;
+
+  }
+  
+  .recentList dt img ,.recentListquad dt img 
+  {width:100%;
+   
+   
+  }
+.recentList   dt::after, .recentListquad   dt::after {
+    content: "";
+  }
+ .recentList  dd, .recentListquad  dd {
+    margin: 2% 0 0 0;
+    padding: 0 0 0.5em 0;
+   
+   
+  }
+  
+  #lightSlider dd
+  {display:block;
+   -webkit-margin-start:0px;
+  }
+  
+  #lightSlider dt img 
+  {max-width:277px;
+  }

@@ -1,0 +1,611 @@
+body {
+    font: 400 15px Lato, sans-serif;
+    line-height: 1.8;
+    color: #818181;
+  }
+  h2 {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #303030;
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
+  h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    color: #303030;
+    font-weight: 400;
+    margin-bottom: 30px;
+  }  
+  .jumbotron {
+    background-color: #78bad0;
+    color: #232423;
+    padding: 100px 25px;
+    font-family: Montserrat, sans-serif;
+    margin-bottom:0;
+    border-bottom:3px solid black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  }
+
+  .one-edge-shadow {
+	-webkit-box-shadow: 0 8px 6px -6px black;
+	   -moz-box-shadow: 0 8px 6px -6px black;
+	        box-shadow: 0 8px 6px -6px black;
+}
+
+  #translatearea{
+    text-align:right;
+  }
+  .container-fluid {
+    padding: 60px 50px;
+  }
+  .bg-grey {
+    background-color: #f6f6f6;
+  }
+  .logo-small {
+    color: #f4511e;
+    font-size: 50px;
+  }
+  .logo {
+    color: #f4511e;
+    font-size: 200px;
+  }
+  .thumbnail {
+    padding: 0 0 15px 0;
+    border: none;
+    border-radius: 0;
+  }
+  .thumbnail img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+  }
+  .carousel-control.right, .carousel-control.left {
+    background-image: none;
+    color: #f4511e;
+  }
+  .carousel-indicators li {
+    border-color: #f4511e;
+  }
+  .carousel-indicators li.active {
+    background-color: #f4511e;
+  }
+  .item h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    font-weight: 400;
+    font-style: italic;
+    margin: 70px 0;
+  }
+  .item span {
+    font-style: normal;
+  }
+  .panel {
+    border: 1px solid #f4511e; 
+    border-radius:0 !important;
+    transition: box-shadow 0.5s;
+  }
+  .panel:hover {
+    box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+  }
+  .panel-footer .btn:hover {
+    border: 1px solid #f4511e;
+    background-color: #fff !important;
+    color: white;
+  }
+  .panel-heading {
+    color: #fff !important;
+    background-color: #f4511e !important;
+    padding: 25px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+  .panel-footer {
+    background-color: white !important;
+  }
+  .panel-footer h3 {
+    font-size: 32px;
+  }
+  .panel-footer h4 {
+    color: #aaa;
+    font-size: 14px;
+  }
+  .panel-footer .btn {
+    margin: 15px 0;
+    background-color: #f4511e;
+    color: #fff;
+  }
+  .navbar {
+    margin-bottom: 0;
+    background-color: #3092c0;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+    font-family: Montserrat, sans-serif;
+  }
+  .navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+  }
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #fff !important;
+    background-color: #2980b9!important;
+  }
+  .navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+  }
+  video {
+    filter: blur(15px);
+    position: absolute;
+    top: -120px;
+    left: 0;
+    width: 100%;
+    height: auto;
+  }
+  footer .glyphicon {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: white;
+  }
+
+  #gmcpromo{
+    background:url(../img/gmcback.gif)no-repeat left center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    max-height:60px;
+    padding-top:0;
+    padding-bottom:0;
+    text-align:left;
+    font-size:2em;
+    color:#232323;
+    text-decoration: none;
+  }
+  #gmcpromo:hover{
+    text-decoration: none;
+  }
+.gmcpromolink{
+  text-decoration: none;
+}
+.gmcpromolink:hover{
+  text-decoration: none;
+}
+
+.youtubecard {
+  width: 100%;
+  height:200px;
+  background: url("../img/ytdefault.png") no-repeat;
+  background-size: contain;
+  display: inline-block;
+}
+.youtubecard:hover {
+  background: url("../img/ythover.png") no-repeat;
+  background-size: contain;
+}
+  #gmcpromo img{
+    width:200px;
+    padding-top:5px;
+    padding-bottom:5px;
+ float:left;
+ margin-right:40px;
+  }
+
+
+#gmcpromo span {display:none}
+#gmcpromo:hover span{display:inline;}
+
+  .slideanim {visibility:hidden;}
+  .slide {
+    animation-name: slide;
+    -webkit-animation-name: slide;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    visibility: visible;
+  }
+  @keyframes slide {
+    0% {
+      opacity: 0;
+      transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+  @-webkit-keyframes slide {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .col-sm-4 {
+      text-align: center;
+      margin: 25px 0;
+    }
+    .gmcpromotag{
+        display:none;
+    }
+    .btn-lg {
+      width: 100%;
+      margin-bottom: 35px;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    .logo {
+      font-size: 150px;
+    }
+  }
+  p span{
+      font-weight:bold;
+      color:#273c75;
+  }
+  h5{
+      font-size:17px;
+      font-weight:bold;
+      color:#273c75;
+  }
+  .benefitsTable{
+      width:100%;
+      color:black;
+  }
+
+  .benefitsTable div .fas{
+      color:#e67e22;
+      margin:10px;
+  }
+
+  .swal-overlay {
+  background-color: rgba(43, 96, 165, 0.45);
+}
+
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
+    background-color:#337ab7;
+    border:#225683;
+}
+
+.navbar-default .navbar-toggle .icon-bar{
+    background-color: #fcfcfc;
+}
+
+  .mattersSection{
+    background: #4997db; /* Old browsers */
+background: -moz-linear-gradient(top, #4997db 15%, #337ab7 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,#4997db 15%, #337ab7 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #4997db 15%, #337ab7 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4997db', endColorstr='#337ab7',GradientType=0 ); /* IE6-9 */
+color:#efefef;
+  }
+
+  .aboutSection{
+    background: #faedda; /* Old browsers */
+background: -moz-linear-gradient(top, #faedda 15%, #fefefc 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #faedda 15%,#fefefc 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #faedda 15%,#fefefc 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#faedda', endColorstr='#fefefc',GradientType=0 ); /* IE6-9 */
+  }
+
+  .sectorSection{
+    background: #84d5f6; /* Old browsers */
+background: -moz-linear-gradient(top, #84d5f6 14%, #ffffff 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #84d5f6 14%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #84d5f6 14%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#84d5f6', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+  }
+
+  footer{
+      background-image:url("../img/footerbg.png");
+  }
+
+  footer a{
+      color:white;
+    -o-transition:color .6s ease-out, background 1s ease-in;
+  -ms-transition:color .6s ease-out, background 1s ease-in;
+  -moz-transition:color .6s ease-out, background 1s ease-in;
+  -webkit-transition:color .6s ease-out, background 1s ease-in;
+  /* ...and now override with proper CSS property */
+  transition:color .6s ease-out, background 1s ease-in;
+  }
+
+  footer a:hover{
+      color:#aaa;
+  }
+  body{
+      background:#57606f;
+  }
+
+  .smIcons i{
+      margin:10px;
+  }
+
+  .sectorrow{
+    margin-bottom:5px;
+    color:white;
+
+  }
+
+  .sectorrow h5{
+    font-size:2rem;
+    font-weight:bold;
+}
+#theModal{
+top:120px;
+
+}
+
+.featureBox{
+  color: #232323;
+  border-radius:8px;
+  padding: 6px;
+  /*-webkit-box-shadow: 0px 6px 28px 0px rgba(51,51,51,0.2);
+   /*-moz-box-shadow: 0px 6px 28px 0px rgba(51,51,51,0.2);
+   /*box-shadow: 0px 6px 28px 0px rgba(51,51,51,0.2); */
+}
+
+.eventDetails{
+  color:#232323;
+  padding:6px;
+  font-size:smaller;
+  background:#fcfcfc;
+  padding-left:20px;
+}
+
+.featureBox hr{
+  margin-top:8px;
+  margin-bottom:2px;
+  border-color:#242424;
+}
+.sectorlink:hover{
+text-decoration: none;
+}
+.sectorimage{
+    float:left;
+    width:200px;
+    margin-right: 15px;
+}
+
+  @media screen and (max-width: 768px) {
+.sectorimage{
+    width:100%!important;
+}
+.mobihide{
+    display:none;
+}
+  }
+.sectorrow h5{
+    font-size:2rem;
+    font-weight:bold;
+    color:white;
+    text-align:center;
+
+}
+.sectorText{
+    margin:4px;
+    line-height: 130%;
+}
+.oilgas{
+    background-color:#464379;
+}
+
+.coal{
+    background-color:#f15c54;
+}
+
+.biogas{
+    background-color:#2e7e56;
+}
+
+.dashed{
+    border-bottom: 2px dashed white;
+}
+
+.infoemp{
+    color:#262262;
+    font-weight:bold;
+}
+.greybox{
+            background:grey;
+            color:white;
+            text-align:center;
+        }
+        .greybox td{
+            padding:5px;
+        }
+
+        .nodeal td:not(:last-child){
+            border-right:1px dashed white;
+        }
+
+.sourcelabel{
+    padding-left:10px;
+    font-size: 1.8rem;
+    color:black;
+}
+
+.sectorheadingtop{
+    margin-top:0;
+    margin-bottom:10px;
+}
+.sectorheadingbottom{
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.logoimg{
+    max-width:50%;
+
+}
+
+.mlist li {
+  display:inline;
+  margin-right:10px;
+}
+.owl-carousel{
+    background:#3092c0;
+}
+
+.owl-carousel .item{
+    height:150px;
+    background-color:rgba(0,0,0,0.5);
+    text-align:center;
+    color:white;
+}
+
+.alttab{
+    background:#3c6382;
+    color:white;
+
+}
+.alt{
+    background:#2d98da;
+}
+
+.overlay {
+  height: 100%;
+  width: 100%;
+  display: none;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+}
+
+.overlay-content {
+  position: relative;
+  top: 46%;
+  width: 80%;
+  text-align: center;
+  margin-top: 30px;
+  margin: auto;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+  cursor: pointer;
+  color: white;
+}
+
+.overlay .closebtn:hover {
+  color: #ccc;
+}
+
+.overlay input[type=text] {
+  padding: 15px;
+  font-size: 17px;
+  border: none;
+  float: left;
+  width: 80%;
+  background: white;
+}
+
+.overlay input[type=text]:hover {
+  background: #f1f1f1;
+}
+
+.overlay button {
+  float: left;
+  width: 20%;
+  padding: 15px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.overlay button:hover {
+  background: #bbb;
+}
+
+#smalllogo{
+    display:none;
+}
+
+.dropdown-submenu{ position: relative; }
+.dropdown-submenu>.dropdown-menu{
+  top:0;
+  left:100%;
+  margin-top:-6px;
+  margin-left:-1px;
+  -webkit-border-radius:0 6px 6px 6px;
+  -moz-border-radius:0 6px 6px 6px;
+  border-radius:0 6px 6px 6px;
+}
+.dropdown-submenu>a:after{
+  display:block;
+  content:" ";
+  float:right;
+  width:0;
+  height:0;
+  border-color:transparent;
+  border-style:solid;
+  border-width:5px 0 5px 5px;
+  border-left-color:#cccccc;
+  margin-top:5px;margin-right:-10px;
+}
+.dropdown-submenu:hover>a:after{
+  border-left-color:#555;
+}
+.dropdown-submenu.pull-left{ float: none; }
+.dropdown-submenu.pull-left>.dropdown-menu{
+  left: -100%;
+  margin-left: 10px;
+  -webkit-border-radius: 6px 0 6px 6px;
+  -moz-border-radius: 6px 0 6px 6px;
+  border-radius: 6px 0 6px 6px;
+}
+.dropdown-menu{
+    background-color:#57606f;
+}
+
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover{
+ background-color:#353b44;
+ 
+}
+
+.dropdown-menu .wide{
+  width:400px;
+}
+
+.dropdown-menu li a{
+  white-space: normal!important;
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{
+    background:#337ab7;
+}
+
+/*
+@media (min-width: 768px) { 
+}
+@media (min-width: 992px) { 
+}
+@media (min-width: 1200px) { 
+}
+*/
+
+@media all and (-ms-high-contrast: none),
+(-ms-high-contrast: active) {
+  /* IE10+ CSS styles go here */
+  #myVideo {
+    display: none;
+  }
+}

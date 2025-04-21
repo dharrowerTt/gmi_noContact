@@ -1,0 +1,304 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/dd7fc261ae.js"></script>
+
+    <link href="/scripts/yadcf-master/jquery.datatables.yadcf.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css" type="text/css" />
+
+    
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+    <script src="/scripts/yadcf-master/jquery.dataTables.yadcf.js"></script>
+    <script>
+    $(document).ready(function () {
+        $('#list').dataTable().yadcf([
+		{ column_number: 1, column_data_type: "html", html_data_type: "text", filter_default_label: "Select sector" },
+        { column_number: 2, column_data_type: "html", html_data_type: "text", filter_default_label: "Select type" },
+	    { column_number: 3, column_data_type: "html", html_data_type: "text", filter_default_label: "Select country" }
+	    
+	    ]);
+    });
+    </script>
+    <style>
+        body {
+            background: #1695be;
+        }
+
+        .tooltip:hover span {
+            opacity: 1;
+            filter: alpha(opacity=100);
+            top: -6em;
+            left: 20em;
+            z-index: 99;
+            -webkit-transition: all 0.2s ease;
+            -moz-transition: all 0.2s ease;
+            -o-transition: all 0.2s ease;
+            transition: all 0.2s ease;
+        }
+
+        .homearea {
+            position: fixed;
+            bottom: 10px;
+            left: 10px;
+        }
+
+        .homearea:hover {
+            cursor: pointer;
+        }
+
+        .box b {
+            color: #fff;
+        }
+
+        .tooltip span {
+            background: none repeat scroll 0 0 #222;
+            /*-- some basic styling */
+            color: #F0B015;
+            font-family: 'Helvetica';
+            font-size: 0.8em;
+            font-weight: normal;
+            line-height: 1.5em;
+            padding: 16px 15px;
+            width: 240px;
+            top: -4em;
+            /*-- this is the original position of the tooltip when it's hidden */
+            left: 20em;
+            margin-left: 0;
+            /*-- set opacity to 0 otherwise our animations won't work */
+            opacity: 0;
+            filter: alpha(opacity=0);
+            position: absolute;
+            text-align: center;
+            z-index: 2;
+            text-transform: none;
+            -webkit-transition: all 0.3s ease;
+            -moz-transition: all 0.3s ease-in-out;
+            -o-transition: all 0.3s ease;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .tooltip span:after {
+            border-color: #222 rgba(0, 0, 0, 0);
+            border-style: solid;
+            border-width: 15px 15px 0;
+            bottom: -15px;
+            content: "";
+            display: block;
+            left: 31px;
+            position: absolute;
+            width: 0;
+        }
+
+        .nav-tabs>li,
+        .nav-pills>li {
+            float: none;
+            display: inline-block;
+            *display: inline;
+            /* ie7 fix */
+            zoom: 1;
+            /* hasLayout ie7 trigger */
+        }
+
+        .nav-tabs,
+        .nav-pills {
+            text-align: center;
+        }
+
+        h4 {
+            background: #CAEBF2;
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="homearea">
+        <a class="btn btn-danger" href="http://staging.globalmethane.org/challenge/index.aspx#actionmap">
+            <i class="fa fa-arrow-left fa-lg"></i> Back to the map
+        </a>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-0 col-md-2"></div>
+            <div class="col-sm-12 col-md-8" style="background:white;">
+                
+
+
+
+                <h2>List of Global Methane Challenge Submissions</h2>
+                <table id="list">
+                    <thead><tr>
+    <th >Sector</th>
+    <th >Country</th>
+    <th >Project Type</th>
+    <th >Project</th>
+
+</tr></thead>
+                    <tbody>
+                    
+                    <tr>
+                        <td>Oil and Gas</td>
+                        <td>Canada<br />
+                            <img src="images/gallery/canadabanner.jpg" style="width:75px;" /></td>
+                        <td>Subnational Action</td>
+                        <td>
+                            <a href="lidar.html">LiDAR Services International Inc.<br />
+                            Airborne Methane Mapping and Comprehensive Remote Emissions Intelligence, Surveillance and 
+                            Reconnaissance Sensing</a>
+                        </td>
+                       
+                    </tr>
+                    <tr>
+                        <td>Oil and Gas</td>
+                        <td>Canada<br /><img src="images/gallery/canadabanner.jpg" style="width:75px;" /></td>
+                        <td>National Action</td>
+                        <td><a href="canada.html">Regulations Respecting Reduction in the Release of Methane and Certain Volatile Organic Compounds (Upstream Oil and Gas Sector)</a></td>
+
+                    </tr>
+                    <tr>
+                        <td>Biogas </td>
+                        <td>Canada<br /><img src="images/gallery/canadabanner.jpg" style="width:75px;" /></td>
+                        <td>National Action</td>
+                        <td><a href="canada.html">Initiatives to Prevent GHG Emissions through Diversion and Prevention of Organic Waste</a></td>
+
+                    </tr>
+                    <tr>
+                        <td>Biogas </td>
+                        <td>Canada<br /><img src="images/gallery/canadabanner.jpg" style="width:75px;" /></td>
+                        <td>National Action</td>
+                        <td><a href="canada.html"> Landfill Gas Capture and Utilization Feasibility</a></td>
+                    </tr>
+                    <tr>
+                        <td>Multiple</td>
+                        <td>Canada<br /><img src="images/gallery/canadabanner.jpg" style="width:75px;" /></td>
+                        <td>National Action</td>
+                        <td><a href="canada.html"> International Collaboration to Address Methane Emissions</a></td>
+                    </tr>
+                    <tr>
+                        <td>Oil and Gas</td>
+                        <td>Canada<br /><img src="images/gallery/canadabanner.jpg" style="width:75px;" /></td>
+                        <td>National Action</td>
+                        <td>
+                            <a href="canada.html"> Natural Sciences and Engineering Research Council of Canada (NSERC) FlareNet Strategic Network Global Research Initiative to Address Flare Generated Pollutant Emissions from<br>
+                            Unconventional Oil and Gas    Processing</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Biogas </td>
+                        <td>Canada<br /><img src="images/gallery/canadabanner.jpg" style="width:75px;" /></td>
+                        <td>National Action</td>
+                        <td><a href="canada.html"> Research Efforts to Control Greenhouse Gases Emissions from Livestock</a></td>
+                    </tr>
+                    <tr>
+                        <td>Biogas </td>
+                        <td>Canada<br /><img src="images/gallery/canadabanner.jpg" style="width:75px;" /></td>
+                        <td>National Action</td>
+                        <td><a href="canada.html">Agricultural Greenhouse Gases Program</a></td>
+                    </tr>
+                    <tr>
+                        <td>Coal</td>
+                        <td>China<br /><img src="images/gallery/chinabanner.jpg" style="width:75px;" /></td>
+                        <td>National Action</td>
+                        <td><a href="china.html"> China International Centre of Excellence on Coal Mine Methane</a></td>
+                    </tr>
+                    <tr>
+                        <td>Oil and Gas</td>
+                        <td>Colombia <br /><img src="images/gallery/colombiabanner.png" style="width:75px;" /></td>
+                        <td>Subnational Action</td>
+                        <td><a href="colombia.html">Collaborating with Climate and Clean Air Coalition (CCAC) Oil and Gas Methane Partnership (OGMP)</a></td>
+                    </tr>
+                    <tr>
+                        <td>Biogas </td>
+                        <td>India<br /><img src="images/gallery/indiabanner.jpg" style="width:75px;" /></td>
+                        <td>Subnational Action</td>
+                        <td><a href="sourcefacilitybiocity.html">Source Facility and BioCity</a></td>
+                    </tr>
+                    <tr>
+                        <td>Biogas </td>
+                        <td>Kazakhstan<br /><img src="images/gallery/kazakhstan.jpg" style="width:75px;" /></td>
+                        <td>National Action</td>
+                        <td><a href="kazakhstan.html">Kazakhstan Wastewater Biogas Recovery Initiative</a></td>
+
+                    </tr>
+                    <tr>
+                        <td>Biogas </td>
+                        <td>Mexico<br /><img src="images/gallery/mexicobanner.jpg" style="width:75px;" /></td>
+                        <td>National Action</td>
+                        <td><a href="naucalpan.html">Naucalpan de Juárez, Mexico – Improving Waste Management Practices and Reducing Methane Emissions</a></td>
+                    </tr>
+                    <tr>
+                        <td>Oil and Gas</td>
+                        <td>Mexico<br /><img src="images/gallery/mexicobanner.jpg" style="width:75px;" /></td>
+                        <td>National Action</td>
+                        <td ><a href="mexico.html">Final Regulation Guidelines for the Prevention and Integral Control of Methane Emissions from the Hydrocarbon Sector</a></td>
+                    </tr>
+                    <tr>
+                        <td>Biogas </td>
+                        <td>Mexico<img src="images/gallery/mexicobanner.jpg" style="width:75px;" /></td>
+                        <td>National Action</td>
+                        <td><a href="mexico_ww.html"> Mexico Wastewater Biogas Recovery Initiative</a></td>
+                    </tr>
+                    <tr>
+                        <td>Coal</td>
+                        <td>Poland<br /><img src="images/gallery/polandbanner.jpg" style="width:75px;" /></td>
+                        <td>National Action</td>
+                        <td><a href="poland.html">Poland International Centre of Excellence on Coal Mine Methane</a></td>
+                    </tr>
+                    <tr>
+                        <td>Biogas </td>
+                        <td>Serbia<br /><img src="images/gallery/serbiabanner.jpg" style="width:75px;" /></td>
+                        <td>National Action</td>
+                        <td><a href="serbia.html">Building Capacity for Organic Waste Management in the Republic of Serbia</a></td>
+                    </tr>
+                    <tr>
+                        <td>Multiple</td>
+                        <td>USA<br /><img src="images/gallery/usabanner.jpg" style="width:75px;" /></td>
+                        <td>National Action</td>
+                        <td><a href="usa.html">Domestic Methane Partnership Programs</a></td>
+
+                    </tr>
+                    </body>
+
+
+                </table>
+
+
+            </div>
+
+        </div>
+        <div class="col-sm-0 col-md-2"></div>
+    </div>
+    </div>
+    <script>
+        $(document).ready(function () {
+            $('[data-toggle="popover"]').popover({
+                container: '.container'
+            });
+
+            $('body').on('click', function (e) {
+                $('[data-toggle=popover]').each(function () {
+                    // hide any open popovers when the anywhere else in the body is clicked
+                    if (!$(this).is(e.target) && $(this).has(e.target).length === 0 && $(
+                            '.popover').has(e.target).length === 0) {
+                        $(this).popover('hide');
+                    }
+                });
+            });
+
+        });
+    </script>
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+</body>
+
+</html>

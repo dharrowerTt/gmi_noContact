@@ -1,0 +1,279 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/dd7fc261ae.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <script>
+		(function (w, d, s, l, i) {
+			w[l] = w[l] || [];
+			w[l].push({
+				'gtm.start': new Date().getTime(),
+				event: 'gtm.js'
+			});
+			var f = d.getElementsByTagName(s)[0],
+				j = d.createElement(s),
+				dl = l != 'dataLayer' ? '&l=' + l : '';
+			j.async = true;
+			j.src =
+				'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+			f.parentNode.insertBefore(j, f);
+		})(window, document, 'script', 'dataLayer', 'GTM-WM2LZW5');
+	</script>
+    <style>
+        body {
+            background: #1695be;
+        }
+
+        .tooltip:hover span {
+            opacity: 1;
+            filter: alpha(opacity=100);
+            top: -6em;
+            left: 20em;
+            z-index: 99;
+            -webkit-transition: all 0.2s ease;
+            -moz-transition: all 0.2s ease;
+            -o-transition: all 0.2s ease;
+            transition: all 0.2s ease;
+        }
+
+        .homearea {
+            position: fixed;
+            bottom: 10px;
+            left: 10px;
+        }
+
+        .homearea:hover {
+            cursor: pointer;
+        }
+
+        .box b {
+            color: #fff;
+        }
+
+        .tooltip span {
+            background: none repeat scroll 0 0 #222;
+            /*-- some basic styling */
+            color: #F0B015;
+            font-family: 'Helvetica';
+            font-size: 0.8em;
+            font-weight: normal;
+            line-height: 1.5em;
+            padding: 16px 15px;
+            width: 240px;
+            top: -4em;
+            /*-- this is the original position of the tooltip when it's hidden */
+            left: 20em;
+            margin-left: 0;
+            /*-- set opacity to 0 otherwise our animations won't work */
+            opacity: 0;
+            filter: alpha(opacity=0);
+            position: absolute;
+            text-align: center;
+            z-index: 2;
+            text-transform: none;
+            -webkit-transition: all 0.3s ease;
+            -moz-transition: all 0.3s ease-in-out;
+            -o-transition: all 0.3s ease;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .tooltip span:after {
+            border-color: #222 rgba(0, 0, 0, 0);
+            border-style: solid;
+            border-width: 15px 15px 0;
+            bottom: -15px;
+            content: "";
+            display: block;
+            left: 31px;
+            position: absolute;
+            width: 0;
+        }
+
+        .callout {
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-top: 1px;
+            background: #f3d5b3;
+            border-radius: 10px;
+            float: right;
+            width: 50%;
+            margin-left:15px;
+        }
+
+        .callout h3 {
+            color: #4E83B5;
+        }
+
+        .imgtbl {
+            width: 100%;
+            background: #CAEBF2;
+            margin-bottom: 15px;
+        }
+
+        .imgtbl img {
+            padding: 10px;
+            width: 100%;
+        }
+
+        .subtitle td {
+            font-size: 10px;
+            text-align: center;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="homearea">
+        <a class="btn btn-danger" href="showcase.html">
+            <i class="fa fa-arrow-left fa-lg"></i> View showcase
+        </a>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-0 col-md-2"></div>
+            <div class="col-sm-12 col-md-8" style="background:white;">
+                <img src="images/gallery/naucalpanbanner.jpg" style="width:100%" />
+                <h2>
+                    Naucalpan de Juárez, Mexico – Improving Waste Management Practices and Reducing Methane Emissions &nbsp;
+                    <a class="btn btn-primary" href="pdf/naucalpan.pdf"
+                        aria-label="Download the PDF">
+                        <i class="fa fa-download" aria-hidden="true"></i>
+                    </a>
+                </h2>
+                <p>
+
+                    In 2016, Naucalpan de Juárez, Mexico joined the Climate and Clean Air Coalition Municipal Solid Waste
+                    Initiative (Waste Initiative) to obtain assistance in improving its waste management practices.
+                    Through this partnership, the city received assistance analysing the environmental benefits of a
+                    planned mechanical and biological waste treatment facility using the Waste Initiative’s Solid Waste
+                    Emissions Estimation Tool (SWEET). This analysis suggests that the project will significantly
+                    reduce short-lived climate pollutant emissions, including methane emissions, over the coming years.
+                </p>
+                <h3>Background</h3>
+                <p>
+                    Naucalpan faces many waste management challenges, including limited organic waste diversion and
+                    high waste transportation and disposal costs. To help address these challenges, the city is
+                    planning to construct a mechanical and biological waste treatment facility that will include an
+                    anaerobic digester. The digester will convert organic waste into biogas to generate electricity and
+                    feed into the power grid. </p>
+                <h3>A Collaborative Effort</h3>
+                <p>
+                    In 2016, Naucalpan earned a grant from Mexico’s National Bank for Public Works and Services
+                    (BANOBRAS) to cover up to 50% of the project’s costs (≈$50 million USD), including capital costs
+                    and costs for conducting technical analyses and studies. The remaining capital costs will be
+                    financed through a public-private partnership.</p>
+                <p>Naucalpan partnered with several additional entities to complete technical analyses and design the
+                    project, including:</p>
+                <ul>
+                    <li>U.S. Environmental Protection Agency (EPA). Under the auspices of the Waste Initiative and the
+                        Global Methane Initiative, EPA assisted Naucalpan to conduct three separate assessments: 1) a
+                        pre-feasibility study of the proposed project, 2) an analysis of the city’s waste stream
+                        characteristics, and 3) an analysis of the potential emissions reduction benefits of the
+                        proposed
+                        project.</li>
+                    <li>German Federal Enterprise for International Cooperation (GIZ). GIZ provided technical and
+                        capacity building assistance to Naucalpan under its Energetic Utilization of Urban Waste and
+                        Financing Energy for Low Carbon Investment – Cities Advisory Facility (FELICITY) projects. GIZ
+                        worked with the National Autonomous University of Mexico (UNAM) to assess the potential energy
+                        value of Naucalpan’s organic waste stream.</li>
+                    <li>German Reconstruction Credit Institute (KfW). KfW facilitated a tour for delegates from
+                        Naucalpan
+                        to observe anaerobic digesters in Germany and the UK, and provided funding for project designs
+                        that
+                        were developed by private firms from the German state of Macklenbourg-Vorpommen.</li>
+                </ul>
+                </p>
+                <h3>Emissions Reduction Benefits</h3>
+                <p>
+                    Naucalpan received support from the EPA and the Waste Initiative analysing potential methane
+                    emissions reduction benefits from the anaerobic digester in its planned project using the SWEET
+                    tool (see the box below). The analysis indicates the project could substantially reduce the city’s
+                    methane emissions. At the same time, the project could generate a considerable amount of
+                    electricity and extend the lifetime of the municipal landfill by diverting organic waste. </p>
+                    <div style="background:rgba(200,200,200,0.4);padding:10px; color:#0a6888;">
+                    <ul style="list-style-type: none;">
+                        <li style="margin:5px;"><i class="fas fa-2x fa-apple-alt"></i> <strong>110,000 - 146,000 metrics tons</strong> of organic waste diverted from the landfill each year.</li>
+                        <li style="margin:5px;"><i class="fas fa-2x fa-wind"></i> <strong>1.16 - 1.54 MMTCO<sub>2</sub>e</strong> in avoided landfill methane emissions over 20 years.</li>
+                        <li style="margin:5px;"><i class="fas fa-2x fa-bolt"></i> <strong>14,000 - 19,000 MWh</strong> in electricity generated each year.</li>
+                    </ul>
+                    </div>
+                <hr>
+                <div style="background:rgba(151, 132, 238, 0.513);width:100%;padding:10px;"><b><u>SWEET is a free Excel
+                            tool created by the Waste Initiative.</u></b> SWEET helps users scope emissions sources
+                    such as waste collection and
+                    transportation, open burning, landfill gas collection systems, organic waste management projects,
+                    waste handling equipment (e.g., bulldozers), and waste incineration facilities. It estimates waste
+                    sector emissions including methane, black carbon, and several other pollutants. It also evaluates
+                    emissions reduction benefits of multiple alternative waste management scenarios.<br>
+                    <a href="http://www.waste.ccacoalition.org/document/solid-waste-emissions-estimation-tool-sweet-version-20"
+                        class="btn btn-primary" role="button" aria-disabled="true">SWEET Tool</a></div>
+                <hr>
+                <h3>Next Steps</h3>
+                <div class="callout">
+                    <h3>Project Collaborators</h3>
+                    <ul>
+                        <li>BANOBRAS</li>
+                        <li>City of Naucalpan</li>
+                        <li>Climate and Clean Air Coalition Waste Initiative</li>
+                        <li>EPA </li>
+                        <li>GIZ </li>
+                        <li>Global Methane Initiative</li>
+                        <li>KfW</li>
+                        <li>Mexico’s Secretary of Environment and Natural Resources</li>
+                        <li>Mexico’s Secretary of Energy</li>
+                        <li>UNAM</li>
+                    </ul>
+                </div>
+                <p>Naucalpan is in the process of obtaining approval for the proposed project by state and national
+                    government agencies, and expects to begin construction in late 2019. In the meantime, the city is
+                    exploring opportunities for improving the quality of the organic waste feedstock that will go to
+                    the anaerobic digester (e.g., by implementing source separation practices). Naucalpan would be the
+                    first city in Mexico to develop a project of this kind. As a result, private firms might perceive
+                    the project as a risky investment. Therefore, the city is evaluating alternative financing options
+                    to combine with the BANOBRAS grant and the public private partnership contract, such as
+                    low-interest loans from the Development Bank of Latin America (CAF) or the World Bank. This blended
+                    approach will help reduce the risks associated with the project. </p>
+                <br>
+
+                <hr>
+                <a href="pdf/naucalpan.pdf" class="btn btn-primary btn-block">Download The PDF</a>
+                <hr>
+            </div>
+            <div class="col-sm-0 col-md-2"></div>
+        </div>
+    </div>
+    <script>
+        $(document).ready(function () {
+            $('[data-toggle="popover"]').popover({
+                container: '.container'
+            });
+
+            $('body').on('click', function (e) {
+                $('[data-toggle=popover]').each(function () {
+                    // hide any open popovers when the anywhere else in the body is clicked
+                    if (!$(this).is(e.target) && $(this).has(e.target).length === 0 && $(
+                            '.popover').has(e.target).length === 0) {
+                        $(this).popover('hide');
+                    }
+                });
+            });
+
+        });
+    </script>
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/dd7fc261ae.js"></script>
+    <style>
+        .aligncenter {
+            text-align: center;
+        }
+
+        body {
+            background: #1695be;
+        }
+
+        .tooltip:hover span {
+            opacity: 1;
+            filter: alpha(opacity=100);
+            top: -6em;
+            left: 20em;
+            z-index: 99;
+            -webkit-transition: all 0.2s ease;
+            -moz-transition: all 0.2s ease;
+            -o-transition: all 0.2s ease;
+            transition: all 0.2s ease;
+        }
+
+        .homearea {
+            position: fixed;
+            bottom: 10px;
+            left: 10px;
+        }
+
+        .homearea:hover {
+            cursor: pointer;
+        }
+
+        .box b {
+            color: #fff;
+        }
+
+        .tooltip span {
+            background: none repeat scroll 0 0 #222;
+            /*-- some basic styling */
+            color: #F0B015;
+            font-family: 'Helvetica';
+            font-size: 0.8em;
+            font-weight: normal;
+            line-height: 1.5em;
+            padding: 16px 15px;
+            width: 240px;
+            top: -4em;
+            /*-- this is the original position of the tooltip when it's hidden */
+            left: 20em;
+            margin-left: 0;
+            /*-- set opacity to 0 otherwise our animations won't work */
+            opacity: 0;
+            filter: alpha(opacity=0);
+            position: absolute;
+            text-align: center;
+            z-index: 2;
+            text-transform: none;
+            -webkit-transition: all 0.3s ease;
+            -moz-transition: all 0.3s ease-in-out;
+            -o-transition: all 0.3s ease;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .tooltip span:after {
+            border-color: #222 rgba(0, 0, 0, 0);
+            border-style: solid;
+            border-width: 15px 15px 0;
+            bottom: -15px;
+            content: "";
+            display: block;
+            left: 31px;
+            position: absolute;
+            width: 0;
+        }
+
+        .callout {
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-top: 10px;
+            background: #f3d5b3;
+            border-radius: 4px;
+
+            width: 100%;
+            margin-bottom: 15px;
+
+        }
+
+
+        .imgtbl {
+            width: 100%;
+            background: #CAEBF2;
+            margin-bottom: 15px;
+        }
+
+        .imgtbl img {
+            padding: 10px;
+            width: 100%;
+        }
+
+        .subtitle td {
+            font-size: 10px;
+            text-align: center;
+
+        }
+
+        table {
+            margin-top: 15px;
+            width: 100%;
+            border-collapse: collapse;
+            text-align: left;
+            overflow: hidden;
+            margin-bottom: 15px;
+        }
+
+        td,
+        th {
+            border-top: 1px solid #ECF0F1;
+            padding: 10px;
+        }
+
+        td {
+
+            border-right: 1px solid #ECF0F1;
+        }
+
+        th {
+            background-color: #4ECDC4;
+        }
+
+        tr:nth-of-type(even) td {
+            background-color: #ecf0f1;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="homearea">
+        <a class="btn btn-danger" href="showcase.html">
+            <i class="fa fa-arrow-left fa-lg"></i> Back to the map
+        </a>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-0 col-md-2"></div>
+            <div class="col-sm-12 col-md-8" style="background:white;">
+                <img src="images/cciipilot/cciipilotbanner.png" style="width:100%" />
+                <h2>
+                    China Coal Information Institute: AMM Development Pilot Project in the Shenbei Coalfield &nbsp;
+                    <!--<a class="btn btn-primary" href="pdf/SourceFacility_Biocity_Profile.pdf"
+                        aria-label="Download the PDF">
+                        <i class="fa fa-download" aria-hidden="true"></i>
+                    </a>-->
+                </h2>
+                <p class="aligncenter">
+                    <img src="images/cciipilot/ammpilot.jpg" style="width:100%;" />
+                </p>
+                <p>
+                    The China Coal Information Institute (CCII) and the Liaoning Hongyang Coalbed Methane Clean Energy
+                    Development Company, Ltd. are implementing an abandoned mine methane (AMM) development pilot project
+                    at the Shenbei Coalfield in the Liaoning Province.
+                </p>
+                <h3>Assessing Results from the Pilot Project</h3>
+                <p>The AMM pilot project consists of two abandoned coal mines at the Shenbei Coalfield in the Shenyang
+                    Mining Area that were separately closed in 2003 and in 2016. The pilot project contains 106 million
+                    tons of remaining coal resources and a large volume of coal mine methane (CMM). The total volume of
+                    gas resources is estimated to be 466 million m<sup>3</sup> based on the mines’ ventilation emissions
+                    and gas drainage volumes when operating.</p>
+                <p>The project’s gas development plan specifies the drilling of 18 wells from the surface to intersect
+                    sealed gob and residual coal pillar (or stratum re-compaction) areas. Five pilot wells were drilled
+                    between 2017-2019. The pilot wells confirmed maximum casing pressure of 0.9 megapascal (MPa) (130 psi or 9 bar).
+                    The test production of one well was completed in 2017, yielding a methane concentration of 91.46%, a
+                    casing pressure of 0.005 MPa during the blowout prevention period, and a production rate of 2300-2700
+                    m<sup>3</sup>/d. The test production of a second well was completed in 2018, yielding a methane
+                    concentration
+                    of 96.74%, a closed casing pressure of 0.9 MPa, a casing pressure of 0.1 MPa during the blowout
+                    prevention period, and a production rate of 2000 m<sup>3</sup>/d. These results indicate that the
+                    abandoned
+                    coal mines of the Shenbei Coalfield have a good sealing property and that the cover coat of
+                    overlying rock on the coal seams is in good condition with strong compactness. </p>
+
+                <h3>Next Steps and Initial Project Results</h3>
+                <p>Based on the results of the pilot project, the CMM in these abandoned coal mines was determined to be
+                    recoverable. The next steps in the project are to complete the drilling of the remaining 13 wells to
+                    bring them into production, followed by expanding the existing gas drainage system. The
+                    drained gas from the mines will be transported through a surface pipeline network to supply multiple 5 MW
+                    gas gensets to produce power and for waste heat utilization. The waste heat produced will be used to
+                    provide hot water for civil and industrial uses in the Shenbei region. </p>
+                <p>The total volume of AMM utilized under this project is expected to reach 64.5 million m<sup>3</sup>, with an
+                    average annual methane emission reduction volume of up to 6.5 million m<sup>3</sup>/year and an
+                    annual carbon dioxide emission reduction of 103.5 thousand tons.</p>
+                <hr>
+                <!--     <a href="pdf/SourceFacility_Biocity_Profile.pdf" class="btn btn-primary btn-block">Download The
+                        PDF</a>
+                    <hr>-->
+            </div>
+            <div class="col-sm-0 col-md-2"></div>
+        </div>
+    </div>
+    <script>
+        $(document).ready(function () {
+            $('[data-toggle="popover"]').popover({
+                container: '.container'
+            });
+
+            $('body').on('click', function (e) {
+                $('[data-toggle=popover]').each(function () {
+                    // hide any open popovers when the anywhere else in the body is clicked
+                    if (!$(this).is(e.target) && $(this).has(e.target).length === 0 && $(
+                            '.popover').has(e.target).length === 0) {
+                        $(this).popover('hide');
+                    }
+                });
+            });
+
+        });
+    </script>
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+</body>
+
+</html>

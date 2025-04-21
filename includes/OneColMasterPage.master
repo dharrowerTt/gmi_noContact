@@ -1,0 +1,45 @@
+﻿<%@ Master Language="VB" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Global Methane Initiative</title>
+    
+    <!-- #include virtual="/includes/header.aspx" -->
+    <form id="Form1" runat="server" action="#">
+    <div id="maincontentarea" class="fullwidth">
+        
+       
+            <asp:ContentPlaceHolder ID="MainContentPlaceholder" runat="server">
+            </asp:ContentPlaceHolder>
+       
+       
+    </div>
+    <!--end maincontentarea div-->
+    
+    </form>
+    <!-- #include virtual="../includes/footer.aspx" -->
+    <script type="text/javascript">
+
+        $("#tabs, #subtabs").tabs();
+
+        // Hover states on the static widgets
+        $("#dialog-link, #icons li").hover(
+	            function () {
+	                $(this).addClass("ui-state-hover");
+	            },
+	            function () {
+	                $(this).removeClass("ui-state-hover");
+	            }
+            );
+
+        $('.open-tab').click(function (event) {
+            var index = $("selector-of-clicked-tab").index();
+            $('#tabs').tabs("option", "active", index);
+        });
+
+            
+    </script>
+
+</body>
+</html>

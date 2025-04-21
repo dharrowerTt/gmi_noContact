@@ -1,0 +1,235 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/dd7fc261ae.js"></script>
+    <style>
+        .aligncenter {
+            text-align: center;
+        }
+
+        body {
+            background: #1695be;
+        }
+
+        .tooltip:hover span {
+            opacity: 1;
+            filter: alpha(opacity=100);
+            top: -6em;
+            left: 20em;
+            z-index: 99;
+            -webkit-transition: all 0.2s ease;
+            -moz-transition: all 0.2s ease;
+            -o-transition: all 0.2s ease;
+            transition: all 0.2s ease;
+        }
+
+        .homearea {
+            position: fixed;
+            bottom: 10px;
+            left: 10px;
+        }
+
+        .homearea:hover {
+            cursor: pointer;
+        }
+
+        .box b {
+            color: #fff;
+        }
+
+        .tooltip span {
+            background: none repeat scroll 0 0 #222;
+            /*-- some basic styling */
+            color: #F0B015;
+            font-family: 'Helvetica';
+            font-size: 0.8em;
+            font-weight: normal;
+            line-height: 1.5em;
+            padding: 16px 15px;
+            width: 240px;
+            top: -4em;
+            /*-- this is the original position of the tooltip when it's hidden */
+            left: 20em;
+            margin-left: 0;
+            /*-- set opacity to 0 otherwise our animations won't work */
+            opacity: 0;
+            filter: alpha(opacity=0);
+            position: absolute;
+            text-align: center;
+            z-index: 2;
+            text-transform: none;
+            -webkit-transition: all 0.3s ease;
+            -moz-transition: all 0.3s ease-in-out;
+            -o-transition: all 0.3s ease;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .tooltip span:after {
+            border-color: #222 rgba(0, 0, 0, 0);
+            border-style: solid;
+            border-width: 15px 15px 0;
+            bottom: -15px;
+            content: "";
+            display: block;
+            left: 31px;
+            position: absolute;
+            width: 0;
+        }
+
+        .callout {
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-top: 10px;
+            background: #f3d5b3;
+            border-radius: 4px;
+
+            width: 100%;
+            margin-bottom: 15px;
+
+        }
+
+
+        .imgtbl {
+            width: 100%;
+
+            margin-bottom: 15px;
+        }
+
+        .imgtbl img {
+            padding: 10px;
+            width: 100%;
+        }
+
+        .subtitle td {
+            font-size: 10px;
+            text-align: center;
+
+        }
+
+        table {
+            margin-top: 15px;
+            width: 100%;
+            border-collapse: collapse;
+            text-align: left;
+            overflow: hidden;
+            margin-bottom: 15px;
+        }
+
+        td,
+        th {
+            border-top: 1px solid #ECF0F1;
+            padding: 5px;
+        }
+
+        td {
+
+            border-right: 1px;
+        }
+
+
+        tr:nth-of-type(even) td {
+            background-color: #ecf0f1;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="homearea">
+        <a class="btn btn-danger" href="showcase.html">
+            <i class="fa fa-arrow-left fa-lg"></i> Back to the map
+        </a>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-0 col-md-2"></div>
+            <div class="col-sm-12 col-md-8" style="background:white;">
+                <img src="images/bioshakti/bioshaktibanner.png" style="width:100%" />
+                <h2>
+                    BioShakti and Renergon: Implementing Dry Anaerobic Digestion Technology to Reduce Methane
+                    Emissions&nbsp;
+                    <!--<a class="btn btn-primary" href="pdf/SourceFacility_Biocity_Profile.pdf"
+                        aria-label="Download the PDF">
+                        <i class="fa fa-download" aria-hidden="true"></i>
+                    </a>-->
+                </h2>
+                <p>
+                    Using funding from a Renewable Energy & Promotion in International Cooperation (REPIC) grant awarded
+                    by the Swiss federal government, BioShakti (India) is collaborating with <a
+                        href="https://www.renergon-biogas.com/en/" target="_blank">Renergon</a> (Switzerland) to
+                    introduce the use of dry anaerobic digestion in the city of Patiala in Punjab, India.
+                </p>
+                <p>Over the past decade, the highest rate of rice straw burning in India has occurred in the state of
+                    Punjab, leading to significant atmospheric releases of methane and other greenhouse gasses. The
+                    substantial quantity of rice straw that is available in Punjab, along with its extensive dairy
+                    industry, make it an excellent candidate for implementing dry anaerobic digestion technology to
+                    reduce methane emissions. </p>
+
+                <h3>Developing a Solid Waste Fermentation Plant to Produce CNG and Marketable Composts</h3>
+                <p>Development is underway on a <a href="http://www.repic.ch/index.php?cID=744" target="_blank">solid
+                        waste fermentation plant</a> near the city of Patiala in southeastern Punjab that will co-treat
+                    cattle manure and rice straw. Renergon’s solid waste fermentation system (dry digestion in fermenter
+                    boxes) does not require the use of a mixable and pumpable substrate liquid blend, which greatly
+                    minimizes the need for water when organic waste is utilized. Including rice straw in the
+                    fermentation system eliminates the burning of straw in the fields and ensures a huge improvement in
+                    air quality. The biogas produced from the system will be processed and treated into compressed
+                    natural gas (bio-CNG) and stored in gas cylinders. Additionally, a multi-nutrient and humus
+                    fertilizer will be produced as marketable composts.
+                </p>
+                <div style="text-align: center;">
+                    <img src="images/bioshakti/plant1.jpg" style="width:60%;margin: 10px;" />
+                    <img src="images/bioshakti/plant2.jpg" style="width:60%;margin: 10px;" />
+                    <img src="images/bioshakti/plant3.jpg" style="width:60%;margin: 10px;" />
+                </div>
+                <p>
+                    A <a href="images/bioshakti/Timeline.pdf" download>
+                        timeline</a> for the development of the solid waste fermentation plant indicates that commercial
+                    production will begin in early 2021.
+                </p>
+                <p>
+                    Anticipated emission reductions from implementing the dry anaerobic digestion technology include
+                    approximately 792 tons per year of CO<sub>2</sub>e reduced by eliminating the burning of crop residue and
+                    manure management activities, and 2,700 tons per year of CO<sub>2</sub>e reduced by replacing the use of fossil
+                    fuels with the produced bio-CNG.
+                </p>
+                <hr>
+                <!--     <a href="pdf/SourceFacility_Biocity_Profile.pdf" class="btn btn-primary btn-block">Download The
+                        PDF</a>
+                    <hr>-->
+            </div>
+            <div class="col-sm-0 col-md-2"></div>
+        </div>
+    </div>
+    <script>
+        $(document).ready(function () {
+            $('[data-toggle="popover"]').popover({
+                container: '.container'
+            });
+
+            $('body').on('click', function (e) {
+                $('[data-toggle=popover]').each(function () {
+                    // hide any open popovers when the anywhere else in the body is clicked
+                    if (!$(this).is(e.target) && $(this).has(e.target).length === 0 && $(
+                            '.popover').has(e.target).length === 0) {
+                        $(this).popover('hide');
+                    }
+                });
+            });
+
+        });
+    </script>
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+</body>
+
+</html>

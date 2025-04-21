@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/dd7fc261ae.js"></script>
+    <style>
+        .aligncenter {
+            text-align: center;
+        }
+
+        body {
+            background: #1695be;
+        }
+
+        .tooltip:hover span {
+            opacity: 1;
+            filter: alpha(opacity=100);
+            top: -6em;
+            left: 20em;
+            z-index: 99;
+            -webkit-transition: all 0.2s ease;
+            -moz-transition: all 0.2s ease;
+            -o-transition: all 0.2s ease;
+            transition: all 0.2s ease;
+        }
+
+        .homearea {
+            position: fixed;
+            bottom: 10px;
+            left: 10px;
+        }
+
+        .homearea:hover {
+            cursor: pointer;
+        }
+
+        .box b {
+            color: #fff;
+        }
+
+        .tooltip span {
+            background: none repeat scroll 0 0 #222;
+            /*-- some basic styling */
+            color: #F0B015;
+            font-family: 'Helvetica';
+            font-size: 0.8em;
+            font-weight: normal;
+            line-height: 1.5em;
+            padding: 16px 15px;
+            width: 240px;
+            top: -4em;
+            /*-- this is the original position of the tooltip when it's hidden */
+            left: 20em;
+            margin-left: 0;
+            /*-- set opacity to 0 otherwise our animations won't work */
+            opacity: 0;
+            filter: alpha(opacity=0);
+            position: absolute;
+            text-align: center;
+            z-index: 2;
+            text-transform: none;
+            -webkit-transition: all 0.3s ease;
+            -moz-transition: all 0.3s ease-in-out;
+            -o-transition: all 0.3s ease;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .tooltip span:after {
+            border-color: #222 rgba(0, 0, 0, 0);
+            border-style: solid;
+            border-width: 15px 15px 0;
+            bottom: -15px;
+            content: "";
+            display: block;
+            left: 31px;
+            position: absolute;
+            width: 0;
+        }
+
+        .callout {
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-top: 10px;
+            background: #f3d5b3;
+            border-radius: 4px;
+
+            width: 100%;
+            margin-bottom: 15px;
+
+        }
+
+
+        .imgtbl {
+            width: 100%;
+            background: #CAEBF2;
+            margin-bottom: 15px;
+        }
+
+        .imgtbl img {
+            padding: 10px;
+            width: 100%;
+        }
+
+        .subtitle td {
+            font-size: 10px;
+            text-align: center;
+
+        }
+
+        table {
+            margin-top: 15px;
+            width: 100%;
+            border-collapse: collapse;
+            text-align: left;
+            overflow: hidden;
+            margin-bottom: 15px;
+        }
+
+        td,
+        th {
+            border-top: 1px solid #ECF0F1;
+            padding: 10px;
+        }
+
+        td {
+
+            border-right: 1px solid #ECF0F1;
+        }
+
+        th {
+            background-color: #4ECDC4;
+        }
+
+        tr:nth-of-type(even) td {
+            background-color: #ecf0f1;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="homearea">
+        <a class="btn btn-danger" href="http://staging.globalmethane.org/challenge/index.aspx#actionmap">
+            <i class="fa fa-arrow-left fa-lg"></i> Back to the map
+        </a>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-0 col-md-2"></div>
+            <div class="col-sm-12 col-md-8" style="background:white;">
+                <img src="images/mootral/swissflag.png" style="width:100%" />
+                <h2>
+                    Mootral Ruminant Feed Supplement&nbsp;
+                    <!--<a class="btn btn-primary" href="pdf/SourceFacility_Biocity_Profile.pdf"
+                        aria-label="Download the PDF">
+                        <i class="fa fa-download" aria-hidden="true"></i>
+                    </a>-->
+                </h2>
+                <p><img src="images/mootral/logo.png"
+                        style="float:right;width:25%;padding-left:7px; margin-left:10px;">
+                    <a href="https://www.mootral.com/" target="_blank">MOOTRAL</a>,
+                    a Swiss AgriTech company that develops innovative carbon reduction solutions for companies and
+                    governments, has developed a natural feed supplement that significantly reduces methane emissions
+                    from cud-chewing animals (ruminants) such as cattle. The supplement is called Mootral Ruminant (or
+                    Mootral).
+                </p>
+
+                <h3>
+                    How Mootral Works&nbsp;
+                    <!--<a class="btn btn-primary" href="pdf/SourceFacility_Biocity_Profile.pdf"
+                            aria-label="Download the PDF">
+                            <i class="fa fa-download" aria-hidden="true"></i>
+                        </a>-->
+                </h3>
+
+                <p>Mootral is made up of two natural ingredients: garlic powder and citrus extracts. Garlic compounds
+                    have shown consistent methane reduction capacity through in-vitro, in-vivo, and ex-vivo research
+                    methods. Citrus extracts improve fermentation within the rumen, the first compartment in the stomachs
+                    of ruminants. The supplement can be easily integrated into the feed chain depending on the
+                    needs of different farming systems.
+                    <div style=margin:15px;>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/FMxzUZxmMN8" frameborder="0"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                </p>
+
+                <h3>
+                    Reducing a Ton of CO<sub>2</sub>e One Cow at a Time&nbsp;
+                    <!--<a class="btn btn-primary" href="pdf/SourceFacility_Biocity_Profile.pdf"
+                            aria-label="Download the PDF">
+                            <i class="fa fa-download" aria-hidden="true"></i>
+                        </a>-->
+                </h3>
+
+                <p>Cows are the largest source of methane emissions in the world. A cow naturally produces around 500
+                    liters of methane a day, which equates on average to 3-4 tons of CO<sub>2</sub>e per year. This
+                    measurement is
+                    based on a global warming potential of 28, which means one ton of methane has 28 times as much
+                    warming potential as one ton of CO<sub>2</sub> over 100 years.
+                </p>
+                <p> MOOTRAL has conducted extensive research to validate the efficacy of the supplement.
+                    <a href="https://s3.amazonaws.com/mootralnew/documents/Mootral_Validation_Letter_2019_Final.pdf"
+                        target="_blank">Research</a> conducted by an external organization confirmed that adding Mootral
+                    to a cow’s diet can lead to a decrease in dairy cattle enteric methane production by more than 30
+                    percent. Typically, one cow on the supplement yields one ton of CO<sub>2</sub>e reduction.
+                </p>
+                <p> Click <a href="https://www.mootral.com/science/"
+                target="_blank">here</a> to learn more about the experimental results of the supplement.
+                </p>
+               
+                <h3>
+                    Publication in Translational Animal Science&nbsp;
+                    <!--<a class="btn btn-primary" href="pdf/SourceFacility_Biocity_Profile.pdf"
+                            aria-label="Download the PDF">
+                            <i class="fa fa-download" aria-hidden="true"></i>
+                        </a>-->
+                </h3>
+                <p>
+                    <div style=text-align:center;width:40%>
+                        <a href="https://academic.oup.com/tas/article/3/4/1383/5550562"
+                            target="_blank"><img src="images/mootral/paper.png"
+                                style="width:100%;padding-right:10px;padding-left:10px;padding-bottom:10px;margin:5px;">
+                        </a>
+                        <br> Click
+                        <a href="https://academic.oup.com/tas/article/3/4/1383/5550562"
+                            target="_blank">here</a> to read the report. </div>
+                </p>
+                <p style="margin-top: 25px;">
+                    <table>
+                        <tr>
+                            <p class="aligncenter">
+                                <img src="images/mootral/cow.png" style="width:40%;margin-top: 10px;">
+
+                        </tr>
+                        <tr>
+                            <td class="aligncenter" colspan="1"> <b>Figure 1.</b> MOOTRAL CEO, Thomas Hafner, visiting
+                                Brades Farm.</td>
+                        </tr>
+                    </table>
+
+                </p>
+
+
+
+
+
+
+
+
+                <hr>
+                <!--     <a href="pdf/SourceFacility_Biocity_Profile.pdf" class="btn btn-primary btn-block">Download The
+                        PDF</a>
+                    <hr>-->
+            </div>
+            <div class="col-sm-0 col-md-2"></div>
+        </div>
+    </div>
+    <script>
+        $(document).ready(function () {
+            $('[data-toggle="popover"]').popover({
+                container: '.container'
+            });
+
+            $('body').on('click', function (e) {
+                $('[data-toggle=popover]').each(function () {
+                    // hide any open popovers when the anywhere else in the body is clicked
+                    if (!$(this).is(e.target) && $(this).has(e.target).length === 0 && $(
+                            '.popover').has(e.target).length === 0) {
+                        $(this).popover('hide');
+                    }
+                });
+            });
+
+        });
+    </script>
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,559 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
+    <title>Issue 16, January 2010 | Methane International | Global Methane Initiative</title>
+	<link rel="stylesheet" type="text/css" href="css/local2020.css" />
+    <style>
+        body {
+            background: url("assets/images/paper_fibers.png");
+        }
+
+		
+    </style>
+</head>
+
+<body>
+    <div id="headerContainer">
+    <!-- Navigation -->
+    <nav class="navbar navbar-light bg-light navbar-default">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><img id="smalllogo" style="margin-top: -15px;" src="../img/gmi-top.png"> Global Methane Initiative (GMI)</a>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link in-line" href="#"><i class="fab fa-facebook-f  fa-fw"></i></a>
+                        <a class="nav-link in-line" href="#"><i class="fab fa-twitter  fa-fw"></i></a>
+                        <a class="nav-link in-line" href="#"><i class="fab fa-linkedin  fa-fw"></i></a>
+                        <div id="languageWidget" style="float:right;margin-top:10px;">
+                            <div class="hider">
+                                <div id="google_translate_element"></div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+        </div>
+    </nav>
+    </div>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark navbar-default second-nav" style="background:#3198C8!important;">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar2">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="container">
+            <div class="navbar-collapse collapse justify-content-between" id="navbar2">
+
+ 			<ul class="navbar-nav mr-auto">
+
+				<li class="nav-item dropdown">
+		          <a class="nav-link lighter" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		          About&nbsp;GMI
+		          </a>
+		          <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
+		            <a class="dropdown-item" href="about.html"><img src="../img/gmi.svg" style="width:125px;height:auto;"><br />About GMI</a>
+		            <a class="dropdown-item" href="methane.html">Why Methane?</a>
+					<a class="dropdown-item" href="faq.html">FAQs</a>
+
+					<div class="dropdown-divider"></div>
+					<a class="dropdown-item" href="join-gmi.html"><div class="nav-icon-left"><i class="fa fa-plus-circle  fa-fw"></i></div> Join GMI</a>
+
+					<div class="dropdown-divider"></div>
+		            <a class="dropdown-item" href="steering.html">Steering Committee</a>
+		            <a class="dropdown-item" href="secretariat.html">Secretariat</a>
+					<a class="dropdown-item" href="delegates.html">Current Delegates</a>
+			            <a class="dropdown-item" href="terms.html">Terms of Reference</a>
+					<div class="dropdown-divider"></div>
+					<a class="dropdown-item" href="accomplishments.html">Accomplishments</a>
+		          </div>
+		        </li>
+				
+				<li class="nav-item dropdown">
+		          <a class="nav-link lighter" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		          Events & Activities
+		          </a>
+		          <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+		            <a class="dropdown-item" href="events.html">Events</a>
+		            <a class="dropdown-item" href="recent-communications.html">Recent Communications</a>
+		            <a class="dropdown-item" href="international-collaboration.html">International Collaboration</a>
+		            <div class="dropdown-divider"></div>
+		            <a class="dropdown-item" href="//globalmethane.org/challenge" target="_blank">
+						<img src="../challenge/images/gmclogo.svg" style="max-width:200px;" /><br>Global Methane Challenge</a>
+		            <div class="dropdown-divider"></div>
+		            <a class="dropdown-item" href="sites.html"><img src="../img/sites-map.png" style="max-width:200px;" /><br>Methane Sites & Activities</a>
+		            <div class="dropdown-divider"></div>
+					<a class="dropdown-item bg-dark text-white" href="site-details.html">Sample site details page</a>
+
+				  </div>
+		        </li>
+
+		        <li class="nav-item dropdown">
+		          <a class="nav-link lighter" href="#" id="navbarDropdown3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		          Sectors
+		          </a>
+		          <div class="dropdown-menu" aria-labelledby="navbarDropdown3">
+					<a class="dropdown-item oilgas text-white" href="oilgas.html"><img src="../img/oil-gas.jpg" style="width:50px;height:auto;"> Oil & Gas Sector</a>
+		            <a class="dropdown-item biogas text-white" href="biogas.html"><img src="../img/biogas.jpg" style="width:50px;height:auto;"> Biogas Sector</a>
+					  <a class="dropdown-item biogas text-white" href="agriculture.html" style="padding-left:90px;">Agriculture Technical Group</a>
+					  <a class="dropdown-item biogas text-white" href="msw.html" style="padding-left:90px;">Municipal Solid Waste Technical Group</a>
+					  <a class="dropdown-item biogas text-white" href="ww.html" style="padding-left:90px;">Municipal Wastewater Technical Group</a>
+					<a class="dropdown-item coal text-white" href="coal.html"><img src="../img/coal-mines.jpg" style="width:50px;height:auto;"> Coal Mines Sector</a>
+		          </div>
+		        </li>
+
+		        <li class="nav-item dropdown">
+		          <a class="nav-link lighter" href="#" id="navbarDropdown4" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		          Partner Countries
+		          </a>
+				  <div class="dropdown-menu" aria-labelledby="navbarDropdown4">
+		            <a class="dropdown-item" href="partner-countries.html"><img src="../img/gmi-map-small.png" style="width:170px;height:auto;"></a>
+					<a class="dropdown-item" href="partner-countries.html">Overview of Partners</a>
+		            <div class="dropdown-divider"></div>
+					<a class="dropdown-item bg-dark text-white" href="partner-country-detail.html"><img class="nav-flag" src="../images/flag_us.gif">Sample details page</a>
+		            <div class="dropdown-divider"></div>
+					<a class="dropdown-item" href="../partners/partner.aspx?c=albania"><img class="nav-flag" src="../images/flag_albania.gif">Albania</a>
+                    <a class="dropdown-item" href="../partners/partner.aspx?c=argentina"><img class="nav-flag" src="../images/flag_argentina.gif">Argentina</a>
+                    <a class="dropdown-item" href="../partners/partner.aspx?c=australia"><img class="nav-flag" src="../images/flag_australia.gif">Australia</a>
+                    <a class="dropdown-item" href="../partners/partner.aspx?c=brazil"><img class="nav-flag" src="../images/flag_brazil.gif">Brazil</a>
+                    <a class="dropdown-item" href="../partners/partner.aspx?c=bulgaria"><img class="nav-flag" src="../images/flag_bulgaria.gif">Bulgaria</a>
+                    <a class="dropdown-item" href="../partners/partner.aspx?c=canada"><img class="nav-flag" src="../images/flag_canada.gif">Canada</a>
+                    <a class="dropdown-item" href="../partners/partner.aspx?c=chile"><img class="nav-flag" src="../images/flag_chile.gif">Chile</a>
+                    <a class="dropdown-item" href="../partners/partner.aspx?c=china"><img class="nav-flag" src="../images/flag_china.gif">China</a>
+                    <a class="dropdown-item" href="../partners/partner.aspx?c=colombia"><img class="nav-flag" src="../images/flag_colombia.gif">Colombia</a>
+                    <a class="dropdown-item" href="../partners/partner.aspx?c=cotedivoire"><img class="nav-flag" src="../images/flag_ci.gif">Côte d&apos;Ivoire</a>
+                    <a class="dropdown-item" href="../partners/partner.aspx?c=dom_rep"><img class="nav-flag" src="../images/flag_dr.gif">Dominican Republic</a>
+                    <a class="dropdown-item" href="../partners/partner.aspx?c=ecuador"><img class="nav-flag" src="../images/flag_ecuador.gif">Ecuador</a>
+                    <a class="dropdown-item" href="../partners/partner.aspx?c=ethiopia"><img class="nav-flag" src="../images/flag_ethiopia.gif">Ethiopia</a>
+                    <a class="dropdown-item" href="../partners/partner.aspx?c=finland"><img class="nav-flag" src="../images/flag_finland.gif">Finland</a>
+                    <a class="dropdown-item" href="../partners/partner.aspx?c=georgia"><img class="nav-flag" src="../images/flag_georgia.gif">Georgia</a>
+                    <a class="dropdown-item" href="../partners/partner.aspx?c=germany"><img class="nav-flag" src="../images/flag_germany.gif">Germany</a>
+                    <a class="dropdown-item" href="../partners/partner.aspx?c=ghana"><img class="nav-flag" src="../images/flag_ghana.gif">Ghana</a>
+                    <a class="dropdown-item" href="../partners/partner.aspx?c=india"><img class="nav-flag" src="../images/flag_india.gif">India</a>
+                    <a class="dropdown-item" href="../partners/partner.aspx?c=indonesia"><img class="nav-flag" src="../images/flag_indonesia.gif">Indonesia</a>
+                    <a class="dropdown-item" href="../partners/partner.aspx?c=italy"><img class="nav-flag" src="../images/flag_italy.gif">Italy</a>
+                    <a class="dropdown-item" href="../partners/partner.aspx?c=japan"><img class="nav-flag" src="../images/flag_japan.gif">Japan</a>
+                    <a class="dropdown-item" href="../partners/partner.aspx?c=israel"><img class="nav-flag" src="../images/flag_israel.gif">Israel</a>
+                    <a class="dropdown-item" href="../partners/partner.aspx?c=jordan"><img class="nav-flag" src="../images/flag_jordan.gif">Jordan</a>
+                    <a class="dropdown-item" href="../partners/partner.aspx?c=kazakhstan"><img class="nav-flag" src="../images/flag_kazakhstan.gif">Kazakhstan</a>
+                    <a class="dropdown-item" href="../partners/partner.aspx?c=mexico"><img class="nav-flag" src="../images/flag_mexico.gif">Mexico</a>
+                    <a class="dropdown-item" href="../partners/partner.aspx?c=mongolia"><img class="nav-flag" src="../images/flag_mongolia.gif">Mongolia</a>
+                    <a class="dropdown-item" href="../partners/partner.aspx?c=nicaragua"><img class="nav-flag" src="../images/flag_nicaragua.gif">Nicaragua</a>
+                    <a class="dropdown-item" href="../partners/partner.aspx?c=nigeria"><img class="nav-flag" src="../images/flag_nigeria.gif">Nigeria</a>
+                    <a class="dropdown-item" href="../partners/partner.aspx?c=norway"><img class="nav-flag" src="../images/flag_norway.gif">Norway</a>
+                    <a class="dropdown-item" href="../partners/partner.aspx?c=pakistan"><img class="nav-flag" src="../images/flag_pakistan.gif">Pakistan</a>
+                    <a class="dropdown-item" href="../partners/partner.aspx?c=peru"><img class="nav-flag" src="../images/flag_peru.gif">Peru</a>
+                    <a class="dropdown-item" href="../partners/partner.aspx?c=philippines"><img class="nav-flag" src="../images/flag_philippines.gif">Philippines</a>
+                    <a class="dropdown-item" href="../partners/partner.aspx?c=poland"><img class="nav-flag" src="../images/flag_poland.gif">Poland</a>
+                    <a class="dropdown-item" href="../partners/partner.aspx?c=korea"><img class="nav-flag" src="../images/flag_korea.gif">Republic of Korea</a>
+                    <a class="dropdown-item" href="../partners/partner.aspx?c=serbia"><img class="nav-flag" src="../images/flag_serbia.gif">Republic of Serbia</a>
+                    <a class="dropdown-item" href="../partners/partner.aspx?c=russia"><img class="nav-flag" src="../images/flag_russia.gif">Russia</a>
+                    <a class="dropdown-item" href="../partners/partner.aspx?c=saudiarabia"><img class="nav-flag" src="../images/flag_saudi_arabia.gif">Saudi Arabia</a>
+                    <a class="dropdown-item" href="../partners/partner.aspx?c=srilanka"><img class="nav-flag" src="../images/flag_srilanka.gif">Sri Lanka</a>
+                    <a class="dropdown-item" href="../partners/partner.aspx?c=thailand"><img class="nav-flag" src="../images/flag_thailand.gif">Thailand</a>
+                    <a class="dropdown-item" href="../partners/partner.aspx?c=turkey"><img class="nav-flag" src="../images/flag_turkey.gif">Turkey</a>
+                    <a class="dropdown-item" href="../partners/partner.aspx?c=ukraine"><img class="nav-flag" src="../images/flag_ukraine.gif">Ukraine</a>
+                    <a class="dropdown-item" href="../partners/partner.aspx?c=uk"><img class="nav-flag" src="../images/flag_uk.gif">United Kingdom</a>
+                    <a class="dropdown-item" href="partner-country-detail.html"><img class="nav-flag" src="../images/flag_us.gif">United States</a>
+                    <a class="dropdown-item" href="../partners/partner.aspx?c=vietnam"><img class="nav-flag" src="../images/flag_vietnam.gif">Vietnam</a>
+		          </div>
+				</li>
+
+		        <li class="nav-item dropdown">
+		          <a class="nav-link lighter" href="#" id="navbarDropdown5" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		          Project Network
+		          </a>
+		          <div class="dropdown-menu" aria-labelledby="navbarDropdown5">
+		            <a class="dropdown-item text-center" href="project-network.html"><img src="../images/logos/gmi-pn.svg" style="width:100px;height:auto;"></a>
+					<a class="dropdown-item" href="project-network.html#whyjoin">Why Join?</a>
+		            <a class="dropdown-item" href="project-network.html#members">Project Network Members</a>
+		            <a class="dropdown-item" href="project-network.html#resources">Project Network Resources</a>
+		            <div class="dropdown-divider"></div>
+					<a class="dropdown-item" href="project-network-join.html">Join Now</a>
+		            <div class="dropdown-divider"></div>
+					<a class="dropdown-item bg-dark text-white" href="project-network-details.html">Sample member details page</a>  
+		          </div>
+		        </li>
+
+		        <li class="nav-item dropdown">
+		          <a class="nav-link lighter" href="#" id="navbarDropdown6" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		          Resources
+		          </a>
+		          <div class="dropdown-menu" aria-labelledby="navbarDropdown6">
+		            <a class="dropdown-item" href="resources.html"><div class="nav-icon-left"><i class="fa fa-search fa-fw"></i></div> Search All</a>
+		            <a class="dropdown-item" href="resources.html?type=2"><div class="nav-icon-left"><i class="fa fa-calendar-check fa-fw"></i></div> Meeting Proceedings</a>
+		            <a class="dropdown-item" href="resources.html?type=4"><div class="nav-icon-left"><i class="fa fa-laptop fa-fw"></i></div> Technical Presentations&nbsp;&nbsp;&nbsp;&nbsp;</a>
+		            <a class="dropdown-item" href="resources.html?type=1"><div class="nav-icon-left"><i class="fa fa-info fa-fw"></i></div> Fact Sheets</a>
+		            <a class="dropdown-item" href="resources.html?type=5"><div class="nav-icon-left"><i class="fa fa-tools fa-fw"></i></div> Tools & Models</a>
+		            <a class="dropdown-item" href="resources.html?type=3"><div class="nav-icon-left"><i class="fa fa-file fa-fw"></i></div> Reports & Documents</a>
+		            <a class="dropdown-item" href="resources.html?type=6"><div class="nav-icon-left"><i class="fa fa-film fa-fw"></i></div> Videos</a>
+					<div class="dropdown-divider"></div>
+		            <a class="dropdown-item" href="resources-recommend.html"><div class="nav-icon-left"><i class="fa fa-plus-square fa-fw"></i></div> Recommend</a>
+					<div class="dropdown-divider"></div>
+		            <a class="dropdown-item bg-dark text-white" href="resource-details.html">Sample details page for documents/files</a>
+		            <a class="dropdown-item bg-dark text-white" href="resource-details-video.html">Sample details page for videos</a>
+
+		          </div>
+		        </li>
+
+
+		        <li class="nav-item dropdown">
+		          <a class="nav-link lighter" href="#" id="navbarDropdown7" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		          Participate
+		          </a>
+		          <div class="dropdown-menu" aria-labelledby="navbarDropdown7">
+		            <a class="dropdown-item" href="//globalmethane.org/challenge/submission/index.aspx" target="_blank"><img src="../challenge/images/gmclogo.svg" style="max-width:250px;" /><br>Tell Your Story</a>
+					<div class="dropdown-divider"></div>
+					<a class="dropdown-item" href="join-gmi.html"><div class="nav-icon-left"><i class="fa fa-plus-circle  fa-fw"></i></div> Join GMI</a>
+					<a class="dropdown-item" href="http://eepurl.com/ggwT3T" target="_blank"><div class="nav-icon-left"><i class="fa fa-plus  fa-fw"></i></div> Join mailing list</a>
+		            <a class="dropdown-item" href="contactus.html"><div class="nav-icon-left"><i class="fa fa-envelope  fa-fw"></i></div> Contact us</a>
+		          </div>
+		        </li>
+
+		        <li class="nav-item dropdown">
+		          <a class="nav-link lighter" href="#" id="navbarDropdown8" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		          Archive
+		          </a>
+		          <div class="dropdown-menu" aria-labelledby="navbarDropdown8">
+					<a class="dropdown-item" href="gmf-archive.html">Global Methane Forums/Expos</a>
+					<a class="dropdown-item" href="mi-archive.html">Methane International Blog</a>
+					<a class="dropdown-item" href="oilandgas-archive.html">Oil & Gas Sector Project Tracking</a>
+					<!--<a class="dropdown-item" href="resources-archive.html">Archived Resources</a>-->
+		          </div>
+		        </li>
+			</uL>
+ 			<ul class="navbar-nav">
+
+				<li class="nav-item">
+		          <a class="nav-link lighter" role="button" href="https://www.globalmethane.org/advancedSearch.aspx">
+					  Search <i class="fa fa-search"></i>
+		          </a>
+		        </li>
+
+		      </ul>
+
+            </div>
+        </div>
+    </nav>
+
+	
+	<header>
+
+
+		
+    </header>
+
+    <section class="gmi-light-orange">
+		<div class="container">
+        	<a href="/challenge" target="_blank">
+				<div class="gmcBanner">
+             		<img class="gmclogo" src="/images/header_gmc/gmclogo.svg" />
+            		<div class="tagline">Tell us how you’re reducing methane emissions
+            		</div>
+        		</div>
+			</a>
+		</div>
+	</section>
+    
+	<!-- Page Content -->
+    <section class="py-5 gmi-light-blue">
+        <div class="container">
+                    <h1>
+						Methane International 
+					</h1>
+					<h2><small class="text-muted text">Issue 16, January 2010</small></h2>
+                    <div class="alert alert-danger" role="alert">Please note that this page is no longer being maintained. </div>
+					<ul>
+                        <li><a href="#one">What is the Expo?</a></li>
+                        <li><a href="#two">2010 Methane to Markets Partnership Expo Agenda Now Online</a></li>
+                        <li><a href="#three">Meet Our Hosts</a></li>
+                        <li><a href="#four">India: Methane Project Opportunities in the Making</a></li>
+                        <li><a href="#five">Getting to India</a></li>
+                        <li><a href="#six">Indian Hospitality at Its Finest</a></li>
+					</ul>
+
+		</div>
+	</section>
+	<section class="py-5 bg-white">
+		<div class="container">
+
+        <h2 id="one">
+            What is the Expo?</h2>
+        <p>
+            In 2007, the Methane to Markets Partnership successfully organized the <a href="../expo_china07/index.htm">
+                first Partnership Expo in Beijing, China</a>. More than 750 attendees from 34
+            countries gathered to advance methane recovery and use projects around the world.
+            The Partnership showcased 91 projects from 11 countries across all four Methane
+            to Markets sectors.</p>
+        <p>
+            Building on this achievement, Methane to Markets will be holding a second Partnership
+            Expo in New Delhi, India, from 2 &ndash; 5 March 2010.</p>
+        <p>
+            These dates are approaching quickly, so now is the time to <a href="../expo_india10/exhibit-oppt.htm">
+                get involved</a> and <a href="https://www2.ergweb.com/projects/conferences/methanetomarkets/register-m2mexpo.asp">
+                    register</a> <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative">
+                        <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>.
+            The 2010 Partnership Expo will feature four sector-specific conference tracks, sector-specific
+            site tours, and discussions about the methane marketplace. Participants will have
+            the opportunity to:</p>
+        <ul class="green">
+            <li>Showcase methane mitigation projects and technologies</li>
+            <li>Learn about the latest methane mitigation projects and technologies</li>
+            <li>Meet with potential project partners and financiers</li>
+            <li>Explore key technical, financial, and policy issues</li>
+            <li>Interact with high-level government agencies from 30 countries</li>
+        </ul>
+        <p>
+            We look forward to seeing you in New Delhi!</p>
+        
+        <h2 id="two">
+            2010 Methane to Markets Partnership Expo Agenda Now Online</h2>
+        <p>
+            Now you can preview the Partnership Expo's <a href="../expo_india10/docs/at_a_glance_agenda.pdf">
+                preliminary agenda</a> (PDF, 16 pp, 692 KB), which details the schedule for
+            sector-specific site tours, information sessions, Steering Committee meetings, and
+            roundtable discussions. The first day includes site tours and the Steering Committee
+            meeting. The second day will continue with an opening plenary session on the future
+            of the Methane to Markets Partnership and a keynote address on &quot;The Importance
+            of Methane to Climate Change and Copenhagen Outcomes,&quot; followed by sector-specific
+            sessions. The second day will conclude with a reception sponsored by the <a href="http://www.ongcindia.com/">
+                Oil and Natural Gas Corporation (ONGC)</a> <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative">
+                    <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>
+            of India.</p>
+        <p>
+            On the third day, you can attend continued sector-specific technical and policy
+            breakout sessions. The final day concludes with a plenary session that will provide
+            a wrap-up of Expo highlights and future perspectives from the Steering Committee
+            as well as sector Subcommittee meetings.
+        </p>
+        
+        <h2 id="three">
+            Meet Our Hosts</h2>
+        <img src="/images/mi16_logos.jpg" class="right" alt="EPA Logo" style="margin-left: 10px;" />
+        <p>
+            Methane to Markets is grateful to the Expo's hosts for making this event possible.
+            The hosts include the government of India's <a href="http://coal.nic.in/">Ministry of
+                Coal</a> <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative">
+                    <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>,
+            <a href="http://envfor.nic.in/">Ministry of Environment and Forests</a> <a href="/exitdisclaimer.aspx"
+                title="Exiting Global Methane Initiative">
+                <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>,
+            <a href="http://mnes.nic.in/">Ministry of New and Renewable Energy</a> <a href="/exitdisclaimer.aspx"
+                title="Exiting Global Methane Initiative">
+                <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>,
+            and <a href="http://petroleum.nic.in/">Ministry of Petroleum and Natural Gas</a>
+            <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative">
+                <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>,
+            as well as the <a href="http://www.epa.gov/">U.S. Environmental Protection Agency (EPA)</a>
+            <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative">
+                <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>.
+        </p>
+        <p>
+            In addition, several entities are sponsoring the Expo, including the <a href="http://www.adb.org/">
+                Asian Development Bank</a> <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative">
+                    <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>,
+            <a href="http://www.iea.org/">International Energy Agency</a> <a href="/exitdisclaimer.aspx"
+                title="Exiting Global Methane Initiative">
+                <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>,
+            <a href="http://www.worldbank.org/">World Bank</a> <a href="/exitdisclaimer.aspx"
+                title="Exiting Global Methane Initiative">
+                <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>,
+            <a href="http://www.ec.gc.ca/default.asp?lang=En&amp;n=FD9B0E51-1">Environment Canada</a>
+            <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative">
+                <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>,
+            <a href="http://www.defra.gov.uk/">United Kingdom's Department for Environment Food
+                and Rural Affairs</a> <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative">
+                    <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>,
+            <a href="http://www.unece.org/Welcome.htm">United Nations Economic Commission for Europe</a>
+            <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative">
+                <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>,
+            <a href="http://www.nedo.go.jp/">New Energy and Industrial Technology Development Organization
+                (NEDO)</a> <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative">
+                    <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>,
+            <a href="http://www.clarke-energy.co.uk/">Clarke Energy</a> <a href="/exitdisclaimer.aspx"
+                title="Exiting Global Methane Initiative">
+                <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>,
+            <a href="http://coalindia.nic.in/">Coal India</a> <a href="/exitdisclaimer.aspx"
+                title="Exiting Global Methane Initiative">
+                <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>,
+            <a href="http://www.ongcindia.com/">ONGC</a> <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative">
+                <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>,
+            and <a href="http://www.geotech.co.uk/">Geotech</a> <a href="/exitdisclaimer.aspx"
+                title="Exiting Global Methane Initiative">
+                <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>.</p>
+        <p>
+            Partnership Expo hosts and sponsors are joined by the <a href="http://www.ficci.com/">
+                Federation of Indian Chambers of Commerce and Industry (FICCI)</a> <a href="/exitdisclaimer.aspx"
+                    title="Exiting Global Methane Initiative">
+                    <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>
+            as the in-country partner. FICCI has been involved in the planning process from
+            the outset and has helped coordinate logistics for the Partnership Expo.</p>
+        
+        <h2 id="four">
+            India: Methane Project Opportunities in the Making</h2>
+        <p>
+            India is ideally suited to showcase a range of methane projects and opportunities.
+            With the world's second largest population and as the second largest emitter of
+            anthropogenic methane, India holds increasing potential for methane capture and
+            use projects in each of the four Methane to Markets sectors. India's rapid economic
+            growth, increased urbanization, and rising energy consumption create a perfect balance
+            of opportunity and demand for methane recovery and use.</p>
+        <p>
+            India is diligently working to capture methane from sources within the four Methane
+            to Markets sectors (estimated to be 84.6 million metric tons of carbon dioxide equivalent).
+            At the same time, India is also addressing barriers and increasing awareness of
+            methane recovery-challenges common to all Partner Governments.</p>
+        <p>
+            <img src="/images/mi16_map_india.jpg" alt="Map of India" style="float: left; border: 1px solid #dcdcdc;
+                margin-right: 15px;" />India is a charter Partner of the Methane to Markets
+            Partnership and participates on the Steering Committee and on all of the sector
+            subcommittees. As the world's third largest coal producer, India has great potential
+            to develop coal mine methane (CMM) projects. Through the Partnership, India has
+            established a clearinghouse to provide access to information and data that help
+            developers pursue CMM projects. India has also been increasing its activity in the
+            oil and gas sector through the work of the state-owned ONGC. In collaboration with
+            the U.S. Environmental Protection Agency, ONGC evaluated the opportunities for vented
+            and fugitive methane emissions reductions at several facilities and is currently
+            implementing practices and installing technologies to reduce those emissions and
+            identify opportunities at other locations.</p>
+        <p>
+            Additionally, India has several potential projects in the landfill sector. It is
+            conducting numerous pre-feasibility studies and assessments to better understand
+            the potential at individual sites. India's first landfill gas project came online
+            this year. The Gorai Landfill, outside Mumbai, earned U.S. $5.2 million for carbon
+            credits for flaring captured gas and is planning to develop an energy use project
+            in the near future. Finally, India has been active in the Methane to Markets agriculture
+            sector since 2006. There are dozens of ongoing small and large-scale anaerobic digester
+            projects across the country, with more in the development stages. In support of
+            the Partnership, The Energy and Resources Institute, a Project Network member, organized
+            an interactive workshop on anaerobic digesters in March 2009 and the Federation
+            of Indian Chambers of Commerce (the Expo in-country partner) is planning a <a href="http://www.ficci.com/events-page.asp?evid=20248">
+                workshop</a> <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative">
+                    <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>
+            on agriculture methane issues in January 2010.</p>
+        <p>
+            Join us in New Delhi and learn about India's past experience and future opportunities
+            firsthand!</p>
+        <br class="clear" />
+        
+        <h2 id="five">
+            Getting to India</h2>
+        <p>
+            All foreign nationals require a visa to enter India, except nationals of Nepal,
+            Bhutan, and the Maldives (if staying in India for fewer than 90 days). India's visa
+            requirements differ for all other visitors, depending on nationality. As you make
+            your plans, consult our <a href="../expo_india10/info.htm">travel and visa information</a>
+            for the Expo. Use this information as a guideline, and then contact your nearest
+            Indian Embassy or Consulate for official requirements.</p>
+        
+        <h2 id="six">
+            Indian Hospitality at Its Finest</h2>
+        <img src="/images/mi16_taj.jpg" class="right" alt="Taj Palace Hotel" />
+        <p>
+            India's capital city, New Delhi, has changed dramatically in the last five decades,
+            from a relatively sleepy city to a bustling metropolis with wide roads, stately
+            monuments, and a vibrant nightlife. The 2010 Partnership Expo provides an ideal
+            opportunity to explore this city and nearby sites. The nearby Lodhi Gardens are
+            a beautiful park spread over 90 acres that contains the tombs of Mohammed Shah and
+            Sikander Lodi. The gardens are situated between Khan Market and Safdarjung's tomb.
+            Another nearby site worth seeing is a complex of buildings built as the Mughal Emperor
+            Humayun's tomb. It was the first garden-tomb on the Indian subcontinent.</p>
+        <p>
+            The Expo will be held at the <a href="http://www.tajhotels.com/Luxury/Taj  Palace Hotel,NEW DELHI/default.htm">
+                Taj Palace Hotel</a> <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative">
+                    <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>
+            in New Delhi, one of India's premiere hotels. Nestled in six acres of lush parkland
+            in New Delhi's exclusive Diplomatic Enclave, it frequently hosts heads of state
+            and high-profile business travelers from around the world. It is renowned for offering
+            its guests genuine and world famous Indian hospitality. Relax and indulge in a variety
+            of herbal and Ayurvedic therapies offered at the hotel spa or tee up at the hotel's
+            lush golf course. World-class shopping areas and fine specialty restaurants are
+            located nearby. And the hotel is just a 10-minute taxi ride from the airport.</p>
+        <p>
+            The Methane to Markets Partnership has secured a limited block of rooms at the special
+            rate of 12,500 INR single occupancy/14,500 INR double occupancy, plus 12.5 percent
+            tax. This special hotel rate will expire 15 January 2010.</p>
+        <p>
+            <a href="https://www.yourreservation.net/ibe/02_taj/main.htm;jsessionid=8FFDA22F97BAD405C9DE9A97FBD60BBD?_flowExecutionKey=_c97161D9A-779C-A730-DC70-78158F104CB5_k0D9FAC0B-D90A-2475-F963-15F707DBF0EC">
+                Make your reservation</a> <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative">
+                    <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>
+            today.</p>
+        <div style="border: 2px solid #bed68b; padding: 10px 20px 20px 20px; background-color: #e2efc7;
+            margin: 10px auto 30px;">
+            <h4>
+                Stay Informed</h4>
+            <p>
+                For the latest news and information visit the <a href="../expo_india10/index.htm">2010 Partnership
+                    Expo Web site</a>. The Web site has all the information you need for getting
+                to India, staying in India, and attending the 2010 Partnership Expo.</p>
+        </div>		
+		
+		</div>
+	</section>
+
+	
+	<button onclick="topFunction()" class="btn btn-dark btn-sm" id="btnToTop" title="Go to top"><i class="fa fa-chevron-up" aria-hidden="true"></i> Top</button>
+	
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'en',
+                layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+            }, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+    </script>
+    <script>
+        $('.translateText').click(function () {
+            $("#languageWidget").css("display", "block");
+            $(".hider").slideToggle();
+        });
+    </script>
+
+	
+	<script>
+    //Get the button
+    var mybtnToTop = document.getElementById("btnToTop");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybtnToTop.style.display = "block";
+      } else {
+        mybtnToTop.style.display = "none";
+      }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    </script>
+	
+</body>
+
+</html>

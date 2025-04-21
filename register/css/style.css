@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css?family=Heebo|Karla|Rubik&display=swap');
+
+html {
+    min-height: 100vh;
+
+    background-position:
+        bottom right,
+        top right;
+    background-repeat:
+        repeat-x,
+        repeat;
+
+    font-size:16px;
+}
+
+body {
+    font-family: 'Heebo', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Rubik', sans-serif;
+}
+
+
+
+
+/* grid */
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+}
+
+/* items */
+.container>* {
+    line-height: 1.5;
+    padding: 20px;
+
+}
+
+
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* media query for grid layout */
+@media only screen and (min-width: 600px) {
+
+    /* grid */
+    .container {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    /* specific item styles */
+    .container header,
+    .container nav,
+    .container footer {
+        grid-column: span 4;
+    }
+
+    .container section {
+        grid-column: span 3;
+    }
+
+    .container section-full {
+        grid-column: span 4;
+    }
+
+    .container section-half {
+        grid-column: span 2;
+    }
+
+
+    /* nav styles */
+    nav ul li {
+        display: inline-block;
+        padding: 0 20px 0 0;
+    }
+
+    /* hide toggle */
+    .toggle {
+        display: none;
+    }
+
+}
+
+header,
+section,
+aside {
+    color: #353535;
+}
+
+nav {
+    background: #047AC1;
+    border-bottom: 2px solid #024b76;
+    color: #FCFCFC;
+}
+
+nav a {
+    color: #FCFCFC;
+}
+
+nav a:hover {
+    text-decoration: none;
+}
+
+section {
+    background: #FCFCFC;
+    font-size: 1.2em;
+}
+
+aside {
+    background: #FCFCFC;
+}
+
+footer {
+    display: grid;
+    grid-gap: 10px;
+	grid-template-columns: 1fr 1fr;
+    background: #f3f3f3;
+    border-top: 1px solid #ccc;
+    font-size:0.8rem;
+}
+
+.footerLeft {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.footerRight {
+    grid-column: 2;
+    grid-row: 1;
+}
+.footerSpan{
+    text-align:center;
+    grid-column: 1/3;
+    grid-row:2;
+}
+
+/* media query for nav styles */
+@media only screen and (max-width: 599px) {
+
+    #nav {
+        transition: transform .3s ease-in-out;
+        top: 0;
+        bottom: 0;
+        min-height: 100vh;
+        /* override Safari bug */
+        position: fixed;
+        /* or choose `absolute` depending on desired behavior*/
+        width: 300px;
+        left: -340px;
+    }
+
+    #nav:target {
+        transform: translateX(340px);
+    }
+
+    .close {
+        text-align: right;
+        display: block;
+        text-decoration: none;
+        font-size: 3em;
+        position: relative;
+        top: -30px;
+    }
+
+}
+
+@media only screen and (min-width: 992px) {
+
+    .container {
+        max-width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}

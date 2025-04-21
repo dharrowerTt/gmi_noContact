@@ -1,0 +1,322 @@
+ Volume in drive C has no label.
+ Volume Serial Number is D04C-7227
+
+ Directory of c:\inetpub\wwwroot\GMIredesign\GMF2018
+
+01/10/2018  11:18 AM    <DIR>          .
+01/10/2018  11:18 AM    <DIR>          ..
+12/29/2017  12:53 PM    <DIR>          css
+01/10/2018  11:18 AM                 0 directory.txt
+12/29/2017  12:53 PM    <DIR>          images
+11/21/2017  11:19 AM             4,139 index.html
+12/29/2017  12:53 PM    <DIR>          reg
+12/29/2017  12:53 PM    <DIR>          source
+12/29/2017  12:53 PM    <DIR>          template
+11/21/2017  12:55 PM    <DIR>          _notes
+               2 File(s)          4,139 bytes
+
+ Directory of c:\inetpub\wwwroot\GMIredesign\GMF2018\css
+
+12/29/2017  12:53 PM    <DIR>          .
+12/29/2017  12:53 PM    <DIR>          ..
+11/21/2017  11:22 AM             2,280 gmf2018styles.css
+11/21/2017  12:55 PM    <DIR>          _notes
+               1 File(s)          2,280 bytes
+
+ Directory of c:\inetpub\wwwroot\GMIredesign\GMF2018\css\_notes
+
+11/21/2017  12:55 PM    <DIR>          .
+11/21/2017  12:55 PM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of c:\inetpub\wwwroot\GMIredesign\GMF2018\images
+
+12/29/2017  12:53 PM    <DIR>          .
+12/29/2017  12:53 PM    <DIR>          ..
+09/22/2017  06:57 AM           165,373 9119_GMI_TorontoLogo_R5.png
+09/22/2017  06:57 AM           213,244 9180 GMI Forum StD Postcard - R4.pdf
+11/09/2017  01:23 PM             6,620 cityscape.jpg
+11/17/2017  11:54 AM            38,060 gmf2018-register-now.png
+09/22/2017  08:39 AM            74,060 gmf2018-save-the-date-trim.png
+09/22/2017  08:31 AM            77,400 gmf2018-save-the-date.png
+11/09/2017  01:22 PM            13,450 logos.jpg
+11/09/2017  01:46 PM            33,291 subbanner_gmf2018.jpg
+11/21/2017  09:36 AM    <DIR>          _notes
+               8 File(s)        621,498 bytes
+
+ Directory of c:\inetpub\wwwroot\GMIredesign\GMF2018\images\_notes
+
+11/21/2017  09:36 AM    <DIR>          .
+11/21/2017  09:36 AM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of c:\inetpub\wwwroot\GMIredesign\GMF2018\reg
+
+12/29/2017  12:53 PM    <DIR>          .
+12/29/2017  12:53 PM    <DIR>          ..
+11/15/2017  04:01 PM             1,256 index.html
+11/21/2017  09:36 AM    <DIR>          _notes
+               1 File(s)          1,256 bytes
+
+ Directory of c:\inetpub\wwwroot\GMIredesign\GMF2018\reg\_notes
+
+11/21/2017  09:36 AM    <DIR>          .
+11/21/2017  09:36 AM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of c:\inetpub\wwwroot\GMIredesign\GMF2018\source
+
+12/29/2017  12:53 PM    <DIR>          .
+12/29/2017  12:53 PM    <DIR>          ..
+09/22/2017  08:30 AM           195,734 9180 GMI Forum StD Postcard - R4.pdf
+09/22/2017  08:31 AM            68,102 9180 GMI Forum StD Postcard - R4_Page_2.png
+11/09/2017  03:11 PM           178,601 banner-for-website.fw.png
+11/17/2017  01:20 PM           132,717 gmf2018-save-the-date.fw.png
+09/22/2017  08:31 AM            77,400 gmf2018-save-the-date.png
+11/21/2017  09:36 AM    <DIR>          _notes
+               5 File(s)        652,554 bytes
+
+ Directory of c:\inetpub\wwwroot\GMIredesign\GMF2018\source\_notes
+
+11/21/2017  09:36 AM    <DIR>          .
+11/21/2017  09:36 AM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of c:\inetpub\wwwroot\GMIredesign\GMF2018\template
+
+12/29/2017  12:53 PM    <DIR>          .
+12/29/2017  12:53 PM    <DIR>          ..
+12/29/2017  12:49 PM    <DIR>          blocks
+12/29/2017  12:53 PM    <DIR>          css
+12/29/2017  12:53 PM    <DIR>          img
+11/28/2017  09:51 AM            54,285 index.html
+11/28/2017  11:12 AM            10,792 splash.html
+11/28/2017  10:26 AM             5,595 test.html
+11/29/2017  10:23 AM    <DIR>          _notes
+               3 File(s)         70,672 bytes
+
+ Directory of c:\inetpub\wwwroot\GMIredesign\GMF2018\template\blocks
+
+12/29/2017  12:49 PM    <DIR>          .
+12/29/2017  12:49 PM    <DIR>          ..
+12/29/2017  12:53 PM    <DIR>          css
+12/29/2017  12:53 PM    <DIR>          font-awesome-4.7.0
+12/29/2017  12:53 PM    <DIR>          js
+               0 File(s)              0 bytes
+
+ Directory of c:\inetpub\wwwroot\GMIredesign\GMF2018\template\blocks\css
+
+12/29/2017  12:53 PM    <DIR>          .
+12/29/2017  12:53 PM    <DIR>          ..
+10/19/2017  11:34 AM            32,403 bootstrap-grid.css
+10/19/2017  11:34 AM            81,990 bootstrap-grid.css.map
+10/19/2017  11:35 AM            24,162 bootstrap-grid.min.css
+10/19/2017  11:35 AM            58,107 bootstrap-grid.min.css.map
+10/19/2017  11:34 AM             4,964 bootstrap-reboot.css
+10/19/2017  11:34 AM            55,618 bootstrap-reboot.css.map
+10/19/2017  11:35 AM             4,066 bootstrap-reboot.min.css
+10/19/2017  11:35 AM            27,297 bootstrap-reboot.min.css.map
+10/19/2017  11:34 AM           159,202 bootstrap.css
+10/19/2017  11:34 AM           390,790 bootstrap.css.map
+10/19/2017  11:34 AM           127,343 bootstrap.min.css
+10/19/2017  11:34 AM           514,728 bootstrap.min.css.map
+11/29/2017  10:23 AM    <DIR>          _notes
+              12 File(s)      1,480,670 bytes
+
+ Directory of c:\inetpub\wwwroot\GMIredesign\GMF2018\template\blocks\css\_notes
+
+11/29/2017  10:23 AM    <DIR>          .
+11/29/2017  10:23 AM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of c:\inetpub\wwwroot\GMIredesign\GMF2018\template\blocks\font-awesome-4.7.0
+
+12/29/2017  12:53 PM    <DIR>          .
+12/29/2017  12:53 PM    <DIR>          ..
+12/29/2017  12:53 PM    <DIR>          css
+12/29/2017  12:53 PM    <DIR>          fonts
+10/01/2017  10:49 PM               323 HELP-US-OUT.txt
+12/29/2017  12:53 PM    <DIR>          less
+12/29/2017  12:53 PM    <DIR>          scss
+11/29/2017  10:23 AM    <DIR>          _notes
+               1 File(s)            323 bytes
+
+ Directory of c:\inetpub\wwwroot\GMIredesign\GMF2018\template\blocks\font-awesome-4.7.0\css
+
+12/29/2017  12:53 PM    <DIR>          .
+12/29/2017  12:53 PM    <DIR>          ..
+10/01/2017  10:49 PM            37,414 font-awesome.css
+10/01/2017  10:49 PM            31,000 font-awesome.min.css
+11/29/2017  10:23 AM    <DIR>          _notes
+               2 File(s)         68,414 bytes
+
+ Directory of c:\inetpub\wwwroot\GMIredesign\GMF2018\template\blocks\font-awesome-4.7.0\css\_notes
+
+11/29/2017  10:23 AM    <DIR>          .
+11/29/2017  10:23 AM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of c:\inetpub\wwwroot\GMIredesign\GMF2018\template\blocks\font-awesome-4.7.0\fonts
+
+12/29/2017  12:53 PM    <DIR>          .
+12/29/2017  12:53 PM    <DIR>          ..
+10/01/2017  10:49 PM           165,742 fontawesome-webfont.eot
+10/01/2017  10:49 PM           444,379 fontawesome-webfont.svg
+10/01/2017  10:49 PM           165,548 fontawesome-webfont.ttf
+10/01/2017  10:49 PM            98,024 fontawesome-webfont.woff
+10/01/2017  10:49 PM            77,160 fontawesome-webfont.woff2
+10/01/2017  10:49 PM           134,808 FontAwesome.otf
+11/29/2017  10:23 AM    <DIR>          _notes
+               6 File(s)      1,085,661 bytes
+
+ Directory of c:\inetpub\wwwroot\GMIredesign\GMF2018\template\blocks\font-awesome-4.7.0\fonts\_notes
+
+11/29/2017  10:23 AM    <DIR>          .
+11/29/2017  10:23 AM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of c:\inetpub\wwwroot\GMIredesign\GMF2018\template\blocks\font-awesome-4.7.0\less
+
+12/29/2017  12:53 PM    <DIR>          .
+12/29/2017  12:53 PM    <DIR>          ..
+10/01/2017  10:49 PM               713 animated.less
+10/01/2017  10:49 PM               585 bordered-pulled.less
+10/01/2017  10:49 PM               452 core.less
+10/01/2017  10:49 PM               119 fixed-width.less
+10/01/2017  10:49 PM               495 font-awesome.less
+10/01/2017  10:49 PM            49,712 icons.less
+10/01/2017  10:49 PM               370 larger.less
+10/01/2017  10:49 PM               377 list.less
+10/01/2017  10:49 PM             1,603 mixins.less
+10/01/2017  10:49 PM               771 path.less
+10/01/2017  10:49 PM               622 rotated-flipped.less
+10/01/2017  10:49 PM               118 screen-reader.less
+10/01/2017  10:49 PM               476 stacked.less
+10/01/2017  10:49 PM            22,563 variables.less
+11/29/2017  10:23 AM    <DIR>          _notes
+              14 File(s)         78,976 bytes
+
+ Directory of c:\inetpub\wwwroot\GMIredesign\GMF2018\template\blocks\font-awesome-4.7.0\less\_notes
+
+11/29/2017  10:23 AM    <DIR>          .
+11/29/2017  10:23 AM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of c:\inetpub\wwwroot\GMIredesign\GMF2018\template\blocks\font-awesome-4.7.0\scss
+
+12/29/2017  12:53 PM    <DIR>          .
+12/29/2017  12:53 PM    <DIR>          ..
+10/01/2017  10:49 PM               430 font-awesome.scss
+10/01/2017  10:49 PM               715 _animated.scss
+10/01/2017  10:49 PM               592 _bordered-pulled.scss
+10/01/2017  10:49 PM               459 _core.scss
+10/01/2017  10:49 PM               120 _fixed-width.scss
+10/01/2017  10:49 PM            50,498 _icons.scss
+10/01/2017  10:49 PM               375 _larger.scss
+10/01/2017  10:49 PM               378 _list.scss
+10/01/2017  10:49 PM             1,637 _mixins.scss
+11/29/2017  10:23 AM    <DIR>          _notes
+10/01/2017  10:49 PM               783 _path.scss
+10/01/2017  10:49 PM               672 _rotated-flipped.scss
+10/01/2017  10:49 PM               134 _screen-reader.scss
+10/01/2017  10:49 PM               482 _stacked.scss
+10/01/2017  10:49 PM            22,644 _variables.scss
+              14 File(s)         79,919 bytes
+
+ Directory of c:\inetpub\wwwroot\GMIredesign\GMF2018\template\blocks\font-awesome-4.7.0\scss\_notes
+
+11/29/2017  10:23 AM    <DIR>          .
+11/29/2017  10:23 AM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of c:\inetpub\wwwroot\GMIredesign\GMF2018\template\blocks\font-awesome-4.7.0\_notes
+
+11/29/2017  10:23 AM    <DIR>          .
+11/29/2017  10:23 AM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of c:\inetpub\wwwroot\GMIredesign\GMF2018\template\blocks\js
+
+12/29/2017  12:53 PM    <DIR>          .
+12/29/2017  12:53 PM    <DIR>          ..
+10/19/2017  11:35 AM           192,909 bootstrap.bundle.js
+10/19/2017  11:35 AM           323,074 bootstrap.bundle.js.map
+10/19/2017  11:35 AM            69,453 bootstrap.bundle.min.js
+10/19/2017  11:35 AM           271,233 bootstrap.bundle.min.js.map
+10/19/2017  11:35 AM           111,610 bootstrap.js
+10/19/2017  11:35 AM           191,202 bootstrap.js.map
+10/19/2017  11:35 AM            50,564 bootstrap.min.js
+10/19/2017  11:35 AM           159,064 bootstrap.min.js.map
+11/29/2017  10:23 AM    <DIR>          _notes
+               8 File(s)      1,369,109 bytes
+
+ Directory of c:\inetpub\wwwroot\GMIredesign\GMF2018\template\blocks\js\_notes
+
+11/29/2017  10:23 AM    <DIR>          .
+11/29/2017  10:23 AM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of c:\inetpub\wwwroot\GMIredesign\GMF2018\template\css
+
+12/29/2017  12:53 PM    <DIR>          .
+12/29/2017  12:53 PM    <DIR>          ..
+11/28/2017  10:56 AM               103 ie-only.css
+11/28/2017  11:20 AM             5,687 main.css
+11/29/2017  10:23 AM    <DIR>          _notes
+               2 File(s)          5,790 bytes
+
+ Directory of c:\inetpub\wwwroot\GMIredesign\GMF2018\template\css\_notes
+
+11/29/2017  10:23 AM    <DIR>          .
+11/29/2017  10:23 AM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of c:\inetpub\wwwroot\GMIredesign\GMF2018\template\img
+
+12/29/2017  12:53 PM    <DIR>          .
+12/29/2017  12:53 PM    <DIR>          ..
+11/27/2017  02:06 PM           527,916 card_img.jpg
+11/28/2017  11:17 AM            48,479 header.svg
+11/20/2017  03:41 PM             6,874 logo.png
+12/29/2017  12:53 PM    <DIR>          sponsors
+11/27/2017  12:11 PM            14,990 tile.png
+11/27/2017  12:12 PM            14,996 tile2.png
+11/29/2017  10:23 AM    <DIR>          _notes
+               5 File(s)        613,255 bytes
+
+ Directory of c:\inetpub\wwwroot\GMIredesign\GMF2018\template\img\sponsors
+
+12/29/2017  12:53 PM    <DIR>          .
+12/29/2017  12:53 PM    <DIR>          ..
+11/20/2017  12:51 PM           582,917 logo_fls.jpg
+11/20/2017  12:51 PM           608,565 logo_ghgsat.jpg
+11/21/2017  09:36 AM    <DIR>          _notes
+               2 File(s)      1,191,482 bytes
+
+ Directory of c:\inetpub\wwwroot\GMIredesign\GMF2018\template\img\sponsors\_notes
+
+11/21/2017  09:36 AM    <DIR>          .
+11/21/2017  09:36 AM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of c:\inetpub\wwwroot\GMIredesign\GMF2018\template\img\_notes
+
+11/29/2017  10:23 AM    <DIR>          .
+11/29/2017  10:23 AM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of c:\inetpub\wwwroot\GMIredesign\GMF2018\template\_notes
+
+11/29/2017  10:23 AM    <DIR>          .
+11/29/2017  10:23 AM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of c:\inetpub\wwwroot\GMIredesign\GMF2018\_notes
+
+11/21/2017  12:55 PM    <DIR>          .
+11/21/2017  12:55 PM    <DIR>          ..
+               0 File(s)              0 bytes
+
+     Total Files Listed:
+              86 File(s)      7,325,998 bytes
+              98 Dir(s)  104,919,728,128 bytes free

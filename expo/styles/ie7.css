@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*#wrapper {
+	-pie-background:url(images/bkgd_left_ie7.jpg) bottom left no-repeat, url(images/bkgd_right_ie7.jpg) bottom right no-repeat, url(images/bkgd_left2.png) top left repeat-y, url(images/bkgd_right2.png) top right repeat-y;
+
+}*/
+
+section[role*=main] {
+	width:63.6%; /*547px / 980px */
+	background-size:624px 294px;
+
+}
+
+#wrapper {
+	-pie-background:url(images/bkgd_left_ie7.jpg) bottom left no-repeat, url(images/bkgd_right_ie7.jpg) bottom right no-repeat, url(images/bkgd_left2.png) top left repeat-y, url(images/bkgd_right2.png) top right repeat-y;
+	behavior: url(styles/PIE.htc);
+	height:inherit;
+}
+
+section[role*=main] ul li {
+	list-style:disc;
+	margin-left:25px !important;
+}
+
+.accordion p {
+	border:1px solid #fbb44b !important;
+}
+
+.accordion {
+	min-height:430px !important;
+	max-height:486px !important;	
+}

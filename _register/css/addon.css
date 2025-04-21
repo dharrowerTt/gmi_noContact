@@ -1,0 +1,57 @@
+
+@import url('https://fonts.googleapis.com/css?family=Karla|Rubik&display=swap');
+
+body {
+    font-family: 'Karla', sans-serif;
+    font-size:16px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Heebo', sans-serif;
+}
+
+html{
+    font-size:16px;
+}
+
+#eventlocation{
+    font-size:1.5rem;
+}
+
+
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+body {
+    padding-top: 3.5rem;
+  }
+
+  .bg-blue{
+      background:#047AC1;
+      border-bottom:2px solid #024b76;
+  }
+
+@media only screen and (min-width: 768px) {
+
+  .nav-link{
+    border-radius:4px;
+    border: 1px solid #0592e7;
+  }
+
+  .nav-link:hover{
+    border-radius:4px;
+    background: #024b76;
+    border: 1px solid #b3e1fd;
+  }
+}
+
+
+  footer {
+    display: grid;
+    grid-gap: 10px;
+	grid-template-columns: 1fr 1fr;
+    background: #f3f3f3;
+    border-top: 1px solid #ccc;
+    font-size:0.8rem;
+}

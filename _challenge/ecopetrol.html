@@ -1,0 +1,219 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/dd7fc261ae.js"></script>
+    <style>
+        body {
+            background: #1695be;
+        }
+
+        .tooltip:hover span {
+            opacity: 1;
+            filter: alpha(opacity=100);
+            top: -6em;
+            left: 20em;
+            z-index: 99;
+            -webkit-transition: all 0.2s ease;
+            -moz-transition: all 0.2s ease;
+            -o-transition: all 0.2s ease;
+            transition: all 0.2s ease;
+        }
+
+        .homearea {
+            position: fixed;
+            bottom: 10px;
+            left: 10px;
+        }
+
+        .homearea:hover {
+            cursor: pointer;
+        }
+
+        .box b {
+            color: #fff;
+        }
+
+        .tooltip span {
+            background: none repeat scroll 0 0 #222;
+            /*-- some basic styling */
+            color: #F0B015;
+            font-family: 'Helvetica';
+            font-size: 0.8em;
+            font-weight: normal;
+            line-height: 1.5em;
+            padding: 16px 15px;
+            width: 240px;
+            top: -4em;
+            /*-- this is the original position of the tooltip when it's hidden */
+            left: 20em;
+            margin-left: 0;
+            /*-- set opacity to 0 otherwise our animations won't work */
+            opacity: 0;
+            filter: alpha(opacity=0);
+            position: absolute;
+            text-align: center;
+            z-index: 2;
+            text-transform: none;
+            -webkit-transition: all 0.3s ease;
+            -moz-transition: all 0.3s ease-in-out;
+            -o-transition: all 0.3s ease;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .tooltip span:after {
+            border-color: #222 rgba(0, 0, 0, 0);
+            border-style: solid;
+            border-width: 15px 15px 0;
+            bottom: -15px;
+            content: "";
+            display: block;
+            left: 31px;
+            position: absolute;
+            width: 0;
+        }
+
+        .callout {
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-top: 1px;
+            background: #f3d5b3;
+            border-radius: 10px;
+            float: right;
+            width: 50%;
+            margin-left:15px;
+        }
+
+        .callout h3 {
+            color: #4E83B5;
+        }
+
+        .imgtbl {
+            width: 100%;
+            background: #CAEBF2;
+            margin-bottom: 15px;
+        }
+
+        .imgtbl img {
+            padding: 10px;
+            width: 100%;
+        }
+
+        .subtitle td {
+            font-size: 10px;
+            text-align: center;
+
+        }
+
+        h4 {
+            background: #CAEBF2;
+            padding: 5px;
+        }
+
+        .callout img {
+            max-width: 100%;
+        }
+
+        .imgrow {
+            max-width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="homearea">
+        <a class="btn btn-danger" href="http://www.globalmethane.org/challenge/index.aspx#actionmap">
+            <i class="fa fa-arrow-left fa-lg"></i> Back to the map
+        </a>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-0 col-md-2"></div>
+            <div class="col-sm-12 col-md-8" style="background:white;">
+                <img src="images/gallery/colombiabanner.png" style="width:100%" />
+                <h2>
+                    Collaborating with Climate and Clean Air Coalition (CCAC) Oil and Gas Methane Partnership
+                    (OGMP)&nbsp;
+                    <a class="btn btn-primary" href="pdf/colombia.pdf"
+                        aria-label="Download the PDF">
+                        <i class="fa fa-download" aria-hidden="true"></i>
+                    </a>
+                </h2>
+                <p>
+                    <p><img src="images/colombia/ecopetrol.jpg" style="max-width:200px; float:left;">In 2018, Ecopetrol
+                        collaborated with GMI CCAC OGMP to train its employees about reducing and recovering methane
+                        emissions from their crude production operations. The training focused on assessing emissions
+                        at the nine “core emissions sources”
+                        identified by the CCAC OGMP:</p>
+
+                    <ol>
+                        <li>Natural gas driven pneumatic controllers and pumps</li>
+                        <li>Fugitive component and equipment leaks</li>
+                        <li>Centrifugal compressors with wet (oil) seals</li>
+                        <li>Reciprocating compressor rod seal/packing vents</li>
+                        <li>Glycol dehydrators</li>
+                        <li>Unstabilised hydrocarbon liquid storage tanks</li>
+                        <li>Well venting for liquids unloading</li>
+                        <li>Well venting/flaring during well completion for hydraulically fractured gas wells</li>
+                        <li>Casinghead gas venting</li>
+                    </ol>
+
+                    For these training sessions, Ecopetrol’s research arm, the Instituto Colombiano del Petróleo (ICP),
+                    invited a broad group of representatives from several facilities and areas, including production
+                    staff, scientific research personnel and corporate operations executives. Each core emissions source was discussed
+                    extensively, and real-life operating issues were introduced into the discussion.
+
+                    Ecopetrol joined the CCAC OGMP in January 2019 and intends to develop an implementation plan to
+                    identify and assess emissions from the core emission sources identified at its facilities in
+                    collaboration with CCAC OGMP.
+
+                    <h4>Working with others</h4>
+                    <p>Ecopetrol and GMI have been working together since 2012 under a
+                        Memorandum of Understanding (MOU) to address the reduction of methane emissions from
+                        Ecopetrol’s operations and to increase the awareness of voluntary methane mitigation
+                        opportunities. Since 2005, GMI has been collaborating with Ecopetrol on training events and
+                        Ecopetrol has participated in GMI-supported events that focused on major sources of methane
+                        emissions from gas transmission and distribution and the tools and techniques needed to carry
+                        out a methane emissions measurement study. </p>
+                    <br><br><Br>
+
+                   <hr>
+                <a href="pdf/colombia.pdf" class="btn btn-primary btn-block">Download The PDF</a>
+                <hr>
+            </div>
+            <div class="col-sm-0 col-md-2"></div>
+        </div>
+    </div>
+    <script>
+        $(document).ready(function () {
+            $('[data-toggle="popover"]').popover({
+                container: '.container'
+            });
+
+            $('body').on('click', function (e) {
+                $('[data-toggle=popover]').each(function () {
+                    // hide any open popovers when the anywhere else in the body is clicked
+                    if (!$(this).is(e.target) && $(this).has(e.target).length === 0 && $(
+                            '.popover').has(e.target).length === 0) {
+                        $(this).popover('hide');
+                    }
+                });
+            });
+
+        });
+    </script>
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+</body>
+
+</html>

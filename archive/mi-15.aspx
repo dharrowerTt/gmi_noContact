@@ -1,0 +1,201 @@
+﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="mi-15.aspx.vb" Inherits="M2M_Redesign.mi_15" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Archive | Global Methane Initiative</title>
+     <!-- #include virtual="/includes/include_head.html" -->
+</head>
+<body>
+    <!-- #include virtual="/includes/header.html" -->
+
+<section class="py-5 gmi-light-blue">
+        <div class="container">
+                    <h1>
+						Methane International 
+					</h1>
+					<h2><small class="text-muted text">Issue 15, November 2009</small></h2>
+                    <div class="alert alert-danger" role="alert">Please note that this page is no longer being maintained. </div>
+					<ul>
+                        <li><a href="#one">Sooner Than You Think...Register Now for the 2010 Partnership Expo</a></li>
+                        <li><a href="#two">New Chair and Partners Tackle Partnership Matters in Washington, D.C.</a></li>
+                        <li><a href="#three">Subcommittees Prepare for Expo and More</a></li>
+                        <li><a href="#four">Welcome, Dominican Republic</a></li>
+                        <li><a href="#five">Mumbai Landfill Awarded Advanced Carbon Credits</a></li>
+                        <li><a href="#six">Climate Action Releases Coal Mine Methane Protocol</a></li>
+                        <li><a href="#seven">Methane to Markets Redesigns Web Site</a></li>
+                        <li><a href="#eight">U.S. Government Documents Its Partnership Accomplishments</a></li>
+                        <li><a href="#nine"><em>Partnership Accomplishments Report</em> Forthcoming!</a></li>
+                        <li><a href="#ten">Countdown to COP 15&mdash;Help Methane to Markets Have a Presence!</a></li>
+                        <li><a href="#eleven">Recent Developments</a></li>
+					</ul>
+
+		</div>
+	</section>
+	<section class="py-5 bg-white">
+		<div class="container">
+
+<h2 id="one">Sooner Than You Think...Register Now for the 2010 Partnership Expo</h2>
+       	  <p><a href="/expo_india10/index.htm"><img src="/expo_india10/images/banner_small.jpg" alt="2009 Expo banner" width="500" height="96" /></a></p>
+                <p>No need to wait&mdash;<a href="https://www2.ergweb.com/projects/conferences/methanetomarkets/register-m2mexpo.asp">registration</a> <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative"><img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a> for the 2010 Partnership Expo is now available. Use the Partnership Expo to showcase and  learn about the latest methane mitigation projects and technologies, meet with  potential partners and financiers, explore key technical, financial, and policy  issues, and interact with high-level government agencies. The Methane to  Markets Partnership has posted a <a href="/expo_india10/docs/at_a_glance_agenda.pdf">preliminary agenda</a> (PDF, 2 pp., 25 KB) with the outline of the events taking place from 2 to 5 March 2010. Check back soon for <a href="/expo_india10/expo-venue.htm">hotel reservation information</a>.</p>
+                <p><em>Call for Projects</em><br />
+                  Do you want to showcase your project at the Expo in New Delhi? The Methane to  Markets Partnership has issued its <a href="/expo_india10/call-projects.htm">call for projects</a>.  Simply download and complete the appropriate template for your sector and send  it to the <a href="mailto:secretariat@globalmethane.org">Administrative Support Group (ASG)</a> by <strong>15 November 2009.</strong></p>
+                <p><em>Sponsor the Expo</em><br />
+                  Sponsoring the Partnership Expo is one of the best ways to  raise your organization's profile at the world's largest and most prestigious  international gathering for methane professionals. You will receive complimentary  entrance tickets and secure prime space to display your project opportunities  and technologies. <a href="/expo_india10/exhibit-oppt.htm">Application forms  and details are available</a>.</p>
+
+
+
+          <h2 id="two">New Chair and Partners Tackle Partnership Matters in Washington, D.C.</h2>
+          	
+                <p><a href="/images/mi15_steering2.jpg" class="lightbox"><img src="/images/mi15_steering.jpg" class="right" alt="Steering Committee photo" /></a>High-level representatives from 14 Methane to Markets Partner Governments  met in Washington, D.C., in September at the <a href="event_detailsByEventId.aspx?eventId=2">6th meeting of the Methane to Markets Steering Committee</a> to discuss the  progress of the Partnership and its direction in the year to come. Gina  McCarthy, the new Steering Committee Chair and U.S. EPA Office of Air and  Radiation Assistant Administrator, chaired the meeting, moderating discussions over  a wide range of topics.</p>
+                
+<p>The Steering Committee admitted the Dominican Republic into the Partnership, extended the Partnership's <a href="../documents/about_termsofreference_en.pdf">Terms of Reference (TOR)</a> for another year, established a task force to solicit  Partner input regarding the inclusion of the wastewater sector within the Partnership's scope, and agreed to coordinate an Expo session on enteric  fermentation and rice cultivation to further gauge Partner interest in these  sectors. The Steering Committee members also agreed to plan a ministerial event  in 2010 in conjunction with a Conference of the Parties (COP) Ministerial  Meeting in Mexico,  where a draft TOR will be discussed. At the next Steering Committee meeting, to  be held in conjunction with the <a href="/expo_india10/index.htm">2010 Partnership Expo</a>,  members will consider changes to enhance the TOR.</p>
+                
+                
+                
+<h2 id="three">Subcommittees Prepare for Expo and More</h2>
+            	
+<p><strong><em>Agriculture</em></strong><br />
+<a href="/images/mi15_ag2.jpg" class="lightbox"><img src="/images/mi15_ag.jpg" class="right" alt="photo from Agriculture Meeting" /></a>On 3 September 2009, the <a href="event_detailsByEventId.aspx?eventId=1">Agricultural  Subcommittee members held a meeting</a> in Guangzhou, China.  The Subcommittee discussed preparations for the 2010 Partnership Expo, considered  incorporating enteric fermentation and rice cultivation into the scope of the Partnership,  and developed recommendations for the Steering Committee on that topic. The Subcommittee  also reviewed newly developed draft protocols for anaerobic digesters. Held in  conjunction with the <a href="../documents/events_ag_20090903_ag-3sept09_agenda1.pdf">International  Conference on Water Pollution Reduction and Climate Change Mitigation</a>, the  meeting also included site visits. Participants visited three swine farms with anaerobic  digester projects and a village where the residents use biogas for cooking and  heating water.</p>
+
+<p style="clear:right;"><strong><em>Coal Mines</em></strong><br />
+<a href="/images/mi15_coal2.jpg" class="lightbox"><img src="/images/mi15_coal.jpg" class="right" alt="photo from Coal Meeting" /></a>On 12 October 2009, the <a href="event_detailsByEventId.aspx?eventId=10">Coal Subcommittee</a> met in Geneva,   Switzerland, in  conjunction with the meeting of the <a href="http://www.unece.org/energy/se/docs/cmm5.html">United Nations Economic Commission for Europe (UNECE) Fifth Session of the Ad Hoc Group of Experts on Coal  Mine Methane</a> <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative"><img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>. Representatives from both Partner Countries and the Project  Network shared their plans for participation in the 2010 Partnership Expo and  discussed ideas for four coal-specific sessions. Additionally, the Subcommittee  reviewed the call for presentations and call for project opportunities issued  over the summer and ways in which Partners and Project Network members could become  involved in the 2010 Expo, such as showcasing posters, making presentations, and  becoming sponsors.</p>
+  
+<p style="clear:right;"><strong><em>Landfills</em></strong><br />
+<a href="/images/mi15_land2.jpg" class="lightbox"><img src="/images/mi15_land.jpg" class="right" alt="photo from Landfill Meeting" /></a>On 21 September 2009, the <a href="event_detailsByEventId.aspx?eventId=4">Landfill Subcommittee</a> met in Long Beach, California. The Subcommittee  focused on preparing for the 2010 Partnership Expo, considered topics for a  session on landfill policy and technical training opportunities. At the request  of the Steering Committee, the Subcommittee also considered wastewater as a new  source for Partnership activities, ultimately recommending its inclusion in the  Partnership under the work of the Landfill Subcommittee. Representatives from Argentina, Brazil,  China, Colombia, Poland,  and the United States  attended the meeting, along with Project Network members.</p><br class="clear" />
+  
+<p style="clear:right;"><strong><em>Oil and Gas Systems</em></strong><br />
+<a href="/images/mi15_oilgas2.jpg" class="lightbox"><img src="/images/mi15_oilgas.jpg" class="right" alt="photo from Oil and Gas Meeting" /></a>On 16 September 2009, the <a href="event_detailsByEventId.aspx?eventId=3">Oil and Gas Subcommittee</a> met in Lake Louise, Alberta, Canada. Participants discussed the  upcoming 2010 Partnership Expo and the Subcommittee's role in preparations, as  well as plans to develop a compendium of standards for identifying and  measuring methane emissions. Held in conjunction with a Technology Transfer  Workshop and a joint meeting with the Asia Pacific Partnership, the  Subcommittee meeting included a technical workshop, as well as a site visit to  a gas processing plant.</p>
+                
+                
+                
+<h2 id="four">Welcome, Dominican Republic</h2>
+           	<p><img src="/images/flag_dr_mi15.gif" class="right" alt="Dominican Republic flag"/>In September 2009, Methane to Markets expanded into the  Caribbean with the admission of the Dominican Republic into the  Partnership. The Dominican Republic will be the Partnership's <a href="../partners/index.aspx">31st Partner  Government</a> and its representatives will join the <a href="../agriculture/index.aspx">Agriculture</a> and <a href="../landfills/index.aspx">Landfills</a> Subcommittees. Dominican representatives are looking to reduce methane  emissions in the sugar, fruit processing, swine, and dairy sectors. </p>
+
+            
+            
+    <h2 id="five">Mumbai Landfill Awarded Advanced Carbon Credits</h2>
+           
+<p>For the first time in India, thanks to the market for carbon credits, a landfill   has been transformed into an asset for the local community. The Gorai Landfill,   outside Mumbai, has earned US $5.2 million for 26 carbon credits for captured   gas, 70 percent of which are estimated to be  methane. Although the methane is currently flared, local officials plan to  reuse it to generate electricity. The municipal corporation of Mumbai signed an  Emission Reduction Purchase Agreement with the <a href="http://www.adb.org/">Asian  Development Bank</a> <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative"><img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a> for future delivery of carbon credits. The carbon credits are  determined by the estimated reduction of emissions of greenhouse gases from the  capped landfill. Methane and other greenhouse gases are the product of 35 years  and 2.3 million tons of accumulated solid waste at the site that break down and  are collected by a network of pipes. In addition to addressing the  environmental problems related to the disposal of waste, the capture and reuse  of gas at the Gorai Landfill provides a local source of energy as well as  revenue from the carbon credits. The initial feasibility study for this project was funded by the U.S. Agency for International Development and the U.S. EPA provided additional technical support to the municipality.</p>
+
+                
+                
+<h2 id="six">Climate Action Releases Coal Mine Methane Protocol</h2>
+            	<p>In October 2009, the <a href="http://www.climateactionreserve.org/">Climate Action Reserve</a> released  the <a href="http://www.climateactionreserve.org/wp-content/uploads/2009/10/Coal-Mine-Methane-Project-Protocol-Version-1.0.pdf">Coal  Mine Methane (CMM) Project Protocol</a> (PDF, 75 pp., 775 KB) <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative"><img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>. The CMM Project Protocol provides a  standardized approach for quantifying, monitoring, and verifying the greenhouse  gas reductions from projects at active underground coal mines in the United States. The  protocol includes guidance for ventilation air methane projects and  non-pipeline drainage projects.</p>
+
+                
+                
+<h2 id="seven">Methane to Markets Redesigns Web Site</h2>
+            	<p><img src="/images/mi15_home_screenshot.gif" class="right" alt="Homepage screenshot"/>The new <a href="../index.aspx">Methane to Markets Web site</a> is live! With so many activities taking place in Methane to Markets Partner Governments across all sectors, the new Web site enables individuals to easily  find the information and resources that are most relevant and in different languages.  Note these improvements:</p>
+                <ul>
+                  <li>More pages now available in different languages </li>
+                  <li>Improved access to Partner information</li>
+                  <li>New content, such as success stories, events,  and current news</li>
+                  <li>Easier sector-specific information and  navigation</li>
+                </ul>
+
+
+
+<h2 id="eight">U.S. Government Documents Its Partnership Accomplishments</h2> 
+	<p><img src="/images/mi15_accomp_rep_cover.gif" class="right" alt="Accomplishments Report Cover"/>Proud of its accomplishments with and participation in the  Partnership, the United    States released its fourth annual <em><a href="http://www.epa.gov/methanetomarkets/accompreport.htm">U.S. Government's Methane to Markets Partnership Accomplishments Report</a></em> <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative"><img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a> in October 2009.  The report summarizes the contributions U.S. government agencies have made to the Partnership during 2008 and since the launch of the Partnership in November  2004, including specific steps taken to dismantle barriers and advance project  development internationally. U.S.-supported Methane to Markets projects  delivered methane emissions reductions of more than 26 million metric tons of  carbon dioxide equivalent, roughly the annual greenhouse gas emissions from 4.7  million passenger vehicles.</p>
+
+          
+                
+                
+          <h2 id="nine"><em>Partnership Accomplishments Report</em> Forthcoming!</h2>
+           <p>We are pleased to  announce that the <em>Partnership Accomplishments  Report</em> (PAR) will be ready soon! With plans to post the PAR online in  November 2009 and distribute it at the December 2009 <a href="http://en.cop15.dk/">United  Nations Framework Convention on Climate Change (UNFCCC) COP 15</a> <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative"><img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a> in Copenhagen, the  Partnership is delighted to make this resource available. Sincere thanks to all  of those who provided country data, submitted project information, and reviewed  drafts of the report.</p>
+
+                
+                
+          <h2 id="ten">Countdown to COP 15&mdash;Help Methane to Markets Have a Presence!</h2>
+           <p><img src="/images/mi15_cop15_logo.gif" class="right" alt="COP 15 logo"/>The <a href="http://en.cop15.dk/">UNFCCC COP 15</a> <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative"><img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>, will  take place from 7 to 18 December 2009 in Copenhagen, Denmark. Methane  to Markets will be there, but help is needed to boost the presence of the Partnership  at the most important climate change meeting of the year. If you will be at the  COP and would like to display Partnership materials, please contact the <a href="../asg.aspx">ASG</a>.  Also, please come to the Methane to Markets side event that will be held in the  U.S. Pavilion on Wednesday, 9 December from 9-10 a.m. Methane to Markets representatives  from Partner Governments will be attending and providing updates to the Methane  to Markets community through the <a href="../index.aspx">Web site</a>, <a href="http://www.facebook.com/home.php?#/pages/Washington-DC/Methane-to-Markets-Partnership/124605893144?ref=nf">the  Methane to Markets Facebook page</a> <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative"><img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>, and future editions of this <a href="index.aspx">newsletter</a>.</p>
+
+                
+                
+<h2 id="eleven">Recent Developments</h2>
+           <ul>
+       		    <li><strong>CMM Report Published.</strong> In January 2009, the <a href="http://www.arena-eco.com/">Agency for Rational Energy Use and Ecology</a> <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative"><img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a> and <a href="http://www.battelle.org/">Battelle Memorial Institute</a> <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative"><img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a> published <em><a href="http://www.epa.gov/cmop/docs/analysis_best_practices.pdf">Analysis of International Best Practices for Coal Mine Methane Recovery and Utilization</a></em> (PDF 14 pp., 84 KB) <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative"><img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>. The report aims to address the barriers to CMM project development in Ukraine. It also provides an overview of other countries' successful polices and institutional choices that have led to significant reductions in global CMM emissions. The document highlights regulatory provisions, economic and financial incentives, CMM stakeholders, outreach programs, and CMM/coalbed methane utilization technologies that are seen as &quot;best practices&quot; in several different countries.</li>
+           <li><strong>Methane to Markets Landfill Gas (LFG) Workshop       Productive and Publicized.</strong> In August 2009, Methane to Markets held a       training workshop on LFG in Colombia in conjunction with the       Ninth International Congress on Solid Waste, an international conference       that brings together government officials and solid waste management       professionals from around the world. More than 50 participants attended       the workshop, including landfill and solid waste officials representing       several municipalities in Colombia.       In addition to the workshop, Methane to Markets held successful meetings       with the <a href="http://www.minambiente.gov.co/">Colombian Ministry of       Environment</a> <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative"><img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a> and the Federal Superintendent of Public Services to       discuss plans for continued collaboration under the Partnership. In       September, Colombia's <em>La Republica</em> published <a href="http://www.larepublica.com.co/archivos/MACRO/2009-08-15/promueven-investigacion-para-uso-beneficio-de-biogas-de-rellenos-sanitarios_80991.php">an       article</a> <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative"><img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>, written in Spanish, discussing ongoing efforts in Colombia to capture and use methane at four       landfills and the future development of a new U.S. EPA landfill methane       model for Colombia.       The article also mentions Colombia's       participation under Methane to Markets, along with additional activities       in the solid waste arena.</li>
+           
+           <li><strong>Methane to Markets Visits Argentina.</strong> In September 2009, Methane to Markets participated in a panel at the       Latin America Mayor's Summit.       The summit was held in conjunction with the <a href="http://www.iswa.org/web/guest/home">International Solid Waste       Association</a> <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative"><img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a> conference. The conference was attended by mayors and       municipal officials throughout Latin America.       Methane to Markets also participated in a Landfill Operations and Management       Training Workshop in Salta,        Argentina.       The workshop was hosted by Methane to Markets grantee <a href="http://www.ars.org.ar/">Association for Solid Waste</a> <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative"><img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>. The       objective of the training workshop was to share information about how to       improve the overall conditions of a landfill as well as improving the       feasibility of LFG projects. </li>
+           
+           <li><a href="/images/mi15_brazil_seminar2.jpg" class="lightbox"><img src="/images/mi15_brazil_seminar.jpg" class="right" alt="(From left to right: 
+Chris Godlove, EPA Landfill Methane Outreach Program; Laura Valente de Macedo, ICLEI - Local Governments for Sustainability Latin America and the Caribbean Secretariat (LACS); Carlos Vicente Bernardoni Gon&ccedil;alves, DMLU – Municipal Department of Urban Cleaning - Municipality of Porto Alegre)" title="(From left to right: 
+Chris Godlove, EPA Landfill Methane Outreach Program; Laura Valente de Macedo, ICLEI - Local Governments for Sustainability Latin America and the Caribbean Secretariat (LACS); Carlos Vicente Bernardoni Gon&ccedil;alves, DMLU – Municipal Department of Urban Cleaning - Municipality of Porto Alegre)" /></a><strong>Methane to Markets Attends Brazilian Seminar.</strong> In September 2009, Methane to Markets attended <a href="http://www.icleiusa.org/blog/archive/2009/09/24/cities-sharing-clean-energy-best-practices-in-brazil">Energy       Efficiency and Renewable Energy in Brazilian Cities</a> <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative"><img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a> in Porto Alegre, Brazil. The event was sponsored by <a href="http://www.iclei.org/">Local Governments for Sustainability (ICLEI)</a> <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative"><img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>. It brought together more than 60 participants from key Brazilian institutions and focused on exploring Brazilian examples of successful LFG projects as well as the challenges of developing these projects. Breakout sessions centered on discussions and action-planning with municipalities currently exploring LFG project opportunities. Highlights of these discussions will be incorporated into a best practices guide for Brazilian municipalities, which ICLEI is developing with Methane to Markets grant funding.</li>
+           
+           <li><strong>Landfill Methane to Markets Workshop       in Ukraine</strong>.       In September 2009, a Landfill Methane to Markets Workshop was held in Kiev, Ukraine.       The workshop was organized and hosted by <a href="http://www.biomass.kiev.ua/">Ukraine's Scientific Engineering Center       Biomass</a> <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative"><img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a> with support from the U.S. EPA and the <a href="http://www.menr.gov.ua/cgi-bin/go?page=10&amp;type=left">Ministry       of Environment Protection of Ukraine</a> <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative"><img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>. The workshop provided Ukrainian       stakeholders training on LFG basics and the potential for LFG projects in Ukraine.       Topics included LFG systems and technology applications, potential for LFG       projects in Ukraine,       and the new Ukraine Landfill Gas Model. <a href="http://www.epa.gov/lmop/">U.S.       EPA's Landfill Methane Outreach Program</a> gave an introductory       presentation and discussed the experience of the Methane to Markets Partnership       in promoting LFG projects.</li>
+           
+           <li><strong>U.S. EPA's Coalbed Methane Outreach Program (CMOP) Releases CMM Report.</strong> In September 2009, CMOP released <em><a href="http://www.epa.gov/cmop/docs/cmm_primer.pdf">Coal Mine       Methane Recovery: A Primer</a></em> (PDF, 72 pp., 2.7 MB) <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative"><img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>. The report reviews the main pre-mining       and post-mining CMM drainage methods with associated costs, water disposal       options, and in-mine and surface gas collection systems.This report primarily includes       examples from the two countries with the most developed CMM industries, Australia and the United States.       The intended audiences are potential investors in CMM projects and project       developers seeking an overview of the basic technical details of CMM       drainage methods and projects. </li>
+           
+           <li><strong>U.S. EPA's Natural Gas STAR Program Delivers Results.</strong> In September       2009, Natural Gas STAR issued its <em><a href="http://www.epa.gov/gasstar/newsroom/partnerupdatefall09.html">Fall Partner Update</a></em> <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative"><img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>, which       included an article describing the program's success in reducing methane       emissions. International Partners, in their second year of reporting,       recorded over 51 billion cubic feet of methane emissions reductions in       2008. These voluntary emissions reductions demonstrate the continued       effectiveness of information sharing and technology transfer among       worldwide partners within the program.</li>
+           
+           <li><strong><em>New       York Times</em> Addresses Methane Emissions From Oil and Gas Systems.</strong> In October 2009, <em>The New York Times </em>published       &quot;<a href="http://www.nytimes.com/2009/10/15/business/energy-environment/15degrees.html?_r=2&amp;hp=&amp;adxnnl=1&amp;adxnnlx=1255608704-vZ8zGcWAnacVWA/txVcxcA">Curbing       Emissions by Sealing Gas Leaks</a> <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative"><img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>,&quot; a front-page article detailing the       importance of curbing methane emissions from leaks in the oil and gas       industry. Methane to Markets is cited as providing pathways for businesses       to cut methane emissions, increase profits, and combat climate change.</li>
+           
+           <li><strong>Methane to Markets Attends 24th World       Gas Conference.</strong> In October 2009, representatives from <a href="http://www.epa.gov/gasstar/">Natural Gas STAR</a>  <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative"><img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a> and Methane to       Markets attended the <a href="http://www.wgc2009.com/">24th World Gas Conference</a> in Buenos Aires, Argentina. Natural Gas STAR and       Methane to Markets presented a poster and exhibited a paper which won       &quot;Best Paper&quot; at the conference. Entitled &quot;Methane's Role in Promoting       Sustainable Development in the Oil and Natural Gas Industry,&quot; the paper       was developed in collaboration with <a href="http://www.pemex.com/index.cfm">PEMEX</a>  <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative"><img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>, <a href="http://www.pluspetrol.net/">Pluspetrol</a>  <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative"><img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>, <a href="http://www.gazprom.com/">Gazprom</a>, and <a href="http://www.encana.com/">EnCana</a>. It showcased the environmental       and economic benefits of successful methane emissions reduction projects       and highlighted projects that focused on changing operational practices,       installing new production equipment, and optimizing natural gas processing       and transmission procedures. </li>
+           
+           <li><strong>S&atilde;o Paolo Approves State Climate       Change Bill.</strong> In October 2009, Brazil's most populous state approved       a landmark State Policy Climate Change Bill, a <a href="http://www.cetesb.sp.gov.br/Tecnologia/draft_climate.pdf">draft</a> (PDF, 25 pp., 494 KB) <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative"><img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a> of which is posted online. The policy includes significant provisions,       including an ambitious target of 20 percent reductions of greenhouse gases       from a base year of 2005 by 2020. Under the policy, the state will       inventory anthropogenic emissions by sources using nationally and       internationally comparable methodologies, establish regional plans for mitigation       and adaptation, and promote technology transfer, scientific cooperation,       and education, training, and public awareness. Jos&eacute; Serra, the Governor of       S&atilde;o Paolo, is expected to sign the bill in November 2009 before the <a href="http://unfccc.int/meetings/items/4749.php">UNFCCC's COP 15</a> <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative"><img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>.</li>
+           </ul>                     
+                
+     <p><a href="mailto:secretariat@globalmethane.org">Send in your announcement</a> for our next quarterly issue. Also, visit the <a href="index.aspx">news and events page</a> for information on past Methane to Markets' gatherings.</p>		
+		
+		</div>
+	</section>
+	
+	<button onclick="topFunction()" class="btn btn-dark btn-sm" id="btnToTop" title="Go to top"><i class="fa fa-chevron-up" aria-hidden="true"></i> Top</button>
+	
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'en',
+                layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+            }, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+    </script>
+    <script>
+        $('.translateText').click(function () {
+            $("#languageWidget").css("display", "block");
+            $(".hider").slideToggle();
+        });
+    </script>
+
+	
+	<script>
+    //Get the button
+    var mybtnToTop = document.getElementById("btnToTop");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybtnToTop.style.display = "block";
+      } else {
+        mybtnToTop.style.display = "none";
+      }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    </script>
+	
+</body>
+
+</html>

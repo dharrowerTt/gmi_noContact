@@ -1,0 +1,166 @@
+﻿<%@ Master Language="vb" AutoEventWireup="false" CodeBehind="MasterPage.master.vb" Inherits="M2M_Redesign.MasterPage" %>
+
+<!DOCTYPE html>
+<html lang="en">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>
+        <asp:ContentPlaceHolder ID="PageTitle" runat="server" />
+    </title>
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <style>
+        body {
+            display: flex;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        .sidebar {
+            min-width: 250px;
+            max-width: 250px;
+            height: 100vh;
+            background-color: #343a40;
+            color: #fff;
+            position: fixed;
+            transition: all 0.3s;
+        }
+
+        .sidebar.collapsed {
+            min-width: 80px;
+            max-width: 80px;
+        }
+
+        .sidebar h2 {
+            margin: 0;
+            padding: 15px;
+            text-align: center;
+            background-color: #495057;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .sidebar h2:hover {
+            background-color: #6c757d;
+        }
+
+        .sidebar.collapsed h2 {
+            font-size: 24px;
+        }
+
+        .sidebar a {
+            color: #fff;
+            text-decoration: none;
+            padding: 15px;
+            display: block;
+            transition: opacity 0.3s;
+        }
+
+        .sidebar.collapsed a {
+            opacity: 0;
+            pointer-events: none;
+        }
+
+        .content {
+            margin-left: 250px;
+            padding: 20px;
+            flex-grow: 1;
+            overflow-y: auto;
+            transition: margin-left 0.3s;
+        }
+
+        .content.collapsed {
+            margin-left: 80px;
+        }
+
+        /* Responsive behavior for smaller screens */
+        @media (max-width: 768px) {
+            .sidebar {
+                min-width: 80px;
+                max-width: 80px;
+            }
+
+            .content {
+                margin-left: 80px;
+            }
+
+            .sidebar.collapsed {
+                display: none;
+            }
+
+            .content.collapsed {
+                margin-left: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="sidebar" class="sidebar">
+        <h2 id="sidebar-header" onclick="toggleSidebar()">Admin Panel</h2>
+        <nav>
+            <asp:Panel ID="navHome" runat="server">
+                <a href="index.aspx">Home</a>
+            </asp:Panel>
+            <asp:Panel ID="navCommsManagement" runat="server">
+                <a href="comms.aspx">Comms Management</a>
+            </asp:Panel>
+            <asp:Panel ID="navEventManagement" runat="server">
+                <a href="events.aspx">Event Management</a>
+            </asp:Panel>
+            <asp:Panel ID="navEvents" runat="server">
+                <a href="events-resources.aspx">Events/Resource Data</a>
+            </asp:Panel>
+            <asp:Panel ID="navDashboard" runat="server">
+                <a href="dashboard.aspx">PN Dashboard</a>
+            </asp:Panel>
+            <asp:Panel ID="navPartnerCountries" runat="server">
+                <a href="pc-edit.aspx">Partner Countries</a>
+            </asp:Panel>
+            <asp:Panel ID="navCaseStudies" runat="server">
+                <a href="case-studies.aspx">Case Studies</a>
+            </asp:Panel>
+            <asp:Panel ID="navCaseStudyFeatures" runat="server">
+                <a href="case-studies-featured.aspx">Case Study Features</a>
+            </asp:Panel>           
+            <asp:Panel ID="navSocialMedia" runat="server">
+                <a href="social-media.aspx">Social Media</a>
+            </asp:Panel>
+            <asp:Panel ID="navSiteBannerAdmin" runat="server" Visible="false">
+                <a href="nav-banner-edit.aspx">Site Banner Admin</a>
+            </asp:Panel>
+            <asp:Panel ID="navSectorHomePages" runat="server" Visible="false">
+                <a href="sector-edits.aspx">Sector Home Pages</a>
+            </asp:Panel>
+            <asp:PlaceHolder ID="phUserManagement" runat="server">
+                <asp:Panel ID="navUserManagement" runat="server">
+                    <a href="users.aspx">User Management</a>
+                </asp:Panel>
+            </asp:PlaceHolder>
+        </nav>
+    </div>
+    <div id="content" class="content">
+        <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        function toggleSidebar() {
+            const sidebar = document.getElementById('sidebar');
+            const content = document.getElementById('content');
+            const header = document.getElementById('sidebar-header');
+
+            sidebar.classList.toggle('collapsed');
+            content.classList.toggle('collapsed');
+
+            if (sidebar.classList.contains('collapsed')) {
+                header.innerHTML = '☰'; // Change to hamburger icon
+            } else {
+                header.innerHTML = 'Admin Panel'; // Change back to header text
+            }
+        }
+    </script>
+</body>
+</html>

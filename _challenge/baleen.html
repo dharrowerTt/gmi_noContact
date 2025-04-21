@@ -1,0 +1,204 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/dd7fc261ae.js"></script>
+    <style>
+        body {
+            background: #1695be;
+        }
+
+        .tooltip:hover span {
+            opacity: 1;
+            filter: alpha(opacity=100);
+            top: -6em;
+            left: 20em;
+            z-index: 99;
+            -webkit-transition: all 0.2s ease;
+            -moz-transition: all 0.2s ease;
+            -o-transition: all 0.2s ease;
+            transition: all 0.2s ease;
+        }
+
+        .homearea {
+            position: fixed;
+            bottom: 10px;
+            left: 10px;
+        }
+
+        .homearea:hover {
+            cursor: pointer;
+        }
+
+        .box b {
+            color: #fff;
+        }
+
+        .tooltip span {
+            background: none repeat scroll 0 0 #222;
+            /*-- some basic styling */
+            color: #F0B015;
+            font-family: 'Helvetica';
+            font-size: 0.8em;
+            font-weight: normal;
+            line-height: 1.5em;
+            padding: 16px 15px;
+            width: 240px;
+            top: -4em;
+            /*-- this is the original position of the tooltip when it's hidden */
+            left: 20em;
+            margin-left: 0;
+            /*-- set opacity to 0 otherwise our animations won't work */
+            opacity: 0;
+            filter: alpha(opacity=0);
+            position: absolute;
+            text-align: center;
+            z-index: 2;
+            text-transform: none;
+            -webkit-transition: all 0.3s ease;
+            -moz-transition: all 0.3s ease-in-out;
+            -o-transition: all 0.3s ease;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .tooltip span:after {
+            border-color: #222 rgba(0, 0, 0, 0);
+            border-style: solid;
+            border-width: 15px 15px 0;
+            bottom: -15px;
+            content: "";
+            display: block;
+            left: 31px;
+            position: absolute;
+            width: 0;
+        }
+
+        .callout {
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-top: 10px;
+            background: #f3d5b3;
+            border-radius: 4px;
+
+            width: 100%;
+            margin-bottom: 15px;
+
+        }
+
+
+        .imgtbl {
+            width: 100%;
+            background: #CAEBF2;
+            margin-bottom: 15px;
+        }
+
+        .imgtbl img {
+            padding: 10px;
+            width: 100%;
+        }
+
+        .subtitle td {
+            font-size: 10px;
+            text-align: center;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="homearea">
+        <a class="btn btn-danger" href="http://globalmethane.org/challenge/index.aspx#actionmap">
+            <i class="fa fa-arrow-left fa-lg"></i> Back to the map
+        </a>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-0 col-md-2"></div>
+            <div class="col-sm-12 col-md-8" style="background:white;">
+                <img src="images/canada_baleen.png" style="width:100%" />
+                <h2>
+                    Baleen International, Inc.&nbsp;
+                    <!--<a class="btn btn-primary" href="pdf/SourceFacility_Biocity_Profile.pdf"
+                        aria-label="Download the PDF">
+                        <i class="fa fa-download" aria-hidden="true"></i>
+                    </a>-->
+                </h2>
+                <p>
+                    <div class="callout">
+                        <strong>Baleen International, Inc.</strong> and <strong>VOsPS, Inc.</strong> are partnering to
+                        develop waste-to-energy
+                        infrastructure and technology to recycle waste. The alliance presents an immediate scalable
+                        opportunity to help urban populations utilize waste, generate electric power, and reduce
+                        greenhouse gas emissions.
+                    </div>
+                    <p>Integrated UTOC-Baleen plants offer a transformative change in how population wastes are
+                        recycled. </p>
+                    <ul>
+                        <li>Baleen is an engineered adaptation of the natural technique used by whales of the same name.
+                            It uses novel counter clearing flow principles that sustain filtration without downtime,
+                            aptly recovering virtually all waste from wastewater. </li>
+                        <li>UTOC is a simple 2-stage thermal process that, without requirement for supplemental fossil
+                            fuel or thermal energy, vaporizes and oxidizes all organic fractions with a stoichiometric
+                            quantity of air without release of carbon monoxide or contentious ash.</li>
+                    </ul>
+                    <img src="images/baleen/img01.jpg"
+                        style="float:right; max-width:30%; padding-left:15px;padding-bottom:15px;">
+                    <p>Baleen recovers the waste from water for conversion into energy, enabling fit-for-purpose water
+                        re-use (via inline oxidation/disinfection) in a sustainable manner to eliminate the need for
+                        energy-consumable intensive biological treatment and sludge handling. With UTOC providing a key partner
+                        technology, a complete system approach delivers sufficient energy to power Baleen’s entire
+                        infrastructure including ancillary water re-use distribution networks.</p>
+                    <p>For example, a Baleen-UTOC plant designed to serve a population of 100,000 people could provide a
+                        modular, containerized solution capable of reclaiming approximately 20,000 tons per day (tpd) of
+                        water fit for horticulture, while converting 200 tpd of garbage and 63 tpd of wastewater
+                        screenings (263 tpd Total) into 33 MW of thermal energy per hour and 1 ton per hour of sterile,
+                        organic free ash. Additionally, the resulting hot gas could produce steam to generate 10MW
+                        per hour of electricity and supply onsite heating.</p>
+                    <p>Compared to landfill disposal, this process is estimated to reduce approximately 167,500
+                        CO<sub>2</sub>e per year in addition to the environmental and energy benefits of not having to
+                        operate and maintain a conventional biological sewage treatment plant with equivalent capacity.
+                        Accordingly, this transformative process technology presents a unique solution to offset global
+                        CO<sub>2</sub>e emissions and produce significant amounts of energy.</p>
+
+
+                    <hr>
+                    <!--     <a href="pdf/SourceFacility_Biocity_Profile.pdf" class="btn btn-primary btn-block">Download The
+                        PDF</a>
+                    <hr>-->
+            </div>
+            <div class="col-sm-0 col-md-2"></div>
+        </div>
+    </div>
+    <script>
+        $(document).ready(function () {
+            $('[data-toggle="popover"]').popover({
+                container: '.container'
+            });
+
+            $('body').on('click', function (e) {
+                $('[data-toggle=popover]').each(function () {
+                    // hide any open popovers when the anywhere else in the body is clicked
+                    if (!$(this).is(e.target) && $(this).has(e.target).length === 0 && $(
+                            '.popover').has(e.target).length === 0) {
+                        $(this).popover('hide');
+                    }
+                });
+            });
+
+        });
+    </script>
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+</body>
+
+</html>

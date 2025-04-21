@@ -1,0 +1,10 @@
+syntax: glob
+*.pdf
+obj/
+*.doc
+*.mp4
+documents/
+*.MOV
+*.mov
+attachments/
+images/doc_thumbs/JPEG/

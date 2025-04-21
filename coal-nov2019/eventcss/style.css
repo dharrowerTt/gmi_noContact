@@ -1,0 +1,59 @@
+﻿.navbar{
+    background: #f15c54!important;
+    border-bottom: 2px solid #481b19!important;
+  
+  }
+
+  .nav-item{
+      margin-right:7px;
+  }
+
+  @media only screen and (min-width: 768px){
+
+.nav-link{
+    border: 1px solid #481b19!important;
+
+}
+
+  .nav-link:hover {
+    border-radius: 4px!important;
+    background: #481b19!important;
+
+  }
+
+}
+
+legend {
+    font-size: 1.2em;
+    font-weight: bold;
+    background: #f15c54;
+    color: white;
+    padding: 0.2em 1em;
+    border: 1px solid #481b19;
+    border-radius: 5px;
+}
+
+fieldset{
+    border:1px solid #481b19;
+}
+
+#eventbanner {
+    background-image: url(../eventimages/eventimage.jpg);
+    background-color: #232323;
+    height: 350px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:#fafafa;
+}
+
+.btn-coal {
+    color: #fff;
+    background-color: #f15c54!important;
+    border: 1px solid #481b19!important;
+}
+
+.btn-coal:hover {
+    background-color: #481b19!important;
+    border: 1px solid #481b19!important;
+}

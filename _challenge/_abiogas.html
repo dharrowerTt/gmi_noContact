@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/dd7fc261ae.js"></script>
+    <style>
+        .aligncenter {
+            text-align: center;
+        }
+
+        body {
+            background: #1695be;
+        }
+
+        .tooltip:hover span {
+            opacity: 1;
+            filter: alpha(opacity=100);
+            top: -6em;
+            left: 20em;
+            z-index: 99;
+            -webkit-transition: all 0.2s ease;
+            -moz-transition: all 0.2s ease;
+            -o-transition: all 0.2s ease;
+            transition: all 0.2s ease;
+        }
+
+        .homearea {
+            position: fixed;
+            bottom: 10px;
+            left: 10px;
+        }
+
+        .homearea:hover {
+            cursor: pointer;
+        }
+
+        .box b {
+            color: #fff;
+        }
+
+        .tooltip span {
+            background: none repeat scroll 0 0 #222;
+            /*-- some basic styling */
+            color: #F0B015;
+            font-family: 'Helvetica';
+            font-size: 0.8em;
+            font-weight: normal;
+            line-height: 1.5em;
+            padding: 16px 15px;
+            width: 240px;
+            top: -4em;
+            /*-- this is the original position of the tooltip when it's hidden */
+            left: 20em;
+            margin-left: 0;
+            /*-- set opacity to 0 otherwise our animations won't work */
+            opacity: 0;
+            filter: alpha(opacity=0);
+            position: absolute;
+            text-align: center;
+            z-index: 2;
+            text-transform: none;
+            -webkit-transition: all 0.3s ease;
+            -moz-transition: all 0.3s ease-in-out;
+            -o-transition: all 0.3s ease;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .tooltip span:after {
+            border-color: #222 rgba(0, 0, 0, 0);
+            border-style: solid;
+            border-width: 15px 15px 0;
+            bottom: -15px;
+            content: "";
+            display: block;
+            left: 31px;
+            position: absolute;
+            width: 0;
+        }
+
+        .callout {
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-top: 10px;
+            background: #f3d5b3;
+            border-radius: 4px;
+
+            width: 100%;
+            margin-bottom: 15px;
+
+        }
+
+
+        .imgtbl {
+            width: 100%;
+            background: #CAEBF2;
+            margin-bottom: 15px;
+        }
+
+        .imgtbl img {
+            padding: 10px;
+            width: 100%;
+        }
+
+        .subtitle td {
+            font-size: 10px;
+            text-align: center;
+
+        }
+
+        table {
+            margin-top: 15px;
+            width: 100%;
+            border-collapse: collapse;
+            text-align: left;
+            overflow: hidden;
+            margin-bottom: 15px;
+        }
+
+        td,
+        th {
+            border-top: 1px solid #ECF0F1;
+            padding: 10px;
+        }
+
+        td {
+
+            border-right: 1px solid #ECF0F1;
+        }
+
+        th {
+            background-color: #4ECDC4;
+        }
+
+        tr:nth-of-type(even) td {
+            background-color: #ecf0f1;
+        }
+
+        .su-custom-gallery-slide {
+            float: left;
+        }
+
+        .su-custom-gallery-slide span {
+            display: none;
+        }
+
+        .su-custom-gallery-slide img {
+            margin: 10px;
+        }
+
+        .su-custom-gallery-slide img:hover {
+            border-bottom: 3px solid darkslategrey;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="homearea">
+        <a class="btn btn-danger" href="http://staging.globalmethane.org/challenge/index.aspx#actionmap">
+            <i class="fa fa-arrow-left fa-lg"></i> Back to the map
+        </a>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-0 col-md-2"></div>
+            <div class="col-sm-12 col-md-8" style="background:white;">
+                <img src="images/abiogas/abiogas_flag.jpg" style="width:100%" />
+                <h2>
+                    ABiogás&nbsp;
+                    <!--<a class="btn btn-primary" href="pdf/SourceFacility_Biocity_Profile.pdf"
+                        aria-label="Download the PDF">
+                        <i class="fa fa-download" aria-hidden="true"></i>
+                    </a>-->
+                </h2>
+                <p>
+                    <a href="https://abiogas.org.br/en/" target="_blank">ABiogás</a>
+                    is fostering the development of the biogas sector and
+                    <br>increasing the sector's share in the Brazilian energy matrix. <img
+                        src="images/abiogas/abiogas_logo.png" style="float:right;width:40%;padding-left:7px;">As a
+                    non-profit organization, ABiogás acts as a primary channel of communication between the energy
+                    sector, governmental institutions, and local organizations. ABiogás’ associates are public and
+                    private organizations that represent all of the links in the biogas value chain—from equipment
+                    suppliers to law firms—increasing direct information exchange between entities from numerous
+                    disciplines.
+                </p>
+
+                <h3>
+                    The Brazilian Energy Market: Current State and Future Directions &nbsp;
+                    <!--<a class="btn btn-primary" href="pdf/SourceFacility_Biocity_Profile.pdf"
+                            aria-label="Download the PDF">
+                            <i class="fa fa-download" aria-hidden="true"></i>
+                        </a>-->
+                </h3>
+
+                <p>As of 2019, there were approximately 400 installed biogas plants generating power from landfills,
+                    animal and agricultural waste, and forestry waste. Small-scale biogas plants represented 64 percent
+                    of the total number of active plants in Brazil. However, 82 percent of all biogas produced came from
+                    a few large-scale plants.
+                </p>
+                <p> In order to increase access to biogas and its necessary infrastructure beyond the coast of Brazil,
+                    the government developed new regulations.
+                    <ul>
+                        <li>In July 2019, the federal New Gas Market program was established to expand investments in
+                            natural gas processing, transportation, and distribution infrastructure. </li>
+                        <li>The RenovaBio National Biofuels Policy, which is expected go into effect in 2020, focuses
+                            on a policy that encourages decarbonization with a focus on fuels, certification of biofuels
+                            demonstrating the reduction of greenhouse gases, and trade of biofuel decarbonization
+                            credits.</li>
+                    </ul>
+
+                </p>
+
+                <h3>
+                    Recent Actions in Support of Advancing Biogas Use&nbsp;
+                    <!--<a class="btn btn-primary" href="pdf/SourceFacility_Biocity_Profile.pdf"
+                            aria-label="Download the PDF">
+                            <i class="fa fa-download" aria-hidden="true"></i>
+                        </a>-->
+                </h3>
+
+                <p>In 2019, ABiogás’ promoted the biogas sector in Brazil through the following actions:
+                    <ul>
+                        <li>Formulated legal frameworks for biogas policies at the national level</li>
+                        <li>Participated in country energy planning efforts led by the Brazilian Ministry of Mines
+                            and
+                            Energy</li>
+                        <li>Contributed to price formulation for biomethane in Brazilian states</li>
+                    </ul>
+
+                    Read more about ABiogás’ actions including their participation in industry events <a
+                        href="https://abiogas.org.br/en/category/setor/" target="_blank">here</a>.
+                    <div class="">
+                </p>
+   
+                <h3>
+                    ABiogás Associates&nbsp;
+                    <!--<a class="btn btn-primary" href="pdf/SourceFacility_Biocity_Profile.pdf"
+                        aria-label="Download the PDF">
+                        <i class="fa fa-download" aria-hidden="true"></i>
+                    </a>-->
+                </h3>
+                <p>
+                    Learn
+                    more about ABiogás’ associates <a href="https://abiogas.org.br/en/associados/"
+                        target="_blank">here</a>.
+                    <div class="">
+
+                </p>
+                <p>
+                    <div class="wpb_column vc_column_container vc_col-sm-12">
+                        <div class="vc_column-inner ">
+                            <div class="wpb_wrapper">
+                                <div class="wpb_text_column wpb_content_element ">
+                                    <div class="wpb_wrapper">
+                                        <div class="su-custom-gallery su-custom-gallery-title-never">
+                                            <div class="su-custom-gallery-slide"><a
+                                                    href="https://www.gruppoab.com/pt-br/" target="_blank"
+                                                    title="AB Energy"><img
+                                                        src="https://abiogas.org.br/wp-content/uploads/2019/04/AB-Energy.jpg"
+                                                        alt="AB Energy" width="150" height="150"><span
+                                                        class="su-custom-gallery-title">AB Energy</span></a></div>
+                                            <div class="su-custom-gallery-slide"><a href="http://acesaenergia.com.br/"
+                                                    target="_blank" title="Acesa"><img
+                                                        src="https://abiogas.org.br/wp-content/uploads/2019/04/Acesa.jpg"
+                                                        alt="Acesa" width="150" height="150"><span
+                                                        class="su-custom-gallery-title">Acesa</span></a></div>
+                                            <div class="su-custom-gallery-slide"><a href="http://apoloenergia.com.br/"
+                                                    target="_blank" title="Apolo"><img
+                                                        src="https://abiogas.org.br/wp-content/uploads/2019/04/Apolo.jpg"
+                                                        alt="Apolo" width="150" height="150"><span
+                                                        class="su-custom-gallery-title">Apolo</span></a></div>
+                                            <div class="su-custom-gallery-slide"><a
+                                                    href="https://www.airliquide.com/brazil" target="_blank"
+                                                    title="AIR LIQUIDE"><img
+                                                        src="https://abiogas.org.br/wp-content/uploads/2019/04/AIR_LIQUIDE.jpg"
+                                                        alt="AIR LIQUIDE" width="150" height="150"><span
+                                                        class="su-custom-gallery-title">AIR LIQUIDE</span></a></div>
+                                            <div class="su-custom-gallery-slide"><a
+                                                    href="http://www.andersenballao.com.br/" target="_blank"
+                                                    title="Andersen Ballão"><img
+                                                        src="https://abiogas.org.br/wp-content/uploads/2019/04/Andersen-Ballão.jpg"
+                                                        alt="Andersen Ballão" width="150" height="150"><span
+                                                        class="su-custom-gallery-title">Andersen Ballão</span></a>
+                                            </div>
+                                            <div class="su-custom-gallery-slide"><a href="https://www.aggreko.com/pt-br"
+                                                    target="_blank" title="Aggreko"><img
+                                                        src="https://abiogas.org.br/wp-content/uploads/2019/04/Aggreko.jpg"
+                                                        alt="Aggreko" width="150" height="150"><span
+                                                        class="su-custom-gallery-title">Aggreko</span></a></div>
+                                            <div class="su-custom-gallery-slide"><a href="http://www.amperia.com.br/"
+                                                    target="_blank" title="Ampéria"><img
+                                                        src="https://abiogas.org.br/wp-content/uploads/2019/04/Ampéria.jpg"
+                                                        alt="Ampéria" width="150" height="150"><span
+                                                        class="su-custom-gallery-title">Ampéria</span></a></div>
+                                            <div class="su-custom-gallery-slide"><a href="http://www.asja.energy/pt-br/"
+                                                    target="_blank" title="Asja"><img
+                                                        src="https://abiogas.org.br/wp-content/uploads/2019/04/Asja.jpg"
+                                                        alt="Asja" width="150" height="150"><span
+                                                        class="su-custom-gallery-title">Asja</span></a></div>
+                                            <div class="su-custom-gallery-slide"><a href="http://www.auma.com.br/"
+                                                    target="_blank" title="auma energia"><img
+                                                        src="https://abiogas.org.br/wp-content/uploads/2019/04/auma-energia.jpg"
+                                                        alt="auma energia" width="150" height="150"><span
+                                                        class="su-custom-gallery-title">auma energia</span></a>
+                                            </div>
+                                            <div class="su-custom-gallery-slide"><a href="https://www.awite.com/"
+                                                    target="_blank" title="Awite"><img
+                                                        src="https://abiogas.org.br/wp-content/uploads/2019/04/Awite.jpg"
+                                                        alt="Awite" width="150" height="150"><span
+                                                        class="su-custom-gallery-title">Awite</span></a></div>
+                                            <div class="su-custom-gallery-slide"><a
+                                                    href="https://www.facebook.com/BioConvert-1979741385423459/"
+                                                    target="_blank" title="BioConvert"><img
+                                                        src="https://abiogas.org.br/wp-content/uploads/2019/04/BioConvert.jpg"
+                                                        alt="BioConvert" width="150" height="150"><span
+                                                        class="su-custom-gallery-title">BioConvert</span></a></div>
+                                            <div class="su-custom-gallery-slide"><a><img
+                                                        src="https://abiogas.org.br/wp-content/uploads/2019/11/brasil-bio-200x200.jpg"
+                                                        alt="brasil-bio" width="150" height="150"><span
+                                                        class="su-custom-gallery-title">brasil-bio</span></a></div>
+                                            <div class="su-custom-gallery-slide"><a
+                                                    href="https://www14.castrolanda.coop.br/" target="_blank"
+                                                    title="Castrolanda"><img
+                                                        src="https://abiogas.org.br/wp-content/uploads/2019/04/Castrolanda.jpg"
+                                                        alt="Castrolanda" width="150" height="150"><span
+                                                        class="su-custom-gallery-title">Castrolanda</span></a></div>
+                                            <div class="su-custom-gallery-slide"><a
+                                                    href="https://www.cat.com/en_US/by-industry/electric-power-generation.html"
+                                                    target="_blank" title="Caterpillar"><img
+                                                        src="https://abiogas.org.br/wp-content/uploads/2019/04/Caterpillar.jpg"
+                                                        alt="Caterpillar" width="150" height="150"><span
+                                                        class="su-custom-gallery-title">Caterpillar</span></a></div>
+                                            <div class="su-custom-gallery-slide"><a
+                                                    href="https://www.catenaterritorial.com/" target="_blank"
+                                                    title="Catena"><img
+                                                        src="https://abiogas.org.br/wp-content/uploads/2019/04/Catena.jpg"
+                                                        alt="Catena" width="150" height="150"><span
+                                                        class="su-custom-gallery-title">Catena</span></a></div>
+                                            <div class="su-custom-gallery-slide"><a
+                                                    href="https://www.caterpillar.com/pt.html" target="_blank"
+                                                    title="Caterpillar Brasil"><img
+                                                        src="https://abiogas.org.br/wp-content/uploads/2019/07/Caterpillar-Brasil-200x200.jpg"
+                                                        alt="Caterpillar Brasil" width="150" height="150"><span
+                                                        class="su-custom-gallery-title">Caterpillar
+                                                        Brasil</span></a>
+                                            </div>
+                                            <div class="su-custom-gallery-slide"><a href="https://chpbrasil.com.br/home"
+                                                    target="_blank" title="chp_brasil"><img
+                                                        src="https://abiogas.org.br/wp-content/uploads/2019/06/chp_brasil-200x200.jpg"
+                                                        alt="chp_brasil" width="150" height="150"><span
+                                                        class="su-custom-gallery-title">chp_brasil</span></a></div>
+                                            <div class="su-custom-gallery-slide"><a href="http://www.ch4solution.com/"
+                                                    target="_blank" title="Biomethane"><img
+                                                        src="https://abiogas.org.br/wp-content/uploads/2019/04/Biomethane.jpg"
+                                                        alt="Biomethane" width="150" height="150"><span
+                                                        class="su-custom-gallery-title">Biomethane</span></a></div>
+                                            <div class="su-custom-gallery-slide"><a href="https://www.cibiogas.org/"
+                                                    target="_blank" title="CIBiogás"><img
+                                                        src="https://abiogas.org.br/wp-content/uploads/2019/04/CIBiogás.jpg"
+                                                        alt="CIBiogás" width="150" height="150"><span
+                                                        class="su-custom-gallery-title">CIBiogás</span></a></div>
+                                            <div class="su-custom-gallery-slide"><a href="http://www.clean.com.br/"
+                                                    target="_blank" title="Clean"><img
+                                                        src="https://abiogas.org.br/wp-content/uploads/2019/04/Clean.jpg"
+                                                        alt="Clean" width="150" height="150"><span
+                                                        class="su-custom-gallery-title">Clean</span></a></div>
+                                            <div class="su-custom-gallery-slide"><a href="http://www.cocal.com.br/"
+                                                    target="_blank" title="cocal"><img
+                                                        src="https://abiogas.org.br/wp-content/uploads/2019/09/cocal-200x200.jpg"
+                                                        alt="cocal" width="150" height="150"><span
+                                                        class="su-custom-gallery-title">cocal</span></a></div>
+                                            <div class="su-custom-gallery-slide"><a href="http://www.compagas.com.br/"
+                                                    target="_blank" title="Compagas"><img
+                                                        src="https://abiogas.org.br/wp-content/uploads/2019/04/Compagas.jpg"
+                                                        alt="Compagas" width="150" height="150"><span
+                                                        class="su-custom-gallery-title">Compagas</span></a></div>
+                                            <div class="su-custom-gallery-slide"><a href="http://www.convergas.com.br/"
+                                                    target="_blank" title="Convergas"><img
+                                                        src="https://abiogas.org.br/wp-content/uploads/2019/10/convergas-200x200.jpg"
+                                                        alt="convergas" width="150" height="150"><span
+                                                        class="su-custom-gallery-title">convergas</span></a></div>
+                                            <div class="su-custom-gallery-slide"><a
+                                                    href="https://www.copel.com/hpcopel/root/index.jsp" target="_blank"
+                                                    title="Copel"><img
+                                                        src="https://abiogas.org.br/wp-content/uploads/2019/04/Copel.jpg"
+                                                        alt="Copel" width="150" height="150"><span
+                                                        class="su-custom-gallery-title">Copel</span></a></div>
+                                            <div class="su-custom-gallery-slide"><a href="https://www.cummins.com.br/"
+                                                    target="_blank" title="Cummins"><img
+                                                        src="https://abiogas.org.br/wp-content/uploads/2019/04/Cummins.jpg"
+                                                        alt="Cummins" width="150" height="150"><span
+                                                        class="su-custom-gallery-title">Cummins</span></a></div>
+                                            <div class="su-custom-gallery-slide"><a
+                                                    href="http://ecotecco.com.br/homepage/" target="_blank"
+                                                    title="ecotec"><img
+                                                        src="https://abiogas.org.br/wp-content/uploads/2019/09/ecotec-200x200.jpg"
+                                                        alt="ecotec" width="150" height="150"><span
+                                                        class="su-custom-gallery-title">ecotec</span></a></div>
+                                            <div class="su-custom-gallery-slide"><a href="https://www.engie.com.br/en/"
+                                                    target="_blank" title="Engie"><img
+                                                        src="https://abiogas.org.br/wp-content/uploads/2019/04/Engie.jpg"
+                                                        alt="Engie" width="150" height="150"><span
+                                                        class="su-custom-gallery-title">Engie</span></a></div>
+                                            <div class="su-custom-gallery-slide"><a href="http://www.estre.com.br/"
+                                                    target="_blank" title="Estre"><img
+                                                        src="https://abiogas.org.br/wp-content/uploads/2019/04/Estre.jpg"
+                                                        alt="Estre" width="150" height="150"><span
+                                                        class="su-custom-gallery-title">Estre</span></a></div>
+                                            <div class="su-custom-gallery-slide"><a
+                                                    href="http://www.ecometano.com.br/ecometano/" target="_blank"
+                                                    title="Ecometano"><img
+                                                        src="https://abiogas.org.br/wp-content/uploads/2019/04/Ecometano.jpg"
+                                                        alt="Ecometano" width="150" height="150"><span
+                                                        class="su-custom-gallery-title">Ecometano</span></a></div>
+                                            <div class="su-custom-gallery-slide"><a href="https://www.enermac.com.br/"
+                                                    target="_blank" title="ENERMAC"><img
+                                                        src="https://abiogas.org.br/wp-content/uploads/2019/06/ENERMAC-200x200.jpg"
+                                                        alt="ENERMAC" width="150" height="150"><span
+                                                        class="su-custom-gallery-title">ENERMAC</span></a></div>
+                                            <div class="su-custom-gallery-slide"><a href="https://www.encenergy.com/en/"
+                                                    target="_blank" title="ENC Energy"><img
+                                                        src="https://abiogas.org.br/wp-content/uploads/2019/04/ENC-ENergy.jpg"
+                                                        alt="ENC Energy" width="150" height="150"><span
+                                                        class="su-custom-gallery-title">ENC Energy</span></a></div>
+                                            <div class="su-custom-gallery-slide"><a
+                                                    href="https://corporate.evonik.com/en/" target="_blank"
+                                                    title="Evonik"><img
+                                                        src="https://abiogas.org.br/wp-content/uploads/2019/04/Evonik.jpg"
+                                                        alt="Evonik" width="150" height="150"><span
+                                                        class="su-custom-gallery-title">Evonik</span></a></div>
+                                            <div class="su-custom-gallery-slide"><a href="http://ergostech.com.br/"
+                                                    target="_blank" title="Ergostech"><img
+                                                        src="https://abiogas.org.br/wp-content/uploads/2019/04/Ergostech.jpg"
+                                                        alt="Ergostech" width="150" height="150"><span
+                                                        class="su-custom-gallery-title">Ergostech</span></a></div>
+                                            <div class="su-custom-gallery-slide"><a href="http://www.erbr.com.br/"
+                                                    target="_blank" title="ER-BR"><img
+                                                        src="https://abiogas.org.br/wp-content/uploads/2019/04/ER-BR.jpg"
+                                                        alt="ER-BR" width="150" height="150"><span
+                                                        class="su-custom-gallery-title">ER-BR</span></a></div>
+                                            <div class="su-custom-gallery-slide"><a
+                                                    href="http://fazendacontinental.com.br/" target="_blank"
+                                                    title="Fazzenda Continental"><img
+                                                        src="https://abiogas.org.br/wp-content/uploads/2019/04/Faz.-Continental.jpg"
+                                                        alt="Fazzenda Continental" width="150" height="150"><span
+                                                        class="su-custom-gallery-title">Fazzenda
+                                                        Continental</span></a>
+                                            </div>
+                                            <div class="su-custom-gallery-slide"><a
+                                                    href="http://geraenergiabrasil.com.br/" target="_blank"
+                                                    title="Gera"><img
+                                                        src="https://abiogas.org.br/wp-content/uploads/2019/04/Gera.jpg"
+                                                        alt="Gera" width="150" height="150"><span
+                                                        class="su-custom-gallery-title">Gera</span></a></div>
+                                            <div class="su-custom-gallery-slide"><a href="http://greenlanebiogas.com/"
+                                                    target="_blank" title="Greenlane"><img
+                                                        src="https://abiogas.org.br/wp-content/uploads/2019/04/Greenlane.jpg"
+                                                        alt="Greenlane" width="150" height="150"><span
+                                                        class="su-custom-gallery-title">Greenlane</span></a></div>
+                                            <div class="su-custom-gallery-slide"><a
+                                                    href="http://www.geoenergetica.com.br/" target="_blank"
+                                                    title="Geo Energética"><img
+                                                        src="https://abiogas.org.br/wp-content/uploads/2019/04/Geo-Energétics.jpg"
+                                                        alt="Geo Energética" width="150" height="150"><span
+                                                        class="su-custom-gallery-title">Geo Energética</span></a>
+                                            </div>
+                                            <div class="su-custom-gallery-slide"><a
+                                                    href="https://www.ge.com/power/regions/south-america"
+                                                    target="_blank" title="GE Energy"><img
+                                                        src="https://abiogas.org.br/wp-content/uploads/2019/04/GE.jpg"
+                                                        alt="GE Energy" width="150" height="150"><span
+                                                        class="su-custom-gallery-title">GE Energy</span></a></div>
+                                            <div class="su-custom-gallery-slide"><a href="https://www.infineum.com/"
+                                                    target="_blank" title="Infineum"><img
+                                                        src="https://abiogas.org.br/wp-content/uploads/2019/04/Infineum.jpg"
+                                                        alt="Infineum" width="150" height="150"><span
+                                                        class="su-custom-gallery-title">Infineum</span></a></div>
+                                            <div class="su-custom-gallery-slide"><a
+                                                    href="http://www.haztec.com.br/solucoes-ambientais-completas/index.php"
+                                                    target="_blank" title="foxx"><img
+                                                        src="https://abiogas.org.br/wp-content/uploads/2019/07/foxx-200x200.jpg"
+                                                        alt="foxx" width="150" height="150"><span
+                                                        class="su-custom-gallery-title">foxx</span></a></div>
+                                            <div class="su-custom-gallery-slide"><a href="http://www.igas.com.br/"
+                                                    target="_blank" title="igas"><img
+                                                        src="https://abiogas.org.br/wp-content/uploads/2019/10/igas-200x200.jpg"
+                                                        alt="igas" width="150" height="150"><span
+                                                        class="su-custom-gallery-title">igas</span></a></div>
+                                            <div class="su-custom-gallery-slide"><a href="https://www.itaipu.gov.br/"
+                                                    target="_blank" title="Itaipu Binacional"><img
+                                                        src="https://abiogas.org.br/wp-content/uploads/2019/04/Itaipu-Binacional.jpg"
+                                                        alt="Itaipu Binacional" width="150" height="150"><span
+                                                        class="su-custom-gallery-title">Itaipu Binacional</span></a>
+                                            </div>
+                                            <div class="su-custom-gallery-slide"><a href="http://januspergher.com.br/"
+                                                    target="_blank" title="Janus &amp; Pergher"><img
+                                                        src="https://abiogas.org.br/wp-content/uploads/2019/04/Janus.jpg"
+                                                        alt="Janus &amp; Pergher" width="150" height="150"><span
+                                                        class="su-custom-gallery-title">Janus &amp;
+                                                        Pergher</span></a>
+                                            </div>
+                                            <div class="su-custom-gallery-slide"><a href="http://lanxess.com.br/"
+                                                    target="_blank" title="Lanxess"><img
+                                                        src="https://abiogas.org.br/wp-content/uploads/2019/04/Lanxess.jpg"
+                                                        alt="Lanxess" width="150" height="150"><span
+                                                        class="su-custom-gallery-title">Lanxess</span></a></div>
+                                            <div class="su-custom-gallery-slide"><a
+                                                    href="http://www.lewa.com.br/pt/home/" target="_blank"
+                                                    title="LEWA"><img
+                                                        src="https://abiogas.org.br/wp-content/uploads/2019/04/LEWA_Logo_Colour_Gradient_RGB.jpg"
+                                                        alt="LEWA" width="150" height="150"><span
+                                                        class="su-custom-gallery-title">LEWA</span></a></div>
+                                            <div class="su-custom-gallery-slide"><a
+                                                    href="https://lonjastec.es/index.php/pt/" target="_blank"
+                                                    title="Lonjas"><img
+                                                        src="https://abiogas.org.br/wp-content/uploads/2019/04/Lonjas-200x200.jpg"
+                                                        alt="Lonjas" width="150" height="150"><span
+                                                        class="su-custom-gallery-title">Lonjas</span></a></div>
+                                            <div class="su-custom-gallery-slide"><a href="https://www.luming.com.br/"
+                                                    target="_blank" title="luming"><img
+                                                        src="https://abiogas.org.br/wp-content/uploads/2019/08/luming-200x200.jpg"
+                                                        alt="luming" width="150" height="150"><span
+                                                        class="su-custom-gallery-title">luming</span></a></div>
+                                            <div class="su-custom-gallery-slide"><a href="http://www.grupomares.com.br/"
+                                                    target="_blank" title="mares"><img
+                                                        src="https://abiogas.org.br/wp-content/uploads/2019/11/mares-200x200.jpg"
+                                                        alt="mares" width="150" height="150"><span
+                                                        class="su-custom-gallery-title">mares</span></a></div>
+                                            <div class="su-custom-gallery-slide"><a
+                                                    href="http://www.maadienergia.com.br/" target="_blank"
+                                                    title="maadi"><img
+                                                        src="https://abiogas.org.br/wp-content/uploads/2019/06/maadi-200x200.jpg"
+                                                        alt="maadi" width="150" height="150"><span
+                                                        class="su-custom-gallery-title">maadi</span></a></div>
+                                            <div class="su-custom-gallery-slide"><a
+                                                    href="http://www.marinsbertoldi.com.br/" target="_blank"
+                                                    title="Marins Bertoldi"><img
+                                                        src="https://abiogas.org.br/wp-content/uploads/2019/04/Marins-Bertoldi.jpg"
+                                                        alt="Marins Bertoldi" width="150" height="150"><span
+                                                        class="su-custom-gallery-title">Marins Bertoldi</span></a>
+                                            </div>
+                                            <div class="su-custom-gallery-slide"><a href="http://www.newholland.com.br/"
+                                                    target="_blank" title="New Holland"><img
+                                                        src="https://abiogas.org.br/wp-content/uploads/2019/04/New-Holland.jpg"
+                                                        alt="New Holland" width="150" height="150"><span
+                                                        class="su-custom-gallery-title">New Holland</span></a></div>
+                                            <div class="su-custom-gallery-slide"><a href="https://br.paques.nl/"
+                                                    target="_blank" title="Paques"><img
+                                                        src="https://abiogas.org.br/wp-content/uploads/2019/04/Paques.jpg"
+                                                        alt="Paques" width="150" height="150"><span
+                                                        class="su-custom-gallery-title">Paques</span></a></div>
+                                            <div class="su-custom-gallery-slide"><a href="https://union.dk/"
+                                                    target="_blank" title="Pentair"><img
+                                                        src="https://abiogas.org.br/wp-content/uploads/2019/04/Pentair.jpg"
+                                                        alt="Pentair" width="150" height="150"><span
+                                                        class="su-custom-gallery-title">Pentair</span></a></div>
+                                            <div class="su-custom-gallery-slide"><a href="https://www.raizen.com.br/"
+                                                    target="_blank" title="Raízen"><img
+                                                        src="https://abiogas.org.br/wp-content/uploads/2019/04/Raízen.jpg"
+                                                        alt="Raízen" width="150" height="150"><span
+                                                        class="su-custom-gallery-title">Raízen</span></a></div>
+                                            <div class="su-custom-gallery-slide"><a href="https://www.recolast.com.br/"
+                                                    target="_blank" title="recolast"><img
+                                                        src="https://abiogas.org.br/wp-content/uploads/2019/04/recolast.jpg"
+                                                        alt="recolast" width="150" height="150"><span
+                                                        class="su-custom-gallery-title">recolast</span></a></div>
+                                            <div class="su-custom-gallery-slide"><a href="https://rolimvlc.com/"
+                                                    target="_blank" title="rolim"><img
+                                                        src="https://abiogas.org.br/wp-content/uploads/2019/04/rolim.jpg"
+                                                        alt="rolim" width="150" height="150"><span
+                                                        class="su-custom-gallery-title">rolim</span></a></div>
+                                            <div class="su-custom-gallery-slide"><a href="http://www.sabesp.com.br/"
+                                                    target="_blank" title="Sabesp"><img
+                                                        src="https://abiogas.org.br/wp-content/uploads/2019/04/Sabesp.jpg"
+                                                        alt="Sabesp" width="150" height="150"><span
+                                                        class="su-custom-gallery-title">Sabesp</span></a></div>
+                                            <div class="su-custom-gallery-slide"><a
+                                                    href="https://www.scania.com/br/pt/home.html" target="_blank"
+                                                    title="Scania"><img
+                                                        src="https://abiogas.org.br/wp-content/uploads/2019/04/Scania.jpg"
+                                                        alt="Scania" width="150" height="150"><span
+                                                        class="su-custom-gallery-title">Scania</span></a></div>
+                                            <div class="su-custom-gallery-slide"><a href="http://sebigascotica.com.br/"
+                                                    target="_blank" title="Sebigas-Cotica"><img
+                                                        src="https://abiogas.org.br/wp-content/uploads/2019/04/JV-Sebigas-Cotica-LOGO-VERTICAL.jpg"
+                                                        alt="Sebigas-Cotica" width="150" height="150"><span
+                                                        class="su-custom-gallery-title">Sebigas-Cotica</span></a>
+                                            </div>
+                                            <div class="su-custom-gallery-slide"><a
+                                                    href="https://www.solvi.com/valorizacao-energetica" target="_blank"
+                                                    title="Solvi"><img
+                                                        src="https://abiogas.org.br/wp-content/uploads/2019/04/Solvi.jpg"
+                                                        alt="Solvi" width="150" height="150"><span
+                                                        class="su-custom-gallery-title">Solvi</span></a></div>
+                                            <div class="su-clear"></div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+
+                </p>
+
+                <hr>
+                <!--     <a href="pdf/SourceFacility_Biocity_Profile.pdf" class="btn btn-primary btn-block">Download The
+                        PDF</a>
+                    <hr>-->
+            </div>
+            <div class="col-sm-0 col-md-2"></div>
+        </div>
+    </div>
+    <script>
+        $(document).ready(function () {
+            $('[data-toggle="popover"]').popover({
+                container: '.container'
+            });
+
+            $('body').on('click', function (e) {
+                $('[data-toggle=popover]').each(function () {
+                    // hide any open popovers when the anywhere else in the body is clicked
+                    if (!$(this).is(e.target) && $(this).has(e.target).length === 0 &&
+                        $(
+                            '.popover').has(e.target).length === 0) {
+                        $(this).popover('hide');
+                    }
+                });
+            });
+
+        });
+    </script>
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,927 @@
+﻿
+<section class="py-5">
+    <div class="container">
+
+        <h2 id="resources">
+            Resources</h3>
+            <div class="row py-2">
+                <div class="col-sm-2 text-center">
+                    <a href="ProjectNetworkFactSheet.pdf" download><img src="/assets/images/joinpnthumb.png" style="width:75%;max-width:150px;min-width:75px;margin-botton:25px;" /></a>
+                </div>
+                <div class="col-sm-10">
+                    <a href="ProjectNetworkFactSheet.pdf" download><h3>Fact Sheet</h3></a>
+                    <p>Check out the Project Network Fact Sheet for more information.</p>
+                </div>
+            </div>
+            <div class="row py-2">
+                <div class="col-sm-2 text-center">
+                    <a href="/assets/images/gmipn2.svg" download><img src="/assets/images/gmipn2.svg" style="width:100%;max-width:150px;min-width:75px;margin-botton:25px;" /></a>
+                </div>
+                <div id="logo" class="col-sm-10">
+                    <a href="/assets/images/gmipn2.svg" download><h3>Project Network Logo</h3></a>
+                    <p>GMI Project Network members are allowed to use the GMI logo as a symbol of commitment to GMI&rsquo;s goals. For more information, see the <a href="/documents/Project%20Network%20logo%20and%20guidelines.pdf">Use Guidelines</a>.</p>
+                </div>
+            </div>
+
+
+
+
+    </div>
+</section>
+        </form>
+
+
+<button onclick="topFunction()" class="btn btn-dark btn-sm" id="btnToTop" title="Go to top"><i class="fa fa-chevron-up" aria-hidden="true"></i> Top</button>
+
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+</script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+</script>
+
+<script type="text/javascript">
+    function googleTranslateElementInit() {
+        new google.translate.TranslateElement({
+            pageLanguage: 'en',
+            layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+        }, 'google_translate_element');
+    }
+</script>
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+</script>
+<script>
+    $('.translateText').click(function () {
+        $("#languageWidget").css("display", "block");
+        $(".hider").slideToggle();
+    });
+</script>
+
+
+
+<script>
+    //Get the button
+    var mybtnToTop = document.getElementById("btnToTop");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function () { scrollFunction() };
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybtnToTop.style.display = "block";
+        } else {
+            mybtnToTop.style.display = "none";
+        }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+</script>
+
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script>
+    function openSector(evt, cityName) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("Countrytabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("Countrytablinks");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+        document.getElementById(cityName).style.display = "block";
+        evt.currentTarget.className += " active";
+
+        $('.Mslider').resize();
+        $('.Ogslider').resize();
+        $('.Cslider').resize();
+        $('.Bslider').resize();
+    }
+
+    // Get the element with id="defaultOpen" and click on it
+
+
+
+
+    $('#defaultOpen').click(function () {
+        $('.Bslider').slick('refresh');
+    });
+
+    $('#firstOpen').click(function () {
+
+        $('.Mslider').slick('refresh');
+    });
+
+    $('#secondOpen').click(function () {
+        $('.Ogslider').slick('refresh');
+
+    });
+    $('#thirdOpen').click(function () {
+        $('.Cslider').slick('refresh');
+
+    });
+
+</script>
+
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('.slider-for').slick({
+            slidesToShow: 1,
+            speed: 300,
+            slidesToScroll: 1,
+            arrows: false,
+            fade: true,
+            asNavFor: '.slider-nav'
+        });
+        $('.slider-nav').slick({
+            slidesToShow: 1,
+            speed: 300,
+            slidesToScroll: 1,
+            asNavFor: '.slider-for',
+            dots: true,
+            centerMode: true,
+            centerPadding: '0px',
+            focusOnSelect: true
+        });
+        $('.Bslider').slick({
+            slidesToShow: 1,
+            speed: 300,
+            slidesToScroll: 1,
+            arrows: true,
+            dots: true,
+            fade: true,
+        });
+
+        $('.Cslider').slick({
+            slidesToShow: 1,
+            speed: 300,
+            slidesToScroll: 1,
+            arrows: true,
+            dots: true,
+            fade: true,
+        });
+        $('.Ogslider').slick({
+            slidesToShow: 1,
+            speed: 300,
+            slidesToScroll: 1,
+            arrows: true,
+            dots: true,
+            fade: true,
+        });
+        $('.Mslider').slick({
+            slidesToShow: 1,
+            speed: 300,
+            slidesToScroll: 1,
+            arrows: true,
+            dots: true,
+            fade: true,
+        });
+    });
+
+
+    if ($('.Bslidediv').length > 0) {
+        document.getElementById("defaultOpen").click();
+    } else if ($('.Cslidediv').length > 0) {
+        document.getElementById("thirdOpen").click();
+    } else if ($('.Ogslidediv').length > 0) {
+        document.getElementById("secondOpen").click();
+    } else if ($('.Mslidediv').length > 0) {
+        document.getElementById("firstOpen").click();
+    }
+
+
+    if ($('.Bslidediv').length == 0) {
+        document.getElementById("Bslider").innerHTML += ("<div class='SlideNone'>Do you have a story about how you are reducing methane emissions in the Biogas sector?  <a href='/challenge/submission'>Submit your story today</a> to the Global Methane Challenge.<br><br>For more information, visit the <a href='/challenge/redesign.html'>Global Methane Challenge</a> website.</div>");
+    }
+    if ($('.Cslidediv').length == 0) {
+        document.getElementById("Cslider").innerHTML += ("<div class='SlideNone'>Do you have a story about how you are reducing methane emissions in the Coal Mines sector?  <a href='/challenge/submission'>Submit your story today</a> to the Global Methane Challenge.<br><br>For more information, visit the <a href='/challenge/redesign.html'>Global Methane Challenge</a> website.</div>");
+    }
+    if ($('.Ogslidediv').length == 0) {
+        document.getElementById("Ogslider").innerHTML += ("<div class='SlideNone'>Do you have a story about how you are reducing methane emissions in the Oil & Gas sector?  <a href='/challenge/submission'>Submit your story today</a> to the Global Methane Challenge.<br><br>For more information, visit the <a href='/challenge/redesign.html'>Global Methane Challenge</a> website.</div>");
+    }
+    if ($('.Mslidediv').length == 0) {
+        document.getElementById("Mslider").innerHTML += ("<div class='SlideNone'>Do you have a story about how you are reducing methane emissions for multiple sectors?  <a href='/challenge/submission'>Submit your story today</a> to the Global Methane Challenge.<br><br>For more information, visit the <a href='/challenge/redesign.html'>Global Methane Challenge</a> website.</div>");
+    }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" language="javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
+<script type="text/javascript" language="javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/pdfmake.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.css">
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/buttons/1.5.6/css/buttons.dataTables.min.css" />
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/responsive/2.2.3/css/responsive.dataTables.min.css" />
+
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.js"></script>
+<script type="text/javascript" charset="utf-8" src="https://cdn.datatables.net/buttons/1.5.6/js/dataTables.buttons.min.js"></script>
+<script type="text/javascript" language="javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/vfs_fonts.js"></script>
+<script type="text/javascript" language="javascript" src="https://cdn.datatables.net/buttons/1.5.6/js/buttons.html5.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/yadcf/0.9.4/jquery.dataTables.yadcf.js" integrity="sha256-j83V52uLomZxGL9GIZ7eyiv32ntFn7Kr6WQSfz3mvRs=" crossorigin="anonymous"></script>
+<script type="text/javascript" language="javascript" src="https://cdn.datatables.net/responsive/2.2.3/js/dataTables.responsive.min.js"></script>
+
+
+<script>
+
+
+
+    $(document).ready(function () {
+
+
+
+
+
+        var table = $('#PNtable').DataTable({
+            responsive: true,
+            dom: 'Bfrtip',
+            search: 'agriculture',
+            buttons: [
+                'excelHtml5',
+                'csvHtml5',
+                'pdfHtml5'
+            ],
+            "columns": [
+                { "width": "40%" },
+                { "width": "20%" },
+                { "width": "20%" },
+                { "width": "20%" }
+            ]
+
+        });
+
+        yadcf.init(table, [{
+            column_number: 1,
+            column_data_type: "html",
+            html_data_type: "text",
+            filter_default_label: "All Areas",
+            filter_reset_button_text: false
+        }, {
+            column_number: 2,
+            column_data_type: "html",
+            html_data_type: "text",
+            filter_default_label: "All Types",
+            filter_reset_button_text: false
+        }, {
+            column_number: 3,
+            column_data_type: "html",
+            html_data_type: "text",
+            filter_default_label: "All Countries",
+            filter_reset_button_text: false
+        }]);
+
+
+        $('#tableFilter').on('click', 'a', function () {
+            event.preventDefault();
+            $("#tableFilter a").removeClass("filterBold");
+            $(this).addClass("filterBold");
+
+
+            table
+                .columns(2)
+                .search($(this).text())
+                .draw();
+        });
+
+        $('#tableFilter').on('click', 'a.reset', function () {
+            event.preventDefault();
+            table
+                .search('')
+                .columns(2)
+                .search('')
+                .draw();
+        });
+
+        $(".rollup").hover(function () {
+            if (!$('.eventhide').is(':visible')) {
+                $(".eventhide").slideUp("slow", function () {
+                    // Animation complete.
+                });
+
+
+            }
+            if (!$('.sectorhide').is(':visible')) {
+                $(".sectorhide").slideUp("slow", function () {
+                    // Animation complete.
+                });
+
+
+            }
+
+        });
+
+
+
+        $(".sectorclick").click(function () {
+            $(".sectorhide").slideDown("slow", function () {
+                // Animation complete.
+            });
+            $(".eventhide").hide();
+            $(".subeventhide").hide();
+        });
+
+        $(".subeventclick").click(function () {
+            $(".subeventhide").slideDown("slow", function () {
+                // Animation complete.
+            });
+            $(".sectorhide").hide();
+            $(".eventhide").hide();
+        });
+
+        $(".eventclick").click(function () {
+            $(".eventhide").slideDown("slow", function () {
+                // Animation complete.
+            });
+            $(".sectorhide").hide();
+            $(".subeventhide").hide();
+        });
+
+        document.getElementById("newsbutton").addEventListener("click", function () {
+            setCookie("news", "true", 7);
+            $("#badge").hide();
+        });
+
+        $('ul.dropdown-menu [data-toggle=dropdown]').on('click', function (event) {
+            event.preventDefault();
+            event.stopPropagation();
+            $(this).parent().siblings().removeClass('open');
+            $(this).parent().toggleClass('open');
+        });
+
+        // Add smooth scrolling to all links in navbar + footer link
+        $(".navbar a, footer a[href='#home']").on('click', function (event) {
+            // Make sure this.hash has a value before overriding default behavior
+            if (this.hash !== "") {
+                // Prevent default anchor click behavior
+                event.preventDefault();
+
+                // Store hash
+                var hash = this.hash;
+
+                // Using jQuery's animate() method to add smooth page scroll
+                // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+                $('html, body').animate({
+                    scrollTop: $(hash).offset().top
+                }, 900, function () {
+
+                    // Add hash (#) to URL when done scrolling (default click behavior)
+                    window.location.hash = hash;
+                });
+            } // End if
+        });
+
+        $(window).scroll(function () {
+            $(".slideanim").each(function () {
+                var pos = $(this).offset().top;
+
+                var winTop = $(window).scrollTop();
+                if (pos < winTop + 600) {
+                    $(this).addClass("slide");
+                }
+            });
+        });
+    })
+
+    tippy.setDefaults({
+        arrow: true,
+        arrowType: 'round',
+        duration: 0,
+        size: 'large'
+    })
+    $(document).ready(function () {
+
+
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            dots: false,
+            responsiveClass: true,
+            responsive: {
+                0: {
+                    items: 1,
+                    dots: false
+                },
+                600: {
+                    items: 3,
+                    dots: false
+
+                },
+                1000: {
+                    items: 5,
+
+                    loop: true,
+                    dots: false
+                }
+            }
+        })
+        // Initialize Tooltip
+        $('[data-toggle="tooltip"]').tooltip();
+
+
+    })
+
+
+    $("#clickme").click(function () {
+        $(".hider").slideToggle("slow", function () {
+            // Animation complete.
+        });
+    });
+
+    AmCharts.makeChart("map", {
+        "type": "map",
+        "pathToImages": "https://www.amcharts.com/lib/3/assets/images/",
+        "addClassNames": true,
+        "Size": 15,
+        "color": "#ffffff",
+        "projection": "mercator",
+        "backgroundAlpha": 1,
+        "mouseWheelZoomEnabled": false,
+        "backgroundColor": "rgba(255,0,0,0)",
+        "padding": "10px",
+        "panControlEnabled": false,
+        "dragMap": false,
+        "preventDragOut": true,
+        "dataProvider": {
+            "map": "worldLow",
+            "getAreasFromMap": true,
+            "balloon": {
+                "enabled": false,
+                "adjustBorderColor": true,
+                "color": "#ff0000",
+                "cornerRadius": 5,
+                "fillColor": "rgba(0,0,0,0.6)"
+            },
+            areas: [{
+                "id": "AL",
+                "color": "#f79737"
+            },
+            {
+                "id": "BG",
+                "color": "#f79737"
+            },
+            {
+                "id": "FI",
+                "color": "#f79737"
+            },
+            {
+                "id": "GE",
+                "color": "#f79737"
+            },
+            {
+                "id": "DE",
+                "color": "#f79737"
+            },
+            {
+                "id": "IT",
+                "color": "#f79737"
+            },
+            {
+                "id": "NO",
+                "color": "#f79737"
+            },
+            {
+                "id": "PL",
+                "color": "#f79737"
+            },
+            {
+                "id": "RU",
+                "color": "#f79737"
+            },
+            {
+                "id": "RS",
+                "color": "#f79737"
+            },
+            {
+                "id": "TR",
+                "color": "#f79737"
+            },
+            {
+                "id": "UA",
+                "color": "#f79737"
+            },
+            {
+                "id": "GB",
+                "color": "#f79737"
+            },
+            {
+                "id": "CA",
+                "color": "#f79737"
+            },
+            {
+                "id": "DO",
+                "color": "#f79737"
+            },
+            {
+                "id": "MX",
+                "color": "#f79737"
+            },
+            {
+                "id": "NI",
+                "color": "#f79737"
+            },
+            {
+                "id": "US",
+                "color": "#f79737"
+            },
+            {
+                "id": "AR",
+                "color": "#f79737"
+            },
+            {
+                "id": "BR",
+                "color": "#f79737"
+            },
+            {
+                "id": "CL",
+                "color": "#f79737"
+            },
+            {
+                "id": "CO",
+                "color": "#f79737"
+            },
+            {
+                "id": "EC",
+                "color": "#f79737"
+            },
+            {
+                "id": "PE",
+                "color": "#f79737"
+            },
+            {
+                "id": "CI",
+                "color": "#f79737"
+            },
+            {
+                "id": "ET",
+                "color": "#f79737"
+            },
+            {
+                "id": "GH",
+                "color": "#f79737"
+            },
+            {
+                "id": "NG",
+                "color": "#f79737"
+            },
+            {
+                "id": "CN",
+                "color": "#f79737"
+            },
+            {
+                "id": "IN",
+                "color": "#f79737"
+            },
+            {
+                "id": "ID",
+                "color": "#f79737"
+            },
+            {
+                "id": "IL",
+                "color": "#f79737"
+            },
+            {
+                "id": "JP",
+                "color": "#f79737"
+            },
+            {
+                "id": "JO",
+                "color": "#f79737"
+            },
+            {
+                "id": "KZ",
+                "color": "#f79737"
+            },
+            {
+                "id": "MN",
+                "color": "#f79737"
+            },
+            {
+                "id": "PK",
+                "color": "#f79737"
+            },
+            {
+                "id": "PH",
+                "color": "#f79737"
+            },
+            {
+                "id": "SA",
+                "color": "#f79737"
+            },
+            {
+                "id": "KR",
+                "color": "#f79737"
+            },
+            {
+                "id": "LK",
+                "color": "#f79737"
+            },
+            {
+                "id": "TH",
+                "color": "#f79737"
+            },
+            {
+                "id": "VN",
+                "color": "#f79737"
+            },
+            {
+                "id": "AU",
+                "color": "#f79737"
+            }
+            ]
+        },
+        "balloon": {
+            "horizontalPadding": 15,
+            "borderAlpha": 0,
+            "borderThickness": 1,
+            "verticalPadding": 15
+        },
+        "areasSettings": {
+            "color": "rgba(0,0,0,.1)",
+            "outlineColor": "rgba(255,255,255,.6)",
+            "rollOverOutlineColor": "rgba(0,0,0,0.2)",
+
+
+            "selectedBrightness": 1,
+            "selectable": false,
+            "unlistedAreasAlpha": 0,
+            "unlistedAreasOutlineAlpha": 0
+        },
+        "imagesSettings": {
+            "alpha": 1,
+            "color": "rgba(255,255,255,1)",
+            "outlineAlpha": 0,
+            "rollOverOutlineAlpha": 0,
+            "outlineColor": "rgba(114,205,215,1)",
+            "rollOverBrightness": 20,
+            "selectedBrightness": 20,
+            "selectable": true
+        },
+        "linesSettings": {
+            "color": "rgba(255,255,255,1)",
+            "selectable": true,
+            "rollOverBrightness": 20,
+            "selectedBrightness": 20
+        },
+        "zoomControl": {
+            "zoomControlEnabled": false,
+            "homeButtonEnabled": false,
+            "panControlEnabled": false,
+            "right": 38,
+            "bottom": 30,
+            "minZoomLevel": 0.25,
+            "gridHeight": 100,
+            "gridAlpha": 0.1,
+            "gridBackgroundAlpha": 0,
+            "gridColor": "#FFFFFF",
+            "draggerAlpha": 1,
+            "buttonCornerRadius": 2,
+            "minZoomLevel": 1,
+            "panControlEnabled": false
+        },
+        "legend": {
+            "backgroundColor": "#fff",
+            "backgroundAlpha": 0,
+            "color": "#000",
+            "align": "left",
+            "position": "bottom",
+            "data": [{
+                "title": "GMI Partner Country",
+                "color": "#f79737"
+            }]
+        }
+    });
+
+    function openSearch() {
+        document.getElementById("myOverlay").style.display = "block";
+        document.getElementById("owl").style.display = "none";
+    }
+
+    function closeSearch() {
+        document.getElementById("owl").style.display = "block";
+        document.getElementById("myOverlay").style.display = "none";
+    }
+
+    var vid = document.getElementById("myVideo");
+
+    vid.playbackRate = 0.4;
+
+    $(window).scroll(function () {
+        var y_scroll_pos = window.pageYOffset;
+        var scroll_pos_test = 150;
+        // set to whatever you want it to be
+
+        if (y_scroll_pos > scroll_pos_test) {
+            $("#smalllogo").slideDown("slow", function () {
+                // Animation complete.
+            });
+        } else {
+            $("#smalllogo").slideUp("slow", function () {
+                // Animation complete.
+            });
+        }
+    });
+</script>
+<script>
+    document.getElementById("defaultOpen").click();
+    function openCity(evt, cityName) {
+        // Declare all variables
+        var i, tabcontent, tablinks;
+
+        // Get all elements with class="tabcontent" and hide them
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+
+        // Get all elements with class="tablinks" and remove the class "active"
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+
+        // Show the current tab, and add an "active" class to the button that opened the tab
+        document.getElementById(cityName).style.display = "block";
+        evt.currentTarget.className += " active";
+    }
+</script>
+
+<script>
+    am4core.useTheme(am4themes_animated);
+
+    var chart = am4core.create("chartdiv", am4maps.MapChart);
+    chart.hiddenState.properties.opacity = 0; // this creates initial fade-in
+    chart.seriesContainer.draggable = false;
+    chart.seriesContainer.events.disableType("doublehit");
+    chart.chartContainer.background.events.disableType("doublehit");
+    chart.maxZoomLevel = 1;
+    chart.seriesContainer.resizable = false;
+    chart.geodata = am4geodata_worldLow;
+    chart.projection = new am4maps.projections.Miller();
+
+    var title = chart.chartContainer.createChild(am4core.Label);
+    title.text = "Project Network Members by Location";
+    title.fontSize = 12;
+    title.paddingTop = 30;
+    title.align = "center";
+    title.zIndex = 100;
+
+    var polygonSeries = chart.series.push(new am4maps.MapPolygonSeries());
+    var polygonTemplate = polygonSeries.mapPolygons.template;
+    polygonSeries.heatRules.push({
+        property: "fill",
+        target: polygonSeries.mapPolygons.template,
+        min: am4core.color("#38ada9"),
+        max: am4core.color("#f1c40f")
+    });
+    polygonSeries.useGeodata = true;
+
+    // add heat legend
+    var heatLegend = chart.chartContainer.createChild(am4maps.HeatLegend);
+    heatLegend.valign = "bottom";
+    heatLegend.align = "left";
+    heatLegend.width = am4core.percent(100);
+    heatLegend.series = polygonSeries;
+    heatLegend.orientation = "horizontal";
+    heatLegend.padding(20, 20, 20, 20);
+    heatLegend.valueAxis.renderer.labels.template.fontSize = 10;
+    heatLegend.valueAxis.renderer.minGridDistance = 40;
+
+
+
+    function handleHover(mapPolygon) {
+        if (!isNaN(mapPolygon.dataItem.value)) {
+            heatLegend.valueAxis.showTooltipAt(mapPolygon.dataItem.value);
+        } else {
+            heatLegend.valueAxis.hideTooltip();
+        }
+    }
+
+    polygonSeries.mapPolygons.template.strokeOpacity = 0.4;
+    polygonSeries.mapPolygons.template.events.on("out", event => {
+        heatLegend.valueAxis.hideTooltip();
+    });
+
+
+
+    // life expectancy data
+    polygonSeries.data = [
+        { id: 'AF', value: 1 },
+        { id: 'AR', value: 15 },
+        { id: 'AU', value: 47 },
+        { id: 'AT', value: 5 },
+        { id: 'AZ', value: 1 },
+        { id: 'BD', value: 2 },
+        { id: 'BE', value: 3 },
+        { id: 'BO', value: 1 },
+        { id: 'BA', value: 2 },
+        { id: 'BR', value: 18 },
+        { id: 'BG', value: 4 },
+        { id: 'KH', value: 1 },
+        { id: 'CM', value: 5 },
+        { id: 'CA', value: 68 },
+        { id: 'CL', value: 10 },
+        { id: 'CN', value: 35 },
+        { id: 'CO', value: 16 },
+        { id: 'CR', value: 1 },
+        { id: 'CI', value: 1 },
+        { id: 'CY', value: 1 },
+        { id: 'DK', value: 1 },
+        { id: 'DO', value: 2 },
+        { id: 'EC', value: 4 },
+        { id: 'SV', value: 1 },
+        { id: 'ET', value: 2 },
+        { id: 'FI', value: 5 },
+        { id: 'FR', value: 11 },
+        { id: 'DE', value: 20 },
+        { id: 'GH', value: 6 },
+        { id: 'GR', value: 2 },
+        { id: 'GT', value: 1 },
+        { id: 'HT', value: 1 },
+        { id: 'HN', value: 2 },
+        { id: 'HK', value: 3 },
+        { id: 'HU', value: 1 },
+        { id: 'IS', value: 2 },
+        { id: 'IN', value: 127 },
+        { id: 'ID', value: 8 },
+        { id: 'IR', value: 4 },
+        { id: 'IE', value: 2 },
+        { id: 'IL', value: 2 },
+        { id: 'IT', value: 7 },
+        { id: 'JP', value: 20 },
+        { id: 'JO', value: 3 },
+        { id: 'KZ', value: 4 },
+        { id: 'KE', value: 4 },
+        { id: 'MY', value: 5 },
+        { id: 'ML', value: 1 },
+        { id: 'MX', value: 28 },
+        { id: 'MN', value: 6 },
+        { id: 'MA', value: 2 },
+        { id: 'NA', value: 1 },
+        { id: 'NP', value: 3 },
+        { id: 'NL', value: 13 },
+        { id: 'NZ', value: 3 },
+        { id: 'NI', value: 6 },
+        { id: 'NG', value: 38 },
+        { id: 'KP', value: 1 },
+        { id: 'NO', value: 6 },
+        { id: 'PK', value: 10 },
+        { id: 'PA', value: 1 },
+        { id: 'PE', value: 3 },
+        { id: 'PH', value: 12 },
+        { id: 'PL', value: 6 },
+        { id: 'PT', value: 2 },
+        { id: 'PR', value: 2 },
+        { id: 'KR', value: 3 },
+        { id: 'RO', value: 3 },
+        { id: 'RU', value: 9 },
+        { id: 'RW', value: 2 },
+        { id: 'SA', value: 1 },
+        { id: 'SG', value: 6 },
+        { id: 'SK', value: 1 },
+        { id: 'SO', value: 1 },
+        { id: 'ZA', value: 12 },
+        { id: 'ES', value: 6 },
+        { id: 'LK', value: 7 },
+        { id: 'SE', value: 4 },
+        { id: 'CH', value: 8 },
+        { id: 'TW', value: 1 },
+        { id: 'TH', value: 8 },
+        { id: 'TN', value: 2 },
+        { id: 'TR', value: 6 },
+        { id: 'UG', value: 4 },
+        { id: 'UA', value: 16 },
+        { id: 'AE', value: 2 },
+        { id: 'GB', value: 65 },
+        { id: 'US', value: 400 },
+        { id: 'UY', value: 1 },
+        { id: 'VE', value: 2 },
+        { id: 'VN', value: 3 },
+        { id: 'ZW', value: 1 }
+    ];
+
+    // excludes Antarctica
+    polygonSeries.exclude = ["AQ"];
+</script>
+
+
+

@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Global Methane Forum 2018</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Roboto" rel="stylesheet">
+    <link href="../css/gmf2018styles.css" rel="stylesheet">
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@latest/dist/sweetalert2.all.min.js"></script>
+    <link rel="stylesheet" href="animate.css" />
+    
+</head>
+<body>
+
+<div id="subwrapper">
+        
+    <a href="../"><img src="../images/subbanner_gmf2018.jpg" alt="Global Methane Forum, April 16-18, 2018 • Toronto, Canada" title="Global Methane Forum, April 16-18, 2018 • Toronto, Canada" /></a>   
+    <div class="hider">
+    <div id="pagetitle">REGISTRATION</div>
+<p><strong>Trouble viewing this page?</strong> If you cannot register online by completing the form below, please <a href="GMF2018_RegistrationForm_2018Feb2.pdf">download the registration form (PDF)</a></p>
+<p><strong>Note:</strong> &nbsp;If you are representing your country as a 
+GMI Steering Committee or Subcommittee member, your name must appear on the <a href="../../about/delegates.aspx" target="_blank">official country delegate list</a>. If you have questions about registration, please send an email to <a href="mailto:secretariat@globalmethane.org?subject=GMF 2018">secretariat@globalmethane.org</a>.</p>
+</div>
+
+
+<div id="iframe">
+    <iframe class="reg" src="https://projects.erg.com/conferences/methanetomarkets/register-gmf-canada.asp"></iframe>
+</div>
+<p>&nbsp;</p>
+</div>
+<script>
+    $(document).ready(function(){
+
+        var moment ,regClosed;
+               
+                regClosed = 1523484000;
+                moment = Date.now();
+
+                if (moment < regClosed) {  
+                    
+                    $('#iframe').html('<iframe class="reg" src="https://projects.erg.com/conferences/methanetomarkets/register-gmf-canada.asp"></iframe>');
+                }else{
+                    $('.hider').hide();
+                    $('#iframe').html('<iframe class="reg" src="closedreg.html"></iframe>');
+                    swal({
+    type: 'warning',
+    title: 'Online Registration is Closed!',
+    html: 'Don\'t worry, onsite registration will still be available to attendees.<br>I will redirect you to the GMF homepage in 10 seconds.',
+    animation: false,
+    customClass: 'animated rubberBand',
+    footer: '<a href="../">Take me to the homepage now.</a>',
+    timer: 10000,
+    onOpen: () => {
+      swal.showLoading()
+    }
+  }).then((result) => {
+    if (
+      // Read more about handling dismissals
+      result.dismiss === swal.DismissReason.timer
+    ) {
+      window.location.replace("../");
+    }
+  })
+                }
+
+
+
+
+
+});
+        </script>
+</body>
+</html>

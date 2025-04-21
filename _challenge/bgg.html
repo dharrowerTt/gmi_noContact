@@ -1,0 +1,336 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/dd7fc261ae.js"></script>
+    <style>
+        body {
+            background: #1695be;
+        }
+
+        .tooltip:hover span {
+            opacity: 1;
+            filter: alpha(opacity=100);
+            top: -6em;
+            left: 20em;
+            z-index: 99;
+            -webkit-transition: all 0.2s ease;
+            -moz-transition: all 0.2s ease;
+            -o-transition: all 0.2s ease;
+            transition: all 0.2s ease;
+        }
+
+        .homearea {
+            position: fixed;
+            bottom: 10px;
+            left: 10px;
+        }
+
+        .homearea:hover {
+            cursor: pointer;
+        }
+
+        .box b {
+            color: #fff;
+        }
+
+        .tooltip span {
+            background: none repeat scroll 0 0 #222;
+            /*-- some basic styling */
+            color: #F0B015;
+            font-family: 'Helvetica';
+            font-size: 0.8em;
+            font-weight: normal;
+            line-height: 1.5em;
+            padding: 16px 15px;
+            width: 240px;
+            top: -4em;
+            /*-- this is the original position of the tooltip when it's hidden */
+            left: 20em;
+            margin-left: 0;
+            /*-- set opacity to 0 otherwise our animations won't work */
+            opacity: 0;
+            filter: alpha(opacity=0);
+            position: absolute;
+            text-align: center;
+            z-index: 2;
+            text-transform: none;
+            -webkit-transition: all 0.3s ease;
+            -moz-transition: all 0.3s ease-in-out;
+            -o-transition: all 0.3s ease;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .tooltip span:after {
+            border-color: #222 rgba(0, 0, 0, 0);
+            border-style: solid;
+            border-width: 15px 15px 0;
+            bottom: -15px;
+            content: "";
+            display: block;
+            left: 31px;
+            position: absolute;
+            width: 0;
+        }
+
+        .callout {
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-top: 10px;
+            background: #f3d5b3;
+            border-radius: 4px;
+
+            width: 100%;
+            margin-bottom: 15px;
+
+        }
+
+
+        .imgtbl {
+            width: 100%;
+            background: #CAEBF2;
+            margin-bottom: 15px;
+        }
+
+        .imgtbl img {
+            padding: 10px;
+            width: 100%;
+        }
+
+        .subtitle td {
+            font-size: 10px;
+            text-align: center;
+
+        }
+
+        .boxcontainer {
+            padding: 3em;
+            display: grid;
+            grid-gap: .5em;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        }
+
+        .container .quote {
+            padding: 2em;
+            border: 1px solid black;
+        }
+
+        .container .quote p {
+            margin-top: 0;
+        }
+
+        .container .quote span {
+            font-weight: bold;
+            position: relative;
+            margin-left: 15px;
+        }
+
+        .container .quote span:before {
+            content: '';
+            position: absolute;
+            height: 1px;
+            width: 10px;
+            border-bottom: 1px solid black;
+            top: 10px;
+            left: -15px;
+        }
+
+        @media (min-width: 550px) {
+            /*
+    .span-2 {
+        grid-column: auto / span 2;
+    }
+    */
+        }
+
+
+        @media screen and (-ms-high-contrast: active),
+        screen and (-ms-high-contrast: none) {
+
+            /* IE10+ specific styles go here */
+            .quote {
+
+                max-width: 45%;
+                float: left;
+                margin: 2px;
+                height: 300px;
+                margin-bottom: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="homearea">
+        <a class="btn btn-danger" href="http://staging.globalmethane.org/challenge/index.aspx#actionmap">
+            <i class="fa fa-arrow-left fa-lg"></i> Back to the map
+        </a>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-0 col-md-2"></div>
+            <div class="col-sm-12 col-md-8" style="background:white;">
+                <img src="images/bgg/bgg_banner.png" style="width:100%" />
+                <h2>
+                    Biogas Go Global&nbsp;
+                    <!--<a class="btn btn-primary" href="pdf/SourceFacility_Biocity_Profile.pdf"
+                        aria-label="Download the PDF">
+                        <i class="fa fa-download" aria-hidden="true"></i>
+                    </a>-->
+                </h2>
+
+                <p><img src="images/bgg/bgglogo.png" style="max-width:250px; float:right; margin-bottom: 10px;">
+                    <a href="https://www.biogasgoglobal.com/" target="_blank">Biogas Go Global</a> (BGG) is a 3-year
+                    effort funded by Denmark’s <a href="https://www.industriensfond.dk/" target="_blank">Industriens
+                        Fond</a> to advance biogas plants globally, allowing additional methane capture and use and
+                    nutrient recycling. The program provides a platform for the accelerated growth of the biogas
+                    industry in the United States and other BGG partner countries by establishing collaboration between
+                    government, academia, and the private sector. The goal of BGG is to increase the biogas sector
+                    through partnerships between Danish and BGG partner country stakeholders.
+                </p>
+                <p>BGG gathers industry experts, regulators, and academia into one partnership to share information,
+                    easing the workflow for all parties involved while increasing transparency within the industry. </p>
+
+                <div style="text-align: center; width: 40%; margin-left: auto; margin-right: auto;">
+                    <img src="images/bgg/helixmodel.png" style="width: 80%;">
+                    <br><br> Biogas Go Global ‘Triple Helix’ approach to advancing biogas: Authority, Knowledge, and
+                    Companies
+                </div>
+                <h3>The BGG Partnership</h3>
+                <p>
+                    <ul>
+                        <li>
+                            <a href="https://www.agropark.dk/" target="_blank">Agro Business Park</a> (ABP) has 17 years
+                            of experience with international project management, partnerships,
+                            business development, innovation, and bioenergy. ABP is the operator of The Danish
+                            Innovation Network for Bioresources (INBIOM), which for 12 years has completed more than 25
+                            international network-creating activities within the biogas sector. The consortium behind
+                            INBIOM includes Aarhus University, Aalborg Universities, the Technical University of
+                            Denmark, and The Danish Technological Institute. INBIOM has more than 100 business members
+                            from the biogas industry and is represented in more than 10 project consortia on the
+                            development of new knowledge-based biogas technologies.
+                        </li>
+                        <br>
+                        <li>
+                            The <a href="https://usa.um.dk/en/the-trade-council/" target="_blank">Danish Trade Council
+                                in North America</a> is the governmental export and investment
+                            promotion organization under the Ministry of Foreign Affairs of Denmark. The Trade Council
+                            helps small and large companies to start exporting and expanding their activities to new
+                            markets. The Waste, Recycling & Biogas Advisory (WBA) of the Trade Council is a dedicated
+                            sector platform that offers specialized knowledge on key aspects of the biogas value chain.
+                            The WBA aims to facilitate solutions sharing between Danish biogas companies and their
+                            counterparts in the United States to help unlock commercial opportunities and accelerate
+                            sustainable waste management projects, including biogas. Through alliance-based
+                            collaboration, WBA acts as a full solutions provider to the U.S. market covering key
+                            competencies for biogas production, including pre-treatment of organics, project development
+                            and investment, design, engineering and construction, gas conditioning, and nutrient
+                            recovery.
+                        </li>
+                        <br>
+                        <li>The <a href="https://ens.dk/en" target="_blank">Danish Energy Agency</a> handles Denmark's
+                            interests in the energy and supply sectors in
+                            the EU and seeks to disseminate the Danish experience with the energy transition for the
+                            benefit of Danish export companies. The Danish Energy Agency's Center for Global
+                            Counseling has established regulatory cooperation in 11 countries in addition to the United
+                            States. The Danish Energy Agency’s advice enables the countries to prepare for greater
+                            energy requirements in the future by making energy systems more efficient and by producing
+                            energy with more renewable energy sources.</li>
+                    </ul>
+                </p>
+                <h3>Barriers to Biogas Production</h3>
+                <p>With Denmark’s knowledge of biogas production, BGG aims to break down the following barriers:</p>
+
+                <div class="boxcontainer">
+                    <div class="quote">
+                        <p>
+                            <h4>Federal and State Policy / Funding Parity </h4>
+
+                            Biogas should be subject to the same conditions as those that apply to other forms of
+                            renewable energy, such as solar and wind. Comprehensive energy and climate policy needs to
+                            be in place to acknowledge the additional environmental benefits of biogas production.
+                        </p>
+                    </div>
+                    <div class="quote">
+                        <p>
+                            <h4>Feedstock Aggregation and New Models for Manure Management </h4>
+
+                            Contractual visibility is a key issue for investors and project developers. An evaluation of
+                            various alternatives and best practices to address this issue can create model rules and
+                            model frameworks and lead to new business models and approaches that support more flexible
+                            and economically viable ways to handle distinct organic fractions, including manures.
+                        </p>
+                    </div>
+                    <div class="quote">
+                        <p>
+                            <h4>Not in My Back Yard</h4>
+
+                            Investors, neighbors, and other stakeholders are somewhat reluctant to support biogas
+                            production due to a lack of knowledge and experience with best-of-class operational
+                            management of biogas plants as well as the important environmental advantages of biogas
+                            production. Through knowledge sharing, this alliance can demonstrate successful biogas
+                            projects supported by local communities.
+                        </p>
+                    </div>
+                    <div class="quote">
+                        <p>
+                            <h4>Financial Risk and Uncertainty </h4>
+
+                            The barriers to biogas production create financial risk and uncertainty, which makes it hard
+                            to attract financing from public and private investors. The alliance will evaluate how
+                            financial risk has been addressed in Denmark and the United States and make prioritized
+                            recommendations to further mitigate such risk in different areas.
+                        </p>
+                    </div>
+                </div>
+                <div style="margin-right:auto; margin-left: auto;background:#d1d8e0;padding:20px;">
+                    <div class="row">
+                        <div class="col-md-6"><img src="images/bgg/bgg1.jpg" style="width: 100%;border:1px solid #666688;"></div>
+                        <div class="col-md-6"> <img src="images/bgg/bgg2.jpg" style="width: 100%;margin-bottom:5px;border:1px solid #666688;">Ambassador Wisborg welcomes the American Biogas Council Board to the Danish Embassy in Washington, DC.</div>
+                    </div>
+
+                </div>
+                <div>
+                    <p>
+                        <br><i>For more information on the benefits of Biogas Go Global, please contact Claus Mortensen from Agro Business Park, <a href="mailto:cm@agropark.dk">cm@agropark.dk</a></i>.
+                    </p>
+                </div>
+
+                <div class="col-sm-0 col-md-2"></div>
+                <hr>
+            </div>
+        </div>
+        <script>
+            $(document).ready(function () {
+                $('[data-toggle="popover"]').popover({
+                    container: '.container'
+                });
+
+                $('body').on('click', function (e) {
+                    $('[data-toggle=popover]').each(function () {
+                        // hide any open popovers when the anywhere else in the body is clicked
+                        if (!$(this).is(e.target) && $(this).has(e.target).length ===
+                            0 &&
+                            $(
+                                '.popover').has(e.target).length === 0) {
+                            $(this).popover('hide');
+                        }
+                    });
+                });
+
+            });
+        </script>
+        <script>
+            function goBack() {
+                window.history.back();
+            }
+        </script>
+</body>
+
+</html>

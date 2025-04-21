@@ -1,0 +1,492 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Global Methane Challenge</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/animate.css" />
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    <script>
+		(function (w, d, s, l, i) {
+			w[l] = w[l] || [];
+			w[l].push({
+				'gtm.start': new Date().getTime(),
+				event: 'gtm.js'
+			});
+			var f = d.getElementsByTagName(s)[0],
+				j = d.createElement(s),
+				dl = l != 'dataLayer' ? '&l=' + l : '';
+			j.async = true;
+			j.src =
+				'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+			f.parentNode.insertBefore(j, f);
+		})(window, document, 'script', 'dataLayer', 'GTM-WM2LZW5');
+	</script>
+    <style>
+        #myVideo {
+            position: fixed;
+            right: 0;
+            bottom: 0;
+            min-width: 100%;
+            min-height: 100%;
+        }
+
+        .fa-molecule:before{
+            content: ''; /* Remove default icon */
+            display: inline-block;
+            background: url('images/molecule.png') center center no-repeat;
+            background-size: contain;
+            opacity: .7;
+        }
+
+        .fa-fire:before{
+            content: ''; /* Remove default icon */
+            display: inline-block;
+            background: url('images/002-oil-platform.png') center center no-repeat;
+            background-size: contain;
+            opacity: .7;
+        }
+
+        .fa-pick:before{
+            content: ''; /* Remove default icon */
+            display: inline-block;
+            background: url('images/003-pick.png') center center no-repeat;
+            background-size: contain;
+            opacity: .7;
+        }
+
+        .fa-agriculture:before{
+            content: ''; /* Remove default icon */
+            display: inline-block;
+            background: url('images/001-cow.png') center center no-repeat;
+            background-size: contain;
+            opacity: .7;
+        }
+
+        .nav ul {
+            position: fixed;
+            z-index: 300;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            margin-top:-40px;
+            background:rgba(0,0,0,0.2);
+        }
+
+
+
+        .nav ul:last-child {
+            border-radius:20px 20px 0px 0px;
+        }
+
+        .nav li {
+            float: left;
+        }
+
+        .nav li a {
+            display: block;
+            color: white;
+            text-align: center;
+            height:40px;
+            padding-left:15px;
+            padding-right:15px;
+            text-decoration: none;
+            border-bottom:0px;
+            -o-transition:.5s;
+            -ms-transition:.5s;
+            -moz-transition:.5s;
+            -webkit-transition:.5s;
+            transition:.5s;
+        }
+
+        .grid-icons li a span span{
+            -o-transition:.5s;
+            -ms-transition:.5s;
+            -moz-transition:.5s;
+            -webkit-transition:.5s;
+            transition:.5s;
+        }
+
+        .grid-icons li a span:hover {
+
+            -webkit-animation: jello 0.5s;
+            animation: jello 0.5s;
+        }
+
+
+
+        /* Change the link color to #111 (black) on hover */
+        .nav li a:hover {
+            background-color:#1a94b8;
+        }
+
+        .nav li a:active {
+            background-color:white;
+            color:black;
+        }
+        
+nav {
+  position: fixed;
+  z-index: 500;
+  padding-bottom: 12px;
+  margin-top: -40px; 
+
+}
+nav .line {
+  height: 2px;
+  position: absolute;
+  bottom: 0;
+  margin: 10px 0 0 0;
+  background: white;
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+}
+nav ul li {
+  margin: 0 40px 0 0;
+  opacity: 0.4;
+  transition: all 0.4s ease;
+}
+nav ul li:hover {
+  opacity: 0.7;
+}
+nav ul li.active {
+  opacity: 1;
+}
+nav ul li:last-child {
+  margin-right: 0;
+}
+nav ul li a {
+  text-decoration: none; 
+  color: #fff;
+  text-transform: uppercase;
+  display: block;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  font-size: 14px;
+  border-bottom: 0px !important;
+}
+nav ul li a:hover {
+
+  color: #000000;
+  -webkit-animation: pulse 0.5s;
+	animation: pulse 0.5s;
+}
+nav ul li a:active{
+-webkit-animation: tada 0.5s;
+  animation: tada 0.5s;
+}
+
+    </style>
+
+
+</head>
+
+<body class="is-preload">
+    <video autoplay muted loop id="myVideo">
+        <source src="assets/video/methane2.mp4" type="video/mp4">
+            Your browser does not support HTML5 video.
+    </video>
+    <!-- Page Wrapper -->
+    <div id="page-wrapper">
+
+        <!-- Wrapper -->
+        <div id="wrapper">
+					<!--	<div class="nav" id="nav">
+									<ul>
+											<li><a href="#home">Home</a></li>
+											<li><a href="#first">The World</a></li>
+											<li><a href="#second">The Sectors</a></li>
+											<li><a href="#third">Showcase</a></li>
+											<li><a href="#fourth">Take Part</a></li>
+										  </ul>
+							</div> -->
+							<nav>
+								<ul>
+									<li class="active"><a href="index.html#home">Home</a></li>
+									<li><a href="index.html#first">The World</a></li>
+									<li><a href="index.html#second">The Sectors</a></li>
+									<li><a href="index.html#third">Showcase</a></li>
+									<li><a href="index.html#fourth">Take Part</a></li>
+								</ul>
+							  </nav>            <!-- Panel (Banner) -->
+            <section class="panel banner right" id="home">
+                <div class="content color0 span-3-75">
+                    <h1 class="major">Global
+                        <br /> Methane
+                        <br /> Challenge
+                    </h1>
+                    <h2>Oil & Gas</h2>
+                    <h3>Categories of action</h3>
+                    <ul class="actions">
+                        <li>
+                            <a href="#first" class="button primary color1 circle icon fa-angle-right">Next</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="image span-1-75" data-position="25% 25%">
+                    <img src="images/pic1.jpg" height="100%" width="100%" alt="" />
+                </div>
+            </section>
+            <!-- Panel -->
+            <section class="panel color1" id="first">
+
+                <div class="inner columns aligned">
+                    <div class="span-2-75">
+                        <h2 class="major">
+
+                            Establishment of systematic, comparable and transparent monitoring activities and emissions inventories
+
+                        </h2>
+                        <ul>
+                            <li>Quantify methane emissions from oil and gas sector</li>
+                            <li>Maintain data for all large point sources</li>
+                            <li>Participation in Oil and Gas Methane Partnership (Climate and Clean Air Coalition)</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Panel -->
+            <section class="panel color2" id="second">
+
+                <div class="inner columns aligned">
+                    <div class="span-2-75">
+                        <h2 class="major">
+                            Establishment of a framework or an action program that reduces methane emissions
+
+                        </h2>
+                        <ul>
+                            <li>Undertake assessment of the costs of abatement and publish results</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Panel -->
+            <section class="panel color1" id="third">
+
+                <div class="inner columns aligned">
+                    <div class="span-2-75">
+                        <h2 class="major">
+
+                            Improvement of public awareness
+
+                        </h2>
+                        <ul>
+                            <li>Share information on oil and gas sector specific methane emissions</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- Panel -->
+            <section class="panel color2" id="fourth">
+
+                <div class="inner columns aligned">
+                    <div class="span-2-75">
+                        <h2 class="major">
+                            Mitigation Activities
+
+                        </h2>
+                        <ul>
+                            <li>Install vapor recovery units</li>
+                            <li>Flaring in place of venting for both offshore and onshore gas wells</li>
+                            <li>Direct use of methane</li>
+                            <li>Reinjection of methane</li>
+                            <li>Plunger lift system</li>
+                            <li>Install leak detection technology and repair programs (LDAR)</li>
+                            <li>Install green completions at gas production wells</li>
+                            <li>Production abatement options</li>
+                            <li>Processing abatement options</li>
+                            <li>Transmission abatement options</li>
+                            <li>Distribution abatement options </li>
+                        </ul>
+                    </div>
+                    <!--
+                    <div class="span-2-75">
+                        <h2 class="major" style="opacity: 0;">
+                            &nbsp;
+
+                        </h2>
+                        <ul>
+                            <li>Production abatement options
+                                <ol type="a">
+                                    <li>Use catalytic converters in selected well field engines and compressors; </li>
+                                    <li>Replace wet seals with dry seals in centrifugal compressors; </li>
+                                    <li>Direct/enhanced inspection and maintenance at productions sites; </li>
+                                    <li>Installation of flash tank separator in glycol dehydration systems; </li>
+                                    <li>Replace high-bleed pneumatic devices with low bleed devices or with instrument air (compressed,
+                                        dry air) systems and; </li>
+                                    <li>Optimize glycol recirculation rates </li>
+                                </ol>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="span-2-75">
+                        <h2 class="major" style="opacity: 0;">
+                            &nbsp;
+
+                        </h2>
+                        <ul>
+                            <li>Processing abatement options
+                                <ol type="a">
+                                    <li>Retrofit fuel gas for reciprocating compressors and blowdown valve;</li>
+                                    <li>Replace wet seals with dry seals in centrifugal compressors;</li>
+                                    <li>Convert gas pneumatic controls to instrument air (compressed, dry air) and; </li>
+                                    <li>Direct inspection and maintenance at gas processing plants</li>
+                                </ol>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="span-2-75">
+                        <h2 class="major" style="opacity: 0;">
+                            &nbsp;
+
+                        </h2>
+                        <ul>
+                            <li>Transmission abatement options
+                                <ol type="a">
+                                    <li>Convert gas pneumatic controls to instrument air (compressed, dry air);</li>
+                                    <li>Use pipeline pumpdown techniques to lower gas line pressure before maintenance;</li>
+                                    <li>Direct inspection and maintenance at compressor stations and surface facilities for leak
+                                        detection; </li>
+                                    <li>Replace wet seals with dry seals in centrifugal compressors, and; </li>
+                                    <li>Replace compressor rod packing system </li>
+                                </ol>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="span-2-75">
+                            <h2 class="major" style="opacity: 0;">
+                                &nbsp;
+    
+                            </h2>
+                            <ul>
+                                <li>Distribution abatement options 
+                                        <ol type="a">
+                                                <li>Use hot taps in service pipeline connections; </li>
+                                                <li>Direct inspection and maintenance at gate stations; </li>
+                                                <li>Use composite wrap for non-leaking pipeline defects, and; </li>
+                                                <li>Use pipeline pumpdown technique to lower gas line pressure before maintenance </li>
+                                            </ol>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            -->
+                </div>
+
+        </section>
+        <!--
+                        <!-- Panel -->
+                        <section class="panel color1" id="fifth">
+
+                                <div class="inner columns aligned">
+                                    <div class="span-2-75">
+                                        <h2 class="major">
+                
+                                            Policy
+                
+                                        </h2>
+                                        <ul>
+                                            <li>Develop or promote implementation of sector-specific best practices guidance documents for methane mitigation </li>
+                                            <li>Commit to the Zero Routine Flaring Initiative (World Bank)</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </section>
+
+        <!-- Panel -->
+        <section class="panel" id="third">
+            <div class="intro color2">
+                <h2 class="major">Showcase</h2>
+                <p>Feature images for stories. Clicking on images can load infographics, PDFs, videos, etc.</p>
+            </div>
+            <div class="gallery">
+                <div class="group span-3">
+                    <a href="images/gallery/fulls/01.jpg" class="image filtered span-3" data-position="bottom">
+                        <img src="images/gallery/thumbs/01.jpg" alt="" />
+                    </a>
+                    <a href="images/gallery/fulls/02.jpg" class="image filtered span-1-5" data-position="center">
+                        <img src="images/gallery/thumbs/02og.jpg" alt="" />
+                    </a>
+                    <a href="images/gallery/fulls/03.jpg" class="image filtered span-1-5" data-position="bottom">
+                        <img src="images/gallery/thumbs/03og.jpg" alt="" />
+                    </a>
+                </div>
+                <a href="images/gallery/fulls/04.jpg" class="image filtered span-2-5" data-position="top">
+                    <img src="images/gallery/thumbs/04og.jpg" alt="" />
+                </a>
+                <a href="images/gallery/fulls/09.jpg" class="image filtered span-2-5" data-position="right">
+                    <img src="images/gallery/thumbs/09og.jpg" alt="" />
+                </a>
+            </div>
+        </section>
+
+        <!-- Panel -->
+        <section class="panel" id="fourth">
+            <div class="intro color0">
+                <h2 class="major">Tell your story</h2>
+                <p>Get featured in our showcase by reaching out with your story.</p>
+            </div>
+            <div class="inner columns divided " style="background:rgba(0,0,0,0.8);">
+                <div class="span-3-25">
+                    <form method="post" action="#">
+                        <div class="fields">
+                            <div class="field half">
+                                <label for="name">Name</label>
+                                <input style="background:rgba(255,255,255,0.5);" type="text" name="name" id="name" />
+                            </div>
+                            <div class="field half">
+                                <label for="email">Email</label>
+                                <input style="background:rgba(255,255,255,0.5);" type="email" name="email" id="email" />
+                            </div>
+                            <div class="field">
+                                <label for="message">Message</label>
+                                <textarea style="background:rgba(255,255,255,0.5);" name="message" id="message" rows="4"></textarea>
+                            </div>
+                        </div>
+                        <ul class="actions">
+                            <li>
+                                <input type="submit" value="Send Message" class="button primary" />
+                            </li>
+                        </ul>
+                    </form>
+                </div>
+                <div class="span-1-5">
+                    <ul class="contact-icons color1">
+                        <li class="icon fa-twitter">
+                            <a href="#"></a>
+                        </li>
+                        <li class="icon fa-facebook">
+                            <a href="#"></a>
+                        </li>
+                        <li class="icon fa-envelope">
+                            <a href="#"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+
+    </div>
+
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

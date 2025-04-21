@@ -1,0 +1,283 @@
+﻿<div class="container" style="margin-top:3.5rem;">
+    <style>
+    
+        table{
+            border-spacing: 0;
+            border:1px solid black;
+        }
+    
+        td{
+            padding:0;
+            padding:10px 5px;
+            border:1px solid lightgrey;
+            vertical-align: top;
+            /*width:40px;*/
+        }
+        thead td{
+            font-weight:bold;
+            text-align:center;
+            vertical-align:bottom;
+        }
+        .daycolumn{
+            border-left:2px solid black;
+        }
+    
+        .gmiMeeting{
+            background:RGBA(123,192,80,0.4);
+        }
+    
+        .uneceMeeting{
+            background:RGBA(123,192,180,0.4);
+        }
+    
+        td:not(:first-child) {
+           /* max-width:125px!important;*/
+        }
+    
+        .timeTD{
+            text-align:center;font-size:0.8em;
+            background:#ededed;
+            white-space: nowrap;
+        }
+
+        .tableContainer{
+  overflow-x: auto;
+  position: relative;
+}
+
+thead td:first-child {
+    
+  position: -webkit-sticky; /* for Safari */
+  position: sticky;
+ left: 0;
+}
+
+tbody td:first-child {
+  position: -webkit-sticky; /* for Safari */
+  position: sticky;
+  left: 0;
+}
+
+.restTime{
+    background:#D3D3D3;
+}
+.restRow{
+background:#D3D3D3;
+}
+
+.swipeInstructions{
+    background:#024b76;
+    color:#fafafa;
+    text-align:center;
+    padding-left:2px;
+    padding-right:2px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.shineicon:after {
+  
+  animation: shine 5s ease-in-out  infinite;
+  animation-fill-mode: forwards;  
+  content: "";
+  position: absolute;
+  top: -110%;
+  left: -210%;
+  width: 200%;
+  height: 200%;
+  opacity: 0;
+  transform: rotate(30deg);
+  
+  background: rgba(255, 255, 255, 0.13);
+  background: linear-gradient(
+    to right, 
+    rgba(255, 255, 255, 0.13) 0%,
+    rgba(255, 255, 255, 0.13) 77%,
+    rgba(255, 255, 255, 0.5) 92%,
+    rgba(255, 255, 255, 0.0) 100%
+  );
+}
+
+/* Hover state - trigger effect */
+
+
+/* Active state */
+
+.shineicon:active:after {
+  opacity: 0;
+}
+
+@keyframes shine{
+  10% {
+    opacity: 1;
+    top: -30%;
+    left: -30%;
+    transition-property: left, top, opacity;
+    transition-duration: 0.7s, 0.7s, 0.15s;
+    transition-timing-function: ease;
+  }
+  100% {
+    opacity: 0;
+    top: -30%;
+    left: -30%;
+    transition-property: left, top, opacity;
+  }
+}
+        </style>
+    <!-- Example row of columns -->
+    <h2>Agenda for the Plenary Session</h2>
+    <h3>Tuesday, 24 March 2020, Palais de Nations, Room XXI</h3>
+    <div class="tableContainer">
+    <table id="gmfAgenda" style="margin:auto;border-collapse:collapse;overflow-x:auto;display:block;width:fit-content;max-width:100%;">
+	<tbody>
+    <tr class="restRow">
+        <td class="timeTD restTime">08:00 – 09:15 </td>
+        <td class="daycolumn">Registration/Security check-in </td>
+    </tr>
+    <tr>
+        <td class="timeTD">09:30 – 09:35</td>
+        <td class="daycolumn"><strong>Welcome and Opening of the Session </strong></td>
+    </tr>
+    <tr>
+        <td class="timeTD">09:35 – 09:40</td>
+        <td class="daycolumn"><strong>Introductory Remarks</strong><br />
+        <em>Olga Algayerova, Executive Secretary, UNECE (confirmed)</em>
+        </td>
+    </tr>
+    <tr>
+        <td class="timeTD">09:40 – 12:00</td>
+        <td class="daycolumn"><strong>Keynote Session: A Call to Action</strong><br />
+        <em>Claudio Descalzi, Chief Executive Officer, ENI S.p.A. (confirmed)</em><br />
+        <em>Vicki Hollub, Chief Executive Officer, Occidental Petroleum (confirmed)</em><br />
+        <em>Rob Jackson, Professor and Senior Fellow, Stanford University (confirmed)</em><br /> 
+        <em>Sam Kotis, Associate Vice President, Global Energy, Environmental Defense Fund (confirmed)</em><br />
+
+        <em>Fatih Birol, Executive Director, International Energy Agency (invited)</em><br /> 
+        <!--removed 1/30 <em>Michal Kurtyka, Minister of Climate, Government of Poland (invited)</em><br />-->
+
+
+    </td>
+    </tr>
+    <tr>
+        <td class="timeTD">12:00 – 12:30</td>
+        <td class="daycolumn"><strong>Recognition of the Global Methane Challenge Participants </strong></td>
+    </tr>
+    <tr class="restRow">
+        <td class="timeTD restTime">12:30 – 14:15</td>
+        <td class="daycolumn">Lunch Break </td>
+    </tr>
+    <tr>
+        <td class="timeTD">14:30 – 15:40</td>
+        <td class="daycolumn"><em>Facilitated Panel Discussion</em><br /><br />
+        <strong>Financial Risks of Inaction on Methane</strong><br />
+	<em>“Perspectives from financial institutions and the private sector on the funding opportunities, barriers, and risks”</em><br /><br />
+
+        <em>Andrew Logan, Senior Director, Oil & Gas, Ceres (confirmed)</em><br /> 
+        <em>Pratima Rangarajan, Chief Executive Officer, OGCI Climate Investments (confirmed)</em><br /> 
+        <!--<em>Mark Carney, United Nations Special Climate Envoy (invited)</em><br />-->
+	<em>Vikram Widge, Senior Advisor on Climate Finance, Climate Policy Initiative (invited)</em><br /> 
+
+        <!--<br />
+        <strong>Topics to be discussed:</strong>
+        <ul>
+        <li>Funding for methane mitigation projects: needs, opportunities, and barriers (industry perspective)</li>
+        <li>Funding opportunities, requirements, and barriers (financial institutions perspective)</li>
+        <li>Opportunity cost/risks associated with no action</li>
+        <li>The issue of aging infrastructure and a need for investment</li>
+        <li>Risks associated with continued support for fossil-based projects</li>
+        <li>Way forward</li>
+        </ul>-->
+	</td>
+    </tr>
+<!--
+    <tr class="restRow">
+        <td class="timeTD restTime">16:00 – 16:15</td>
+        <td class="daycolumn">Health Break </td>
+    </tr>
+-->
+    <tr>
+        <td class="timeTD">15:45 – 16:55</td>
+        <td class="daycolumn"><em>Facilitated Panel Discussion<br />
+	Moderated by Stephanie Saunier, Managing Director, Carbon Limits</em><br /><br />
+        <strong>Drivers of Action to Reduce Methane</strong><br />
+	<em>“Perspectives from the private sector and governments on experiences and challenges: what has worked, and what hasn’t, in addressing methane mitigation through policy, including both regulations and voluntary incentives”</em><br /><br />
+
+        <em>Brendan Devlin, Advisor, Directorate General Energy, European Commission (confirmed)</em><br /> 
+        <em>Jerome Schmitt, Chair, OGCI Executive Committee (confirmed)</em><br /> 
+	<!--<em>Shardul Agrawala, Head of the Environment and Economic Integration Division, OECD (invited)</em><br />-->
+        <!--<em>Nazareno Castillo, Technical Advisor, Secretariat of Environment & Sustainable Development of Argentina (invited)</em><br /> -->
+        <em>Suresh Kumar, Additional Secretary, Ministry of Coal of India (invited)</em><br /> 
+
+
+        <!--
+        <br />
+	<strong>Topics to be discussed:</strong>
+        <ul>
+        <li>Closing the gap between policy, industry, and incentives</li>
+        <li>Identify short-term opportunities to reduce GHG/methane emissions</li>
+        <li>Current and planned regulations on methane emissions (MRV, mitigation, penalties, etc.) </li>
+        <li>Examples of voluntary actions in different industries </li>
+        <li>Potential for improved coordination of efforts in different industries (public-private, and private-private: among actors on the same, as well as across different levels of value chain) </li>
+        <li>Barriers to cooperation (public-private, and private-private: among actors on the same, as well as across different levels of value chain) and the ways to overcome them</li>
+        </ul>
+	-->
+	</td>
+    </tr>
+    <tr>
+        <td class="timeTD">16:55 – 17:00</td>
+        <td class="daycolumn"><strong>Closing Remarks; Adjournment</strong></td>
+    </tr>
+    <tr>
+        <td class="timeTD">17:00 - 18:00</td>
+        <td class="daycolumn"><strong>Reception</strong> - Serpent Bar, Building E, 1st Floor (hosted by OGCI)</td>
+    </tr>
+	</tbody>
+</table>
+
+</div>    
+
+
+<br />
+<br />
+
+
+<div id="#map1" style="margin:auto;text-align:center;width:100%;">
+
+<h2>Palais de Nations</h2>
+<img src="content/map-agenda-plenary.svg" />
+
+
+
+</div> <!--map-->
+
+
+</div> <!-- /container -->
+
+<script>
+(function() {
+  var elements;
+  var windowHeight;
+
+  function init() {
+    elements = document.querySelectorAll('.hidden');
+    windowHeight = window.innerHeight;
+  }
+
+  function checkPosition() {
+    for (var i = 0; i < elements.length; i++) {
+      var element = elements[i];
+      var positionFromTop = elements[i].getBoundingClientRect().top;
+
+      if (positionFromTop - windowHeight <= 0) {
+        element.classList.add('fade-in-element');
+        element.classList.remove('hidden');
+      }
+    }
+  }
+
+  window.addEventListener('scroll', checkPosition);
+  window.addEventListener('resize', init);
+
+  init();
+  checkPosition();
+})();</script>

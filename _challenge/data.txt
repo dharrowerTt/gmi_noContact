@@ -1,0 +1,499 @@
+{
+"data":[
+ {
+   "Project Name": "Abiogas",
+   "Link": "https://globalmethane.org/challenge/abiogas.html",
+   "Sector": "Biogas",
+   "Country": "Brazil",
+   "Type": "Subnational",
+   "Image": "../partners/images/gmc-thumbs/abiogas.png",
+   "Description": "In 2019, ABiogás promoted the biogas sector in Brazil by formulating legal frameworks for biogas policies at the national level, participating in country energy planning efforts led by the Brazilian Ministry of Mines and Energy, and contributing to the price formulation for biomethane in Brazilian states."
+ },
+ {
+   "Project Name": "Agricultural Greenhouse Gases Program",
+   "Link": "https://globalmethane.org/challenge/canada.html#menu7",
+   "Sector": "Biogas",
+   "Country": "Canada",
+   "Type": "National",
+   "Image": "../partners/images/gmc-thumbs/agricultural-ghg-program.png",
+   "Description": "The Agricultural Greenhouse Gases Program aims to enhance the understanding and accessibility of agricultural technologies, beneficial management and processes that can be adopted by farmers to mitigate agricultural greenhouse emissions in Canada. "
+ },
+ {
+   "Project Name": "Arctic Council's Expert Group on Black Carbon and Methane",
+   "Link": "https://globalmethane.org/challenge/arctic.html",
+   "Sector": "Multiple",
+   "Country": "Multiple",
+   "Type": "International",
+   "Image": "../partners/images/gmc-thumbs/arctic-council.png",
+   "Description": "The Arctic Council established the Expert Group on Black Carbon and Methane (EGBCM) to assess progress towards the reduction of black carbon and methane emissions across the Arctic.  Every two years, the EGBCM develops a report that summarizes emissions and develops recommendations to policy makers on voluntary actions to reduce emissions. "
+ },
+ {
+   "Project Name": "Baleen International, Inc.",
+   "Link": "https://globalmethane.org/challenge/baleen.html",
+   "Sector": "Biogas",
+   "Country": "Canada",
+   "Type": "Subnational",
+   "Image": "../partners/images/gmc-thumbs/baleen.png",
+   "Description": "Compared to landfill disposal, Baleen International Inc’s waste-to-energy infrastructure is estimated to reduce approximately 167,500 CO<sub>2</sub>e per year in addition to the environmental and energy benefits of not having to operate and maintain a conventional biological sewage treatment plant with equivalent capacity."
+ },
+ {
+   "Project Name": "BioCover A/S",
+   "Link": "https://globalmethane.org/challenge/biocover.html",
+   "Sector": "Biogas",
+   "Country": "Denmark",
+   "Type": "Subnational",
+   "Image": "../partners/images/gmc-thumbs/biocover.png",
+   "Description": "BioCover, a Danish company specializing in the sustainable use of organic fertilizer, has developed an acidification technology that enables 80 percent reduction of methane from slurry management."
+ },
+ {
+   "Project Name": "Blair Air System",
+   "Link": "https://globalmethane.org/challenge/blair.html",
+   "Sector": "Oil & Gas",
+   "Country": "Canada",
+   "Type": "Subnational",
+   "Image": "../partners/images/gmc-thumbs/blair.png",
+   "Description": "The Blair Air System eliminates methane emissions from commonly used pumps and instruments at oil and gas well sites. Each system can provide reductions of approximately 740 tons of CO<sub>2</sub>e per year."
+ },
+ {
+   "Project Name": "Bluesource Methane - Bluesource Methane Reduction Program",
+   "Link": "https://globalmethane.org/challenge/bluesource.html",
+   "Sector": "Oil & Gas",
+   "Country": "Canada",
+   "Type": "Subnational",
+   "Image": "../partners/images/gmc-thumbs/bluesource.png",
+   "Description": "Bluesource quantifies emission reductions and creates emission reduction offset credits, which includes conducting an in-depth verification process for each evaluation of credits. A reduction of 2-3 million tons of carbon dioxide equivalent are expected for the existing program in Alberta by the end of 2022."
+ },
+ {
+   "Project Name": "Building Capacity for Organic Waste Management in the Republic of Serbia",
+   "Link": "https://globalmethane.org/challenge/serbia.html",
+   "Sector": "Biogas",
+   "Country": "Serbia",
+   "Type": "National",
+   "Image": "../partners/images/gmc-thumbs/serbia.png",
+   "Description": "The CCAC and Municipal Solid Waste Initiative organized a study tour of organic waste treatment facilities for Serbian representative. The technical visits, focused on biowaste collection options and compost treatment systems, were designed to assist them in developing strategies for adopting those practices at their municipalities."
+ },
+ {
+   "Project Name": "Cap-Op Energy",
+   "Link": "https://globalmethane.org/challenge/capop.html",
+   "Sector": "Oil & Gas",
+   "Country": "Canada",
+   "Type": "Subnational",
+   "Image": "../partners/images/gmc-thumbs/cap-op-energy.png",
+   "Description": "Cap-Op Energy uses cloud-based data management systems to help companies improve energy efficiency and reduce greenhouse gas emissions. Cap-Op estimates their system helped reduce methane emissions by more than 600,000 tons of CO<sub>2</sub>e in 2019. "
+ },
+ {
+   "Project Name": "China International Centre of Excellence on Coal Mine Methane",
+   "Link": "https://globalmethane.org/challenge/china.html",
+   "Sector": "Coal",
+   "Country": "China",
+   "Type": "National",
+   "Image": "../partners/images/gmc-thumbs/china.png",
+   "Description": "The International Centre of Excellence on Coal Mine Methane serves as a regional and international center for best practices in gas capture and utilization. Its objectives include increasing clean power generation, reducing greenhouse gas emissions, and improving mine safety."
+ },
+ {
+   "Project Name": "Collaborating with Climate and Clean Air Coalition (CCAC) Oil & Gas Methane Partnership (OGMP)",
+   "Link": "https://globalmethane.org/challenge/colombia.html",
+   "Sector": "Oil & Gas",
+   "Country": "Colombia",
+   "Type": "Subnational",
+   "Image": "../partners/images/gmc-thumbs/ecopetrol.png",
+   "Description": "Ecopetrol is developing an implementation plan to identify and assess methane emissions from core emission sources in their crude production operations."
+ },
+ {
+   "Project Name": "Domestic Methane Partnership Programs",
+   "Link": "https://globalmethane.org/challenge/usa.html",
+   "Sector": "Multiple",
+   "Country": "United States",
+   "Type": "National",
+   "Image": "../partners/images/gmc-thumbs/us-domestic.png",
+   "Description": "The U.S. Environmental Protection Agency (EPA) has implemented several voluntary programs to promote cost-effective recovery and use of methane. EPA shares the expertise and experience gained through the voluntary domestic programs as part of its commitment to the Global Methane Initiative. "
+ },
+ {
+   "Project Name": "Energy Developments PTY Limited",
+   "Link": "https://globalmethane.org/challenge/edl.html",
+   "Sector": "Multiple",
+   "Country": "Australia",
+   "Type": "Subnational",
+   "Image": "../partners/images/gmc-thumbs/edl.png",
+   "Description": "Energy Development Limited’s actions have reduced methane emissions by 19 million tons of CO<sub>2</sub>e annually. This equates to removing approximately 5.7 million cars from the road every year. "
+ },
+ {
+   "Project Name": "Engineered Waste Systems (EWS) LLC - Waste Management",
+   "Link": "https://globalmethane.org/challenge/ews.html",
+   "Sector": "Biogas",
+   "Country": "United States",
+   "Type": "Subnational",
+   "Image": "../partners/images/gmc-thumbs/ews.png",
+   "Description": "EWS LLC is helping businesses to create waste management plans.  Their work with local businesses is expected to reduce waste disposal costs by almost 80 percent, produce fertile humus, increase recycling by 67 percent, and educate employees on sustainable management practices."
+ },
+ {
+   "Project Name": "FAO and GRA: Measuring and Reducing Enteric Methane from Livestock",
+   "Link": "https://globalmethane.org/challenge/fao.html",
+   "Sector": "Biogas",
+   "Country": "Italy",
+   "Type": "Subnational",
+   "Image": "../partners/images/gmc-thumbs/fao.png",
+   "Description": "The Food and Agriculture Organization of the United Nations and the Global Research Alliance on Agricultural Greenhouse Gases are helping countries improve GHG emissions inventories, define reduction targets, and improve understanding of mitigation measures."
+ },
+ {
+   "Project Name": "Final Regulation Guidelines for the Prevention and Integral Control of Methane Emissions from the Hydrocarbon Sector",
+   "Link": "https://globalmethane.org/challenge/mexico.html",
+   "Sector": "Oil & Gas",
+   "Country": "Mexico",
+   "Type": "National",
+   "Image": "../partners/images/gmc-thumbs/mexico.png",
+   "Description": "In November 2018, Mexico put into effect the regulation “Guidelines for the Prevention and Integral Control of Methane Emissions from the Hydrocarbon Sector” to significantly reduce methane emissions."
+ },
+ {
+   "Project Name": "GHGSat Inc.",
+   "Link": "https://globalmethane.org/challenge/ghgsat.html",
+   "Sector": "Oil & Gas",
+   "Country": "Canada",
+   "Type": "Subnational",
+   "Image": "../partners/images/gmc-thumbs/ghgsat.png",
+   "Description": "GHGSat’s growing fleet of satellites detect methane emissions at industrial facilities from space. They provide data and actionable information on GHG emissions to emitters and regulators.  GHGSat informs oil and gas operators when leaks have been detected. "
+ },
+ {
+   "Project Name": "GIE and MARCOGAZ",
+   "Link": "https://globalmethane.org/challenge/gie.html",
+   "Sector": "Oil & Gas",
+   "Country": "Belgium",
+   "Type": "Subnational",
+   "Image": "../partners/images/gmc-thumbs/gie.png",
+   "Description": "Belgium-based Gas Infrastructure Europe (GIE) and MARCOGAZ published an industry-wide study, “Potential ways the gas industry can contribute to the reduction of methane emissions” that provides an overview of methane emissions and actions taken by the gas industry. "
+ },
+ {
+   "Project Name": "Hassan II Institute of Agronomy and Veterinary Sciences",
+   "Link": "https://globalmethane.org/challenge/iav.html",
+   "Sector": "Biogas",
+   "Country": "Morocco",
+   "Type": "Subnational",
+   "Image": "../partners/images/gmc-thumbs/hassan.png",
+   "Description": "Researchers at the Hassan II Institute of Agronomy and Veterinary Sciences (IAV) are using natural feed additives to address methane emissions that come from livestock ruminants."
+ },
+ {
+   "Project Name": "HAUG Sauer Kompressoren AG",
+   "Link": "https://globalmethane.org/challenge/haug.html",
+   "Sector": "Multiple",
+   "Country": "Switzerland",
+   "Type": "Subnational",
+   "Image": "../partners/images/gmc-thumbs/haug-sauer.png",
+   "Description": "HAUG Sauer Kompressoren AG produces oil-free and dry-running piston compressors that allow systems to emit zero methane emissions.  The estimated emission reductions for each compressor installed at a typical natural gas station is approximately 1,634 TCO<sub>2</sub>e per year."
+ },
+ {
+   "Project Name": "Hydraulic Fracturing of Kuznetsk LLC",
+   "Link": "https://globalmethane.org/challenge/hydraulic.html",
+   "Sector": "Coal",
+   "Country": "Russia",
+   "Type": "Subnational",
+   "Image": "../partners/images/gmc-thumbs/kuznetsk.png",
+   "Description": "Hydraulic Fracturing of Kuznetsk, LLC is working to reduce methane emissions in Russia through the development of a technology that increases the efficiency of degassing systems in modern coal mines."
+ },
+ {
+   "Project Name": "India CBM Clearinghouse",
+   "Link": "https://globalmethane.org/challenge/cbm.html",
+   "Sector": "Coal",
+   "Country": "India",
+   "Type": "Subnational",
+   "Image": "../partners/images/gmc-thumbs/india-cmm-cbm.png",
+   "Description": "The India CMM/CBM Clearinghouse addresses barriers to methane utilization projects in India. Several commercial CMM/CBM projects are scheduled to be implemented in 2020."
+ },
+ {
+   "Project Name": "Indian Institute of Technology Delhi",
+   "Link": "https://globalmethane.org/challenge/iitd.html",
+   "Sector": "Biogas",
+   "Country": "India",
+   "Type": "Subnational",
+   "Image": "../partners/images/gmc-thumbs/iitd.png",
+   "Description": "The Indian Institute of Technology Delhi (IITD) is committed to contributing innovative scientific and technical education and research to India and the world and serving as a valuable biogas resource for industry and society."
+ },
+ {
+   "Project Name": "Ingevity Corporation",
+   "Link": "https://globalmethane.org/challenge/ingevity.html",
+   "Sector": "Oil & Gas",
+   "Country": "United States",
+   "Type": "Subnational",
+   "Image": "../partners/images/gmc-thumbs/ingevity.png",
+   "Description": "Ingevity Corporation is advancing the use of adsorbed natural gas (ANG) as an economical and scalable alternative fuel source that will significantly increase the capacity to store natural gas and reduce methane emissions."
+ },
+ {
+   "Project Name": "Initiatives to Prevent GHG Emissions through Diversion and Prevention of Organic Waste",
+   "Link": "https://globalmethane.org/challenge/canada.html#menu2",
+   "Sector": "Biogas",
+   "Country": "Canada",
+   "Type": "National",
+   "Image": "../partners/images/gmc-thumbs/canada-organics.png",
+   "Description": "Environment and Climate Change Canada is raising awareness among Canadians on the issue of food waste and loss, helping jurisdictions make informed decisions when planning waste diversion infrastructure."
+ },
+ {
+   "Project Name": "International Collaboration to Address Methane Emissions",
+   "Link": "https://globalmethane.org/challenge/canada.html#menu4",
+   "Sector": "Multiple",
+   "Country": "Canada",
+   "Type": "National",
+   "Image": "../partners/images/gmc-thumbs/canada-international.png",
+   "Description": "Environment and Climate Change Canada is working to establish collaborative relationships with several international partners, including Vietnam, Senegal, Côte d’Ivoire, Chile, China, and Mexico. "
+ },
+ {
+   "Project Name": "Kazakhstan Wastewater Biogas Recovery Initiative",
+   "Link": "https://globalmethane.org/challenge/kazakhstan.html",
+   "Sector": "Biogas",
+   "Country": "Kazakhstan",
+   "Type": "National",
+   "Image": "../partners/images/gmc-thumbs/Kazakhstan.png",
+   "Description": "The Kazakhstan Ministry of Energy, Department of Renewable Energy, developed a roadmap to identify and prioritize concrete actions to promote legal and regulatory support for biogas use in Kazakhstan."
+ },
+ {
+   "Project Name": "La Française de l’Energie",
+   "Link": "https://globalmethane.org/challenge/francaise.html",
+   "Sector": "Coal",
+   "Country": "France",
+   "Type": "Subnational",
+   "Image": "../partners/images/gmc-thumbs/francaise-de-l-energie.png",
+   "Description": "La Française de l’Energie (LFDE) assessed and identified practical options to recover and utilize the gas from Northern France’s abandoned coal mines. Annual methane emissions reductions for LFDE’s project are estimated at 602,000 TCO<sub>2</sub>e."
+ },
+ {
+   "Project Name": "Landfill Gas Capture and Utilization Feasibility",
+   "Link": "https://globalmethane.org/challenge/canada.html#menu3",
+   "Sector": "Biogas",
+   "Country": "Canada",
+   "Type": "National",
+   "Image": "../partners/images/gmc-thumbs/canada-lfg.png",
+   "Description": "Environment and Climate Change Canada is working to encourage greater LFG collection across provinces and municipalities through feasibility studies of LFG capture in small, medium and large landfills."
+ },
+ {
+   "Project Name": "LiDAR Services International Inc. Airborne Methane Mapping and Comprehensive Remote Emissions Intelligence, Surveillance and Reconnaissance Sensing",
+   "Link": "https://globalmethane.org/challenge/lidar.html",
+   "Sector": "Oil & Gas",
+   "Country": "Canada",
+   "Type": "#N/A",
+   "Image": "../partners/images/gmc-thumbs/lidar.png",
+   "Description": "LiDAR Services International Inc.’s airborne systems provide a measurement and accountability framework to assess reduction initiatives and to find unknown or unquantified emissions sources."
+ },
+ {
+   "Project Name": "Metropolitan Utilities District",
+   "Link": "https://globalmethane.org/challenge/metropolitan.html",
+   "Sector": "Oil & Gas",
+   "Country": "United States",
+   "Type": "Subnational",
+   "Image": "../partners/images/gmc-thumbs/metropolitan-utilities.png",
+   "Description": "The Metropolitan Utilities District is replacing 370 miles of cast iron infrastructure with high-density polyethylene pipe to reduce leaks, eliminating the equivalent of more than 6,600 metric tons of carbon dioxide per year."
+ },
+ {
+   "Project Name": "Mexico Wastewater Biogas Recovery Initiative",
+   "Link": "https://globalmethane.org/challenge/mexico_ww.html",
+   "Sector": "Biogas",
+   "Country": "Mexico",
+   "Type": "National",
+   "Image": "../partners/images/gmc-thumbs/mexico-ww.png",
+   "Description": "Government agencies in Mexico are working to reduce methane emissions from wastewater treatment plants. The effort includes documenting the results of pre-feasibility studies, technical training, and sharing technical expertise with high-level decision-makers."
+ },
+ {
+   "Project Name": "Mongolian Nature & Environment Consortium (MNEC), Developing a Coal Mine Methane Emissions Inventory",
+   "Link": "https://globalmethane.org/challenge/mnec.html",
+   "Sector": "Coal",
+   "Country": "Mongolia",
+   "Type": "Subnational",
+   "Image": "../partners/images/gmc-thumbs/mnec.png",
+   "Description": "The Mongolian Nature & Environment Consortium (MNEC) created an inventory of CMM fugitive emissions, increased capacity for CMM exploration and project development, and published several outreach materials to increase public awareness."
+ },
+ {
+   "Project Name": "Mootral",
+   "Link": "https://globalmethane.org/challenge/mootral.html",
+   "Sector": "Biogas",
+   "Country": "Switzerland",
+   "Type": "Subnational",
+   "Image": "../partners/images/gmc-thumbs/mootral.png",
+   "Description": "Mootral has developed a natural feed supplement to reduce methane emissions from cattle. Research confirms that adding Mootral to a cow’s diet can lead to a 30% decrease in methane production."
+ },
+ {
+   "Project Name": "Natural Sciences and Engineering Research Council of Canada (NSERC) FlareNet Strategic Network Global Research Initiative to Address Flare Generated Pollutant Emissions from Unconventional Oil & Gas Processing",
+   "Link": "https://globalmethane.org/challenge/canada.html#menu5",
+   "Sector": "Oil & Gas",
+   "Country": "Canada",
+   "Type": "#N/A",
+   "Image": "../partners/images/gmc-thumbs/canada-flarenet.png",
+   "Description": "FlareNet provides a quantitative understanding of flare-generated pollutant emissions through improved emissions inventories, assessments of mitigation actions, technologies to predict and measure emissions, and technical support for projects."
+ },
+ {
+   "Project Name": "Naucalpan de Juárez, Mexico – Improving Waste Management Practices and Reducing Methane Emissions",
+   "Link": "https://globalmethane.org/challenge/naucalpan.html",
+   "Sector": "Biogas",
+   "Country": "Mexico",
+   "Type": "National",
+   "Image": "../partners/images/gmc-thumbs/naucalpan.png",
+   "Description": "Naucalpan de Juárez, Mexico analyzed the environmental benefits of a mechanical and biological waste treatment facility. The analysis suggests significant reductions in short-lived climate pollutant emissions, including methane emissions, are possible."
+ },
+ {
+   "Project Name": "Poland International Centre of Excellence on Coal Mine Methane",
+   "Link": "https://globalmethane.org/challenge/poland.html",
+   "Sector": "Coal",
+   "Country": "Poland",
+   "Type": "National",
+   "Image": "../partners/images/gmc-thumbs/poland-cmm.png",
+   "Description": "Poland created the International Centre of Excellence on Coal Mine Methane (ICE-CMM) to support the Group of Experts on CMM in its capacity-building activities."
+ },
+ {
+   "Project Name": "Process Ecology Inc.",
+   "Link": "https://globalmethane.org/challenge/process.html",
+   "Sector": "Oil & Gas",
+   "Country": "Canada",
+   "Type": "Subnational",
+   "Image": "../partners/images/gmc-thumbs/process-ecology.png",
+   "Description": "Process ecology’s software system, MeAdvisor, tracks company-wide emissions of methane from continuous sources and non-routine events to optimize the performance of oil and gas operating facilities."
+ },
+ {
+   "Project Name": "Punjab Agricultural Management & Extension Training Institute",
+   "Link": "https://globalmethane.org/challenge/punjab.html",
+   "Sector": "Biogas",
+   "Country": "India",
+   "Type": "Subnational",
+   "Image": "../partners/images/gmc-thumbs/punjab.png",
+   "Description": "The Punjab Agricultural Management & Extension Training Institute (PAMETI) is providing straw management equipment to villages in India. The equipment will reduce the burning of rice straw after harvest, resulting in fewer methane emissions. "
+ },
+ {
+   "Project Name": "QLM: Quantum Optical Gas Sensors",
+   "Link": "https://globalmethane.org/challenge/qlm.html",
+   "Sector": "Oil & Gas",
+   "Country": "United Kingdom",
+   "Type": "Subnational",
+   "Image": "../partners/images/gmc-thumbs/qlm.png",
+   "Description": "QLM's compact, high-sensitivity, low-power Tuneable Diode Lidar (TDLidar) gas detection and imaging systems are expected to help reduce methane emissions by approximately 100 MtCO<sub>2</sub>e/year."
+ },
+ {
+   "Project Name": "Qnergy",
+   "Link": "https://globalmethane.org/challenge/qnergy.html",
+   "Sector": "Oil & Gas",
+   "Country": "United States",
+   "Type": "Subnational",
+   "Image": "../partners/images/gmc-thumbs/qnergy.png",
+   "Description": "Qnergy partners with natural gas producers in North America to reduce the amount of methane emitted from bleeding (leaking) pneumatic devices. Each Qnergy system is expected to reduce approximately 450 tons of CO<sub>2</sub>e per year."
+ },
+ {
+   "Project Name": "ReductionTech (GC Green Carbon Inc.)",
+   "Link": "https://globalmethane.org/challenge/gc.html",
+   "Sector": "Biogas",
+   "Country": "Canada",
+   "Type": "Subnational",
+   "Image": "../partners/images/gmc-thumbs/reductiontech.png",
+   "Description": "ReductionTech (GC Green Carbon Inc.) is developing and installing methane arresters to remove methane from the atmosphere through hydroxyl remediation. The emission reductions are estimated to be 2.2 MTCO<sub>2</sub>e/year for every 100,000 people served."
+ },
+ {
+   "Project Name": "Regulations Respecting Reduction in the Release of Methane and Certain Volatile Organic Compounds (Upstream Oil & Gas Sector)",
+   "Link": "https://globalmethane.org/challenge/canada.html#menu1",
+   "Sector": "Oil & Gas",
+   "Country": "Canada",
+   "Type": "National",
+   "Image": "../partners/images/gmc-thumbs/canada-og-reg.png",
+   "Description": "Canada’s regulations that restrict methane emissions from upstream activities (exploration, drilling, production, processing and transmission) will result in reductions of 20 megatonnes of CO<sub>2</sub>e by 2035, equal to removing 5 million passenger vehicles off the road each year."
+ },
+ {
+   "Project Name": "Research Efforts to Control Greenhouse Gases Emissions from Livestock",
+   "Link": "https://globalmethane.org/challenge/canada.html#menu6",
+   "Sector": "Biogas",
+   "Country": "Canada",
+   "Type": "National",
+   "Image": "../partners/images/gmc-thumbs/canada-livestock.png",
+   "Description": "Researchers associated with the University of Alberta are quantifying greenhouse gas emissions from 60 ranches in Manitoba, Saskatchewan and Alberta. They are investigating the use of 5 adaptive multi-paddock grazing approaches on GHG emissions."
+ },
+ {
+   "Project Name": "Saskatchewan Research Council (SRC)",
+   "Link": "https://globalmethane.org/challenge/src.html",
+   "Sector": "Oil & Gas",
+   "Country": "Canada",
+   "Type": "Subnational",
+   "Image": "../partners/images/gmc-thumbs/src.png",
+   "Description": "The Saskatchewan Research Council created the Centre for the Demonstration of Emissions Reductions (CeDER) to provide real-world testing, demonstration, and validation of emissions measurement, reduction, capture, and conversion technologies. "
+ },
+ {
+   "Project Name": "Solucycle",
+   "Link": "https://globalmethane.org/challenge/solucycle.html",
+   "Sector": "Biogas",
+   "Country": "Canada",
+   "Type": "Subnational",
+   "Image": "../partners/images/gmc-thumbs/solucycle.png",
+   "Description": "Solucycle manages food waste with their SoluRobot technology. The system allows restaurants and caterers to divert organic waste matter to biogas facilities and track greenhouse gas reductions."
+ },
+ {
+   "Project Name": "Source Facility and BioCity",
+   "Link": "https://globalmethane.org/challenge/sourcefacilitybiocity.html",
+   "Sector": "Biogas",
+   "Country": "India",
+   "Type": "Subnational",
+   "Image": "../partners/images/gmc-thumbs/source-facility.png",
+   "Description": "Source Facility and BioCity partnered to address operational challenges of biogas systems in India. Together, they provide local communities with 2,500 kg of compressed biogas per day and help to meet fertilizer needs in rural and urban India. "
+ },
+ {
+   "Project Name": "Southwest Research Institute",
+   "Link": "https://globalmethane.org/challenge/swri.html",
+   "Sector": "Oil & Gas",
+   "Country": "United States",
+   "Type": "Subnational",
+   "Image": "../partners/images/gmc-thumbs/swri.png",
+   "Description": "SwRI detects methane leaks in remote areas through a combination of sensors, infrared cameras, machine learning, and artificial intelligence, specializing in autonomous sensing solutions for early detection of leaks from both hazardous liquids and gas pipelines."
+ },
+ {
+   "Project Name": "St. Francis Xavier University",
+   "Link": "https://globalmethane.org/challenge/francisxavier.html",
+   "Sector": "Oil & Gas",
+   "Country": "Canada",
+   "Type": "Subnational",
+   "Image": "../partners/images/gmc-thumbs/fluxlab.png",
+   "Description": "St. Francis Xavier University’s Flux Lab deploys high precision, truck-based analyzers to conduct large-scale emissions measurement campaigns in Canada’s oil and gas fields."
+ },
+ {
+   "Project Name": "The Sniffers",
+   "Link": "https://globalmethane.org/challenge/sniffers.html",
+   "Sector": "Oil & Gas",
+   "Country": "Belgium",
+   "Type": "Subnational",
+   "Image": "../partners/images/gmc-thumbs/sniffers.png",
+   "Description": "The Sniffers created a Methane Accounting Program to help oil and gas companies worldwide better understand, quantify, and reduce methane emissions. On average, the program reduces fugitive methane emissions by 70 percent per project."
+ },
+ {
+   "Project Name": "UNEP: Global Methane Alliance (GMA)",
+   "Link": "https://globalmethane.org/challenge/gma.html",
+   "Sector": "Oil & Gas",
+   "Country": "Multiple",
+   "Type": "#N/A",
+   "Image": "../partners/images/gmc-thumbs/unep-gma.png",
+   "Description": "The GMA gathers international organizations, non-governmental organizations, financing institutions, and oil and gas companies to support countries in setting ambitious methane reduction targets for the oil and gas industry."
+ },
+ {
+   "Project Name": "UNEP: Methane Science Studies ",
+   "Link": "https://globalmethane.org/challenge/methanestudies.html",
+   "Sector": "Oil & Gas",
+   "Country": "Multiple",
+   "Type": "#N/A",
+   "Image": "../partners/images/gmc-thumbs/unep-methane-science-studies.png",
+   "Description": "The results of ongoing and future methane science studies will improve understanding of methane emissions at a global level, allowing industry, governments, and other stakeholders to prioritize actions to reduce methane emissions."
+ },
+ {
+   "Project Name": "UNEP: Oil and Gas Methane Partnership (OGMP)",
+   "Link": "https://globalmethane.org/challenge/ogmp.html",
+   "Sector": "Oil & Gas",
+   "Country": "Multiple",
+   "Type": "#N/A",
+   "Image": "../partners/images/gmc-thumbs/ogmp.png",
+   "Description": "The OGMP provides a protocol to help companies manage their methane emissions from upstream oil and gas operations and offers a credible platform to help member companies demonstrate reductions to industry stakeholders."
+ },
+ {
+   "Project Name": "University of Southampton",
+   "Link": "https://globalmethane.org/challenge/southampton.html",
+   "Sector": "Biogas",
+   "Country": "United Kingdom",
+   "Type": "Subnational",
+   "Image": "../partners/images/gmc-thumbs/southampton.png",
+   "Description": "The University of Southampton are using a state-of-the-art technique to measure the release of landfill gas into the atmosphere, which provides realistic emission rates to inform the United Kingdom's response to climate change."
+ },
+ {
+   "Project Name": "Westgen Technologies",
+   "Link": "https://globalmethane.org/challenge/westgen.html",
+   "Sector": "Oil & Gas",
+   "Country": "Canada",
+   "Type": "Subnational",
+   "Image": "../partners/images/gmc-thumbs/westgen.png",
+   "Description": "Westgen Technologies is helping Canada to achieve methane emission reduction goals for the oil and gas sector with its Engineered Power on Demand (EPOD) technology. The EPOD is powered primarily by solar energy and provides reliable power to a wellsite."
+ }
+]
+}

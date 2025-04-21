@@ -1,0 +1,814 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
+    <title>Issue 26, November 2011 | Methane International | Global Methane Initiative</title>
+	<link rel="stylesheet" type="text/css" href="css/local2020.css" />
+    <style>
+        body {
+            background: url("assets/images/paper_fibers.png");
+        }
+
+		
+    </style>
+</head>
+
+<body>
+    <div id="headerContainer">
+    <!-- Navigation -->
+    <nav class="navbar navbar-light bg-light navbar-default">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><img id="smalllogo" style="margin-top: -15px;" src="../img/gmi-top.png"> Global Methane Initiative (GMI)</a>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link in-line" href="#"><i class="fab fa-facebook-f  fa-fw"></i></a>
+                        <a class="nav-link in-line" href="#"><i class="fab fa-twitter  fa-fw"></i></a>
+                        <a class="nav-link in-line" href="#"><i class="fab fa-linkedin  fa-fw"></i></a>
+                        <div id="languageWidget" style="float:right;margin-top:10px;">
+                            <div class="hider">
+                                <div id="google_translate_element"></div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+        </div>
+    </nav>
+    </div>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark navbar-default second-nav" style="background:#3198C8!important;">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar2">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="container">
+            <div class="navbar-collapse collapse justify-content-between" id="navbar2">
+
+ 			<ul class="navbar-nav mr-auto">
+
+				<li class="nav-item dropdown">
+		          <a class="nav-link lighter" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		          About&nbsp;GMI
+		          </a>
+		          <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
+		            <a class="dropdown-item" href="about.html"><img src="../img/gmi.svg" style="width:125px;height:auto;"><br />About GMI</a>
+		            <a class="dropdown-item" href="methane.html">Why Methane?</a>
+					<a class="dropdown-item" href="faq.html">FAQs</a>
+
+					<div class="dropdown-divider"></div>
+					<a class="dropdown-item" href="join-gmi.html"><div class="nav-icon-left"><i class="fa fa-plus-circle  fa-fw"></i></div> Join GMI</a>
+
+					<div class="dropdown-divider"></div>
+		            <a class="dropdown-item" href="steering.html">Steering Committee</a>
+		            <a class="dropdown-item" href="secretariat.html">Secretariat</a>
+					<a class="dropdown-item" href="delegates.html">Current Delegates</a>
+			            <a class="dropdown-item" href="terms.html">Terms of Reference</a>
+					<div class="dropdown-divider"></div>
+					<a class="dropdown-item" href="accomplishments.html">Accomplishments</a>
+		          </div>
+		        </li>
+				
+				<li class="nav-item dropdown">
+		          <a class="nav-link lighter" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		          Events & Activities
+		          </a>
+		          <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+		            <a class="dropdown-item" href="events.html">Events</a>
+		            <a class="dropdown-item" href="recent-communications.html">Recent Communications</a>
+		            <a class="dropdown-item" href="international-collaboration.html">International Collaboration</a>
+		            <div class="dropdown-divider"></div>
+		            <a class="dropdown-item" href="//globalmethane.org/challenge" target="_blank">
+						<img src="../challenge/images/gmclogo.svg" style="max-width:200px;" /><br>Global Methane Challenge</a>
+		            <div class="dropdown-divider"></div>
+		            <a class="dropdown-item" href="sites.html"><img src="../img/sites-map.png" style="max-width:200px;" /><br>Methane Sites & Activities</a>
+		            <div class="dropdown-divider"></div>
+					<a class="dropdown-item bg-dark text-white" href="site-details.html">Sample site details page</a>
+
+				  </div>
+		        </li>
+
+		        <li class="nav-item dropdown">
+		          <a class="nav-link lighter" href="#" id="navbarDropdown3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		          Sectors
+		          </a>
+		          <div class="dropdown-menu" aria-labelledby="navbarDropdown3">
+					<a class="dropdown-item oilgas text-white" href="oilgas.html"><img src="../img/oil-gas.jpg" style="width:50px;height:auto;"> Oil & Gas Sector</a>
+		            <a class="dropdown-item biogas text-white" href="biogas.html"><img src="../img/biogas.jpg" style="width:50px;height:auto;"> Biogas Sector</a>
+					  <a class="dropdown-item biogas text-white" href="agriculture.html" style="padding-left:90px;">Agriculture Technical Group</a>
+					  <a class="dropdown-item biogas text-white" href="msw.html" style="padding-left:90px;">Municipal Solid Waste Technical Group</a>
+					  <a class="dropdown-item biogas text-white" href="ww.html" style="padding-left:90px;">Municipal Wastewater Technical Group</a>
+					<a class="dropdown-item coal text-white" href="coal.html"><img src="../img/coal-mines.jpg" style="width:50px;height:auto;"> Coal Mines Sector</a>
+		          </div>
+		        </li>
+
+		        <li class="nav-item dropdown">
+		          <a class="nav-link lighter" href="#" id="navbarDropdown4" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		          Partner Countries
+		          </a>
+				  <div class="dropdown-menu" aria-labelledby="navbarDropdown4">
+		            <a class="dropdown-item" href="partner-countries.html"><img src="../img/gmi-map-small.png" style="width:170px;height:auto;"></a>
+					<a class="dropdown-item" href="partner-countries.html">Overview of Partners</a>
+		            <div class="dropdown-divider"></div>
+					<a class="dropdown-item bg-dark text-white" href="partner-country-detail.html"><img class="nav-flag" src="../images/flag_us.gif">Sample details page</a>
+		            <div class="dropdown-divider"></div>
+					<a class="dropdown-item" href="../partners/partner.aspx?c=albania"><img class="nav-flag" src="../images/flag_albania.gif">Albania</a>
+                    <a class="dropdown-item" href="../partners/partner.aspx?c=argentina"><img class="nav-flag" src="../images/flag_argentina.gif">Argentina</a>
+                    <a class="dropdown-item" href="../partners/partner.aspx?c=australia"><img class="nav-flag" src="../images/flag_australia.gif">Australia</a>
+                    <a class="dropdown-item" href="../partners/partner.aspx?c=brazil"><img class="nav-flag" src="../images/flag_brazil.gif">Brazil</a>
+                    <a class="dropdown-item" href="../partners/partner.aspx?c=bulgaria"><img class="nav-flag" src="../images/flag_bulgaria.gif">Bulgaria</a>
+                    <a class="dropdown-item" href="../partners/partner.aspx?c=canada"><img class="nav-flag" src="../images/flag_canada.gif">Canada</a>
+                    <a class="dropdown-item" href="../partners/partner.aspx?c=chile"><img class="nav-flag" src="../images/flag_chile.gif">Chile</a>
+                    <a class="dropdown-item" href="../partners/partner.aspx?c=china"><img class="nav-flag" src="../images/flag_china.gif">China</a>
+                    <a class="dropdown-item" href="../partners/partner.aspx?c=colombia"><img class="nav-flag" src="../images/flag_colombia.gif">Colombia</a>
+                    <a class="dropdown-item" href="../partners/partner.aspx?c=cotedivoire"><img class="nav-flag" src="../images/flag_ci.gif">Côte d&apos;Ivoire</a>
+                    <a class="dropdown-item" href="../partners/partner.aspx?c=dom_rep"><img class="nav-flag" src="../images/flag_dr.gif">Dominican Republic</a>
+                    <a class="dropdown-item" href="../partners/partner.aspx?c=ecuador"><img class="nav-flag" src="../images/flag_ecuador.gif">Ecuador</a>
+                    <a class="dropdown-item" href="../partners/partner.aspx?c=ethiopia"><img class="nav-flag" src="../images/flag_ethiopia.gif">Ethiopia</a>
+                    <a class="dropdown-item" href="../partners/partner.aspx?c=finland"><img class="nav-flag" src="../images/flag_finland.gif">Finland</a>
+                    <a class="dropdown-item" href="../partners/partner.aspx?c=georgia"><img class="nav-flag" src="../images/flag_georgia.gif">Georgia</a>
+                    <a class="dropdown-item" href="../partners/partner.aspx?c=germany"><img class="nav-flag" src="../images/flag_germany.gif">Germany</a>
+                    <a class="dropdown-item" href="../partners/partner.aspx?c=ghana"><img class="nav-flag" src="../images/flag_ghana.gif">Ghana</a>
+                    <a class="dropdown-item" href="../partners/partner.aspx?c=india"><img class="nav-flag" src="../images/flag_india.gif">India</a>
+                    <a class="dropdown-item" href="../partners/partner.aspx?c=indonesia"><img class="nav-flag" src="../images/flag_indonesia.gif">Indonesia</a>
+                    <a class="dropdown-item" href="../partners/partner.aspx?c=italy"><img class="nav-flag" src="../images/flag_italy.gif">Italy</a>
+                    <a class="dropdown-item" href="../partners/partner.aspx?c=japan"><img class="nav-flag" src="../images/flag_japan.gif">Japan</a>
+                    <a class="dropdown-item" href="../partners/partner.aspx?c=israel"><img class="nav-flag" src="../images/flag_israel.gif">Israel</a>
+                    <a class="dropdown-item" href="../partners/partner.aspx?c=jordan"><img class="nav-flag" src="../images/flag_jordan.gif">Jordan</a>
+                    <a class="dropdown-item" href="../partners/partner.aspx?c=kazakhstan"><img class="nav-flag" src="../images/flag_kazakhstan.gif">Kazakhstan</a>
+                    <a class="dropdown-item" href="../partners/partner.aspx?c=mexico"><img class="nav-flag" src="../images/flag_mexico.gif">Mexico</a>
+                    <a class="dropdown-item" href="../partners/partner.aspx?c=mongolia"><img class="nav-flag" src="../images/flag_mongolia.gif">Mongolia</a>
+                    <a class="dropdown-item" href="../partners/partner.aspx?c=nicaragua"><img class="nav-flag" src="../images/flag_nicaragua.gif">Nicaragua</a>
+                    <a class="dropdown-item" href="../partners/partner.aspx?c=nigeria"><img class="nav-flag" src="../images/flag_nigeria.gif">Nigeria</a>
+                    <a class="dropdown-item" href="../partners/partner.aspx?c=norway"><img class="nav-flag" src="../images/flag_norway.gif">Norway</a>
+                    <a class="dropdown-item" href="../partners/partner.aspx?c=pakistan"><img class="nav-flag" src="../images/flag_pakistan.gif">Pakistan</a>
+                    <a class="dropdown-item" href="../partners/partner.aspx?c=peru"><img class="nav-flag" src="../images/flag_peru.gif">Peru</a>
+                    <a class="dropdown-item" href="../partners/partner.aspx?c=philippines"><img class="nav-flag" src="../images/flag_philippines.gif">Philippines</a>
+                    <a class="dropdown-item" href="../partners/partner.aspx?c=poland"><img class="nav-flag" src="../images/flag_poland.gif">Poland</a>
+                    <a class="dropdown-item" href="../partners/partner.aspx?c=korea"><img class="nav-flag" src="../images/flag_korea.gif">Republic of Korea</a>
+                    <a class="dropdown-item" href="../partners/partner.aspx?c=serbia"><img class="nav-flag" src="../images/flag_serbia.gif">Republic of Serbia</a>
+                    <a class="dropdown-item" href="../partners/partner.aspx?c=russia"><img class="nav-flag" src="../images/flag_russia.gif">Russia</a>
+                    <a class="dropdown-item" href="../partners/partner.aspx?c=saudiarabia"><img class="nav-flag" src="../images/flag_saudi_arabia.gif">Saudi Arabia</a>
+                    <a class="dropdown-item" href="../partners/partner.aspx?c=srilanka"><img class="nav-flag" src="../images/flag_srilanka.gif">Sri Lanka</a>
+                    <a class="dropdown-item" href="../partners/partner.aspx?c=thailand"><img class="nav-flag" src="../images/flag_thailand.gif">Thailand</a>
+                    <a class="dropdown-item" href="../partners/partner.aspx?c=turkey"><img class="nav-flag" src="../images/flag_turkey.gif">Turkey</a>
+                    <a class="dropdown-item" href="../partners/partner.aspx?c=ukraine"><img class="nav-flag" src="../images/flag_ukraine.gif">Ukraine</a>
+                    <a class="dropdown-item" href="../partners/partner.aspx?c=uk"><img class="nav-flag" src="../images/flag_uk.gif">United Kingdom</a>
+                    <a class="dropdown-item" href="partner-country-detail.html"><img class="nav-flag" src="../images/flag_us.gif">United States</a>
+                    <a class="dropdown-item" href="../partners/partner.aspx?c=vietnam"><img class="nav-flag" src="../images/flag_vietnam.gif">Vietnam</a>
+		          </div>
+				</li>
+
+		        <li class="nav-item dropdown">
+		          <a class="nav-link lighter" href="#" id="navbarDropdown5" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		          Project Network
+		          </a>
+		          <div class="dropdown-menu" aria-labelledby="navbarDropdown5">
+		            <a class="dropdown-item text-center" href="project-network.html"><img src="../images/logos/gmi-pn.svg" style="width:100px;height:auto;"></a>
+					<a class="dropdown-item" href="project-network.html#whyjoin">Why Join?</a>
+		            <a class="dropdown-item" href="project-network.html#members">Project Network Members</a>
+		            <a class="dropdown-item" href="project-network.html#resources">Project Network Resources</a>
+		            <div class="dropdown-divider"></div>
+					<a class="dropdown-item" href="project-network-join.html">Join Now</a>
+		            <div class="dropdown-divider"></div>
+					<a class="dropdown-item bg-dark text-white" href="project-network-details.html">Sample member details page</a>  
+		          </div>
+		        </li>
+
+		        <li class="nav-item dropdown">
+		          <a class="nav-link lighter" href="#" id="navbarDropdown6" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		          Resources
+		          </a>
+		          <div class="dropdown-menu" aria-labelledby="navbarDropdown6">
+		            <a class="dropdown-item" href="resources.html"><div class="nav-icon-left"><i class="fa fa-search fa-fw"></i></div> Search All</a>
+		            <a class="dropdown-item" href="resources.html?type=2"><div class="nav-icon-left"><i class="fa fa-calendar-check fa-fw"></i></div> Meeting Proceedings</a>
+		            <a class="dropdown-item" href="resources.html?type=4"><div class="nav-icon-left"><i class="fa fa-laptop fa-fw"></i></div> Technical Presentations&nbsp;&nbsp;&nbsp;&nbsp;</a>
+		            <a class="dropdown-item" href="resources.html?type=1"><div class="nav-icon-left"><i class="fa fa-info fa-fw"></i></div> Fact Sheets</a>
+		            <a class="dropdown-item" href="resources.html?type=5"><div class="nav-icon-left"><i class="fa fa-tools fa-fw"></i></div> Tools & Models</a>
+		            <a class="dropdown-item" href="resources.html?type=3"><div class="nav-icon-left"><i class="fa fa-file fa-fw"></i></div> Reports & Documents</a>
+		            <a class="dropdown-item" href="resources.html?type=6"><div class="nav-icon-left"><i class="fa fa-film fa-fw"></i></div> Videos</a>
+					<div class="dropdown-divider"></div>
+		            <a class="dropdown-item" href="resources-recommend.html"><div class="nav-icon-left"><i class="fa fa-plus-square fa-fw"></i></div> Recommend</a>
+					<div class="dropdown-divider"></div>
+		            <a class="dropdown-item bg-dark text-white" href="resource-details.html">Sample details page for documents/files</a>
+		            <a class="dropdown-item bg-dark text-white" href="resource-details-video.html">Sample details page for videos</a>
+
+		          </div>
+		        </li>
+
+
+		        <li class="nav-item dropdown">
+		          <a class="nav-link lighter" href="#" id="navbarDropdown7" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		          Participate
+		          </a>
+		          <div class="dropdown-menu" aria-labelledby="navbarDropdown7">
+		            <a class="dropdown-item" href="//globalmethane.org/challenge/submission/index.aspx" target="_blank"><img src="../challenge/images/gmclogo.svg" style="max-width:250px;" /><br>Tell Your Story</a>
+					<div class="dropdown-divider"></div>
+					<a class="dropdown-item" href="join-gmi.html"><div class="nav-icon-left"><i class="fa fa-plus-circle  fa-fw"></i></div> Join GMI</a>
+					<a class="dropdown-item" href="http://eepurl.com/ggwT3T" target="_blank"><div class="nav-icon-left"><i class="fa fa-plus  fa-fw"></i></div> Join mailing list</a>
+		            <a class="dropdown-item" href="contactus.html"><div class="nav-icon-left"><i class="fa fa-envelope  fa-fw"></i></div> Contact us</a>
+		          </div>
+		        </li>
+
+		        <li class="nav-item dropdown">
+		          <a class="nav-link lighter" href="#" id="navbarDropdown8" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		          Archive
+		          </a>
+		          <div class="dropdown-menu" aria-labelledby="navbarDropdown8">
+					<a class="dropdown-item" href="gmf-archive.html">Global Methane Forums/Expos</a>
+					<a class="dropdown-item" href="mi-archive.html">Methane International Blog</a>
+					<a class="dropdown-item" href="oilandgas-archive.html">Oil & Gas Sector Project Tracking</a>
+					<!--<a class="dropdown-item" href="resources-archive.html">Archived Resources</a>-->
+		          </div>
+		        </li>
+			</uL>
+ 			<ul class="navbar-nav">
+
+				<li class="nav-item">
+		          <a class="nav-link lighter" role="button" href="https://www.globalmethane.org/advancedSearch.aspx">
+					  Search <i class="fa fa-search"></i>
+		          </a>
+		        </li>
+
+		      </ul>
+
+            </div>
+        </div>
+    </nav>
+
+	
+	<header>
+
+
+		
+    </header>
+
+    <section class="gmi-light-orange">
+		<div class="container">
+        	<a href="/challenge" target="_blank">
+				<div class="gmcBanner">
+             		<img class="gmclogo" src="/images/header_gmc/gmclogo.svg" />
+            		<div class="tagline">Tell us how you’re reducing methane emissions
+            		</div>
+        		</div>
+			</a>
+		</div>
+	</section>
+    
+	<!-- Page Content -->
+    <section class="py-5 gmi-light-blue">
+        <div class="container">
+                    <h1>
+						Methane International 
+					</h1>
+					<h2><small class="text-muted text">Issue 26, November 2011</small></h2>
+                    <div class="alert alert-danger" role="alert">Please note that this page is no longer being maintained. </div>
+					<ul>
+					            <li><a href="#one">Partnership-Wide Meeting a Success!</a></li>
+            <li><a href="#two">GMI Welcomes Two New Partner Countries</a></li>
+            <li><a href="#three">2011 Grant Solicitation Issued</a></li>
+            <li><a href="#four">GMI Outreach</a></li>
+            <li><a href="#five">Recent Developments and Resources</a></li>
+	
+					</ul>
+
+		</div>
+	</section>
+	<section class="py-5 bg-white">
+		<div class="container">
+
+		        <h2 id="one">
+            Partnership-Wide Meeting a Success!</h2>
+        
+        <div style="width: 300px; margin: 0 10px 10px 0; padding: 5px; border: 1px solid #0076bf;
+            float: left;">
+            <img src="/images/mi26_panel.jpg" alt="Dignitaries from the opening plenary session.
+" />
+            <p>
+                Dignitaries from the opening plenary session.</p>
+        </div>
+        <p>
+            In October 2011, more than 160 Partner Country representatives, government leaders,
+            and technical experts from 31 countries gathered in historic Krakow, <strong>Poland,</strong>
+            for the Global Methane Initiative's (GMI's) <a href="meeting20111012.aspx">Partnership-wide
+                meeting</a>. The meeting began with site tours offered in the Initiatives' four
+            sectors of interest&mdash;agriculture, coal, landfill, and oil and gas&mdash;as
+            well as a reception and tour of World Heritage Site Wieliczka Salt Mine.</p>
+        <p>
+            The next day, Marcin Korolec, Undersecretary of State with Poland's Ministry of
+            Economy, welcomed attendees to the informational sessions. He emphasized the importance
+            of methane as a clean energy source and how GMI provides an excellent platform for
+            international cooperation. Also part of the opening session was William Heidt, Deputy
+            Chief of Mission at the <strong>U.S.</strong> Embassy; Paul Gunning, Acting Director,
+            U.S. Environmental Protection Agency (EPA) Climate Change Division; H&#229;vard
+            Toresen, Deputy Director General from <strong>Norway's</strong> Ministry of the
+            Environment, GMI's newest Partner Country (<a href="#two">see below</a>); and Zbigniew
+            Kamienski, Deputy Director from Poland's Ministry of Economy.</p>
+        <p>
+            Other items covered during the meeting included the announcement of a fifth subcommittee,
+            the Municipal Wastewater Subcommittee. Partner Country delegates are encouraged
+            to email the <a href="mailto:secretariat@globalmethane.org">ASG</a> to nominate a representative
+            to be involved with the new subcommittee. ASG also announced that <strong>Canada
+            </strong>will host the 2013 GMI Expo and planning is already underway. The 2013
+            GMI Expo will be held in Vancouver, a scenic coastal seaport city in British Columbia.</p>
+        <p>
+            Updates and highlights from each sector are listed below.</p>
+        <div style="width: 300px; margin: 0 10px 10px 0; padding: 5px; border: 1px solid #0076bf;
+            float: left;">
+            <img src="/images/mi26_ag.jpg" alt="MWM's 600 kilowatt engine at the National Research Institute of Animal Production."
+                align="center" />
+            <p>
+                MWM's 600 kilowatt engine at the National Research Institute of Animal Production.</p>
+        </div>
+        <p>
+            <strong><em>Agriculture</em></strong></p>
+        <p>
+            The <a href="../agriculture/index.aspx">agricultural sector</a> activities included
+            a site visit, technical sessions, and a subcommittee meeting. Nearly 20 participants
+            went to Grodziec Slaski, where they toured an agricultural anaerobic digestion (AD)
+            system at the National Research Institute of Animal Production. At the Institute,
+            manure from cows and hogs is processed along with waste from an ethanol plant in
+            an onsite AD system.</p>
+        <p>
+            The agricultural technical session covered financing options for project development,
+            an overview of national standards and policies that increase the adoption of AD,
+            and highlights on AD projects from around the globe. The technical sessions also
+            included a discussion on international collaboration helping to make AD projects
+            operational and successful.</p>
+        <p>
+            The Agriculture Subcommittee meeting included Partner Country updates from GMI representatives
+            from <strong>Argentina, Canada, India, Poland, Thailand</strong>, and the <strong>United
+                States</strong>. Updates were also provided by Project Network members on AD
+            projects in <strong>Ethiopia, Germany, Pakistan,</strong> and the <strong>United Kingdom</strong>.
+            The meeting also included an update on the status of the international AD database,
+            which will be used to track information about AD projects in GMI Partner Countries.
+            The ASG is asking people to submit data for it in an <a href="../documents/events_ag_20110614_dbtemplate.xls">
+                Excel template</a> (XLS, 178K). Please review the <a href="../documents/events_ag_20110614_dbglossary.pdf">
+                    glossary</a> (PDF, 6 pp, 107K) for assistance in filling out the template.</p>
+        <p>
+            Additional subcommittee items discussed included subcommittee leadership with the
+            suggestion that the United States participate as a Co-Chair, the development of
+            a simple tool to estimate methane emissions from farms, and topics for the 2013
+            GMI Expo. (Suggestions for Expo topics are welcome and should be sent to the <a href="mailto:secretariat@globalmethane.org">
+                ASG</a>.)</p>
+        <p>
+            <strong><em>Coal Mines</em></strong></p>
+        <div style="width: 300px; margin: 0 0 10px 10px; padding: 5px; border: 1px solid #0076bf;
+            float: right;">
+            <img src="/images/mi26_coal.jpg" alt="Coal dust explosion at the experimental mine 'Barbara.'"
+                align="center" />
+            <p>
+                Coal dust explosion at the experimental mine &quot;Barbara.&quot;</p>
+        </div>
+        <p>
+            Activities for the <a href="../coal-mines/index.aspx">coal mines sector</a> included
+            a site tour, a subcommittee meeting, and technical breakout sessions. Twenty-five
+            participants from 14 countries traveled to the Central Mining Institute of Katowice's
+            experimental mine &quot;Barbara,&quot; where researchers discussed their work in
+            improving mine safety. They demonstrated the potential impact of a coal dust explosion
+            by conducting a real explosion in their test mine. Following this visit, participants
+            visited Jastrz&#281;bska Sp&#243;&#322;ka W&#281;glowa S.A.'s &quot;Pniowek&quot;
+            hard coal mine, where coal mine methane (CMM) is recovered and utilized in a 10
+            megawatt (MW) electric power project and evaporative cooling system.</p>
+        <p>
+            The breakout sessions covered best practices for CMM drainage and utilization, new
+            and developing CMM technologies, discussions on unique methane sources from surface
+            mines and ventilation air methane, an introduction to <strong>Australia's</strong>
+            Clean Energy Future package and Coal Sector Assistance package, and an overview
+            of CMM activities in <strong>Poland</strong>. Perspectives on best practices, technologies,
+            sources, policy, and project development were provided by representatives from several
+            countries, including <strong>Australia, Canada, the Netherlands, Poland, Russia, Switzerland,
+                the United Kingdom, </strong>and<strong> the United States.</strong></p>
+        <p>
+            The Coal Mine Subcommittee meeting focused on discussing a draft policy paper to
+            respond to the Steering Committee's discussion regarding the potential impacts of
+            expanding the Initiative to include methane abatement and flaring. The draft paper
+            noted that the first priority for CMM projects would be to recover and utilize the
+            methane, but flaring may be an appropriate abatement strategy in some cases. In
+            addition, Partner Country delegates and Project Network members also discussed the
+            draft CMM technology database, and noted that it would be a living document to store
+            information about emerging technologies and businesses in the sector. Additionally,
+            representatives from Partner Countries, including acting Co-Chairs from <strong>China</strong>
+            and <strong>India</strong>, shared updates related to CMM activities.</p>
+        <div style="width: 300px; margin: 0 10px 10px 0; padding: 5px; border: 1px solid #0076bf;
+            float: left;">
+            <img src="/images/mi26_land.jpg" alt="Attendees at the &quot;Barycz&quot; Landfill's integrated solid waste management facility."
+                align="center" />
+            <p>
+                Attendees at the &quot;Barycz&quot; Landfill's integrated solid waste management
+                facility.</p>
+        </div>
+        <p>
+            <strong><em>Landfills</em></strong></p>
+        <p>
+            On 12 October, more than 35 attendees visited the &quot;Barycz&quot; Landfill outside
+            of Krakow to see a state-of-the-art integrated solid waste management facility.
+            The landfill hosts one of over 80 new landfill gas (LFG) energy projects that came
+            online or under construction over the last five years in <strong>Poland</strong>
+            due, in large part to a favorable green pricing tariff. The LFG energy project generates
+            1.3 MW using four internal combustion engines. The landfill also contains an innovative
+            green waste composting facility and sophisticated waste sorting plant where recyclable
+            materials are recovered and sold for reuse.</p>
+        <p>
+            Breakout sessions for the <a href="../landfills/index.aspx">landfill sector</a>
+            were well attended, with more than 35 people at each session. The first session
+            focused on the transition from Methane to Markets to GMI's expanded scope and included
+            topics on methane avoidance, lessons learned from integrated solid waste management
+            strategies in Europe, and new incentives to promote clean energy. A session on the
+            importance of waste management in Nationally Appropriate Mitigation Actions (NAMAs)
+            and the role of GMI in these efforts was presented by GMI Partners <strong>Colombia</strong>
+            and <strong>Serbia</strong>. The third session focused on technical and financial
+            factors in the development and operation of LFG and wastewater energy projects,
+            including an innovative leachate treatment system that may be suitable for application
+            in GMI Partner Countries. The final session focused on the challenges and opportunities
+            for advancing LFG energy in Poland by two of the hosts &ndash; the Oil and Gas Institute
+            and the Ministry of Environment.</p>
+        <p>
+            The Landfill Subcommittee meeting discussed activities for the remainder of 2011,
+            such as the finalization and distribution of an international LFG best practices
+            guide. Based on charges from the Steering Committee, they discussed modifying the
+            Landfill Subcommittee name to reflect the new expanded scope, developing longer-term
+            planning goals, and forming a taskforce to assist with planning for the 2013 GMI
+            Expo, including developing technical content and project ideas.</p>
+        <p>
+            <strong><em>Oil &amp; Gas Systems</em></strong></p>
+        <div style="width: 300px; margin: 0 0 10px 10px; padding: 5px; border: 1px solid #0076bf;
+            float: right;">
+            <img src="/images/mi26_oil.jpg" alt="Tour site attendees receive live demonstration of infrared cameras (leak detection equipment) at the Gaz-System's Compressor Station in Pog&#243;rska Wola."
+                align="center" />
+            <p>
+                Tour site attendees receive live demonstration of infrared cameras (leak detection
+                equipment) at the Gaz-System's Compressor Station in Pog&#243;rska Wola.</p>
+        </div>
+        <p>
+            The <a href="../oil-gas/index.aspx">oil &amp; gas systems sector</a> meeting included
+            a site tour and technical breakout sessions. The site tour, attended by nearly 30
+            participants, was hosted by Gaz-System at their compressor station and laboratory
+            in Pog&oacute;rska Wola. The tour started with a review of gas quality, which was
+            followed by noise and vibration measurements and a demonstration of FLIR and OPGAL
+            infrared cameras. The tour concluded with presentations on the results of Gaz-System's
+            methane emission measurement study.</p>
+        <p>
+            The technical breakout sessions addressed a variety of topics, including:</p>
+        <ul>
+            <li>Gaz-System's testing of methane identification and measurement equipment;</li>
+            <li><strong>India's</strong> <a href="http://www.ongcindia.com/">Oil and Natural Gas
+                Company (ONGC)</a> <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative">
+                    <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>
+                implementation of vapor recovery units on crude oil tanks;</li>
+            <li><strong>Indonesian</strong> climate policy and the importance of methane reductions
+                in the oil &amp; gas sector;</li>
+            <li>Experiences with methane leak detection and measurement studies from the service
+                provider and corporate perspective;</li>
+            <li>BP's use of reduced emission completions to minimize methane emissions from hydraulically
+                fractured gas wells;</li>
+            <li>Open Grid Europe's experience using pipeline pump down to minimize methane emissions
+                during transmission pipeline repair; and </li>
+            <li>BP's experience routing centrifugal compressor seal oil de-gassing emissions to
+                fuel gas as an alternative to installing dry seals.</li>
+        </ul>
+        <p>
+            In all of these sessions, the presenters and participants discussed the importance
+            of emission detection and measurement. This included its broad importance with benefits
+            extending beyond conserving natural gas resource, but also to employee and public
+            safety, operating efficiencies and integrity, corporate image, and making positive
+            contributions to the global environment.</p>
+        
+        <h2 id="two">
+            GMI Welcomes Two New Partner Countries</h2>
+        <p>
+            <img src="/images/flag_srilanka_big.gif" alt="Sri Lanka flag" align="right" style="margin-left: 5px;" />In
+            October 2011, GMI welcomed its newest Partner Country, <strong>Sri Lanka</strong>.
+            Delegates from Sri Lanka will join the Agriculture and Landfill Subcommittees as
+            well as the new Municipal Wastewater Subcommittee. With its mostly rural population,
+            Sri Lanka plans to expand its development of small- and medium-scale biogas digesters
+            and share its experience with AD system design standards. The country is also interested
+            in implementing projects to reduce methane emissions as they transition to sanitary
+            landfills. By 2020, Sri Lanka aims to achieve a 20 percent contribution from renewable
+            sources, as established by the country's Renewable Energy Policy.</p>
+        <p>
+            <img src="/images/flag_norway_big.gif" alt="Norway flag" align="left" style="margin-right: 5px;" />On
+            12 October 2011, during the GMI Partnership-wide meeting, the Steering Committee
+            approved <strong>Norway's</strong> request to join GMI. Norway will join 40 other
+            Partner Countries. Delegates from Norway will join the Oil &amp; Gas Subcommittee.
+            Norway has experience and opportunities for methane capture and use projects in
+            the oil and gas sector and is looking forward to collaborating with other GMI Partner
+            Countries.</p>
+        <p>
+            Based on data from the U.S. EPA's <a href="http://www.epa.gov/climatechange/economics/downloads/GlobalAnthroEmissionsReport.pdf">
+                <em>Global Anthropogenic Emissions of Non-CO<sub>2</sub> Greenhouse Gases</em></a>
+            (PDF, 274 pp, 4 MB) report, Norway's 2010 estimated anthropogenic methane emissions
+            totaled 5.4 million metric tons of carbon dioxide equivalent (MMTCO<sub>2</sub>E).
+            Methane emissions from natural gas and oil systems represent more than 12 percent
+            of Norway's anthropogenic methane emissions&mdash;0.67 MMTCO<sub>2</sub>E.</p>
+        
+        <h2 id="three">
+            2011 Grant Solicitation Issued</h2>
+        <p>
+            The U.S. EPA has announced its new <a href="http://www.epa.gov/globalmethane/grants.htm">
+                2011 request for proposals</a> <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative">
+                    <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>
+            to fund projects that will advance the abatement, recovery, and use of methane as
+            a clean energy source. Successful proposals will support the Initiative's Action
+            Plans and advance project development in the GMI Partner Countries.</p>
+        <p>
+            The total estimated amount for this competitive funding opportunity is $5 million.
+            EPA expects to award up to thirty-five cooperative agreements through this announcement,
+            ranging from $100,000 to $750,000 per award. The project period for awards resulting
+            from this solicitation will begin in January 2012. Proposed project periods may
+            be up to three years.</p>
+        <p>
+            Applications must be received no later than <strong>19 January 2012, 4:00 p.m. EST</strong>.</p>
+        
+        <h2 id="four">
+            GMI Outreach</h2>
+        <p>
+            Highlighted below are recent outreach events and workshops.</p>
+        <p>
+            <strong><em>August</em></strong></p>
+        <div style="width: 300px; margin: 5px 0 10px 15px; padding: 5px; border: 1px solid #0076bf;
+            float: right;">
+            <img src="/images/mi26_land_visit.jpg" alt="Tom Frankiewicz, of the U.S. EPA's LMOP, at the Plovdiv Landfill with representatives from the Municipality of Plovdiv."
+                align="center" />
+            <p>
+                Tom Frankiewicz, of the U.S. EPA's LMOP, at the Plovdiv Landfill with representatives
+                from the Municipality of Plovdiv.</p>
+        </div>
+        <p>
+            Tom Frankiewicz, of the U.S. EPA's Landfill Methane Outreach Program (LMOP), traveled
+            to <strong>Bulgaria</strong> to meet with representatives from Partner organization
+            <a href="../partners/partnerProfile.aspx?ID=1442">Bulgaria's Ministry of Environment
+                and Water</a>. During the meeting representatives shared information on the
+            implementation of a National Solid Waste Management Program, including the role
+            of waste sector mitigation and abatement activities, as well as provided an update
+            on the status of over 28 new regional solid waste management facilities throughout
+            Bulgaria. A second meeting took place with Bulgaria's Municipality of Plovdiv, which
+            included a site visit to Tsalapitsa Landfill. GMI is conducting an LFG assessment
+            study at the site. The visit also included a tour of a landfill in Bourgas to assess
+            the current practices in order to determine if an LFG energy project might be a
+            good fit for the landfill.</p>
+        <div style="width: 300px; margin: 0 5px 5px 0; padding: 5px; border: 1px solid #0076bf;
+            float: left;">
+            <img src="/images/mi26_bartos.jpg" alt="Scott Bartos, from U.S. EPA's Natural Gas STAR Program, with contacts from GAIL (India) Limited."
+                align="center" />
+            <p>
+                Scott Bartos, from U.S. EPA's Natural Gas STAR Program, with contacts from GAIL
+                (India) Limited.</p>
+        </div>
+        <p>
+            Scott Bartos, from U.S. EPA's Natural Gas STAR Program, traveled to <strong>India</strong>
+            to talk with companies about working collaboratively to reduce methane emissions.
+            As part of his trip he met with representatives from <a href="http://www.gail.nic.in/final_site/index.html">
+                GAIL (India) Limited</a> <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative">
+                    <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>
+            - a state-owned natural gas processing and distribution company headquartered in
+            New Delhi. GAIL has subsequently agreed to join the Natural Gas STAR International
+            Program. By doing so, they have committed to research and implement cost-effective
+            technologies and operation and maintenance strategies to reduce methane emissions.</p>
+        <br clear="all" />
+        <p>
+            <strong><em>September</em></strong></p>
+        <p>
+            GMI co-hosted the <strong>Serbia</strong> Landfill Biogas Workshop in collaboration
+            with Serbia's Ministry of Environment, Mining and Spatial Planning and the Faculty
+            of Technical Sciences at the University of Novi Sad. Presentations covered GMI activities,
+            Serbia's Methane Action Plan, and LFG project considerations and modeling efforts,
+            as well as guidance on project approval and financing. For more information, including
+            the agenda, visit <a href="event_detailsByEventId.aspx?eventId=355">GMI's website</a>.</p>
+        <div style="width: 300px; margin: 5px 0 10px 15px; padding: 5px; border: 1px solid #0076bf;
+            float: right;">
+            <img src="/images/mi26_bag.jpg" alt="Peruvian digester, consists of a single bag, and is one style of AD systems used in Nicaragua."
+                align="center" />
+            <p>
+                Peruvian digester, consists of a single bag, and is one style of AD systems used
+                in Nicaragua.</p>
+        </div>
+        <p>
+            Allison Costa, with U.S. EPA's AgSTAR Program, traveled to <strong>Nicaragua</strong>
+            to meet with representatives from Partner organization Nicaragua's <a href="../partners/partnerProfile.aspx?ID=1624">
+                Ministry of Energy and Mines</a>. Nicaragua is dedicated to reducing methane
+            emissions as well as increasing the amount of energy provided by renewable sources
+            and increasing energy efficiency. The country has recently completed an action plan
+            for their landfill sector and is now interested in working on their agriculture
+            sector action plan. The development of the landfill action plan is being used as
+            a model to create the agriculture action plan. The development for each was initiated
+            by Julio C. Perez Aguilar from Nicaragua's Ministry of Energy and Mines. For the
+            landfill action plan, Mr. Aguilar convened a group of stakeholders across the industry
+            to get their feedback on the plan, which was seen as such a great opportunity to
+            learn and network from each other that the group intends to continue its meetings.
+            The goal is to achieve a similar, successful outcome with the stakeholder group
+            for an agricultural sector action plan. The visit also included tours at two farms
+            that do not have AD systems, but are interested in pursuing the option of implementing
+            an AD system.</p>
+        <p>
+            GMI participated in the 22nd World Mining Congress and Expo in Istanbul, <strong>Turkey</strong>.
+            At the conference, GMI provided an overview of sources of CMM, the potential for
+            its capture and reuse for energy use, and examples of project development and financing,
+            as well as opportunities within Turkey. More information, including photos, can
+            be found on the <a href="http://www.wmc-expo2011.com/congress-expo-photos.php">Expo's
+                website</a> <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative">
+                    <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>.</p>
+        <p>
+            GMI attended the <a href="http://biomass.kiev.ua/en/en/conferences/conf2011/programme">
+                7th International Conference on Biomass for Energy</a> <a href="/exitdisclaimer.aspx"
+                    title="Exiting Global Methane Initiative">
+                    <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>
+            in Kiev, <strong>Ukraine</strong>. This two-day conference promoted the use of biomass
+            as an energy source in Ukraine and consisted of multiple workshops. GMI sponsored
+            a <a href="../documents/events_land_20110920_ws_program.pdf">workshop</a> (PDF,
+            1 pg, 58K) entitled &quot;Landfill Gas Collection and Utilization at Ukrainian MSW
+            Landfills: First Results, Problems, and Prospects&quot; and made two presentations
+            during the workshop. The presentations were entitled <em>Landfill Gas Collection System
+                Design and Operational Considerations</em> and <em>Considerations for Municipalities
+                    before Issuing Tenders for Landfill Biogas Projects</em>. For more information,
+            visit <a href="event_detailsByEventId.aspx?eventId=354">GMI's website</a>.</p>
+        <p>
+            GMI attended a <a href="event_detailsByEventId.aspx?eventId=351">Seminar on State-of-the-Art
+                Coal Mine Methane Capture and Use Technologies and UNECE Best Practices Guidance
+                for Effective Methane Drainage and Use Workshop</a> in Donetsk, <strong>Ukraine</strong>.
+            The two-day event was attended by nearly 100 participants and brought together key
+            experts in CMM recovery and utilization to share information about modern drilling,
+            ventilation air methane oxidation technologies, and methane concentration systems.
+            Felicia Ruiz of the U.S. EPA's Coalbed Methane Outreach Program (CMOP), along with
+            the Deputy Minister of Energy and Coal Industry of Ukraine, provided the keynote
+            speeches. For more information, including presentations, visit <a href="event_detailsByEventId.aspx?eventId=351">
+                GMI's website</a>.</p>
+        <p>
+            GMI hosted its first Asia Pacific Global Methane Initiative Oil and Gas Sector Workshop
+            in Jakarta, <strong>Indonesia</strong>. This workshop included a discussion of ways
+            to reduce methane emissions from oil and gas facilities as well as provided a demonstration
+            of infrared camera detection of methane emissions and venting. GMI presented <em>Partnering
+                to Advance Clean Energy Development &amp; Climate Protection &ndash; The Global
+                Methane Initiative</em> as well as provided the closing remarks. Visit the <a href="event_detailsByEventId.aspx?eventId=353">
+                    workshop's Web page</a> for additional information.</p>
+        <p>
+            GMI attended two events in <strong>Mexico</strong>. The first was a technical, policy,
+            and science workshop organized by Mexico's National Institute of Ecology. Approximately
+            70 people attended the workshop, which focused on the science, sources, mitigation
+            opportunities, financing mechanisms, and existing international initiatives associated
+            with short-lived climate forcers (SLCFs) such as methane and black carbon. Henry
+            Ferland, ASG Co-Director, provided an overview of GMI during the workshop. The second
+            event was a high-level Ministerial meeting organized by the U.S. State Department,
+            along with government agencies in <strong>Canada</strong>, <strong>Mexico</strong>,
+            and <strong>Sweden</strong>, and was attended by representatives from 22 countries.
+            The meeting focused on the importance of SLCFs and discussed the development of
+            a new initiative that would be complementary to the <a href="http://unfccc.int/2860.php">
+                United Nations Framework Convention on Climate Change</a> <a href="/exitdisclaimer.aspx"
+                    title="Exiting Global Methane Initiative">
+                    <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>
+            to increase existing international efforts focused on reducing SLCFs.</p>
+        <p>
+            <strong><em>October</em></strong></p>
+        <p>
+            GMI attended and spoke at the <a href="http://www.sardiniasymposium.it/sardinia2011/programme/">
+                Sardinia Symposium</a> <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative">
+                    <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>
+            in Sardinia, <strong>Italy</strong>. Session topics included local waste management
+            strategies and case studies in LFG utilization. During the LFG utilization session,
+            GMI presented <em>Landfill Gas Energy Project Case Studies: A Global Perspective on
+                Approaches and Resources for Reducing Methane Emissions.</em><br />
+            <br />
+        </p>
+        <p>
+            Chris Godlove from U.S. EPA's LMOP, traveled to <strong>Chile</strong> to take part
+            in two events. First, Chris presented at a seminar in Valpara&iacute;so hosted by
+            Universidad Catolica de Valpara&iacute;so. The seminar focused on methane emissions
+            from wastewater treatment systems in Latin America. He also visited El Molle Landfill,
+            which is the main landfill for the Valpara&iacute;so region. Owners of El Molle
+            Landfill, Stericycle, hope to develop an LFG energy project at the landfill and
+            learned about GMI assistance available to support a project. The second event occurred
+            in Santiago, where Chris attended a follow-up meeting with the Biogas Working Group
+            hosted by Partner organization Chile's Ministry of Energy. The working group is
+            composed representatives from the Ministry of Energy, Ministry of Environment, Ministry
+            of Health, SUDERE (a company responsible for construction of landfills), and the
+            Center for Renewable Energies who are working together to support the development
+            of biogas projects in Chile.</p>
+        
+        <h2 id="five">
+            Recent Developments and Resources</h2>
+        <ul>
+            <li>In Partner Country <strong>Pakistan</strong>, the Karachi Electric Supply Company
+                announced plans for a $70 million biogas project at the Landhi Cattle Colony in
+                Karachi. Canadian consultant Highmark Renewables International will build the facility.
+                After completion, the generators are expected to produce 30 MW by harnessing the
+                daily methane produced from 3,000 tons of food and animal waste.<br />
+                <br />
+                <p>
+                    <img src="/images/logo_climateactionreserve.gif" alt="Climate Action Reserve logo"
+                        align="right" style="border: 1px solid #0076bf; padding: 2px;" /><em>Source: BioCycle</em>,
+                    <a href="http://www.jgpress.com/archives/_free/002395.html">Anaerobic Digest</a>
+                    <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative">
+                        <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>,
+                    August 2011.</p>
+            </li>
+            <li>In September 2011, the Climate Action Reserve released its <a href="http://www.climateactionreserve.org/how/protocols/landfill-mexico/current-landfill-project-protocol-mexico/">
+                <strong>Mexico</strong> Landfill Project Protocol Version 1.1</a> <a href="/exitdisclaimer.aspx"
+                    title="Exiting Global Methane Initiative">
+                    <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>.
+                The Mexico Landfill Project Protocol provides guidance to quantify, report, and
+                verify greenhouse gas emission reductions associated with installing an LFG collection
+                and destruction system at landfill operations in Mexico. Version 1.1 builds on the
+                original protocol, including a modified project start date definition, an added
+                option for a second project crediting period, improvements to the quantification
+                methodology, and the addition of guidance for the verification protocol.<br />
+                <br />
+                <div style="width: 300px; margin: 0 0 10px 10px; padding: 5px; border: 1px solid #0076bf;
+                    float: right;">
+                    <img src="/images/mi26_land_lfg.jpg" alt="Flare station at the Loma Los Colorados Landfill near Santiago, Chile."
+                        align="center" />
+                    Flare station at the Loma Los Colorados Landfill near Santiago, Chile.
+                </div>
+            </li>
+            <li>In Partner Country <strong>Chile</strong>, a new KDM Energ&iacute;a LFG energy project
+                became operational earlier this year at Lomas Los Colorados Landfill near Santiago.
+                The $40 million USD project will create 15 MW to help supply local homes with energy.
+                International incentives helped to make the investments in projects such as this
+                more attractive. Under the Clean Development Mechanism of the Kyoto Protocol, KDM
+                Energ&iacute;a will receive greenhouse gas emission reduction credits that can be
+                sold to industrialized countries to offset their own emissions. Also, as a member
+                of the <a href="http://www.oecd.org/pages/">Organisation for Economic Co-operation and
+                    Development (OECD)</a> <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative">
+                        <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>,
+                an organization that promotes policies to improve the economic and social well-being
+                of people around the world, Chile committed to increase its environmental policies.
+                This has encouraged the development of renewable energy projects such as this LFG
+                energy project.<br />
+                <br />
+                <p>
+                    <em>Source:</em> Blue Channel 24, &quot;<a href="http://www.bluechannel24.com/?p=4739">Pioneer
+                        Project Turns Chile's Landfill Gas into Energy</a>,&quot; <a href="/exitdisclaimer.aspx"
+                            title="Exiting Global Methane Initiative">
+                            <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>
+                    29 July 2011.</p>
+            </li>
+        </ul>
+		
+		</div>
+	</section>
+
+	
+	<button onclick="topFunction()" class="btn btn-dark btn-sm" id="btnToTop" title="Go to top"><i class="fa fa-chevron-up" aria-hidden="true"></i> Top</button>
+	
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'en',
+                layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+            }, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+    </script>
+    <script>
+        $('.translateText').click(function () {
+            $("#languageWidget").css("display", "block");
+            $(".hider").slideToggle();
+        });
+    </script>
+
+	
+	<script>
+    //Get the button
+    var mybtnToTop = document.getElementById("btnToTop");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybtnToTop.style.display = "block";
+      } else {
+        mybtnToTop.style.display = "none";
+      }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    </script>
+	
+</body>
+
+</html>

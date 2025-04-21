@@ -1,0 +1,363 @@
+﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="mi-21.aspx.vb" Inherits="M2M_Redesign.mi_21" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Archive | Global Methane Initiative</title>
+     <!-- #include virtual="/includes/include_head.html" -->
+</head>
+<body>
+    <!-- #include virtual="/includes/header.html" -->
+
+<section class="py-5 gmi-light-blue">
+        <div class="container">
+                    <h1>
+						Methane International 
+					</h1>
+					<h2><small class="text-muted text">Issue 21, October 2010</small></h2>
+                    <div class="alert alert-danger" role="alert">Please note that this page is no longer being maintained. </div>
+					<ul>
+            <li><a href="#one">U.S. Pledges $50 Million to New Global Methane Initiative During
+                the Second Ministerial Meeting</a></li>
+            <li><a href="#two">Steering Committee Welcomes New Partner Countries and Approves Terms
+                of Reference</a></li>
+            <li><a href="#three">Project Network Membership Continues to Grow</a></li>
+            <li><a href="#four">Coal Mine Subcommittee Meets in China</a></li>
+            <li><a href="#five">Reminder: Upcoming Methane to Markets Subcommittee Meetings</a></li>
+            <li><a href="#six">Recent Developments</a></li>
+						
+					</ul>
+
+		</div>
+	</section>
+	<section class="py-5 bg-white">
+		<div class="container">
+
+        <h2 id="one">
+            U.S. Pledges $50 Million to New Global Methane Initiative During the Second Ministerial
+            Meeting</h2>
+        <p>
+            <img src="/images/mi21_group.jpg" alt="" width="397" height="326" style="float: left;
+                margin: 0 15px 10px 0;" />On 1 October 2010, at the <a href="event_detailsByEventId.aspx?eventId=285">
+                    second Methane to Markets Ministerial meeting</a> in Mexico City, Mexico,
+            more than 65 participants from 19 countries as well as representatives from the
+            European Commission, Asian Development Bank, and the Inter-American Development
+            Bank, unanimously approved the new <a href="../documents/gmi_factsheet.pdf">Global Methane
+                Initiative (GMI)</a> (PDF, 2 pp., 234 KB). Hosted by Mexico's <a href="http://www.semarnat.gob.mx/Pages/Inicio.aspx">
+                    Ministry of Environment and Natural Resources (SEMARNAT)</a> <a href="/exitdisclaimer.aspx"
+                        title="Exiting Global Methane Initiative">
+                        <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>,
+            the Ministerial delegation announced this new initiative, urging stronger international
+            action to address near-term climate change. GMI will build on the existing structure
+            and success of the Methane to Markets Partnership, while enhancing and expanding
+            its efforts and encouraging new financial commitments from developed country partners.</p>
+        <p>
+            The United States is pledging $50 million over the next five years to GMI to support
+            the implementation of methane emissions reduction projects and technologies with
+            the hope that developed country partners will follow suit with similar pledges.
+            GMI will take the place of Methane to Markets and the Partnership's materials will
+            reflect this transition over the coming months. U.S. Environmental Protection Agency
+            (EPA) Administrator Lisa P. Jackson commented that &quot;through this growing partnership,
+            we can convert this harmful pollutant into clean energy and create new economic
+            prospects for people around the world. I'm looking forward to working with our global
+            partners to reduce pollution, strengthen clean energy innovations and make our planet
+            healthier, stronger, and more prosperous for future generations.&quot;</p>
+        <p>
+            During the Ministerial meeting, Secretary Juan R. Elvira Quesada of <a href="http://www.semarnat.gob.mx/Pages/Inicio.aspx">
+                SEMARNAT</a> <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative">
+                    <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>
+            delivered welcoming remarks, and Dr. Adri&aacute;n Fern&aacute;ndez Bremauntz, President
+            of Mexico's <a href="http://www.ine.gob.mx/">National Institute of Ecology</a> <a
+                href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative">
+                <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>,
+            presented on methane's impact on climate change. Gina McCarthy, Chair of the Steering
+            Committee and Assistant Administrator at U.S. EPA, provided an update on the outcomes
+            from the Steering Committee. Dina Kruger, Director of <a href="http://www.epa.gov/climatechange/ccd.html">
+                U.S. EPA's Climate Change Division</a> <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative">
+                    <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>,
+            highlighted the Partnership's accomplishments over the last six years.</p>
+        <p>
+            Delegates were invited to attend the <a href="http://ejkrause.com/thegreenexpo/index.html">
+                Global Resources Energy and Environmental Network</a> <a href="/exitdisclaimer.aspx"
+                    title="Exiting Global Methane Initiative">
+                    <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>,
+            or &quot;GREEN Expo,&quot; as part of the Ministerial meeting program. The Expo
+            provided a large forum for visitors to gather information about technologies and
+            sustainable practices related to environmental issues such as climate change, and
+            network with other professionals.
+        </p>
+        <p>
+            The meeting culminated with the <a href="../documents/gmi_ministerial.pdf">Ministerial
+                Declaration</a> (PDF, 2 pp., 20 KB) where both Partner Countries and participating
+            multilateral development bank representatives recognized the success of the Methane
+            to Markets Partnership and realized the need to expand and enhance efforts by re-launching
+            the Partnership as the new GMI.</p>
+        
+        <h2 id="two">
+            Steering Committee Welcomes New Partner Countries and Approves Terms of Reference</h2>
+        <div style="width: 280px; margin: 5px 0 10px 15px; padding: 10px; border: 1px solid #0076bf;
+            float: right;">
+            <p style="text-align: center;">
+                <strong>Nicaragua and Turkey Join the Partnership</strong></p>
+            <p style="text-align: center;">
+                <img src="/images/mi21_turkey_flag.gif" alt="Flag of Turkey" style="border: 1px solid #000;" />&nbsp;&nbsp;&nbsp;<img
+                    src="/images/mi21_nicaragua_flag.gif" alt="Flag of Nicaragua" style="border: 1px solid #000;" /></p>
+            <p>
+                The Steering Committee welcomed Nicaragua and Turkey to the Partnership, bringing
+                the total number of Methane to Markets Partners to 38.</p>
+            <p>
+                Nicaragua will be joining both the Agriculture and Landfill Subcommittees. Nicaragua
+                is looking to use methane produced from its agriculture sector for energy. The country
+                is also interested in using the large amount of urban waste generated each day as
+                an energy source.</p>
+            <p>
+                Turkey will be joining the Coal Mines, Landfills, and Oil and Gas Subcommittees.
+                Turkey is primarily interested in capturing methane from both coal beds and coal
+                mines to reduce emissions and use the gas as a domestic energy source. It is also
+                looking to reduce emissions from the landfill and oil and gas sectors.</p>
+        </div>
+        <p>
+            The <a href="event_detailsByEventId.aspx?eventId=287">Methane to Markets Steering Committee</a>
+            met in Mexico City, Mexico, on 30 September 2010, preceding the Ministerial meeting.
+            Delegates welcomed new Partner Countries, Nicaragua and Turkey (see sidebar), and
+            discussed the revised Terms of Reference (TOR), charges to Subcommittees, Expo results,
+            and plans for the next Steering Committee meeting. Steering Committee chair Gina
+            McCarthy oversaw the event and provided a recap of the progress and future goals
+            before adjourning.</p>
+        
+        <h2 id="three">
+            Project Network Membership Continues to Grow</h2>
+        <p>
+            The Partnership's Project Network has continued to grow and now includes more than
+            1,000 private companies, financial institutions, non-profit organizations, and research
+            organizations. These Project Network members are generating more opportunities for
+            Partners to pursue capacity building, technology demonstrations, market development,
+            and financing across all sectors.</p>
+        <p>
+            <img src="/images/logo_caterpillar.gif" alt="" style="float: left; margin: 0 15px 10px 0;" />To
+            highlight active Project Network members and their projects, the Partnership is
+            <a href="../project-network/org_success.aspx">posting new Project Network spotlights</a>
+            on its website under the &quot;organization&quot; tab. Currently in the spotlight
+            is Project Network member <a href="../project-network/pnmProfile.aspx?ID=99">Caterpillar</a>,
+            a U.S.-based equipment manufacturer, which has been an active member of the Methane
+            to Markets Project Network since 2005. A year after joining the Project Network,
+            Caterpillar was awarded a $58 million contract to supply all the power generation
+            equipment to the Sihe Mine in Shanxi Province, China, where the world's largest
+            power plant fueled by coal mine methane (CMM) is sited. In the agricultural sector,
+            anaerobic digesters coupled with Caterpillar generators are being used to produce
+            biogas. In the landfill sector, Caterpillar has assisted with installations at numerous
+            projects, such as the Bandeirantes Landfill in S&atilde;o Paulo, Brazil, where the
+            U.S. EPA conducted an assessment of the landfill.
+        </p>
+        <p>
+            <a href="../project-network/org_success.aspx">Read more about Caterpillar's success</a>
+            as a Project Network member. Visit the <a href="../project-network/index.aspx">Methane
+                to Markets website</a> to learn more about the Project Network.</p>
+        <!--<p></p>-->
+        
+        <h2 id="four">
+            Coal Mine Subcommittee Meets in China</h2>
+        <p>
+            <img src="/images/mi21_coal.jpg" alt="" width="200" height="150" style="float: left;
+                margin: 0 15px 10px 0;" />On 21 October 2010, the <a href="../coal-mines/index.aspx">
+                    Coal Mines Subcommittee</a> met in Beijing, China. More than 20 people,
+            representing 10 countries, were present. Coal Mines Subcommittee Co-Chairs, Pamela
+            Franklin from the <a href="http://www.epa.gov/">U.S. EPA</a> <a href="/exitdisclaimer.aspx"
+                title="Exiting Global Methane Initiative">
+                <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>
+            and Huang Shengchu from the <a href="http://www.coalinfo.net.cn/english.htm">China Coal
+                Information Institute (CCII)</a> <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative">
+                    <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>,
+            and acting Co-Chair P.R. Mandal from India's <a href="http://www.coal.nic.in/">Ministry
+                of Coal</a> <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative">
+                    <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>,
+            delivered opening statements. Ms. Franklin updated the participants on behalf of
+            the Administrative Support Group (ASG) on the outcomes from the Partnership Steering
+            Committee meeting and Ministerial Meeting and discussions surrounding the new TOR.
+            Partner Countries as well as a handful of Project Network members also provided
+            updates on their activities. The Subcommittee also discussed the role of methane
+            abatement in the coal sector, the development of country-specific action plans,
+            and the Subcommittee's leadership.</p>
+        <p>
+            The Subcommittee meeting was held in conjunction with <a href="http://www.nios.com.cn/c/index_en/coalbed/cbmcon/2810.html">
+                CCII's 10<sup>th</sup> International Symposium on Coalbed Methane (CBM)/CMM</a>
+            <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative">
+                <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>.
+            The symposium featured such topics as the potential of CBM/CMM projects in China,
+            opportunities and challenges for CBM industrialization in China, and new technologies
+            and application of CBM development.</p>
+        
+        <div style="width: 720px; margin: 5px 0 10px 15px; padding: 10px; border: 1px solid #0076bf;
+            float: left;">
+            <p style="text-align: center;">
+                <strong>Transitions at the ASG</strong></p>
+            <p>
+                Ashley King, co-director of the ASG for the past two years is leaving to work as
+                a Foreign Service officer at the U.S. Agency for International Development. We're
+                thankful for her time and effort with the Partnership and wish her well on this
+                new endeavor. We have begun the process of looking for someone to fill her position
+                and hope to be able to introduce him or her soon.</p>
+        </div>
+        <br style="clear: both;" />
+        <h2 id="five">
+            Reminder: Upcoming Methane to Markets Subcommittee Meetings</h2>
+        <p>
+            Two subcommittee meetings and a meeting of the waste water sector task force will
+            be taking place in the near future. Mark your calendars!</p>
+        <p>
+            <img src="/images/mi20_aglandfillsubmtg.jpg" class="right" />The <a href="../agriculture/index.aspx">
+                Agriculture</a> and <a href="../landfills/index.aspx">Landfill</a> Subcommittees
+            will meet jointly on 11 and 12 November 2010 in Venice, Italy. Both Subcommittees
+            will discuss outcomes of the <a href="event_detailsByEventId.aspx?eventId=285">Methane
+                to Markets Ministerial meeting</a> and direction provided by the Steering Committee,
+            which met concurrently with the Ministerial meeting. The Waste Water Task force
+            will meet concurrently with the Landfill and Agriculture Subcommittee and focus
+            on how best to fit wastewater into the Partnership. The wastewater discussion is
+            scheduled to enable attendance by both landfill and agriculture Subcommittee delegates.
+            Subcommittee members from both sectors are encouraged to participate.
+            <%--<a href="../conferences/register-venice11112010.aspx">Register now</a> for the Subcommittee meetings.--%></p>
+        <p>
+            <img src="/images/mi20_oilgassubmtg.jpg" class="right" />The <a href="event_detailsByEventId.aspx?eventId=284">
+                Oil and Gas Subcommittee</a> will meet on 3 November 2010 in New Orleans, Louisiana,
+            in conjunction with U.S. EPA's <a href="http://www.epa.gov/gasstar/workshops/annualimplementation/2010.html">
+                Natural Gas STAR Annual Implementation Workshop</a> <a href="/exitdisclaimer.aspx"
+                    title="Exiting Global Methane Initiative">
+                    <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>.
+            The Subcommittee will focus on country-specific action plans, Subcommittee leadership,
+            and outcomes from the October Ministerial meeting. <a href="https://www2.ergweb.com/projects/conferences/gasstar_reg/register-gasstar10.asp">
+                Register here</a> <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative">
+                    <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>
+            for the Subcommittee meeting.</p>
+        
+        <h2 id="six">
+            Recent Developments</h2>
+        <ul>
+            <li><strong>First Biogas System Becomes Operational in Ukraine.</strong> In July 2010,
+                BusinessGreen published an article entitled, &quot;<a href="http://www.businessgreen.com/business-green/news/2266512/ukrainian-cows-power-country">4,000
+                    Ukrainian Cows Power Country's First Biogas Plant</a>,&quot; <a href="/exitdisclaimer.aspx"
+                        title="Exiting Global Methane Initiative">
+                        <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>
+                describing Ukraine's first biogas system. The article reports that the Ukrainian
+                Milk Company Ltd., located near Kiev, Ukraine, began using cow manure to produce
+                energy at the country's first biogas cogeneration plant. The cow manure helps produce
+                625 kilowatts (kW) of electricity and 686 kW of thermal output. Energy not used
+                directly by the plant is sold to the grid under Ukraine's green tariff, a special
+                rate for electricity generated at power plants using alternative energy sources.
+                The facility is also the first in the country to deploy the Jenbacher Gas Engine,
+                manufactured by Project Network member <a href="../project-network/pnmProfile.aspx?ID=177">
+                    General Electric</a>, specifically designed for cogeneration.</li>
+            <li><strong>Mexico Cuts Greenhouse Gases.</strong> In August, <a href="http://news.xinhuanet.com/english2010/sci/2010-08/31/c_13470479.htm">
+                Mexico reported</a> <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative">
+                    <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>
+                cutting greenhouse emissions by 19.5 million tons in the last two years. One way
+                these reductions were achieved was through government programs aimed at &quot;greening&quot;
+                Mexico's agricultural activities, which included reducing the use of fertilizers.
+                Mexico has pledged to reduce greenhouse gas emissions by 50 million tons a year
+                by December 2012.</li>
+            <li><strong><a href="http://www.epa.gov/lmop/">U.S. EPA's Landfill Methane Outreach
+                Program (LMOP)</a> <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative">
+                    <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>
+                Develops New Colombia Landfill Gas (LFG) Model.</strong> LMOP has developed a new
+                <a href="/partners/country.aspx?c=colombia#t3">LFG
+                    model for Colombia</a> <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative">
+                        <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>.
+                The model is used to estimate LFG generation rates from landfills and potential
+                LFG recovery rates for landfills that have, or plan to have, gas collection and
+                control systems in Colombia. In September 2010, LMOP also held a <a href="event_detailsByEventId.aspx?eventId=302">
+                    workshop</a> in Medellin, Colombia, to train people to use the new model. Approximately
+                60 professionals from federal, state and local governments, waste management companies,
+                consultants, developers, and students participated in the event.</li>
+            <li><strong><a href="http://www.epa.gov/gasstar/newsroom/partnerupdatefall2010.html">
+                U.S. EPA's Natural Gas STAR Newsletter</a> <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative">
+                    <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>
+                Features Chile's National Petroleum Company.</strong> U.S. EPA's Natural Gas STAR
+                recently featured an <a href="http://www.epa.gov/gasstar/newsroom/partnerupdatefall2010.html">
+                    article</a> <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative">
+                        <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>
+                on the National Petroleum Company of Chile, <a href="http://www.enap.cl">ENAP (Empresa
+                    Nacional del Petr&oacute;leo)</a> <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative">
+                        <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>,
+                a multinational company focused on exploration, production, and refining of hydrocarbons.
+                As a Natural Gas STAR International Partner, ENAP took advantage of the program's
+                resources and pursued activities to better understand methane emissions from its
+                facilities. ENAP collaborated with U.S. EPA's Natural Gas STAR to conduct methane
+                emissions pre-feasibility analyses for sixteen facilities and carried out a methane
+                emissions field study program at seven facilities. ENAP is using the results of
+                these efforts to develop methane emissions reduction projects. </li>
+            <li>
+                <img src="/images/logo_cop.jpg" class="right" /><strong>Save the Date for the 16th
+                    Conference of the Parties.</strong> On 29 November to 10 December 2010, the
+                <a href="http://unfccc.int/2860.php">16th Conference of the Parties</a> <a href="/exitdisclaimer.aspx"
+                    title="Exiting Global Methane Initiative">
+                    <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>
+                to the Kyoto Protocol will meet in Cancun, Mexico. The meeting continues the international
+                negotiations under the United Nations Framework Convention on Climate Change. GMI
+                will be highlighted at Cancun in a side-event hosted by Mexico.</li>
+        </ul>
+        <p>
+            <a href="mailto:secretariat@globalmethane.org">Send in your announcement</a> for our
+            next issue. Also, visit the <a href="index.aspx">news and events page</a> for information
+            on past Methane to Markets gatherings.</p>		
+		
+		</div>
+	</section>
+	
+	<button onclick="topFunction()" class="btn btn-dark btn-sm" id="btnToTop" title="Go to top"><i class="fa fa-chevron-up" aria-hidden="true"></i> Top</button>
+	
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'en',
+                layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+            }, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+    </script>
+    <script>
+        $('.translateText').click(function () {
+            $("#languageWidget").css("display", "block");
+            $(".hider").slideToggle();
+        });
+    </script>
+
+	
+	<script>
+    //Get the button
+    var mybtnToTop = document.getElementById("btnToTop");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybtnToTop.style.display = "block";
+      } else {
+        mybtnToTop.style.display = "none";
+      }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    </script>
+	
+</body>
+
+</html>
+

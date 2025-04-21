@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/dd7fc261ae.js"></script>
+    <script>
+		(function (w, d, s, l, i) {
+			w[l] = w[l] || [];
+			w[l].push({
+				'gtm.start': new Date().getTime(),
+				event: 'gtm.js'
+			});
+			var f = d.getElementsByTagName(s)[0],
+				j = d.createElement(s),
+				dl = l != 'dataLayer' ? '&l=' + l : '';
+			j.async = true;
+			j.src =
+				'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+			f.parentNode.insertBefore(j, f);
+		})(window, document, 'script', 'dataLayer', 'GTM-WM2LZW5');
+	</script>
+    <style>
+        .aligncenter {
+            text-align: center;
+        }
+
+        body {
+            background: #1695be;
+        }
+
+        .tooltip:hover span {
+            opacity: 1;
+            filter: alpha(opacity=100);
+            top: -6em;
+            left: 20em;
+            z-index: 99;
+            -webkit-transition: all 0.2s ease;
+            -moz-transition: all 0.2s ease;
+            -o-transition: all 0.2s ease;
+            transition: all 0.2s ease;
+        }
+
+        .homearea {
+            position: fixed;
+            bottom: 10px;
+            left: 10px;
+        }
+
+        .homearea:hover {
+            cursor: pointer;
+        }
+
+        .box b {
+            color: #fff;
+        }
+
+        .tooltip span {
+            background: none repeat scroll 0 0 #222;
+            /*-- some basic styling */
+            color: #F0B015;
+            font-family: 'Helvetica';
+            font-size: 0.8em;
+            font-weight: normal;
+            line-height: 1.5em;
+            padding: 16px 15px;
+            width: 240px;
+            top: -4em;
+            /*-- this is the original position of the tooltip when it's hidden */
+            left: 20em;
+            margin-left: 0;
+            /*-- set opacity to 0 otherwise our animations won't work */
+            opacity: 0;
+            filter: alpha(opacity=0);
+            position: absolute;
+            text-align: center;
+            z-index: 2;
+            text-transform: none;
+            -webkit-transition: all 0.3s ease;
+            -moz-transition: all 0.3s ease-in-out;
+            -o-transition: all 0.3s ease;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .tooltip span:after {
+            border-color: #222 rgba(0, 0, 0, 0);
+            border-style: solid;
+            border-width: 15px 15px 0;
+            bottom: -15px;
+            content: "";
+            display: block;
+            left: 31px;
+            position: absolute;
+            width: 0;
+        }
+
+        .callout {
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-top: 10px;
+            background: #f3d5b3;
+            border-radius: 4px;
+
+            width: 100%;
+            margin-bottom: 15px;
+
+        }
+
+
+        .imgtbl {
+            width: 100%;
+            background: #CAEBF2;
+            margin-bottom: 15px;
+        }
+
+        .imgtbl img {
+            padding: 10px;
+            width: 100%;
+        }
+
+        .subtitle td {
+            font-size: 10px;
+            text-align: center;
+
+        }
+
+        table {
+            margin-top: 15px;
+            width: 100%;
+            border-collapse: collapse;
+            text-align: left;
+            overflow: hidden;
+            margin-bottom: 15px;
+        }
+
+        td,
+        th {
+            border-top: 1px solid #ECF0F1;
+            padding: 10px;
+        }
+
+        td {
+
+            border-right: 1px solid #ECF0F1;
+        }
+
+        th {
+            background-color: #4ECDC4;
+        }
+
+        tr:nth-of-type(even) td {
+            background-color: #ecf0f1;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="homearea">
+        <a class="btn btn-danger" href="showcase.html">
+            <i class="fa fa-arrow-left fa-lg"></i> View showcase
+        </a>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-0 col-md-2"></div>
+            <div class="col-sm-12 col-md-8" style="background:white;">
+                <img src="images/iav/morocco.png" style="width:100%" />
+                <h2>
+                    Hassan II Institute of Agronomy and Veterinary Sciences&nbsp;
+                    <!--<a class="btn btn-primary" href="pdf/SourceFacility_Biocity_Profile.pdf"
+                        aria-label="Download the PDF">
+                        <i class="fa fa-download" aria-hidden="true"></i>
+                    </a>-->
+                </h2>
+                <h4>
+                    Effect of a natural food additive rich in thyme essential oil on methane emissions in dairy cows
+                </h4>
+                <p><img src="images/iav/logo.png" style="float:right;width:18%;padding-left:2px;">
+                    Researchers at the <a
+                        href="https://menanwc.org/about-network/current-members/hassan-ii-institute-agronomy-and-veterinary-sciences-iav"
+                        target="_blank">Hassan II Institute of Agronomy and Veterinary Sciences</a>
+                    (IAV) in Morocco are addressing methane emissions that come from livestock ruminants (cud-chewing animals). To
+                    combat methane production from ruminants, IAV researchers conducted a study in animal science to
+                    develop mitigation strategies using natural feed additives.
+                </p>
+
+                <h3>
+                    The Study&nbsp;
+                    <!--<a class="btn btn-primary" href="pdf/SourceFacility_Biocity_Profile.pdf"
+                            aria-label="Download the PDF">
+                            <i class="fa fa-download" aria-hidden="true"></i>
+                        </a>-->
+                </h3>
+                <p>
+                    A research team evaluated the effect of a natural feed additive rich in thyme essential oil on
+                    methane emissions from dairy cows. In order to test the effect of this natural feed additive,
+                    researchers provided five Holstein dairy cows with a ration composed of 4 kg of industrial
+                    concentrated feed, 2 kg of alfalfa hay, and 2 kg of wheat straw with free access to drinking water.
+                    After two weeks of adaptation to the feed without the additive, the team took measurements of the
+                    cows’ production of methane. Then, they added 50 g of the thyme essential oil to the cows’ feed.
+                    After two weeks of adaptation to the enhanced feed, the team measured the cows’ production of
+                    methane. The team then added 100 g of the same product to the cows’ feed and measured the production
+                    of methane after two weeks of adaptation.
+                </p>
+                <p style="margin-top: 20px;"> <b>Table 1: Methane production in the cows during the first period</b>
+                    <table style="width:100%">
+                        <tr>
+                            <th>Cow</th>
+                            <th>Weight (Kg)</th>
+                            <th>Liter/hour</th>
+                            <th>Liter/day</th>
+                            <th>Liter/kg DM</th>
+                        </tr>
+                        <tr>
+                            <td><b>A</b</td> <td>408.0</td>
+                            <td>8.68</td>
+                            <td>208.3</td>
+                            <td>29.8</td>
+                        </tr>
+                        <tr>
+                            <td><b>B</b></td>
+                            <td>358.0</td>
+                            <td>8.41</td>
+                            <td>202.0</td>
+                            <td>28.9</td>
+                        </tr>
+                        <tr>
+                            <td><b>C</b></td>
+                            <td>432.0</td>
+                            <td>8.26</td>
+                            <td>206.8</td>
+                            <td>29.6</td>
+                        </tr>
+                        <tr>
+                            <td><b>D</b></td>
+                            <td>504.0</td>
+                            <td>7.39</td>
+                            <td>177.4</td>
+                            <td>25.4</td>
+                        </tr>
+                        <tr>
+                            <td><b>E</b></td>
+                            <td>487.0</td>
+                            <td>7.70</td>
+                            <td>184.8</td>
+                            <td>26.4</td>
+                        </tr>
+                        <tr>
+                            <td><b>Average</b></td>
+                            <td>437.8</td>
+                            <td>8.16</td>
+                            <td>195.8</td>
+                            <td>28.0</td>
+                        </tr>
+                        <tr>
+                            <td> <b>Standard Deviation (SD)</b></td>
+                            <td>59.4</td>
+                            <td>0.60</td>
+                            <td>13.9</td>
+                            <td>2.0</td>
+                        </tr>
+                    </table>
+                </p>
+                <p style="margin-top: 20px;"> <b>Table 2: Methane production in the cows during the second period</b>
+                    <table style="width:100%">
+                        <tr>
+                            <th>Cow</th>
+                            <th>Weight (Kg)</th>
+                            <th>Liter/hour</th>
+                            <th>Liter/day</th>
+                            <th>Liter/kg DM</th>
+                        </tr>
+                        <tr>
+                            <td><b>A</b</td> <td>408.0</td>
+                            <td>6.90</td>
+                            <td>165.6</td>
+                            <td>23.7</td>
+                        </tr>
+                        <tr>
+                            <td><b>B</b></td>
+                            <td>358.0</td>
+                            <td>7.16</td>
+                            <td>171.9</td>
+                            <td>24.6</td>
+                        </tr>
+                        <tr>
+                            <td><b>C</b></td>
+                            <td>432.0</td>
+                            <td>6.38</td>
+                            <td>153.2</td>
+                            <td>21.9</td>
+                        </tr>
+                        <tr>
+                            <td><b>D</b></td>
+                            <td>504.0</td>
+                            <td>6.26</td>
+                            <td>150.3</td>
+                            <td>21.5</td>
+                        </tr>
+                        <tr>
+                            <td><b>E</b></td>
+                            <td>487.0</td>
+                            <td>5.35</td>
+                            <td>128.3</td>
+                            <td>18.4</td>
+                        </tr>
+                        <tr>
+                            <td><b>Average</b></td>
+                            <td>437.8</td>
+                            <td>6.41</td>
+                            <td>153.9</td>
+                            <td>22.0</td>
+                        </tr>
+                        <tr>
+                            <td> <b>Standard Deviation (SD)</b></td>
+                            <td>59.0</td>
+                            <td>0.69</td>
+                            <td>16.8</td>
+                            <td>2.4</td>
+                        </tr>
+                    </table>
+                </p>
+                <p style="margin-top: 20px;"> <b>Table 3: Methane production in the cows during the third period</b>
+                    <table style="width:100%">
+                        <tr>
+                            <th>Cow</th>
+                            <th>Weight (Kg)</th>
+                            <th>Liter/hour</th>
+                            <th>Liter/day</th>
+                            <th>Liter/kg DM</th>
+                        </tr>
+                        <tr>
+                            <td><b>A</b</td> <td>408.0</td>
+                            <td>5.19</td>
+                            <td>124.8</td>
+                            <td>17.8</td>
+                        </tr>
+                        <tr>
+                            <td><b>B</b></td>
+                            <td>358.0</td>
+                            <td>6.35</td>
+                            <td>152.2</td>
+                            <td>21.8/td>
+                        </tr>
+                        <tr>
+                            <td><b>C</b></td>
+                            <td>432.0</td>
+                            <td>6.15</td>
+                            <td>147.7</td>
+                            <td>21.1</td>
+                        </tr>
+                        <tr>
+                            <td><b>D</b></td>
+                            <td>504.0</td>
+                            <td>4.97</td>
+                            <td>119.3</td>
+                            <td>17.1</td>
+                        </tr>
+                        <tr>
+                            <td><b>E</b></td>
+                            <td>487.0</td>
+                            <td>5.15</td>
+                            <td>123.6</td>
+                            <td>17.7</td>
+                        </tr>
+                        <tr>
+                            <td><b>Average</b></td>
+                            <td>437.8</td>
+                            <td>5.56</td>
+                            <td>133.6</td>
+                            <td>19.1</td>
+                        </tr>
+                        <tr>
+                            <td> <b>Standard Deviation (SD)</b></td>
+                            <td>59.3</td>
+                            <td>0.63</td>
+                            <td>15.3</td>
+                            <td>2.2</td>
+                        </tr>
+                    </table>
+                </p>
+                <h3>
+                    Results&nbsp;
+                    <!--<a class="btn btn-primary" href="pdf/SourceFacility_Biocity_Profile.pdf"
+                            aria-label="Download the PDF">
+                            <i class="fa fa-download" aria-hidden="true"></i>
+                        </a>-->
+                </h3>
+                <p>
+                    Based on the measurements, the researchers estimated that the quantity of methane produced by the
+                    five cows on the standard diet was an average of 195.9 liters of methane per day. When 50 g of the
+                    additive was incorporated into the feed, the cows produced an estimated average of 21.6 percent less
+                    methane emissions than without the additive. When 100 g of the additive was incorporated into the
+                    feed, the cows produced an estimated average of 31.8 percent less methane emissions than without the
+                    additive.
+                </p>
+                <p>
+                    Download the paper <a
+                        href="images/iav/Effect of a natural food additive rich in thyme essential oil on methane emissions in dairy cows.pdf"
+                        target="_blank">here</a>.
+                </p>
+                <P style="margin-top:20px;">
+                    <table>
+                        <tr>
+                            <p class="aligncenter">
+                                <img src="images/iav/cattle.jpg" style="width:60%;">
+
+                        </tr>
+                        <tr>
+                            <td class="aligncenter" colspan="1"> <b>Figure 1.</b> Dairy cows</td>
+                        </tr>
+                    </table>
+                </p>
+                <hr>
+                <!--     <a href="pdf/SourceFacility_Biocity_Profile.pdf" class="btn btn-primary btn-block">Download The
+                    PDF</a>
+                <hr>-->
+            </div>
+            <div class="col-sm-0 col-md-2"></div>
+        </div>
+    </div>
+    <script>
+        $(document).ready(function () {
+            $('[data-toggle="popover"]').popover({
+                container: '.container'
+            });
+
+            $('body').on('click', function (e) {
+                $('[data-toggle=popover]').each(function () {
+                    // hide any open popovers when the anywhere else in the body is clicked
+                    if (!$(this).is(e.target) && $(this).has(e.target).length === 0 && $(
+                            '.popover').has(e.target).length === 0) {
+                        $(this).popover('hide');
+                    }
+                });
+            });
+
+        });
+    </script>
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+</body>
+
+</html>

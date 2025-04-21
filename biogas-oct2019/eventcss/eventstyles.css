@@ -1,0 +1,54 @@
+#eventbanner { 
+	background-image: url("../eventimages/eventimage.jpg");
+	background-color: #CAE1EE; /* Used if the image is unavailable */
+	height: 350px; /* You must set a specified height */
+	background-position: center; /* Center the image */
+	background-repeat: no-repeat; /* Do not repeat the image */
+	background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+#eventlocation {
+	background:hsl(113, 88%, 10%);
+	color:hsl(113, 17%, 99%);
+	padding:10px;
+	margin:10px 0px;
+	display:inline-block;
+	float:right;
+	border-radius: 5px;
+}
+
+legend{
+	background: hsl(113, 88%, 10%)!important;
+	border: 1px solid hsl(113, 20%, 40%)!important;
+}
+
+fieldset{
+	border: 1px solid hsl(113, 20%, 40%)!important;
+}
+
+.nav-item{
+    margin-right:7px;
+}
+
+.navbar{
+	background: #2e7e56!important;
+	border-bottom: 2px solid #07140e!important;
+	color: hsl(150,10,98)!important;
+}
+@media only screen and (min-width: 768px){
+
+.nav-link:hover{
+	background:#173f2b!important;
+}
+
+.nav-link{
+	border-radius: 4px!important;
+    border: 1px solid #07140e!important;
+}
+}
+
+@media only screen and (max-width: 768px){
+	.navbar-dark .navbar-brand span{
+		display:none;
+	}
+}

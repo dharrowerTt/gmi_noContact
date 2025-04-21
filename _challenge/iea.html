@@ -1,0 +1,431 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/dd7fc261ae.js"></script>
+    <style>
+        .aligncenter {
+            text-align: center;
+        }
+
+        body {
+            background: #1695be;
+        }
+
+        .tooltip:hover span {
+            opacity: 1;
+            filter: alpha(opacity=100);
+            top: -6em;
+            left: 20em;
+            z-index: 99;
+            -webkit-transition: all 0.2s ease;
+            -moz-transition: all 0.2s ease;
+            -o-transition: all 0.2s ease;
+            transition: all 0.2s ease;
+        }
+
+        .homearea {
+            position: fixed;
+            bottom: 10px;
+            left: 10px;
+        }
+
+        .homearea:hover {
+            cursor: pointer;
+        }
+
+        .box b {
+            color: #fff;
+        }
+
+        .tooltip span {
+            background: none repeat scroll 0 0 #222;
+            /*-- some basic styling */
+            color: #F0B015;
+            font-family: 'Helvetica';
+            font-size: 0.8em;
+            font-weight: normal;
+            line-height: 1.5em;
+            padding: 16px 15px;
+            width: 240px;
+            top: -4em;
+            /*-- this is the original position of the tooltip when it's hidden */
+            left: 20em;
+            margin-left: 0;
+            /*-- set opacity to 0 otherwise our animations won't work */
+            opacity: 0;
+            filter: alpha(opacity=0);
+            position: absolute;
+            text-align: center;
+            z-index: 2;
+            text-transform: none;
+            -webkit-transition: all 0.3s ease;
+            -moz-transition: all 0.3s ease-in-out;
+            -o-transition: all 0.3s ease;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .tooltip span:after {
+            border-color: #222 rgba(0, 0, 0, 0);
+            border-style: solid;
+            border-width: 15px 15px 0;
+            bottom: -15px;
+            content: "";
+            display: block;
+            left: 31px;
+            position: absolute;
+            width: 0;
+        }
+
+        .callout {
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-top: 10px;
+            background: #f3d5b3;
+            border-radius: 4px;
+
+            width: 100%;
+            margin-bottom: 15px;
+
+        }
+
+
+        .imgtbl {
+            width: 100%;
+            background: #CAEBF2;
+            margin-bottom: 15px;
+        }
+
+        .imgtbl img {
+            padding: 10px;
+            width: 100%;
+        }
+
+        .subtitle td {
+            font-size: 10px;
+            text-align: center;
+
+        }
+
+        table {
+            margin-top: 15px;
+            width: 100%;
+            border-collapse: collapse;
+            text-align: left;
+            overflow: hidden;
+            margin-bottom: 15px;
+        }
+
+        td,
+        th {
+            border-top: 1px solid #ECF0F1;
+            padding: 10px;
+        }
+
+        td {
+
+            border-right: 1px solid #ECF0F1;
+        }
+
+        th {
+            background-color: #4ECDC4;
+        }
+
+        tr:nth-of-type(even) td {
+            background-color: #ecf0f1;
+        }
+
+        .modalImage {
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .modalImage:hover {
+            opacity: 0.7;
+        }
+
+        /* The Modal (background) */
+        .modal {
+            display: none;
+            /* Hidden by default */
+            position: fixed;
+            /* Stay in place */
+            z-index: 1;
+            /* Sit on top */
+            padding-top: 100px;
+            /* Location of the box */
+            left: 0;
+            top: 0;
+            width: 100%;
+            /* Full width */
+            height: 100%;
+            /* Full height */
+            overflow: auto;
+            /* Enable scroll if needed */
+            background-color: rgb(0, 0, 0);
+            /* Fallback color */
+            background-color: rgba(0, 0, 0, 0.9);
+            /* Black w/ opacity */
+        }
+
+        /* Modal Content (image) */
+        .modal-content {
+            margin: auto;
+            display: block;
+            width: 80%;
+            max-width: 1000px;
+        }
+
+        /* Caption of Modal Image */
+        #caption {
+            margin: auto;
+            display: block;
+            width: 80%;
+            max-width: 700px;
+            text-align: center;
+            color: #ccc;
+            padding: 10px 0;
+            height: 150px;
+        }
+
+        /* Add Animation */
+        .modal-content,
+        #caption {
+            -webkit-animation-name: zoom;
+            -webkit-animation-duration: 0.6s;
+            animation-name: zoom;
+            animation-duration: 0.6s;
+        }
+
+        @-webkit-keyframes zoom {
+            from {
+                -webkit-transform: scale(0)
+            }
+
+            to {
+                -webkit-transform: scale(1)
+            }
+        }
+
+        @keyframes zoom {
+            from {
+                transform: scale(0)
+            }
+
+            to {
+                transform: scale(1)
+            }
+        }
+
+        /* The Close Button */
+        .close {
+            position: absolute;
+            top: 15px;
+            right: 35px;
+            color: #f1f1f1;
+            font-size: 40px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .close:hover,
+        .close:focus {
+            color: #bbb;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        /* 100% Image Width on Smaller Screens */
+        @media only screen and (max-width: 700px) {
+            .modal-content {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="homearea">
+        <a class="btn btn-danger" href="http://staging.globalmethane.org/challenge/index.aspx#actionmap">
+            <i class="fa fa-arrow-left fa-lg"></i> Back to the map
+        </a>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-0 col-md-2"></div>
+            <div class="col-sm-12 col-md-8" style="background:white;">
+                <img src="images/iea/IEA_banner.png" style="width:100%" />
+                <h2>
+                    International Energy Agency&nbsp;
+                    <!--<a class="btn btn-primary" href="pdf/SourceFacility_Biocity_Profile.pdf"
+                        aria-label="Download the PDF">
+                        <i class="fa fa-download" aria-hidden="true"></i>
+                    </a>-->
+                </h2>
+
+                <p>
+                    <a href="https://www.iea.org/" target="_blank"><img
+                            style="width:20%;margin-bottom:10px; margin-left: 15px; margin-right: 10px; float: right;"
+                            src="images/iea/iealogo.jpg">
+                    </a>
+                    The <a href="https://www.iea.org/" target="_blank">International Energy Agency</a> is an autonomous
+                    intergovernmental organization, within the Organisation for Economic Co-operation and Development
+                    framework, made up of 30 member countries. It conducts its methane work as part of a broader
+                    organizational mission to shape energy policies for a secure and sustainable future.
+                </p>
+                <p>
+                    <div style="text-align: center;">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/WA4UkjuwRjA" frameborder="0"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                </p>
+                <p>
+                    Long-standing
+                    IEA analyses have examined ways to reduce the environmental impacts associated with producing and
+                    consuming fossil fuels and have consistently underscored that reducing methane is a powerful and
+                    cost-effective way to act. The IEA pursues additional activity on methane within the context of the
+                    Methane Guiding Principles (MGPs), a multi-stakeholder collaborative platform of industry,
+                    intergovernmental organizations, academia, and civil society. The MGPs, which were established in
+                    2017, focus on reducing methane emissions across the oil and gas supply chains.
+                </p>
+
+                <h3>Methane Tracker</h3>
+                <p>The IEA’s <a href="https://www.iea.org/weo/methane/database/" target="_blank">Methane Tracker</a> is
+                    an online tool
+                    that tracks oil and gas-related sources of methane and offers the most comprehensive global
+                    picture of methane emissions, covering eight industry areas across all countries. This unique
+                    tool provides the IEA’s most up-to-date estimates of current oil and gas methane emissions,
+                    drawing on the best available data. The Methane Tracker also sets out the reductions that are
+                    possible using existing abatement technologies and sheds light on this underexplored component
+                    of energy transitions. IEA <a href="https://www.iea.org/reports/methane-tracker-2020"
+                        target="_blank">analysis</a> highlights that global methane emissions from the oil and
+                    gas sector could be reduced by around 40 percent at no net cost.</p>
+ 
+
+                    <div style="text-align: center; margin: 10px;">
+                        <h4> <i>IEA's Methane Tracker showing world emissions sources</i></h4>
+                        <img class="modalImage" id="img" src="images/iea/sources.jpg"
+                            alt="IEA's Methane Tracker showing world emissions sources" style="width:100%;max-width:90%">
+                        <br>Click on the image to enlarge it
+                    </div>
+
+
+                <p>Over the course of 2020 and 2021, the IEA will make further advancements to the Methane Tracker,
+                    including updating emissions estimates where revised data or new data sources are available.
+                    Other developments will strengthen the connection among the project’s informational
+                    components—on methane emissions, potential and costs for abatement, and policy and regulatory
+                    approaches—to be useful to policymakers and regulators seeking to improve or create policy for
+                    methane reductions.</p>
+
+
+                    <div style="text-align: center; margin: 10px;">
+                        <h4> <i>IEA's Methane Tracker showing estimated abatement potential</i></h4>
+                        <img class="modalImage" id="img2" src="images/iea/abatementtech.jpg"
+                            alt="IEA's Methane Tracker showing estimated abatement potential" style="width:100%;max-width:90%">
+                        <br>Click on the image to enlarge it
+                    </div>
+
+
+                <div class="callout"
+                    style="text-align:center; width: 80%; margin-top: 20px; margin-left: auto; margin-right: auto;">
+                    <a
+                        href="https://www.iea.org/reports/outlook-for-biogas-and-biomethane-prospects-for-organic-growth">
+                        <h4>IEA’s Outlook for biogas and biomethane: Prospects for organic growth</h4>
+                    </a>
+                    <a
+                        href="https://www.iea.org/reports/outlook-for-biogas-and-biomethane-prospects-for-organic-growth">
+                        <img src="images/iea/iea_report.jpg"
+                            style="float:none;width:60%;padding-right:10px;padding-left:10px;padding-bottom:10px;"></a>
+
+                    <br>
+                    IEA published a report in 2020 that provides estimates of the sustainable potential for biogas and
+                    biomethane supply, based on a detailed assessment of feedstock availability and production costs
+                    across all regions of the world. This Outlook focuses on how big a role these gases can play in the
+                    transformation of the global energy system, where the opportunities and potential pitfalls lie, and
+                    what policy makers and industry can do to support sustainable growth in this sector.
+                </div>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="img01">
+    <div id="caption"></div>
+  </div>
+
+                <hr>
+                <!--     <a href="pdf/SourceFacility_Biocity_Profile.pdf" class="btn btn-primary btn-block">Download The
+                        PDF</a>
+                    <hr>-->
+            </div>
+            <div class="col-sm-0 col-md-2"></div>
+        </div>
+    </div>
+    <script>
+        $(document).ready(function () {
+            $('[data-toggle="popover"]').popover({
+                container: '.container'
+            });
+
+            $('body').on('click', function (e) {
+                $('[data-toggle=popover]').each(function () {
+                    // hide any open popovers when the anywhere else in the body is clicked
+                    if (!$(this).is(e.target) && $(this).has(e.target).length === 0 && $(
+                            '.popover').has(e.target).length === 0) {
+                        $(this).popover('hide');
+                    }
+                });
+            });
+
+        });
+        // Get the modal
+        var modal = document.getElementById("myModal");
+
+        // Get the image and insert it inside the modal - use its "alt" text as a caption
+        var img = document.getElementById("img");
+        var img2 = document.getElementById("img2");
+        var modalImg = document.getElementById("img01");
+        var captionText = document.getElementById("caption");
+
+        img2.onclick = function () {
+            modal.style.display = "block";
+            modalImg.src = this.src;
+            captionText.innerHTML = this.alt;
+        }
+
+        img.onclick = function () {
+            modal.style.display = "block";
+            modalImg.src = this.src;
+            captionText.innerHTML = this.alt;
+        }
+
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
+
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function () {
+            modal.style.display = "none";
+        }
+    </script>
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+</body>
+
+</html>

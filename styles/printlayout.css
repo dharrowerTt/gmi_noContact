@@ -1,0 +1,219 @@
+body {
+	background:#ffffff;
+}
+
+
+#container {
+	width:1200px;
+	margin: 0 auto;
+	padding: 10px 30px;
+	background:white;
+}
+
+#maincontentarea {
+	width:100%;
+	margin:8px 0 0 0;
+}
+
+#maincontentarea .fullwidth 
+{width:100%;
+}
+
+.fullwidth#maincontentarea {
+	width: 100%;
+	float: none;	
+}
+
+#rightcontentarea {
+	width:100%;
+	margin:0px 0 0 40px;
+	padding:5px;
+}
+
+
+#rightcontentarea h2 {
+	color:black;
+	font-size:1.4em;
+}
+
+#rightcontentarea ul li {
+	margin-left:25px;
+}
+
+#rightcontentarea .sectorcountrylist li {
+	margin: 0;
+	padding: 0;
+	list-style:none;	
+}
+
+/* logo Details page */
+#maincontentarea #logoPic img {
+	width: 150px;
+}
+
+#rightcontentarea p a#search_Link {
+	transition: background 0.3s;
+}
+
+#rightcontentarea p a#search_Link:hover {
+	background: #B9E5FB;
+	border-radius: 3px;	
+}
+
+.homebox {
+	border:0px solid #dbdbdb; background:#f3f3f3;width:32%;height:255px;float:left;margin-right:1.5%;margin-bottom:20px;overflow:auto;border-radius:10px;
+}
+
+.homeboxright {
+	border:1px solid #dbdbdb; background:#f3f3f3;width:32%;height:255px;float:left;margin-bottom:20px;overflow:auto;border-radius:10px;
+}
+.homeboxtextarea {
+	background:#fff;
+	border-radius:5px;
+	border:1px solid #e1e1e1;
+	margin:10px;
+}
+.homeboxlabel {
+	text-align:center;
+	font-weight:bold;
+	padding:10px 0px;
+	color:white;
+	background:#43464E;
+	/*background-image:url(/images/home_box_background2.png);
+	background-repeat:repeat-x;*/
+	margin:0px;
+	font-size:12pt;
+}
+.homeboxtext {
+	padding:10px;
+	line-height:1.2em;
+	border-radius:5px;
+}
+
+#homeclearboxes {
+	display:block;
+}
+
+#methanematters {
+	width:755px;
+	height:445px;
+	border-radius:10px;
+}
+
+
+
+#topgmilogo {
+	float:left;margin-right:20px;
+}
+
+#clearlogoandmenu {display:none;}
+#separator {display:none;}
+
+#opensearchoverlayfilter {display:none;} 
+
+#search_form {
+    display:none;
+}
+
+#search_pn_form {
+    display:none;
+}
+
+#topsearchbutton {
+    display:none;
+}
+
+#topsearchbutton_pn {
+    display:none;
+}
+
+#searchfield {
+    display:none;
+}
+
+#searchbutton {
+    display:none;
+}
+
+#overlaysearchbutton {
+    display:none;
+}
+
+#banner-social-media {
+    display:none;
+}
+
+#social-media-links {
+    display:none;
+}
+
+/* Google translator plugin */
+.goog-te-gadget-icon { display: none; }
+#google_translate_element { display:none; }
+div.skiptranslate  {     display:none; }
+.goog-logo-link { display: none; }
+
+/*end translation plugin*/
+
+
+
+
+
+/* footer navigation styles */
+#footernavarea {
+	    display:none;
+}
+
+/* header navigation styles */
+#main-nav {
+	    display:none;
+}
+
+
+
+
+
+
+
+#announcements {
+	border-top:1px solid #dbdbdb;
+	border-bottom:1px solid #dbdbdb;
+	padding:10px;
+	height:250px;
+	overflow:auto;
+}
+
+#announcements ul {
+	margin:0px 0px 20px 20px;
+}
+
+#announcements li {
+	padding:5px;
+}
+
+
+#twitter-widget-0 {
+    margin-top: -13px;     
+    height: 400px;
+}
+
+#tweets-section {
+    margin-right: 0px !important;
+    padding: 0px !important;
+    margin-right: 0% !important;
+	padding-right: 0% !important;
+	width: 100% !important;
+}
+
+
+#openoverlay {
+	display:none;
+}  
+
+#opensearchoverlay {
+	display:none;
+}  
+
+.closebtn {
+    display:none;
+}

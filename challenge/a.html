@@ -1,0 +1,1294 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<title>Global Methane Challenge</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<meta name="theme-color" content="#1aa4b8" />
+	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="stylesheet" href="assets/css/animate.css" />
+	<link rel="stylesheet" href="assets/sweetalert/sweetalert2.min.css">
+	<noscript>
+		<link rel="stylesheet" href="assets/css/noscript.css" />
+	</noscript>
+	<script>
+		(function (w, d, s, l, i) {
+			w[l] = w[l] || [];
+			w[l].push({
+				'gtm.start': new Date().getTime(),
+				event: 'gtm.js'
+			});
+			var f = d.getElementsByTagName(s)[0],
+				j = d.createElement(s),
+				dl = l != 'dataLayer' ? '&l=' + l : '';
+			j.async = true;
+			j.src =
+				'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+			f.parentNode.insertBefore(j, f);
+		})(window, document, 'script', 'dataLayer', 'GTM-WM2LZW5');
+	</script>
+	<style>
+		#bg {
+			position: fixed;
+			right: 0;
+			bottom: 0;
+			min-width: 100%;
+			min-height: 100%;
+			background: #0b8bb6;
+		}
+
+		#myVideo {
+			position: fixed;
+			right: 0;
+			bottom: 0;
+			min-width: 100%;
+			min-height: 100%;
+			-webkit-filter: blur(15px);
+			-moz-filter: blur(15px);
+			-o-filter: blur(15px);
+			-ms-filter: blur(15px);
+			filter: blur(15px);
+		}
+
+		#tile {
+			position: fixed;
+			background: url("images/tile.png")repeat;
+			right: 0;
+			bottom: 0;
+			min-width: 100%;
+			min-height: 100%;
+			opacity: 0.5;
+		}
+
+		.fa-molecule:before {
+			content: '';
+			/* Remove default icon */
+			display: inline-block;
+			background: url('images/molecule.png') center center no-repeat;
+			background-size: contain;
+			opacity: .7;
+		}
+
+		.fa-fire:before {
+			content: '';
+			/* Remove default icon */
+			display: inline-block;
+			background: url('images/002-oil-platform.png') center center no-repeat;
+			background-size: contain;
+			opacity: .7;
+		}
+
+		.fa-pick:before {
+			content: '';
+			/* Remove default icon */
+			display: inline-block;
+			background: url('images/003-pick.png') center center no-repeat;
+			background-size: contain;
+			opacity: .7;
+		}
+
+		.fa-agriculture:before {
+			content: '';
+			/* Remove default icon */
+			display: inline-block;
+			background: url('images/001-cow.png') center center no-repeat;
+			background-size: contain;
+			opacity: .7;
+		}
+
+		.nav ul {
+			position: fixed;
+			z-index: 300;
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			margin-top: -40px;
+			background: rgba(0, 0, 0, 0.2);
+		}
+
+.swal2-confirm:hover{
+	color:#cacaca!important;
+}
+
+		.nav ul:last-child {
+			border-radius: 20px 20px 0px 0px;
+		}
+
+		.nav li {
+			float: left;
+		}
+
+		.nav li a {
+			display: block;
+			color: white;
+			text-align: center;
+			height: 40px;
+			padding-left: 15px;
+			padding-right: 15px;
+			text-decoration: none;
+			border-bottom: 0px;
+			-o-transition: .5s;
+			-ms-transition: .5s;
+			-moz-transition: .5s;
+			-webkit-transition: .5s;
+			transition: .5s;
+		}
+
+		.grid-icons li a span span {
+			-o-transition: .5s;
+			-ms-transition: .5s;
+			-moz-transition: .5s;
+			-webkit-transition: .5s;
+			transition: .5s;
+		}
+
+		.grid-icons li a span:hover {
+
+			-webkit-animation: jello 0.5s;
+			animation: jello 0.5s;
+		}
+
+
+
+		/* Change the link color to #111 (black) on hover */
+
+		.nav li a:hover {
+			background-color: #1a94b8;
+		}
+
+		.nav li a:active {
+			background-color: white;
+			color: black;
+
+		}
+
+		nav {
+			position: fixed;
+			z-index: 500;
+			padding-bottom: 12px;
+			margin-top: -40px;
+
+		}
+
+		nav .line {
+			height: 2px;
+			position: absolute;
+			bottom: 0;
+			margin: 10px 0 0 0;
+			background: white;
+		}
+
+		nav ul {
+			padding: 0;
+			margin: 0;
+			list-style: none;
+			display: flex;
+		}
+
+		nav ul li {
+			margin: 0 40px 0 0;
+			opacity: 0.4;
+			transition: all 0.4s ease;
+		}
+
+		nav ul li:hover {
+			opacity: 0.7;
+		}
+
+		nav ul li.active {
+			opacity: 1;
+			border-bottom: 1px solid white;
+		}
+
+		nav ul li:last-child {
+			margin-right: 0;
+		}
+
+		nav ul li a {
+			text-decoration: none;
+			color: #fff;
+			text-transform: uppercase;
+			display: block;
+			font-weight: 600;
+			letter-spacing: 0.2em;
+			font-size: 14px;
+			border-bottom: 0px !important;
+		}
+
+		nav ul li a:hover {
+
+			color: #000000;
+			-webkit-animation: pulse 0.5s;
+			animation: pulse 0.5s;
+		}
+
+		nav ul li a:active {
+			-webkit-animation: tada 0.5s;
+			animation: tada 0.5s;
+		}
+
+		.whitebg {
+			background: white;
+		}
+
+		#languageWidget {
+			position: fixed;
+			left: 0;
+			top: 0;
+			z-index: 300;
+			padding: 10px;
+			background: rgba(20, 20, 20, .4);
+			text-align: center;
+		}
+
+		#languageWidget p {
+			margin: 0 !important;
+		}
+
+		#languageWidget p:hover {
+			cursor: pointer;
+		}
+
+		.hider {
+			text-align: center;
+			display: none;
+		}
+
+		.textcolumns {
+			columns: 3;
+		}
+
+		@media only screen and (max-width: 737px) {
+			.textcolumns {
+				columns: 1;
+			}
+
+		}
+
+		#watcher {
+			position: absolute;
+			top: 0;
+			left: 6px;
+			background: black;
+			width: 5px;
+			height: 5px;
+			z-index: -5000;
+		}
+
+		a .icon {
+			color: #00539a !important;
+		}
+
+		.gmclogo {
+			margin-top: 50px;
+			margin-bottom: auto;
+			margin-left: auto;
+			margin-right: auto;
+			text-align: center;
+		}
+
+		.gmilogo {
+			margin-top: 5em;
+			width: 225px;
+		}
+
+		a .gmilogo:hover{
+			text-decoration: none;
+		}
+
+		.mobilenav {
+			display: none;
+		}
+
+		@media only screen and (max-width: 737px) {
+			.whitebg table{
+				margin-bottom:0;
+					}
+			.gmilogo{
+				margin-top:5px;
+				height:60px;
+			}
+			.gmclogo {
+				margin-top: 40px;
+				margin-bottom: auto;
+			}
+			.textcolumns {
+				columns: 1;
+			}
+			#youtube {
+				width: 100%;
+				max-width: 560px;
+				height: auto;
+				height: 315px;
+				margin-bottom:10px;
+			}
+			nav {
+				display: none;
+			}
+			.mobilenav {
+				display: block;
+				position: fixed;
+				top: 0;
+				right: 0;
+				z-index: 400;
+				background: rgba(0, 0, 0, 0.6);
+				width: 10vw;
+				height: 10vw;
+				text-align: center;
+			}
+			.mobilenav:hover {
+				cursor: pointer;
+			}
+			.mobilenav i {
+				margin: 0;
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				margin-right: -50%;
+				transform: translate(-50%, -50%)
+			}
+			#languageWidget {
+				display: none;
+			}
+			.invisible {
+				visibility: hidden;
+			}
+			#mobileLinks {
+
+				position: fixed;
+				top: 0;
+				left: 0;
+				z-index: 401;
+				width: 100vw;
+				height: 100vh;
+				background: rgba(255,255,255,0.9);
+				text-align: center;
+			}
+			#mobileLinks ul {
+				width: 100%;
+				display: table;
+				padding: 0;
+				background: rgba(107, 107, 107, 0.2);
+				margin:0;
+				margin-top: 10vw;
+			}
+			#mobileLinks ul li {
+
+				vertical-align: middle;
+				color: black;
+				font-size: 2em;
+				width: 100%;
+				height: 20vw;
+				border-bottom: 0.25vw solid rgba(107, 107, 107, 0.2);
+				line-height: 20vw;
+				background: white;
+				-webkit-transition: 2s;
+				/* For Safari 3.1 to 6.0 */
+				transition: 2s;
+			}
+			#mobileLinks ul li:hover {
+				-webkit-animation: shake 1s;
+				animation: shake 1s;
+				cursor: pointer;
+				background: rgba(107, 107, 107, 0.2);
+			}
+
+			#closeNav {
+				position: absolute;
+				top:0;
+				left:0;
+				width: 100%;
+				background: #c23616;
+				height: 10vw;
+				text-align: center;
+				border-top: 1vw solid #e84118;
+			}
+
+			#closeNav:hover {
+
+				-webkit-animation: pulse 1s;
+				animation: pulse 1s;
+				cursor: pointer;
+				background: #e17055;
+				border-top: 1vw solid #fab1a0;
+
+			}
+
+			#closeNav i {
+				margin: 0;
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				margin-right: -50%;
+				transform: translate(-50%, -50%)
+			}
+
+		}
+
+				@media only screen and (max-width: 737px) and (orientation: landscape) {
+
+	#mobileLinks ul li {
+height: 5vw;
+line-height:100%;
+font-size:1em;
+}
+}
+		.idealist {
+			list-style-type: none;
+		}
+
+		.idealist{
+			padding:0;
+		}
+
+		.idealist li {
+			display: inline-block;
+			width: 100%;
+			margin: 4px;
+			padding: 2px;
+			padding-right: 4px;
+			border-radius: 25px;
+			background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(223, 172, 63, 0.466) 25%, rgba(227, 123, 124, 0.25) 50%, rgba(255, 228, 180, 0.25));
+				background-size: 128px 128px, auto;
+				background-color: #fbeec1;
+				color:black;
+				font-weight:bold;
+		}
+
+		.idealist p{
+			margin:0 0 0 0;
+			margin-left:40px;
+		}
+
+		.idealist img {
+			Float: left;
+			height: 40px;
+			margin-left: 20px;
+			margin-top: 5px;
+			margin-right: 20px;
+		}
+
+		table td {
+			text-align: center;
+			vertical-align: middle;
+		}
+
+		#fourth a:hover {
+			color: white;
+		}
+
+
+
+		@media all and (-ms-high-contrast: none),
+		(-ms-high-contrast: active) {
+			/* IE10+ CSS styles go here */
+			#myVideo {
+				display: none;
+			}
+		}
+
+		.videoWrapper {
+			position: relative;
+			padding-bottom: 56.25%;
+			/* 16:9 */
+			padding-top: 25px;
+			height: 0;
+		}
+
+		.videoWrapper iframe {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+		}
+
+		.item {
+			color: #f79737;
+			fill: #f79737;
+		}
+
+		.lightlink:hover {
+			color: white;
+		}
+
+		#map{
+			top:0;
+			bottom:0;
+		}
+
+	</style>
+
+
+</head>
+
+<body class="is-preload">
+	<div id="bg"></div>
+	<video autoplay muted loop id="myVideo" poster="images/vidposter.png">
+		<source src="assets/video/methanebg.mp4" type="video/mp4">
+		<source src="assets/video/methanebg.ogg" type="video/ogg">
+		<source src="assets/video/methanebg.webm" type="video/webm"> Your browser does not support HTML5 video.
+	</video>
+	<div id="tile"></div>
+
+
+
+	<img id="watcher" src="images/watcher.png">
+	<div id="languageWidget">
+		<div class="hider">
+			<div id="google_translate_element"></div>
+		</div>
+		<p class="translateText">Translate this page&nbsp;
+			<i class="fa fa-language" aria-hidden="true"></i>
+		</p>
+	</div>
+	<div class="mobilenav" id="mobilenav">
+		<i class="fa fa-bars fa-2x" aria-hidden="true"></i>
+	</div>
+	
+	<div id="mobileLinks" class="invisible">
+			<div id="closeNav">
+					<i class="fa fa-times-circle-o fa-2x" aria-hidden="true"></i>
+				</div>
+		<ul>
+			<a class="linkClick" href="#home"><li>Home</li></a>
+			<a class="linkClick" href="#info"><li>The Challenge</li></a>
+			<a class="linkClick" href="#mmatters"><li>Methane Matters</li></a>
+			<a class="linkClick" href="#actionmap"><li>Action Map</li></a>
+			<a class="linkClick" href="#fourth"><li>Tell Your Story</li></a>
+			<a class="translateText" ><li style="background:#dff9fb;"><i class="fa fa-language" aria-hidden="true"></i>&nbsp;Translate</li></a>
+		</ul>
+
+	</div>
+	<!-- Wrapper -->
+
+
+	<div id="page-wrapper">
+		<div id="wrapper">
+			<nav>
+				<ul>
+<!--						<li id="navLeft">
+								<i class="fa  fa-arrow-circle-left" aria-hidden="true"></i>
+							</li>-->
+					<li id="homenav" class="active">
+						<a href="#home">Home</a>
+					</li>
+					<li id="infonav">
+						<a href="#info">The Challenge</a>
+					</li>
+					<li id="mmattersnav">
+						<a href="#mmatters">Methane Matters</a>
+				</li>
+					<li id="actionmapnav">
+						<a href="#actionmap">Action Map</a>
+				</li>
+					<li id="fourthnav">
+						<a href="#fourth">Tell Your Story</a>
+					</li>
+
+<!--					<li id="navRight">
+						<i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+					</li>-->
+				</ul>
+			</nav>
+
+			<!-- Panel (Banner) -->
+			<section class="panel banner right" id="home" style="overflow: hidden;">
+				<div class="content color1 span-4">
+					<h1 class="major" style="border:black;">
+						<img alt="Global Methane Challenge Logo" title="Global Methane Challenge Logo" class="gmclogo" src="images/gmclogo.svg">
+					</h1>
+					<p style="color:black;">It’s time to take action! Join the Global Methane Challenge and showcase your work to reduce methane emissions.</p>
+					<p style="color:black;"><a class="lightlink" href="#info"><i style="float:right; bottom:0;" class="fa fa-2x fa-arrow-circle-right" aria-hidden="true"></i></a></a>
+						The Global Methane Challenge is open to Global Methane Initiative (GMI) Partner Countries and Project Network members. GMI focuses on reducing methane emissions from several key sectors: oil and gas systems, coal mines, and biogas (agriculture, municipal solid waste, and wastewater). Learn
+						more about
+						<a href="https://www.globalmethane.org/participate/index.aspx" target="_blank">how&nbsp;to&nbsp;join&nbsp;GMI</a>.
+					</p>
+
+				</div>
+				<div class="whitebg" data-position="25% 25%">
+					<table height="100%">
+						<tr>
+							<td colspan="4">
+								<a href="http://www.globalmethane.org"><img alt="Global Methane Initiative Logo" title="Global Methane Initiative Logo" class="gmilogo" src="images/gmilogo.svg"></a>
+							</td>
+						</tr>
+						<tr height="50px">
+							<td>
+								<ul class="contact-icons color1">
+									<a target="_blank" href="https://twitter.com/globalmethane">
+										<li class="icon fa-twitter" title="GMI's Twitter Account" alt="GMI's Twitter Account"></li>
+									</a>
+								</ul>
+							</td>
+							<td>
+								<ul class="contact-icons color1">
+									<a target="_blank" href="https://www.facebook.com/globalmethane/">
+										<li class="icon fa-facebook" title="GMI's Facebook Account" alt="GMI's Facebook Account"></li>
+									</a>
+								</ul>
+							</td>
+							<td>
+								<ul class="contact-icons color1">
+									<a target="_blank" href="https://www.linkedin.com/company/global-methane-initiative-gmi-/">
+										<li class="icon fa-linkedin" title="GMI's LinkedIn Account" alt="GMI's LinkedIn Account"></li>
+									</a>
+								</ul>
+							</td>
+							<td>
+								<ul class="contact-icons color1">
+									<a target="_blank" href="https://www.globalmethane.org/participate/joinmailinglist.aspx">
+										<li class="icon fa-envelope" title="Sign up for the GMI Mailing List" alt="Sign up for the GMI Mailing List"></li>
+									</a>
+								</ul>
+							</td>
+						</tr>
+					</table>
+					<!--
+					<table>
+						<tr>
+							<td style="text-align:center;">
+								<ul class="contact-icons color1">
+									<a target="_blank" href="https://twitter.com/globalmethane">
+										<li class="icon fa-twitter" alt="GMI's Twitter Account"></li>
+									</a>
+								</ul>
+							</td>
+							<td style="text-align:center;">
+								<ul class="contact-icons color1">
+									<a target="_blank" href="https://www.facebook.com/globalmethane/">
+										<li class="icon fa-facebook" alt="GMI's Facebook Account"></li>
+									</a>
+								</ul>
+							</td>
+							<td style="text-align:center;">
+								<ul class="contact-icons color1">
+									<a target="_blank" href="https://www.linkedin.com/company/global-methane-initiative-gmi-/">
+										<li class="icon fa-linkedin" alt="GMI's LinkedIn Account">
+										</li>
+									</a>
+								</ul>
+							</td>
+							<td style="text-align:center;">
+								<ul class="contact-icons color1" id="mailLink">
+									<a target="_blank" href="https://www.globalmethane.org/participate/joinmailinglist.aspx">
+										<li alt="sign up for the GMI Mailing List" class="icon fa-envelope"></li>
+									</a>
+								</ul>
+							</td>
+						</tr>
+					</table>
+-->
+
+				</div>
+
+
+			</section>
+			<!-- Panel (Spotlight) -->
+			<!--							<section class="panel spotlight medium right" id="first">
+								<div class="intro joined">
+									<h2 class="major">Around the world</h2>
+									<p>SVG map with clickable countries. Each country would launch a pop over screen with list of case studies for that country.</p>
+								</div>
+								<div class="inner">
+									<img src="images/worldLow.svg" width="100%">
+								</div>
+								<div class="image filtered tinted" data-position="top right" style="background:rgba(0,0,0,0.8);">
+								
+								</div>
+							</section>
+						-->
+			<!-- Panel -->
+			<!--						
+							<section class="panel color1" id="second">
+								<div class="intro joined">
+									<h2 class="major">Across all sectors</h2>
+									<p>Clickable icons that launch popover screen with list of case studies by sector. Would be database driven to avoid duplication</p>
+								</div>
+								<div class="inner">
+									<ul class="grid-icons three connected">
+										<li><span class="icon fa-trash-o"><span class="label">Lorem</span></span></li>
+										<li><span class="icon fa-molecule"><span class="label">Ipsum</span></span></li>
+										<li><span class="icon fa-tint"><span class="label">Dolor</span></span></li>
+										<li><a href="oilgas.html"><span class="icon fa-fire"><span class="label">Sit</span></span></a></li>
+										<li><span class="icon fa-pick"><span class="label">Amet</span></span></li>
+										<li><span class="icon fa-agriculture"><span class="label">Nullam</span></span></li>
+									</ul>
+								</div>
+							</section>
+
+-->
+			<!-- Panel -->
+			<!--
+							<section class="panel" id="third">
+								<div class="intro color2">
+									<h2 class="major">Showcase</h2>
+									<p>Feature images for stories. Clicking on images can load infographics, PDFs, videos, etc.</p>
+								</div>
+								<div class="gallery">
+									<div class="group span-3">
+										<a href="images/gallery/fulls/01.jpg" class="image filtered span-3" data-position="bottom"><img src="images/gallery/thumbs/01.jpg" alt="" /></a>
+										<a href="images/gallery/fulls/02.jpg" class="image filtered span-1-5" data-position="center"><img src="images/gallery/thumbs/02.jpg" alt="" /></a>
+										<a href="images/gallery/fulls/03.jpg" class="image filtered span-1-5" data-position="bottom"><img src="images/gallery/thumbs/03.jpg" alt="" /></a>
+									</div>
+									<a href="images/gallery/fulls/04.jpg" class="image filtered span-2-5" data-position="top"><img src="images/gallery/thumbs/04.jpg" alt="" /></a>
+									<a href="images/gallery/fulls/09.jpg" class="image filtered span-2-5" data-position="right"><img src="images/gallery/thumbs/09.jpg" alt="" /></a>
+								</div>
+							</section>
+-->
+			<!-- Panel -->
+			<section class="panel color3" id="info">
+				<div class="inner columns aligned">
+					<div class="span-2">
+
+						<h2 class="major">
+							<!--<a class="lightlink" href="#home"><i class="fa  fa-arrow-circle-left" aria-hidden="true"></i></a>&nbsp;-->The Challenge&nbsp;<a class="lightlink" href="#mmatters"><i class="fa  fa-arrow-circle-right" aria-hidden="true"></i></a>
+
+						</h2>
+						<p>
+							The Global Methane Challenge is your chance to tell the world what you are doing to reduce methane emissions. Whether you
+							are ready to make a new commitment or want to highlight an ongoing effort, we want to showcase it here.
+						</p>
+						<p>
+							The goal of the Global Methane Challenge is to encourage GMI Partner Countries and Project Network members to take ambitious action to reduce methane and to showcase the policies and technologies they are using to reduce emissions around the world. The Challenge will culminate in a capstone event in 2020, where we will celebrate our collective accomplishments.
+						</p>
+
+					</div>
+
+					<div class="span-2-5">
+			
+						<h4>Here are some ideas for how you can participate:</h4>
+
+						<ul class="idealist">
+							<li>
+								<img class="item" src="images/listicons/005-research.svg"><p>Monitor methane emissions and create an emissions inventory.</p></li>
+							<li>
+								<img class="item" src="images/listicons/001-wedding-planning.svg"><p>Develop an action plan for reducing emissions in one or more sectors.</p></li>
+							<li>
+								<img class="item" src="images/listicons/002-dollar-symbol.svg"><p>Provide technical or financial support to a methane mitigation project.</p></li>
+							<li>
+								<img class="item" src="images/listicons/003-mortarboard.svg"><p>Educate the public about methane emissions and abatement opportunities.</p></li>
+							<li>
+								<img class="item" src="images/listicons/004-information.svg"><p>Showcase a methane mitigation project or technology.</p></li>
+						</ul>
+						<p>For additional ideas for specific sectors, click <a href="documents/GMC_Ideas.pdf" target="_blank" class="lightlink">here</a>.</p>
+
+
+					</div>
+
+				</div>
+			</section>
+			<section class="panel color8" id="mmatters">
+				<div class="inner columns aligned">
+
+					<div class="span-4">
+							<h2 class="major">
+								<!--<a class="lightlink" href="#info"><i class="fa  fa-arrow-circle-left" aria-hidden="true"></i></a>&nbsp;-->Methane Matters&nbsp;<a class="lightlink" href="#actionmap"><i class="fa  fa-arrow-circle-right" aria-hidden="true"></i></a></h2>
+						<div class="videoWrapper">
+							<iframe id="youtube" src="https://www.youtube.com/embed/TL2K_Oh4THM?modestbranding=1&autohide=1&showinfo=0&controls=1" frameborder="0"
+							    allow="autoplay; encrypted-media" allowfullscreen></iframe>
+						</div>
+					</div>
+
+				</div>
+			</section>
+			<section class="panel color6" id="actionmap">
+				<div class="intro">
+					<h2 class="major">
+						<!--<a class="lightlink" href="#mmatters"><i class="fa  fa-arrow-circle-left" aria-hidden="true"></i></a>&nbsp;-->Action Map&nbsp;<a class="lightlink" href="#fourth"><i class="fa  fa-arrow-circle-right" aria-hidden="true"></i></a></h2>
+					<p>Click on the map to learn more about how GMI Partner Countries are participating in the Global Methane Challenge.</p>
+				</div>
+				<div class="inner columns">
+					<div class="span-3">
+							<div id="map" style="width: 100%; height:400px; border:solid 2px rgba(255, 255, 255, 0.25);border-radius:0.25em;	box-shadow: 0 9px 20px rgba(0, 0, 0, 0.2)  ; 
+							-webkit-box-shadow: 0 9px 20px rgba(0, 0, 0, 0.2)  ; 
+							-moz-box-shadow: 0 9px 20px rgba(0, 0, 0, 0.2)  ; "></div>
+					</div>
+
+				</div>
+			</section>
+			<section class="panel" id="fourth">
+				<div class="intro"style="background:rgba(0,0,0,0.8);">
+					<h2 class="major">
+						<!--<a class="lightlink" href="#actionmap"><i class="fa  fa-arrow-circle-left" aria-hidden="true"></i></a>&nbsp;-->Tell your story</h2>
+					<p>Get featured in the Challenge showcase by reaching out with your story.</p>
+				</div>
+				<div class="inner columns" style="background:rgba(0,0,0,0.8);">
+					<div class="span-4">
+						<form method="post" action="#">
+							<div class="fields">
+								<div class="field third">
+										<label for="salutation">Salutation</label>
+										<div class="select-wrapper">
+												<select style="background:rgba(255,255,255,0.5);" name="Salutation" id="Salutation">
+													<option value=""selected disabled>-</option>
+													<option value="Mr.">Mr.</option>
+													<option value="Ms.">Ms.</option>
+													<option value="Dr.">Dr.</option>
+		
+												</select>
+											</div>
+									</div>
+								<div class="field third">
+									<label for="firstname">First Name</label>
+									<input style="background:rgba(255,255,255,0.5);" type="text" name="firstname" id="firstname" />
+								</div>
+								<div class="field third">
+									<label for="lastname">Last Name</label>
+									<input style="background:rgba(255,255,255,0.5);" type="text" name="lastname" id="lastname" />
+								</div>
+								<div class="field third">
+									<label for="organization">Organization</label>
+									<input style="background:rgba(255,255,255,0.5);" type="text" name="organization" id="organization" />
+								</div>
+								<div class="field third">
+									<label for="jobtitle">Job Title</label>
+									<input style="background:rgba(255,255,255,0.5);" type="text" name="jobtitle" id="jobtitle" />
+								</div>
+								<div class="field third">
+									<label for="relationship">GMI Relationship</label>
+									<div class="select-wrapper">
+										<select style="background:rgba(255,255,255,0.5);" name="relationship" id="relationship">
+											<option value="">-</option>
+											<option value="1">GMI Partner Country</option>
+											<option value="2">GMI Project Network Member</option>
+											<option value="3">Interested in joining the GMI network</option>
+
+										</select>
+									</div>
+								</div>
+								<div class="field half">
+									<label for="phone">Phone Number</label>
+									<input style="background:rgba(255,255,255,0.5);" type="text" name="phone" id="phone" />
+								</div>
+																
+								<div class="field half">
+									<label for="email">Email Address</label>
+									<input style="background:rgba(255,255,255,0.5);" type="email" name="email" id="email" />
+								</div>
+								<!-- Break -->
+
+
+								<div class="field half">
+									<label for="message">How we will participate in the Global Methane Challenge
+										<a>(click here for an example)</a>
+									</label>
+									<textarea style="background:rgba(255,255,255,0.5);" name="message" id="message" rows="3"></textarea>
+								</div>
+								<div class="field half">
+										
+												<ul style="list-style-type: none;">
+												<li style="padding:3px;">Questions? Contact the GMI Administrative Support Group at +1.202.343.9683 or
+													<a href="mailto:secretariat@globalmethane.org">secretariat@globalmethane.org</a></li>
+													<li style="padding:3px;"><input type="submit" value="Send Message" class="button primary" /></li></ul>
+								</div>
+							</div>
+
+						</form>
+					</div>
+
+				</div>
+			</section>
+
+
+			<!-- Copyright -->
+
+		</div>
+
+	</div>
+
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/main.js"></script>
+	<script type="text/javascript" src="https://www.amcharts.com/lib/3/ammap.js"></script>
+	<script type="text/javascript" src="https://www.amcharts.com/lib/3/maps/js/worldLow.js"></script>
+	<script src="assets/sweetalert/sweetalert2.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.2/jquery.scrollTo.min.js"></script>
+	
+
+	<!-- amCharts javascript code -->
+	<script type="text/javascript">
+		AmCharts.makeChart("map",{
+				"type": "map",
+				"pathToImages": "http://www.amcharts.com/lib/3/images/",
+				"addClassNames": true,
+				"fontSize": 15,
+				"color": "#000000",
+				"projection": "mercator",
+				"backgroundAlpha": 1,
+				"mouseWheelZoomEnabled": true,
+				"backgroundColor": "rgba(255,255,255,0.12)",
+				"dataProvider": {
+					"map": "worldLow",
+					"getAreasFromMap": true,
+					"images": [
+
+						{
+							"selectable": true,
+							"longitude": -75.0719,
+								"latitude": 40.2694,
+							"svgPath": "M3.5,13.277C3.5,6.22,9.22,0.5,16.276,0.5C23.333,0.5,29.053,6.22,29.053,13.277C29.053,14.54,28.867,15.759,28.526,16.914C26.707,24.271,16.219,32.5,16.219,32.5C16.219,32.5,4.37,23.209,3.673,15.542C3.673,15.542,3.704,15.536,3.704,15.536C3.572,14.804,3.5,14.049,3.5,13.277C3.5,13.277,3.5,13.277,3.5,13.277M16.102,16.123C18.989,16.123,21.329,13.782,21.329,10.895C21.329,8.008,18.989,5.668,16.102,5.668C13.216,5.668,10.876,8.008,10.876,10.895C10.876,13.782,13.216,16.123,16.102,16.123C16.102,16.123,16.102,16.123,16.102,16.123",
+							"color": "rgba(247,151,55,1)",
+							"scale": 1,
+							"url": 'javascript:test()'
+						}
+					],
+					areas :
+[
+	{
+		"id": "AL",
+		"color": "#733e75"
+	},
+	{
+		"id": "BG",
+		"color": "#733e75"
+	},
+	{
+		"id": "FI",
+		"color": "#733e75"
+	},
+	{
+		"id": "GE",
+		"color": "#733e75"
+	},
+	{
+		"id": "DE",
+		"color": "#733e75"
+	},
+	{
+		"id": "IT",
+		"color": "#733e75"
+	},
+	{
+		"id": "NO",
+		"color": "#733e75"
+	},
+	{
+		"id": "PL",
+		"color": "#733e75"
+	},
+	{
+		"id": "RU",
+		"color": "#733e75"
+	},
+	{
+		"id": "RS",
+		"color": "#733e75"
+	},
+	{
+		"id": "TR",
+		"color": "#733e75"
+	},
+	{
+		"id": "UA",
+		"color": "#733e75"
+	},
+	{
+		"id": "GB",
+		"color": "#733e75"
+	},
+	{
+		"id": "CA",
+		"color": "#733e75"
+	},
+	{
+		"id": "DO",
+		"color": "#733e75"
+	},
+	{
+		"id": "MX",
+		"color": "#733e75"
+	},
+	{
+		"id": "NI",
+		"color": "#733e75"
+	},
+	{
+		"id": "US",
+		"color": "#733e75"
+	},
+	{
+		"id": "AR",
+		"color": "#733e75"
+	},
+	{
+		"id": "BR",
+		"color": "#733e75"
+	},
+	{
+		"id": "CL",
+		"color": "#733e75"
+	},
+	{
+		"id": "CO",
+		"color": "#733e75"
+	},
+	{
+		"id": "EC",
+		"color": "#733e75"
+	},
+	{
+		"id": "PE",
+		"color": "#733e75"
+	},
+	{
+		"id": "CI",
+		"color": "#733e75"
+	},
+	{
+		"id": "ET",
+		"color": "#733e75"
+	},
+	{
+		"id": "GH",
+		"color": "#733e75"
+	},
+	{
+		"id": "NG",
+		"color": "#733e75"
+	},
+	{
+		"id": "CN",
+		"color": "#733e75"
+	},
+	{
+		"id": "IN",
+		"color": "#733e75"
+	},
+	{
+		"id": "ID",
+		"color": "#733e75"
+	},
+	{
+		"id": "IL",
+		"color": "#733e75"
+	},
+	{
+		"id": "JP",
+		"color": "#733e75"
+	},
+	{
+		"id": "JO",
+		"color": "#733e75"
+	},
+	{
+		"id": "KZ",
+		"color": "#733e75"
+	},
+	{
+		"id": "MN",
+		"color": "#733e75"
+	},
+	{
+		"id": "PK",
+		"color": "#733e75"
+	},
+	{
+		"id": "PH",
+		"color": "#733e75"
+	},
+	{
+		"id": "SA",
+		"color": "#733e75"
+	},
+	{
+		"id": "KR",
+		"color": "#733e75"
+	},
+	{
+		"id": "LK",
+		"color": "#733e75"
+	},
+	{
+		"id": "TH",
+		"color": "#733e75"
+	},
+	{
+		"id": "VN",
+		"color": "#733e75"
+	},
+	{
+		"id": "AU",
+		"color": "#733e75"
+	}
+]
+				},
+				"balloon": {
+					"horizontalPadding": 15,
+					"borderAlpha": 0,
+					"borderThickness": 1,
+					"verticalPadding": 15
+				},
+				"areasSettings": {
+					"color": "rgba(255,255,255,1)",
+					"outlineColor": "rgba(0,0,0,.2)",
+					"rollOverOutlineColor": "rgba(114,205,215,1)",
+					"rollOverBrightness": 5,
+					"selectedBrightness": 10,
+					"selectable": true,
+					"unlistedAreasAlpha": 0,
+					"unlistedAreasOutlineAlpha": 0
+				},
+				"imagesSettings": {
+					"alpha": 1,
+					"color": "rgba(255,255,255,1)",
+					"outlineAlpha": 0,
+					"rollOverOutlineAlpha": 0,
+					"outlineColor": "rgba(114,205,215,1)",
+					"rollOverBrightness": 20,
+					"selectedBrightness": 20,
+					"selectable": true
+				},
+				"linesSettings": {
+					"color": "rgba(255,255,255,1)",
+					"selectable": true,
+					"rollOverBrightness": 20,
+					"selectedBrightness": 20
+				},
+				"zoomControl": {
+					"zoomControlEnabled": true,
+					"homeButtonEnabled": false,
+					"panControlEnabled": false,
+					"right": 38,
+					"bottom": 30,
+					"minZoomLevel": 0.25,
+					"gridHeight": 100,
+					"gridAlpha": 0.1,
+					"gridBackgroundAlpha": 0,
+					"gridColor": "#FFFFFF",
+					"draggerAlpha": 1,
+					"buttonCornerRadius": 2
+				},
+				"legend": {
+    "backgroundColor": "#fff",
+    "backgroundAlpha": 0.5,
+    "align": "center",
+    "data": [{
+      "title": "GMI Partner Country",
+      "color": "#733e75"
+    }, {
+      "title": "GMC Action",
+      "color": "#f79737"
+    }]
+  }
+			});
+	</script>
+	<script>
+	function test() {
+		swal({
+  imageUrl: "images/gallery/philly.jpg",
+    imageWidth: 550,
+    imageHeight: 225,
+    imageAlt: "Investment",
+  text: 'Philly refiner plans $120M plant to convert food scraps to fuel for trucks and buses',
+  confirmButtonText: 'Cool'
+})
+}
+		</script>
+<script>
+           $('.navRight').click(function(e) {
+                e.preventDefault();
+                $('#foo').css({ 'right': '0px', 'left': '' }).animate({
+                    'right' : '30px'    
+                });                    
+            });
+            $('.navLeft').click(function(e) {
+                e.preventDefault();
+                $('#foo').css({ 'right': '', 'left': '0px' }).animate({
+                    'left' : '30px'
+                });                    
+            });
+</script>
+	<script type="text/javascript">
+		function googleTranslateElementInit() {
+			new google.translate.TranslateElement({
+				pageLanguage: 'en',
+				layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+			}, 'google_translate_element');
+		}
+	</script>
+	<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+	<script>
+		$(document).ready(function () {
+
+			$('a[title="Interactive JavaScript maps"]').hide();
+
+			$("#mobileLinks").click(function(){
+				$('#mobileLinks').removeClass('animated slideInUp');
+				$('#mobileLinks').addClass('animated slideOutDown');
+			});
+
+			$(".linkClick").click(function(){
+				$('#mobileLinks').removeClass('animated slideInUp');
+				$('#mobileLinks').addClass('animated slideOutDown');
+			});
+
+			$("#mobilenav").click(function () {
+				$('#mobileLinks').removeClass('animated slideOutDown');
+				$('#mobileLinks').removeClass('invisible');
+				$('#mobileLinks').addClass('animated slideInUp');
+			});
+
+			$("#closeNav").click(function (){
+				$('#mobileLinks').removeClass('animated slideInUp');
+				$('#mobileLinks').addClass('animated slideOutDown');
+
+			})
+		});
+	</script>
+	<script>
+		var vid = document.getElementById("myVideo");
+
+		vid.playbackRate = 0.4;
+
+		$('.translateText').click(function () {
+			$("#languageWidget").css("display","block");
+			$(".hider").slideToggle();
+		});
+
+		var watcher = document.getElementById('watcher');
+
+		$.fn.isInViewport = function () {
+			var elementLeft = $(this).offset().left;
+			var elementRight = elementLeft;
+
+			var viewportLeft = $(window).scrollLeft();
+			var viewportRight = viewportLeft + $(window).width();
+
+			return elementRight > viewportLeft && elementLeft < viewportRight;
+		};
+
+		$(window).on('resize scroll', function () {
+			$('section').each(function () {
+				var activeColor = $(this).attr('id');
+
+				if ($(this).isInViewport()) {
+					$('nav ul li a').removeClass('active');
+					$('#' + activeColor + 'nav').addClass('active');
+
+				} else {
+					$('#' + activeColor + 'nav').removeClass('active');
+				}
+
+			});
+			var vid = document.getElementById("myVideo"); 
+			if ($(watcher).isInViewport()) {
+				vid.play();
+				$('#infonav').removeClass('active');
+			}else{
+			
+				vid.pause(); 
+			}
+
+		});
+	</script>
+
+</body>
+
+</html>

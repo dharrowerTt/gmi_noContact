@@ -1,0 +1,157 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size:1.5em;            
+}
+#wrapper {
+	text-align:center;
+	margin:auto;
+	padding:2%;
+	width:75%;
+}
+#subwrapper {
+	text-align:center;
+	margin:auto;
+	padding:2%;
+	width:800px;
+}
+#pagetitle {
+	text-align:center;
+	padding:2% 0%;
+	width:100%;
+	color:white;
+	font-family: 'Roboto', sans-serif;
+	font-size:150%;
+	background:#3360AB;
+}
+#savethedate {
+	text-align:center;
+	padding:2% 0%;
+	width:100%;
+	color:white;
+	font-family: 'Roboto', sans-serif;
+	font-size:150%;
+	background:#3360AB;
+}
+
+#savethedate a {
+	color:white;
+    text-decoration:underline;
+}
+#savethedate a:hover {
+	text-decoration:underline;
+	background:#F69636;
+}
+
+h1 {
+	font-weight:bolder;
+	color:#F69636;
+	font-family: 'Roboto', sans-serif;
+	margin-bottom:0px;
+	padding-bottom:0px;
+}
+h2, h3 {
+	font-weight:bold;
+	color:#3360AB;
+	font-family: 'Roboto', sans-serif;
+}
+h2 {
+	margin-top:0px;
+	padding-top:0px;
+}
+p, ul, li {
+	text-align: left;
+	color:#333;
+}
+table.agendatable {
+	border:1px solid #e5e2e2;
+	text-align:center;
+	margin:auto;
+}
+table.agendatable td, table.agendatable th {
+	border:1px solid #e5e2e2;
+	border-collapse:collapse;
+	padding:10px 20px;
+	margin:0px;
+}
+table.agendatable th
+{width:18%;
+}
+table.agendatable td 
+{text-align:left;
+}
+table.agendatable td.day, table.agendatable th.day {
+	font-weight:bold;
+	color:#fff;
+	font-family: 'Roboto', sans-serif;
+	margin:0px;
+	padding:10px;
+	background:#4F95CD;
+	font-size:130%;
+}       
+table.agendatable td.time, table.agendatable th.time {
+	font-weight:bold;
+	background:#EBF6F9;
+	font-size:110%;
+}       
+table.agendatable td.topic, table.agendatable th.topic {
+	font-weight:bold;
+	background:#0E62A8;
+	color: #fff;
+	font-size:110%;
+	text-align:center;
+} 
+
+table.agendatable td.subtopic, table.agendatable th.subtopic {
+	font-weight:bold;
+	font-size:110%;
+	text-align:center;
+}   
+table.agendatable tr.topichead td, table.agendatable tr.topichead th {
+	background:#FFAA34;
+}    
+table.agendatable tr.topicsubhead td , table.agendatable tr.topicsubhead th 
+{background:#FFDF7D;
+}
+
+table.agendatable td.subcommitteemtg, table.agendatable th.subcommitteemtg {
+	font-weight:bold;
+	background:#e1e1e1;
+	font-size:110%;
+	text-align:center;
+} 
+
+table.agendatable td.daylimited {
+	font-weight:bold;
+	color:#666;
+	font-family: 'Roboto', sans-serif;
+	margin:0px;
+	padding:10px;
+	background:#e5e2e2;
+	font-size:130%;
+}       
+table.agendatable td.timelimited {
+	font-weight:bold;
+	background:#EEE;
+	font-size:110%;
+}       
+table.agendatable ul {
+	margin:0px 10px;
+	padding:0px;
+	list-style:none;
+}
+table.agendatable ul li {
+	padding:5px 0px;
+}
+
+iframe.reg {
+    text-align:center;margin:auto;width: 100%; height: 2500px; border: 0px;
+    -moz-transform: scale(1.3);
+    -moz-transform-origin: 0 0;
+    -o-transform: scale(1.3);
+    -o-transform-origin: 0 0;
+    -webkit-transform: scale(1.3);
+    -webkit-transform-origin: 0 0;
+}

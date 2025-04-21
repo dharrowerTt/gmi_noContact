@@ -1,0 +1,629 @@
+﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="mi-24.aspx.vb" Inherits="M2M_Redesign.mi_24" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Archive | Global Methane Initiative</title>
+     <!-- #include virtual="/includes/include_head.html" -->
+</head>
+<body>
+    <!-- #include virtual="/includes/header.html" -->
+
+ <section class="py-5 gmi-light-blue">
+        <div class="container">
+                    <h1>
+						Methane International 
+					</h1>
+					<h2><small class="text-muted text">Issue 24, June 2011</small></h2>
+                    <div class="alert alert-danger" role="alert">Please note that this page is no longer being maintained. </div>
+					<ul>
+						            <li><a href="#one">Subcommittee Updates</a></li>
+            <li><a href="#two">Spotlight on Brazil</a></li>
+            <li><a href="#three">Available Soon: Grants for Activities to Advance Methane Recovery
+                and Use</a></li>
+            <li><a href="#four">Moving Forward with GMI Partner Action Plans</a></li>
+            <li><a href="#five">Mexican LFG Energy Project Becomes Operational</a></li>
+            <li><a href="#six">GMI Outreach</a></li>
+            <li><a href="#seven">Upcoming Outreach Activities</a></li>
+            <li><a href="#eight">Recent Developments and Resources</a></li>
+
+					</ul>
+
+		</div>
+	</section>
+	<section class="py-5 bg-white">
+		<div class="container">
+
+		        <h2 id="one">
+            Subcommittee Updates</h2>
+        
+        <p>
+            The Global Methane Initiative's (GMI's) Administrative Support Group (ASG) convened
+            all four subcommittees via webinars earlier this month. This was the ASG's first
+            use of virtual meetings to encourage greater participation by both delegates and
+            Project Network members. Webinar participants are encouraged to contact <a href="../asg.aspx">
+                ASG or Subcommittee chairs</a> with opinions on the success of the webinars.</p>
+        <p>
+            Additionally, the ASG provided an update on new Partner Countries and discussed
+            draft guidance that was recently distributed for development of GMI Partner Action
+            Plans (see <em><a href="#four">Moving Forward with GMI Partner Action Plans</a></em>).
+            Details for each webinar are highlighted below.</p>
+        <p>
+            <strong><em>Agriculture</em></strong><br />
+            The GMI Agriculture Subcommittee meeting took place on 14 June 2011. The webinar
+            was attended by nearly 20 participants, with several applauding the webinar format.
+            Topics discussed included an update on international collaboration and the availability
+            of the Agriculture Subcommittee Co-Chair position. Additionally, the international
+            database of anaerobic digestion systems was discussed; it is anticipated to go online
+            later this year. Other agenda items included possible future work of the Subcommittee
+            and ideas to increase country and Project Network participation, including a potential
+            webinar on ways Project Network members can better participate in GMI.</p>
+        <p>
+            Presentations as well as the audio recording are posted on the <a href="event_detailsByEventId.aspx?eventId=341">
+                Agriculture Subcommittee Web page</a>.</p>
+        <p>
+            <strong><em>Coal Mines</em></strong><br />
+            The Coal Mines Subcommittee held its webinar on 20 June 2011 and was attended by
+            more than 30 participants. Partner Countries, including <strong>Australia</strong>,
+            <strong>China</strong>, <strong>India</strong>, <strong>Indonesia</strong>, <strong>
+                Mongolia</strong>, and the <strong>United States,</strong> reported on projects
+            that are completed or are in development since the last Subcommittee meeting in
+            October 2010, relevant policy changes, and provided an overview of activities planned
+            for the rest of 2011. In addition, Ray Pilcher with Project Network member <a href="../project-network/pnmProfile.aspx?ID=1">
+                Raven Ridge Resources</a> provided an update on the United Nations Economic
+            Commission for Europe's activities to disseminate information from the <a href="http://www.unece.org/se/pdfs/cmm/pub/BestPractGuide_MethDrain_es31.pdf">
+                <em>Best Practice Guidance for Effective Methane Drainage and Use in Coal Mines</em></a>
+            (PDF, 86 pp, 1.8 MB). <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative">
+                <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>
+            It was also noted during the webinar that a draft paper addressing flaring of drained
+            coal mine methane and a draft update to the <a href="../documents/partners_cmm_tech_database.pdf">
+                technology database</a> (PDF, 14 pp, 122K) will be available soon. The ASG will
+            distribute the materials and request feedback from the Subcommittee when available.
+            Attendees also discussed the agenda for the next Subcommittee meeting, and anyone
+            interested in assisting with development of the agenda for technical sessions should
+            email the ASG at <a href="mailto:secretariat@globalmethane.org">secretariat@globalmethane.org</a>.</p>
+        <p>
+            Presentations will be posted on the <a href="../coal-mines/index.aspx">Coal Mines Subcommittee
+                Web page</a> within the next few weeks.</p>
+        <div style="width: 280px; margin: 5px 0 10px 15px; padding: 5px; border: 1px solid #0076bf;
+            float: right;">
+            <h2 style="text-align: center;">
+                Save the Date for the GMI Partnership-Wide Meeting</h2>
+            <p style="text-align: center;">
+                <a href="/images/mi24_poland.jpg" title="Krakow, Poland" class="lightbox">
+                    <img src="/images/mi24_poland_tn.jpg" alt="Krakow, Poland" /></a></p>
+            <p>
+                The ASG is pleased to announce the 2011 GMI Partnership-Wide Meeting will be held
+                12-14 October 2011 in Krakow, Poland. The event will include sector-specific site
+                tours, plenary sessions, technical and policy sessions, a Steering Committee meeting,
+                and countless networking opportunities. GMI is grateful to the government of Poland
+                for hosting this important meeting. Registration and agendas will be available soon
+                on <a href="../index.aspx">GMI's website</a>.</p>
+        </div>
+        <p>
+            <strong><em>Landfills</em></strong><br />
+            The Landfill Subcommittee met on 1 June 2011. The webinar, attended by nearly 30
+            participants, included a discussion of the new outreach activities that promote
+            the expanded GMI scope of methane abatement and wastewater sectors. In addition
+            to these administrative updates, each delegate identified their priority methane
+            abatement technologies (e.g., composting, anaerobic digestion, and waste-to-energy)
+            and ongoing or planned abatement activities in their country, as well as a needs
+            assessment (e.g., development of abatement technology white papers or fact sheets).
+            This information will be used to tailor the scope of the subcommittee and to develop
+            a guidance document to help countries evaluate appropriate technologies.</p>
+        <p>
+            In closing, the Co-Chairs updated delegates on recent outreach activities planned
+            for the wastewater sector and solicited volunteers to assist with peer review of
+            the International Landfill Gas Project Best Practices Guide. The U.S. Co-Chair announced
+            that U.S. EPA will soon issue a new call for proposals for its annual GMI grant
+            solicitation and anticipates an expanded scope to include wastewater, abatement
+            capacity building, site assessments, and inventories in GMI Partner Countries.</p>
+        <p>
+            Presentations and the audio recording are posted on the <a href="event_detailsByEventId.aspx?eventId=337">
+                Landfill Subcommittee Web page</a>.</p>
+        <p>
+            <strong><em>Oil and Gas</em></strong><br />
+            The Oil and Gas Subcommittee met on 15 June 2011 and was attended by nearly 20 participants.
+            Partner Countries <strong>Canada, India, Mexico,</strong> and the <strong>United States</strong>
+            provided brief updates on relevant activities in which they had been involved since
+            the last Subcommittee meeting. These updates included a discussion of issues or
+            barriers preventing methane emission reduction projects in their country. Participants
+            also discussed how their country engages in other international initiatives, seeking
+            to describe how GMI fits within a country's priorities and how it could be improved
+            to meet their needs. There was initial discussion with Subcommittee and Project
+            Network members to identify a work product that members would be willing to develop
+            and support. This topic will be discussed further at the next Subcommittee meeting.</p>
+        <p>
+            The ASG presented their ideas on the next Subcommittee meeting format and solicited
+            ideas for the technical and policy sessions. Several potential agenda topics were
+            put forth during the webinar. Everyone is encouraged to send topics of interest
+            for discussion at the next meeting to the ASG at <a href="mailto:secretariat@globalmethane.org">
+                secretariat@globalmethane.org</a>.</p>
+        <p>
+            Webinar proceedings and the audio recording are posted on the <a href="../oil-gas/index.aspx">
+                Oil and Gas Subcommittee Web page</a>.</p>
+        
+        <h2 id="two">
+            Spotlight on Brazil</h2>
+        <div style="width: 280px; margin: 5px 0 10px 15px; padding: 5px; border: 1px solid #0076bf;
+            float: right;">
+            <h2 style="text-align: center;">
+                Related GMI Efforts in Brazil</h2>
+            <p>
+                <a href="../partners/brazil.aspx">Brazil</a>, a GMI charter member since 2004, has
+                several ongoing GMI efforts to capture and use LFG. In April, Chris Godlove, a GMI
+                representative from U.S. EPA, travelled to Brazil to meet local officials, learn
+                about specific projects, and research potential applications for landfill technologies.
+                In June, he also spoke at the International Seminar on Sustainable Wastewater Treatment
+                Operation, held in Brazil. The <a href="../documents/events_land_20110601_godlove_sp.pdf">
+                    presentation</a> (Spanish only) (PDF, 26 pp, 1.1 MB) included details from a
+                paper recently released on wastewater technologies.</p>
+            <p>
+                Similarly, the National Association of Regulatory Utility Commissioners, a 2009
+                GMI grant recipient, is continuing its work to create a regulatory toolkit that
+                will foster the adoption of LFG recovery and use within the Brazilian waste sector.</p>
+        </div>
+        <p>
+            <em><strong>Brazil Develops Community-Based LFG Projects</strong></em><br />
+            In 2009, a team from Appalachian State University (ASU) Energy Center, a multi-disciplinary
+            program in Boone, North Carolina, <strong>United States</strong> that conducts energy
+            research and activities, began looking for rural communities outside the United
+            States that would benefit from their experience and strategies for sustainable economic
+            development. With funding from a 2009 GMI grant, a team led by Stan Steury and Jeff
+            Ramsdell began collaborating with local officials in the arid northeast region of
+            Cear&aacute;, <strong>Brazil</strong> to identify sites well suited for community-based
+            landfill gas (LFG) economic development opportunities. While most cities ship their
+            garbage out of view, some Brazilians make a living combing through landfills to
+            find recyclables to sell. With a statewide population of 8.4 million people and
+            approximately 12,000 catadores (&quot;waste pickers&quot;), Cear&aacute; is no exception.</p>
+        <p>
+            The team from ASU began to research the potential for recovering LFG, focusing on
+            energy and community needs. ASU faculty and students brought hands-on experience
+            from facilitating community-based LFG energy projects in rural communities within
+            North Carolina. ASU believed that rural areas in Brazil could also benefit from
+            their experience in utilizing LFG as an inexpensive and clean source of local energy.
+            Both share the need for cheap and reliable energy sources to provide jobs, economic
+            opportunities for small businesses, improved quality of life, and environmental
+            protection.
+        </p>
+        <p>
+            The timing of the project is ideal, as government officials in Cear&aacute; aim
+            to transition toward sanitary landfills. The ASU team toured seven landfills for
+            potential economic development opportunities. Based on the potential for LFG projects
+            and interest by local officials, the team selected the Maracana&uacute; Landfill
+            as their pilot project for LFG development. Based upon preliminary models, the landfill
+            is estimated to reduce 56,000 metric tons of carbon dioxide equivalent (MTCO<sub>2</sub>E)
+            per year, as well as produce 850 cubic meters per hour of LFG, with the potential
+            for more as waste is added. During their time in Brazil, the team formed close relationships
+            with local officials, five of whom visited North Carolina in June 2010 to tour successful
+            LFG energy projects.</p>
+        <div style="width: 205px; margin: 5px 0 10px 15px; padding: 5px; border: 1px solid #0076bf;
+            float: right;">
+            <p>
+                <a href="/images/mi24_catadores.jpg" title="Catadores at the Maracana&uacute; Landfill."
+                    class="lightbox">
+                    <img src="/images/mi24_catadores_tn.jpg" alt="Catadores at the Maracana&uacute; Landfill."
+                        style="margin: 0;" /></a> Catadores at the Maracana&uacute; Landfill.</p>
+        </div>
+        <p>
+            <strong>Technology Transfer to Catadores</strong><br />
+            At the Maracana&uacute; Landfill, the collection and trade of recyclable materials
+            supports 75 families. After seeing the area and meeting the local people, the ASU
+            team felt that assisting the catadores was an important goal. In addition to the
+            LFG benefits, the project hopes to earn revenue from the sale of recycled materials
+            as well as the sale of carbon credits. To help raise funds, ASU students collected
+            more than $2,000 from a showing of <a href="http://www.wastelandmovie.com/"><em>Waste
+                Land</em></a> <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative">
+                    <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>,
+            a documentary film about the artist Vik Muniz, to give to the catadores. The film
+            shows the life of catadores at Jardim Gramacho, the world's largest landfill located
+            outside Rio de Janeiro, where nearly 3,000 catadores pick 200 tons of recyclable
+            materials every day.</p>
+        <p>
+            Throughout the process, GMI staff has provided technical support to overcome hurdles.
+            The ASU team has developed a conceptual plan for a sorting facility in Cear&aacute;,
+            using technology that is inexpensive, dependable, and easily maintained and repaired.
+            For example, a modified automobile engine may be used to generate electricity, instead
+            of a large reciprocating engine, to ensure access to spare parts as well as local
+            repair expertise. In addition to using the LFG for electricity, the project in Maracana&uacute;
+            is exploring industrial uses, such as a plastic manufacturing facility, using recycled
+            materials collected by the &ldquo;catadores.&rdquo;</p>
+        <p>
+            U.S. EPA anticipates that it will be able to provide funding to ASU to complete
+            the second phase of planning and design, as well as to investigate the potential
+            for other solid waste management systems. In addition to this, ASU is seeking other
+            funds to construct the LFG collection system. By transferring personal expertise
+            as well as technology, the team from ASU hopes they can deliver sustainable business
+            options to turn garbage into a revenue stream for local residents. For more information,
+            review <a href="http://www.epa.gov/lmop/documents/pdfs/conf/14th/steury.pdf">Stan Steury's
+                presentation from the 2011 U.S. EPA Landfill Methane Outreach Program's Conference</a>
+            (PDF, 31 pp, 1.8 MB) <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative">
+                <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>.</p>
+        
+        <h2 id="three">
+            Available Soon: Grants for Activities to Advance Methane Recovery and Use</h2>
+        <p>
+            U.S. EPA intends to issue a grant solicitation in late July or early August 2011
+            to fund projects and activities that support GMI. Through this upcoming solicitation,
+            U.S. EPA expects to award cooperative agreements ranging from $100,000 to $750,000
+            per award, for up to a total of $5 million.</p>
+        <p>
+            Successful proposals will support the Initiative's goal to advance project development
+            in five major interest areas: agriculture (manure management), coal mining, landfills,
+            oil and gas systems, and wastewater. Organizations eligible for this grant include:
+        </p>
+        <ul>
+            <li>International governments</li>
+            <li>Not-for-profit organizations </li>
+            <li>States</li>
+            <li>Local governments</li>
+            <li>Universities</li>
+        </ul>
+        <p>
+            The project period for awards is expected to be July 2012 through July 2015. Information
+            will be posted soon on <a href="http://www.epa.gov/globalmethane/grants.htm">U.S. EPA's
+                Global Methane Initiative website</a> <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative">
+                    <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>.
+            GMI will also send out an email announcement once available. To be added to the
+            mailing list, please contact the <a href="mailto:secretariat@globalmethane.org">ASG</a>.</p>
+        
+        <h2 id="four">
+            Moving Forward with GMI Partner Action Plans</h2>
+        <p>
+            In October 2010, the Steering Committee agreed on the need for overarching GMI Partner
+            Action Plans and tasked the ASG with developing guidance. As stated in the <a href="../about/terms.aspx">
+                Terms of Reference</a>, &quot;Action plans can be useful tools in advancing
+            project implementation, facilitating investment, and creating appropriate policy
+            frameworks that support methane abatement, recovery, and use.&quot; The goals of
+            the GMI Partner Action Plans include:</p>
+        <ul>
+            <li>Articulating the overall vision for a Partner's participation in GMI.</li>
+            <li>Outlining key country activities and priorities.</li>
+            <li>Providing a mechanism to advance cooperation between Partners by identifying needs
+                and opportunities.</li>
+        </ul>
+        <p>
+            GMI is hopeful that the development of Partner Action Plans will help drive current
+            and future project development activity in all four sectors. The ASG distributed
+            draft guidance to all country delegates for review&mdash;and is now compiling comments
+            with a goal of providing final guidance for Steering Committee approval at the October
+            Steering meeting in Krakow, Poland. If you are a delegate and did not receive this
+            draft guidance, or have any questions, please contact the <a href="mailto:secretariat@globalmethane.org">
+                ASG</a>.</p>
+        
+        <h2 id="five">
+            Mexican LFG Energy Project Becomes Operational</h2>
+        <div style="width: 205px; margin: 5px 0 10px 15px; padding: 5px; border: 1px solid #0076bf;
+            float: right;">
+            <p>
+                <a href="/images/mi24_calderon.jpg" title="Mexico's President Felipe Calder&oacute;n (center) was joined by Mexican officials to celebrate the opening of an LFG utilization project at the Ciudad Ju&aacute;rez Landfill."
+                    class="lightbox">
+                    <img src="/images/mi24_calderon_tn.jpg" alt="Mexico's President Felipe Calder&oacute;n (center) was joined by Mexican officials to celebrate the opening of an LFG utilization project at the Ciudad Ju&aacute;rez Landfill."
+                        style="margin: 0;" /></a> Mexico's President Felipe Calder&oacute;n (center)
+                was joined by Mexican officials to celebrate the opening of an LFG utilization project
+                at the Ciudad Ju&aacute;rez Landfill.</p>
+        </div>
+        <p>
+            On 20 May 2011, Mexican officials, including the President of <strong>Mexico</strong>,
+            celebrated the opening of an LFG utilization project at the Ciudad Ju&aacute;rez
+            Landfill in the state of Chihuahua, Mexico. The project, supported by GMI, will
+            reduce greenhouse gas emissions by capturing the methane and using it to generate
+            electricity that will feed into the national power grid. The project provides a
+            model for a sustainable approach for governments to better manage landfills and
+            comply with environmental standards. Another benefit was the employment opportunities
+            generated from its construction and in the operation and maintenance of the system.</p>
+        <p>
+            <em>Sources:</em> Eco2data, <a href="http://eco2data.com/project/48748">Ciudad Ju&aacute;rez
+                Landfill Gas to Energy Project</a> <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative">
+                    <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>;
+            Presidencia de la Rep&uacute;blica, &quot;<a href="http://www.presidencia.gob.mx/2011/05/el-presidente-calderon-durante-la-inauguracion-de-la-planta-biogas-de-juarez/">El
+                Presidente Calder&oacute;n Durante La Inauguraci&oacute;n de la Planta Biogas de
+                Ju&aacute;rez</a> (Spanish only),&quot; <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative">
+                    <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>
+            20 May 2011.</p>
+        
+        <h2 id="six">
+            GMI Outreach</h2>
+        <div style="width: 480px; margin: 5px 0 10px 15px; padding: 5px; border: 1px solid #0076bf;
+            float: right;">
+            <h2 style="text-align: center;">
+                GMI Webinar on Project Financing Options</h2>
+            <p>
+                On 13 April 2011, GMI held a <a href="event_detailsByEventId.aspx?eventId=333">webinar</a>
+                about potential methane emission project financing options available from the <a
+                    href="http://www.opic.gov/">Overseas Private Investment Corporation (OPIC)</a>
+                <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative">
+                    <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>.
+                As the United States' development finance institution, OPIC works with the U.S.
+                private sector in over 150 countries to gain footholds in emerging markets and catalyze
+                revenues, jobs, and growth opportunities at home and abroad. With an increased focus
+                on renewable energy, OPIC has recently launched a series of major initiatives, including
+                a call for proposals from private equity funds through which OPIC will provide at
+                least $300 million in financing to support investments in renewable energy, energy
+                efficiency, and the sustainable utilization of natural resources.</p>
+        </div>
+        <p>
+            Below are a few activities GMI has been engaged in to promote methane use and recovery.</p>
+        <ul>
+            <li>In April 2011, GMI attended the <a href="event_detailsByEventId.aspx?eventId=328">
+                International Workshop on Methane Emissions Reduction Technologies in the Oil and
+                Natural Gas Industry</a> in Huadong, <strong>China</strong>. The event was hosted
+                by China University of Petroleum (Huadong), U.S. EPA, and RTI International. The
+                workshop focused on methane emissions from the production, processing, and transmission
+                of oil and natural gas. Topics discussed at the event included an overview of methane
+                emissions in the oil and natural gas industry, methane leak detection technologies,
+                methane emissions reduction technologies, associated gas and natural gas recovery
+                and utilization technologies, and energy efficiency in the oil and natural gas industry.</li>
+            <div style="width: 205px; margin: 5px 0 10px 15px; padding: 5px; border: 1px solid #0076bf;
+                float: right;">
+                <p>
+                    <a href="/images/mi24_bigsky.jpg" title="Jorge Hilbert from Argentina's INTA visited Big Sky West Dairy."
+                        class="lightbox">
+                        <img src="/images/mi24_bigsky_tn.jpg" alt="Jorge Hilbert from Argentina's INTA visited Big Sky West Dairy."
+                            style="margin: 0;" /></a> Jorge Hilbert from Argentina's INTA visited Big
+                    Sky West Dairy.</p>
+            </div>
+            <li>In May 2011, a GMI representative attended and spoke at the <a href="http://2011.sibico.com/index.php?content=list&amp;section_id=84">
+                Solid Waste Treatment and Disposal: Leading Edge Technologies Conference</a> <a href="/exitdisclaimer.aspx"
+                    title="Exiting Global Methane Initiative">
+                    <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>
+                in Moscow, <strong>Russia.</strong> The event was organized by the International
+                Solid Waste Association (ISWA) and SIBICO International Ltd. The conference brought
+                together solid waste managers, practitioners, operators, policy-makers, manufacturers,
+                vendors, and other specialists. Session 4 of the conference, sponsored by GMI, focused
+                on experience in LFG extraction and utilization technology applications. Presenters
+                from Partner Countries such as <strong>Germany</strong>, Russia, and <strong>Ukraine</strong>
+                discussed current solid waste management and LFG recovery projects and future initiatives
+                in Eastern Europe.</li>
+            <li>In May 2011, GMI helped sponsor and participated in the <a href="http://web.worldbank.org/WBSITE/EXTERNAL/BANCOMUNDIAL/EXTSPPAISES/LACINSPANISHEXT/MEXICOINSPANISHEXT/0,,contentMDK:22917586~menuPK:500926~pagePK:64027988~piPK:64027986~theSitePK:500870,00.html">
+                Gas Flaring and Venting Measurement Workshop</a> <a href="/exitdisclaimer.aspx"
+                    title="Exiting Global Methane Initiative">
+                    <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>
+                in Villa Hermosa, <strong>Mexico.</strong> The workshop provided information on
+                Pemex's Strategic Flare/Vent/Fugitives Measurement Plan and the newly formed Grupos
+                de Medici&oacute;n. Also covered during the workshop were the current best practices
+                on measuring gas flare and fugitive volumes, as well as key constraints and considerations
+                when selecting flare measurement systems for both new and existing flaring and fugitive
+                installations.</li>
+            <li>In May 2011, Monica Shimamura, co-director of GMI's ASG, met with the two Agriculture
+                Subcommittee Co-Chairs, Anil Dhussa, from <strong>India's</strong> Ministry of New
+                and Renewable Energy and Jorge Hilbert from <strong>Argentina's</strong> INTA, as
+                well as Allison Costa from U.S. EPA's AgSTAR Program. The meeting took place at
+                the <a href="http://www.epa.gov/agstar/news-events/events/conference11.html">Sixth AgSTAR
+                    National Conference</a> <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative">
+                        <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>
+                on 10-12 May 2011 in Idaho, <strong>United States.</strong> The purpose of the meeting
+                was to develop a strategy to increase subcommittee participation and collaboration
+                between the Partner Countries. Several outcomes were achieved by the meeting, including
+                the realization for the need to develop projects for joint collaboration for the
+                subcommittee members and the need for the ASG to find new ways to engage delegates.
+                Another benefit of this meeting during the AgSTAR Conference was that both Mr. Dhussa
+                and Mr. Hilbert were able to learn more about the U.S. anaerobic digester industry
+                and network with U.S. businesses.</li>
+            <div style="width: 205px; margin: 5px 0 10px 15px; padding: 5px; border: 1px solid #0076bf;
+                float: right;">
+                <p>
+                    <a href="/images/mi24_jorge.jpg" title="Jorge Alberto Plauchu from Project Network member TetraTech presented at the Gas Flaring and Venting Measurement Workshop."
+                        class="lightbox">
+                        <img src="/images/mi24_jorge_tn.jpg" alt="Jorge Alberto Plauchu from Project Network member TetraTech presented at the Gas Flaring and Venting Measurement Workshop."
+                            style="margin: 0;" /></a> Jorge Alberto Plauchu from Project Network member
+                    TetraTech presented at the Gas Flaring and Venting Measurement Workshop.</p>
+            </div>
+            <li>In June 2011, GMI presented on LFG utilization at the <a href="http://www.mayortraining.org/">
+                Mayoral Training Event</a> (Chinese only) <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative">
+                    <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>
+                in Beijing, <strong>China.</strong> The training is one of many such courses held
+                by the National Academy for Mayors of China, which is an institution under GMI Partner
+                organization the Ministry of Housing and Urban-Rural Development of China. Attended
+                by nearly 50 mayors from cities throughout China, the event focused on solid waste
+                management technologies and integrated solid waste management approaches, including
+                LFG energy, anaerobic digesters, and municipal waste combustion. As part of the
+                training, there was a site visit to the <a href="../projects/projectDetail.aspx?ID=132">
+                    Gaoantun Landfill</a>, where in 2007 GMI conducted a pump test at the landfill
+                and prepared a pre-feasibility study based on site-specific landfill data.</li>
+            <li>In June 2011, GMI attended the <a href="http://www.carbonexpo.com/portal/appmanager/efiraSalones/S093011?_nfpb=true&amp;_windowLabel=T93000116201300813109470&amp;T93000116201300813109470_actionOverride=%2Fportlets%2Ffol%2FPressRelease%2FdetailPressRelease&amp;T93000116201300813109470_Id=13724">
+                Carbon Expo</a> <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative">
+                    <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>
+                in Barcelona, <strong>Spain</strong>. The event, attended by more than 2,600 visitors
+                from 110 countries, provided attendees the opportunity to explore the detailed development
+                of carbon markets worldwide and interrelated policies that will shape international
+                climate policy. A new GMI booth design was debuted at the event to reach out to
+                new and existing Partner countries and to the carbon development community. Participants
+                from multilateral development banks, potential new partner countries and others
+                involved, in the international carbon market stopped at the GMI booth to discuss
+                the Initiative and how they might participate (including representatives from <strong>
+                    Burkina Faso</strong>, <strong>Colombia</strong>, <strong>Egypt</strong>, <strong>Tanzania</strong>,
+                <strong>Norway</strong>, <strong>Guatemala</strong>, <strong>Singapore</strong>,
+                <strong>Malaysia</strong>, <strong>Lithuania</strong>, and <strong>Madagascar</strong>).</li>
+            <div style="width: 480px; margin: 5px 0 10px 15px; padding: 5px; border: 1px solid #0076bf;
+                float: right;">
+                <h2 style="text-align: center;">
+                    U.S. and Poland Cooperate on Clean Energy</h2>
+                <p>
+                    In May 2011, U.S. President Obama and Poland's Prime Minister Tusk reaffirmed the
+                    importance of combating global climate change. The two leaders agreed to hold a
+                    high-level session of the U.S.-Poland Strategic Dialogue on clean and secure energy
+                    cooperation, aimed at enhancing energy security; building research and development
+                    cooperation on energy technologies; and expanding U.S. investments, exports, and
+                    participation in technology in Poland. Poland will be hosting some upcoming meetings,
+                    including the GMI's Steering Committee, the next U.S.-European Union Energy Council
+                    meeting, and the Fall meeting of the U.S.-Polish Business Roundtable, which will
+                    provide further opportunities to advance the countries' joint energy interests.</p>
+                <p>
+                    <em>Source:</em> The White House, &quot;<a href="http://www.whitehouse.gov/the-press-office/2011/05/28/fact-sheet-us-poland-cooperation-clean-energy">Fact
+                        Sheet: U.S.-Poland Cooperation on Clean Energy</a>,&quot; <a href="/exitdisclaimer.aspx"
+                            title="Exiting Global Methane Initiative">
+                            <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>
+                    28 May 2011.</p>
+            </div>
+            <li>Also in June, ASG conducted several planning meetings with <strong>Poland</strong>
+                government ministries and others to prepare for a fall GMI all-partnership meeting
+                now planned for 12-14 October in Krakow, Poland. The government of Poland agreed
+                to host the meeting and included this event as a deliverable that was discussed
+                in a 29 May White House press release describing outcomes of President Obama's May
+                visit to Warsaw. At the planning meetings, Poland agreed that this event will include
+                site visits, a GMI Steering committee meeting, a high-level plenary session and
+                four technical and policy sessions focused on the specific methane sectors covered
+                by GMI.</li>
+        </ul>
+        
+        <br clear="both" />
+        <h2 id="seven">
+            Upcoming Outreach Activities</h2>
+        <ul>
+            <li>
+                <img src="/images/logo_africacarbonforum.gif" alt="Africa Carbon Forum logo" align="right" />Registration
+                began for the <a href="http://africacarbonforum.com/2011/english/index.htm">African
+                    Carbon Forum</a> <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative">
+                        <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>,
+                taking place on 4&ndash;6 July 2011 in Marrakech, <strong>Morocco</strong>. The
+                event is designed to share information and facilitate business opportunities. Government
+                officials from Africa, as well as representatives from GMI, will discuss current
+                solid waste management and LFG recovery projects and future initiatives in Africa
+                in hopes of improving solid waste disposal practices and advance LFG recovery opportunities
+                in <strong>Ethiopia</strong>, <strong>Ghana</strong>, and <strong>Nigeria</strong>.
+                On 6 July, GMI will hold a side event, moderated by U.S. EPA and featuring speakers
+                from Ethiopia and Nigeria, who will discuss advancing landfill methane projects
+                and public health benefits through the advancement of improved solid waste practices.
+                There is no charge for the forum, but <a href="http://africacarbonforum.com/2011/english/signup.htm">
+                    registration</a> <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative">
+                        <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>
+                is required to attend.</li>
+            <li>The <a href="http://www.cop17durban.com/Pages/default.aspx">United Nations Seventeenth
+                Conference of the Parties</a> <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative">
+                    <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>
+                (COP 17) will be held from 28 November to 9 December 2011 in Durban, <strong>South Africa</strong>.
+                Watch for more details, including a potential side event hosted by GMI.</li>
+        </ul>
+        
+        <h2 id="eight">
+            Recent Developments and Resources</h2>
+        <div style="width: 280px; margin: 5px 0 10px 15px; padding: 5px; border: 1px solid #0076bf;
+            float: right;">
+            <h2 style="text-align: center;">
+                New Partnership Supports GMI in the Solid Waste Sector</h2>
+            <p>
+                On 1 June 2011, U.S. EPA and ISWA launched a joint effort to collaborate on public
+                health, climate, and energy issues as outlined in a <a href="http://op.bna.com/env.nsf/id/mwis-8hgq2r/$File/Methane%20Agreement.pdf">
+                    Memorandum of Understanding</a> (PDF, 6 pp, 86 KB) <a href="/exitdisclaimer.aspx"
+                        title="Exiting Global Methane Initiative">
+                        <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>.
+                The announcement was made during the &quot;Solid Waste Treatment and Disposal: Leading
+                Edge Technologies&quot; conference in <strong>Russia.</strong> EPA's partnership
+                with ISWA will allow increased access to professional networks and technical expertise,
+                as well as provide opportunities for information exchange in the solid waste sector
+                through GMI.</p>
+        </div>
+        <ul>
+            <li><strong>World Bank Agreement Will Help Cities Control Climate Change</strong>. On
+                1 June 2011, Project Network member the <a href="../project-network/pnmProfile.aspx?ID=34">
+                    World Bank</a> signed an agreement with mayors from 40 of the world's biggest
+                cities to focus on technical and financial assistance for projects to minimize the
+                effects of climate change. This agreement was announced at the <a href="http://www.c40cities.org/events/">
+                    C40 S&atilde;o Paulo Summit</a> <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative">
+                        <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>
+                held in <strong>Brazil</strong>.<strong> </strong>As part of the mutual agreement,
+                the participants will establish:<strong></strong></li>
+            <li>A consistent approach to climate action plans and strategies to enable stronger
+                partnerships and to permit potential investors to identify opportunities across
+                cities.</li>
+            <li>A common approach to measuring and reporting on city greenhouse gas emissions to
+                allow verifiable and consistent monitoring of emissions reductions, identify actions
+                that result in the greatest emission reductions, and facilitate access to carbon
+                finance. </li>
+        </ul>
+        <p>
+            The development of a standard approach for developing action plans and protocols
+            for quantified emission reductions will reduce obstacles for cities to access funding
+            to implement greenhouse gas emission reduction activities. Former U.S. President
+            Bill Clinton applauded the agreement and provided as an example that capturing methane
+            from landfills as a power source &quot;would solve a public health problem, give
+            massive amounts of land back to cities...[and] would put huge numbers of people
+            back to work.&quot;</p>
+        <p>
+            <em>Sources:</em> C40 Cities, &quot;<a href="http://www.c40cities.org/news/news-20110601-wb.jsp">C40
+                and World Bank Form Groundbreaking Climate Change Action Partnership</a>,&quot;
+            <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative">
+                <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>
+            1 June 2011; Alexei Barrionuevo, &quot;<a href="http://www.nytimes.com/2011/06/02/science/earth/02climate.html">World
+                Bank to Help Cities Control Climate Change</a>,&quot; <a href="/exitdisclaimer.aspx"
+                    title="Exiting Global Methane Initiative">
+                    <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>
+            <em>The New York Times,</em> 1 June 2011.</p>
+        <ul>
+            <li><strong>Global Legislators Organisation Releases Legislation Study.</strong> In
+                April 2011, the Globe Legislators Organisation for a Balanced Environment, also
+                known as GLOBE International, partnered with the Grantham Research Institute on
+                Climate Change at the London School of Economics to produce the <a href="http://www.globeinternational.info/wp-content/uploads/2011/04/GLOBE-CLIMATE-LEGISLATION-STUDY.pdf">
+                    <em>GLOBE Climate Legislation Study</em></a> (PDF, 276 pp, 2.4 MB) <a href="/exitdisclaimer.aspx"
+                        title="Exiting Global Methane Initiative">
+                        <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>.
+                The study looks into the status of climate change legislation in 16 of the world's
+                largest economies, 13 of which are GMI Partner Countries. It shows that climate
+                change is being addressed through legislation in all of the countries covered by
+                this study. Although the approach differs, due to national priorities and circumstances,
+                the overall goal of legislation in the countries is to reduce greenhouse gas emissions
+                and prepare each country for the impacts of climate change.</li>
+        </ul>
+		
+		</div>
+	</section>
+	
+	<button onclick="topFunction()" class="btn btn-dark btn-sm" id="btnToTop" title="Go to top"><i class="fa fa-chevron-up" aria-hidden="true"></i> Top</button>
+	
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'en',
+                layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+            }, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+    </script>
+    <script>
+        $('.translateText').click(function () {
+            $("#languageWidget").css("display", "block");
+            $(".hider").slideToggle();
+        });
+    </script>
+
+	
+	<script>
+    //Get the button
+    var mybtnToTop = document.getElementById("btnToTop");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybtnToTop.style.display = "block";
+      } else {
+        mybtnToTop.style.display = "none";
+      }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    </script>
+	
+</body>
+
+</html>

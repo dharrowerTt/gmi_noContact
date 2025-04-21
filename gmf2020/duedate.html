@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
+</head>
+
+<body>
+
+    Due Date:
+    <input type="date" id="ddate" name="ddate">
+    <button onclick="dueFunction()">Click me</button>
+    <p id="alert"></p>
+
+
+    <script>
+        function dueFunction() {
+
+            var input = document.getElementById("ddate").value;
+            var dueDate = new Date(input);
+            var today = new Date();
+
+            var difference = today - dueDate;
+            var dayDifference = difference / (1000 * 3600 * 24);
+
+            if (dayDifference < 1 && dayDifference > 0) {
+                Swal.fire({
+                    title: 'Today!',
+                    animation: false,
+                    customClass: {
+                        popup: 'animated tada'
+                    },
+                    text: 'Quarterly Reports are due today! Please review your report and submit to your grant manager!',
+                    type: 'warning',
+                    confirmButtonText: 'Got It!'
+                })
+                document.getElementById("alert").innerHTML =
+                    'Quarterly Reports are due today! Please review your report and submit to your grant manager!';
+            }
+
+            if (dayDifference < 14 && dayDifference > 1) {
+                Swal.fire({
+                    title: 'Soon!',
+                    text: 'Quarterly reports are due in ' + Math.ceil(dayDifference) +
+                        ' days. Please finalize your submittals.',
+                    type: 'warning',
+                    confirmButtonText: 'Got It!'
+                })
+                document.getElementById("alert").innerHTML = 'Quarterly reports are due in ' + Math.ceil(
+                    dayDifference) + ' days. Please finalize your submittals.';
+            }
+
+            if (dayDifference < 35 && dayDifference > 14) {
+                Swal.fire({
+                    title: 'Open',
+                    text: 'Quarterly reports for Quarter ' + quarter(dueDate) +
+                        ' are now open. Please begin drafting your report.',
+                    type: 'info',
+                    confirmButtonText: 'Got It!'
+                })
+                document.getElementById("alert").innerHTML = 'Quarterly reports for Quarter ' + quarter(dueDate) +
+                    ' are now open. Please begin drafting your report.';
+            }
+
+            if (dayDifference < 0) {
+                Swal.fire({
+                    title: 'Error',
+                    text: 'You may have made a mistake! Please check your dates!',
+                    type: 'error',
+                    confirmButtonText: 'Got It!'
+                })
+                document.getElementById("alert").innerHTML = 'You may have made a mistake! Please check your dates!';
+            }
+
+
+
+        }
+
+        function quarter(date) 
+  {
+    var month = date.getMonth() + 1;
+    return (Math.ceil(month / 3));
+  }
+    </script>
+</body>
+
+</html>

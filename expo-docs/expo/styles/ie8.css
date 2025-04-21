@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+
+#wrapper {
+	background:url(../images/bkgd_left.jpg) bottom left no-repeat, url(../images/bkgd_right.jpg) bottom right no-repeat, url(../images/bkgd_left2.png) top left repeat-y, url(../images/bkgd_right2.png) top right repeat-y;
+	-pie-background:url(images/bkgd_left.jpg) bottom left no-repeat, url(images/bkgd_right.jpg) bottom right no-repeat, url(images/bkgd_left2.png) top left repeat-y, url(images/bkgd_right2.png) top right repeat-y;
+	behavior: url(styles/PIE.htc);
+}
+
+/*#wrapper {
+	background:none !important;
+	overflow:auto;
+}*/
+
+#wrapper1 {
+	background:url(../images/bkgd_left.jpg) bottom left no-repeat;
+	min-height:956px;
+}
+
+#wrapper2 {
+	background:url(../images/bkgd_right.jpg) bottom right no-repeat;
+}
+
+#wrapper3 {
+	background:url(../images/bkgd_left2.png) top left repeat-y;
+}
+
+#wrapper4 {
+	background:url(../images/bkgd_right2.png) top right repeat-y;
+}
+
+.accordion p.active:before {
+	content:"▼ " !important;
+	/*writing-mode: tb-lr;*/
+	position:relative; top:3px; left:0;
+}

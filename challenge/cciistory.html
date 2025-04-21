@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/dd7fc261ae.js"></script>
+    <style>
+        .aligncenter {
+            text-align: center;
+        }
+
+        body {
+            background: #1695be;
+        }
+
+        .tooltip:hover span {
+            opacity: 1;
+            filter: alpha(opacity=100);
+            top: -6em;
+            left: 20em;
+            z-index: 99;
+            -webkit-transition: all 0.2s ease;
+            -moz-transition: all 0.2s ease;
+            -o-transition: all 0.2s ease;
+            transition: all 0.2s ease;
+        }
+
+        .homearea {
+            position: fixed;
+            bottom: 10px;
+            left: 10px;
+        }
+
+        .homearea:hover {
+            cursor: pointer;
+        }
+
+        .box b {
+            color: #fff;
+        }
+
+        .tooltip span {
+            background: none repeat scroll 0 0 #222;
+            /*-- some basic styling */
+            color: #F0B015;
+            font-family: 'Helvetica';
+            font-size: 0.8em;
+            font-weight: normal;
+            line-height: 1.5em;
+            padding: 16px 15px;
+            width: 240px;
+            top: -4em;
+            /*-- this is the original position of the tooltip when it's hidden */
+            left: 20em;
+            margin-left: 0;
+            /*-- set opacity to 0 otherwise our animations won't work */
+            opacity: 0;
+            filter: alpha(opacity=0);
+            position: absolute;
+            text-align: center;
+            z-index: 2;
+            text-transform: none;
+            -webkit-transition: all 0.3s ease;
+            -moz-transition: all 0.3s ease-in-out;
+            -o-transition: all 0.3s ease;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .tooltip span:after {
+            border-color: #222 rgba(0, 0, 0, 0);
+            border-style: solid;
+            border-width: 15px 15px 0;
+            bottom: -15px;
+            content: "";
+            display: block;
+            left: 31px;
+            position: absolute;
+            width: 0;
+        }
+
+        .callout {
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-top: 10px;
+            background: #f3d5b3;
+            border-radius: 4px;
+
+            width: 100%;
+            margin-bottom: 15px;
+
+        }
+
+
+        .imgtbl {
+            width: 100%;
+            background: #CAEBF2;
+            margin-bottom: 15px;
+        }
+
+        .imgtbl img {
+            padding: 10px;
+            width: 100%;
+        }
+
+        .subtitle td {
+            font-size: 10px;
+            text-align: center;
+
+        }
+
+        table {
+            margin-top: 15px;
+            width: 100%;
+            border-collapse: collapse;
+            text-align: left;
+            overflow: hidden;
+            margin-bottom: 15px;
+        }
+
+        td,
+        th {
+            border-top: 1px solid #ECF0F1;
+            padding: 10px;
+        }
+
+        td {
+
+            border-right: 1px solid #ECF0F1;
+        }
+
+        th {
+            background-color: #4ECDC4;
+        }
+
+        tr:nth-of-type(even) td {
+            background-color: #ecf0f1;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="homearea">
+        <a class="btn btn-danger" href="showcase.html">
+            <i class="fa fa-arrow-left fa-lg"></i> Back to the map
+        </a>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-0 col-md-2"></div>
+            <div class="col-sm-12 col-md-8" style="background:white;">
+                <img src="images/cciipilot/cciipilotbanner.png" style="width:100%" />
+                <h2>
+                    China Coal Information Institute: The Story of Methane Mitigation in China&nbsp;
+                    <!--<a class="btn btn-primary" href="pdf/SourceFacility_Biocity_Profile.pdf"
+                        aria-label="Download the PDF">
+                        <i class="fa fa-download" aria-hidden="true"></i>
+                    </a>-->
+                </h2>
+                <p>
+                    The China Coal Information Institute (CCII), established in 1959, is a national research
+                    organization that has been affiliated with the Ministry of Emergency Management of the People’s
+                    Republic of China since 2018. The CCII has helped oversee several methane mitigation actions in
+                    China as described below.
+                </p>
+                <h3>Creating the Coalbed Methane Clearinghouse</h3>
+                <p>
+                    The China Coalbed Methane Clearinghouse was jointly established in 1994 by the Former
+                    Ministry of Coal Industry of the People’s Republic of China and the U.S. Environmental Protection Agency (EPA). CCII leads the activities
+                    of the CBMC and helped achieve several relevant accomplishments, such as:
+                    <ul>
+                        <li>Developed Coal Mine Methane (CMM) Market Development Packages in eight key coal mining areas</li>
+                        <li>Hosted international coalbed methane (CBM)/CMM symposia bringing together Chinese and international experts
+                        </li>
+                        <li>Provided technical and logistic assistance to facilitate foreign project development in China</li>
+                    </ul>
+                </p>
+                <p style="margin-top: 25px;">
+                    <table>
+                        <tr>
+                            <p class="aligncenter">
+                                <img src="images/cciistory/ccmcceremony.png" style="width:70%;margin-top: 10px;">
+
+                        </tr>
+                        <tr>
+                            <td class="aligncenter" colspan="1"> <i> Opening Ceremony of the China Coalbed Methane
+                                    Clearinghouse in 1995.</i></td>
+                        </tr>
+                    </table>
+                </p>
+                <h3>Joining the Global Methane Initiative (GMI)</h3>
+                <p>China was one of the 14 founding countries of the GMI in 2004. Since GMI’s launch, the Chinese
+                    government has actively participated in GMI-related activities through the Department of Climate
+                    Change of Ministry of Ecology and Environmental Protection of the People’s Republic of China. CCII
+                    helped the Department of Climate Change coordinate methane reduction activities across the domestic
+                    coal, agriculture, landfill, oil and gas, and urban wastewater sectors. In 2007, CCII worked with
+                    the National Development and Reform Commission and EPA to organize the 2007 Methane to
+                    Markets Partnership Expo. Since then, CCII has continued to play an important role in GMI’s coal
+                    sector work in China.</p>
+                <p style="margin-top: 25px;">
+                    <table>
+                        <tr>
+                            <p class="aligncenter">
+                                <img src="images/cciistory/coalsector.jpg" style="width:80%;margin-top: 10px;">
+
+                        </tr>
+                        <tr>
+                            <td class="aligncenter" colspan="1"> <i> GMI’s coal sector work in China.</i></td>
+                        </tr>
+                    </table>
+                </p>
+                <h3>Advancing Abandoned Mine Methane Development in China </h3>
+                <p>Many coal mines in China have closed as stricter safety and energy policies have been implemented.
+                    The abandoned mines are an important source of methane emissions, but they also present a significant
+                    opportunity for methane recovery and use. Since 2001, CCII has been committed to conducting research
+                    on abandoned mine methane (AMM) development and utilization in China.</p>
+                <p style="margin-top: 25px;">
+                    <table>
+                        <tr>
+                            <p class="aligncenter">
+                                <img src="images/cciistory/cciidelegation.jpg" style="width:50%;margin-top: 10px;">
+
+                        </tr>
+                        <tr>
+                            <td class="aligncenter" colspan="1"> <i> CCII’s Delegation Visiting an AMM Project in
+                                    Germany in 2014.</i></td>
+                        </tr>
+                    </table>
+                </p>
+                <p>Between 2014 and 2016, researchers from CCII visited other GMI countries including the United
+                    Kingdom, Germany, the United States, and Canada to exchange knowledge about AMM development and
+                    utilization technologies and to participate in on-site inspections. Outcomes of these site visits
+                    included:
+                    <ul>
+                        <li>Recommending policies to improve China’s AMM extraction and utilization efforts</li>
+                        <li>Preparing the feasibility study for an AMM development pilot project</li>
+                        <li>Policy recommendations for AMM development and utilization in China</li>
+                        <li>Utilization of British expertise to promote the commercialization of AMM recovery in China
+                        </li>
+                    </ul>
+                </p>
+                <p>In 2017, CCII also conducted strategic research for the report, <i>Coal Mine Safety and Abandoned Mine
+                        Resource Re-development and Utilization Sponsored by the China Academy of Engineering</i>.</p>
+                <p style="margin-top: 25px;">
+                    <table>
+                        <tr>
+                            <p class="aligncenter">
+                                <img src="images/cciistory/cciidelegationpoland.jpg"
+                                    style="width:50%;margin-top: 10px;">
+
+                        </tr>
+                        <tr>
+                            <td class="aligncenter" colspan="1"> <i>CCII’s Delegation Visited the Polish Mining Authority in
+                                    2017.</i></td>
+                        </tr>
+                    </table>
+                </p>
+                <h3>AMM Development Pilot Projects</h3>
+                <p>In 2017, CCII collaborated with two coal mines and new energy resource companies on AMM development
+                    pilot projects in China:
+                    <ul>
+                        <li>AMM Development and Utilization Project in the Wulan Coal Mine, Inner Mongolia</li>
+                        <li>AMM Development and Utilization Project in the Qingshui No.2 Coal Mine, Liaoning Province
+                        </li>
+                    </ul>
+                </p>
+                <p style="margin-top: 25px;">
+                    <table>
+                        <tr>
+                            <p class="aligncenter">
+                                <img src="images/cciistory/wulancm.jpg"
+                                    style="width:50%;margin-top: 10px;">
+
+                        </tr>
+                        <tr>
+                            <td class="aligncenter" colspan="1"> <i>AMM Development and Utilization Project in the Wulan Coal Mine.</i></td>
+                        </tr>
+                    </table>
+                </p>
+                <p>In addition, CCII prepared the report, <i>Policy Research on Exploitation and Utilization of AMM
+                    Resources in Closed Mines</i>, which has been used by the NEA. CCII
+                    also helped the NEA develop the draft version of the report, <i>Guidance of Improving the Comprehensive
+                    Controlling and Utilization of AMM in China</i>. Once implemented, these guidelines will provide a
+                    roadmap for developing AMM assets in China while also helping prepare coal mines for closure in a
+                    way that facilitates utilization of methane from abandoned mines. </p>
+                <hr>
+                <!--     <a href="pdf/SourceFacility_Biocity_Profile.pdf" class="btn btn-primary btn-block">Download The
+                        PDF</a>
+                    <hr>-->
+            </div>
+            <div class="col-sm-0 col-md-2"></div>
+        </div>
+    </div>
+    <script>
+        $(document).ready(function () {
+            $('[data-toggle="popover"]').popover({
+                container: '.container'
+            });
+
+            $('body').on('click', function (e) {
+                $('[data-toggle=popover]').each(function () {
+                    // hide any open popovers when the anywhere else in the body is clicked
+                    if (!$(this).is(e.target) && $(this).has(e.target).length === 0 && $(
+                            '.popover').has(e.target).length === 0) {
+                        $(this).popover('hide');
+                    }
+                });
+            });
+
+        });
+    </script>
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+</body>
+
+</html>

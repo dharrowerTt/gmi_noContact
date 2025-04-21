@@ -1,0 +1,75 @@
+ Volume in drive W is New Volume
+ Volume Serial Number is D404-D6A6
+
+ Directory of W:\EMI\www.globalmethane.org\GMF2018\presentations
+
+07/09/2020  05:01 PM    <DIR>          .
+07/09/2020  05:01 PM    <DIR>          ..
+04/30/2018  10:05 AM           275,115 0416ASGUpdate.pdf
+04/30/2018  10:07 AM           191,072 0416BiogasSubcommitteePresentation.pdf
+04/30/2018  10:07 AM           125,221 0416CoalSubcommitteeReporttoSteering.pdf
+04/30/2018  10:31 AM           122,617 0416Communique.pdf
+04/30/2018  10:32 AM           272,533 0416NewPartners.pdf
+04/30/2018  10:09 AM            68,918 0416SteeringOGSubUpdate.pdf
+04/30/2018  10:15 AM           513,299 0416USSteering.pdf
+04/30/2018  10:30 AM           155,976 0416YearofMethane.pdf
+05/01/2018  07:43 AM           789,508 0417AddressingTechnicalandFinancialBarrierstoMethaneRecoveryProjectsintheWastewaterSector.pdf
+04/30/2018  12:08 PM         3,710,508 0417AgricultureDigestersBiogasDrivingGreenJobsinIndia.pdf
+04/30/2018  03:34 PM         1,017,528 0417AssessingFinancialReadinessforMunicipalities.pdf
+04/30/2018  11:56 AM         4,881,313 0417Biogasdoneright.pdf
+04/30/2018  03:48 PM         3,955,772 0417CharacterizationandManagementofFoodLossandWasteinNorthAmerica.pdf
+04/30/2018  03:27 PM           677,884 0417CityTestimonialNaucalpanMexico.pdf
+05/02/2018  03:59 PM         1,244,313 0417CMMCBMDevelopmentinMongolia.pdf
+05/01/2018  08:24 AM         1,255,495 0417Co-generationUtilizingBiogasfromSludgeTreatment.pdf
+04/30/2018  02:03 PM           172,067 0417CurrentandPotentialPolicyImpetusforCMMRecoveryandUseProjects.pdf
+04/30/2018  01:59 PM           479,576 0417EnablingPolicyFrameworkRoleofBestPractices.pdf
+04/30/2018  04:11 PM           706,085 0417EntericMethaneandSDGs.pdf
+04/30/2018  03:08 PM           839,389 0417FinancingSLCPMitigationProjectsintheWasteSector.pdf
+04/30/2018  02:13 PM           379,455 0417GlobalProjectScaleandEmissions.pdf
+05/01/2018  06:46 PM           502,873 0417IEAWorldEnergyOutlookOilandGasMethaneEmissionsandtheCostsandBenefitsofMitigation.pdf
+05/02/2018  11:00 AM           336,936 0417Innovativefinancialtoolforcompressorstationretrofits.pdf
+04/30/2018  05:15 PM           262,040 0417JointGMIUNECEBestManagementPractices.pdf
+04/30/2018  01:08 PM           916,276 0417KeyLessonsLearnedinReducingMethanefromOilandGas.pdf
+04/30/2018  04:30 PM         1,886,121 0417MakingTheMatch.pdf
+04/30/2018  01:36 PM         1,722,005 0417MaximizingValueofAMM.pdf
+04/30/2018  12:18 PM         1,426,019 0417MethaneandtheSustainableDevelopmentGoals.pdf
+04/30/2018  11:50 AM        19,571,729 0417MethaneContextParisAgreement.pdf
+05/02/2018  05:03 PM           208,781 0417MethaneManagementinExtractiveIndustriesUpstreamOilandGasDownstreamGas.pdf
+05/02/2018  10:52 AM           380,830 0417MethanepolicyupdateBaselineandoutlookforG20countries.pdf
+05/01/2018  06:55 PM           386,454 0417NationalandSub-NationalPoliciestoReduceWastedGas.pdf
+05/01/2018  08:13 AM        14,483,393 0417NationalContextinMexicoOpportunitiesandBarriers.pdf
+05/01/2018  08:40 AM         1,213,755 0417OCWA-Stratford-GE-EnergyRecoveryandGHGReductionInitiative.pdf
+04/30/2018  04:38 PM           688,642 0417OilandGasCaseStudyPilotProjectsContinuousEmissionsMonitoring.pdf
+05/02/2018  10:44 AM         1,024,150 0417OilandGasClimateInitiative.pdf
+04/30/2018  03:14 PM           772,473 0417OverviewofBarrierstoFinancingSLCPMitigationintheWasteSector.pdf
+04/30/2018  05:25 PM           474,844 0417OverviewofFugitiveEmissionsManagement.pdf
+04/30/2018  03:59 PM         1,159,063 0417PowerOrganicWasteRNG-USPerspectivesonaGlobalOpportunity.pdf
+04/30/2018  03:20 PM           614,036 0417PublicPrivate PartnershipsforImplementingOrganicWasteTreatmentProjectsVinadelMarChile.pdf
+04/30/2018  05:00 PM           794,879 0417QuantifyingGlobalMethaneEmissions.pdf
+04/30/2018  11:58 AM         1,374,552 0417RNGTransformativeForceAgSector.pdf
+04/30/2018  04:48 PM         1,230,808 0417SENTRYCaseStudy.pdf
+05/02/2018  03:28 PM         2,882,829 0417StatusandPotentialofAMMProjectDevelopmentinChina.pdf
+05/01/2018  06:35 PM         2,367,236 0417TacklingtheMethaneChallengeInnovationinFinancingDistributedMethaneReductionsintheOilGasSector.pdf
+04/30/2018  12:56 PM         1,010,662 0417VehicleBased MethaneMapping.pdf
+04/30/2018  01:15 PM           506,373 0417WorldEnergyOutlook.pdf
+04/30/2018  12:17 PM         1,450,572 0417zooshare.pdf
+05/01/2018  12:13 PM         2,966,183 0418AccountingandSpacebornemethodologiesforclosingtheglobalmethanebudget.pdf
+04/30/2018  12:33 PM         1,306,676 0418ArgentinaUpdate2018GMIOandG.pdf
+04/30/2018  12:23 PM           378,628 0418CCACBonnCommunique.pdf
+04/30/2018  12:21 PM           195,803 0418ChargestoASGSubcommitttee.pdf
+05/01/2018  01:00 PM         2,378,128 0418ClimatefinancetounlockmethaneprojectsAWorldBankperspective.pdf
+05/01/2018  12:45 PM         6,852,416 0418ComparisonmethaneAlbertaSaskatchewanwithestimatesbasedonatmosphericobservations.pdf
+05/01/2018  12:34 PM        12,444,623 0418GaSPMethaneMitigationintheAtlanticProvinces.pdf
+04/30/2018  12:22 PM           946,246 0418JointCCACAgandGMISubcommitee.pdf
+04/30/2018  12:36 PM           159,469 0418KazakhstanIntroductiontotheGMIOilandGasSubcommittee.pdf
+05/01/2018  11:47 AM         3,935,423 0418MeasurementsofMethaneEmissionsfromCanadianBakkenShaleOilFieldsandOilSandsSurfaceMiningFacilities.pdf
+05/01/2018  12:55 PM         1,930,616 0418ObservationsfromtheFieldonGettingResultsintheOilGasSector.pdf
+04/30/2018  12:35 PM           245,270 0418OilandGasSubcommitteeMeeting.pdf
+05/01/2018  11:52 AM         1,101,833 0418PolicyImplicationsofMethaneQuantificationStudies.pdf
+05/01/2018  12:52 PM         1,600,575 0418ThePlatformforDigitalCommodities.pdf
+04/30/2018  12:30 PM         1,115,701 0418TheSocialCostofMethaneValuingEmissionstoReflecttheirFullEnvironmentalImpact.pdf
+04/30/2018  12:38 PM           222,844 0418UkraineUpdatetotheGMIOilandGasSubcommittee.pdf
+07/09/2020  05:01 PM                 0 gmg2018list.txt
+04/30/2018  12:15 PM         7,584,380 _0417OneSolutionToRuleThemAll.pdf
+              66 File(s)    126,846,789 bytes
+               2 Dir(s)  110,637,981,696 bytes free

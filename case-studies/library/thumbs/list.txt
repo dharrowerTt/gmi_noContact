@@ -1,0 +1,101 @@
+ Volume in drive C is OSDisk
+ Volume Serial Number is BE5A-29C1
+
+ Directory of C:\Users\chris.bachman\Documents\casestudythumbs
+
+08/15/2024  02:11 PM    <DIR>          .
+08/15/2024  02:11 PM    <DIR>          ..
+08/14/2024  04:26 PM            33,997 abiogas.png
+08/14/2024  04:26 PM            33,214 agh.png
+08/14/2024  04:26 PM            30,573 agricultural-ghg-program.png
+08/14/2024  04:26 PM            19,150 aie2.png
+08/14/2024  04:26 PM            29,684 arctic-council.png
+08/14/2024  04:26 PM            48,048 azola.png
+08/14/2024  04:26 PM            37,806 baleen.png
+08/14/2024  04:26 PM            15,063 bgg.png
+08/14/2024  04:26 PM            38,819 biocover.png
+08/14/2024  04:26 PM            50,944 bioshakti.png
+08/14/2024  04:26 PM            40,104 blair.png
+08/14/2024  04:26 PM            14,340 bluefield.png
+08/14/2024  04:26 PM            17,300 bluesource.png
+08/14/2024  04:26 PM            35,860 Bridg Photonics.png
+08/14/2024  04:26 PM            29,926 canada-flarenet.png
+08/14/2024  04:26 PM            35,277 canada-international.png
+08/14/2024  04:26 PM            38,125 canada-lfg.png
+08/14/2024  04:26 PM            37,132 canada-livestock.png
+08/14/2024  04:26 PM            38,445 canada-og-reg.png
+08/14/2024  04:26 PM            45,115 canada-organics.png
+08/14/2024  04:26 PM            19,756 cap-op-energy.png
+08/14/2024  04:26 PM            18,790 catalyst_img.PNG
+08/14/2024  04:26 PM            20,985 ccii.png
+08/14/2024  04:26 PM            20,985 cciipilot.png
+08/14/2024  04:26 PM            27,082 china.png
+08/14/2024  04:26 PM            36,172 ecopetrol.png
+08/14/2024  04:26 PM            25,734 edl.png
+08/14/2024  04:26 PM            34,005 enegas.png
+08/14/2024  04:26 PM            47,271 ews.png
+08/14/2024  04:26 PM            20,484 fao.png
+08/14/2024  04:26 PM            47,430 fluxlab.png
+08/14/2024  04:26 PM            28,009 francaise-de-l-energie.png
+08/14/2024  04:26 PM            45,019 gemedian.png
+08/14/2024  04:26 PM            55,119 ghgsat.png
+08/14/2024  04:26 PM            47,799 gie.png
+08/14/2024  04:26 PM               188 gmi-top.png
+08/14/2024  04:26 PM            35,860 Green Energy.png
+08/14/2024  04:26 PM            33,303 hassan.png
+08/14/2024  04:26 PM            52,107 haug-sauer.png
+08/14/2024  04:26 PM            51,272 huellaverde.png
+08/14/2024  04:26 PM            36,544 iea.png
+08/14/2024  04:26 PM            42,907 iitd.png
+08/14/2024  04:26 PM            34,695 ilfs.png
+08/14/2024  04:26 PM            31,099 impacto.png
+08/14/2024  04:26 PM            39,153 india-cmm-cbm.png
+08/14/2024  04:26 PM            44,362 ingevity.png
+08/14/2024  04:26 PM            37,256 Kazakhstan.png
+08/14/2024  04:26 PM            24,581 kuznetsk.png
+08/14/2024  04:26 PM            26,081 latinamericacaribbean-BioE-CoP.png
+08/14/2024  04:26 PM            40,692 lco.png
+08/14/2024  04:26 PM             8,381 legend.png
+08/14/2024  04:26 PM            39,005 lidar.png
+08/15/2024  02:11 PM                 0 list.txt
+08/14/2024  04:26 PM            26,184 low-carbon-energy-fund.png
+08/14/2024  04:26 PM            21,446 metropolitan-utilities.png
+08/14/2024  04:26 PM            36,552 mexico-ww.png
+08/14/2024  04:26 PM            45,327 mexico.png
+08/14/2024  04:26 PM            37,090 MinEnergia.png
+08/14/2024  04:26 PM            33,156 mnec.png
+08/14/2024  04:26 PM            35,160 mnre.png
+08/14/2024  04:26 PM            46,597 mootral.png
+08/14/2024  04:26 PM            52,362 natureenergy.png
+08/14/2024  04:26 PM            31,458 naucalpan.png
+08/14/2024  04:26 PM            39,869 ogmp.png
+08/14/2024  04:26 PM            51,592 picarro.png
+08/14/2024  04:26 PM            31,666 pilot.png
+08/14/2024  04:26 PM            39,664 poland-cmm.png
+08/14/2024  04:26 PM            43,952 process-ecology.png
+08/14/2024  04:26 PM            41,028 ptac.png
+08/14/2024  04:26 PM            27,469 ptt.png
+08/14/2024  04:26 PM            42,705 punjab.png
+08/14/2024  04:26 PM            21,171 qlm.png
+08/14/2024  04:26 PM            21,975 qnergy.png
+08/14/2024  04:26 PM            35,860 Quest Technology.png
+08/14/2024  04:26 PM            39,705 reciclo.png
+08/14/2024  04:26 PM            40,207 reductiontech.png
+08/14/2024  04:26 PM            49,167 saudiaramco.png
+08/14/2024  04:26 PM            36,472 serbia.png
+08/14/2024  04:26 PM            41,591 sirius1.png
+08/14/2024  04:26 PM            11,970 sniffers.png
+08/14/2024  04:26 PM            19,202 solucycle.png
+08/14/2024  04:26 PM            40,846 source-facility.png
+08/14/2024  04:26 PM            37,160 southampton.png
+08/14/2024  04:26 PM            39,377 src.png
+08/14/2024  04:26 PM            34,273 supervision.png
+08/14/2024  04:26 PM            28,755 swri.png
+08/14/2024  04:26 PM            46,775 telops.png
+08/14/2024  04:26 PM            40,549 unep-gma.png
+08/14/2024  04:26 PM            36,905 unep-methane-science-studies.png
+08/14/2024  04:26 PM            44,519 us-domestic.png
+08/14/2024  04:26 PM            14,522 watcher.png
+08/14/2024  04:26 PM            28,161 westgen.png
+              92 File(s)      3,133,487 bytes
+               2 Dir(s)  29,516,058,624 bytes free

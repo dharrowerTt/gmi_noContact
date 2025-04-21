@@ -1,0 +1,835 @@
+﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="mi-23.aspx.vb" Inherits="M2M_Redesign.mi_23" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Archive | Global Methane Initiative</title>
+     <!-- #include virtual="/includes/include_head.html" -->
+</head>
+<body>
+    <!-- #include virtual="/includes/header.html" -->
+
+<section class="py-5 gmi-light-blue">
+        <div class="container">
+                    <h1>
+						Methane International 
+					</h1>
+					<h2><small class="text-muted text">Issue 23, April 2011</small></h2>
+                    <div class="alert alert-danger" role="alert">Please note that this page is no longer being maintained. </div>
+					<ul>
+            <li><a href="#one">Administrative Support Group Welcomes Monica Shimamura</a></li>
+            <li><a href="#two">First Middle Eastern Partner Country</a></li>
+            <li><a href="#three">Upcoming Subcommittee Meetings</a></li>
+            <li><a href="#four">GMI Spotlight: Nigeria Advancing Sustainable Solid Waste Management</a></li>
+            <li><a href="#five">Project Development Opportunities for Developers or Investors</a></li>
+            <li><a href="#six">GMI Hits the Skies</a></li>
+            <li><a href="#seven">Now Available: LFG Project Development Handbook</a></li>
+            <li><a href="#eight">GMI Hosts LFG Workshop in Serbia</a></li>
+            <li><a href="#nine">India's ONGC Wins U.S. EPA Gas STAR Award</a></li>
+            <li><a href="#ten">LFG Projects Moving Forward</a></li>
+            <li><a href="#eleven">Upcoming Outreach Activities</a></li>
+            <li><a href="#twelve">Recent Developments and Resources</a></li>
+						
+					</ul>
+
+		</div>
+	</section>
+	<section class="py-5 bg-white">
+		<div class="container">
+
+        <h2 id="one">
+            Administrative Support Group Welcomes Monica Shimamura</h2>
+        
+        <p>
+            <img src="/images/mi23_monica.jpg" alt="Monica" width="100" height="153" style="float: left;
+                margin: 0 10px 0 0;" />The Administrative Support Group (ASG) introduces Monica
+            Shimamura as its new Co-Director. Monica joins Henry Ferland in providing overall
+            coordination to the <a href="http://www.globalmethane.org/">Global Methane Initiative
+                (GMI)</a>. She comes from the U.S. Environmental Protection Agency's (EPA's)
+            Stratospheric Protection Division, where she collaborated with various agencies,
+            stakeholders, and regional offices to implement the domestic side of the Montreal
+            Protocol on Substances that Deplete the Ozone Layer through the Clean Air Act. Before
+            that, Monica served as an air enforcement officer in U.S. EPA's New York regional
+            office. She has lived and worked in Australia, Belize, Japan, and the United Kingdom.
+            In her spare time, she enjoys traveling, attending music performances, horseback
+            riding, and scuba diving.</p>
+        <p>
+            Monica is looking forward to working with GMI organizations as they move forward
+            on projects that are reducing and recovering methane as an energy source. Monica
+            can be reached at <a href="mailto:shimamura.monica@epa.gov">shimamura.monica@epa.gov</a>
+            or (202) 343-9337.</p>
+        
+        <h2 id="two">
+            First Middle Eastern Partner Country
+        </h2>
+        <p>
+            <img src="/images/mi23_jordanflag.gif" alt="Jordan flag" style="float: left; margin: 0 10px 0 0;" />GMI
+            welcomed <strong>Jordan</strong>, the first Middle Eastern nation to become a Partner
+            Country, on 22 April 2011. Delegates from the country will participate in the Agriculture
+            and Landfill Subcommittees as well as on the Wastewater Task Force. Based on data
+            from the U.S. EPA's <a href="http://www.epa.gov/climatechange/economics/downloads/GlobalAnthroEmissionsReport.pdf">
+                <em>Global Anthropogenic Emissions of Non-CO<sub>2</sub> Greenhouse Gases</em></a>
+            (PDF, 274 pp, 4 MB) <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative">
+                <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>
+            report, Jordan's 2010 estimated anthropogenic methane emissions totaled 2.4 million
+            metric tons carbon dioxide equivalent (MMTCO<sub>2</sub>E). Landfills represent
+            more than 40 percent of Jordan's anthropogenic methane emissions&mdash;1.02 MMTCO<sub>2</sub>E&mdash;and
+            an additional 35 percent (0.83 MMTCO<sub>2</sub>E) come from the agriculture (manure
+            management), oil and gas, and wastewater sectors.
+        </p>
+        <p>
+            The country's <a href="http://www.nerc.gov.jo/">National Center for Research and Development/Energy
+                Research Program</a> <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative">
+                    <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>,
+            which performs studies, research, and experimental projects in new and renewable
+            energy sources, will be integral to GMI participation. The Center will contribute
+            to creating a biogas industry and market, developing a Biogas Master Plan through
+            2020, and building biogas technology capacity. The Center will also embark on a
+            country-wide survey of organic waste producers (e.g., cattle and poultry manure,
+            municipal solid waste, wastewater, agriculture waste), as well as calculating Jordan's
+            greenhouse gas and methane contribution to climate change. The ASG looks forward
+            to Jordan's participation in the Initiative.</p>
+        
+        <h2 id="three">
+            Upcoming Subcommittee Meetings</h2>
+        <p>
+            In response to popular demand, the <a href="../agriculture/index.aspx">Agriculture Subcommittee</a>,
+            <a href="../coal-mines/index.aspx">Coal Mines Subcommittee</a>, <a href="../landfills/index.aspx">
+                Landfill Subcommittee</a>, and <a href="../oil-gas/index.aspx">Oil &amp; Gas Systems
+                    Subcommittee</a> will host their next meetings by webinar. Through webinar
+            meetings, GMI hopes to support greater participation by both delegates and Project
+            Network members. The Landfill Subcommittee webinar will take place 1 June 2011,
+            and the Agriculture Subcommittee webinar will take place on 14 June 2011, while
+            dates for the other subcommittee webinars are still being confirmed.</p>
+        <p>
+            Meeting information will be available in upcoming weeks. ASG will send an email
+            announcing details via its listserve. To register for the webinar, simply click
+            on the link and follow the prompts. You'll receive a confirmation email with all
+            the necessary information and instructions for logging on to attend the meeting,
+            which will be conducted using presentations on the Internet and an associated teleconference.
+            GMI hopes that the webinar format will allow each sector to conduct necessary business,
+            while reducing participant travel expenses and carbon footprint. All subcommittees
+            are planning to follow up the webinar with in-person meetings later this year. The
+            dates and locations of those meetings will be announced shortly.</p>
+        
+        <h2 id="four">
+            GMI Spotlight: Nigeria Advancing Sustainable Solid Waste Management</h2>
+        <p>
+            <img src="/images/mi23_lfg.jpg" alt="photo of woman at podium" style="float: left;
+                margin: 0 10px 0 0;" /><strong>Nigeria</strong> is the most populated country
+            in Africa, and many of its rural and urban areas lack access to proper waste disposal
+            sites. Moreover, Nigerians have to cope with health hazards and environmental degradation
+            associated with these uncontrolled dump sites. However, one woman, Achenyo Idachaba,
+            the founder of consulting firm <a href="http://www.greennovativechain.com/">Greennovative
+                Chain</a> <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative">
+                    <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>
+            is promoting the development of sustainable solid waste management practices. Both
+            the public and environment can benefit from improved landfill management and the
+            recovery and use of methane as a reliable and local energy source.</p>
+        <p>
+            With Greennovative Chain, Achenyo donated her time and materials to conduct assessments
+            of four landfills in Ibadan, Nigeria. Her analysis, shared at the <a href="/expo/landfill.htm">
+                2010 Partnership Expo</a>, indicates that two of the landfills could reduce
+            299,000 MTCO<sub>2</sub>E emissions and generate close to one megawatt of energy
+            onsite. Now she's working as a subcontractor on a GMI grant to conduct the first
+            national landfill survey for Nigeria.</p>
+        <p>
+            This grant, received by Rutgers University in 2009, builds on a previous GMI grant
+            that conducted preliminary site visits and assessments at landfills in two Nigerian
+            cities, Lagos and Abuja. In order to complete a national landfill inventory, Rutgers
+            contracted Achenyo to collect data, targeting landfills in six other major population
+            centers in Nigeria. The goal of the project, as explained by David Specca, Assistant
+            Director at the <a href="http://ecocomplex.rutgers.edu/">EcoComplex</a> <a href="/exitdisclaimer.aspx"
+                title="Exiting Global Methane Initiative">
+                <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>
+            at Rutgers University, is &quot;to help local officials turn dump sites into assets.&quot;
+            The first phase of research entailed meeting with waste management authorities and
+            landfill managers in Akure, Jos, Kano, Kaduna, Zaria, and Port Harcourt to explain
+            the project, and distribute a survey designed to collect information for the GMI
+            International Landfill Database. After data collection, Achenyo conducted preliminary
+            site assessments at 26 dumpsites and shared results in presentation forums with
+            landfill managers to underscore the potential for recovering landfill gas (LFG)
+            for energy as well as the economic development benefits.</p>
+        <p>
+            <img src="/images/mi23_landfill.jpg" alt="photo of landfill" style="float: left;
+                margin: 0 10px 0 0;" />The research has taken Achenyo across Nigeria, where
+            she has seen &quot;a keen and genuine interest among officials at the local, state,
+            and national levels to better understand the benefits of LFG collection systems.&quot;
+            The challenges are significant. Several of the state waste management authorities
+            lack the optimum number of vehicles and infrastructure to collect solid waste, resulting
+            in many illegal uncontrolled dumps. Most of these sites lack bottom liners to protect
+            groundwater or soil to cover the waste to protect the public from epidemic outbreaks.
+            Open fires and smoke are another health and safety hazard found at the various sites.
+            Landfill managers need training about proper disposal practices and resources to
+            install appropriate infrastructure and remediation to facilitate LFG capture and
+            recovery. However, small measurable steps are taking place thanks to Achenyo and
+            GMI's support. Achenyo's meetings with local officials started a dialogue on the
+            benefits of LFG energy recovery. The next step is to explore partnerships with private
+            companies to begin to improve disposal sites and recover LFG. Ideally, LFG energy
+            recovery will provide a revenue stream through the sale of power and carbon emission
+            reductions through Carbon Financing such as the Clean Development Mechanism (CDM)
+            as established under the United Nations Framework Convention on Climate Change.
+            In addition, Rutgers hopes to train Nigerian students to manage businesses at landfills,
+            such as greenhouses that can utilize LFG as a source for heat and energy.</p>
+        <p>
+            Developing LFG energy projects requires intensive ground work and collaboration,
+            resources offered through GMI. Nigeria has taken an active role in GMI's efforts
+            since 2004, when it became one of the first countries to join the initiative. Achenyo's
+            efforts exemplify the dedication of many people currently working in the field trying
+            to create a reliable, clean energy source and improve local living conditions.
+        </p>
+        
+        <h2 id="five">
+            Project Development Opportunities for Developers or Investors</h2>
+        <div style="width: 280px; margin: 5px 0 10px 15px; padding: 5px; border: 1px solid #0076bf;
+            float: right;">
+            <h2 style="text-align: center;">
+                Stay Tuned for 2011 Grants!</h2>
+            <p>
+                The U.S. EPA will be continuing its commitment to support projects that reduce methane
+                emissions. Stay tuned for information about the 2011 grant solicitation for GMI
+                projects, soon to be made available on the <a href="http://www.epa.gov/globalmethane/grants.htm">
+                    GMI website</a>.</p>
+        </div>
+        <p>
+            <strong><em>Agricultural Resource Assessments</em></strong><br />
+            GMI supported the completion of livestock and agro-industry resource assessments
+            in twelve countries. The objective is to identify and characterize the potential
+            for incorporating anaerobic digestion into waste management systems, to reduce methane
+            emissions, and to provide a renewable source of energy. Based on the resource assessments
+            done so far, more than 54 MMTCO<sub>2</sub>E could be reduced by implementing anaerobic
+            digestion systems into the agricultural waste sector (see Table 1). These resource
+            assessments, together with feasibility studies and demonstration projects, will
+            help serve as the basis for future country-level policy planning and development
+            of an agricultural methane implementation plan. Recently completed country-wide
+            resource assessments are listed below. All country assessments can be found under
+            the <a href="../tools-resources/ag_addresources.aspx">Agriculture Subcommittee's Additional
+                Resources</a> section.</p>
+        <table border="1" cellspacing="0" cellpadding="5" align="right" width="290" style="margin-left: 15px;">
+            <tr>
+                <td colspan="2" bgcolor="#cccccc">
+                    <p align="center">
+                        <strong>Table 1</strong></p>
+                </td>
+            </tr>
+            <tr>
+                <th bgcolor="#cccccc">
+                    <p>
+                        Country</p>
+                </th>
+                <th bgcolor="#cccccc">
+                    <p>
+                        Total Carbon Emission Reductions
+                        <br />
+                        (MTCO<sub>2</sub>E/yr)</p>
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    <p align="center">
+                        Argentina</p>
+                </td>
+                <td>
+                    <p align="center">
+                        2,274,700</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p align="center">
+                        Brazil</p>
+                </td>
+                <td>
+                    <p align="center">
+                        20,313,300</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p align="center">
+                        Colombia</p>
+                </td>
+                <td>
+                    <p align="center">
+                        1,241,700</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p align="center">
+                        Dominican Republic</p>
+                </td>
+                <td>
+                    <p align="center">
+                        354,800</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p align="center">
+                        Ecuador</p>
+                </td>
+                <td>
+                    <p align="center">
+                        386,500</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p align="center">
+                        India</p>
+                </td>
+                <td>
+                    <p align="center">
+                        5,716,100</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p align="center">
+                        Mexico</p>
+                </td>
+                <td>
+                    <p align="center">
+                        14,785,600</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p align="center">
+                        Philippines</p>
+                </td>
+                <td>
+                    <p align="center">
+                        2,553,800</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p align="center">
+                        Thailand</p>
+                </td>
+                <td>
+                    <p align="center">
+                        4,956,000</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p align="center">
+                        Vietnam</p>
+                </td>
+                <td>
+                    <p align="center">
+                        1,420,300</p>
+                </td>
+            </tr>
+            <tr>
+                <td bgcolor="#cccccc">
+                    <p align="center">
+                        <strong><em>Total</em></strong></p>
+                </td>
+                <td bgcolor="#cccccc">
+                    <p align="center">
+                        <strong><em>54,002,800</em></strong></p>
+                </td>
+            </tr>
+        </table>
+        <ul>
+            <li>In March 2011, GMI posted the <a href="../documents/ag_dr_res_assessment.pdf"><em>
+                Resource Assessment for Livestock and Agro-Industrial Wastes&mdash;<strong>Dominican
+                    Republic</strong></em></a> (PDF, 69 pp, 1.8 MB), which characterizes methane
+                reduction potential in the country and provides a ranking of the resources. The
+                sectors with the highest potential for methane reduction and carbon offsets were
+                swine, rum distilleries, sugar, and dairy cattle.<br />
+                <br />
+            </li>
+            <li>In January 2011, GMI prepared a <a href="../documents/ag_india_res_assessment.pdf">
+                <em>Resource Assessment for Livestock and Agro-Industrial Wastes&mdash;<strong>India</strong></em></a>
+                (PDF, 109 pp, 1.5 MB), documenting the potential for incorporating anaerobic digestion
+                into livestock manure and agro-industrial (agricultural commodity processing) waste
+                management systems. The sectors identified as having the greatest potential for
+                methane emission reductions are dairy cattle, sugar and distilleries, fruit and
+                vegetables, corn and cornstarch, and cassava starch (tapioca). By utilizing the
+                methane produced in these sectors, India will be able to both reduce methane emissions
+                and replace fossil fuels within the country.<br />
+                <br />
+            </li>
+            <li>In November 2010, GMI prepared a <a href="../documents/ag_mexico_res_assessment.pdf">
+                <em>Resource Assessment for Livestock and Agro-Industrial Wastes&mdash;<strong>Mexico</strong></em></a>
+                (PDF, 69 pp, 948K), identifying the dairy cattle sector as having the highest potential
+                for methane reduction and carbon offsets, followed by the swine, sugar cane processing
+                and ethanol production, and slaughterhouse sectors. Mexico has implemented a methane
+                reduction program in the swine sector with support from GMI. The program's efforts
+                include the development of <a href="http://www.firco.gob.mx/transparencia/FraccionXI/LINEAMIENTOS%20BIOGAS%202010.pdf">
+                    <em>National Technical Standards for the Design and Construction of Bio-Digesters</em></a>
+                (Spanish only) (PDF, 10 pp, 107K) <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative">
+                    <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>,
+                as well as the design of a developer certification program to maintain consistency
+                with the standards and reduce project risk for farm owners when making methane recovery
+                investment decisions. Currently, there are approximately 170 anaerobic digesters
+                operating in Mexico.<br />
+                <br />
+            </li>
+            <li>
+                <img src="/images/mi23_kurt.jpg" alt="Kurt meeting bankers in Philippines" align="right" />Also
+                last November, GMI published the results of its investigation into obstacles faced
+                by household- and commercial-scale pork production in the <strong>Philippines</strong>.
+                The report, <a href="../documents/partners_philippines_ag_barrierstoad.pdf"><em>Barriers
+                    and Constraints to Implementation of Anaerobic Digestion Systems in Swine Farms
+                    in the Philippines</em></a> (PDF, 20 pp, 164K), is based on stakeholder interviews,
+                data review, and communications with key experts and farm owners.<br />
+                <br />
+            </li>
+            <li>In October 2010, GMI completed its <a href="../documents/ag_brazil_res_assessment.pdf">
+                <em>Resource Assessment for Livestock and Agro-Industrial Wastes&mdash;<strong>Brazil</strong></em></a>
+                (PDF, 101 pp, 1.5 MB), which evaluates the potential for incorporating anaerobic
+                digestion into Brazil's livestock manure and agro-industrial waste management systems.
+                By incorporating anaerobic digestion systems into their agricultural sector, Brazil
+                would be able to both reduce methane emissions and provide a renewable source of
+                energy. The assessment found that the swine sector holds the highest potential for
+                methane reduction and carbon offsets, followed by sugarcane mills and distilleries
+                and slaughterhouses.<br />
+                <br />
+            </li>
+            <li>Also last October, GMI completed its <a href="../documents/ag_ecuador_res_assessment.pdf">
+                <em>Resource Assessment for Livestock and Agro-Industrial Wastes&mdash;<strong>Ecuador</strong></em></a>
+                (PDF, 88 pp, 1.8 MB), reporting on the potential methane emission reductions and
+                fossil fuel replacement carbon offsets in Ecuador. The sector with the highest potential
+                for methane reduction and carbon offsets is the ethanol sector, followed by the
+                sugar, palm oil, and shrimp processing sectors. It is important to note that the
+                swine and dairy sectors might also have some potential for methane reduction, though
+                they were not included in the calculations due to the limited availability of waste
+                management system data.</li>
+        </ul>
+        <p>
+            Are you interested in any of these projects? If you are, please contact the <a href="mailto:secretariat@globalmethane.org">
+                ASG</a> or the <a href="../partners/countryCommittee.aspx?sector=agri">Agriculture Subcommittee
+                    co-chairs</a> to learn how you might be able to reduce methane emission
+            through the above projects.</p>
+        <p>
+            <strong><em>LFG Assessment Reports</em></strong><br />
+            GMI is conducting landfill-specific assessments at pre-screened landfills identified
+            as having good potential for an LFG energy project. In March 2011, GMI completed
+            LFG assessment reports for several landfills in <strong>China.</strong> These landfills
+            are ready for developers to take to the next stage of development:</p>
+        <ul>
+            <li>The <a href="../Data/353_LINGSHANLFGreport.pdf">Lingshan LFG Assessment Report</a>
+                (PDF, 66 pp, 3.2 MB) was completed for the Lingshan Landfill located in Shandong
+                Province, China. The assessment, funded by a 2008 GMI grant, estimated the gas generation
+                and energy recovery potential of the landfill. The report indicates that the site
+                produces a moderate and steadily increasing amount of LFG.<br />
+                <br />
+            </li>
+            <li>The <a href="../Data/353_ZHANJIANGLFGreport.pdf">Zhanjiang LFG Assessment Report</a>
+                (PDF, 81 pp, 2.8 MB), also funded under a GMI grant, was completed for the Zhanjiang
+                Landfill located in Quang Dong Province, China. The landfill is owned by the City
+                of Zhanjiang and operated by the Municipal and Landscape Bureau of Zhanjiang City.
+                The analysis found that although the site produces a moderate amount of LFG, initial
+                indications are that a project may not be economically feasible right now.<br />
+                <br />
+            </li>
+            <li>GMI completed the <a href="../Data/new_HongshantouLFSARFinal_english_Mar2011R.pdf">
+                Hangshantou LFG Assessment Report</a> (PDF, 51 pp, 1.6MB) for the landfill in Wupo
+                Village, northeast of Xiangfan City, China. The Wuhan University of Technology's
+                Design Institute designed the landfill, which is owned and operated by the Xiangfan
+                City Solid Waste Treatment Company Limited. The assessment found that the landfill
+                currently emits enough LFG to sustain an LFG energy project. With a significant
+                and relatively steady quantity of LFG available and the presence of potential end
+                users, the site is a good opportunity for the development of direct-use or electricity-generating
+                projects.<br />
+                <br />
+            </li>
+            <li>GMI also released a <em><a href="../Data/132_GaoantunLFTAMRfinalwappendices.pdf">
+                Report on Technical Assistance and Monitoring of the Current Landfill Gas Management
+                Facilities at the Gaoantun Landfill, Beijing City, China</a></em> (PDF, 65 pp, 5.8
+                MB). Beijing Chaoyang Circular Economy Industrial Park operates the site. Although
+                analysts anticipate that future LFG generation rates will decline due to reduced
+                raw waste intake, implementation of improvements can increase the efficiency of
+                LFG recovery, thereby fulfilling two main objectives of the LFG management system:
+                reducing odor nuisance to neighboring residents and realizing the financial and
+                environmental benefits of LFG as a source of renewable energy.</li>
+        </ul>
+        <p>
+            All the landfill assessment reports can be found in the associated project listed
+            under <a href="../projects/index.aspx">Projects on the GMI website</a>. Please contact
+            the <a href="mailto:secretariat@globalmethane.org">ASG</a> or the <a href="../partners/countryCommittee.aspx?sector=landfill">
+                Landfill Subcommittee co-chairs</a> if you are interested in any of these projects.</p>
+        
+        <h2 id="six">
+            GMI Hits the Skies</h2>
+        <p>
+            GMI has been travelling to promote methane recovery and use as a clean energy source.
+            Here are some of our highlights:</p>
+        <ul>
+            <li>In December 2010, several GMI- related meetings were hosted in <strong>Indonesia</strong>.
+                A GMI landfill representative met with several public and private sector LFG stakeholders,
+                including the <a href="http://www.esdm.go.id/index-en.html">Ministry of Energy and Mineral
+                    Resources</a> <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative">
+                        <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>;
+                several LFG project developers, including Project Network members <a href="../project-network/pnmProfile.aspx?ID=291">
+                    Sindicatum Carbon Capital</a> and <a href="../project-network/pnmProfile.aspx?ID=350">
+                        Golder Associates</a>; the <a href="http://www.clintonfoundation.org/what-we-do/clinton-climate-initiative/">
+                            Clinton Climate Initiative</a> <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative">
+                                <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>;
+                the City of Jakarta Solid Waste Department; and the <a href="http://inswa.tripod.com/">
+                    Indonesian Solid Waste Association</a> <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative">
+                        <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>.
+                At the meetings, they discussed current barriers to LFG energy projects in the country
+                and a strategy for providing support to future LFG energy projects. The trip also
+                included a visit to landfills in the Jakarta area: the Bantar Gerbang Landfill (which
+                recently installed two 1-megawatt GE Jenbacher engines and is adding two more engines
+                at the LFG electric generating plant) and the Bekasi Landfill (where they are currently
+                flaring the methane). Both of these projects were financed with support from the
+                CDM. Indonesia has five other LFG capture projects currently registered with the
+                CDM, with one other landfill in Makasser currently flaring a small amount of LFG.
+                There are several other larger landfills not yet registered with the CDM that could
+                have potential for LFG energy recovery. GMI plans to collect additional data on
+                Indonesian landfills to better assess the most promising opportunities for LFG recovery
+                and conduct additional follow-up visits to existing projects to help improve the
+                LFG recovery rates.<br />
+                <br />
+            </li>
+            <li>In February 2011, a GMI oil and gas sector representative attended the National
+                Bureau of Asian Research's <a href="http://www.nbr.org/research/initiative.aspx?id=28">
+                    Pacific Energy Summit</a> <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative">
+                        <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>
+                in Jakarta, <strong>Indonesia</strong>. The summit convened leaders from government,
+                business, and academia to explore innovative solutions to the challenges of energy
+                security and climate change. The theme of the summit was &quot;<a href="http://www.nbr.org/research/activity.aspx?id=97">Unlocking
+                    the Potential of Natural Gas in the Asia-Pacific</a> <a href="/exitdisclaimer.aspx"
+                        title="Exiting Global Methane Initiative">
+                        <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>.&quot;
+                Over three days, the summit addressed transitioning to a low-carbon economy with
+                natural gas, the potentially growing role of natural gas to meet rising energy demand,
+                and the current and projected domestic natural gas markets. Papers and presentations
+                can be found on the <a href="http://www.nbr.org/research/activity.aspx?id=123">National
+                    Bureau of Asian Research's website</a> <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative">
+                        <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>.
+                During this visit, GMI meetings were held with representatives of LEMIGAS (Indonesia's
+                government research and technology institution operating in the area of upstream
+                and downstream oil and gas business) and with a representative of Indonesia's Ministry
+                of Oil and Gas to discuss how Indonesia might become more engaged in the GMI oil
+                and gas sector.<br />
+                <br />
+            </li>
+            <li>In February 2011, GMI worked with China and the <strong>Philippines</strong> to
+                develop a Program of Activities for World Bank Preparation Missions. The China mission,
+                based in Hebei Province, is designed to reduce methane emissions from open anaerobic
+                lagoons or other high-methane-emitting waste management systems at medium- and large-size
+                pig farms. Ultimately, the World Bank hopes to purchase Certified Emission Reductions
+                (CERs) from approximately 600 farms. Funds from the CERs can help finance anaerobic
+                digesters to reduce lagoon-based emissions and provide technical support to local
+                farmers. Identifying participants and disseminating information among farms located
+                hours apart are two challenges facing project leaders. In the Philippines, local
+                officials met with GMI delegates to discuss the development of the National Methane
+                Initiative, which focuses on reducing methane and developing household-scale energy
+                systems in the swine sector.</li>
+        </ul>
+        
+        <h2 id="seven">
+            Now Available: LFG Project Development Handbook</h2>
+        <div style="width: 280px; margin: 5px 0 10px 15px; padding: 5px; border: 1px solid #0076bf;
+            float: right;">
+            <h2 style="text-align: center;">
+                Looking for Translators</h2>
+            <p>
+                The ASG offers the opportunity to use your skills to make a direct contribution
+                to GMI. We're seeking volunteers to translate documents into other languages.</p>
+            <p>
+                For more information, <a href="mailto:secretariat@globalmethane.org">contact</a> Henry Ferland
+                or Monica Shimamura.</p>
+        </div>
+        <p>
+            <img src="/images/mi23_screenshot.jpg" alt="screenshot" style="float: left; margin: 0 10px 0 0;" /><strong>Poland's</strong>
+            Oil and Gas Institute (INIG) completed a project development handbook, <a href="../Data/1022_LFG-Handbook.pdf">
+                <em>Landfill Gas Energy Technologies</em></a> (PDF, 90 pp, 2.9 MB), to help
+            stakeholders evaluate LFG energy projects and choose appropriate energy recovery
+            technologies. This handbook was developed under a <a href="../projects/projectDetail.aspx?ID=1022">
+                2009 grant from the U.S. EPA</a>. INIG received more than $150,000 to fund a
+            tour of the landfills, and design a project development handbook and <a href="../Data/1022_Workshop-materials.pdf">
+                course materials</a> (PDF, 69 pp, 6 MB) to be distributed at an LFG energy workshop
+            at the end of the project. INIG also created an <a href="http://www.metmarkt.com/project/2/index.php?mc=out&amp;l=en">
+                LFG energy portal</a> <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative">
+                    <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>,
+            which documents regional work in Poland related to LFG capture and use.</p>
+        <br clear="left" />
+        
+        <h2 id="eight">
+            GMI Hosts LFG Workshop in Serbia</h2>
+        <p>
+            In December 2010, GMI hosted a workshop at the <a href="http://www.iswabeacon.rs/">International
+                Solid Waste Association's 2010 Conference</a> <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative">
+                    <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>
+            in Novi Sad, <strong>Serbia</strong>. The GMI workshop, <a href="../documents/events_land_20101208_agenda.pdf">
+                Creating Viable LFG to Energy Projects in South Eastern&mdash;Eastern Europe</a>
+            (PDF, 2 pp, 113K) included case studies, presentations on LFG project development
+            and financing, and an overview of the solid waste sector in Serbia. During the opening
+            session, Tom Frankiewicz, of the U.S. EPA's Landfill Methane Outreach Program, provided
+            an <a href="../documents/events_land_20101209_frankiewicz.pdf">introduction to the Global
+                Methane Initiative</a> (PDF, 15 pp, 445K). During the LFG-Energy Project Systems
+            Assessment session, Swarupa Ganguli, also from the Landfill Methane Outreach Program,
+            presented on the <a href="../documents/events_land_20101209_ganguli.pdf">assessment
+                process for international landfills</a> (PDF, 21 pp, 731K). Project Network
+            members <a href="../project-network/pnmProfile.aspx?ID=248">Carbon Trade</a>, <a
+                href="../project-network/pnmProfile.aspx?ID=177">GE Energy&mdash;Jenbacher Gas Engines</a>,
+            and <a href="../project-network/pnmProfile.aspx?ID=29">SCS Engineers</a> also spoke.
+            Presentations can be found on <a href="../news-events/event_detailsByEventId.aspx?eventId=292">
+                GMI's website</a>.</p>
+        
+        <h2 id="nine">
+            India's ONGC Wins U.S. EPA Gas STAR Award</h2>
+        <p>
+            In November 2010, U.S. EPA's Natural Gas STAR Program recognized leaders at their
+            <a href="http://www.epa.gov/gasstar/workshops/annualimplementation/2010.html">Annual
+                Implementation Workshop</a> <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative">
+                    <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>.
+            Awards were based on reported methane emission reductions achieved, the range of
+            different methods to reduce methane emissions, and general involvement in the Program,
+            as well as other innovative company initiatives minimizing methane emissions. India's
+            <a href="http://www.ongcindia.com/">Oil and Natural Gas Company (ONGC)</a> <a href="/exitdisclaimer.aspx"
+                title="Exiting Global Methane Initiative">
+                <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>,
+            a state-owned oil and gas company, won Natural Gas STAR's International Partner
+            of the Year award. ONGC, a GMI Partner Organization, is one of Asia's largest oil
+            exploration and production companies, providing 77 percent of India's crude oil
+            and 81 percent of India's natural gas.</p>
+        <p>
+            The U.S. EPA and ONGC have collaborated on prefeasibility studies to identify and
+            estimate major methane emission sources. Based on the results, the company is implementing
+            methane mitigation technologies and practices at multiple locations. Specifically,
+            ONGC has implemented both inspection and maintenance and flare reduction programs.
+            They have additional plans to install vapor recovery units on storage tanks. As
+            a corollary effort of working with U.S. EPA, ONGC has set up a leak detection and
+            measurement team. ONGC has also established an overall long-term climate change
+            vision of carbon neutrality. Their vision and practices are included in their first
+            <a href="http://www.ongcindia.com/download/Corp%20Sust%20Report/ONGC_Sustainability_Report_2009-10.pdf">
+                <em>Corporate Sustainability Report</em></a> (PDF, 80 pp, 2.9 MB) <a href="/exitdisclaimer.aspx"
+                    title="Exiting Global Methane Initiative">
+                    <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>,
+            released in September 2010.</p>
+        <p>
+            ONGC was also instrumental in organizing and sponsoring the 2010 Partnership Expo
+            in New Delhi, India, and serves on GMI's Oil and Gas Subcommittee. The ASG looks
+            forward to continued collaboration with this Partner organization.
+        </p>
+        <p>
+            <em>Source:</em> U.S. EPA, <a href="http://www.epa.gov/gasstar/newsroom/partnerupdatewinter2010.html">
+                <em>Natural Gas STAR Partner Update</em></a> <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative">
+                    <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>,
+            December 2010.
+        </p>
+        
+        <h2 id="ten">
+            LFG Projects Moving Forward</h2>
+        <p>
+            LFG projects in GMI Partner Countries <strong>Ecuador</strong>, <strong>India</strong>,
+            and <strong>Nigeria</strong> are all one step closer to using methane as an energy
+            source. GMI resource assessments concluded that LFG energy projects were feasible
+            at major landfills in these countries, and spurred the landfill owners to issue
+            requests for proposals to develop LFG energy projects. The landfills with requests
+            for proposals, now closed, include:</p>
+        <ul>
+            <li><em>The Las Iguanas Landfill in Guayaquil, Ecuador</em>. In November 2010, the Municipality
+                of Guayaquil released a <a href="http://www.compraspublicas.gob.ec/ProcesoContratacion/compras/PC/informacionProcesoContratacion2.cpe?idSoliCompra=NDk4NzEx">
+                    request for proposals</a> <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative">
+                        <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>,
+                seeking a company to help capture, treat, and use the LFG released from the landfill.
+                The landfill was featured in the 2007 Partnership Expo; GMI conducted a pumping
+                trial and prepared a detailed <a href="../projects/projectDetail.aspx?ID=106">pre-feasibility
+                    study</a>.<br />
+                <br />
+            </li>
+            <li><em>The Uruli Devachi Landfill in Pune, India</em>. <a href="http://www.punecorporation.org/pmcwebn/index.aspx">
+                Pune Municipal Corporation</a> <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative">
+                    <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>
+                recently issued a request for qualifications to implement a landfill closure, which
+                included an LFG collection system at this landfill. The landfill was featured at
+                the 2010 Partnership Expo, highlighting the results of a GMI-sponsored pumping trial
+                and <a href="../projects/projectDetail.aspx?ID=387">pre-feasibility study</a> of
+                LFG capture and utilization. The proposed closure project includes several components,
+                such as installation of a liner cover, leachate and LFG collection, and an enclosed
+                gas flaring system, along with landscaping on the capped area and associated infrastructure.
+                The awardee will also be responsible for maintenance of all the facilities constructed
+                under the project for a 15-year period.<br />
+                <br />
+            </li>
+            <li><em>The Abule-Egba and Solous Landfills in Lagos, Nigeria</em>. The <a href="http://www.lawma.gov.ng/">
+                Lagos Waste Management Authority</a> <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative">
+                    <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>,
+                in conjunction with the <a href="http://www.clintonfoundation.org/what-we-do/clinton-climate-initiative/">
+                    Clinton Climate Initiative</a> <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative">
+                        <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>,
+                released a request for proposals to conduct feasibility studies at both of these
+                landfills. The project will have three main parts: field assessments to estimate
+                the quality and quantity of LFG at the two landfills, a feasibility report analyzing
+                the LFG capture and utilization potential at the landfills, and educational outreach
+                as well as technical training for local personnel. This work builds on previous
+                grants from the U.S. EPA, including an EPA-sponsored <a href="../projects/projectDetail.aspx?ID=386">
+                    landfill inventory</a> for Nigeria, as well as a <a href="../Data/347_Landfill.Recovery.and.Use.in.Nigeria(LFGE)Final.Report.pdf">
+                        preliminary assessment</a> (PDF, 57 pp, 4.3 MB) of four sites. </li>
+        </ul>
+        
+        <h2 id="eleven">
+            Upcoming Outreach Activities</h2>
+        <p>
+            Events that may be of interest to Project Network members and Partner organizations
+            include:
+        </p>
+        <ul>
+            <li>The <a href="http://arcpe.hkbu.edu.hk/conf2011/">International Conference on Solid
+                Waste: Moving Towards Sustainable Resource Management</a> <a href="/exitdisclaimer.aspx"
+                    title="Exiting Global Methane Initiative">
+                    <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>
+                to be held on 2&ndash;6 May 2011 in Hong Kong. The conference will focus on various
+                issues related to waste management and sustainable resource management. GMI will
+                present information on the landfill tools and resources available through GMI. In
+                particular, the presentation will highlight LFG modeling tools and assessments underway
+                in Asia Partner Countries, as well as other resources from the initiative, including
+                the international landfill database and training opportunities to improve LFG recovery
+                rates.<br />
+                <br />
+            </li>
+            <li><a href="http://www.cleanpower-asia.com/">Clean Power Asia 2011</a> <a href="/exitdisclaimer.aspx"
+                title="Exiting Global Methane Initiative">
+                <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a> will
+                be held on 28&ndash;30 June 2011 in Bangkok, <strong>Thailand</strong>. This event
+                is a regional conference and exhibition that focuses on clean power initiatives,
+                projects, investment opportunities, and successes in the region. Industry and government
+                stakeholders from Partner Countries such as China, Indonesia, the Philippines, Thailand,
+                and Vietnam will be participating. GMI will be speaking at the event about converting
+                biogas to energy in Asia, and will present information on GMI's role in promoting
+                biogas energy recovery, GMI tools and resources available, technologies available
+                for biogas energy recovery, and examples of biogas projects in Asia.<br />
+                <br />
+            </li>
+            <li>The <a href="http://africacarbonforum.com/2011/english/index.htm">Africa Carbon
+                Forum</a> <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative">
+                    <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>
+                will be held on 4&ndash;6 July 2011 in Marrakech, Morocco. Africa represents a tremendous
+                emerging opportunity to establish sanitary waste disposal practices and technologies
+                to improve public health and the environment. Of critical importance is the need
+                for capacity building, technology transfer, and investment to improve solid waste
+                disposal conditions and consequently the lives of millions of Africans. Improved
+                disposal sites will also lead to conditions that are favorable to LFG recovery,
+                which can yield substantial energy, economic, and environmental benefits (e.g.,
+                climate). GMI has been working to improve solid waste disposal practices and advance
+                LFG recovery opportunities in Ethiopia, Ghana, and Nigeria. Government officials
+                from Africa, as well as representatives from GMI, will discuss current solid waste
+                management and LFG recovery projects and future initiatives in Africa.</li>
+        </ul>
+        
+        <h2 id="twelve">
+            Recent Developments and Resources</h2>
+        <ul>
+            <li><strong>United Nations Environmental Programme (UNEP) Publishes Climate Change Report</strong>.
+                In December 2010, <a href="http://www.unep.org/">UNEP</a> <a href="/exitdisclaimer.aspx"
+                    title="Exiting Global Methane Initiative">
+                    <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>
+                published <a href="http://www.unep.or.jp/ietc/Publications/spc/Waste&amp;ClimateChange/Waste&amp;ClimateChange.pdf">
+                    <em>Waste and Climate Change: Global Trends and Strategy Framework</em></a>
+                (PDF, 79 pp, 1.4 MB) <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative">
+                    <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>,
+                which describes ways in which the waste management sector can become a major contributor
+                toward the reduction of greenhouse gas emissions. The report identifies harvesting
+                of methane from landfills and agricultural waste as a key area for future emission
+                reductions. It also provides a list of initiatives that have specifically identified
+                links to waste and climate change; Methane to Markets (now GMI) is identified as
+                one of the initiatives.<br />
+                <br />
+            </li>
+            <li><strong><em>Biocycle</em> Highlights Chinese Landfill in Global Section</strong>.
+                In their February 2011 issue, <a href="http://www.jgpress.com/archives/2011_02.html">
+                    <em>Biocycle</em></a> published an article titled &quot;Integrated Solid Waste
+                Management in Guangzhou,&quot; which outlines ways in which the city is becoming
+                more sustainable. Guangzhou, China's third-largest city, is home to Xinfeng Municipal
+                Solid Waste Sanitary Landfill&mdash;the largest landfill in China. In order to become
+                more sustainable, the city is working to improve its waste collection system. Currently
+                the landfill has a leachate collection and treatment system as well as a methane
+                recovery system. Guangzhou's approach could be used as a model for overcoming challenges
+                that face China in managing its solid wastes.<br />
+                <br />
+                <p>
+                    <em>Source:</em> Martin Medina, <em>Biocycle</em>, &quot;Integrated Solid Waste
+                    Management in Guangzhou,&quot; February 2011.</p>
+            </li>
+            <li><strong>Organizations Collaborate on Impact of Black Carbon.</strong> In February
+                2011, <a href="http://www.unep.org/">UNEP</a> <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative">
+                    <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>
+                and the <a href="http://www.wmo.int/pages/index_en.html">World Meteorological Organization</a>
+                <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative">
+                    <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>
+                published <a href="http://www.unep.org/dewa/Portals/67/pdf/Black_Carbon.pdf"><em>Integrated
+                    Assessment of Black Carbon and Tropospheric Ozone, Summary for Decision Makers</em></a>
+                (PDF, 36 pp, 2.6 MB) <a href="/exitdisclaimer.aspx" title="Exiting Global Methane Initiative">
+                    <img src="/images/exit.gif" alt="Exiting Global Methane Initiative" /></a>,
+                which examines drivers of emissions, trends in concentrations, and impacts on climate,
+                human health, and ecosystems of black carbon, tropospheric ozone, and its precursors.
+                Scientific evidence indicates that control of black carbon particles and tropospheric
+                ozone through emission reduction measures would have immediate benefits for human
+                well-being. One of these measures includes the recovery of methane from coal, oil
+                and gas extraction, landfills, and the banning of field burning of agricultural
+                waste. </li>
+        </ul>		
+		
+		</div>
+	</section>
+	
+	<button onclick="topFunction()" class="btn btn-dark btn-sm" id="btnToTop" title="Go to top"><i class="fa fa-chevron-up" aria-hidden="true"></i> Top</button>
+	
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'en',
+                layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+            }, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+    </script>
+    <script>
+        $('.translateText').click(function () {
+            $("#languageWidget").css("display", "block");
+            $(".hider").slideToggle();
+        });
+    </script>
+
+	
+	<script>
+    //Get the button
+    var mybtnToTop = document.getElementById("btnToTop");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybtnToTop.style.display = "block";
+      } else {
+        mybtnToTop.style.display = "none";
+      }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    </script>
+	
+</body>
+
+</html>

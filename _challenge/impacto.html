@@ -1,0 +1,244 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/dd7fc261ae.js"></script>
+    <style>
+        body {
+            background: #1695be;
+        }
+
+        .tooltip:hover span {
+            opacity: 1;
+            filter: alpha(opacity=100);
+            top: -6em;
+            left: 20em;
+            z-index: 99;
+            -webkit-transition: all 0.2s ease;
+            -moz-transition: all 0.2s ease;
+            -o-transition: all 0.2s ease;
+            transition: all 0.2s ease;
+        }
+
+        .homearea {
+            position: fixed;
+            bottom: 10px;
+            left: 10px;
+        }
+
+        .homearea:hover {
+            cursor: pointer;
+        }
+
+        .box b {
+            color: #fff;
+        }
+
+        .tooltip span {
+            background: none repeat scroll 0 0 #222;
+            /*-- some basic styling */
+            color: #F0B015;
+            font-family: 'Helvetica';
+            font-size: 0.8em;
+            font-weight: normal;
+            line-height: 1.5em;
+            padding: 16px 15px;
+            width: 240px;
+            top: -4em;
+            /*-- this is the original position of the tooltip when it's hidden */
+            left: 20em;
+            margin-left: 0;
+            /*-- set opacity to 0 otherwise our animations won't work */
+            opacity: 0;
+            filter: alpha(opacity=0);
+            position: absolute;
+            text-align: center;
+            z-index: 2;
+            text-transform: none;
+            -webkit-transition: all 0.3s ease;
+            -moz-transition: all 0.3s ease-in-out;
+            -o-transition: all 0.3s ease;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .tooltip span:after {
+            border-color: #222 rgba(0, 0, 0, 0);
+            border-style: solid;
+            border-width: 15px 15px 0;
+            bottom: -15px;
+            content: "";
+            display: block;
+            left: 31px;
+            position: absolute;
+            width: 0;
+        }
+
+        .callout {
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-top: 10px;
+            background: #DCDCDC;
+            border-radius: 4px;
+            font-size: 12px;
+            width: 100%;
+            margin-bottom: 15px;
+
+        }
+
+
+        .imgtbl {
+            width: 100%;
+
+            margin-bottom: 15px;
+        }
+
+        .imgtbl img {
+            padding: 10px;
+            width: 100%;
+        }
+
+        .subtitle td {
+            font-size: 10px;
+            text-align: center;
+
+        }
+
+        .richard {
+            height: 250px;
+            Width: 100%;
+        }
+
+        .imgtbl td {
+            width: 50%;
+            text-align: center;
+            font-size: 9px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="homearea">
+        <a class="btn btn-danger" href="http://staging.globalmethane.org/challenge/index.aspx#actionmap">
+            <i class="fa fa-arrow-left fa-lg"></i> Back to the map
+        </a>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-0 col-md-2"></div>
+            <div class="col-sm-12 col-md-8" style="background:white;">
+                <img src="images/impacto/impacto_flag.png" style="width:100%" />
+                <h2>
+                    Impacto Energia S.A.: Reducing Methane Emissions by Producing Biomethane&nbsp;
+                    <!--<a class="btn btn-primary" href="pdf/SourceFacility_Biocity_Profile.pdf"
+                        aria-label="Download the PDF">
+                        <i class="fa fa-download" aria-hidden="true"></i>
+                    </a>-->
+                </h2>
+
+
+                <p>
+                    <a href="https://www.impactoenergia.com.br/solucoesdeenergia" target="_blank"><img
+                            style="width:30%;margin-bottom: 10px; float: right;" src="images/impacto/impacto_logo.png">
+                    </a>
+                    <a href="https://www.impactoenergia.com.br/solucoesdeenergia" target="_blank">Impacto Energia
+                        S.A.</a>,
+
+                    an energy company based in Brazil, is working towards developing a number of methane mitigation
+                    projects across various areas. These projects include:
+
+                    <ul>
+                        <li>Reducing landfill methane through renewable energy cogeneration with a goal to produce 10
+                            million cubic meters (m<sup>3</sup>) per year of biomethane</li>
+                        <div class="callout" style=float:right;width:40%;margin-left:10px;>
+                            The company is committed to the RenovaBio program, Brazil’s “National Biofuels Policy,”
+                            which sets annual carbon intensity reduction targets, certifies biofuels by efficiency in
+                            reducing emissions, and employs decarbonization credits (CBIOs).
+                        </div>
+                        <li>Diverting methane from landfills using biodigestion to produce approximately 36 million
+                            m<sup>3</sup> of biomethane per year</li>
+                        <li>Reducing emissions from industrial effluents to produce an estimated 100 million
+                            m<sup>3</sup> of biomethane per year</li>
+                        <li>Evaluating reducing emissions from sewage and producing methane for use in transportation
+                        </li>
+                    </ul>
+
+                </p>
+
+                <p>
+                    Through its work, Impacto anticipates bringing up to 100,000 MWh annually or 100,000 international
+                    renewable energy certificates (I-RECs) to the grid. The I-REC unit represents one MWh of electricity
+                    produced from renewable energy sources added to the grid.
+                </p>
+
+                <p>
+                    Impacto is working to implement a gas collection field and install power generating equipment at a
+                    landfill. The company will begin commercial operations in April 2020 and expects to mitigate up to
+                    90,000 tons of CO<sub>2</sub>e annually. Partners for this project include <a
+                        href="https://www.gruppoab.com/it/" target="_blank">AB Energy SPA</a> and <a
+                        href="http://www.enesa.com.br/" target="_blank">ENESA</a>.
+                </p>
+
+                <p>
+                    Impacto, in partnership with ENESA, will also implement a gas collection field and upgrade biogas to
+                    biomethane for transport use. It plans to begin operations in January 2021 and expects to mitigate
+                    up to 60,000 tons CO<sub>2</sub>e annually.
+                </p>
+
+                <div>
+                    <table class="imgtbl">
+                        <tr>
+                            <td><img class="richard" src="images/impacto/gasfield.png">
+                                <br> <i> Impacto's gas field</i></td>
+                            <td><img class="richard" src="images/impacto/personnel.png">
+                                <br><i>Personnel infrastructure at Impacto’s facility </i></td>
+                        </tr>
+                        <tr>
+                            <td><img class="richard" src="images/impacto/powercabin.png">
+                                <br><i>Impacto's power cabins </i></td>
+                            <td><img class="richard" src="images/impacto/engines.png">
+                                <i>Engines at Impacto's facility </i></td>
+                        </tr>
+                    </table>
+                </div>
+
+                <hr>
+                <!--     <a href="pdf/SourceFacility_Biocity_Profile.pdf" class="btn btn-primary btn-block">Download The
+                        PDF</a>
+                    <hr>-->
+            </div>
+            <div class="col-sm-0 col-md-2"></div>
+        </div>
+    </div>
+    <script>
+        $(document).ready(function () {
+            $('[data-toggle="popover"]').popover({
+                container: '.container'
+            });
+
+            $('body').on('click', function (e) {
+                $('[data-toggle=popover]').each(function () {
+                    // hide any open popovers when the anywhere else in the body is clicked
+                    if (!$(this).is(e.target) && $(this).has(e.target).length === 0 && $(
+                            '.popover').has(e.target).length === 0) {
+                        $(this).popover('hide');
+                    }
+                });
+            });
+
+        });
+    </script>
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+</body>
+
+</html>

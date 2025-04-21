@@ -1,0 +1,338 @@
+/* CSS Document */
+
+* {
+	margin:0;
+	padding:0;
+}
+
+.hide {
+	display:none;
+}
+
+.clear {
+	clear:both;
+}
+
+img {
+	border:0;
+}
+
+body {
+	background-color:#e8e4e3;
+}
+
+#maincontent a:hover, #innercontent a:hover {
+	color:#ab2e2e;
+}
+
+a:visited {
+	color:#00f;
+}
+
+h1, h2, h5, p, ul, ol {
+	margin-bottom:20px;
+}
+
+h1 {
+	font:18px verdana, arial, helvetica, sans-serif;
+	color:#ab2e2e;
+}
+
+h2, .h2 {
+	font:bold 14px arial, helvetica, sans-serif;
+}
+
+#loccontent h2 {
+	color:#ab2e2e;
+}
+
+h5, .h5 {
+	font:bold 12px arial, helvetica, sans-serif;
+}
+
+p, ul {
+	font:12px verdana, arial, helvetica, sans-serif;
+	list-style-image:url(../images/redbullet.gif);
+}
+
+ul li, ol li {
+	font:12px verdana, arial, helvetica, sans-serif;
+	margin-left:35px;
+	line-height:15px;
+}
+
+ul li ul {
+	margin-bottom:0;
+}
+
+blockquote {
+	margin-left:15px;
+}
+
+#flyer li ul {
+	margin-bottom:0;
+}
+
+#callout {
+	border:2px solid #000;
+	width:426px;
+	padding:10px 0;
+}
+
+#container {
+	width:787px;
+	margin:0 auto;
+	border-left:1px solid #bdb7af;
+	border-right:1px solid #bdb7af;
+	border-bottom: 13px solid #ab2e2e;
+	background:url(../images/bkgd_navback.gif) #fff top right repeat-y;
+}
+
+#header {
+	background:url(../images/banner5.gif) top left no-repeat;
+	width:757px;
+	color:#fff;
+	text-align:right;
+	padding:153px 30px 3px 0;
+	margin: 0 auto;
+	background-color:#ab2e2e;
+	border-left:1px solid #bdb7af;
+	border-right:1px solid #bdb7af;
+	font:bold 10px verdana, arial, helvetica, sans-serif;
+}
+
+#header a {
+	color:#fff;
+	text-decoration:none;
+	padding-top:1px;
+	vertical-align:middle;
+}
+
+#header a:hover {
+	text-decoration:underline;
+}
+
+#clink {
+	float:left;
+	margin: 0 0 0 20px;
+	font-size:12px;
+}
+
+#logolink {
+	padding:65px 50px 35px 225px;
+	margin:-124px 0px 0px 17px;
+	float:left;
+}
+
+#content, #psponsors, #psponsors1, #maincontent, #nav, #innercontent, #pageimage, #imgdiv, #realcontent {
+	float:left;
+}
+
+#content {
+	width: 627px;
+	background-color:#fff;
+	border-top:1px solid #f93;
+	background:url(../images/bkgd_content.gif) transparent top left repeat-y;
+	
+}
+
+#psponsors {
+	width:128px;
+	font:bold 12px arial, helvetica, sans-serif;
+	letter-spacing:1px;
+	padding:16px 0 15px 7px;
+}
+
+html>body #psponsors {
+	padding:16px 5px 15px 7px;
+}
+
+#psponsors img {
+	padding: 10px 0 0 0;
+	display:block;
+}
+
+
+
+
+/*
+html>body #ccii {
+	padding-left:23px;
+}
+
+html>body #adb {
+	padding-left:42px;
+}
+
+html>body #epa {
+	padding-left:35px;
+}
+*/
+#psponsors1 {
+	width:128px;
+	padding:390px 16px 0 12px;
+	background:url(../images/bkgd_map2.gif) top right;
+}
+
+#maincontent {
+	width:430px;
+	padding:20px 20px 20px 25px;
+}
+
+html>body #maincontent {
+	padding:20px 20px 20px 36px;
+}
+
+#nav {
+	width:159px;
+	list-style:none;
+	float:left;
+	border-top:1px solid #f93;
+	background:url(../images/bkgd_navmap2.gif) #fff top right no-repeat;
+}
+
+#nav li {
+	display:inline;
+	margin-left:0;
+}
+
+#nav li a {
+	font:bold 10px verdana, arial, helvetica, sans-serif;
+	color:#981b1e;
+	text-decoration:none;
+	display:block;
+	border-bottom:1px solid #f93;
+	padding:5px 10px 5px 17px;
+}
+
+#nav li a:hover {
+	background:url(../images/bkgd_navhover.gif) transparent top left no-repeat;
+	color:#fff;
+}
+
+#aboutimg {
+	padding-left:6px;
+}
+
+#bigclink {
+	text-align:center;
+	font-size:16px;
+}
+
+#nav #bigclink #flag {
+	text-decoration:none;
+	padding-bottom:5px;
+}
+
+#osponsors {
+	width:602px;
+	border-top:1px solid #f93;
+	color:#000;
+	font:bold 12px arial, helvetica, sans-serif;
+	letter-spacing:1px;
+	padding:15px 20px 15px 5px;
+	background-color:#fff;
+}
+
+#osponsors img {
+	padding: 8px 5px 0 5px;
+	vertical-align:middle;
+}
+
+.logos {
+	padding-left:20px;
+	margin-bottom:10px;
+}
+
+.bottom {
+	height:1px;
+	border-bottom:1px solid #f93;
+	line-height:0;
+	margin:0 0 -5px 0;
+}
+
+html>body .bottom {
+	margin:0;
+}
+
+#innercontent {
+	width: 587px;
+	background-color:#fff;
+	border-top:1px solid #f93;
+	padding:20px;
+}
+
+#imgdiv {
+	padding: 5px 19px 15px 0px;
+}
+
+#flyer li, .flyer li {
+	list-style-image:url(../images/subbullet.gif);
+}
+
+#realcontent {
+	width:403px;
+}
+
+.left {
+	width:100px;
+	float:left;
+}
+
+.right {
+	width:300px;
+	float:right;
+	padding-bottom:20px;
+}
+
+.sponsors {
+	width:587px;
+	clear:both;
+	font:12px verdana, arial, helvetica, sans-serif;
+	margin-bottom:10px;
+}
+
+.slogos {
+	width:215px;
+	float:left;
+}
+
+.slogos strong {
+	font-size:14px;
+}
+
+.text {
+	width:372px;
+	float:left;
+}
+
+.slogos img {
+	margin-bottom:30px;
+}
+
+#sponsnav {
+	text-align:center;
+	margin:30px 0;
+}
+
+#sponsnav a {
+	margin: 0 20px;
+}
+
+.smaller {
+	font-size:11px;
+}
+
+#visatable {
+	font-size:12px;
+	text-align:center;
+	width:100%;
+}
+
+#visatable td {
+	padding:2px;
+}
+
+#visalist ul li {
+	margin-bottom:-20px;
+}

@@ -1,0 +1,263 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/dd7fc261ae.js"></script>
+    <script>
+		(function (w, d, s, l, i) {
+			w[l] = w[l] || [];
+			w[l].push({
+				'gtm.start': new Date().getTime(),
+				event: 'gtm.js'
+			});
+			var f = d.getElementsByTagName(s)[0],
+				j = d.createElement(s),
+				dl = l != 'dataLayer' ? '&l=' + l : '';
+			j.async = true;
+			j.src =
+				'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+			f.parentNode.insertBefore(j, f);
+		})(window, document, 'script', 'dataLayer', 'GTM-WM2LZW5');
+	</script>
+    <style>
+        .aligncenter {
+            text-align: center;
+        }
+
+        body {
+            background: #1695be;
+        }
+
+        .tooltip:hover span {
+            opacity: 1;
+            filter: alpha(opacity=100);
+            top: -6em;
+            left: 20em;
+            z-index: 99;
+            -webkit-transition: all 0.2s ease;
+            -moz-transition: all 0.2s ease;
+            -o-transition: all 0.2s ease;
+            transition: all 0.2s ease;
+        }
+
+        .homearea {
+            position: fixed;
+            bottom: 10px;
+            left: 10px;
+        }
+
+        .homearea:hover {
+            cursor: pointer;
+        }
+
+        .box b {
+            color: #fff;
+        }
+
+        .tooltip span {
+            background: none repeat scroll 0 0 #222;
+            /*-- some basic styling */
+            color: #F0B015;
+            font-family: 'Helvetica';
+            font-size: 0.8em;
+            font-weight: normal;
+            line-height: 1.5em;
+            padding: 16px 15px;
+            width: 240px;
+            top: -4em;
+            /*-- this is the original position of the tooltip when it's hidden */
+            left: 20em;
+            margin-left: 0;
+            /*-- set opacity to 0 otherwise our animations won't work */
+            opacity: 0;
+            filter: alpha(opacity=0);
+            position: absolute;
+            text-align: center;
+            z-index: 2;
+            text-transform: none;
+            -webkit-transition: all 0.3s ease;
+            -moz-transition: all 0.3s ease-in-out;
+            -o-transition: all 0.3s ease;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .tooltip span:after {
+            border-color: #222 rgba(0, 0, 0, 0);
+            border-style: solid;
+            border-width: 15px 15px 0;
+            bottom: -15px;
+            content: "";
+            display: block;
+            left: 31px;
+            position: absolute;
+            width: 0;
+        }
+
+        .callout {
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-top: 10px;
+            background: #f3d5b3;
+            border-radius: 4px;
+
+            width: 100%;
+            margin-bottom: 15px;
+
+        }
+
+
+        .imgtbl {
+            width: 100%;
+
+            margin-bottom: 15px;
+        }
+
+        .imgtbl img {
+            padding: 10px;
+            width: 100%;
+        }
+
+        .subtitle td {
+            font-size: 10px;
+            text-align: center;
+
+        }
+
+        table {
+            margin-top: 15px;
+            width: 100%;
+            border-collapse: collapse;
+            text-align: left;
+            overflow: hidden;
+            margin-bottom: 15px;
+        }
+
+        td,
+        th {
+            border-top: 1px solid #ECF0F1;
+            padding: 5px;
+        }
+
+        td {
+
+            border-right: 1px;
+        }
+
+
+        tr:nth-of-type(even) td {
+            background-color: #ecf0f1;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="homearea">
+        <a class="btn btn-danger" href="showcase.html">
+            <i class="fa fa-arrow-left fa-lg"></i> Back to the map
+        </a>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-0 col-md-2"></div>
+            <div class="col-sm-12 col-md-8" style="background:white;">
+                <img src="images/ilfs/ilfs_banner.png" style="width:100%" />
+                <h2>
+                    IL&FS Environment: Waste Management Projects Across India&nbsp;
+                    <!--<a class="btn btn-primary" href="pdf/SourceFacility_Biocity_Profile.pdf"
+                        aria-label="Download the PDF">
+                        <i class="fa fa-download" aria-hidden="true"></i>
+                    </a>-->
+                </h2>
+                <p>
+                    <a href="https://www.ilfsindia.com/our-work/environment/" target="_blank"><img
+                            style="width:20%;float: right; margin:10px;" src="images/ilfs/ilfslogo.png">
+                    </a>
+                    Approximately 11,000 tons of municipal solid waste (MSW) is generated across India every day with
+                    Delhi alone generating 4,500 tons. Under the Indian Government's Swachh Bharat (Clean India)
+                    Mission,
+                    <a href="https://www.ilfsindia.com/our-work/environment/" target="_blank">IL&FS Environment</a> is
+                    finding solutions for managing the MSW using waste processing and composting plants to convert
+                    organic waste to compost, combustibles to power, and construction waste to recycled construction
+                    products.
+                </p>
+                <p>
+                    The compost that IL&FS Environment produces from the solid waste acts as a soil conditioner to
+                    improve soil productivity and chemical fertilizer efficiency. Collectively, IL&FS Environmental
+                    facilities mitigate more than 200,000 tons of carbon dioxide equivalent (CO<sub>2</sub>e) annually.
+                    As of 2020,
+                    the facilities mitigated almost 500,000 tons of CO<sub>2</sub>e.
+                </p>
+                <p>
+                    IL&FS Environment’s bundled waste processing facilities process municipal solid waste in three
+                    different Indian states, Punjab, Kerala, and Karnataka. The facilities use a windrow composting
+                    process (piling waste in long rows) to treat biodegradable components of MSW through controlled
+                    aerobic decomposition. The aerobic process avoids methane emissions that would result naturally from
+                    MSW decomposing in anaerobic conditions and produces usable compost that can be applied as organic
+                    fertilizer. The aerobic decomposition methods employed at these facilities can process a total of
+                    600 tons of biodegradable MSW per day, equating to 219,000 tons of waste per year. <table
+                        class="imgtbl" style="width:50%;float: right; margin-left: 10px;">
+                        <tr>
+                            <td><img src="images/ilfs/wasteplant.jpg" style="height: 90%;"></td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:center;">
+                                <i>IL&FS Environment’s waste processing plant</i>
+                            </td>
+                        </tr>
+                    </table>
+                </p>
+
+                <p>IL&FS Environment also established six compost plants for treating MSW in the state of Tamil Nadu.
+                    The aerobic decomposition methods employed at the six facilities can process 545 tons of waste per
+                    day, equating to more than 190,000 tons of waste per year.</p>
+
+                <p>Additionally, IL&FS Environment’s Okhla MSW composting project in Delhi uses controlled aerobic
+                    decomposition in a windrow composting process. The Okhla project treats biodegradable waste
+                    predominantly from vegetable markets, diverting an average of approximately 73,000 tons of MSW per
+                    year that would otherwise be disposed in a landfill. The project also demonstrates that carbon
+                    credit finance mechanisms can catalyze environmentally sustainable and financially viable waste
+                    management practices. </p>
+
+
+
+                <hr>
+                <!--     <a href="pdf/SourceFacility_Biocity_Profile.pdf" class="btn btn-primary btn-block">Download The
+                        PDF</a>
+                    <hr>-->
+            </div>
+            <div class="col-sm-0 col-md-2"></div>
+        </div>
+    </div>
+    <script>
+        $(document).ready(function () {
+            $('[data-toggle="popover"]').popover({
+                container: '.container'
+            });
+
+            $('body').on('click', function (e) {
+                $('[data-toggle=popover]').each(function () {
+                    // hide any open popovers when the anywhere else in the body is clicked
+                    if (!$(this).is(e.target) && $(this).has(e.target).length === 0 && $(
+                            '.popover').has(e.target).length === 0) {
+                        $(this).popover('hide');
+                    }
+                });
+            });
+
+        });
+    </script>
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+</body>
+
+</html>

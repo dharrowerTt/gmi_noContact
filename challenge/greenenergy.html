@@ -1,0 +1,254 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/dd7fc261ae.js"></script>
+    <style>
+        .aligncenter {
+            text-align: center;
+        }
+
+        body {
+            background: #1695be;
+        }
+
+        .tooltip:hover span {
+            opacity: 1;
+            filter: alpha(opacity=100);
+            top: -6em;
+            left: 20em;
+            z-index: 99;
+            -webkit-transition: all 0.2s ease;
+            -moz-transition: all 0.2s ease;
+            -o-transition: all 0.2s ease;
+            transition: all 0.2s ease;
+        }
+
+        .homearea {
+            position: fixed;
+            bottom: 10px;
+            left: 10px;
+        }
+
+        .homearea:hover {
+            cursor: pointer;
+        }
+
+        .box b {
+            color: #fff;
+        }
+
+        .tooltip span {
+            background: none repeat scroll 0 0 #222;
+            /*-- some basic styling */
+            color: #F0B015;
+            font-family: 'Helvetica';
+            font-size: 0.8em;
+            font-weight: normal;
+            line-height: 1.5em;
+            padding: 16px 15px;
+            width: 240px;
+            top: -4em;
+            /*-- this is the original position of the tooltip when it's hidden */
+            left: 20em;
+            margin-left: 0;
+            /*-- set opacity to 0 otherwise our animations won't work */
+            opacity: 0;
+            filter: alpha(opacity=0);
+            position: absolute;
+            text-align: center;
+            z-index: 2;
+            text-transform: none;
+            -webkit-transition: all 0.3s ease;
+            -moz-transition: all 0.3s ease-in-out;
+            -o-transition: all 0.3s ease;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .tooltip span:after {
+            border-color: #222 rgba(0, 0, 0, 0);
+            border-style: solid;
+            border-width: 15px 15px 0;
+            bottom: -15px;
+            content: "";
+            display: block;
+            left: 31px;
+            position: absolute;
+            width: 0;
+        }
+
+        .callout {
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-top: 10px;
+            background: #f3d5b3;
+            border-radius: 4px;
+
+            width: 100%;
+            margin-bottom: 15px;
+
+        }
+
+
+        .imgtbl {
+            width: 100%;
+            background: #CAEBF2;
+            margin-bottom: 15px;
+        }
+
+        .imgtbl img {
+            padding: 10px;
+            width: 100%;
+        }
+
+        .subtitle td {
+            font-size: 10px;
+            text-align: center;
+
+        }
+
+        table {
+            margin-top: 15px;
+            width: 100%;
+            border-collapse: collapse;
+            text-align: left;
+            overflow: hidden;
+            margin-bottom: 15px;
+        }
+
+        td,
+        th {
+            border-top: 1px solid #ECF0F1;
+            padding: 10px;
+        }
+
+        td {
+
+            border-right: 1px solid #ECF0F1;
+        }
+
+        th {
+            background-color: #4ECDC4;
+        }
+
+        tr:nth-of-type(even) td {
+            background-color: #ecf0f1;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="homearea">
+        <a class="btn btn-danger" href="showcase.html">
+            <i class="fa fa-arrow-left fa-lg"></i> Back to the map
+        </a>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-0 col-md-2"></div>
+            <div class="col-sm-12 col-md-8" style="background:white;">
+                <img src="images/greenenergy/gebanner.png" style="width:100%" />
+                <h2>
+                    Green Energy: Landfill Gas Capture and Utilization&nbsp;
+                    <!--<a class="btn btn-primary" href="pdf/SourceFacility_Biocity_Profile.pdf"
+                        aria-label="Download the PDF">
+                        <i class="fa fa-download" aria-hidden="true"></i>
+                    </a>-->
+                </h2>
+
+                <p>
+                    <a href="http://www.gess-uae.com/" target="_blank"><img
+                            style="width:30%;margin-bottom: 20px; margin-left: 15px; margin-right: 10px; float: right;"
+                            src="images/greenenergy/gelogo.png">
+                    </a>
+                    <a href="http://www.gess-uae.com/" target="_blank">Green Energy</a> is working with Dubai
+                    Municipality to
+                    implement the first landfill gas flaring project in the United Arab Emirates. At the Al Qusais
+                    landfill, the largest landfill in Dubai, Green Energy replaced the existing passive venting system
+                    with a landfill gas capture plant. The plant collects gas from wells in the landfill and flares it
+                    to remove methane, and the captured gas generates power for the system. The plant captures and
+                    flares up to 6000 normal cubic meters (Nm<sup>3</sup>) of landfill gas per hour with a methane
+                    content of
+                    approximately 55 to 58 percent.
+                </p>
+
+                <h3>The Gas Collection System</h3>
+
+                <p>
+                    The gas collection system installed at the Al Qusais landfill consists of both horizontal and
+                    vertical wells. The gas collection system utilizes gas trenches with a defined gradient from the
+                    center of the landfill towards the sides. Vertical gas wells connect to gas trenches. Green Energy
+                    implemented the collection system underground to allow movement of waste-dumping machinery on the
+                    surface of the landfill.
+                </p>
+                <div style="text-align: center;">
+                    <img style="max-width: 90%;" src="images/greenenergy/lfcross.png">
+                </div>
+                <p style="font-size: 10px; text-align: center;">
+                    <i>Diagram showing the Gas Collection System at the Al Qusais landfill.</i>
+                </p>
+                <h3>The Compact Degassing Plant</h3>
+                <p>The pipes used in the gas collection system connect groups of gas wells to manifolds. The manifolds
+                    are connected to a main pipe and then to the main header pipe, which
+                    delivers the gas from the collection system to the flare. The system operates at pressure slightly
+                    lower than atmospheric as blowers draw the gas from the wells through the collection system and
+                    delivers it to the flare, which “degasses” or safely removes the methane generated from the
+                    landfill.
+                </p>
+                <div style="text-align: center;">
+                    <img style="max-width: 70%;" src="images/greenenergy/compactplant.png">
+                </div>
+                <p style="font-size: 10px; text-align: center;">
+                    <i>Diagram showing the Gas Collection System at the Al Qusais landfill.</i>
+                </p>
+                <h3>Power Generation</h3>
+                <p>Currently, the gas capture system installed at the landfill can generate 1 megawatt (MW) of power.
+                    The energy generated powers the on-site blowers and the flares for the gas capture system. Green
+                    Energy plans to expand their project to be able to generate 13.5 MW of power.</p>
+                <h3>Emissions Reductions</h3>
+                <p>Green Energy’s measuring, reporting, and verifying protocol is Clean Development Mechanism (CDM)
+                    compliant and the amount of gas collected is monitored by compensated flow meters on a minute by
+                    minute basis. Green Energy collates the data on a monthly basis and aggregates the data to derive
+                    the annual figure. Green Energy estimates that the annual emission reductions from their landfill
+                    gas capture project are about 300,000 tonnes of carbon dioxide equivalent (TCo<sub>2</sub>e).</p>
+                <hr>
+                <!--     <a href="pdf/SourceFacility_Biocity_Profile.pdf" class="btn btn-primary btn-block">Download The
+                        PDF</a>
+                    <hr>-->
+            </div>
+            <div class="col-sm-0 col-md-2"></div>
+        </div>
+    </div>
+    <script>
+        $(document).ready(function () {
+            $('[data-toggle="popover"]').popover({
+                container: '.container'
+            });
+
+            $('body').on('click', function (e) {
+                $('[data-toggle=popover]').each(function () {
+                    // hide any open popovers when the anywhere else in the body is clicked
+                    if (!$(this).is(e.target) && $(this).has(e.target).length === 0 && $(
+                            '.popover').has(e.target).length === 0) {
+                        $(this).popover('hide');
+                    }
+                });
+            });
+
+        });
+    </script>
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+</body>
+
+</html>

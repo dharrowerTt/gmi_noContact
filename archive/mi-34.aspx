@@ -1,0 +1,598 @@
+﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="mi-34.aspx.vb" Inherits="M2M_Redesign.mi_34" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Archive | Global Methane Initiative</title>
+     <!-- #include virtual="/includes/include_head.html" -->
+</head>
+<body>
+    <!-- #include virtual="/includes/header.html" -->
+
+  <section class="py-5 gmi-light-blue">
+        <div class="container">
+                    <h1>
+						Methane International 
+					</h1>
+					<h2><small class="text-muted text">Issue 34, June 2014</small></h2>
+                    <div class="alert alert-danger" role="alert">Please note that this page is no longer being maintained. </div>
+					<ul>
+            <li><a href="#one">Biogas in Brazil!</a></li>
+            <li><a href="#two">GMI-Supported CMM Projects Recognized in Guizhou Provincial GHG Emission
+                Control Scheme </a></li>
+            <li><a href="#three">Subcommittee Updates</a></li>
+            <li><a href="#four">GMI Outreach</a></li>
+            <li><a href="#five">News from the Climate and Clean Air Coalition </a></li>
+            <li><a href="#six">Recent Developments and Resources</a></li>
+						
+					</ul>
+
+		</div>
+	</section>
+	<section class="py-5 bg-white">
+		<div class="container">
+
+	        <div style="margin: 5px 0 10px 15px; padding: 5px; border: 1px solid #0076bf;">
+            <h2 style="text-align: center;">
+                ASG Corner</h2> 
+            <img src="/images/1cc0470.jpg" style="width: 150px; float: left; margin: 15px;" alt="Whitney Storr" />
+            <p>
+                In this edition of Methane International we say farewell to staff and subcommittee
+                members who have contributed greatly to GMI. We also extend a warm welcome to new
+                delegates to many of the subcommittees.</p>
+            <p>
+                We would like to take this opportunity to bid farewell to Whitney Storr, our Oak
+                Ridge Institute for Science and Education (ORISE) Fellow. Many of you know Whitney
+                for her timely and topical "methane in the news" postings on the GMI LinkedIn group.
+                We welcome in Whitney's place ASG's new ORISE Fellow, Kristina Pflanz. Kristina
+                recently completed a Master's degree in International Economics and Energy, Resources,
+                & Environment at the Johns Hopkins University – School of Advanced International
+                Studies.</p>
+            <p>
+                We also invite you to subscribe to GMI's social media feeds in order to stay apprised
+                on the latest GMI activities and relevant methane updates in the news. Please find
+                us on <a target="_blank" href="https://twitter.com/GlobalMethane">Twitter</a>, <a
+                    target="_blank" href="https://www.facebook.com/pages/Global-Methane-Initiative-GMI/124605893144">
+                    Facebook</a>, and <a target="_blank" href="https://www.linkedin.com/groups?gid=4364745&goback=%2Enpv_51708924_*1_*1_*1_*1_*1_*1_*1_*1_*1_*1_*1_*1_*1_*1_*1_*1_*1_*1_*1_*1_*1_*1_*1_*1_*1_*1_*1_*1_*1_*1_*1_*1_*1_nav*4responsive*4tab*4profile_*1&trk=prof-groups-membership-name">
+                        LinkedIn</a>.</p>
+            <p>
+                Sincerely,</p>
+            <p style="margin-right: 10px;">
+                Henry Ferland<br />
+                Co-Director, ASG</p>
+            <p style="margin-top: 6px;">
+                Monica Shimamura<br />
+                Co-Director, ASG</p>
+        </div>		
+<hr>			
+		        <b id="one">Biogas in Brazil!</b><br />
+        <br />
+        <p>
+            Global Methane Initiative's three biogas sectors held a joint subcommittee meeting
+            in Florianopolis, Brazil, in March 2014. The <a target="_blank" href="http://ufsc.br/">
+                Federal University of Santa Catarina (UFSC)</a> hosted delegates, Project Network
+            members, and other interested stakeholders from the Municipal Solid Waste, Agriculture,
+            and Municipal Wastewater sectors.</p>
+        <p>
+            In addition to the joint subcommittee meetings, the conference included a two-day
+            best practices workshop on reducing methane emissions, hosted jointly by GMI and
+            the <a target="_blank" href="http://fatma.sc.gov.br/">Fundação do Meio Ambiente (FATMA)</a>.
+            The event consisted of several technical sessions discussing best practices and
+            opportunities for recovery and mitigation of methane emissions across all three
+            sectors.</p>
+        <p>
+            GMI hopes the success of the Best Practices Workshop and Tri-Sector Subcommittee
+            Meeting will improve communication across the three sectors and aid the development
+            and deployment in biogas technologies.</p>
+        <p>
+            Presentations at the three-day meeting focused on sector-specific updates and cross-sector
+            sessions showcasing technologies, techniques, and best practices applicable to all
+            three sectors. Meeting agendas and presentations from the various sessions have
+            been posted on the <a target="_blank" href="https://www.globalmethane.org/news-events/event_detailsByEventId.aspx?eventId=438">
+                GMI website</a>.
+        </p>
+        <br />
+        <b id="two">GMI-Supported CMM Projects Recognized in Guizhou Provincial GHG Emission
+            Control Scheme</b><br />
+        <br />
+        <p style="height: 100px; width: 160px; margin-left: 50px; margin-right: 15px;
+            padding: 6px; border: 1px solid #0076bf; float: right">
+            <img src="/images/zhongling-pump-station.jpg" style="width: 150px;" alt="Zhongling Pump Station" />
+            <i class="small">Pump station at Zhongling Mine.</i>
+        </p>
+        <p>
+            In 2009, the <a target="_blank" href="http://www.ch4.org.cn/en/">Guizhou International
+                Cooperation Center for Environmental Protection (GZICCEP)</a> was awarded a
+            grant from the United States Environmental Protection Agency (U.S. EPA) to complete
+            prefeasibility studies at two mines in Southwest China's Guizhou Province.</p>
+        <p>
+            The studies, published in 2011, explore the feasibility of power generation and
+            compressed natural gas (CNG) production from drained coal mine methane (CMM) at
+            <a target="_blank" href="https://www.globalmethane.org/Data/Qinglong CMM Pre-feasibility Study-English.pdf">
+                Qinglong Mine</a> (PDF) and power generation and liquefied natural gas (LNG)
+            production from drained CMM at the <a target="_blank" href="https://www.globalmethane.org/Data/Zhongling CMM Pre-feasibility Study-English.pdf">
+                Zhongling Mine</a> (PDF). CMM recovery and utilization projects at these mines
+            were recently identified as demonstration projects to be pursued as part of Guizhou's
+            Provincial Greenhouse Gas Control Scheme, published in May 2013. The projects are
+            highlighted as part of the scheme's measures to "actively develop low carbon energy."</p>
+        <p>
+            The Qinglong Mine is also part of the EcoPartnership between GZICCEP and <a target="_blank"
+                href="http://www.ravenridge.com/">Raven Ridge Resources, Incorporated (RRR)</a>.
+            The <a target="_blank" href="http://ecopartnerships.lbl.gov/">EcoPartnerships program</a>,
+            sponsored by the U.S. Department of State, features United States-China cooperation
+            on energy and environmental issues. The GZICCEP-RRR team was selected as one of
+            six EcoPartnerships in 2013 and seeks to better understand the Chinese market for
+            draining and utilizing CMM, particularly at small mines in Southwest China, to reduce
+            emissions, improve mine safety, and provide a source of energy.
+        </p>
+        <p>
+            The work leverages the EcoPartnerships brand to garner the endorsement of local
+            officials and industry to foster several high-profile demonstrations of drainage
+            and commercial use of CMM. The team will assist the Qinglong coal mine in improving
+            its existing in-mine gas drainage system and demonstrating the use of surface to
+            in-seam drilling and surface-drilled gob vent boreholes for post-mine CMM drainage.
+            The gas produced will be sold for commercial use.
+        </p>
+        <br />
+        <!-- <div style="width: 250px; margin: 5px 0 5px 15px; padding: 5px; border:1px solid #0076bf; float:right;">
+                <p>GMI’s tri-sector subcommittee meeting for the Agriculture, Municipal Solid Waste, and Municipal Wastewater sectors has been confirmed for 12-13 March 2014 in Florianópolis, Brazil. The meeting, hosted by Fundação do Meio Ambiente (FATMA), will run alongside a methane mitigation and abatement best practices workshop and will cover cross-cutting issues like project financing options and nationally appropriate mitigation actions (NAMAs). Additional Subcommittee business will be conducted on 14 March. For more information, view the <a href="https://www.globalmethane.org/news-events/event_detailsByEventId.aspx?eventId=438" target="_blank">event details</a>, including the agenda, hotel information, and registration instructions, on the GMI website. </p>       
+          </div>   -->
+        
+        <b id="three">Subcommittee Updates</b>
+        <br />
+        <br />
+        <p>
+            Dr. Marion Wilde, who has served as the European Commission's representative to
+            the Oil & Gas Subcommittee, Coal Subcommittee, and alternate representative to the
+            Steering Committee, and Diana Milena Rodriguez Velosa of Colombia, Co-Chair of the
+            Municipal Solid Waste Subcommittee, will be leaving their posts as delegates. We
+            wish them well in their future endeavors.
+        </p>
+        <p>
+            GMI thanks all of the delegates for their efforts to champion GMI goals and objectives
+            and looks forward to working with the new delegates over the coming years.</p>
+        <strong><i>Agriculture</i></strong>
+        <br />
+        <br />
+        <p>
+            The Agriculture Subcommittee's participation at the <a target="_blank" href="https://www.globalmethane.org/news-events/event_detailsByEventId.aspx?eventId=438">
+                Tri-Sector Subcommittee Meeting in Brazil</a> focused on the policies and incentives
+            in place for anaerobic digestion (AD) around the world. Two subcommittee delegates
+            gave presentations – one on current European-wide policies and the other on Finnish
+            practices. The subcommittee Co-Chairs led a discussion session to generate additional
+            ideas for the AD Policies and Incentives report, which will focus on expanding the
+            implementation of AD.
+        </p>
+        <!--  <p style="width: 300px;  padding: 5px; border:1px solid #0076bf; float:right;">
+         <b>GMI Advocate Receives Award for Coalbed Methane Review</b><br />
+            Mr. B.N. Prasad received the Republic of India’s Rajya Bhasha Award for his work on a review of coalbed methane—the first of its kind written in Hindi. The book was coauthored by Mr. A.K. Singh (former Co-Chair of the Coal Subcommittee) and Mr. A.V. Sahay (Chief Geologist at the Clearinghouse). 
+            <img src="/images/BN_Prasad_award.png" alt="BN Prasad" width="300px" height="258px" />
+            <i>Mr. Prasad receives the Rajya Bhasa Award from the President of India.</i>
+
+          </p> -->
+        <strong><i>Coal</i></strong>
+        <br />
+        <br />
+        <p class="pic-boxes" style="height: 100px; width: 166px !important; margin-left: 50px;
+            margin-right: 15px; padding: 6px; border: 1px solid #0076bf; float: right">
+            <img src="/images/Prasad.png" style="width: 156px !important;" alt="Mr. B.N. Prasad" /><br />
+            <i class="small">Mr. B.N. Prasad</i>
+        </p>
+        <p>
+            The Coal Subcommittee held its 19th session on 3 June 2014 in a virtual internet
+            meeting format (<a target="_blank" href="https://www.globalmethane.org/documents/19th-Coal-Subcomm-Agenda-060314.pdf">meeting
+                agenda</a> (PDF)). Co-Chairs Huang Shengchu (China), A.K. Debnath (India), and
+            Felicia Ruiz (United States) presided over the meeting, welcoming 35 participants,
+            including Partner Country delegates representing eight countries. Delegates from
+            Australia, China, Colombia, India, Mongolia, Poland, the United States, and Vietnam
+            highlighted recent developments in regulations affecting CMM projects and provided
+            updates on recent and future CMM activities in their countries. Finally, the subcommittee
+            discussed its action items and plans for 2014. The 20th session of the Coal Subcommittee
+            will be held in conjunction with the 9th Session of the UNECE Group of Experts on
+            CMM at the Palais des Nations, in Geneva, Switzerland, on 23 October 2014.</p>
+        <p>
+            The Coal Subcommittee wishes to recognize Mr. B.N. Prasad, head of the Coalbed Methane
+            (CBM) Unit at India's Central Mine Planning & Design Institute (CMPDI) and the <a
+                target="_blank" href="http://cmmclearinghouse.cmpdi.co.in/">Coal Mine Methane (CMM)
+                Clearinghouse</a> and Coal Subcommittee delegate for India. Mr. Prasad retired
+            after 36 years working at CMPDI and has been one of the country's strongest advocates
+            for the development of CBM, CMM, and ventilation air methane (VAM) technologies.
+            He has worked with GMI since its inception, and we thank him for his many contributions
+            over the past 10 years. Fortunately, Mr. Prasad will continue to advise CMPDI and
+            support coal mine methane project development in India!
+        </p>
+        <p>
+            The <a target="_blank" href="https://www.globalmethane.org/partners/countryCommittee.aspx?sector=coal">
+                Coal Subcommittee</a> also welcomes Maria Victoria Reyes Mesa, Director of the
+            Colombia Ministry of Mines and Energy's Environmental & Social Affairs Office, as
+            an official delegate.</p>
+        <br />
+        <strong><i>Municipal Solid Waste</i></strong>
+        <br />
+        <br />
+        <p>
+            At the <a target="_blank" href="https://www.globalmethane.org/news-events/event_detailsByEventId.aspx?eventId=438">
+                March 2014 Tri-Sector Subcommittee Meeting in Brazil</a>, Municipal Solid Waste
+            (MSW) Subcommittee Co-Chair presented the findings of GMI research into the topic
+            of AD for MSW. The subcommittee provided valuable feedback on these findings and
+            offered suggestions of how the information could be enhanced or further developed
+            for future use.</p>
+        <strong><i>Municipal Wastewater</i></strong>
+        <br />
+        <br />
+        <p>
+            During the <a target="_blank" href="https://www.globalmethane.org/news-events/event_detailsByEventId.aspx?eventId=438">
+                March 2014 Tri-Sector Subcommittee Meeting</a>, the Municipal Wastewater Subcommittee
+            continued its focus on developing country-specific wastewater <a target="_blank"
+                href="https://www.globalmethane.org/documents/partners_actionplan_guidance_sectors.pdf">
+                Action Plans</a> (PDF). These documents are useful tools in advancing wastewater
+            project implementation, facilitating investment, and creating appropriate policy
+            frameworks that support methane abatement, recovery, and use in GMI partner countries.
+            Partner countries intend to develop draft Action Plans this year.</p>
+        <p>
+            The subcommittee also recently finalized a sector <a target="_blank" href="https://www.globalmethane.org/documents/ww_fs_eng.pdf">
+                fact sheet</a> (PDF) that describes sources of wastewater methane; opportunities
+            for methane abatement, recovery, and use; case studies in Chile and Brazil; and
+            an overview of the role GMI's Municipal Wastewater Subcommittee plays in reducing
+            wastewater methane emissions.</p>
+        <p>
+            The <a target="_blank" href="https://www.globalmethane.org/partners/countryCommittee.aspx?sector=ww">
+                Municipal Wastewater Subcommittee</a> welcomes Tatsuya Abe of Japan's Ministry
+            of Land, Infrastructure, Transport & Tourism as a delegate.</p>
+        <strong><i>Oil and Gas</i></strong>
+        <br />
+        <br />
+        <p>
+            The Oil & Gas Subcommittee held an in-person meeting on 12 May 2014 in San Antonio,
+            Texas, USA, near the Eagle Ford Shale formation, one of the most actively drilled
+            oil and gas areas in the United States. The meeting was co-located with the <a target="_blank"
+                href="http://epa.gov/outreach/gasstar/workshops/annualimplementation/2013.html">
+                U.S. EPA Natural Gas STAR Annual Implementation Workshop</a>, which took place
+            12 - 14 May 2014. Approximately 26 participants from 9 countries - Canada, Colombia,
+            India, Indonesia, Mexico, Norway, Saudi Arabia, United Kingdom and United States
+            - attended the Oil & Gas Subcommittee meeting. Attendees represented Partner Countries
+            and Project Network members (e.g., oil and natural gas companies, service providers,
+            academia, and non-governmental organizations).</p>
+        <p class="pic-boxes" style="width: 250px; margin-right: 15px; padding: 5px; border: 1px solid #0076bf;
+            float: right;">
+            <em>New Country-Specific Action Plans for Colombia</em><br />
+            <br />
+            Colombia recently submitted new Action Plans for <a target="_blank" href="https://www.globalmethane.org/documents/PASh_V5_Aprobado_508.pdf">
+                Oil & Gas</a> (PDF) and <a target="_blank" href="https://www.globalmethane.org/documents/PASm MINAS_V7_Aprobado_508.pdf">
+                    Coal</a> (PDF), which are now available on the GMI website.
+        </p>
+        <p>
+            A main topic was the Climate and Clean Air Coalition (CCAC) <a target="_blank" href="http://www.unep.org/ccac/Portals/50162/docs/CCAC_OG_partership_fact_sheet_v6opt2.pdf">
+                Oil & Gas Methane Partnership</a> (PDF), which CCAC plans to officially launch
+            soon. Also, during the meeting, participants continued their ongoing discussion
+            on developing Nationally Appropriate Mitigation Actions (NAMAs). Several participants
+            gave presentations on such efforts in their countries. GMI, CCAC, and NAMA development
+            are all inter-related. Lastly, participants finalized the Oil & Gas Statement of
+            Purpose. This document is intended to provide guidance and better articulate subcommittee
+            mission, focus, and roles.</p>
+        <p>
+            The <a target="_blank" href="https://www.globalmethane.org/partners/countryCommittee.aspx?sector=oilngas">
+                Oil & Gas Subcommittee</a> welcomes several new delegates:</p>
+        <ul>
+            <li>Matthieu Craye representing the European Commission</li>
+            <li>Maria Victoria Reyes Mesa and Eduardo José Sánchez-Sierra representing Colombia</li>
+            <li>Leonid Tverdokhlebov representing Russia</li>
+            <li>Hamoud R. Al-Otaibi and Saeed S. Alloush representing Saudi Arabia </li>
+        </ul>
+        
+        <b id="four">GMI Outreach</b><br />
+        <br />
+        <p>
+            <strong><i>Asia</i></strong></p>
+        <p>
+            <i>China, December 2013:</i></p>
+        <ul>
+            <li>Conducted a follow-up mission in Guangzhou, China to assess a series of farm sites
+                for the World Bank-sponsored, GMI-supported Guangdong methane recovery and non-point
+                source pollution control project. </li>
+            <li>Assessed a set of farms for program participation and technical design in the development
+                of covered anaerobic lagoon (CAL) technologies.</li>
+            <li>Met with local firms that provide CAL design and installation services.</li>
+        </ul>
+        <p>
+            <i>China, December 2013:</i></p>
+        <ul>
+            <li>Conducted landfill site visits in the Wuhan and Xiantao Municipalities to access
+                methane capture projects. The China Wuhan Urban Administration Bureau is designing
+                a new collection system for the Chenjiachong Landfill in Wuhan to improve gas flow,
+                and staff discussed supporting the design process and organizing a training seminar
+                to better operate the new collection system. </li>
+            <li>Discussed the status of the landfill gas (LFG) project with the Xiantao City MSW
+                Treatment Co. Ltd. and offered to review the landfill's LFG collection system design.
+            </li>
+        </ul>
+        <p>
+            <i>Indonesia, December 2013:</i></p>
+        <ul>
+            <li>Participated in a meeting with the World Bank and the Indonesian government in Jakarta
+                to initiate joint efforts in the country with GMI and the Climate and Clean Air
+                Coalition (CCAC). In meetings with the World Bank, GMI representatives discussed
+                the <a target="_blank" href="http://www.worldbank.org/projects/P127134/solid-waste-management-improvement-project-regional-metropolitan-cities?lang=en&tab=overview">
+                    World Bank's Solid Waste Management Improvement loan program</a> and findings
+                from feasibility studies in each of the four target cities in Indonesia: Tangerang,
+                Balikpapan, Yogyakarta, and Manado. </li>
+            <li>Met with the Ministry of Public Works as part of its efforts to provide assistance
+                in the development of a Landfill Operations and Maintenance Technical Manual, which
+                will feature information on gas management. </li>
+            <li>Discussed Jakarta's participation in CCAC with representatives from the Jakarta
+                Provincial Government and conducted a landfill site visit in Malang.</li>
+        </ul>
+        <p>
+            <i>Phillipines, December 2013:</i></p>
+        <ul>
+            <li>Conducted a technical support mission in coordination with the Land Bank of the
+                Philippines to assess <a target="_blank" href="http://www.worldbank.org/projects/P115080/philippines-methane-recovery-waste-management-project?lang=en">
+                    methane recovery from waste management systems supported by the World Bank</a>
+                in the livestock and landfill sectors. </li>
+            <li>Conducted farm assessments to evaluate the status of methane recovery installations
+                being supported by the project and met with the Governor's Office of Batangas to
+                discuss the development and implementation of a livestock cooperative informational
+                workshop that would share information about methane recovery technologies.</li>
+        </ul>
+        <p>
+            <i>China and Mongolia, February 2014:</i></p>
+        <ul>
+            <li>Met with officials of the Qianxi Energy Company in Qianxi County, China, to conduct
+                a site visit of the Mopanshan mining property, collect data, and discuss findings
+                of a preliminary geological analysis of the area. </li>
+            <li>Traveled to Ulaanbaatar, Mongolia, to discuss the policy paper, "Legal and Regulatory
+                Status of Coal Mine Methane Ownership in Key Countries" with officials in the Mongolian
+                government, discuss the future of the Naryn Sukhait coal mining property, and meet
+                with Dr. Badarch of the Mongolian Nature and Environment Consortium to finalize
+                the report "Coal Mine Methane Resource Assessment and Emissions Inventory Development
+                in Mongolia."</li>
+        </ul>
+        <p>
+            <i>Indonesia, February 2014:</i></p>
+        <ul>
+            <li>Conducted a Landfill Operations and Landfill Gas Workshop in Malang, Indonesia.
+                The workshop was a joint effort between GMI and CCAC held alongside <a target="_blank"
+                    href="http://waste.ccac-knowledge.net/events/ccac-msw-initiative-workshop-surabaya-indonesia-0">
+                    CCAC's Solid Waste Initiative meeting</a> in Surabaya. The workshop's 63 attendees
+                heard presentations on landfill operations and LFG management and an overview of
+                GMI and solid waste sector activities in Indonesia. Materials from the meeting,
+                including the agenda and presentations, are available at the <a target="_blank" href="https://www.globalmethane.org/activities/actActivityDetailsForLandfill.aspx?myObjId=a07G000000ZblnsIAB&mySiteObjId=a09A0000004vICPIA2">
+                    GMI website</a>.</li>
+        </ul>
+        <p>
+            <i>China, April 2014:</i></p>
+        <ul>
+            <li>Met with representatives of the China Association of Urban Environmental Sanitation
+                (CAUES) and the Ministry of Housing and Urban-Rural Development (MoHURD) in Beijing
+                to discuss opportunities for Chinese candidate cities to participate in the CCAC
+                municipal solid waste (MSW) initiative. </li>
+            <li>Conducted a site visit of the Ninghai North Wastewater Treatment Plant and sludge
+                anaerobic co-digestion unit in Ningbo City, and met with World Bank and Ningbo government
+                representatives to discuss efforts to improve MSW management in the city. </li>
+            <li>The meetings in Beijing and Ningbo focused heavily on anaerobic digestion (AD).
+                In response to the discussions and needs identified during the meetings, GMI and
+                its contractors will develop a slide deck (in English and Chinese) to assist Partners
+                in addressing operational issues at existing AD facilities.</li>
+        </ul>
+        <p>
+            <strong><i>Europe</i></strong></p>
+        <p>
+            <i>Ukraine, December 2013:</i></p>
+        <ul>
+            <li>Attended a GMI seminar entitled "Coal Mine Methane Recovery and Utilization: Moving
+                Forward" in Kyiv and delivered a presentation on the U.S. perspective on CBM and
+                CMM to 70 attendees representing the Ukrainian Ministries of Coal and Energy Efficiency,
+                the Ukrainian parliament, the State Taxation Service, the State Service on Mining
+                Oversight and Industrial Safety, and numerous mines. Selected presentations and
+                the seminar agenda are now available on the <a target="_blank" href="https://www.globalmethane.org/news-events/event_detailsByEventId.aspx?eventId=432">
+                    GMI website</a>.</li>
+        </ul>
+        <p>
+            <i>Italy, January 2014:</i></p>
+        <ul>
+            <li>Attended a meeting of CCAC's Livestock and Manure Management Component of the Agricultural
+                Initiative at the Food and Agriculture Organization of the United Nations headquarters
+                in Rome. </li>
+            <li>Encouraged CCAC activities that would complement GMI's ongoing activities to reduce
+                methane emissions from the livestock manure management sector and on educating the
+                audience about GMI activities in the sector. Meeting materials, including the agenda,
+                meeting summary, and presentations, are <a target="_blank" href="http://www.livestockdialogue.org/focus-areas/waste-to-worth/ccac-fa3-23-24january/en/">
+                    now available</a>.</li>
+        </ul>
+        <p>
+            <i>Ireland, February 2014:</i></p>
+        <ul>
+            <li>Attended <a target="_blank" href="http://www.adeurope2014.eu/">AD Europe 2014: Growing
+                the Industry in the next 5 Years - Energy or Waste Policies?</a> conference in Dublin,
+                Ireland. </li>
+            <li>Presented a summary of GMI's work and case studies of AD projects from GMI member
+                countries, as well as efforts undertaken by the U.S. EPA to mitigate agricultural
+                methane emissions through the use of AD. </li>
+        </ul>
+        <p>
+            <strong><i>Latin America</i></strong></p>
+        <p>
+            <i>Brazil and Chile, December 2013:</i></p>
+        <ul>
+            <li>Met with the State of São Paulo Secretariat of Environment, municipalities, and
+                private waste management companies in the State of Santa Catarina to identify opportunities
+                to support the technical and financial analysis of LFG and organics diversion projects
+                at the municipal level. </li>
+            <li>Met with CCAC partners at COMLURB, Rio de Janeiro's municipal waste management agency,
+                to establish a road map for future efforts to support LFG project opportunity analysis
+                and organics diversion projects. </li>
+        </ul>
+        <p>
+            <i>Mexico, January 2014:</i></p>
+        <p class="pic-boxes" style="height: 100px; width: 160px; margin-left: 50px; margin-right: 15px;
+            padding: 6px; border: 1px solid #0076bf; float: right">
+            <img src="/images/mexico-wastewater-workshop.png" style="width: 155px;" alt="Mexico Wastewater Workshop" />
+            <i class="small">GMI/U.S. EPA visits wastewater treatment plants in the Mexican state of Aguascalientes
+                to assess methane recovery and use opportunities</i>
+        </p>
+        <ul>
+            <li>Met with the Secretary of Environment and Natural Resources - SEMARNAT Climate Change
+                Group, Energy Regulation Commission (CRE), and National Institute of Nuclear Research
+                (INRN) in Mexico City, Mexico. </li>
+            <li>Discussed opportunities to collaborate on possible future LFG and organics diversion
+                projects, as well as to reform the permitting process for LFG energy projects.
+            </li>
+            <li>Agreed to develop a fact sheet for LFG energy projects to provide guidance on future
+                projects to CRE.</li>
+        </ul>
+        <p>
+            <i>Mexico, April 2014:</i></p>
+        <ul>
+            <li>Organized a workshop on Potential Methane Emissions Reductions through Capture and
+                Use of Methane at Municipal Wastewater Treatment Plants in Mexico. This one-day
+                training workshop, held on 29 April 2014 in Mexico City, aimed to increase awareness
+                of the technical and economic aspects of projects associated with reducing methane
+                emissions from the collection and treatment of domestic wastewater in Mexico. The
+                training was tailored to Mexico's municipal wastewater sector, and focused on methane
+                capture and use technologies that are applicable to Mexico. Presenters from Mexico
+                and the United States reported on:
+                <ul>
+                    <li>Mexico's wastewater sector: baseline methane emissions and reduction-potential scenarios;</li>
+                    <li>Current status of wastewater-fed anaerobic digestion in Mexico;</li>
+                    <li>Technical guidance on the capture and use of methane; and</li>
+                    <li>Case studies of existing wastewater treatment plants with methane capture.</li>
+                </ul>
+            </li>
+            <li>The workshop was organized by GMI, and hosted by SEMARNAT (Mexico), with support
+                from U.S. EPA, the United States Agency for International Development (USAID) and
+                the Mexico Low Emissions Development Program (MLED). Find more information at the
+                <a target="_blank" href="https://www.globalmethane.org/news-events/event_detailsByEventId.aspx?eventId=442">
+                    GMI website</a>. </li>
+        </ul>
+        <p>
+            <strong><i>Middle East</i></strong></p>
+        <p class="pic-boxes" style="height: 100px; width: 160px; margin-left: 50px; margin-right: 15px;
+            padding: 6px; border: 1px solid #0076bf; float: right">
+            <img src="/images/KOC-signing-ceremony.png" style="width: 160px;""  alt="Kuwait Oil Company signing ceremony" />
+            <i class="small">Kuwait Oil Company's signing ceremony establishing membership in the Natural Gas
+                STAR International program.</i>
+        </p>
+        <p>
+            <i>Qatar and Kuwait, November 2013:</i></p>
+        <ul>
+            <li>Participated in the <a target="_blank" href="http://www.dcef-qatar.org/">Doha Carbon
+                and Energy Forum</a> in Doha, Qatar and met with government officials to continue
+                dialogue on technology transfer and reducing methane emissions from the Qatari oil
+                and gas industries. </li>
+            <li>Coordinated the signing ceremony in Kuwait City that brought the Kuwait Oil Corporation
+                (KOC) into the <a target="_blank" href="http://epa.gov/gasstar/international/index.html">
+                    Natural Gas STAR International</a> program and welcomed KOC into the GMI Project
+                Network. </li>
+        </ul>
+        
+        <b id="five">News from the Climate and Clean Air Coalition</b><br />
+        <br />
+        <p>
+            The city of Addis Ababa, Ethiopia signed a formal Expression of Interest for participation
+            in the City Assessment & Action Plan pillar of CCAC's Waste Initiative during a
+            <a target="_blank" href="http://www.iswa.org/publications/iswa-newsletters/iswa-global-news-issue-february-2014/">
+                CCAC scoping mission</a>. Representatives from the U.S. EPA, C40 Cities Climate
+            Leadership Group, and the International Solid Waste Association (ISWA) collected
+            information that will be used to develop a baseline scenario for the city and identify
+            priority areas for actions under the initiative.</p>
+        <p>
+            At a two-day meeting of the CCAC Working Group in Paris, France in April 2014, the
+            Coalition agreed to invest a further $10 million on activities to reduce short-lived
+            climate pollutants, ranging from efforts to reduce methane emissions from paddy
+            rice production, to hydrofluorocarbon replacement technology demonstration projects,
+            to the inauguration of a global strategy for ports and maritime vessel and raised
+            clean fuel and vehicle standards in Western and Southern Africa. <a target="_blank"
+                href="http://www.unep.org/ccac/Media/PressReleases/CCACInvestsinNewWorktoReduceSLCPs/tabid/133046/language/en-US/Default.aspx">
+                Read more</a> about CCAC's new initiatives.
+        </p>
+        <p>
+            The CCAC Oil & Gas Methane Partnership launch is anticipated to occur in conjunction
+            with the United Nations Climate Summit on September 23, 2014.</p>
+        
+        <b id="six">Recent Developments and Resources</b><br />
+        <br />
+        <p>
+            <strong><i>Methane Recovery Pre-feasibility Study Completed at Baganuur Mine, Mongolia</i></strong><br />
+            U.S. EPA's Coalbed Methane Outreach Program (CMOP), in support of GMI, has published
+            a completed <a target="_blank" href="http://www.epa.gov/cmop/docs/2013 Coal Mongolia Baganuur PFS.pdf">
+                pre-feasibility study for CMM recovery and utilization</a> (PDF) at Baganuur
+            Mine, Mongolia. The study evaluated on-site use of pre-drained CMM to fuel an internal
+            combustion power generation facility near the mine's surface facilities and determined
+            that the project would generate 40,000 MWh of electricity annually once it reaches
+            peak production, equal to approximately 5 MW of installed combined electrical and
+            thermal generating capacity.</p>
+        <p>
+            <strong><i>China Establishes Regulations Encouraging CBM Projects Across the Country</i></strong><br />
+            China's National Energy Administration (NEA) has published draft "Coalbed Methane
+            Industry Regulations" encouraging all firms to participate in the exploration and
+            utilization of CBM regardless of ownership. The regulations aim to establish two
+            large industrialized CBM production foundations and resolve ownership issues, which
+            hindered production by separating the right to extricate coal from the right to
+            collect CBM. Learn more about these new regulations from the <a target="_blank" href="http://www.ch4.org.cn/en/plus/view.php?aid=101">
+                Guizhou International Cooperation Center for Environmental Protection</a>.
+        </p>
+
+
+			
+			
+		</div>
+	</section>
+	
+	<button onclick="topFunction()" class="btn btn-dark btn-sm" id="btnToTop" title="Go to top"><i class="fa fa-chevron-up" aria-hidden="true"></i> Top</button>
+	
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'en',
+                layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+            }, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+    </script>
+    <script>
+        $('.translateText').click(function () {
+            $("#languageWidget").css("display", "block");
+            $(".hider").slideToggle();
+        });
+    </script>
+
+	
+	<script>
+    //Get the button
+    var mybtnToTop = document.getElementById("btnToTop");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybtnToTop.style.display = "block";
+      } else {
+        mybtnToTop.style.display = "none";
+      }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    </script>
+	
+</body>
+
+</html>

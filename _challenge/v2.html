@@ -1,0 +1,437 @@
+<!DOCTYPE HTML>
+<!--
+	Ethereal by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Ethereal by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<style>
+		#myVideo {
+			position: fixed;
+			right: 0;
+			bottom: 0;
+			min-width: 100%;
+			min-height: 100%;
+		}
+
+		.fa-molecule:before {
+			content: '';
+			/* Remove default icon */
+			display: inline-block;
+			background: url('images/molecule.png') center center no-repeat;
+			background-size: contain;
+			opacity: .7;
+		}
+
+		.fa-fire:before {
+			content: '';
+			/* Remove default icon */
+			display: inline-block;
+			background: url('images/002-oil-platform.png') center center no-repeat;
+			background-size: contain;
+			opacity: .7;
+		}
+
+		.fa-pick:before {
+			content: '';
+			/* Remove default icon */
+			display: inline-block;
+			background: url('images/003-pick.png') center center no-repeat;
+			background-size: contain;
+			opacity: .7;
+		}
+
+		.fa-agriculture:before {
+			content: '';
+			/* Remove default icon */
+			display: inline-block;
+			background: url('images/001-cow.png') center center no-repeat;
+			background-size: contain;
+			opacity: .7;
+		}
+
+		.nav ul {
+			position: fixed;
+			z-index: 300;
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			margin-top: -40px;
+			background: rgba(0, 0, 0, 0.2);
+		}
+
+
+
+		.nav ul:last-child {
+			border-radius: 20px 20px 0px 0px;
+		}
+
+		.nav li {
+			float: left;
+		}
+
+		.nav li a {
+			display: block;
+			color: white;
+			text-align: center;
+			height: 40px;
+			padding-left: 15px;
+			padding-right: 15px;
+			text-decoration: none;
+			border-bottom: 0px;
+			-o-transition: .5s;
+			-ms-transition: .5s;
+			-moz-transition: .5s;
+			-webkit-transition: .5s;
+			transition: .5s;
+		}
+
+		.grid-icons li a span span {
+			-o-transition: .5s;
+			-ms-transition: .5s;
+			-moz-transition: .5s;
+			-webkit-transition: .5s;
+			transition: .5s;
+		}
+
+		.grid-icons li a span:hover {
+
+			-webkit-animation: jello 0.5s;
+			animation: jello 0.5s;
+		}
+
+
+
+		/* Change the link color to #111 (black) on hover */
+
+		.nav li a:hover {
+			background-color: #1a94b8;
+		}
+
+		.nav li a:active {
+			background-color: white;
+			color: black;
+
+		}
+
+		nav {
+			position: fixed;
+			z-index: 500;
+			padding-bottom: 12px;
+			margin-top: -40px;
+
+		}
+
+		nav .line {
+			height: 2px;
+			position: absolute;
+			bottom: 0;
+			margin: 10px 0 0 0;
+			background: white;
+		}
+
+		nav ul {
+			padding: 0;
+			margin: 0;
+			list-style: none;
+			display: flex;
+		}
+
+		nav ul li {
+			margin: 0 40px 0 0;
+			opacity: 0.4;
+			transition: all 0.4s ease;
+		}
+
+		nav ul li:hover {
+			opacity: 0.7;
+		}
+
+		nav ul li.active {
+			opacity: 1;
+			border-bottom: 1px solid white;
+		}
+
+		nav ul li:last-child {
+			margin-right: 0;
+		}
+
+		nav ul li a {
+			text-decoration: none;
+			color: #fff;
+			text-transform: uppercase;
+			display: block;
+			font-weight: 600;
+			letter-spacing: 0.2em;
+			font-size: 14px;
+			border-bottom: 0px !important;
+		}
+
+		nav ul li a:hover {
+
+			color: #000000;
+			-webkit-animation: pulse 0.5s;
+			animation: pulse 0.5s;
+		}
+
+		nav ul li a:active {
+			-webkit-animation: tada 0.5s;
+			animation: tada 0.5s;
+		}
+
+		.whitebg {
+			background: white;
+		}
+
+		.gmilogo {
+			border-bottom: 1px solid #726193;
+		}
+
+		#languageWidget {
+			position: fixed;
+			left: 0;
+			top: 0;
+			z-index: 300;
+			padding: 10px;
+			background: rgba(20, 20, 20, .4);
+			text-align: center;
+		}
+
+		#languageWidget p {
+			margin: 0 !important;
+		}
+
+		#languageWidget p:hover {
+			cursor: pointer;
+		}
+
+		.hider {
+			text-align: center;
+			display: none;
+		}
+
+		.textcolumns {
+			columns: 3;
+		}
+
+		#youtube{
+			width:560px;
+			height:315px;
+		}
+
+		@media only screen and (max-width: 737px) {
+			.textcolumns {
+				columns: 1;
+			}
+			#youtube{
+			width:100%;
+			height:auto;
+			}
+		}
+
+		#watcher {
+			position: absolute;
+			top: 0;
+			left: 6px;
+			background: black;
+			width: 5px;
+			height: 5px;
+			z-index: -5000;
+		}
+
+		a .icon {
+			color: #1aa4b8 !important;
+		}
+	</style>
+	<body class="is-preload">
+		<video autoplay muted loop id="myVideo">
+			<source src="assets/video/methane2.mp4" type="video/mp4"> Your browser does not support HTML5 video.
+		</video>
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Wrapper -->
+					<div id="wrapper">
+
+						<!-- Panel (Banner) -->
+							<section class="panel banner right">
+									<div class="content color0 span-3-75">
+											<h1 class="major">Global
+												<br /> Methane
+												<br /> Challenge
+											</h1>
+											<p>It’s time to take action! Join the Global Methane Challenge and showcase your work to reduce methane emissions.</p>
+											<p>The Global Methane Challenge is open to Global Methane Initiative Partner Countries and Project Network members. Learn
+												more about
+												<a href="https://www.globalmethane.org/participate/index.aspx" target="_blank">how&nbsp;to&nbsp;join&nbsp;GMI</a>.
+											</p>
+											<ul class="actions">
+												<li>
+													<a href="#info" class="button primary color1 circle icon fa-angle-right">Next</a>
+												</li>
+											</ul>
+										</div>
+										<div class="whitebg" data-position="25% 25%">
+											<img class="gmilogo" src="images/pic1alt.jpg" width="100%" alt="" />
+						
+											<table>
+												<tr>
+													<td style="text-align:center;">
+														<ul class="contact-icons color1">
+															<a target="_blank" href="https://twitter.com/globalmethane">
+																<li class="icon fa-twitter" alt="GMI's Twitter Account"></li>
+															</a>
+														</ul>
+													</td>
+													<td style="text-align:center;">
+														<ul class="contact-icons color1">
+															<a target="_blank" href="https://www.facebook.com/globalmethane/">
+																<li class="icon fa-facebook" alt="GMI's Facebook Account"></li>
+															</a>
+														</ul>
+													</td>
+													<td style="text-align:center;">
+														<ul class="contact-icons color1">
+															<a target="_blank" href="https://www.linkedin.com/company/global-methane-initiative-gmi-/">
+																<li class="icon fa-linkedin" alt="GMI's LinkedIn Account">
+																</li>
+															</a>
+														</ul>
+													</td>
+													<td style="text-align:center;">
+														<ul class="contact-icons color1" id="mailLink">
+															<a target="_blank" href="https://www.globalmethane.org/participate/joinmailinglist.aspx">
+																<li alt="sign up for the GMI Mailing List" class="icon fa-envelope"></li>
+															</a>
+														</ul>
+													</td>
+												</tr>
+											</table>
+						
+						
+										</div>
+							</section>
+
+						<!-- Panel (Spotlight) -->
+							<section class="panel color1 right" id="first">
+									<div class="inner columns aligned">
+											<div class="span-2">
+						
+												<h2 class="major">
+													The Challenge
+						
+												</h2>
+												<p>
+													The Global Methane Challenge is your chance to tell the world what you are doing to reduce methane emissions. Whether you
+													are ready to make a new commitment or want to highlight an ongoing effort, we want to showcase it here.
+												</p>
+												<p>
+													The Challenge will culminate in a capstone event in 2020, where we will celebrate the year’s accomplishments.
+												</p>
+						
+											</div>
+											<div class="span-3">
+												<h2 class="major">
+													&nbsp;
+						
+												</h2>
+												<h4>Here are some ideas for how you can participate:</h4>
+												<ul>
+													<li>Monitor methane emissions and create an emissions inventory </li>
+													<li>Develop an action plan for reducing emissions in one or more sectors</li>
+													<li>Provide technical or financial support to a methane mitigation project</li>
+													<li>Educate the public about methane emissions and abatement opportunities </li>
+													<li>Provide information about technologies that can be used to capture and use methane as a clean energy source </li>
+												</ul>
+						
+											</div>
+						
+											<div class="span-3">
+												<h2 class="major">&nbsp;</h2>
+												<iframe width="100%" height="auto" src="https://www.youtube.com/embed/TL2K_Oh4THM" frameborder="0" allow="autoplay; encrypted-media"
+													allowfullscreen></iframe>
+											</div>
+						
+										</div>
+							</section>
+
+
+						<!-- Panel (Spotlight) -->
+							<section class="panel color1 right">
+									<div class="intro color0">
+											<h2 class="major">Tell your story</h2>
+											<p>Get featured in our showcase by reaching out with your story.</p>
+										</div>
+										<div class="inner columns" style="background:rgba(0,0,0,0.8);">
+											<div class="span-5-25">
+												<form method="post" action="#">
+													<div class="fields">
+														<div class="field third">
+															<label for="name">Full Name</label>
+															<input style="background:rgba(255,255,255,0.5);" type="text" name="name" id="name" />
+														</div>
+														<div class="field third">
+															<label for="email">Email Address</label>
+															<input style="background:rgba(255,255,255,0.5);" type="email" name="email" id="email" />
+														</div>
+														<div class="field third">
+															<label for="phone">Phone Number</label>
+															<input style="background:rgba(255,255,255,0.5);" type="text" name="phone" id="phone" />
+														</div>
+														<div class="field half">
+															<label for="name">Organization</label>
+															<input style="background:rgba(255,255,255,0.5);" type="text" name="name" id="name" />
+														</div>
+														<div class="field half">
+															<label for="relationship">GMI Relationship</label>
+															<div class="select-wrapper">
+																<select style="background:rgba(255,255,255,0.5);" name="relationship" id="relationship">
+																	<option value="">-</option>
+																	<option value="1">GMI Partner Country</option>
+																	<option value="2">GMI Project Network Member</option>
+																	<option value="3">Interested in joining the GMI network</option>
+						
+																</select>
+															</div>
+														</div>
+														<div class="field">
+															<label for="message">Our Global Methane Challenge Commitment </label>
+															<textarea style="background:rgba(255,255,255,0.5);" name="message" id="message" rows="3"></textarea>
+														</div>
+													</div>
+													<ul class="actions">
+														<li>
+															<input type="submit" value="Send Message" class="button primary" />
+														</li>
+														<li>Questions? Contact the GMI Administrative Support Group at +1.202.343.9683 or
+															<a href="mailto:asg@globalmethane.org?subject=Global Methane Challenge">asg@globalmethane.org</a>
+														</li>
+													</ul>
+												</form>
+											</div>
+						
+										</div>
+							</section>
+
+
+						
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

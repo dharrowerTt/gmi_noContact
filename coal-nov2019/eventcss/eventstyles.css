@@ -1,0 +1,38 @@
+#eventbanner { 
+	background-image: url("../eventimages/eventimage.jpg");
+	background-color: #CAE1EE; /* Used if the image is unavailable */
+	height: 350px; /* You must set a specified height */
+	background-position: center; /* Center the image */
+	background-repeat: no-repeat; /* Do not repeat the image */
+	background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+#eventlocation {
+	background:#f15c54!important;
+	color:#fff;
+	padding:10px;
+	margin:10px 0px;
+	display:inline-block;
+	float:right;
+	border-radius: 5px;
+}
+
+.nav-item{
+    margin-right:7px;
+}
+
+.unecelogo{
+    width:30%;
+    float:right;
+}
+
+.btn-coal {
+    color: #fff;
+    background-color: #f15c54!important;
+    border: 1px solid #481b19!important;
+}
+
+.btn-coal:hover {
+    background-color: #481b19!important;
+    border: 1px solid #481b19!important;
+}

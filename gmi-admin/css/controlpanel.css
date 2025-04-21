@@ -1,0 +1,23 @@
+﻿.nav-item{
+    margin-right:20px;
+}
+
+.jumbotron {
+  background-image: url("../img/bg.jpg");
+  background-size: cover;
+}
+
+.navbar{
+    background:#242424;
+    border-bottom:2px solid #101010;
+}
+
+.logout{
+    background: #eb4d4b;
+    border:1px solid #c0392b;
+}
+
+.logout:hover{
+    background: #c0392b;
+    border:1px solid #ff7979;
+}

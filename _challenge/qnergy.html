@@ -1,0 +1,233 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/dd7fc261ae.js"></script>
+    <style>
+        body {
+            background: #1695be;
+        }
+
+        .tooltip:hover span {
+            opacity: 1;
+            filter: alpha(opacity=100);
+            top: -6em;
+            left: 20em;
+            z-index: 99;
+            -webkit-transition: all 0.2s ease;
+            -moz-transition: all 0.2s ease;
+            -o-transition: all 0.2s ease;
+            transition: all 0.2s ease;
+        }
+
+        .homearea {
+            position: fixed;
+            bottom: 10px;
+            left: 10px;
+        }
+
+        .homearea:hover {
+            cursor: pointer;
+        }
+
+        .box b {
+            color: #fff;
+        }
+
+        .tooltip span {
+            background: none repeat scroll 0 0 #222;
+            /*-- some basic styling */
+            color: #F0B015;
+            font-family: 'Helvetica';
+            font-size: 0.8em;
+            font-weight: normal;
+            line-height: 1.5em;
+            padding: 16px 15px;
+            width: 240px;
+            top: -4em;
+            /*-- this is the original position of the tooltip when it's hidden */
+            left: 20em;
+            margin-left: 0;
+            /*-- set opacity to 0 otherwise our animations won't work */
+            opacity: 0;
+            filter: alpha(opacity=0);
+            position: absolute;
+            text-align: center;
+            z-index: 2;
+            text-transform: none;
+            -webkit-transition: all 0.3s ease;
+            -moz-transition: all 0.3s ease-in-out;
+            -o-transition: all 0.3s ease;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .tooltip span:after {
+            border-color: #222 rgba(0, 0, 0, 0);
+            border-style: solid;
+            border-width: 15px 15px 0;
+            bottom: -15px;
+            content: "";
+            display: block;
+            left: 31px;
+            position: absolute;
+            width: 0;
+        }
+
+        .callout {
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-top: 10px;
+            background: #f3d5b3;
+            border-radius: 4px;
+
+            width: 100%;
+            margin-bottom: 15px;
+
+        }
+
+
+        .imgtbl {
+            width: 100%;
+            background: #CAEBF2;
+            margin-bottom: 15px;
+        }
+
+        .imgtbl img {
+            padding: 10px;
+            width: 100%;
+        }
+
+        .subtitle td {
+            font-size: 10px;
+            text-align: center;
+
+        }
+
+        .richard {
+            height: 250px;
+            Width: 100%;
+        }
+
+        .imgtbl td {
+            width: 50%;
+            text-align: center;
+            font-size: 9px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="homearea">
+        <a class="btn btn-danger" href="http://staging.globalmethane.org/challenge/index.aspx#actionmap">
+            <i class="fa fa-arrow-left fa-lg"></i> Back to the map
+        </a>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-0 col-md-2"></div>
+            <div class="col-sm-12 col-md-8" style="background:white;">
+                <img src="images/qnergy/usa_qnergy.png" style="width:100%" />
+                <h2>
+                    Qnergy: Reducing Methane Emissions with Instrument Air&nbsp;
+                    <!--<a class="btn btn-primary" href="pdf/SourceFacility_Biocity_Profile.pdf"
+                        aria-label="Download the PDF">
+                        <i class="fa fa-download" aria-hidden="true"></i>
+                    </a>-->
+                </h2>
+
+                <p>
+                    <a href="https://www.qnergy.com/" target="_blank"><img
+                            style="width:20%;margin-bottom: 30px; margin-left: 15px; margin-right: 10px; float: right;"
+                            src="images/qnergy/qnergy_logo.png">
+                    </a>
+                    <a href="https://www.qnergy.com/" target="_blank">Qnergy</a>
+                    is partnering with leading natural gas producers in North America to reduce the amount of methane
+                    emitted from bleeding (leaking) pneumatic devices, such as controllers and chemical pumps. Many of
+                    the devices are powered by compressed natural gas, which emits methane, because they are off-grid or
+                    connected to a weak or intermittent power grid. Qnergy’s <a href="https://www.qnergy.com/"
+                        target="_blank">PowerGen technology</a> provides reliable
+                    electrical power to remote locations, allowing the devices to be powered by instrument air (clean
+                    supply of compressed air) rather than compressed natural gas, which prevents methane leaks.
+                </p>
+                <h3>Qnergy’s PowerGen Series</h3>
+                <p>
+                    The <a href="https://www.qnergy.com/wp-content/uploads/2019/03/PowerGen-Remote-Power-Series.pdf"
+                        target="_blank">PowerGen remote power generator</a> uses a Free-Piston Stirling Engine (FPSE) to
+                    provide a reliable, low-maintenance electrical power supply, even in extreme temperatures and harsh
+                    environments. The system works with a variety of fuel supplies, including natural gas, propane,
+                    ethane, biogas, and multiple associated gas streams.
+                </p>
+
+
+                <p style="text-align: center;">
+                    <img style="width:45%;" src="images/qnergy/powergen.png">
+                    <br> <i> Qnergy’s PowerGen remote power generator </i>
+
+
+                    <div class="callout" style=float:right;width:40%;margin-left:20px;text-align:center;>
+                        Click <a href="images/qnergy/Remote_Power_ICCP_PowerGen5650.pdf" target="_blank">here</a> to
+                        learn about how Qnergy supplies remote power to their Multiple ICCP Rectifier Location.
+                    </div>
+                </p>
+                <p>
+                    Since summer 2019, Qnergy has deployed 10 compressed air systems, powered by PowerGen remote power
+                    generators, that abate methane emissions. Each installed unit is expected to reduce approximately
+                    450 tons of carbon dioxide equivalent per year. Qnergy is also continuing to develop
+                    additional systems.
+
+
+
+   
+                </p>
+
+
+
+                <br>
+                <div style="text-align: center;">
+                    <h3>The Engine that Needs No Maintenance Fights Climate Change</h3>
+                    <br>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/31XCqzj6994" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+                <hr>
+                <!--     <a href="pdf/SourceFacility_Biocity_Profile.pdf" class="btn btn-primary btn-block">Download The
+                        PDF</a>
+                    <hr>-->
+            </div>
+            <div class="col-sm-0 col-md-2"></div>
+        </div>
+    </div>
+    <script>
+        $(document).ready(function () {
+            $('[data-toggle="popover"]').popover({
+                container: '.container'
+            });
+
+            $('body').on('click', function (e) {
+                $('[data-toggle=popover]').each(function () {
+                    // hide any open popovers when the anywhere else in the body is clicked
+                    if (!$(this).is(e.target) && $(this).has(e.target).length === 0 && $(
+                            '.popover').has(e.target).length === 0) {
+                        $(this).popover('hide');
+                    }
+                });
+            });
+
+        });
+    </script>
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+</body>
+
+</html>

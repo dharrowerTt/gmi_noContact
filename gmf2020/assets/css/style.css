@@ -1,0 +1,242 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600i,800&display=swap");
+html, body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  color: #242424;
+}
+
+html {
+  background-color: #fafafa;
+  background-image: url("../img/bg.png"), url(../img/2020.png);
+  background-attachment: fixed;
+  background-size: cover,contain;
+  background-position: center,bottom;
+  background-repeat: no-repeat,no-repeat;
+  height: 100%;
+}
+
+.container {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.logo {
+  margin-top: 5rem;
+  max-width: 30%;
+  opacity: .98;
+}
+
+h1 {
+  margin-top: 80px;
+  opacity: .98;
+  font-size: 3.5rem;
+  margin-bottom: 0;
+}
+
+h3 {
+  margin-top: 0;
+}
+
+input, button {
+  padding: .8rem;
+  font-size: 1.2rem;
+}
+
+button {
+  background-color: #0d5d84;
+  border: 1px solid #f2f2f2;
+  color: #f2f2f2;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+hr {
+  margin-top: 2rem;
+  opacity: .6;
+  border: 1px solid #f2f2f2;
+  width: 80%;
+}
+
+#logo {
+  max-width: 600px;
+}
+
+.fab {
+  margin: .5rem;
+  opacity: .6;
+  -webkit-transition: .2s;
+  /* For Safari 3.1 to 6.0 */
+  transition: .2s;
+}
+
+.fab:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 850px) {
+  #logo {
+    margin-top: 1rem;
+    max-width: 80%;
+  }
+}
+
+@media only screen and (min-width: 850px) {
+  h1 {
+    font-size: 4rem;
+  }
+  h2 {
+    font-size: 2.5rem;
+  }
+}
+
+.grid-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+      grid-template-areas: ". navigation navigation navigation ." ". logo details details ." ". logo sponsors sponsors ." ". logo alerts alerts ." ". content content content ." ". footer footer footer .";
+}
+
+.navigation {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 3;
+  grid-area: navigation;
+}
+
+.footer {
+  -ms-grid-row: 6;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 3;
+  grid-area: footer;
+}
+
+.logo {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 3;
+  -ms-grid-column: 2;
+  grid-area: logo;
+}
+
+.details {
+  -ms-grid-row: 2;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 2;
+  grid-area: details;
+}
+
+.sponsors {
+  -ms-grid-row: 3;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 2;
+  grid-area: sponsors;
+}
+
+.alerts {
+  -ms-grid-row: 4;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 2;
+  grid-area: alerts;
+}
+
+.content {
+  -ms-grid-row: 5;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 3;
+  grid-area: content;
+}
+
+@media all and (-ms-high-contrast: none) {
+  .grid-container {
+    display: -ms-grid;
+    -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr;
+    -ms-grid-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+  .navigation {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 3;
+  }
+  .footer {
+    -ms-grid-row: 6;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 3;
+  }
+  .logo {
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+  }
+  .details {
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 2;
+  }
+  .sponsors {
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 2;
+  }
+  .alerts {
+    -ms-grid-row: 4;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 2;
+  }
+  .content {
+    -ms-grid-row: 5;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 3;
+  }
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  /* Set the navbar to fixed position */
+  top: 0;
+  /* Position the navbar at the top of the page */
+  width: 100%;
+  /* Full width */
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+.button {
+  background-color: #0d5d84;
+  border: 1px solid #f2f2f2;
+  color: #f2f2f2;
+}
+
+.smLink {
+  color: black;
+}
+/*# sourceMappingURL=style.css.map */
