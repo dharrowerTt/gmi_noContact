@@ -31,6 +31,14 @@
             <asp:Label ID="lblTopErrorMsg" runat="server" Height="8px" Visible="False"  ForeColor="Red">Some of the information entered was not quite right. Please take a look below at the required fields.</asp:Label>
 		</div>
 	</section>
+        <section class="py-5 bg-white">
+    <div class="container">
+        <h2>Recommend a Resource</h2>
+        <p>The submission form for recommending resources is temporarily unavailable while the Global Methane Initiative updates its review process.</p>
+        <p>Please check back soon or contact the GMI Secretariat at <a href="mailto:secretariat@globalmethane.org">secretariat@globalmethane.org</a>.</p>
+    </div>
+</section>
+        <!--
 	<section class="py-5 bg-white">
 		<div class="container">
 			<h2>Your Information:</h2>
@@ -104,6 +112,7 @@
 			<asp:Label ID="lblMemo" runat="server" ForeColor="Red" BackColor="White" Visible="False" Height="8px" Width="380px"></asp:Label>
 		</div>
 	</section>
+            -->
         </form>
  
 	

@@ -15,11 +15,12 @@
 <section class="py-5 gmi-light-blue">
         <div class="container">
 			<h1>Contact Us</h1>
-            <p>Use the form below to submit questions or comments about the Initiative.</p>
+            <p>This contact form has been temporarily disabled. Updated contact details will be provided soon. Thank you for your interest in the Global Methane Initiative.</p>
             
 
 		</div>
 	</section>
+        <!--
 	<section class="py-5 bg-white">
 		<div class="container">
             <asp:Label ID="lblTopErrorMsg" runat="server" ForeColor="Red" BackColor="White" Visible="False" Height="8px" Width="280px">* Required</asp:Label>
@@ -126,7 +127,7 @@
                     </p>
 			
 		</div>
-	</section>
+	</section> -->
 
                    
 <br>

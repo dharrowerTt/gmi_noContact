@@ -20,12 +20,8 @@
                         </div>
                         <div class="col-sm-8">
                             <h1>Join GMI's Project Network</h1>
-                            <p>
-                                Use the form below to apply for membership to the Project Network. If you need assistance using the online form, please contact the GMI
-                        Secretariat by email at<a href="mailto:secretariat@globalmethane.org&subject=Join the GMI Project Network">secretariat@globalmethane.org</a>.
-                            </p>
-                            <p>After the GMI Secretariat reviews your completed form, you’ll receive an email that confirms your status as a new Project Network member. The email will include a link and instructions for creating a secure Project Network account. Through the account, you can maintain and expand your organization’s profile to include details about specific sector expertise, geographic reach, years of experience, and highlights of your efforts to mitigate methane. The data you provide in your organization’s profile will be available on the Find an Expert webpage.  </p>
-                            </p>
+                           <p>This form has been temporarily disabled while GMI updates its contact procedures. If you wish to express interest in joining, please check back soon or email the Secretariat at <a href="mailto:secretariat@globalmethane.org">secretariat@globalmethane.org</a>.</p>
+    
 						<p><span class="required">*</span> Indicates a required field</p>
                             <div id="cookiealert"></div>
                             <asp:Literal ID="diverror" runat="server"></asp:Literal>
@@ -36,7 +32,7 @@
                 </div>
             </section>
 
-
+         <!--
 
             <section class="py-5 bg-white">
                 <div class="container">
@@ -124,29 +120,14 @@
                                 <asp:Label ID="lblErrorTelephone" runat="server" Style="width: 150px; height: 8px;" Visible="False" ForeColor="Red">* Required</asp:Label>
                             </div>
                         </div>
-                        <!--	<div class="col-sm-4 vertSplitter">
-                                <div class="form-group">
-                                    <label for="cellphone">
-                                        Cell Phone:
-                                    </label>
-                                    <asp:TextBox ID="cellphone" runat="server" MaxLength="20" CssClass="textfield" style="width: 100%;">
-                            </asp:TextBox>
-                                </div>
-							</div>
-							<div class="col-sm-4 vertSplitter">
-                                <div class="form-group">
-                                    <label for="fax">
-                                        Fax:</label>
-                                   <asp:TextBox ID="fax" runat="server" MaxLength="20" CssClass="textfield" style="width: 100%;">
-                            </asp:TextBox>
-                                </p>
-								</div>
-						</div>
-                            -->
+
                     </div>
 
                 </div>
             </section>
+      -->
+
+    <!--
 
             <section class="py-5">
                 <div class="container">
